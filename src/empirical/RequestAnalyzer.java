@@ -54,7 +54,7 @@ public class RequestAnalyzer {
 		Options.v().set_src_prec(Options.src_prec_apk);
 		// output as APK, too//-f J
 		Options.v().set_output_format(Options.output_format_dex);
-		Options.v().set_output_dir(appFolder + "/NewApp");
+		Options.v().set_output_dir(appFolder + "/NewApp"); //folder that contains the new apk (your output)
 		Options.v().set_android_jars(androidJar);
 		Options.v().set_whole_program(true);
 		Options.v().set_verbose(false);
@@ -90,8 +90,11 @@ public class RequestAnalyzer {
 					protected void internalTransform(final Body body,
 							String phaseName,
 							@SuppressWarnings("rawtypes") Map options) {
+						
 							printURLConnectionInfoOnSig(body, InstrumentationHelper.getInputStreamOriginal);
-						body.validate();
+							body.validate();
+					
+					
 					}
 
 				}));
