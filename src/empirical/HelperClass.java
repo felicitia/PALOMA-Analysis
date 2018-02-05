@@ -14,4 +14,6 @@ public class HelperClass {
         System.out.println(reqID++ + "," + body + "," + stmt + "," + urlString + "," + isDoOutput);
     }
 
+    
+    
 }
