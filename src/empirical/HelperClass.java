@@ -33,4 +33,12 @@ public class HelperClass {
     	String data = conn.getHeaderField(field);
     	return (data != null) ? data : "Not found";
     }
+    
+	public static long getTimeStamp(){
+		return System.currentTimeMillis();
+	}
+	
+	public static void printTimeDiff(String body, String sig, long timeDiff){
+		System.out.println("body:"+body+"\tsig:"+sig+"\ttimediff:"+timeDiff);
+	}
 }

@@ -91,9 +91,11 @@ public class RequestAnalyzer {
 							String phaseName,
 							@SuppressWarnings("rawtypes") Map options) {
 						
+							//print URL info needed
 							printURLConnectionInfoOnSig(body, InstrumentationHelper.getInputStreamOriginal);
+							//print time difference of getInputStream() method
+							instrumentTimestampOnSig(body, InstrumentationHelper.getInputStreamOriginal);
 							body.validate();
-					
 					
 					}
 
@@ -155,6 +157,60 @@ public class RequestAnalyzer {
 				LongType.v());
 		body.getLocals().add(tmpLong);
 		return tmpLong;
+	}
+	
+	/**
+	 *  instrument timestamps before "sig" and after "sig"and call printTimeDiff
+	 * @param body
+	 * @param sig
+	 */
+	private static void instrumentTimestampOnSig(Body body, String sig) {
+		final PatchingChain<Unit> units = body.getUnits();
+		for (Iterator<Unit> iter = units.snapshotIterator(); iter.hasNext();) {
+			final Stmt stmt = (Stmt) iter.next();
+			if (stmt.containsInvokeExpr()) {
+				// System.out.println("invoke stmt = "+stmt);
+				InvokeExpr invoke = stmt.getInvokeExpr();
+				// if (invoke.getMethod().getSignature().equals(sig))
+				if ((invoke.getMethod().getSignature().equals(sig)) ){
+//					timestampCounter++;
+
+					// SootMethod printTimeStamp = ProxyHelper
+					// .findMethod(ProxyHelper.printTimeStamp);
+					SootMethod getTimeStamp = InstrumentationHelper
+							.findMethod(InstrumentationHelper.getTimeStamp);
+					SootMethod printTimeDiff = InstrumentationHelper
+							.findMethod(InstrumentationHelper.printeTimeDiff);
+
+					Stmt getTimeStampInvoke = Jimple.v().newInvokeStmt(
+							Jimple.v().newStaticInvokeExpr(
+									getTimeStamp.makeRef()));
+					Local timeStamp1 = addTmpLong2Local(body);
+					Stmt assignTimeStampBefore = Jimple.v().newAssignStmt(
+							timeStamp1, getTimeStampInvoke.getInvokeExpr());
+					Local timeStamp2 = addTmpLong2Local(body);
+					Stmt assignTimeStampAfter = Jimple.v().newAssignStmt(
+							timeStamp2, getTimeStampInvoke.getInvokeExpr());
+					Local timeDiff = addTmpLong2Local(body);
+					Stmt assignTimeDiff = Jimple.v().newAssignStmt(timeDiff,
+							Jimple.v().newSubExpr(timeStamp2, timeStamp1));
+
+					LinkedList<Value> arglist = new LinkedList<Value>();
+					arglist.add(StringConstant.v(body.getMethod()
+							.getSignature()));
+					arglist.add(StringConstant.v(stmt.toString()));
+					arglist.add(timeDiff);
+					Stmt printTimeDiffInvoke = Jimple.v().newInvokeStmt(
+							Jimple.v().newStaticInvokeExpr(
+									printTimeDiff.makeRef(), arglist));
+
+					units.insertBefore(assignTimeStampBefore, stmt);
+					units.insertAfter(printTimeDiffInvoke, stmt);
+					units.insertAfter(assignTimeDiff, stmt);
+					units.insertAfter(assignTimeStampAfter, stmt);
+				}
+			}
+		}
 	}
 
 }

@@ -23,6 +23,8 @@ public class InstrumentationHelper {
 	
 	//	HelperClass Signatures
 	final static String printURLInfo = "void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)";
+	final static String printeTimeDiff = "void printTimeDiff(java.lang.String,java.lang.String,long)";
+	final static String getTimeStamp = "long getTimeStamp()";
 	
 	/**
 	 * if the body is known, then query "instrumentMap"
