@@ -93,8 +93,11 @@ public class RequestAnalyzer {
 						
 							//print URL info needed
 							printURLConnectionInfoOnSig(body, InstrumentationHelper.getInputStreamOriginal);
+							printURLConnectionInfoOnSig(body, InstrumentationHelper.getHttpInputStreamOriginal);
 							//print time difference of getInputStream() method
 							instrumentTimestampOnSig(body, InstrumentationHelper.getInputStreamOriginal);
+							//print okhttp3 request info
+							instrumentOkHttpCall(body, InstrumentationHelper.okHttpBuildRequest);
 							body.validate();
 					
 					}
@@ -105,6 +108,61 @@ public class RequestAnalyzer {
 		soot.Main.main(sootArgs);
 	}
 
+//	private static void instrumentVolleyCall(Body body, String sig) {
+//		final PatchingChain<Unit> units = body.getUnits();
+//		for (Iterator<Unit> iter = units.snapshotIterator(); iter.hasNext();) {
+//			final Stmt stmt = (Stmt) iter.next();
+//			if (stmt.containsInvokeExpr()) {
+//				InvokeExpr invoke = stmt.getInvokeExpr();
+//				if (invoke.getMethod().getSignature().equals(sig)) {
+//
+//				}
+//			}
+//		}
+//		
+//		
+//	}
+	
+	/**
+	 * instruments info print out after okhttp3 request is made
+	 * @param body
+	 * @param sig
+	 */
+	private static void instrumentOkHttpCall(Body body, String sig) {
+		final PatchingChain<Unit> units = body.getUnits();
+		for (Iterator<Unit> iter = units.snapshotIterator(); iter.hasNext();) {
+			final Stmt stmt = (Stmt) iter.next();
+			if (stmt.containsInvokeExpr()) {
+				InvokeExpr invoke = stmt.getInvokeExpr();
+				if (stmt.toString().contains("volley"))
+					System.out.println("invoke stmt = "+stmt);
+				if (stmt.toString().contains("retrofit"))
+					System.out.println("invoke stmt = "+stmt);
+				if (invoke.getMethod().getSignature().equals(sig)) {
+					SootMethod printOkHttpRequest = InstrumentationHelper
+							.findMethod(InstrumentationHelper.printOkHttpInfo);
+					
+					// add arguments to stmt
+					LinkedList<Value> arglist = new LinkedList<Value>();
+					
+					arglist.add(StringConstant.v(body.getMethod()
+							.getSignature()));
+					arglist.add(StringConstant.v(stmt.toString()));
+					
+					arglist.add(invoke.getUseBoxes().get(0).getValue());
+					
+					Stmt printURLInvoke = Jimple.v().newInvokeStmt(
+							Jimple.v().newStaticInvokeExpr(
+									printOkHttpRequest.makeRef(), arglist));
+
+					units.insertAfter(printURLInvoke, stmt);					
+				}
+				
+
+			}
+		}	
+	}
+	
 	private static void printURLConnectionInfoOnSig(Body body, String sig) {
 		final PatchingChain<Unit> units = body.getUnits();
 		for (Iterator<Unit> iter = units.snapshotIterator(); iter.hasNext();) {
@@ -137,7 +195,7 @@ public class RequestAnalyzer {
 			}
 		}
 	}
-
+	
 	private static Local addTmpString2Local(Body body) {
 		Local tmpString = Jimple.v().newLocal("tmpString" + (tmpCount++),
 				RefType.v("java.lang.String"));

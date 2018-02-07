@@ -4,6 +4,7 @@ package empirical;
 import java.util.HashMap;
 import java.util.HashSet;
 
+import okhttp3.Request;
 import soot.Scene;
 import soot.SootClass;
 import soot.SootMethod;
@@ -19,12 +20,16 @@ public class InstrumentationHelper {
 	final static String HelperClass = "empirical.HelperClass";
 
 	final static String getInputStreamOriginal = "<java.net.URLConnection: java.io.InputStream getInputStream()>";
+	final static String getHttpInputStreamOriginal = "<java.net.HttpURLConnection: java.io.InputStream getInputStream()>";	
 	final static String newURLOriginal = "<java.net.URL: void <init>(java.lang.String)>";
-	
+	final static String okHttpBuildRequest = "<okhttp3.Request$Builder: okhttp3.Request build()>";
+	final static String volleyAddRequest = "<com.android.volley.RequestQueue: com.android.volley.Request add(com.android.volley.Request)>";
 	//	HelperClass Signatures
 	final static String printURLInfo = "void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)";
 	final static String printeTimeDiff = "void printTimeDiff(java.lang.String,java.lang.String,long)";
 	final static String getTimeStamp = "long getTimeStamp()";
+	final static String printOkHttpInfo = "void printOkHttpInfo(java.lang.String,java.lang.String,okhttp3.Request$Builder)";
+	final static String volleyHttpInfo = "void printVolleyInfo(java.lang.String, java.lang.String, com.android.volley.Request)";
 	
 	/**
 	 * if the body is known, then query "instrumentMap"
@@ -69,6 +74,7 @@ public class InstrumentationHelper {
 
 	public static SootMethod findMethod(String methodName) {
 		SootClass ProxyClass = Scene.v().loadClassAndSupport(InstrumentationHelper.HelperClass);
+		ProxyClass.getMethods().stream().forEach(e -> System.out.println(e.getSignature()));
 		SootMethod helpMethod = ProxyClass.getMethod(methodName);
 		System.out.println("===========helpMethod = "
 				+ helpMethod.getSignature());

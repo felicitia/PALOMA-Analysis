@@ -19,7 +19,7 @@ public class HelperClass {
     	String age = getHeaderField(urlConnection, "Age");
     	String setCookie = getHeaderField(urlConnection, "Cache-Control");
     	
-    	System.out.println(reqID++ + ";" + body + ";" + stmt + ";" 
+    	System.out.println("URLConn;" + reqID++ + ";" + body + ";" + stmt + ";" 
     			+ urlString + ";" 
     			+ isDoOutput + ";"
     			+ length + ";"
@@ -28,7 +28,17 @@ public class HelperClass {
     			+ age + ";"
     			+ setCookie);
     }
-
+    
+    public static void printVolleyInfo(String body, String stmt, com.android.volley.Request req) {
+    	
+    }
+    
+    public static void printOkHttpInfo(String body, String stmt, okhttp3.Request.Builder req){
+    	String urlString = req.build().url().toString();
+    	System.out.println("OkHttp;" + reqID++ + ";" + body + ";" + stmt + ";"
+    			+ urlString);
+    }
+    
     private static String getHeaderField(URLConnection conn, String field) {
     	String data = conn.getHeaderField(field);
     	return (data != null) ? data : "Not found";
