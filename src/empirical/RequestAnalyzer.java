@@ -54,7 +54,9 @@ public class RequestAnalyzer {
 		Options.v().set_src_prec(Options.src_prec_apk);
 		// output as APK, too//-f J
 		Options.v().set_output_format(Options.output_format_dex);
-		Options.v().set_output_dir(appFolder + "/NewApp"); //folder that contains the new apk (your output)
+		Options.v().set_output_dir(appFolder + "/NewApp"); // folder that
+															// contains the new
+															// apk (your output)
 		Options.v().set_android_jars(androidJar);
 		Options.v().set_whole_program(true);
 		Options.v().set_verbose(false);
@@ -83,6 +85,12 @@ public class RequestAnalyzer {
 				InstrumentationHelper.HelperClass);
 		scc.setApplicationClass();
 
+//		for (SootClass sc : Scene.v().getClasses()) {
+//			if (sc.getName().startsWith("android.support")) {
+//				sc.setLibraryClass();
+//			}
+//		}
+
 		PackManager.v().getPack("jtp")
 				.add(new Transform("jtp.myInstrumenter", new BodyTransformer() {
 
@@ -90,16 +98,22 @@ public class RequestAnalyzer {
 					protected void internalTransform(final Body body,
 							String phaseName,
 							@SuppressWarnings("rawtypes") Map options) {
-						
-							//print URL info needed
-							printURLConnectionInfoOnSig(body, InstrumentationHelper.getInputStreamOriginal);
-							printURLConnectionInfoOnSig(body, InstrumentationHelper.getHttpInputStreamOriginal);
-							//print time difference of getInputStream() method
-							instrumentTimestampOnSig(body, InstrumentationHelper.getInputStreamOriginal);
-							//print okhttp3 request info
-							instrumentOkHttpCall(body, InstrumentationHelper.okHttpBuildRequest);
-							body.validate();
-					
+
+//						 print URL info needed
+						 printURLConnectionInfoOnSig(body,
+						 InstrumentationHelper.getInputStreamOriginal);
+						 instrumentURL(body, InstrumentationHelper.newURLOriginal);
+						 printURLConnectionInfoOnSig(body,
+						 InstrumentationHelper.getHttpInputStreamOriginal);
+//						 print time difference of getInputStream() method
+						 instrumentTimestampOnSig(body,
+						 InstrumentationHelper.getInputStreamOriginal);
+						// print okhttp3 request info
+						 instrumentOkHttpCall(body,
+						 InstrumentationHelper.okHttpBuildRequest);
+						printOkHttpSigs(body);
+						body.validate();
+
 					}
 
 				}));
@@ -108,23 +122,43 @@ public class RequestAnalyzer {
 		soot.Main.main(sootArgs);
 	}
 
-//	private static void instrumentVolleyCall(Body body, String sig) {
-//		final PatchingChain<Unit> units = body.getUnits();
-//		for (Iterator<Unit> iter = units.snapshotIterator(); iter.hasNext();) {
-//			final Stmt stmt = (Stmt) iter.next();
-//			if (stmt.containsInvokeExpr()) {
-//				InvokeExpr invoke = stmt.getInvokeExpr();
-//				if (invoke.getMethod().getSignature().equals(sig)) {
-//
-//				}
-//			}
-//		}
-//		
-//		
-//	}
-	
+	// private static void instrumentVolleyCall(Body body, String sig) {
+	// final PatchingChain<Unit> units = body.getUnits();
+	// for (Iterator<Unit> iter = units.snapshotIterator(); iter.hasNext();) {
+	// final Stmt stmt = (Stmt) iter.next();
+	// if (stmt.containsInvokeExpr()) {
+	// InvokeExpr invoke = stmt.getInvokeExpr();
+	// if (invoke.getMethod().getSignature().equals(sig)) {
+	//
+	// }
+	// }
+	// }
+	//
+	//
+	// }
+
+	private static void printOkHttpSigs(Body body) {
+		final PatchingChain<Unit> units = body.getUnits();
+		for (Iterator<Unit> iter = units.snapshotIterator(); iter.hasNext();) {
+			final Stmt stmt = (Stmt) iter.next();
+			if (stmt.containsInvokeExpr()) {
+				// System.out.println("invoke stmt = "+stmt);
+				InvokeExpr invoke = stmt.getInvokeExpr();
+				// if (invoke.getMethod().getSignature().equals(sig))
+				if ((invoke.getMethod().getSignature().contains("OkHttp")
+						|| invoke.getMethod().getSignature().contains("URL") || invoke
+						.getMethod().getSignature().contains("Request"))) {
+					System.out.println("method: " + body.getMethod().getName());
+					System.out.println("stmt: " + stmt);
+					System.out.println();
+				}
+			}
+		}
+	}
+
 	/**
 	 * instruments info print out after okhttp3 request is made
+	 * 
 	 * @param body
 	 * @param sig
 	 */
@@ -135,34 +169,33 @@ public class RequestAnalyzer {
 			if (stmt.containsInvokeExpr()) {
 				InvokeExpr invoke = stmt.getInvokeExpr();
 				if (stmt.toString().contains("volley"))
-					System.out.println("invoke stmt = "+stmt);
+					System.out.println("invoke stmt = " + stmt);
 				if (stmt.toString().contains("retrofit"))
-					System.out.println("invoke stmt = "+stmt);
+					System.out.println("invoke stmt = " + stmt);
 				if (invoke.getMethod().getSignature().equals(sig)) {
 					SootMethod printOkHttpRequest = InstrumentationHelper
 							.findMethod(InstrumentationHelper.printOkHttpInfo);
-					
+
 					// add arguments to stmt
 					LinkedList<Value> arglist = new LinkedList<Value>();
-					
+
 					arglist.add(StringConstant.v(body.getMethod()
 							.getSignature()));
 					arglist.add(StringConstant.v(stmt.toString()));
-					
+
 					arglist.add(invoke.getUseBoxes().get(0).getValue());
-					
+
 					Stmt printURLInvoke = Jimple.v().newInvokeStmt(
 							Jimple.v().newStaticInvokeExpr(
 									printOkHttpRequest.makeRef(), arglist));
 
-					units.insertAfter(printURLInvoke, stmt);					
+					units.insertAfter(printURLInvoke, stmt);
 				}
-				
 
 			}
-		}	
+		}
 	}
-	
+
 	private static void printURLConnectionInfoOnSig(Body body, String sig) {
 		final PatchingChain<Unit> units = body.getUnits();
 		for (Iterator<Unit> iter = units.snapshotIterator(); iter.hasNext();) {
@@ -172,19 +205,19 @@ public class RequestAnalyzer {
 				InvokeExpr invoke = stmt.getInvokeExpr();
 				// if (invoke.getMethod().getSignature().equals(sig))
 				if ((invoke.getMethod().getSignature().equals(sig))) {
-					
+
 					SootMethod printURLConnectionInfo = InstrumentationHelper
 							.findMethod(InstrumentationHelper.printURLInfo);
-					
+
 					// add arguments to stmt
 					LinkedList<Value> arglist = new LinkedList<Value>();
-					
+
 					arglist.add(StringConstant.v(body.getMethod()
 							.getSignature()));
 					arglist.add(StringConstant.v(stmt.toString()));
-					
+
 					arglist.add(invoke.getUseBoxes().get(0).getValue());
-					
+
 					// new printURL invoke stmt
 					Stmt printURLInvoke = Jimple.v().newInvokeStmt(
 							Jimple.v().newStaticInvokeExpr(
@@ -195,7 +228,7 @@ public class RequestAnalyzer {
 			}
 		}
 	}
-	
+
 	private static Local addTmpString2Local(Body body) {
 		Local tmpString = Jimple.v().newLocal("tmpString" + (tmpCount++),
 				RefType.v("java.lang.String"));
@@ -216,9 +249,10 @@ public class RequestAnalyzer {
 		body.getLocals().add(tmpLong);
 		return tmpLong;
 	}
-	
+
 	/**
-	 *  instrument timestamps before "sig" and after "sig"and call printTimeDiff
+	 * instrument timestamps before "sig" and after "sig"and call printTimeDiff
+	 * 
 	 * @param body
 	 * @param sig
 	 */
@@ -230,8 +264,8 @@ public class RequestAnalyzer {
 				// System.out.println("invoke stmt = "+stmt);
 				InvokeExpr invoke = stmt.getInvokeExpr();
 				// if (invoke.getMethod().getSignature().equals(sig))
-				if ((invoke.getMethod().getSignature().equals(sig)) ){
-//					timestampCounter++;
+				if ((invoke.getMethod().getSignature().equals(sig))) {
+					// timestampCounter++;
 
 					// SootMethod printTimeStamp = ProxyHelper
 					// .findMethod(ProxyHelper.printTimeStamp);
@@ -271,4 +305,39 @@ public class RequestAnalyzer {
 		}
 	}
 
+	/***
+	 * instrument after sig, to print out the string value.
+	 * 
+	 * @param body
+	 * @param sig
+	 *            is new URL(string)
+	 */
+	private static void instrumentURL(Body body, String sig) {
+		final PatchingChain<Unit> units = body.getUnits();
+		for (Iterator<Unit> iter = units.snapshotIterator(); iter.hasNext();) {
+			final Stmt stmt = (Stmt) iter.next();
+			if (stmt.containsInvokeExpr()) {
+				// System.out.println("invoke stmt = "+stmt);
+				InvokeExpr invoke = stmt.getInvokeExpr();
+				if (invoke.getMethod().getSignature().equals(sig)) {
+
+					SootMethod printUrl = InstrumentationHelper
+							.findMethod(InstrumentationHelper.printUrl);
+
+					LinkedList<Value> arglist = new LinkedList<Value>();
+					arglist.add(StringConstant.v(body.getMethod()
+							.getSignature()));
+					arglist.add(StringConstant.v(stmt.toString()));
+					arglist.add(invoke.getArg(0));
+
+					Stmt printUrlInvoke = Jimple.v().newInvokeStmt(
+							Jimple.v().newStaticInvokeExpr(printUrl.makeRef(),
+									arglist));
+
+					units.insertAfter(printUrlInvoke, stmt);
+					
+				}
+			}
+		}
+	}
 }

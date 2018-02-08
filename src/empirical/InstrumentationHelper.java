@@ -30,7 +30,7 @@ public class InstrumentationHelper {
 	final static String getTimeStamp = "long getTimeStamp()";
 	final static String printOkHttpInfo = "void printOkHttpInfo(java.lang.String,java.lang.String,okhttp3.Request$Builder)";
 	final static String volleyHttpInfo = "void printVolleyInfo(java.lang.String, java.lang.String, com.android.volley.Request)";
-	
+	final static String printUrl = "void printUrl(java.lang.String,java.lang.String,java.lang.String)";
 	/**
 	 * if the body is known, then query "instrumentMap"
 	 * 

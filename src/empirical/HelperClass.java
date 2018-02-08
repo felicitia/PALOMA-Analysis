@@ -29,15 +29,19 @@ public class HelperClass {
     			+ setCookie);
     }
     
-    public static void printVolleyInfo(String body, String stmt, com.android.volley.Request req) {
-    	
-    }
+//    public static void printVolleyInfo(String body, String stmt, com.android.volley.Request req) {
+//    	
+//    }
     
     public static void printOkHttpInfo(String body, String stmt, okhttp3.Request.Builder req){
     	String urlString = req.build().url().toString();
     	System.out.println("OkHttp;" + reqID++ + ";" + body + ";" + stmt + ";"
     			+ urlString);
     }
+    
+	public static void printUrl(String body, String sig, String value){
+		System.out.println(body+"###"+sig+"###"+value);
+	}
     
     private static String getHeaderField(URLConnection conn, String field) {
     	String data = conn.getHeaderField(field);
