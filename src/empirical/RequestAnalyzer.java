@@ -1,13 +1,12 @@
 package empirical;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 import soot.Body;
 import soot.BodyTransformer;
@@ -22,14 +21,8 @@ import soot.SootMethod;
 import soot.Transform;
 import soot.Unit;
 import soot.Value;
-import soot.ValueBox;
-import soot.jimple.AssignStmt;
-import soot.jimple.IntConstant;
 import soot.jimple.InvokeExpr;
-import soot.jimple.InvokeStmt;
 import soot.jimple.Jimple;
-import soot.jimple.ReturnStmt;
-import soot.jimple.ReturnVoidStmt;
 import soot.jimple.Stmt;
 import soot.jimple.StringConstant;
 import soot.options.Options;
@@ -41,6 +34,8 @@ public class RequestAnalyzer {
 	private static String appFolder;// args4
 	private static String pkgName;// args5
 	private static String androidJar;// args6
+	private static PrintWriter pw;
+	private static List<String> sigSubstrings;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -49,6 +44,12 @@ public class RequestAnalyzer {
 		appFolder = args[4];
 		androidJar = args[5];
 		pkgName = args[6];
+		try {
+			pw = new PrintWriter("output.txt");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 		// prefer Android APK files// -src-prec apk
 		Options.v().set_src_prec(Options.src_prec_apk);
@@ -106,12 +107,23 @@ public class RequestAnalyzer {
 						 printURLConnectionInfoOnSig(body,
 						 InstrumentationHelper.getHttpInputStreamOriginal);
 //						 print time difference of getInputStream() method
-						 instrumentTimestampOnSig(body,
-						 InstrumentationHelper.getInputStreamOriginal);
-						// print okhttp3 request info
-						 instrumentOkHttpCall(body,
-						 InstrumentationHelper.okHttpBuildRequest);
+//						 instrumentTimestampOnSig(body,
+//						 InstrumentationHelper.getInputStreamOriginal);
+						 sigSubstrings = new ArrayList<String>();
+						 sigSubstrings.add("<java.net.");
+						 sigSubstrings.add("<okhttp3.");
+						 instrumentTimestampOnSigContains(body, sigSubstrings);
+						
+						if(body.getMethod().getSignature().contains("ConnectInterceptor") || body.getMethod().getSignature().contains("CallServerInterceptor")){
+							pw.println("############");
+							pw.println(body.getMethod());
+							pw.println("############");
+						}
+						 // print okhttp3 request info
+//						 instrumentOkHttpCall(body,
+//						 InstrumentationHelper.okHttpBuildRequest);
 						printOkHttpSigs(body);
+						
 						body.validate();
 
 					}
@@ -120,6 +132,7 @@ public class RequestAnalyzer {
 
 		String[] sootArgs = { args[0], args[1], args[2] };
 		soot.Main.main(sootArgs);
+		pw.close();
 	}
 
 	// private static void instrumentVolleyCall(Body body, String sig) {
@@ -148,9 +161,9 @@ public class RequestAnalyzer {
 				if ((invoke.getMethod().getSignature().contains("OkHttp")
 						|| invoke.getMethod().getSignature().contains("URL") || invoke
 						.getMethod().getSignature().contains("Request"))) {
-					System.out.println("method: " + body.getMethod().getName());
-					System.out.println("stmt: " + stmt);
-					System.out.println();
+					pw.println("method: " + body.getMethod().getName());
+					pw.println("stmt: " + stmt);
+					pw.println();
 				}
 			}
 		}
@@ -305,6 +318,68 @@ public class RequestAnalyzer {
 		}
 	}
 
+	/**
+	 * instrument timestamps before "sig" and after "sig"and call printTimeDiff,
+	 * as long as "sig" contains the substrings passed to this method
+	 * 
+	 * @param body
+	 * @param sig
+	 */
+	private static void instrumentTimestampOnSigContains(Body body, List<String> sigSubstrings) {
+		final PatchingChain<Unit> units = body.getUnits();
+		for (Iterator<Unit> iter = units.snapshotIterator(); iter.hasNext();) {
+			final Stmt stmt = (Stmt) iter.next();
+			if (stmt.containsInvokeExpr()) {
+				// System.out.println("invoke stmt = "+stmt);
+				InvokeExpr invoke = stmt.getInvokeExpr();
+					if(isContainsSigSubstring(invoke.getMethod().getSignature(), sigSubstrings)){
+						// timestampCounter++;
+						// SootMethod printTimeStamp = ProxyHelper
+						// .findMethod(ProxyHelper.printTimeStamp);
+						SootMethod getTimeStamp = InstrumentationHelper
+								.findMethod(InstrumentationHelper.getTimeStamp);
+						SootMethod printTimeDiff = InstrumentationHelper
+								.findMethod(InstrumentationHelper.printeTimeDiff);
+
+						Stmt getTimeStampInvoke = Jimple.v().newInvokeStmt(
+								Jimple.v().newStaticInvokeExpr(
+										getTimeStamp.makeRef()));
+						Local timeStamp1 = addTmpLong2Local(body);
+						Stmt assignTimeStampBefore = Jimple.v().newAssignStmt(
+								timeStamp1, getTimeStampInvoke.getInvokeExpr());
+						Local timeStamp2 = addTmpLong2Local(body);
+						Stmt assignTimeStampAfter = Jimple.v().newAssignStmt(
+								timeStamp2, getTimeStampInvoke.getInvokeExpr());
+						Local timeDiff = addTmpLong2Local(body);
+						Stmt assignTimeDiff = Jimple.v().newAssignStmt(timeDiff,
+								Jimple.v().newSubExpr(timeStamp2, timeStamp1));
+
+						LinkedList<Value> arglist = new LinkedList<Value>();
+						arglist.add(StringConstant.v(body.getMethod()
+								.getSignature()));
+						arglist.add(StringConstant.v(stmt.toString()));
+						arglist.add(timeDiff);
+						Stmt printTimeDiffInvoke = Jimple.v().newInvokeStmt(
+								Jimple.v().newStaticInvokeExpr(
+										printTimeDiff.makeRef(), arglist));
+
+						units.insertBefore(assignTimeStampBefore, stmt);
+						units.insertAfter(printTimeDiffInvoke, stmt);
+						units.insertAfter(assignTimeDiff, stmt);
+						units.insertAfter(assignTimeStampAfter, stmt);
+					}
+			}
+		}
+	}
+	
+	private static boolean isContainsSigSubstring(String sig, List<String> sigSubstrings){
+		for(String substring: sigSubstrings){
+			if(sig.contains(substring)){
+				return true;
+			}
+		}
+		return false;
+	}
 	/***
 	 * instrument after sig, to print out the string value.
 	 * 
