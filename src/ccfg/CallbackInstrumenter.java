@@ -37,6 +37,7 @@ public class CallbackInstrumenter {
 
 	private static final String callbackInput = "/Users/felicitia/Documents/Research/PALOMA/Develop/GATOR/gator-3.3/SootAndroid/listeners.xml";
 	private static Set<String> handlers = null;
+	private static Set<String> lifecycles = null;
 	private static String apkName; // args3
 	private static String appFolder;// args4
 	private static String pkgName;// args5
@@ -45,12 +46,15 @@ public class CallbackInstrumenter {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		initHandlerList();
+		instrumentCallbacks(args);
+	}
+
+	public static void instrumentCallbacks(String[] args) {
 		apkName = args[3];
 		appFolder = args[4];
 		androidJar = args[5];
 		pkgName = args[6];
-
-		initHandlerList();
 
 		// prefer Android APK files// -src-prec apk
 		Options.v().set_src_prec(Options.src_prec_apk);
@@ -101,8 +105,9 @@ public class CallbackInstrumenter {
 					protected void internalTransform(final Body body,
 							String phaseName,
 							@SuppressWarnings("rawtypes") Map options) {
-						if (isCallback(body.getMethod().getSignature())) {
-							logCallback(body);
+						String callbackType = getApplicationCallbackType(body.getMethod().getSignature());
+						if ( callbackType != null) {
+							logCallback(body, callbackType);
 						}
 
 						body.validate();
@@ -113,10 +118,9 @@ public class CallbackInstrumenter {
 
 		String[] sootArgs = { args[0], args[1], args[2] };
 		soot.Main.main(sootArgs);
-
 	}
 
-	public static void logCallback(Body body) {
+	public static void logCallback(Body body, String callbackType) {
 		final PatchingChain<Unit> units = body.getUnits();
 		for (Iterator<Unit> iter = units.snapshotIterator(); iter.hasNext();) {
 			final Stmt stmt = (Stmt) iter.next();
@@ -126,6 +130,7 @@ public class CallbackInstrumenter {
 
 				LinkedList<Value> arglist = new LinkedList<Value>();
 				arglist.add(StringConstant.v(body.getMethod().getSignature()));
+				arglist.add(StringConstant.v(callbackType));
 
 				Stmt logCallbackInvoke = Jimple.v().newInvokeStmt(
 						Jimple.v().newStaticInvokeExpr(
@@ -136,19 +141,35 @@ public class CallbackInstrumenter {
 		}
 
 	}
-
-	public static boolean isCallback(String bodySig) {
-		for (String callback : handlers) {
-			if (bodySig.contains(callback)) {
-				return true;
+	
+	/**
+	 * return null if not application callback,
+	 * if lifecycle callback, return "lifecycle",
+	 * if event handler, return "event"
+	 * @param bodySig
+	 * @return
+	 */
+	public static String getApplicationCallbackType(String bodySig) {
+		if(bodySig.contains("android.support")){
+			return null;
+		}
+		for(String callback: lifecycles){
+			if(bodySig.contains(callback)){
+				return "lifecycle";
 			}
 		}
-		return false;
+		for (String callback : handlers) {
+			if (bodySig.contains(callback)) {
+				return "event";
+			}
+		}
+		return null;
 	}
 
 	public static void initHandlerList() {
 		File xmlInput = new File(callbackInput);
 		handlers = new HashSet<String>();
+		lifecycles = new HashSet<String>();
 
 		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder dBuilder;
@@ -168,6 +189,15 @@ public class CallbackInstrumenter {
 				Element element = (Element) node;
 				String subsig = element.getAttribute("subsig");
 				handlers.add(subsig);
+			}
+		}
+		nList = doc.getElementsByTagName("lifecycle");
+		for (int i = 0; i < nList.getLength(); i++) {
+			Node node = nList.item(i);
+			if (node.getNodeType() == Node.ELEMENT_NODE) {
+				Element element = (Element) node;
+				String callback = element.getTextContent();
+				lifecycles.add(callback);
 			}
 		}
 	}

@@ -20,7 +20,7 @@ public class InstrumentationHelper {
 	public final static String HelperClass = "ccfg.HelperClass";
 
 	//	HelperClass Signatures
-	final static String logCallback = "void logCallback(java.lang.String)";
+	final static String logCallback = "void logCallback(java.lang.String,java.lang.String)";
 	/**
 	 * if the body is known, then query "instrumentMap"
 	 * 
