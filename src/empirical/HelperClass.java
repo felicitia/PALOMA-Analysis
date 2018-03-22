@@ -2,7 +2,8 @@ package empirical;
 
 import java.net.URLConnection;
 
-
+import okhttp3.Headers;
+import okhttp3.Request;
 
 public class HelperClass {
     static int reqID = 0;
@@ -17,15 +18,15 @@ public class HelperClass {
     	String cacheControl = getHeaderField(urlConnection, "Cache-Control");
     	String expires = getHeaderField(urlConnection, "Expires");
     	String age = getHeaderField(urlConnection, "Age");
-    	String setCookie = getHeaderField(urlConnection, "Cache-Control");
+    	String setCookie = getHeaderField(urlConnection, "Set-Cookie");
     	
-    	System.out.println("URLConn;" + reqID++ + ";" + body + ";" + stmt + ";" 
-    			+ urlString + ";" 
-    			+ isDoOutput + ";"
-    			+ length + ";"
-    			+ cacheControl + ";"
-    			+ expires + ";"
-    			+ age + ";"
+    	System.out.println("URLConn;%;" + reqID++ + ";%;" + body + ";%;" + stmt + ";%;" 
+    			+ urlString + ";%;" 
+    			+ isDoOutput + ";%;"
+    			+ length + ";%;"
+    			+ cacheControl + ";%;"
+    			+ expires + ";%;"
+    			+ age + ";%;"
     			+ setCookie);
     }
     
@@ -33,10 +34,27 @@ public class HelperClass {
 //    	
 //    }
     
-    public static void printOkHttpInfo(String body, String stmt, okhttp3.Request.Builder req){
-    	String urlString = req.build().url().toString();
-    	System.out.println("OkHttp;" + reqID++ + ";" + body + ";" + stmt + ";"
-    			+ urlString);
+    public static void printOkHttpInfo(String body, String stmt, okhttp3.Request req, okhttp3.Response resp){
+    	System.out.print("OkHttpP;%;" + reqID++ + ";%;" + body + ";%;" + stmt + ";%;" + 
+    req.url().toString() + ";%;");
+    	Headers responseHeaders = resp.headers();
+    	System.out.print(responseHeaders.values("Content-Length") + ";%;");
+    	System.out.print(responseHeaders.values("Cache-Control") + ";%;");
+    	System.out.print(responseHeaders.values("Expires") + ";%;");
+    	System.out.print(responseHeaders.values("Age") + ";%;");
+    	System.out.println(responseHeaders.values("Set-Cookie") + ";%;");
+    	System.out.println("header:" + responseHeaders.toString());
+    }
+
+    public static void printOkHttpInfoFromCall(String body, String stmt, okhttp3.Call c, okhttp3.Response resp){
+    	Request req = c.request();
+    	System.out.print("OkHttpE;%;" + reqID++ + ";%;" + body + ";%;" + stmt + ";%;" + 
+    req.url().toString() + ";%;");   	
+    	Headers responseHeaders = resp.headers();
+        for (int i = 0; i < responseHeaders.size(); i++) {
+            System.out.print(responseHeaders.name(i) + ": " + responseHeaders.value(i) + ";%;");
+        }
+        System.out.println();
     }
     
 	public static void printUrl(String body, String sig, String value){

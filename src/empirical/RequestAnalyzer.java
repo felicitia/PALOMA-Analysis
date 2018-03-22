@@ -21,6 +21,7 @@ import soot.SootMethod;
 import soot.Transform;
 import soot.Unit;
 import soot.Value;
+import soot.ValueBox;
 import soot.jimple.InvokeExpr;
 import soot.jimple.Jimple;
 import soot.jimple.Stmt;
@@ -120,9 +121,11 @@ public class RequestAnalyzer {
 							pw.println("############");
 						}
 						 // print okhttp3 request info
-//						 instrumentOkHttpCall(body,
-//						 InstrumentationHelper.okHttpBuildRequest);
-						printOkHttpSigs(body);
+						 instrumentOkHttpCallExecute(body,
+						 InstrumentationHelper.okHttpExecute);
+						 instrumentOkHttpCall(body,
+						 InstrumentationHelper.okHttpInterceptor);
+						//printOkHttpSigs(body);
 						
 						body.validate();
 
@@ -181,10 +184,6 @@ public class RequestAnalyzer {
 			final Stmt stmt = (Stmt) iter.next();
 			if (stmt.containsInvokeExpr()) {
 				InvokeExpr invoke = stmt.getInvokeExpr();
-				if (stmt.toString().contains("volley"))
-					System.out.println("invoke stmt = " + stmt);
-				if (stmt.toString().contains("retrofit"))
-					System.out.println("invoke stmt = " + stmt);
 				if (invoke.getMethod().getSignature().equals(sig)) {
 					SootMethod printOkHttpRequest = InstrumentationHelper
 							.findMethod(InstrumentationHelper.printOkHttpInfo);
@@ -197,6 +196,44 @@ public class RequestAnalyzer {
 					arglist.add(StringConstant.v(stmt.toString()));
 
 					arglist.add(invoke.getUseBoxes().get(0).getValue());
+					arglist.add(stmt.getDefBoxes().get(0).getValue());
+
+					Stmt printURLInvoke = Jimple.v().newInvokeStmt(
+							Jimple.v().newStaticInvokeExpr(
+									printOkHttpRequest.makeRef(), arglist));
+
+					units.insertAfter(printURLInvoke, stmt);
+				}
+
+			}
+		}
+	}
+
+	private static void instrumentOkHttpCallExecute(Body body, String sig) {
+		final PatchingChain<Unit> units = body.getUnits();
+		for (Iterator<Unit> iter = units.snapshotIterator(); iter.hasNext();) {
+			final Stmt stmt = (Stmt) iter.next();
+			if (stmt.containsInvokeExpr()) {
+				InvokeExpr invoke = stmt.getInvokeExpr();
+				if (invoke.getMethod().getSignature().equals(sig)) {
+					SootMethod printOkHttpRequest = InstrumentationHelper
+							.findMethod(InstrumentationHelper.printOkHttpInfoExecute);
+
+					// add arguments to stmt
+					LinkedList<Value> arglist = new LinkedList<Value>();
+
+					arglist.add(StringConstant.v(body.getMethod()
+							.getSignature()));
+					arglist.add(StringConstant.v(stmt.toString()));
+					System.out.println("HEREHERE ###################");
+					System.out.println(stmt.toString());
+					System.out.println(stmt.getDefBoxes().get(0).getValue().toString());
+					for (ValueBox vb : invoke.getUseBoxes()) {
+						System.out.println(vb.getValue().toString());
+					}
+
+					arglist.add(invoke.getUseBoxes().get(0).getValue());
+					arglist.add(stmt.getDefBoxes().get(0).getValue());
 
 					Stmt printURLInvoke = Jimple.v().newInvokeStmt(
 							Jimple.v().newStaticInvokeExpr(
