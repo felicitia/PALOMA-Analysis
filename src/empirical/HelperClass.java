@@ -35,26 +35,40 @@ public class HelperClass {
 //    }
     
     public static void printOkHttpInfo(String body, String stmt, okhttp3.Request req, okhttp3.Response resp){
-    	System.out.print("OkHttpP;%;" + reqID++ + ";%;" + body + ";%;" + stmt + ";%;" + 
-    req.url().toString() + ";%;");
     	Headers responseHeaders = resp.headers();
-    	System.out.print(responseHeaders.values("Content-Length") + ";%;");
-    	System.out.print(responseHeaders.values("Cache-Control") + ";%;");
-    	System.out.print(responseHeaders.values("Expires") + ";%;");
-    	System.out.print(responseHeaders.values("Age") + ";%;");
-    	System.out.println(responseHeaders.values("Set-Cookie") + ";%;");
+        String length = responseHeaders.values("Content-Length").toString();
+    	String cacheControl = responseHeaders.values("Cache-Control").toString();
+    	String expires = responseHeaders.values("Expires").toString();
+    	String age = responseHeaders.values("Age").toString();
+    	String setCookie = responseHeaders.values("Set-Cookie").toString();
+    	
+    	System.out.print("OkHttpP;%;" + reqID++ + ";%;" + body + ";%;" + stmt + ";%;" + 
+    req.url().toString() + ";%;" + req.method() + ";%;");
+    	System.out.print(length + ";%;");
+    	System.out.print(cacheControl + ";%;");
+    	System.out.print(expires + ";%;");
+    	System.out.print(age + ";%;");
+    	System.out.println(setCookie + ";%;");
     	System.out.println("header:" + responseHeaders.toString());
     }
 
     public static void printOkHttpInfoFromCall(String body, String stmt, okhttp3.Call c, okhttp3.Response resp){
     	Request req = c.request();
-    	System.out.print("OkHttpE;%;" + reqID++ + ";%;" + body + ";%;" + stmt + ";%;" + 
-    req.url().toString() + ";%;");   	
     	Headers responseHeaders = resp.headers();
-        for (int i = 0; i < responseHeaders.size(); i++) {
-            System.out.print(responseHeaders.name(i) + ": " + responseHeaders.value(i) + ";%;");
-        }
-        System.out.println();
+        String length = responseHeaders.values("Content-Length").toString();
+    	String cacheControl = responseHeaders.values("Cache-Control").toString();
+    	String expires = responseHeaders.values("Expires").toString();
+    	String age = responseHeaders.values("Age").toString();
+    	String setCookie = responseHeaders.values("Set-Cookie").toString();
+    	
+    	System.out.print("OkHttpE;%;" + reqID++ + ";%;" + body + ";%;" + stmt + ";%;" + 
+    req.url().toString() + ";%;" + req.method() + ";%;");   	
+    	System.out.print(length + ";%;");
+    	System.out.print(cacheControl + ";%;");
+    	System.out.print(expires + ";%;");
+    	System.out.print(age + ";%;");
+    	System.out.println(setCookie + ";%;");
+    	System.out.println("header:" + responseHeaders.toString());
     }
     
 	public static void printUrl(String body, String sig, String value){
