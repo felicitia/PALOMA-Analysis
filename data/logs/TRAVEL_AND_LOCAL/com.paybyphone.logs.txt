@@ -1,0 +1,332 @@
+--------- beginning of /dev/log/system
+I/ActivityManager(  314): Resuming delayed broadcast
+--------- beginning of /dev/log/main
+I/Finsky  (  936): [1] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for auto_install
+I/Finsky  (  936): [1] com.google.android.finsky.wear.ar.a(80): Connecting to wearable; initiated by: com.google.android.finsky.wear.WearSupportService
+I/Finsky  (  936): [1] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for send_installed_apps
+I/Finsky  (  936): [1] com.google.android.finsky.externalreferrer.c.run(11): Package state data is missing for com.paybyphone
+W/WearableService(  644): onGetService - Wear is not available on this device.
+E/Finsky  (  936): [1] com.google.android.finsky.wear.au.a(3): onConnectionFailed: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+W/Finsky  (  936): [1] com.google.android.finsky.wear.cd.run(12): Dropping command=auto_install due to Gms not connected
+I/Finsky  (  936): [1] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+W/Finsky  (  936): [1] com.google.android.finsky.wear.cd.run(12): Dropping command=send_installed_apps due to Gms not connected
+I/Finsky  (  936): [1] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+I/Icing   (  721): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+I/Icing   (  721): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/AndroidRuntime(12510): 
+D/AndroidRuntime(12510): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(12510): CheckJNI is OFF
+D/dalvikvm(12510): Using executionMode 2
+D/dalvikvm(12510): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(12510): Added shared lib libjavacore.so 0x0
+D/dalvikvm(12510): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(12510): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(12510): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(12510): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(12510): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(12510): failed to load memtrack module: -2
+D/AndroidRuntime(12510): Calling main entry com.android.commands.monkey.Monkey
+W/BroadcastQueue(  314): Skipping deliver [background] BroadcastRecord{4afaebb8 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4aa2caa8 12510 (unknown name)/0/u-1 remote:4a9facd0}: process crashing
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+I/WearableService(  644): Wearable Services stopping
+I/ActivityManager(  314): Start proc com.paybyphone for activity com.paybyphone/.MainActivity: pid=12520 uid=10121 gids={50121, 3003}
+W/NetworkManagementSocketTagger(  314): setKernelCountSet(10121, 1) failed with errno -13
+I/dalvikvm(12520): ignoring registerObject request in thread=1
+I/dalvikvm(12520): ignoring registerObject request in thread=1
+D/dalvikvm(12520): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(12520): GC_CONCURRENT freed 115K, 6% free 3091K/3272K, paused 0ms+2ms, total 4ms
+V/WebViewChromium(12520): Binding Chromium to the main looper Looper (main, tid 1) {4a7e4d6c}
+I/chromium(12520): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain(12520): Initializing chromium process, renderers=0
+W/chromium(12520): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/libEGL  (12520): loaded /system/lib/egl/libEGL_adreno.so
+D/        (12520): HostConnection::get() New Host Connection established 0xb949e9b0, tid 12520
+D/libEGL  (12520): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (12520): loaded /system/lib/egl/libGLESv2_adreno.so
+D/dalvikvm(12520): GC_FOR_ALLOC freed 21K, 5% free 3180K/3328K, paused 3ms, total 3ms
+I/dalvikvm-heap(12520): Grow heap (frag case) to 3.772MB for 635808-byte allocation
+D/dalvikvm(12520): GC_FOR_ALLOC freed <1K, 4% free 3800K/3952K, paused 2ms, total 2ms
+D/dalvikvm(12520): GC_CONCURRENT freed <1K, 4% free 3800K/3952K, paused 0ms+1ms, total 2ms
+D/dalvikvm(12520): GC_CONCURRENT freed 47K, 3% free 4260K/4372K, paused 0ms+1ms, total 2ms
+D/dalvikvm(12520): WAIT_FOR_CONCURRENT_GC blocked 1ms
+W/InputManager(  314): Input event injection from pid 12510 failed.
+W/InputManager(  314): Input event injection from pid 12510 failed.
+W/ViewRootImpl(12520): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=0.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=559635, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation(12520): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(12520): Enabling debug mode 0
+W/EGL_emulation(12520): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(12520): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=559638, downTime=559638, deviceId=-1, source=0x101 }
+W/AwContents(12520): nativeOnDraw failed; clearing to background color.
+I/ActivityManager(  314): Displayed com.paybyphone/.MainActivity: +426ms (total +6s622ms)
+W/ViewRootImpl(12520): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=559951, downTime=559951, deviceId=-1, source=0x101 }
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ContextImpl(  314): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/AwContents(12520): nativeOnDraw failed; clearing to background color.
+I/chromium(12520): [INFO:simple_index_file.cc(397)] Simple Cache Index is being restored from disk.
+D/dalvikvm(12520): GC_FOR_ALLOC freed 98K, 4% free 4397K/4560K, paused 3ms, total 3ms
+I/dalvikvm-heap(12520): Grow heap (frag case) to 5.812MB for 1527852-byte allocation
+D/dalvikvm(12520): GC_FOR_ALLOC freed 0K, 3% free 5890K/6056K, paused 2ms, total 2ms
+W/AwContents(12520): nativeOnDraw failed; clearing to background color.
+D/dalvikvm(12520): GC_CONCURRENT freed 7K, 3% free 5893K/6056K, paused 0ms+1ms, total 3ms
+W/ViewRootImpl(12520): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=560234, downTime=560234, deviceId=-1, source=0x101 }
+W/EGL_emulation(12520): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(12520): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=560237, downTime=560237, deviceId=-1, source=0x101 }
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 314
+D/dalvikvm(  532): GC_CONCURRENT freed 268K, 73% free 4542K/16360K, paused 2ms+0ms, total 6ms
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 314
+D/dalvikvm(12520): GC_CONCURRENT freed 479K, 8% free 6331K/6876K, paused 4ms+1ms, total 8ms
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+W/NetworkManagementSocketTagger(  314): setKernelCountSet(10007, 0) failed with errno -13
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+I/ActivityManager(  314): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 12520
+W/PhoneFallbackEventHandler(12520): No activity found for android.intent.action.CALL_BUTTON.
+D/dalvikvm(  532): GC_CONCURRENT freed 232K, 71% free 4810K/16360K, paused 0ms+0ms, total 3ms
+D/dalvikvm(  314): GC_CONCURRENT freed 2313K, 62% free 11530K/30028K, paused 1ms+5ms, total 25ms
+D/dalvikvm(  314): WAIT_FOR_CONCURRENT_GC blocked 23ms
+I/ActivityManager(  314): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 532
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+I/InputDispatcher(  314): Dropped event because of pending overdue app switch.
+W/InputManager(  314): Input event injection from pid 12510 failed.
+D/dalvikvm(  532): GC_CONCURRENT freed 284K, 69% free 5076K/16360K, paused 1ms+0ms, total 3ms
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 314
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+D/dalvikvm(  721): GC_CONCURRENT freed 2146K, 44% free 9306K/16364K, paused 3ms+1ms, total 19ms
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+I/ActivityManager(  314): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 12520
+W/PhoneFallbackEventHandler(12520): No activity found for android.intent.action.CALL_BUTTON.
+V/PanelView(  532): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/InputDispatcher(  314): Dropped event because of pending overdue app switch.
+W/InputManager(  314): Input event injection from pid 12510 failed.
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+I/ActivityManager(  314): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 12520
+W/PhoneFallbackEventHandler(12520): No activity found for android.intent.action.CALL_BUTTON.
+V/FlingTracker(  532): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  532): java.lang.Throwable
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  532): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  532): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  532): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  532): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  532): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  532): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  532): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  532): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  532): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  532): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  532): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  532): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  532): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  532): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/FlingTracker(  532): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  532): java.lang.Throwable
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  532): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  532): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  532): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  532): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  532): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  532): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  532): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  532): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  532): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  532): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  532): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  532): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  532): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  532): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/FlingTracker(  532): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  532): java.lang.Throwable
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  532): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  532): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  532): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  532): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  532): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  532): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  532): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  532): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  532): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  532): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  532): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  532): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  532): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  532): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+D/dalvikvm(12520): GC_CONCURRENT freed 1155K, 17% free 6323K/7532K, paused 0ms+1ms, total 4ms
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+W/dalvikvm(12520): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(12520): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(12520): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(12520): VFY: unable to resolve virtual method 686: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(12520): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(12520): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(12520): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(12520): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(12520): VFY: unable to resolve interface method 680: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(12520): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(12520): body:<com.paybyphone.widgets.WebViewJavascriptTransforms: java.net.URL getUrlFrom(java.lang.String)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:1
+I/System.out(12520): <com.paybyphone.widgets.WebViewJavascriptTransforms: java.net.URL getUrlFrom(java.lang.String)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###https://m2.paybyphone.co.uk/login
+I/System.out(12520): body:<com.paybyphone.widgets.WebViewJavascriptTransforms: com.paybyphone.enums.PageToTransformEnum derivePageFrom(java.net.URL)>	sig:$r4 = virtualinvoke $r1.<java.net.URL: java.lang.String getPath()>()	timediff:0
+D/dalvikvm(12520): GC_FOR_ALLOC freed 841K, 16% free 6349K/7532K, paused 3ms, total 3ms
+I/System.out(12520): body:<com.paybyphone.widgets.WebViewJavascriptTransforms: java.net.URL getUrlFrom(java.lang.String)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(12520): <com.paybyphone.widgets.WebViewJavascriptTransforms: java.net.URL getUrlFrom(java.lang.String)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###https://m2.paybyphone.co.uk/login
+I/System.out(12520): body:<com.paybyphone.widgets.WebViewJavascriptTransforms: com.paybyphone.enums.PageToTransformEnum derivePageFrom(java.net.URL)>	sig:$r4 = virtualinvoke $r1.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out(12520): body:<com.paybyphone.widgets.WebViewJavascriptTransforms: com.paybyphone.enums.PageToTransformEnum derivePageFrom(java.net.URL)>	sig:$r4 = virtualinvoke $r1.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out(12520): body:<com.paybyphone.widgets.WebViewJavascriptTransforms: com.paybyphone.enums.PageToTransformEnum derivePageFrom(java.net.URL)>	sig:$r4 = virtualinvoke $r1.<java.net.URL: java.lang.String getPath()>()	timediff:0
+V/PanelView(  532): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+D/dalvikvm(  532): GC_CONCURRENT freed 1181K, 73% free 4539K/16360K, paused 2ms+1ms, total 6ms
+I/chromium(12520): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+I/chromium(12520): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+W/InputMethodManagerService(  314): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab5fb98 attribute=null, token = android.os.BinderProxy@4a9a4e10
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(12520): setSnapScrollingMode case-default no-op
+I/SnapScrollController(12520): setSnapScrollingMode case-default no-op
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+I/ActivityManager(  314): START u0 {act=android.intent.action.VIEW dat=https://paybyphone.co.uk/how-are-we-doing cmp=com.android.browser/.BrowserActivity} from pid 12520
+D/dalvikvm(  630): GC_CONCURRENT freed 355K, 13% free 3080K/3536K, paused 0ms+1ms, total 2ms
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  314): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.paybyphone/.MainActivity} from pid 12510
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+V/FlingTracker(  532): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  532): java.lang.Throwable
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  532): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  532): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  532): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  532): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  532): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  532): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  532): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  532): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  532): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  532): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  532): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  532): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  532): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  532): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  532): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  532): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  532): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(12520): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  314): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 12520
+W/PhoneFallbackEventHandler(12520): No activity found for android.intent.action.CALL_BUTTON.
+W/ViewRootImpl(12520): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=563374, downTime=563374, deviceId=-1, source=0x101 }
+W/EGL_emulation(12520): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(12520): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=563393, downTime=563393, deviceId=-1, source=0x101 }
+V/PanelView(  532): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/AndroidRuntime(12510): VM exiting with result code 0.

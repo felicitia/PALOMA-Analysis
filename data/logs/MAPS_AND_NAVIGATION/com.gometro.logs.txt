@@ -1,0 +1,790 @@
+--------- beginning of /dev/log/main
+I/Icing   (  719): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+I/Icing   (  719): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/AndroidRuntime(22613): 
+D/AndroidRuntime(22613): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(22613): CheckJNI is OFF
+D/dalvikvm(22613): Using executionMode 2
+D/dalvikvm(22613): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(22613): Added shared lib libjavacore.so 0x0
+D/dalvikvm(22613): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(22613): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(22613): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(22613): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(22613): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(22613): failed to load memtrack module: -2
+D/AndroidRuntime(22613): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  481): Skipping deliver [background] BroadcastRecord{4b09b188 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4ae0047c 22613 (unknown name)/0/u-1 remote:4a95a200}: process crashing
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gometro/.ScreenSplash} from pid 22613
+D/WebViewTimersControl(22316): onBrowserActivityPause
+D/WebViewTimersControl(22316): Pausing webview timers, view=com.android.browser.BrowserWebView{4a795f30 VFEDHVCL .F...... 0,0-720,1164}
+I/ActivityManager(  481): Start proc com.gometro for activity com.gometro/.ScreenSplash: pid=22623 uid=10103 gids={50103, 3003, 1028, 1015, 1023, 3002, 3001}
+W/NetworkManagementSocketTagger(  481): setKernelCountSet(10103, 1) failed with errno -13
+I/dalvikvm(22623): ignoring registerObject request in thread=1
+I/dalvikvm(22623): ignoring registerObject request in thread=1
+D/StopsProvider(22623): provider oncreate running.......
+V/local data base(22623): closed
+D/HttpHelper(22623): requstUrl:http://54.241.23.171:8080/gometro/api/getStaticContentVersion
+V/lite database(22623): close
+I/Go Metro - UALib(22623): Airship taking off!
+I/Go Metro - UALib(22623): Airship log level: 3
+I/Go Metro - UALib(22623): UA Version: 6.0.2 / App key = 0bryKBKuRgqT-rErwFbgJA Production = false
+D/Go Metro - UALib(22623): Analytics - New session: 48fdceb8-6fe2-4751-9356-d8040dcec0b6
+D/dalvikvm(22623): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(22623): GC_CONCURRENT freed 222K, 9% free 3008K/3292K, paused 1ms+0ms, total 4ms
+I/Go Metro - UALib(22623): Google Play Store available. Setting platform to Android.
+E/Go Metro - UALib(22623): Required permission com.gometro.permission.C2D_MESSAGE is unknown to PackageManager.
+I/dalvikvm(22623): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zza
+W/dalvikvm(22623): VFY: unable to resolve virtual method 383: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm(22623): VFY: replacing opcode 0x6e at 0x00f0
+I/dalvikvm(22623): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zzh
+W/dalvikvm(22623): VFY: unable to resolve virtual method 723: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(22623): VFY: replacing opcode 0x6e at 0x000a
+D/Go Metro - UALib(22623): RichPushManager - Starting update service.
+I/Go Metro - UALib(22623): Migrating push enabled preferences
+I/Go Metro - UALib(22623): Setting user notifications enabled to false
+I/Go Metro - UALib(22623): Push is now enabled. You can continue to toggle the opt-in state by enabling or disabling user notifications
+I/Go Metro - UALib(22623): Airship ready!
+E/Go Metro - UALib(22623): You can only call takeOff() once.
+V/DownloadStaticData(22623): server static data version:9
+V/DownloadStaticData(22623): starting db copy
+W/dalvikvm(22623): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(22623): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(22623): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(22623): VFY: unable to resolve virtual method 60305: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(22623): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(22623): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(22623): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(22623): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(22623): VFY: unable to resolve interface method 60299: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(22623): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(22623): body:<com.gometro.providers.DownloadStaticData: void downloadDBFromServer(java.lang.String)>	sig:specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r8)	timediff:0
+I/System.out(22623): <com.gometro.providers.DownloadStaticData: void downloadDBFromServer(java.lang.String)>###specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r8)###http://54.241.23.171:8080/gometro/api/getStaticContent
+D/dalvikvm(22623): GC_CONCURRENT freed 302K, 10% free 3145K/3480K, paused 1ms+2ms, total 8ms
+D/dalvikvm(22623): GC_FOR_ALLOC freed 117K, 12% free 3179K/3600K, paused 3ms, total 3ms
+I/dalvikvm-heap(22623): Grow heap (frag case) to 4.629MB for 1536012-byte allocation
+D/dalvikvm(22623): GC_FOR_ALLOC freed 1K, 9% free 4677K/5104K, paused 4ms, total 4ms
+D/dalvikvm(22623): GC_CONCURRENT freed 7K, 9% free 4675K/5104K, paused 1ms+0ms, total 4ms
+I/System.out(22623): body:<com.gometro.providers.DownloadStaticData: void downloadDBFromServer(java.lang.String)>	sig:$r10 = virtualinvoke $r6.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:27
+I/System.out(22623): body:<com.gometro.providers.DownloadStaticData: void downloadDBFromServer(java.lang.String)>	sig:$r12 = virtualinvoke $r11.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:27
+I/System.out(22623): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): URLConn;%;0;%;<com.gometro.providers.DownloadStaticData: void downloadDBFromServer(java.lang.String)>;%;$r12 = virtualinvoke $r11.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://54.241.23.171:8080/gometro/api/getStaticContent;%;false;%;40357;%;Not found;%;Not found;%;Not found;%;Not found
+V/DownloadStaticData(22623): Path /storage/emulated/0/Android/data/com.gometro/staticcontent/staticcontent.zip
+V/DownloadStaticData(22623): Unzippingother-carriers.html
+V/DownloadStaticData(22623): unzipping: /storage/emulated/0/Android/data/com.gometro/staticcontent
+V/DownloadStaticData(22623): CheckSum-1
+V/DownloadStaticData(22623): Unzippingaboutus-iOS.htm
+V/DownloadStaticData(22623): unzipping: /storage/emulated/0/Android/data/com.gometro/staticcontent
+V/DownloadStaticData(22623): CheckSum-1
+V/DownloadStaticData(22623): Unzippingfares-reduced.htm
+V/DownloadStaticData(22623): unzipping: /storage/emulated/0/Android/data/com.gometro/staticcontent
+V/DownloadStaticData(22623): CheckSum-1
+V/DownloadStaticData(22623): Unzippingfares-silver-express.htm
+V/DownloadStaticData(22623): unzipping: /storage/emulated/0/Android/data/com.gometro/staticcontent
+V/DownloadStaticData(22623): CheckSum-1
+V/DownloadStaticData(22623): Unzippingcontact-us.htm
+V/DownloadStaticData(22623): unzipping: /storage/emulated/0/Android/data/com.gometro/staticcontent
+V/DownloadStaticData(22623): CheckSum-1
+V/DownloadStaticData(22623): Unzippingterms-conditions.html
+V/DownloadStaticData(22623): unzipping: /storage/emulated/0/Android/data/com.gometro/staticcontent
+V/DownloadStaticData(22623): CheckSum-1
+V/DownloadStaticData(22623): Unzippingfares-ez-transit.htm
+V/DownloadStaticData(22623): unzipping: /storage/emulated/0/Android/data/com.gometro/staticcontent
+V/DownloadStaticData(22623): CheckSum-1
+V/DownloadStaticData(22623): Unzippingcustomer-centers.htm
+V/DownloadStaticData(22623): unzipping: /storage/emulated/0/Android/data/com.gometro/staticcontent
+V/DownloadStaticData(22623): CheckSum-1
+V/DownloadStaticData(22623): Unzippingfares-tap.htm
+V/DownloadStaticData(22623): unzipping: /storage/emulated/0/Android/data/com.gometro/staticcontent
+V/DownloadStaticData(22623): CheckSum-1
+V/DownloadStaticData(22623): Unzippingprivacy.html
+V/DownloadStaticData(22623): unzipping: /storage/emulated/0/Android/data/com.gometro/staticcontent
+V/DownloadStaticData(22623): CheckSum-1
+V/DownloadStaticData(22623): Unzippingfares-general.htm
+V/DownloadStaticData(22623): unzipping: /storage/emulated/0/Android/data/com.gometro/staticcontent
+V/DownloadStaticData(22623): CheckSum-1
+V/DownloadStaticData(22623): Unzippingfares-passes-tokens.htm
+V/DownloadStaticData(22623): unzipping: /storage/emulated/0/Android/data/com.gometro/staticcontent
+V/DownloadStaticData(22623): CheckSum-1
+V/DownloadStaticData(22623): Unzippinglost-found.htm
+V/DownloadStaticData(22623): unzipping: /storage/emulated/0/Android/data/com.gometro/staticcontent
+V/DownloadStaticData(22623): CheckSum-1
+V/DownloadStaticData(22623): Unzippingaboutus-Android.htm
+V/DownloadStaticData(22623): unzipping: /storage/emulated/0/Android/data/com.gometro/staticcontent
+V/DownloadStaticData(22623): CheckSum-1
+D/dalvikvm(22623): GC_FOR_ALLOC freed 348K, 9% free 4885K/5348K, paused 3ms, total 3ms
+D/dalvikvm(22623): GC_CONCURRENT freed 34K, 10% free 4958K/5456K, paused 2ms+2ms, total 6ms
+D/Go Metro - UALib(22623): Analytics - New session: 10358316-4517-425c-b08b-c7d34d766429
+I/Go Metro - UALib(22623): Creating Rich Push user.
+I/System.out(22623): body:<com.urbanairship.richpush.UserAPIClient: java.net.URL getUserURL(java.lang.String,java.lang.Object[])>	sig:specialinvoke $r8.<java.net.URL: void <init>(java.lang.String)>($r4)	timediff:0
+I/System.out(22623): <com.urbanairship.richpush.UserAPIClient: java.net.URL getUserURL(java.lang.String,java.lang.Object[])>###specialinvoke $r8.<java.net.URL: void <init>(java.lang.String)>($r4)###https://device-api.urbanairship.com/api/user/
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r6 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r9)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r9)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r9, $r14)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r9, $r14)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r14, $r9)	timediff:0
+D/dalvikvm(22623): GC_CONCURRENT freed 361K, 8% free 5253K/5676K, paused 1ms+1ms, total 7ms
+D/Go Metro - UALib(22623): GCMRegistrar - Registering GCM Sender IDs:  [158006508571]
+D/Go Metro - UALib(22623): Analytics - Added event: app_foreground: {"data":{"time_zone":-25200,"session_id":"10358316-4517-425c-b08b-c7d34d766429","daylight_savings":false,"notification_types":["sound","vibrate"],"carrier":"T-Mobile","lib_version":"6.0.2","connection_type":"wifi","os_version":"4.4.2","package_version":"3.4.4"},"type":"app_foreground","event_id":"5f26f0f4-4759-486a-a54f-7c9da2c5e083","time":"1524026541.777"}
+W/InstanceID/Rpc(22623): Found 10007
+D/Go Metro - UALib(22623): LocationService - Starting updates.
+I/qtaguid (  624): Tagging socket 68 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  624): tagSocketFd(68, 805307399, -1) failed with errno-13
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r17 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:39
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$i0 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:3
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r14 = virtualinvoke $r8.<java.net.HttpURLConnection: java.lang.String getResponseMessage()>()	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r10 = virtualinvoke $r8.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$l1 = virtualinvoke $r8.<java.net.HttpURLConnection: long getLastModified()>()	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$i0 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r19 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): URLConn;%;1;%;<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>;%;$r19 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://device-api.urbanairship.com/api/user/;%;true;%;297;%;Not found;%;Wed, 18 Apr 2018 04:42:21 GMT;%;Not found;%;Not found
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/qtaguid (  624): Untagging socket 68 failed errno=-13
+W/NetworkManagementSocketTagger(  624): untagSocket(68) failed with errno -13
+D/dalvikvm(22623): GC_CONCURRENT freed 666K, 13% free 5292K/6020K, paused 1ms+0ms, total 5ms
+D/HttpHelper(22623): requstUrl:http://places.metro.net/api/category/tapvendors/meta/
+D/libEGL  (22623): loaded /system/lib/egl/libEGL_adreno.so
+D/        (22623): HostConnection::get() New Host Connection established 0xb8913920, tid 22623
+D/StopsProvider(22623): vendor server version2147483647
+D/libEGL  (22623): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (22623): loaded /system/lib/egl/libGLESv2_adreno.so
+D/HttpHelper(22623): requstUrl:http://places.metro.net/api/category/tapvendors/
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(22623): Enabling debug mode 0
+D/Go Metro - UALib(22623): RichPushManager - Starting update service.
+I/Go Metro - UALib(22623): GCM registration successful. Registration ID: APA91bFGv0X6Y-bB_7ZVJIzxyyrR8jS26iP-SmDJFAEhjGDb2ZwlSGkj_UakGESqmXgQIToH8Oxumgavq4s-EwQMzvNmauLv6RCm27HzjnmUfIK96tJBjd8
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1295411, downTime=1295411, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper(22316): showStatusIcon on inactive InputConnection
+D/Go Metro - UALib(22623): PushService - New or re-install. Skipping.
+D/Go Metro - UALib(22623): RichPushUpdateService - User has not been created, canceling messages update
+I/System.out(22623): body:<com.urbanairship.push.ChannelAPIClient: void <init>(com.urbanairship.http.RequestFactory)>	sig:specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r6)	timediff:0
+I/System.out(22623): <com.urbanairship.push.ChannelAPIClient: void <init>(com.urbanairship.http.RequestFactory)>###specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r6)###https://device-api.urbanairship.com/api/channels/
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r6 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:1
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r9)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r9)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r9, $r14)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r9, $r14)	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r14, $r9)	timediff:0
+I/ActivityManager(  481): Displayed com.gometro/.ScreenSplash: +940ms
+E/Parcel  (  481): Class not found when unmarshalling: com.google.android.gms.location.LocationResult
+E/Parcel  (  481): java.lang.ClassNotFoundException: com.google.android.gms.location.LocationResult
+E/Parcel  (  481): 	at java.lang.Class.classForName(Native Method)
+E/Parcel  (  481): 	at java.lang.Class.forName(Class.java:251)
+E/Parcel  (  481): 	at java.lang.Class.forName(Class.java:216)
+E/Parcel  (  481): 	at android.os.Parcel.readParcelableCreator(Parcel.java:2133)
+E/Parcel  (  481): 	at android.os.Parcel.readParcelable(Parcel.java:2097)
+E/Parcel  (  481): 	at android.os.Parcel.readValue(Parcel.java:2013)
+E/Parcel  (  481): 	at android.os.Parcel.readArrayMapInternal(Parcel.java:2314)
+E/Parcel  (  481): 	at android.os.Bundle.unparcel(Bundle.java:249)
+E/Parcel  (  481): 	at android.os.Bundle.putAll(Bundle.java:330)
+E/Parcel  (  481): 	at android.content.Intent.fillIn(Intent.java:6536)
+E/Parcel  (  481): 	at com.android.server.am.PendingIntentRecord.sendInner(PendingIntentRecord.java:210)
+E/Parcel  (  481): 	at com.android.server.am.PendingIntentRecord.send(PendingIntentRecord.java:192)
+E/Parcel  (  481): 	at android.content.IIntentSender$Stub.onTransact(IIntentSender.java:64)
+E/Parcel  (  481): 	at android.os.Binder.execTransact(Binder.java:404)
+E/Parcel  (  481): 	at dalvik.system.NativeStart.run(Native Method)
+E/Parcel  (  481): Caused by: java.lang.NoClassDefFoundError: com/google/android/gms/location/LocationResult
+E/Parcel  (  481): 	... 15 more
+E/Parcel  (  481): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.google.android.gms.location.LocationResult" on path: DexPathList[[directory "."],nativeLibraryDirectories=[/system/lib]]
+E/Parcel  (  481): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+E/Parcel  (  481): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+E/Parcel  (  481): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+E/Parcel  (  481): 	... 15 more
+W/Intent  (  481): Failure filling in extras
+W/Intent  (  481): android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.google.android.gms.location.LocationResult
+W/Intent  (  481): 	at android.os.Parcel.readParcelableCreator(Parcel.java:2147)
+W/Intent  (  481): 	at android.os.Parcel.readParcelable(Parcel.java:2097)
+W/Intent  (  481): 	at android.os.Parcel.readValue(Parcel.java:2013)
+W/Intent  (  481): 	at android.os.Parcel.readArrayMapInternal(Parcel.java:2314)
+W/Intent  (  481): 	at android.os.Bundle.unparcel(Bundle.java:249)
+W/Intent  (  481): 	at android.os.Bundle.putAll(Bundle.java:330)
+W/Intent  (  481): 	at android.content.Intent.fillIn(Intent.java:6536)
+W/Intent  (  481): 	at com.android.server.am.PendingIntentRecord.sendInner(PendingIntentRecord.java:210)
+W/Intent  (  481): 	at com.android.server.am.PendingIntentRecord.send(PendingIntentRecord.java:192)
+W/Intent  (  481): 	at android.content.IIntentSender$Stub.onTransact(IIntentSender.java:64)
+W/Intent  (  481): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Intent  (  481): 	at dalvik.system.NativeStart.run(Native Method)
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r17 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:8
+E/Parcel  (  481): Class not found when unmarshalling: com.google.android.gms.location.LocationAvailability
+E/Parcel  (  481): java.lang.ClassNotFoundException: com.google.android.gms.location.LocationAvailability
+E/Parcel  (  481): 	at java.lang.Class.classForName(Native Method)
+E/Parcel  (  481): 	at java.lang.Class.forName(Class.java:251)
+E/Parcel  (  481): 	at java.lang.Class.forName(Class.java:216)
+E/Parcel  (  481): 	at android.os.Parcel.readParcelableCreator(Parcel.java:2133)
+E/Parcel  (  481): 	at android.os.Parcel.readParcelable(Parcel.java:2097)
+E/Parcel  (  481): 	at android.os.Parcel.readValue(Parcel.java:2013)
+E/Parcel  (  481): 	at android.os.Parcel.readArrayMapInternal(Parcel.java:2314)
+E/Parcel  (  481): 	at android.os.Bundle.unparcel(Bundle.java:249)
+E/Parcel  (  481): 	at android.os.Bundle.putAll(Bundle.java:330)
+E/Parcel  (  481): 	at android.content.Intent.fillIn(Intent.java:6536)
+E/Parcel  (  481): 	at com.android.server.am.PendingIntentRecord.sendInner(PendingIntentRecord.java:210)
+E/Parcel  (  481): 	at com.android.server.am.PendingIntentRecord.send(PendingIntentRecord.java:192)
+E/Parcel  (  481): 	at android.content.IIntentSender$Stub.onTransact(IIntentSender.java:64)
+E/Parcel  (  481): 	at android.os.Binder.execTransact(Binder.java:404)
+E/Parcel  (  481): 	at dalvik.system.NativeStart.run(Native Method)
+E/Parcel  (  481): Caused by: java.lang.NoClassDefFoundError: com/google/android/gms/location/LocationAvailability
+E/Parcel  (  481): 	... 15 more
+E/Parcel  (  481): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.google.android.gms.location.LocationAvailability" on path: DexPathList[[directory "."],nativeLibraryDirectories=[/system/lib]]
+E/Parcel  (  481): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+E/Parcel  (  481): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+E/Parcel  (  481): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+E/Parcel  (  481): 	... 15 more
+W/Intent  (  481): Failure filling in extras
+W/Intent  (  481): android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.google.android.gms.location.LocationAvailability
+W/Intent  (  481): 	at android.os.Parcel.readParcelableCreator(Parcel.java:2147)
+W/Intent  (  481): 	at android.os.Parcel.readParcelable(Parcel.java:2097)
+W/Intent  (  481): 	at android.os.Parcel.readValue(Parcel.java:2013)
+W/Intent  (  481): 	at android.os.Parcel.readArrayMapInternal(Parcel.java:2314)
+W/Intent  (  481): 	at android.os.Bundle.unparcel(Bundle.java:249)
+W/Intent  (  481): 	at android.os.Bundle.putAll(Bundle.java:330)
+W/Intent  (  481): 	at android.content.Intent.fillIn(Intent.java:6536)
+W/Intent  (  481): 	at com.android.server.am.PendingIntentRecord.sendInner(PendingIntentRecord.java:210)
+W/Intent  (  481): 	at com.android.server.am.PendingIntentRecord.send(PendingIntentRecord.java:192)
+W/Intent  (  481): 	at android.content.IIntentSender$Stub.onTransact(IIntentSender.java:64)
+W/Intent  (  481): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Intent  (  481): 	at dalvik.system.NativeStart.run(Native Method)
+D/dalvikvm(22623): GC_FOR_ALLOC freed 397K, 10% free 5449K/6020K, paused 7ms, total 10ms
+I/dalvikvm-heap(22623): Grow heap (frag case) to 5.988MB for 635808-byte allocation
+D/dalvikvm(22623): GC_FOR_ALLOC freed 1K, 9% free 6068K/6644K, paused 5ms, total 5ms
+W/NetworkManagementSocketTagger(  481): setKernelCountSet(10017, 0) failed with errno -13
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$i0 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:44
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r14 = virtualinvoke $r8.<java.net.HttpURLConnection: java.lang.String getResponseMessage()>()	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r10 = virtualinvoke $r8.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$l1 = virtualinvoke $r8.<java.net.HttpURLConnection: long getLastModified()>()	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$i0 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r19 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): URLConn;%;2;%;<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>;%;$r19 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://device-api.urbanairship.com/api/channels/;%;true;%;301;%;Not found;%;Wed, 18 Apr 2018 04:42:22 GMT;%;Not found;%;Not found
+I/System.out(22623): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+E/Go Metro - UALib(22623): Failed to register with channel ID: null channel location: null
+I/Go Metro - UALib(22623): IntentReceiver - Received intent with action: com.urbanairship.push.CHANNEL_UPDATED
+I/IntentReceiver(22623): Channel registration failed.
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  481): Input event injection from pid 22613 failed.
+W/InputManager(  481): Input event injection from pid 22613 failed.
+W/InputManager(  481): Input event injection from pid 22613 failed.
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4afac4f0 attribute=null, token = android.os.BinderProxy@4a9fbfdc
+W/InputManager(  481): Input event injection from pid 22613 failed.
+W/InputManager(  481): Input event injection from pid 22613 failed.
+D/dalvikvm(  481): GC_EXPLICIT freed 2458K, 52% free 15813K/32844K, paused 0ms+3ms, total 19ms
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296473, downTime=1296473, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296499, downTime=1296499, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4b0c7ad4 attribute=null, token = android.os.BinderProxy@4a9fbfdc
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296529, downTime=1296529, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296531, downTime=1296531, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_1, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296532, downTime=1296532, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4af79bb8 attribute=null, token = android.os.BinderProxy@4a9fbfdc
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 22623
+W/PhoneFallbackEventHandler(22623): No activity found for android.intent.action.CALL_BUTTON.
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4adef288 attribute=null, token = android.os.BinderProxy@4a9fbfdc
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296619, downTime=1296619, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296622, downTime=1296622, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296623, downTime=1296623, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=1296630, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1296630, downTime=1296628, deviceId=0, source=0x10004 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PAGE_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296630, downTime=1296630, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUM_LOCK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296631, downTime=1296631, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac584a4 attribute=null, token = android.os.BinderProxy@4a9fbfdc
+W/WindowManager(  481): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  534): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296675, downTime=1296675, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  534): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1296677, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(  534): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296677, downTime=1296677, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  534): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296686, downTime=1296686, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  481): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aafdf70 (uid=10103 pid=22623)
+W/InputEventReceiver(  534): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  534): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  534): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl(  534): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=16.28215, y[0]=-568.8463, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1296721, downTime=1296720, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  534): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=24.903282, y[0]=-576.88416, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1296721, downTime=1296720, deviceId=0, source=0x1002 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=0.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1296744, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296744, downTime=1296744, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296751, downTime=1296751, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a86fdac attribute=null, token = android.os.BinderProxy@4a9fbfdc
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296804, downTime=1296804, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296808, downTime=1296808, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296809, downTime=1296809, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ZOOM_IN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296810, downTime=1296810, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296811, downTime=1296811, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_SUBTRACT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296812, downTime=1296812, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296813, downTime=1296813, deviceId=-1, source=0x101 }
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  534): animationTick called with dtms=-1; nothing to do (h=0.0 v=-0.0)
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296814, downTime=1296814, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296817, downTime=1296817, deviceId=-1, source=0x101 }
+W/InputEventReceiver(22623): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUM, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296835, downTime=1296835, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a95e168 attribute=null, token = android.os.BinderProxy@4a9fbfdc
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab47f7c attribute=null, token = android.os.BinderProxy@4a9fbfdc
+I/ActivityManager(  481): START u0 {cmp=com.gometro/.ScreenDisclaimer} from pid 22623
+W/InputManager(  481): Input event injection from pid 22613 failed.
+W/InputManager(  481): Input event injection from pid 22613 failed.
+V/WebViewChromium(22623): Binding Chromium to the background looper Looper (main, tid 1) {4a76904c}
+I/chromium(22623): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain(22623): Initializing chromium process, renderers=0
+W/chromium(22623): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/dalvikvm(22623): GC_FOR_ALLOC freed 309K, 6% free 6379K/6752K, paused 3ms, total 3ms
+I/dalvikvm-heap(22623): Grow heap (frag case) to 7.770MB for 1552300-byte allocation
+D/dalvikvm(22623): GC_CONCURRENT freed 7K, 5% free 7887K/8268K, paused 1ms+0ms, total 3ms
+D/dalvikvm(22623): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm(22623): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm(22623): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm(22623): GC_FOR_ALLOC freed 30K, 5% free 7886K/8268K, paused 4ms, total 4ms
+I/dalvikvm-heap(22623): Grow heap (frag case) to 9.242MB for 1552300-byte allocation
+D/dalvikvm(22623): GC_FOR_ALLOC freed <1K, 4% free 9402K/9784K, paused 4ms, total 4ms
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=1296989, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1296989, downTime=1296989, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_SUBTRACT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1297008, downTime=1297008, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): Displayed com.gometro/.ScreenDisclaimer: +143ms
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1297031, downTime=1297031, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/UnimplementedWebViewApi(22623): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(22623): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(22623): nativeOnDraw failed; clearing to background color.
+I/chromium(22623): [INFO:simple_index_file.cc(397)] Simple Cache Index is being restored from disk.
+D/dalvikvm(22623): GC_FOR_ALLOC freed 315K, 6% free 10023K/10596K, paused 4ms, total 4ms
+D/dalvikvm(22623): GC_FOR_ALLOC freed 485K, 6% free 11425K/12112K, paused 5ms, total 5ms
+D/dalvikvm(22623): GC_CONCURRENT freed 1988K, 15% free 12284K/14340K, paused 1ms+1ms, total 7ms
+D/dalvikvm(22623): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/StopsProvider(22623): data[{"stamp":2147483647,"phone":"(323) 777-2067","lon":-118.265,"pub_date":"2015-01-15 00:00:18","zipcode":"90061","state":"CA","city":"Los Angeles","id":1,"category":{"description":"TAP Vendors","name":"tapvendors"},"address":"11151 Avalon Blvd. Suite #108","description":null,"name":"1% Check Cashing","features":[{"description":"Metro Passes","name":"metro_passes"},{"description":"Rider Relief Coupons","name":"rrtp_coupons"},{"description":"CTC Coupons","name":"ctc_coupons"}],"active":true,"categories":[{"description":"TAP Vendors","name":"tapvendors"}],"comment":"","lat":33.9337},{"stamp":2147483647,"phone":"(818) 241-0608","lon":-118.247,"pub_date":"2015-01-15 00:00:18","zipcode":"91206","state":"CA","city":"Glendale","id":2,"category":{"description":"TAP Vendors","name":"tapvendors"},"address":"106 N. Glendale Ave.","description":null,"name":"A TO Z CHECK CASHING","features":[{"description":"Rider Relief Coupons","name":"rrtp_coupons"},{"description":"CTC Coupons","name":"ctc_coupons"},{"description":"Metro Passes","name":"metro_passes"}],"active":true,"categories":[{"description":"TAP Vendors","name":"tapvendors"}],"comment":"","lat":34.1466},{"stamp":2147483647,"phone":"(323) 734-3117","lon":-118.291,"pub_date":"2015-01-15 00:00:18","zipcode":"90007","state":"CA","city":"Los Angeles","id":3,"category":{"description":"TAP Vendors","name":"tapvendors"},"address":"2404 S. Vermont Ave.","description":null,"name":"Aloha Market","features":[{"description":"Rider Relief Coupons","name":"rrtp_coupons"},{"description":"CTC Coupons","name":"ctc_coupons"},{"description":"Metro Passes","name":"metro_passes"}],"active":true,"categories":[{"description":"TAP Vendors","name":"tapvendors"}],"comment":"","lat":34.0342},{"stamp":2147483647,"phone":"(562) 633-9542","lon":-118.151,"pub_date":"2015-01-15 00:00:18","zipcode":"90746","state":"CA","city":"Paramount","id":4,"category":{"description":"TAP Vendors","name":"tapvendors"},"address":"15920 Downey Ave.","description":null,"name":"Alondra Quick Check","features":[{"description":"Metro Passes","name":"metro_passes"},{"description":"Long Beach Transit Passes","name":"longbeachtransit_passes"},{"description":"Rider Relief Coupons","name":"rrtp_coupons"},{"description":"CTC Coupons","name":"ctc_coupons"}],"active":true,"categories":[{"description":"TAP Vendors","name":"tapvendors"}],"comment":"","lat":33.8885},{"stamp":2147483647,"phone":"(310) 671-1505","lon":-118.348,"pub_date":"2015-01-15 00:00:18","zipcode":"90304","state":"CA","city":"Inglewood","id":5,"category":{"description":"TAP Vendors","name":"tapvendors"},"address":"4147 W. Century Blvd.","description":null,"name":"Avalon Check Cashing","features":[{"description":"Metro Passes","name":"metro_passes"},{"description":"Rider Relief Coupons","name":"rrtp_coupons"},{"description":"CTC Coupons","name":"ctc_coupons"}],"active":true,"categories":[{"description":"TAP Vendors","name":"tapvendors"}],"comment":"","lat":33.9457},{"stamp":2147483647,"phone":"(310) 412-0300","lon":-118.344,"pub_date":"2015-01-15 00:00:18","zipcode":"90301","state":"CA","city":"Inglewood","id":6,"category":{"description":"TAP Vendors","name":"tapvendors"},"address":"11050 S. Prairie Ave.","description":null,"name":"Avalon Check Cashing #2","features":[{"description":"Rider Relief Coupons","name":"rrtp_coupons"},{"description":"CTC Coupons","name":"ctc_coupons"},{"description":"Metro Passes","name":"metro_passes"}],"active":true,"categories":[{"description":"TAP Vendors","name":"tapvendors"}],"comment":"","lat":33.9354},{"stamp":2147483647,"phone":"(323) 777-7900","lon":-118.274,"pub_date":"2015-01-15 00:00:18","zipcode":"90003","state":"CA","city":"Los Angeles","id":7,"category":{"description":"TAP Vendors","name":"tapvendors"},"address":"105 W. Century Blvd.","description":null,"name":"Avalon Check Cashing #3","features":[{"description":"Metro Passes","name":"metro_passes"},{"description":"Rider Relief Coupons","name":"rrtp_coupons"},{"description":"CTC Coupons","name":"ctc_coupons"}],"active":true,"categories":[{"des
+W/Go Metro - UALib(22623): Activity com.gometro.ScreenSplash@4a7b0ff4 was not manually added during onStart(). Call Analytics.activityStarted(this) in every activity's onStart() method.
+D/dalvikvm(22623): GC_CONCURRENT freed 2124K, 15% free 13329K/15516K, paused 2ms+2ms, total 14ms
+D/dalvikvm(22623): WAIT_FOR_CONCURRENT_GC blocked 3ms
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1297521, downTime=1297521, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  481): Input event injection from pid 22613 failed.
+W/InputManager(  481): Input event injection from pid 22613 failed.
+W/InputManager(  481): Input event injection from pid 22613 failed.
+W/InputManager(  481): Input event injection from pid 22613 failed.
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab019c8 attribute=null, token = android.os.BinderProxy@4a9b8d7c
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gometro/.ScreenSplash} from pid 22613
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gometro/.ScreenSplash} from pid 22613
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9713f0 attribute=null, token = android.os.BinderProxy@4a9b8d7c
+D/HttpHelper(22623): requstUrl:http://54.241.23.171:8080/gometro/api/getGometrodbVersion
+D/StopsProvider(22623): server version:86
+D/StopsProvider(22623): Mobile version:41
+V/MetroHelper(22623): internal: /data/data/com.gometro/databases/GoMetroDB.db
+V/MetroHelper(22623): external: /storage/emulated/0/Android/data/com.gometro/files/GoMetroDB.db
+V/MetroHelper(22623): download: /storage/emulated/0/Android/data/com.gometro/files/
+V/MetroHelper(22623): switch: NOT_INSTALLED
+V/MetroHelper(22623): starting db copy
+V/MetroHelper(22623): DBManager sendStatus: 1
+I/System.out(22623): body:<com.gometro.providers.MetroHelper: void downloadDBFromServer(java.lang.String)>	sig:specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r8)	timediff:0
+I/System.out(22623): <com.gometro.providers.MetroHelper: void downloadDBFromServer(java.lang.String)>###specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r8)###http://54.241.23.171:8080/gometro/file/getGometrodb
+I/System.out(22623): body:<com.gometro.providers.MetroHelper: void downloadDBFromServer(java.lang.String)>	sig:$r10 = virtualinvoke $r6.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(22623): body:<com.gometro.providers.MetroHelper: void downloadDBFromServer(java.lang.String)>	sig:$r12 = virtualinvoke $r11.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:17
+I/System.out(22623): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22623): URLConn;%;3;%;<com.gometro.providers.MetroHelper: void downloadDBFromServer(java.lang.String)>;%;$r12 = virtualinvoke $r11.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://54.241.23.171:8080/gometro/file/getGometrodb;%;false;%;11024832;%;Not found;%;Wed, 25 Apr 2018 04:42:23 GMT;%;Not found;%;Not found
+V/MetroHelper(22623): Path /storage/emulated/0/Android/data/com.gometro/files/GoMetroDB.zip
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1297768, downTime=1297768, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac5a208 attribute=android.view.inputmethod.EditorInfo@4a918854, token = android.os.BinderProxy@4a9b8d7c
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1297952, downTime=1297952, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1297972, downTime=1297972, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4adc877c attribute=null, token = android.os.BinderProxy@4a9b8d7c
+I/WearableService(  624): Wearable Services stopping
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1298468, downTime=1298468, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa46820 attribute=android.view.inputmethod.EditorInfo@4aa1fbcc, token = android.os.BinderProxy@4a9b8d7c
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 481
+D/dalvikvm(  719): GC_CONCURRENT freed 2263K, 45% free 9405K/16984K, paused 1ms+3ms, total 20ms
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_4, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1298799, downTime=1298799, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa18c4c attribute=null, token = android.os.BinderProxy@4a9b8d7c
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1298866, downTime=1298866, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gometro/.ScreenSplash} from pid 22613
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9e4338 attribute=android.view.inputmethod.EditorInfo@4aa48f6c, token = android.os.BinderProxy@4a9b8d7c
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1298961, downTime=1298961, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4adef31c attribute=android.view.inputmethod.EditorInfo@4b03aa94, token = android.os.BinderProxy@4a9b8d7c
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 481
+D/dalvikvm(22623): GC_FOR_ALLOC freed 2420K, 22% free 12192K/15516K, paused 5ms, total 5ms
+I/dalvikvm-heap(22623): Grow heap (frag case) to 13.447MB for 1552300-byte allocation
+D/dalvikvm(22623): GC_FOR_ALLOC freed <1K, 20% free 13708K/17032K, paused 6ms, total 6ms
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gometro/.ScreenSplash} from pid 22613
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1299731, downTime=1299731, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1299738, downTime=1299738, deviceId=-1, source=0x101 }
+W/InputManager(  481): Input event injection from pid 22613 failed.
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_INPUT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1299767, downTime=1299767, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a99e530 attribute=android.view.inputmethod.EditorInfo@4b0ed3dc, token = android.os.BinderProxy@4a9b8d7c
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1299825, downTime=1299825, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1299827, downTime=1299827, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1299829, downTime=1299829, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1299831, downTime=1299831, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1299835, downTime=1299835, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gometro/.ScreenSplash} from pid 22613
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a98ac18 attribute=android.view.inputmethod.EditorInfo@4afc921c, token = android.os.BinderProxy@4a9b8d7c
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1299918, downTime=1299918, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1299939, downTime=1299939, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gometro/.ScreenSplash} from pid 22613
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a980e74 attribute=android.view.inputmethod.EditorInfo@4add1c80, token = android.os.BinderProxy@4a9b8d7c
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_N, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300075, downTime=1300075, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300077, downTime=1300077, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300080, downTime=1300080, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300081, downTime=1300081, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300088, downTime=1300088, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab111b4 attribute=null, token = android.os.BinderProxy@4a9b8d7c
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_1, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300142, downTime=1300142, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MOVE_END, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300142, downTime=1300142, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300145, downTime=1300145, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300146, downTime=1300146, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_STOP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300147, downTime=1300147, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300148, downTime=1300148, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300151, downTime=1300151, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a96f2ac attribute=android.view.inputmethod.EditorInfo@4b0c6320, token = android.os.BinderProxy@4a9b8d7c
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gometro/.ScreenSplash} from pid 22613
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_AVR_INPUT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300301, downTime=1300301, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=2.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1300311, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1300312, downTime=1300310, deviceId=0, source=0x10004 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300388, downTime=1300388, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aafab94 attribute=android.view.inputmethod.EditorInfo@4ab4b7d8, token = android.os.BinderProxy@4a9b8d7c
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 481
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300555, downTime=1300555, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CAPS_LOCK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300557, downTime=1300557, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300558, downTime=1300558, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=1300562, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1300562, downTime=1300561, deviceId=0, source=0x10004 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300563, downTime=1300563, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_COMMA, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300564, downTime=1300564, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1300566, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1300566, downTime=1300565, deviceId=0, source=0x10004 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300569, downTime=1300569, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a958214 attribute=android.view.inputmethod.EditorInfo@4b0eb874, token = android.os.BinderProxy@4a9b8d7c
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 481
+W/ViewRootImpl(22623): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=6, eventTime=1300672, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300673, downTime=1300673, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=1300719, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUM_LOCK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300720, downTime=1300720, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9fb9fc attribute=android.view.inputmethod.EditorInfo@4aa35164, token = android.os.BinderProxy@4a9b8d7c
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gometro/.ScreenSplash} from pid 22613
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SEARCH, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300810, downTime=1300810, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300812, downTime=1300812, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a941590 attribute=null, token = android.os.BinderProxy@4a9b8d7c
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gometro/.ScreenSplash} from pid 22613
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ZOOM_OUT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300923, downTime=1300923, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9349a4 attribute=android.view.inputmethod.EditorInfo@4b0fb000, token = android.os.BinderProxy@4a9b8d7c
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300927, downTime=1300927, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1300931, downTime=1300931, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9a5b8c attribute=android.view.inputmethod.EditorInfo@4a9bf61c, token = android.os.BinderProxy@4a9b8d7c
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1301027, downTime=1301027, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1301030, downTime=1301030, deviceId=-1, source=0x101 }
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1301031, downTime=1301031, deviceId=-1, source=0x101 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4b116a00 attribute=android.view.inputmethod.EditorInfo@4b119760, token = android.os.BinderProxy@4a9b8d7c
+I/ActivityManager(  481): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 534
+W/ViewRootImpl(22623): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=6, eventTime=1301160, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation(22623): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(22623): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1301164, downTime=1301164, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8fb3d8 attribute=null, token = android.os.BinderProxy@4a9b8d7c
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/Process (22623): Sending signal. PID: 22623 SIG: 9
+W/InputDispatcher(  481): channel '4aafe09c com.gometro/com.gometro.ScreenSplash (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  481): channel '4aafe09c com.gometro/com.gometro.ScreenSplash (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/InputDispatcher(  481): channel '4a9d1f2c com.gometro/com.gometro.ScreenDisclaimer (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  481): channel '4a9d1f2c com.gometro/com.gometro.ScreenDisclaimer (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/NetworkManagementSocketTagger(  481): setKernelCountSet(10103, 0) failed with errno -13
+I/ActivityManager(  481): moveTaskToBack: 180
+I/ActivityManager(  481): Process com.gometro (pid 22623) has died.
+W/InputDispatcher(  481): Attempted to unregister already unregistered input channel '4aafe09c com.gometro/com.gometro.ScreenSplash (server)'
+W/InputDispatcher(  481): Attempted to unregister already unregistered input channel '4a9d1f2c com.gometro/com.gometro.ScreenDisclaimer (server)'
+I/WindowState(  481): WIN DEATH: Window{4aafe09c u0 com.gometro/com.gometro.ScreenSplash}
+I/WindowState(  481): WIN DEATH: Window{4a9d1f2c u0 com.gometro/com.gometro.ScreenDisclaimer}
+I/WindowState(  481): WIN DEATH: Window{4aa213f0 u0 AtchDlg:com.gometro/com.gometro.ScreenDisclaimer EXITING}
+I/ActivityManager(  481): Start proc com.gometro for activity com.gometro/.ScreenSplash: pid=22768 uid=10103 gids={50103, 3003, 1028, 1015, 1023, 3002, 3001}
+W/NetworkManagementSocketTagger(  481): setKernelCountSet(10103, 1) failed with errno -13
+I/dalvikvm(22768): ignoring registerObject request in thread=1
+I/dalvikvm(22768): ignoring registerObject request in thread=1
+D/StopsProvider(22768): provider oncreate running.......
+D/MetroLocalHelper(22768): DB already existes
+V/MetroLocalHelper(22768): isOldDBdelected:true
+I/InputDispatcher(  481): Dropped event because of pending overdue app switch.
+W/InputManager(  481): Input event injection from pid 22613 failed.
+V/local data base(22768): closed
+I/Go Metro - UALib(22768): Airship taking off!
+I/Go Metro - UALib(22768): Airship log level: 3
+I/Go Metro - UALib(22768): UA Version: 6.0.2 / App key = 0bryKBKuRgqT-rErwFbgJA Production = false
+D/dalvikvm(22768): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(22768): GC_CONCURRENT freed 212K, 9% free 2961K/3240K, paused 2ms+1ms, total 4ms
+D/Go Metro - UALib(22768): Analytics - New session: 2f643d13-0b72-4de1-a43e-0fcf0479d494
+D/HttpHelper(22768): requstUrl:http://54.241.23.171:8080/gometro/api/getStaticContentVersion
+E/Go Metro - UALib(22768): Required permission com.gometro.permission.C2D_MESSAGE is unknown to PackageManager.
+I/dalvikvm(22768): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zza
+W/dalvikvm(22768): VFY: unable to resolve virtual method 383: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm(22768): VFY: replacing opcode 0x6e at 0x00f0
+I/dalvikvm(22768): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zzh
+W/dalvikvm(22768): VFY: unable to resolve virtual method 723: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(22768): VFY: replacing opcode 0x6e at 0x000a
+D/Go Metro - UALib(22768): RichPushManager - Starting update service.
+I/Go Metro - UALib(22768): Airship ready!
+E/Go Metro - UALib(22768): You can only call takeOff() once.
+D/dalvikvm(22768): GC_CONCURRENT freed 251K, 10% free 3112K/3428K, paused 2ms+2ms, total 7ms
+D/dalvikvm(22768): GC_FOR_ALLOC freed 5K, 10% free 3110K/3428K, paused 2ms, total 2ms
+I/dalvikvm-heap(22768): Grow heap (frag case) to 4.563MB for 1536012-byte allocation
+D/dalvikvm(22768): GC_FOR_ALLOC freed <1K, 7% free 4610K/4932K, paused 3ms, total 3ms
+V/DownloadStaticData(22768): server static data version:9
+D/dalvikvm(22768): GC_CONCURRENT freed 65K, 8% free 4838K/5208K, paused 0ms+1ms, total 3ms
+D/Go Metro - UALib(22768): Analytics - New session: 47fe709e-5910-404a-8bc8-c1ee06a02152
+D/dalvikvm(22768): GC_CONCURRENT freed 337K, 8% free 5082K/5480K, paused 2ms+1ms, total 6ms
+I/Go Metro - UALib(22768): Creating Rich Push user.
+W/dalvikvm(22768): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(22768): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(22768): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(22768): VFY: unable to resolve virtual method 60305: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(22768): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(22768): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(22768): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(22768): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(22768): VFY: unable to resolve interface method 60299: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(22768): VFY: replacing opcode 0x72 at 0x0006
+D/Go Metro - UALib(22768): Analytics - Added event: app_foreground: {"data":{"time_zone":-25200,"session_id":"47fe709e-5910-404a-8bc8-c1ee06a02152","daylight_savings":false,"notification_types":["sound","vibrate"],"carrier":"T-Mobile","lib_version":"6.0.2","connection_type":"wifi","os_version":"4.4.2","package_version":"3.4.4"},"type":"app_foreground","event_id":"f167f000-dc2d-404c-8070-f6324f34c1dd","time":"1524026547.718"}
+I/System.out(22768): body:<com.urbanairship.richpush.UserAPIClient: java.net.URL getUserURL(java.lang.String,java.lang.Object[])>	sig:specialinvoke $r8.<java.net.URL: void <init>(java.lang.String)>($r4)	timediff:1
+I/System.out(22768): <com.urbanairship.richpush.UserAPIClient: java.net.URL getUserURL(java.lang.String,java.lang.Object[])>###specialinvoke $r8.<java.net.URL: void <init>(java.lang.String)>($r4)###https://device-api.urbanairship.com/api/user/
+I/System.out(22768): body:<com.urbanairship.push.ChannelAPIClient: void <init>(com.urbanairship.http.RequestFactory)>	sig:specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r6)	timediff:0
+I/System.out(22768): <com.urbanairship.push.ChannelAPIClient: void <init>(com.urbanairship.http.RequestFactory)>###specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r6)###https://device-api.urbanairship.com/api/channels/
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r6 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:13
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r9)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r9)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r9, $r14)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r9, $r14)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r14, $r9)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r6 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:15
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r9)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r9)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r9, $r14)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r9, $r14)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r14, $r9)	timediff:0
+D/dalvikvm(22768): GC_CONCURRENT freed 540K, 11% free 5282K/5888K, paused 2ms+0ms, total 5ms
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r17 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:47
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$i0 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:5
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r14 = virtualinvoke $r8.<java.net.HttpURLConnection: java.lang.String getResponseMessage()>()	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r10 = virtualinvoke $r8.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$l1 = virtualinvoke $r8.<java.net.HttpURLConnection: long getLastModified()>()	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$i0 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r19 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): URLConn;%;0;%;<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>;%;$r19 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://device-api.urbanairship.com/api/channels/;%;true;%;301;%;Not found;%;Wed, 18 Apr 2018 04:42:27 GMT;%;Not found;%;Not found
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+E/Go Metro - UALib(22768): Failed to register with channel ID: null channel location: null
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r17 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:58
+D/Go Metro - UALib(22768): PushService - New or re-install. Skipping.
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r6 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r9)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r9)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r9, $r14)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r9, $r14)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r14, $r9)	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$i0 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:7
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r14 = virtualinvoke $r8.<java.net.HttpURLConnection: java.lang.String getResponseMessage()>()	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r10 = virtualinvoke $r8.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$l1 = virtualinvoke $r8.<java.net.HttpURLConnection: long getLastModified()>()	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$i0 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r19 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): URLConn;%;1;%;<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>;%;$r19 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://device-api.urbanairship.com/api/user/;%;true;%;297;%;Not found;%;Wed, 18 Apr 2018 04:42:27 GMT;%;Not found;%;Not found
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r17 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:11
+D/dalvikvm(22768): GC_CONCURRENT freed 733K, 14% free 5263K/6060K, paused 0ms+2ms, total 5ms
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$i0 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:45
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r14 = virtualinvoke $r8.<java.net.HttpURLConnection: java.lang.String getResponseMessage()>()	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r10 = virtualinvoke $r8.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$l1 = virtualinvoke $r8.<java.net.HttpURLConnection: long getLastModified()>()	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$i0 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r19 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): URLConn;%;2;%;<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>;%;$r19 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://device-api.urbanairship.com/api/channels/;%;true;%;301;%;Not found;%;Wed, 18 Apr 2018 04:42:27 GMT;%;Not found;%;Not found
+I/System.out(22768): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+E/Go Metro - UALib(22768): Failed to register with channel ID: null channel location: null
+D/libEGL  (22768): loaded /system/lib/egl/libEGL_adreno.so
+D/HttpHelper(22768): requstUrl:http://places.metro.net/api/category/tapvendors/meta/
+D/        (22768): HostConnection::get() New Host Connection established 0xb8940480, tid 22768
+D/libEGL  (22768): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (22768): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation(22768): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(22768): Enabling debug mode 0
+D/Go Metro - UALib(22768): RichPushManager - Starting update service.
+W/ViewRootImpl(22768): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1301572, downTime=1301572, deviceId=-1, source=0x101 }
+I/Go Metro - UALib(22768): IntentReceiver - Received intent with action: com.urbanairship.push.CHANNEL_UPDATED
+I/IntentReceiver(22768): Channel registration failed.
+W/Binder  (  612): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  612): java.lang.NullPointerException
+W/Binder  (  612): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  612): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  612): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  612): 	at dalvik.system.NativeStart.run(Native Method)
+W/ViewRootImpl(22768): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1302037, downTime=1302037, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  481): Got RemoteException sending setActive(false) notification to pid 22623 uid 10103
+I/Go Metro - UALib(22768): IntentReceiver - Received intent with action: com.urbanairship.push.CHANNEL_UPDATED
+I/IntentReceiver(22768): Channel registration failed.
+D/Go Metro - UALib(22768): RichPushUpdateService - User has not been created, canceling messages update
+I/ActivityManager(  481): Displayed com.gometro/.ScreenSplash: +674ms
+D/dalvikvm(22768): GC_FOR_ALLOC freed 243K, 12% free 5350K/6060K, paused 4ms, total 4ms
+I/dalvikvm-heap(22768): Grow heap (frag case) to 5.891MB for 635808-byte allocation
+D/dalvikvm(22768): GC_FOR_ALLOC freed 2K, 11% free 5968K/6684K, paused 4ms, total 4ms
+D/StopsProvider(22768): vendor server version2147483647
+D/HttpHelper(22768): requstUrl:http://54.241.23.171:8080/gometro/api/getGometrodbVersion
+D/StopsProvider(22768): server version:86
+D/StopsProvider(22768): Mobile version:41
+V/MetroHelper(22768): internal: /data/data/com.gometro/databases/GoMetroDB.db
+V/MetroHelper(22768): external: /storage/emulated/0/Android/data/com.gometro/files/GoMetroDB.db
+V/MetroHelper(22768): download: /storage/emulated/0/Android/data/com.gometro/files/
+V/MetroHelper(22768): switch: NOT_INSTALLED
+V/MetroHelper(22768): starting db copy
+V/MetroHelper(22768): DBManager sendStatus: 1
+I/System.out(22768): body:<com.gometro.providers.MetroHelper: void downloadDBFromServer(java.lang.String)>	sig:specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r8)	timediff:0
+I/System.out(22768): <com.gometro.providers.MetroHelper: void downloadDBFromServer(java.lang.String)>###specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r8)###http://54.241.23.171:8080/gometro/file/getGometrodb
+I/System.out(22768): body:<com.gometro.providers.MetroHelper: void downloadDBFromServer(java.lang.String)>	sig:$r10 = virtualinvoke $r6.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(22768): body:<com.gometro.providers.MetroHelper: void downloadDBFromServer(java.lang.String)>	sig:$r12 = virtualinvoke $r11.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:31
+I/System.out(22768): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(22768): URLConn;%;3;%;<com.gometro.providers.MetroHelper: void downloadDBFromServer(java.lang.String)>;%;$r12 = virtualinvoke $r11.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://54.241.23.171:8080/gometro/file/getGometrodb;%;false;%;11024832;%;Not found;%;Wed, 25 Apr 2018 04:42:28 GMT;%;Not found;%;Not found
+V/MetroHelper(22768): Path /storage/emulated/0/Android/data/com.gometro/files/GoMetroDB.zip
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gometro/.ScreenSplash} from pid 22613
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gometro/.ScreenSplash} from pid 22613
+I/AndroidRuntime(22613): VM exiting with result code 0.

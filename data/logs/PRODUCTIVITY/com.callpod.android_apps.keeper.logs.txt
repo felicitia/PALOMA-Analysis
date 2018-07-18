@@ -1,0 +1,513 @@
+--------- beginning of /dev/log/main
+I/Icing   (  700): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+D/dalvikvm(  700): GC_CONCURRENT freed 1904K, 43% free 9562K/16644K, paused 1ms+1ms, total 16ms
+D/dalvikvm(  700): WAIT_FOR_CONCURRENT_GC blocked 11ms
+I/Icing   (  700): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/AndroidRuntime(25524): 
+D/AndroidRuntime(25524): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(25524): CheckJNI is OFF
+D/dalvikvm(25524): Using executionMode 2
+D/dalvikvm(25524): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(25524): Added shared lib libjavacore.so 0x0
+D/dalvikvm(25524): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(25524): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(25524): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(25524): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(25524): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(25524): failed to load memtrack module: -2
+D/AndroidRuntime(25524): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  470): Skipping deliver [background] BroadcastRecord{4afd4674 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4af10fb4 25524 (unknown name)/0/u-1 remote:4aa3c224}: process crashing
+D/yeshen  (  656): launcher onpause
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.callpod.android_apps.keeper/.ResultsActivity} from pid 25524
+I/ActivityManager(  470): Start proc com.callpod.android_apps.keeper for activity com.callpod.android_apps.keeper/.ResultsActivity: pid=25534 uid=10079 gids={50079, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10079, 1) failed with errno -13
+I/dalvikvm(25534): ignoring registerObject request in thread=1
+I/dalvikvm(25534): ignoring registerObject request in thread=1
+I/MultiDex(25534): VM with version 1.6.0 does not have multidex support
+I/MultiDex(25534): install
+I/MultiDex(25534): MultiDexExtractor.load(/data/app/com.callpod.android_apps.keeper-1.apk, false)
+I/MultiDex(25534): Detected that extraction must be performed.
+D/dalvikvm(25534): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(25534): GC_CONCURRENT freed 183K, 8% free 3087K/3348K, paused 2ms+0ms, total 5ms
+I/MultiDex(25534): load found 0 secondary dex files
+I/MultiDex(25534): install done
+D/dalvikvm(25534): GC_CONCURRENT freed 149K, 7% free 3340K/3572K, paused 3ms+7ms, total 11ms
+I/dalvikvm(25534): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.zze.zzi
+W/dalvikvm(25534): VFY: unable to resolve virtual method 2492: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(25534): VFY: replacing opcode 0x6e at 0x000a
+I/GMPM    (25534): App measurement is starting up, version: 8487
+I/GMPM    (25534): To enable debug logging run: adb shell setprop log.tag.GMPM VERBOSE
+E/GMPM    (25534): GoogleService failed to initialize, status: 10, Missing an expected resource: 'R.string.google_app_id' for initializing Google services.  Possible causes are missing google-services.json or com.google.gms.google-services gradle plugin.
+E/GMPM    (25534): Scheduler not set. Not logging error/warn.
+E/GMPM    (25534): Uploading is not possible. App measurement disabled
+D/dalvikvm(25534): GC_CONCURRENT freed 775K, 23% free 2968K/3824K, paused 0ms+2ms, total 5ms
+W/AppEncryptionParams(25534): Can't create encryptionParams before master password is set
+W/GoogleTagManager(25534): Failed to extract the container from the resource file. Resource is a UTF-8 encoded string but doesn't contain a JSON container
+E/GoogleTagManager(25534): Invalid macro: _gtm.loadEventEnabled
+D/dalvikvm(25534): GC_CONCURRENT freed 251K, 17% free 3198K/3824K, paused 1ms+0ms, total 4ms
+W/dalvikvm(25534): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(25534): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(25534): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(25534): VFY: unable to resolve virtual method 40718: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(25534): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(25534): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(25534): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(25534): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(25534): VFY: unable to resolve interface method 40712: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(25534): VFY: replacing opcode 0x72 at 0x0006
+W/dalvikvm(25534): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm(25534): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method wt.onSearchRequested
+W/dalvikvm(25534): VFY: unable to resolve interface method 13140: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm(25534): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm(25534): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method wt.onWindowStartingActionMode
+W/dalvikvm(25534): VFY: unable to resolve interface method 13144: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm(25534): VFY: replacing opcode 0x72 at 0x0002
+I/System.out(25534): body:<com.google.android.gms.internal.zzru: java.net.HttpURLConnection zzgJ(java.lang.String)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(25534): <com.google.android.gms.internal.zzru: java.net.HttpURLConnection zzgJ(java.lang.String)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###https://www.googletagmanager.com/r?id=GTM-MMZNVZ&v=a65833898
+I/System.out(25534): body:<bpq: java.net.HttpURLConnection a(java.lang.String,int)>	sig:specialinvoke $r1.<java.net.URL: void <init>(java.lang.String)>($r0)	timediff:0
+I/System.out(25534): <bpq: java.net.HttpURLConnection a(java.lang.String,int)>###specialinvoke $r1.<java.net.URL: void <init>(java.lang.String)>($r0)###https://cloud.keepersecurity.com/static/gp-package-domain.json
+I/dalvikvm(25534): Could not find method android.view.View.setElevation, referenced from method bnf.e
+W/dalvikvm(25534): VFY: unable to resolve virtual method 12943: Landroid/view/View;.setElevation (F)V
+D/dalvikvm(25534): VFY: replacing opcode 0x6e at 0x0010
+I/dalvikvm(25534): Could not find method android.view.Window.setStatusBarColor, referenced from method bnf.f
+W/dalvikvm(25534): VFY: unable to resolve virtual method 13162: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(25534): VFY: replacing opcode 0x6e at 0x0032
+D/dalvikvm(25534): GC_FOR_ALLOC freed 147K, 17% free 3207K/3824K, paused 6ms, total 6ms
+I/dalvikvm-heap(25534): Grow heap (frag case) to 3.242MB for 39950-byte allocation
+D/dalvikvm(25534): GC_FOR_ALLOC freed 6K, 17% free 3240K/3864K, paused 2ms, total 2ms
+D/dalvikvm(25534): GC_FOR_ALLOC freed 1K, 17% free 3239K/3864K, paused 2ms, total 2ms
+I/dalvikvm-heap(25534): Grow heap (frag case) to 3.311MB for 79888-byte allocation
+D/dalvikvm(25534): GC_FOR_ALLOC freed <1K, 16% free 3316K/3944K, paused 4ms, total 4ms
+I/AppCompatViewInflater(25534): app:theme is now deprecated. Please move to using android:theme instead.
+I/dalvikvm(25534): Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.widget.TintTypedArray.getChangingConfigurations
+W/dalvikvm(25534): VFY: unable to resolve virtual method 2593: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+D/dalvikvm(25534): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm(25534): Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.widget.TintTypedArray.getType
+W/dalvikvm(25534): VFY: unable to resolve virtual method 2615: Landroid/content/res/TypedArray;.getType (I)I
+D/dalvikvm(25534): VFY: replacing opcode 0x6e at 0x0002
+I/System.out(25534): body:<com.google.android.gms.internal.zzru: java.net.HttpURLConnection zzgJ(java.lang.String)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:34
+I/System.out(25534): body:<com.google.android.gms.internal.zzru: java.net.HttpURLConnection zzgJ(java.lang.String)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setReadTimeout(int)>(20000)	timediff:0
+I/System.out(25534): body:<com.google.android.gms.internal.zzru: java.net.HttpURLConnection zzgJ(java.lang.String)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setConnectTimeout(int)>(20000)	timediff:0
+I/System.out(25534): body:<bpq: java.net.HttpURLConnection a(java.lang.String,int)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:35
+I/System.out(25534): body:<bpq: java.net.HttpURLConnection a(java.lang.String,int)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(0)	timediff:0
+I/System.out(25534): body:<bpq: java.net.HttpURLConnection a(java.lang.String,int)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r0)	timediff:0
+I/System.out(25534): body:<bpq: java.net.HttpURLConnection a(java.lang.String,int)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setConnectTimeout(int)>(30000)	timediff:0
+D/dalvikvm(25534): GC_FOR_ALLOC freed 179K, 13% free 3457K/3944K, paused 3ms, total 3ms
+I/System.out(25534): body:<bpq: java.net.HttpURLConnection a(java.lang.String,int)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:1
+I/System.out(25534): body:<bpq: void a(java.lang.String,int,java.io.OutputStream,int)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("GET")	timediff:0
+D/dalvikvm(25534): GC_FOR_ALLOC freed 16K, 13% free 3504K/4000K, paused 3ms, total 3ms
+I/dalvikvm-heap(25534): Grow heap (frag case) to 4.100MB for 635808-byte allocation
+D/dalvikvm(25534): GC_FOR_ALLOC freed <1K, 11% free 4125K/4624K, paused 4ms, total 4ms
+D/dalvikvm(25534): GC_CONCURRENT freed 21K, 12% free 4104K/4624K, paused 0ms+2ms, total 6ms
+I/dalvikvm(25534): Could not find method android.graphics.drawable.Drawable.setTint, referenced from method bqj.a
+W/dalvikvm(25534): VFY: unable to resolve virtual method 2941: Landroid/graphics/drawable/Drawable;.setTint (I)V
+D/dalvikvm(25534): VFY: replacing opcode 0x6e at 0x0019
+I/dalvikvm(25534): Could not find method android.graphics.drawable.Drawable.setTint, referenced from method bqj.a
+W/dalvikvm(25534): VFY: unable to resolve virtual method 2941: Landroid/graphics/drawable/Drawable;.setTint (I)V
+D/dalvikvm(25534): VFY: replacing opcode 0x6e at 0x0006
+D/dalvikvm(25534): GC_CONCURRENT freed 171K, 6% free 4380K/4632K, paused 1ms+1ms, total 4ms
+I/ActivityManager(  470): START u0 {cmp=com.callpod.android_apps.keeper/.registration.RegistrationActivity} from pid 25534
+I/dalvikvm(25534): Could not find method android.provider.Settings.canDrawOverlays, referenced from method atj.b
+W/dalvikvm(25534): VFY: unable to resolve static method 3317: Landroid/provider/Settings;.canDrawOverlays (Landroid/content/Context;)Z
+D/dalvikvm(25534): VFY: replacing opcode 0x71 at 0x0006
+E/GoogleConversionReporter(25534): Failed to register referrer from a null click url
+D/dalvikvm(25534): GC_CONCURRENT freed 483K, 12% free 4407K/4968K, paused 1ms+2ms, total 7ms
+D/yeshen  (  656): launcher onstop
+I/dalvikvm(25562): ignoring registerObject request in thread=1
+I/dalvikvm(25562): ignoring registerObject request in thread=1
+I/dalvikvm(25534): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zza
+W/dalvikvm(25534): VFY: unable to resolve virtual method 2146: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm(25534): VFY: replacing opcode 0x6e at 0x0100
+D/FirebaseApp(  656): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  656): onTrimMemory level:20
+W/DebugConnManager(  656): getNetworkInfo() on networkType 1
+I/ActivityManager(  470): Start proc com.callpod.android_apps.keeper:fastfill_service for service com.callpod.android_apps.keeper/.fastfill.proxy.fastfilltomain.FastFillBoundService: pid=25562 uid=10079 gids={50079, 3003, 1028, 1015, 1023}
+I/MultiDex(25562): VM with version 1.6.0 does not have multidex support
+I/MultiDex(25562): install
+I/MultiDex(25562): MultiDexExtractor.load(/data/app/com.callpod.android_apps.keeper-1.apk, false)
+I/System.out(25534): body:<com.google.android.gms.internal.zzru: java.io.InputStream zzd(java.net.HttpURLConnection)>	sig:$i0 = virtualinvoke $r1.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:91
+I/System.out(25534): body:<com.google.android.gms.internal.zzru: java.io.InputStream zzd(java.net.HttpURLConnection)>	sig:$r2 = virtualinvoke $r1.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): URLConn;%;0;%;<com.google.android.gms.internal.zzru: java.io.InputStream zzd(java.net.HttpURLConnection)>;%;$r2 = virtualinvoke $r1.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://www.googletagmanager.com/r?id=GTM-MMZNVZ&v=a65833898;%;false;%;Not found;%;private, max-age=900;%;Wed, 18 Apr 2018 06:27:25 GMT;%;Not found;%;Not found
+I/MultiDex(25562): loading existing secondary dex files
+I/MultiDex(25562): load found 0 secondary dex files
+I/MultiDex(25562): install done
+W/AppEncryptionParams(25562): Can't create encryptionParams before master password is set
+D/dalvikvm(25534): GC_CONCURRENT freed 312K, 9% free 4535K/4968K, paused 2ms+0ms, total 7ms
+I/System.out(25534): body:<bpq: void a(java.lang.String,int,java.io.OutputStream,int)>	sig:$i2 = virtualinvoke $r4.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:102
+I/System.out(25534): body:<bpq: void a(java.lang.String,int,java.io.OutputStream,int)>	sig:$r5 = virtualinvoke $r4.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): URLConn;%;1;%;<bpq: void a(java.lang.String,int,java.io.OutputStream,int)>;%;$r5 = virtualinvoke $r4.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://cloud.keepersecurity.com/static/gp-package-domain.json;%;false;%;128;%;Not found;%;Not found;%;77103;%;Not found
+I/System.out(25534): body:<bpr: void a(java.net.HttpURLConnection)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+E/SurfaceFlinger(  166): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  166): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/dalvikvm(25534): GC_CONCURRENT freed 475K, 11% free 4532K/5088K, paused 2ms+0ms, total 6ms
+D/SurfaceFlinger(  166): setOrientation, mFbdev=0xb78d4da0, mFbDev->setOrientation=0xb69b9ce0, orientation=3
+I/gralloc_nox(  166): setOrientation: orientation=3
+I/InputReader(  470): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  470): Device reconfigured: id=1, name='seamless mouse', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  470): Device reconfigured: id=3, name='Android Input', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  470): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 3, mode 1, display id 0
+I/ActivityManager(  470): Config changes=480 {1.0 ?mcc?mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.59}
+D/dalvikvm(25534): GC_CONCURRENT freed 459K, 11% free 4529K/5088K, paused 1ms+0ms, total 9ms
+D/Tinker.DefaultAppLike(  656): onConfigurationChanged:{1.0 ?mcc?mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.59}
+D/Sensors (  470): Client connection accepted (191)
+D/dalvikvm(  528): GC_FOR_ALLOC freed 7249K, 55% free 9901K/21844K, paused 2ms, total 4ms
+I/dalvikvm(25534): Could not find method android.view.Window.setStatusBarColor, referenced from method com.callpod.android_apps.keeper.registration.RegistrationActivity.J
+W/dalvikvm(25534): VFY: unable to resolve virtual method 13162: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(25534): VFY: replacing opcode 0x6e at 0x003d
+I/dalvikvm-heap(  528): Grow heap (frag case) to 13.259MB for 3686412-byte allocation
+D/dalvikvm(  528): GC_FOR_ALLOC freed 3K, 47% free 13497K/25448K, paused 6ms, total 6ms
+D/dalvikvm(  528): GC_CONCURRENT freed <1K, 47% free 13499K/25448K, paused 2ms+1ms, total 5ms
+D/dalvikvm(25534): GC_CONCURRENT freed 424K, 2% free 5022K/5120K, paused 2ms+0ms, total 23ms
+I/System.out(25534): body:<bpq: java.net.HttpURLConnection a(java.lang.String,int)>	sig:specialinvoke $r1.<java.net.URL: void <init>(java.lang.String)>($r0)	timediff:0
+I/System.out(25534): <bpq: java.net.HttpURLConnection a(java.lang.String,int)>###specialinvoke $r1.<java.net.URL: void <init>(java.lang.String)>($r0)###https://cloud.keepersecurity.com/themes/android/drawable-large-hdpi/bg_vault.jpg
+I/System.out(25534): body:<bpq: java.net.HttpURLConnection a(java.lang.String,int)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(25534): body:<bpq: java.net.HttpURLConnection a(java.lang.String,int)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(0)	timediff:0
+I/System.out(25534): body:<bpq: java.net.HttpURLConnection a(java.lang.String,int)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r0)	timediff:0
+I/System.out(25534): body:<bpq: java.net.HttpURLConnection a(java.lang.String,int)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setConnectTimeout(int)>(30000)	timediff:0
+I/System.out(25534): body:<bpq: java.net.HttpURLConnection a(java.lang.String,int)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out(25534): body:<bpq: void a(java.lang.String,int,java.io.OutputStream,int)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("GET")	timediff:0
+D/dalvikvm(  528): GC_FOR_ALLOC freed <1K, 47% free 13499K/25448K, paused 5ms, total 5ms
+I/dalvikvm-heap(  528): Grow heap (frag case) to 16.774MB for 3686412-byte allocation
+D/dalvikvm(  528): GC_CONCURRENT freed 0K, 42% free 17099K/29052K, paused 7ms+0ms, total 11ms
+I/System.out(25534): body:<bpq: void a(java.lang.String,int,java.io.OutputStream,int)>	sig:$i2 = virtualinvoke $r4.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:17
+I/GAv4    (25534): Google Analytics 8.4.87 is starting up. To enable debug logging on a device run:
+I/GAv4    (25534):   adb shell setprop log.tag.GAv4 DEBUG
+I/GAv4    (25534):   adb logcat -s GAv4
+D/dalvikvm(25534): GC_CONCURRENT freed 1032K, 20% free 4663K/5772K, paused 2ms+0ms, total 5ms
+W/GAv4    (25534): Int xml configuration name not recognized: ga_sessionTimeout
+I/System.out(25534): body:<bpq: void a(java.lang.String,int,java.io.OutputStream,int)>	sig:$r5 = virtualinvoke $r4.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(25534): URLConn;%;2;%;<bpq: void a(java.lang.String,int,java.io.OutputStream,int)>;%;$r5 = virtualinvoke $r4.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://cloud.keepersecurity.com/themes/android/drawable-large-hdpi/bg_vault.jpg;%;false;%;161065;%;Not found;%;Not found;%;81002;%;Not found
+E/GoogleTagManager(25534): Invalid macro: _gtm.loadEventEnabled
+W/GAv4    (25534): CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+I/GAv4    (25534): GoogleAnalytics.setLogger() is deprecated. To enable debug logging, please run:
+I/GAv4    (25534): adb shell setprop log.tag.GAv4 DEBUG
+I/System.out(25534): body:<com.google.android.gms.internal.zzru: void zze(java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+D/dalvikvm(25534): GC_CONCURRENT freed 526K, 19% free 4728K/5772K, paused 6ms+0ms, total 11ms
+D/PhoneStatusBar(  528): mSettingsPanelGravity = 55
+D/dalvikvm(25534): GC_FOR_ALLOC freed 45K, 19% free 4727K/5772K, paused 5ms, total 5ms
+I/dalvikvm-heap(25534): Grow heap (frag case) to 8.746MB for 4254492-byte allocation
+D/dalvikvm(25534): GC_FOR_ALLOC freed <1K, 11% free 8881K/9928K, paused 8ms, total 8ms
+I/System.out(25534): body:<bpr: void a(java.net.HttpURLConnection)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+D/dalvikvm(25534): GC_CONCURRENT freed 4K, 11% free 8882K/9928K, paused 3ms+0ms, total 11ms
+D/dalvikvm(25534): GC_FOR_ALLOC freed 11K, 10% free 9916K/10960K, paused 3ms, total 3ms
+W/EGL_emulation(  528): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(25534): GC_FOR_ALLOC freed 12K, 9% free 11032K/11992K, paused 2ms, total 2ms
+I/dalvikvm-heap(25534): Grow heap (frag case) to 14.903MB for 4254492-byte allocation
+D/dalvikvm(25534): GC_FOR_ALLOC freed <1K, 6% free 15186K/16148K, paused 4ms, total 4ms
+D/dalvikvm(25534): GC_CONCURRENT freed 2K, 6% free 15184K/16148K, paused 1ms+0ms, total 3ms
+I/WindowManager(  470): Screen frozen for +230ms due to Window{4a9310d4 u0 StatusBar}
+D/dalvikvm(25534): GC_FOR_ALLOC freed 10K, 6% free 15288K/16148K, paused 4ms, total 5ms
+I/dalvikvm-heap(25534): Grow heap (frag case) to 19.059MB for 4254492-byte allocation
+D/dalvikvm(25534): GC_FOR_ALLOC freed 6K, 5% free 19435K/20304K, paused 15ms, total 15ms
+D/dalvikvm(25534): GC_CONCURRENT freed 5K, 5% free 19536K/20384K, paused 2ms+0ms, total 13ms
+I/dalvikvm(25534): Could not find method android.widget.Spinner.getPopupContext, referenced from method android.support.v7.widget.AppCompatSpinner.getPopupContext
+W/dalvikvm(25534): VFY: unable to resolve virtual method 14074: Landroid/widget/Spinner;.getPopupContext ()Landroid/content/Context;
+D/dalvikvm(25534): VFY: replacing opcode 0x6f at 0x000b
+I/dalvikvm(25534): Could not find method android.content.Context.getDrawable, referenced from method android.support.v7.widget.AppCompatSpinner.setPopupBackgroundResource
+W/dalvikvm(25534): VFY: unable to resolve virtual method 2307: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(25534): VFY: replacing opcode 0x6e at 0x0004
+I/dalvikvm(25534): Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawable
+W/dalvikvm(25534): VFY: unable to resolve virtual method 2556: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(25534): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm(25534): Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawableForDensity
+W/dalvikvm(25534): VFY: unable to resolve virtual method 2558: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(25534): VFY: replacing opcode 0x6e at 0x0002
+D/dalvikvm(25534): GC_FOR_ALLOC freed 78K, 4% free 23870K/24620K, paused 3ms, total 4ms
+E/dalvikvm(25534): Could not find class 'android.widget.ThemedSpinnerAdapter', referenced from method android.support.v7.widget.AppCompatSpinner$DropDownAdapter.<init>
+W/dalvikvm(25534): VFY: unable to resolve instanceof 1666 (Landroid/widget/ThemedSpinnerAdapter;) in Landroid/support/v7/widget/AppCompatSpinner$DropDownAdapter;
+D/dalvikvm(25534): VFY: replacing opcode 0x20 at 0x0017
+W/dalvikvm(25534): VFY: unable to find class referenced in signature (Landroid/content/RestrictionsManager;)
+I/dalvikvm(25534): Could not find method android.content.RestrictionsManager.getApplicationRestrictions, referenced from method bgc.a
+W/dalvikvm(25534): VFY: unable to resolve virtual method 2426: Landroid/content/RestrictionsManager;.getApplicationRestrictions ()Landroid/os/Bundle;
+D/dalvikvm(25534): VFY: replacing opcode 0x6e at 0x0005
+E/dalvikvm(25534): Could not find class 'android.content.RestrictionsManager', referenced from method bgc.a
+W/dalvikvm(25534): VFY: unable to resolve check-cast 446 (Landroid/content/RestrictionsManager;) in Lbgc;
+D/dalvikvm(25534): VFY: replacing opcode 0x1f at 0x0011
+I/bpt     (25534): Container loaded.
+W/NotificationManagerService(  470): ApplicationInfo.labelRes == 0
+D/libEGL  (25534): loaded /system/lib/egl/libEGL_adreno.so
+D/        (25534): HostConnection::get() New Host Connection established 0xb8694d20, tid 25534
+D/libEGL  (25534): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (25534): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation(25534): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(25534): Enabling debug mode 0
+W/ViewRootImpl(25534): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1402819, downTime=1402819, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): Activity reported stop, but no longer stopping: ActivityRecord{4a93b444 u0 com.callpod.android_apps.keeper/.ResultsActivity t170}
+W/ViewRootImpl(25534): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1403600, downTime=1403600, deviceId=-1, source=0x101 }
+W/ViewRootImpl(25534): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1403608, downTime=1403608, deviceId=-1, source=0x101 }
+W/IInputConnectionWrapper(  656): showStatusIcon on inactive InputConnection
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  470): Displayed com.callpod.android_apps.keeper/.registration.RegistrationActivity: +639ms (total +882ms)
+E/ActivityThread(25534): Performing stop of activity that is not resumed: {com.callpod.android_apps.keeper/com.callpod.android_apps.keeper.ResultsActivity}
+E/ActivityThread(25534): java.lang.RuntimeException: Performing stop of activity that is not resumed: {com.callpod.android_apps.keeper/com.callpod.android_apps.keeper.ResultsActivity}
+E/ActivityThread(25534): 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3145)
+E/ActivityThread(25534): 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3232)
+E/ActivityThread(25534): 	at android.app.ActivityThread.access$1100(ActivityThread.java:135)
+E/ActivityThread(25534): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1223)
+E/ActivityThread(25534): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread(25534): 	at android.os.Looper.loop(Looper.java:136)
+E/ActivityThread(25534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/ActivityThread(25534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ActivityThread(25534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/ActivityThread(25534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/ActivityThread(25534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/ActivityThread(25534): 	at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  470): START u0 {flg=0x14000000 cmp=com.callpod.android_apps.keeper/.ResultsActivity} from pid 25534
+W/NotificationManagerService(  470): ApplicationInfo.labelRes == 0
+I/AppCompatViewInflater(25534): app:theme is now deprecated. Please move to using android:theme instead.
+D/AndroidRuntime(25534): Shutting down VM
+W/dalvikvm(25534): threadid=1: thread exiting with uncaught exception (group=0x94c54b20)
+I/Process (  470): Sending signal. PID: 25534 SIG: 9
+E/AndroidRuntime(25534): FATAL EXCEPTION: main
+E/AndroidRuntime(25534): Process: com.callpod.android_apps.keeper, PID: 25534
+E/AndroidRuntime(25534): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.callpod.android_apps.keeper/com.callpod.android_apps.keeper.ResultsActivity}: java.lang.NullPointerException
+E/AndroidRuntime(25534): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2193)
+E/AndroidRuntime(25534): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(25534): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(25534): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(25534): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(25534): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(25534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(25534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(25534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(25534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(25534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(25534): 	at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime(25534): Caused by: java.lang.NullPointerException
+E/AndroidRuntime(25534): 	at com.callpod.android_apps.keeper.BaseFragmentActivity.x(SourceFile:306)
+E/AndroidRuntime(25534): 	at com.callpod.android_apps.keeper.BaseFragmentActivity.onStart(SourceFile:294)
+E/AndroidRuntime(25534): 	at com.callpod.android_apps.keeper.ResultsActivity.onStart(SourceFile:541)
+E/AndroidRuntime(25534): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/AndroidRuntime(25534): 	at android.app.Activity.performStart(Activity.java:5241)
+E/AndroidRuntime(25534): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/AndroidRuntime(25534): 	... 11 more
+W/ActivityManager(  470): Force-killing crashed app com.callpod.android_apps.keeper at watcher's request
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  470): Process com.callpod.android_apps.keeper (pid 25534) has died.
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10079, 0) failed with errno -13
+I/WindowState(  470): WIN DEATH: Window{4a976518 u0 com.callpod.android_apps.keeper/com.callpod.android_apps.keeper.registration.RegistrationActivity}
+D/dalvikvm(  167): GC_EXPLICIT freed 42K, 5% free 2788K/2908K, paused 0ms+1ms, total 4ms
+I/ActivityManager(  470): Start proc com.callpod.android_apps.keeper for activity com.callpod.android_apps.keeper/.ResultsActivity: pid=25587 uid=10079 gids={50079, 3003, 1028, 1015, 1023}
+D/dalvikvm(  167): GC_EXPLICIT freed <1K, 5% free 2788K/2908K, paused 0ms+1ms, total 8ms
+D/dalvikvm(  167): GC_EXPLICIT freed <1K, 5% free 2788K/2908K, paused 0ms+0ms, total 2ms
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10079, 1) failed with errno -13
+I/dalvikvm(25587): ignoring registerObject request in thread=1
+I/dalvikvm(25587): ignoring registerObject request in thread=1
+I/MultiDex(25587): VM with version 1.6.0 does not have multidex support
+I/MultiDex(25587): install
+I/MultiDex(25587): MultiDexExtractor.load(/data/app/com.callpod.android_apps.keeper-1.apk, false)
+I/MultiDex(25587): loading existing secondary dex files
+I/MultiDex(25587): load found 0 secondary dex files
+I/MultiDex(25587): install done
+I/dalvikvm(25587): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.zze.zzi
+W/dalvikvm(25587): VFY: unable to resolve virtual method 2492: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(25587): VFY: replacing opcode 0x6e at 0x000a
+D/dalvikvm(25587): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(25587): GC_CONCURRENT freed 244K, 10% free 2931K/3256K, paused 2ms+1ms, total 4ms
+I/GMPM    (25587): App measurement is starting up, version: 8487
+I/GMPM    (25587): To enable debug logging run: adb shell setprop log.tag.GMPM VERBOSE
+W/SurfaceFlinger(  166): couldn't log to binary event log: overflow.
+E/GMPM    (25587): GoogleService failed to initialize, status: 10, Missing an expected resource: 'R.string.google_app_id' for initializing Google services.  Possible causes are missing google-services.json or com.google.gms.google-services gradle plugin.
+E/GMPM    (25587): Scheduler not set. Not logging error/warn.
+E/GMPM    (25587): Uploading is not possible. App measurement disabled
+W/AppEncryptionParams(25587): Can't create encryptionParams before master password is set
+W/GoogleTagManager(25587): Failed to extract the container from the resource file. Resource is a UTF-8 encoded string but doesn't contain a JSON container
+D/dalvikvm(25587): GC_CONCURRENT freed 231K, 10% free 3088K/3396K, paused 2ms+1ms, total 6ms
+E/GoogleTagManager(25587): Invalid macro: _gtm.loadEventEnabled
+W/dalvikvm(25587): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm(25587): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method wt.onSearchRequested
+W/dalvikvm(25587): VFY: unable to resolve interface method 13140: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm(25587): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm(25587): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method wt.onWindowStartingActionMode
+W/dalvikvm(25587): VFY: unable to resolve interface method 13144: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm(25587): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm(25587): Could not find method android.view.View.setElevation, referenced from method bnf.e
+W/dalvikvm(25587): VFY: unable to resolve virtual method 12943: Landroid/view/View;.setElevation (F)V
+D/dalvikvm(25587): VFY: replacing opcode 0x6e at 0x0010
+I/dalvikvm(25587): Could not find method android.view.Window.setStatusBarColor, referenced from method bnf.f
+W/dalvikvm(25587): VFY: unable to resolve virtual method 13162: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(25587): VFY: replacing opcode 0x6e at 0x0032
+E/GoogleTagManager(25587): Invalid macro: _gtm.loadEventEnabled
+D/dalvikvm(25587): GC_CONCURRENT freed 203K, 8% free 3315K/3596K, paused 2ms+1ms, total 5ms
+I/AppCompatViewInflater(25587): app:theme is now deprecated. Please move to using android:theme instead.
+I/dalvikvm(25587): Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.widget.TintTypedArray.getChangingConfigurations
+W/dalvikvm(25587): VFY: unable to resolve virtual method 2593: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+D/dalvikvm(25587): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm(25587): Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.widget.TintTypedArray.getType
+W/dalvikvm(25587): VFY: unable to resolve virtual method 2615: Landroid/content/res/TypedArray;.getType (I)I
+D/dalvikvm(25587): VFY: replacing opcode 0x6e at 0x0002
+D/dalvikvm(25587): GC_FOR_ALLOC freed 100K, 6% free 3445K/3664K, paused 2ms, total 2ms
+I/dalvikvm-heap(25587): Grow heap (frag case) to 4.042MB for 635808-byte allocation
+D/dalvikvm(25587): GC_FOR_ALLOC freed 4K, 6% free 4061K/4288K, paused 2ms, total 3ms
+D/dalvikvm(25587): GC_CONCURRENT freed <1K, 6% free 4064K/4288K, paused 0ms+1ms, total 4ms
+I/dalvikvm(25587): Could not find method android.graphics.drawable.Drawable.setTint, referenced from method bqj.a
+W/dalvikvm(25587): VFY: unable to resolve virtual method 2941: Landroid/graphics/drawable/Drawable;.setTint (I)V
+D/dalvikvm(25587): VFY: replacing opcode 0x6e at 0x0019
+I/dalvikvm(25587): Could not find method android.graphics.drawable.Drawable.setTint, referenced from method bqj.a
+W/dalvikvm(25587): VFY: unable to resolve virtual method 2941: Landroid/graphics/drawable/Drawable;.setTint (I)V
+D/dalvikvm(25587): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(25587): Could not find method android.provider.Settings.canDrawOverlays, referenced from method atj.b
+W/dalvikvm(25587): VFY: unable to resolve static method 3317: Landroid/provider/Settings;.canDrawOverlays (Landroid/content/Context;)Z
+D/dalvikvm(25587): VFY: replacing opcode 0x71 at 0x0006
+E/GoogleConversionReporter(25587): Failed to register referrer from a null click url
+I/ActivityManager(  470): START u0 {cmp=com.callpod.android_apps.keeper/.registration.RegistrationActivity} from pid 25587
+I/dalvikvm(25587): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zza
+W/dalvikvm(25587): VFY: unable to resolve virtual method 2146: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm(25587): VFY: replacing opcode 0x6e at 0x0100
+I/bpt     (25587): Container loaded.
+D/dalvikvm(25587): GC_CONCURRENT freed 203K, 7% free 4299K/4580K, paused 0ms+0ms, total 3ms
+I/dalvikvm(25587): Could not find method android.view.Window.setStatusBarColor, referenced from method com.callpod.android_apps.keeper.registration.RegistrationActivity.J
+W/dalvikvm(25587): VFY: unable to resolve virtual method 13162: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(25587): VFY: replacing opcode 0x6e at 0x003d
+I/GAv4    (25587): Google Analytics 8.4.87 is starting up. To enable debug logging on a device run:
+I/GAv4    (25587):   adb shell setprop log.tag.GAv4 DEBUG
+I/GAv4    (25587):   adb logcat -s GAv4
+W/GAv4    (25587): Int xml configuration name not recognized: ga_sessionTimeout
+D/dalvikvm(25587): GC_CONCURRENT freed 328K, 9% free 4387K/4792K, paused 1ms+0ms, total 4ms
+W/GAv4    (25587): CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+I/GAv4    (25587): GoogleAnalytics.setLogger() is deprecated. To enable debug logging, please run:
+I/GAv4    (25587): adb shell setprop log.tag.GAv4 DEBUG
+D/dalvikvm(25587): GC_FOR_ALLOC freed 83K, 9% free 4475K/4872K, paused 3ms, total 3ms
+I/dalvikvm-heap(25587): Grow heap (frag case) to 8.500MB for 4254492-byte allocation
+D/dalvikvm(25587): GC_FOR_ALLOC freed <1K, 5% free 8630K/9028K, paused 6ms, total 6ms
+D/dalvikvm(25587): GC_CONCURRENT freed 0K, 5% free 8630K/9028K, paused 2ms+0ms, total 4ms
+D/dalvikvm(25587): GC_FOR_ALLOC freed 19K, 4% free 9668K/10060K, paused 2ms, total 2ms
+D/dalvikvm(25587): GC_FOR_ALLOC freed 7K, 4% free 10782K/11172K, paused 2ms, total 2ms
+I/dalvikvm-heap(25587): Grow heap (frag case) to 14.659MB for 4254492-byte allocation
+D/dalvikvm(25587): GC_FOR_ALLOC freed 1K, 3% free 14935K/15328K, paused 3ms, total 3ms
+D/dalvikvm(25587): GC_CONCURRENT freed 0K, 3% free 14935K/15328K, paused 2ms+0ms, total 4ms
+D/dalvikvm(25587): GC_FOR_ALLOC freed 5K, 3% free 15036K/15408K, paused 3ms, total 3ms
+I/dalvikvm-heap(25587): Grow heap (frag case) to 18.813MB for 4254492-byte allocation
+D/dalvikvm(25587): GC_FOR_ALLOC freed 1K, 2% free 19189K/19564K, paused 4ms, total 4ms
+D/dalvikvm(25587): GC_CONCURRENT freed 0K, 2% free 19189K/19564K, paused 2ms+0ms, total 4ms
+I/dalvikvm(25587): Could not find method android.widget.Spinner.getPopupContext, referenced from method android.support.v7.widget.AppCompatSpinner.getPopupContext
+W/dalvikvm(25587): VFY: unable to resolve virtual method 14074: Landroid/widget/Spinner;.getPopupContext ()Landroid/content/Context;
+D/dalvikvm(25587): VFY: replacing opcode 0x6f at 0x000b
+I/dalvikvm(25587): Could not find method android.content.Context.getDrawable, referenced from method android.support.v7.widget.AppCompatSpinner.setPopupBackgroundResource
+W/dalvikvm(25587): VFY: unable to resolve virtual method 2307: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(25587): VFY: replacing opcode 0x6e at 0x0004
+I/dalvikvm(25587): Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawable
+W/dalvikvm(25587): VFY: unable to resolve virtual method 2556: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(25587): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm(25587): Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawableForDensity
+W/dalvikvm(25587): VFY: unable to resolve virtual method 2558: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(25587): VFY: replacing opcode 0x6e at 0x0002
+D/dalvikvm(25587): GC_FOR_ALLOC freed 87K, 2% free 23536K/23800K, paused 4ms, total 4ms
+E/dalvikvm(25587): Could not find class 'android.widget.ThemedSpinnerAdapter', referenced from method android.support.v7.widget.AppCompatSpinner$DropDownAdapter.<init>
+W/dalvikvm(25587): VFY: unable to resolve instanceof 1666 (Landroid/widget/ThemedSpinnerAdapter;) in Landroid/support/v7/widget/AppCompatSpinner$DropDownAdapter;
+D/dalvikvm(25587): VFY: replacing opcode 0x20 at 0x0017
+W/dalvikvm(25587): VFY: unable to find class referenced in signature (Landroid/content/RestrictionsManager;)
+I/dalvikvm(25587): Could not find method android.content.RestrictionsManager.getApplicationRestrictions, referenced from method bgc.a
+W/dalvikvm(25587): VFY: unable to resolve virtual method 2426: Landroid/content/RestrictionsManager;.getApplicationRestrictions ()Landroid/os/Bundle;
+D/dalvikvm(25587): VFY: replacing opcode 0x6e at 0x0005
+E/dalvikvm(25587): Could not find class 'android.content.RestrictionsManager', referenced from method bgc.a
+W/dalvikvm(25587): VFY: unable to resolve check-cast 446 (Landroid/content/RestrictionsManager;) in Lbgc;
+D/dalvikvm(25587): VFY: replacing opcode 0x1f at 0x0011
+D/libEGL  (25587): loaded /system/lib/egl/libEGL_adreno.so
+D/        (25587): HostConnection::get() New Host Connection established 0xb8658df0, tid 25587
+D/libEGL  (25587): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (25587): loaded /system/lib/egl/libGLESv2_adreno.so
+W/InstanceID/Rpc(25587): Found 10007
+W/EGL_emulation(25587): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(25587): Enabling debug mode 0
+W/ViewRootImpl(25587): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1404203, downTime=1404203, deviceId=-1, source=0x101 }
+W/ViewRootImpl(25587): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_RO, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1404296, downTime=1404296, deviceId=-1, source=0x101 }
+W/ViewRootImpl(25587): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1404298, downTime=1404298, deviceId=-1, source=0x101 }
+W/Binder  (  626): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  626): java.lang.NullPointerException
+W/Binder  (  626): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  626): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  626): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  626): 	at dalvik.system.NativeStart.run(Native Method)
+D/dalvikvm(25587): DexOpt: couldn't find field Landroid/os/Message;.sendingUid
+W/dalvikvm(25587): VFY: unable to resolve instance field 2587
+D/dalvikvm(25587): VFY: replacing opcode 0x52 at 0x0000
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  470): Got RemoteException sending setActive(false) notification to pid 25534 uid 10079
+I/ActivityManager(  470): Displayed com.callpod.android_apps.keeper/.registration.RegistrationActivity: +429ms (total +625ms)
+I/qtaguid (  637): Tagging socket 79 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  637): tagSocketFd(79, 805307399, -1) failed with errno-13
+W/ViewRootImpl(25587): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1404382, downTime=-1, deviceId=0, source=0x10004 }
+I/qtaguid (  637): Untagging socket 79 failed errno=-13
+W/NetworkManagementSocketTagger(  637): untagSocket(79) failed with errno -13
+W/InstanceID(25587): token: eTg3WoUgjjE:APA91bHyHstkirQbj4BAGXohouNhWru7VxpLKpM1a2pU3gNxMMNWCPwskyv3qyM9loq1ESBIhsbvMOStd1ft4LG6MqeMoC72McWA-dAYPhiVb_JRN14B6SHRYJstLnULuqbeuIAPPQ1-
+I/WearableService(  637): Wearable Services stopping
+D/dalvikvm(  470): GC_EXPLICIT freed 879K, 45% free 15764K/28596K, paused 2ms+2ms, total 36ms
+I/InputDispatcher(  470): Application is not responding: AppWindowToken{4a9852a4 token=Token{4a971690 ActivityRecord{4a9255d4 u0 com.vphone.launcher/.Launcher t1}}}.  It has been 5007.5ms since event, 5006.0ms since wait started.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+I/WindowManager(  470): Input event dispatching timed out sending to application AppWindowToken{4a9852a4 token=Token{4a971690 ActivityRecord{4a9255d4 u0 com.vphone.launcher/.Launcher t1}}}.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+W/InputManager(  470): Input event injection from pid 25524 timed out.
+I/Process (  470): Sending signal. PID: 656 SIG: 3
+I/dalvikvm(  656): threadid=3: reacting to signal 3
+I/dalvikvm(  656): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  470): Sending signal. PID: 470 SIG: 3
+I/dalvikvm(  470): threadid=3: reacting to signal 3
+I/dalvikvm(  470): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  470): Sending signal. PID: 651 SIG: 3
+I/dalvikvm(  651): threadid=3: reacting to signal 3
+I/dalvikvm(  651): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  470): Sending signal. PID: 528 SIG: 3
+I/dalvikvm(  528): threadid=3: reacting to signal 3
+I/dalvikvm(  528): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm(  470): GC_EXPLICIT freed 847K, 45% free 15946K/28596K, paused 0ms+1ms, total 11ms
+I/Process (  470): Sending signal. PID: 700 SIG: 3
+I/dalvikvm(  700): threadid=3: reacting to signal 3
+I/dalvikvm(  700): Wrote stack traces to '/data/anr/traces.txt'
+E/ActivityManager(  470): ANR in com.vphone.launcher (com.vphone.launcher/.Launcher)
+E/ActivityManager(  470): PID: 656
+E/ActivityManager(  470): Reason: Input dispatching timed out (Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.)
+E/ActivityManager(  470): Load: 1.13 / 0.88 / 0.86
+E/ActivityManager(  470): CPU usage from 4160ms to -1591ms ago:
+E/ActivityManager(  470):   3.4% 470/system_server: 1.3% user + 2% kernel / faults: 400 minor 1 major
+E/ActivityManager(  470):   0% 22591/debuggerd: 0% user + 0% kernel / faults: 2776 minor
+E/ActivityManager(  470):   1.2% 700/com.google.android.gms: 0.5% user + 0.6% kernel / faults: 81 minor
+E/ActivityManager(  470):   0.5% 528/com.android.systemui: 0.3% user + 0.1% kernel / faults: 49 minor
+E/ActivityManager(  470):   0.5% 656/com.vphone.launcher: 0.1% user + 0.3% kernel / faults: 42 minor
+E/ActivityManager(  470):   0.1% 637/com.google.android.gms.persistent: 0.1% user + 0% kernel
+E/ActivityManager(  470):   0.1% 651/com.android.phone: 0% user + 0.1% kernel / faults: 88 minor
+E/ActivityManager(  470):   0.1% 25587/com.callpod.android_apps.keeper: 0% user + 0.1% kernel / faults: 1 minor
+E/ActivityManager(  470): 3.6% TOTAL: 1.5% user + 2.1% kernel
+E/ActivityManager(  470): CPU usage from 1015ms to 1517ms later:
+E/ActivityManager(  470):   2% 470/system_server: 0% user + 2% kernel
+E/ActivityManager(  470):     2% 483/ActivityManager: 0% user + 2% kernel
+E/ActivityManager(  470):   1.8% 700/com.google.android.gms: 1.8% user + 0% kernel
+E/ActivityManager(  470):     1.8% 22501/Binder_8: 0% user + 1.8% kernel
+E/ActivityManager(  470): 0% TOTAL: 0% user + 0% kernel
+I/GMPM    (25587): Tag Manager is not found and thus will not be used
+I/InputDispatcher(  470): Application is not responding: AppWindowToken{4a9852a4 token=Token{4a971690 ActivityRecord{4a9255d4 u0 com.vphone.launcher/.Launcher t1}}}.  It has been 5003.4ms since event, 5001.2ms since wait started.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+I/WindowManager(  470): Input event dispatching timed out sending to application AppWindowToken{4a9852a4 token=Token{4a971690 ActivityRecord{4a9255d4 u0 com.vphone.launcher/.Launcher t1}}}.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+W/InputManager(  470): Input event injection from pid 25524 timed out.
+I/ActivityManager(  470): Skipping duplicate ANR: ProcessRecord{4a97ac88 656:com.vphone.launcher/1000} Input dispatching timed out (Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.)
+W/DebugConnManager(  656): getNetworkInfo() on networkType 1
+I/ContentMaintenance(  700): Pruning caches...
+I/ContentMaintenance(  700): Internal cache bytes used: 0; limit: 100000000; download size: 0
+I/ContentMaintenance(  700): Cache pruning complete.
+I/ContentMaintenance(  700): Beginning garbage collection.
+I/RealtimeCacheCleanup(  700): Beginning Realtime garbage collection.
+I/RealtimeCacheCleanup(  700): Finished Realtime garbage collection.
+I/ContentMaintenance(  700): Finished garbage collection.
+I/AndroidRuntime(25524): VM exiting with result code 56.

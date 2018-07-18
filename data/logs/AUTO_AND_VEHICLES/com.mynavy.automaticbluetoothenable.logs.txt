@@ -1,0 +1,577 @@
+--------- beginning of /dev/log/main
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/AndroidRuntime( 9104): 
+D/AndroidRuntime( 9104): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 9104): CheckJNI is OFF
+D/dalvikvm( 9104): Using executionMode 2
+D/dalvikvm( 9104): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 9104): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 9104): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 9104): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 9104): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 9104): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 9104): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 9104): failed to load memtrack module: -2
+D/AndroidRuntime( 9104): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  484): Skipping deliver [background] BroadcastRecord{4ac52e14 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4a8cd2fc 9104 (unknown name)/0/u-1 remote:4a95c6ec}: process crashing
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mynavy.automaticbluetoothenable/.MainActivity2} from pid 9104
+D/yeshen  (  689): launcher onpause
+I/ActivityManager(  484): Start proc com.mynavy.automaticbluetoothenable for activity com.mynavy.automaticbluetoothenable/.MainActivity2: pid=9114 uid=10043 gids={50043, 3002, 3001, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10043, 1) failed with errno -13
+I/dalvikvm( 9114): ignoring registerObject request in thread=1
+I/dalvikvm( 9114): ignoring registerObject request in thread=1
+D/yeshen  (  689): launcher onstop
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/dalvikvm( 9114): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zza
+W/dalvikvm( 9114): VFY: unable to resolve virtual method 254: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm( 9114): VFY: replacing opcode 0x6e at 0x0100
+I/dalvikvm( 9114): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zzj
+W/dalvikvm( 9114): VFY: unable to resolve virtual method 572: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 9114): VFY: replacing opcode 0x6e at 0x000a
+D/dalvikvm( 9114): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 9114): GC_CONCURRENT freed 299K, 12% free 2999K/3380K, paused 1ms+1ms, total 5ms
+D/dalvikvm( 9114): WAIT_FOR_CONCURRENT_GC blocked 4ms
+I/GMPM    ( 9114): App measurement is starting up
+E/GMPM    ( 9114): getGoogleAppId failed with status: 10
+E/GMPM    ( 9114): Uploading is not possible. App measurement disabled
+D/dalvikvm( 9114): GC_CONCURRENT freed 242K, 10% free 3153K/3480K, paused 0ms+0ms, total 3ms
+W/dalvikvm( 9114): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm( 9114): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 9114): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm( 9114): VFY: unable to resolve virtual method 57570: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm( 9114): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm( 9114): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm( 9114): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 9114): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm( 9114): VFY: unable to resolve interface method 57564: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm( 9114): VFY: replacing opcode 0x72 at 0x0006
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): <com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://api.parse.com/1/events/AppOpened
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:$r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:1
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Length", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+W/SocketClient(  170): write error (Broken pipe)
+D/dalvikvm( 9114): GC_CONCURRENT freed 373K, 13% free 3177K/3632K, paused 0ms+2ms, total 6ms
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): <com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://api.parse.com/1/classes/_Installation
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:$r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:1
+W/dalvikvm( 9114): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm( 9114): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.internal.view.WindowCallbackWrapper.onSearchRequested
+W/dalvikvm( 9114): VFY: unable to resolve interface method 15784: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm( 9114): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm( 9114): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.internal.view.WindowCallbackWrapper.onWindowStartingActionMode
+W/dalvikvm( 9114): VFY: unable to resolve interface method 15788: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 9114): VFY: replacing opcode 0x72 at 0x0002
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:1
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Length", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/dalvikvm( 9114): Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.internal.widget.TintTypedArray.getChangingConfigurations
+W/dalvikvm( 9114): VFY: unable to resolve virtual method 649: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+D/dalvikvm( 9114): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm( 9114): Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.internal.widget.TintTypedArray.getType
+W/dalvikvm( 9114): VFY: unable to resolve virtual method 671: Landroid/content/res/TypedArray;.getType (I)I
+D/dalvikvm( 9114): VFY: replacing opcode 0x6e at 0x0002
+D/dalvikvm( 9114): GC_FOR_ALLOC freed 157K, 11% free 3317K/3688K, paused 2ms, total 2ms
+I/dalvikvm-heap( 9114): Grow heap (frag case) to 3.923MB for 635808-byte allocation
+D/dalvikvm( 9114): GC_FOR_ALLOC freed 2K, 9% free 3936K/4312K, paused 3ms, total 4ms
+D/dalvikvm( 9114): GC_CONCURRENT freed 4K, 9% free 3940K/4312K, paused 1ms+1ms, total 6ms
+D/dalvikvm( 9114): WAIT_FOR_CONCURRENT_GC blocked 4ms
+I/dalvikvm-heap( 9114): Grow heap (frag case) to 4.827MB for 944472-byte allocation
+D/dalvikvm( 9114): GC_CONCURRENT freed 1K, 8% free 4861K/5236K, paused 0ms+0ms, total 8ms
+D/dalvikvm( 9114): WAIT_FOR_CONCURRENT_GC blocked 5ms
+I/TAG     ( 9114): Turning immersive mode mode on.
+D/libEGL  ( 9114): loaded /system/lib/egl/libEGL_adreno.so
+D/        ( 9114): HostConnection::get() New Host Connection established 0xb7e17e50, tid 9114
+D/libEGL  ( 9114): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 9114): loaded /system/lib/egl/libGLESv2_adreno.so
+I/WearableService( 1323): Wearable Services stopping
+W/EGL_emulation( 9114): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer( 9114): Enabling debug mode 0
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1737316, downTime=1737316, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1738004, downTime=1738004, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1738004, downTime=1738004, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1738019, downTime=1738019, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/TAG     ( 9114): Current height: 1280
+I/ActivityManager(  484): Displayed com.mynavy.automaticbluetoothenable/.MainActivity2: +855ms
+W/WindowManager(  484): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1738636, downTime=1738636, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1738656, downTime=1738656, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  484): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8f5050 (uid=10043 pid=9114)
+I/TAG     ( 9114): Current height: 1280
+W/InputEventReceiver(  536): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  536): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  536): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  536): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=496.39072, y[0]=-176.0936, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1738720, downTime=1738719, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  536): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=0.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1738715, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=0.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1738745, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1738747, downTime=1738732, deviceId=0, source=0x10004 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:1
+I/System.out( 9114): <com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://api.parse.com/1/classes/_Installation
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:$r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:1
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+D/dalvikvm( 9114): GC_CONCURRENT freed 318K, 8% free 5112K/5512K, paused 3ms+1ms, total 9ms
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Length", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 484
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): <com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://api.parse.com/1/events/AppOpened
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:$r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:2
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:1
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:1
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Length", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mynavy.automaticbluetoothenable/.MainActivity2} from pid 9104
+D/FirebaseApp(  689): Notifying background state change listeners.
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1739768, downTime=1739768, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Launcher(  689): No global search activity found.
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10043, 0) failed with errno -13
+D/dalvikvm(  689): GC_FOR_ALLOC freed 1398K, 25% free 44823K/59456K, paused 20ms, total 22ms
+I/dalvikvm-heap(  689): Grow heap (frag case) to 44.058MB for 149952-byte allocation
+D/dalvikvm(  689): GC_FOR_ALLOC freed 3K, 25% free 44966K/59604K, paused 16ms, total 16ms
+D/dalvikvm(  689): GC_FOR_ALLOC freed 272K, 25% free 44739K/59604K, paused 13ms, total 13ms
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyanogenmod.filemanager/.activities.NavigationActivity bnds=[149,388][290,618] (has extras)} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyanogenmod.filemanager/.activities.NavigationActivity bnds=[149,388][290,618] (has extras)} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=894727&bid_id=QwElMM8w4ZTjZAM1EKrZhxMBgWkW&imp_id=D49RNm5wVVulvPxvnJMPuDg8L3x&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab cmp=com.android.browser/.BrowserActivity} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+D/dalvikvm(  689): GC_FOR_ALLOC freed 897K, 25% free 45067K/59604K, paused 16ms, total 16ms
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): <com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://api.parse.com/1/classes/_Installation
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:$r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:1
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Length", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.bbqstudio.bbqqoversea flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  689): GC_FOR_ALLOC freed 722K, 25% free 45075K/59604K, paused 17ms, total 18ms
+D/dalvikvm(  689): GC_FOR_ALLOC freed 160K, 24% free 45317K/59604K, paused 16ms, total 17ms
+I/dalvikvm-heap(  689): Grow heap (frag case) to 44.484MB for 90012-byte allocation
+D/dalvikvm(  689): GC_FOR_ALLOC freed 0K, 24% free 45405K/59692K, paused 17ms, total 17ms
+D/dalvikvm(  689): GC_FOR_ALLOC freed 246K, 25% free 45269K/59692K, paused 17ms, total 17ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): <com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://api.parse.com/1/events/AppOpened
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:$r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Length", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+W/Launcher(  689): No global search activity found.
+D/dalvikvm(  689): GC_FOR_ALLOC freed 604K, 25% free 45291K/59692K, paused 18ms, total 18ms
+D/dalvikvm(  689): GC_FOR_ALLOC freed 197K, 25% free 45287K/59692K, paused 19ms, total 20ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.itchmedia.ta3 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/qtaguid (  689): Tagging socket 91 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(91, 462060827, -1) failed with errno-13
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.BCG.ForteCraft flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.BCG.ForteCraft flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  689): GC_FOR_ALLOC freed 511K, 25% free 45293K/59692K, paused 20ms, total 21ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.BCG.ForteCraft flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  689): GC_FOR_ALLOC freed 108K, 25% free 45327K/59692K, paused 21ms, total 21ms
+I/dalvikvm-heap(  689): Grow heap (frag case) to 44.494MB for 90012-byte allocation
+D/dalvikvm(  689): GC_FOR_ALLOC freed <1K, 25% free 45414K/59780K, paused 19ms, total 19ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=air.com.hypah.io.slither flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  689): GC_FOR_ALLOC freed 207K, 25% free 45381K/59780K, paused 20ms, total 21ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/dalvikvm(  689): GC_FOR_ALLOC freed 150K, 24% free 45467K/59780K, paused 17ms, total 18ms
+I/dalvikvm-heap(  689): Grow heap (frag case) to 44.630MB for 90012-byte allocation
+D/dalvikvm(  689): GC_FOR_ALLOC freed <1K, 24% free 45555K/59868K, paused 19ms, total 19ms
+D/dalvikvm(  689): GC_FOR_ALLOC freed 61K, 24% free 45608K/59868K, paused 19ms, total 19ms
+I/dalvikvm-heap(  689): Grow heap (frag case) to 44.768MB for 90012-byte allocation
+D/dalvikvm(  689): GC_FOR_ALLOC freed <1K, 24% free 45696K/59956K, paused 18ms, total 18ms
+D/dalvikvm(  689): GC_FOR_ALLOC freed 53K, 24% free 45744K/59956K, paused 15ms, total 15ms
+I/dalvikvm-heap(  689): Grow heap (frag case) to 44.901MB for 90012-byte allocation
+D/dalvikvm(  689): GC_FOR_ALLOC freed <1K, 24% free 45831K/60044K, paused 15ms, total 15ms
+D/dalvikvm(  689): GC_FOR_ALLOC freed 237K, 24% free 45695K/60044K, paused 15ms, total 17ms
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mynavy.automaticbluetoothenable/.MainActivity2} from pid 9104
+D/yeshen  (  689): launcher onpause
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10043, 1) failed with errno -13
+I/TAG     ( 9114): Turning immersive mode mode on.
+I/qtaguid (  689): Tagging socket 109 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(109, 462060827, -1) failed with errno-13
+W/EGL_emulation( 9114): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1742914, downTime=1742914, deviceId=-1, source=0x101 }
+D/dalvikvm(  689): GC_FOR_ALLOC freed 584K, 25% free 45375K/60044K, paused 23ms, total 25ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/ViewRootImpl( 9114): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=2.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1743077, downTime=-1, deviceId=0, source=0x10004 }
+I/ActivityManager(  484): Displayed com.mynavy.automaticbluetoothenable/.MainActivity2: +254ms
+I/        (  689): {"errNum":0,"message":"SUCCESS"}
+W/ViewRootImpl( 9114): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1743077, downTime=1743033, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1743094, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1743096, downTime=1743088, deviceId=0, source=0x10004 }
+I/TAG     ( 9114): Current height: 1280
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/TAG     ( 9114): Current height: 1280
+W/WindowManager(  484): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_13, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1744769, downTime=1744769, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1744769, downTime=1744769, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1744779, downTime=1744779, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1744787, downTime=1744787, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  484): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8f5050 (uid=10043 pid=9114)
+W/BackupManagerService(  484): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/BackupManagerService(  484): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/InputEventReceiver(  536): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  536): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputManager(  484): Input event injection from pid 9104 failed.
+W/ViewRootImpl(  536): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=647.6153, y[0]=-138.08002, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1744929, downTime=1744928, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_GUIDE, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1744936, downTime=1744936, deviceId=-1, source=0x101 }
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mynavy.automaticbluetoothenable/.MainActivity2} from pid 9104
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mynavy.automaticbluetoothenable/.MainActivity2} from pid 9104
+D/dalvikvm( 9114): GC_CONCURRENT freed 550K, 11% free 5229K/5864K, paused 1ms+0ms, total 5ms
+E/BluetoothService( 9114): onStartCommand
+E/IS WAZE ( 9114): false
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=75, eventTime=1745802, downTime=1745802, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1745802, downTime=1745802, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1745802, downTime=1745802, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1745802, downTime=1745802, deviceId=-1, source=0x101 }
+W/dalvikvm( 1323): VFY: unable to find class referenced in signature (Landroid/location/GnssMeasurementsEvent;)
+W/dalvikvm( 1323): VFY: unable to find class referenced in signature (Landroid/location/GnssNavigationMessage;)
+I/dalvikvm( 1323): Could not find method android.content.Context.checkSelfPermission, referenced from method anih.c
+W/dalvikvm( 1323): VFY: unable to resolve virtual method 17600: Landroid/content/Context;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 1323): VFY: replacing opcode 0x6e at 0x0019
+I/dalvikvm( 1323): Could not find method android.app.AlarmManager.setAndAllowWhileIdle, referenced from method anih.a
+W/dalvikvm( 1323): VFY: unable to resolve virtual method 17256: Landroid/app/AlarmManager;.setAndAllowWhileIdle (IJLandroid/app/PendingIntent;)V
+D/dalvikvm( 1323): VFY: replacing opcode 0x6e at 0x007a
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MOVE_HOME, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1745715, downTime=1745715, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): <com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://api.parse.com/1/classes/_Installation
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:$r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:1
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Length", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+W/SocketClient(  170): write error (Broken pipe)
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.itchmedia.ta3 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+D/dalvikvm(  689): GC_FOR_ALLOC freed 1112K, 25% free 45203K/60044K, paused 21ms, total 21ms
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.nom.obdiicodesdemo/.MainActivity bnds=[8,158][149,388]} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+D/dalvikvm(  689): GC_FOR_ALLOC freed 105K, 25% free 45328K/60044K, paused 17ms, total 18ms
+I/dalvikvm-heap(  689): Grow heap (frag case) to 44.551MB for 149952-byte allocation
+D/dalvikvm(  689): GC_FOR_ALLOC freed <1K, 25% free 45474K/60192K, paused 18ms, total 18ms
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.nom.obdiicodesdemo/.MainActivity bnds=[8,158][149,388]} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10043, 0) failed with errno -13
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.bbqstudio.bbqqoversea flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  689): GC_FOR_ALLOC freed 1170K, 25% free 45394K/60192K, paused 19ms, total 19ms
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mynavy.automaticbluetoothenable/.MainActivity2} from pid 9104
+D/dalvikvm(  484): GC_CONCURRENT freed 2532K, 39% free 16605K/26896K, paused 2ms+4ms, total 27ms
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.miniclip.eightballpool flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/yeshen  (  689): launcher onpause
+I/TAG     ( 9114): Turning immersive mode mode on.
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10043, 1) failed with errno -13
+W/EGL_emulation( 9114): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1746980, downTime=1746980, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1747143, downTime=1747143, deviceId=-1, source=0x101 }
+I/TAG     ( 9114): Current height: 1280
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): Displayed com.mynavy.automaticbluetoothenable/.MainActivity2: +136ms
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): <com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://api.parse.com/1/events/AppOpened
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:$r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Length", $r12)	timediff:1
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+D/dalvikvm( 1295): GC_CONCURRENT freed 2104K, 51% free 9344K/18932K, paused 1ms+1ms, total 17ms
+E/Ads     ( 1295): Error transporting the ad response
+E/Ads     ( 1295): java.io.IOException: write failed: EPIPE (Broken pipe)
+E/Ads     ( 1295): 	at libcore.io.IoBridge.write(IoBridge.java:455)
+E/Ads     ( 1295): 	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+E/Ads     ( 1295): 	at java.io.DataOutputStream.write(DataOutputStream.java:98)
+E/Ads     ( 1295): 	at java.io.OutputStream.write(OutputStream.java:82)
+E/Ads     ( 1295): 	at com.google.android.gms.ads.internal.request.o.run(com.google.android.gms@12221070@12.2.21 (070-188803320):2)
+E/Ads     ( 1295): 	at java.lang.Thread.run(Thread.java:841)
+E/Ads     ( 1295): Caused by: libcore.io.ErrnoException: write failed: EPIPE (Broken pipe)
+E/Ads     ( 1295): 	at libcore.io.Posix.writeBytes(Native Method)
+E/Ads     ( 1295): 	at libcore.io.Posix.write(Posix.java:202)
+E/Ads     ( 1295): 	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:197)
+E/Ads     ( 1295): 	at libcore.io.IoBridge.write(IoBridge.java:450)
+E/Ads     ( 1295): 	... 5 more
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 9104 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mynavy.automaticbluetoothenable/.MainActivity2} from pid 9104
+D/dalvikvm( 9114): GC_CONCURRENT freed 634K, 12% free 5287K/6004K, paused 1ms+1ms, total 5ms
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mynavy.automaticbluetoothenable/.MainActivity2} from pid 9104
+I/ActivityManager(  484): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 9114
+W/PhoneFallbackEventHandler( 9114): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 484
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mynavy.automaticbluetoothenable/.MainActivity2} from pid 9104
+I/ActivityManager(  484): START u0 {cmp=com.mynavy.automaticbluetoothenable/.SettingsActivity} from pid 9114
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=24, eventTime=1749585, downTime=1749585, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1749585, downTime=1749585, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=0.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1749562, downTime=-1, deviceId=0, source=0x10004 }
+I/dalvikvm( 9114): Could not find method android.preference.Preference.<init>, referenced from method net.xpece.android.support.preference.Preference.<init>
+W/dalvikvm( 9114): VFY: unable to resolve direct method 1704: Landroid/preference/Preference;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+D/dalvikvm( 9114): VFY: replacing opcode 0x70 at 0x0000
+W/EGL_emulation( 9114): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1749563, downTime=1749563, deviceId=-1, source=0x101 }
+I/dalvikvm( 9114): Could not find method android.widget.ImageView.<init>, referenced from method net.xpece.android.support.preference.PreferenceImageView.<init>
+W/dalvikvm( 9114): VFY: unable to resolve direct method 16331: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+D/dalvikvm( 9114): VFY: replacing opcode 0x70 at 0x0000
+I/dalvikvm( 9114): Could not find method android.widget.CompoundButton.drawableHotspotChanged, referenced from method android.support.v7.widget.SwitchCompat.drawableHotspotChanged
+W/dalvikvm( 9114): VFY: unable to resolve virtual method 16202: Landroid/widget/CompoundButton;.drawableHotspotChanged (FF)V
+D/dalvikvm( 9114): VFY: replacing opcode 0x6f at 0x0006
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1749674, downTime=1749674, deviceId=-1, source=0x101 }
+I/ActivityManager(  484): Displayed com.mynavy.automaticbluetoothenable/.SettingsActivity: +201ms
+I/TAG     ( 9114): Current height: 1280
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+E/The Value( 9114): true
+E/The key ( 9114): hot_spot_enable
+E/The Value( 9114): true
+E/The key ( 9114): waze_enable
+E/The Value( 9114): false
+E/The key ( 9114): waze_enable
+E/The Value( 9114): true
+E/The key ( 9114): waze_enable
+D/dalvikvm( 9114): GC_CONCURRENT freed 531K, 11% free 5472K/6088K, paused 3ms+4ms, total 10ms
+E/The Value( 9114): false
+E/The key ( 9114): hot_spot_enable
+E/The Value( 9114): true
+E/The key ( 9114): hot_spot_enable
+E/The Value( 9114): false
+E/The key ( 9114): waze_enable
+E/The Value( 9114): true
+E/The key ( 9114): waze_enable
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+D/dalvikvm(  651): GC_CONCURRENT freed 408K, 15% free 2853K/3340K, paused 1ms+0ms, total 3ms
+E/The Value( 9114): false
+E/The key ( 9114): hot_spot_enable
+E/The Value( 9114): true
+E/The key ( 9114): hot_spot_enable
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mynavy.automaticbluetoothenable/.MainActivity2} from pid 9104
+E/The Value( 9114): false
+E/The key ( 9114): waze_enable
+E/The Value( 9114): false
+E/The key ( 9114): hot_spot_enable
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mynavy.automaticbluetoothenable/.MainActivity2} from pid 9104
+E/The Value( 9114): true
+E/The key ( 9114): waze_enable
+E/The Value( 9114): false
+E/The key ( 9114): waze_enable
+D/dalvikvm( 9114): GC_CONCURRENT freed 867K, 16% free 5390K/6348K, paused 4ms+0ms, total 9ms
+E/The Value( 9114): true
+E/The key ( 9114): hot_spot_enable
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mynavy.automaticbluetoothenable/.MainActivity2} from pid 9104
+W/EGL_emulation( 9114): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/SurfaceFlinger(  174): couldn't log to binary event log: overflow.
+E/BluetoothService( 9114): onStartCommand
+E/IS WAZE ( 9114): false
+I/ActivityManager(  484): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 9114
+W/PhoneFallbackEventHandler( 9114): No activity found for android.intent.action.CALL_BUTTON.
+W/WindowManager(  484): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1753757, downTime=1753757, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_EJECT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1753766, downTime=1753766, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  484): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8f5050 (uid=10043 pid=9114)
+W/InputEventReceiver(  536): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  536): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  536): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=651.76636, y[0]=170.18066, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1753864, downTime=1753861, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_META_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1753866, downTime=1753866, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mynavy.automaticbluetoothenable/.MainActivity2} from pid 9104
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 9104 failed.
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): <com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://api.parse.com/1/classes/_Installation
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:$r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Length", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r12)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)>($i0)	timediff:0
+I/System.out( 9114): body:<com.parse.ParseURLConnectionHttpClient: java.net.HttpURLConnection getRequest(com.parse.ParseHttpRequest)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:1
+W/SocketClient(  170): write error (Broken pipe)
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-4500.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-4500.0)
+E/BluetoothService( 9114): onStartCommand
+E/IS WAZE ( 9114): false
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mynavy.automaticbluetoothenable/.MainActivity2} from pid 9104
+D/dalvikvm( 9114): GC_CONCURRENT freed 752K, 15% free 5398K/6340K, paused 0ms+1ms, total 3ms
+E/BluetoothService( 9114): onStartCommand
+E/IS WAZE ( 9114): false
+W/WindowManager(  484): updateFocusedWindowLocked, focusedAppToken is null.
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1757998, downTime=1757998, deviceId=-1, source=0x101 }
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=35.568 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=35.568 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=35.568 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=-2; nothing to do (h=35.568 v=-3000.0)
+W/ViewRootImpl( 9114): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1758120, downTime=1758120, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8f4bcc attribute=android.view.inputmethod.EditorInfo@4ac4138c, token = android.os.BinderProxy@4a957d90
+I/ContentMaintenance( 1295): Pruning caches...
+I/ContentMaintenance( 1295): Internal cache bytes used: 0; limit: 100000000; download size: 0
+I/ContentMaintenance( 1295): Cache pruning complete.
+I/ContentMaintenance( 1295): Beginning garbage collection.
+I/RealtimeCacheCleanup( 1295): Beginning Realtime garbage collection.
+I/RealtimeCacheCleanup( 1295): Finished Realtime garbage collection.
+I/ContentMaintenance( 1295): Finished garbage collection.
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+E/SurfaceFlinger(  174): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  174): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  174): setOrientation, mFbdev=0xb9577da0, mFbDev->setOrientation=0xb6953ce0, orientation=0
+I/gralloc_nox(  174): setOrientation: orientation=0
+D/Tinker.DefaultAppLike(  689): onConfigurationChanged:{1.0 310mcc260mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.22}
+I/ActivityManager(  484): Config changes=480 {1.0 310mcc260mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.22}
+D/Sensors (  484): Client connection accepted (185)
+I/InputReader(  484): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  484): Device reconfigured: id=1, name='Android Input', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  484): Device reconfigured: id=3, name='seamless mouse', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  484): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 0, mode 1, display id 0
+D/PhoneStatusBar(  536): mSettingsPanelGravity = 55
+I/AndroidRuntime( 9104): VM exiting with result code 0.

@@ -1,0 +1,671 @@
+--------- beginning of /dev/log/main
+D/dalvikvm(  484): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm(  484): GC_EXPLICIT freed 914K, 51% free 17789K/36204K, paused 0ms+1ms, total 22ms
+D/AndroidRuntime(16263): 
+D/AndroidRuntime(16263): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(16263): CheckJNI is OFF
+D/dalvikvm(16263): Using executionMode 2
+D/dalvikvm(16263): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(16263): Added shared lib libjavacore.so 0x0
+D/dalvikvm(16263): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(16263): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(16263): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(16263): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(16263): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(16263): failed to load memtrack module: -2
+D/AndroidRuntime(16263): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  484): Skipping deliver [background] BroadcastRecord{4b102fb8 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4b0fb914 16263 (unknown name)/0/u-1 remote:4b1009f0}: process crashing
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+D/yeshen  (  689): launcher onpause
+I/ActivityManager(  484): Start proc com.pgac.general.droid for activity com.pgac.general.droid/.TheGeneral: pid=16273 uid=10099 gids={50099, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10099, 1) failed with errno -13
+I/dalvikvm(16273): ignoring registerObject request in thread=1
+I/dalvikvm(16273): ignoring registerObject request in thread=1
+V/WebViewChromium(16273): Binding Chromium to the main looper Looper (main, tid 1) {4a776704}
+I/chromium(16273): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain(16273): Initializing chromium process, renderers=0
+W/chromium(16273): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/libEGL  (16273): loaded /system/lib/egl/libEGL_adreno.so
+D/        (16273): HostConnection::get() New Host Connection established 0xb7e24430, tid 16273
+D/libEGL  (16273): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (16273): loaded /system/lib/egl/libGLESv2_adreno.so
+D/dalvikvm(16273): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(16273): GC_FOR_ALLOC freed 85K, 6% free 2903K/3072K, paused 2ms, total 2ms
+I/dalvikvm-heap(16273): Grow heap (frag case) to 3.519MB for 635808-byte allocation
+D/dalvikvm(16273): GC_CONCURRENT freed 0K, 5% free 3524K/3696K, paused 0ms+1ms, total 5ms
+D/dalvikvm(16273): WAIT_FOR_CONCURRENT_GC blocked 1ms
+I/dalvikvm(16273): Could not find method android.webkit.CookieManager.setAcceptThirdPartyCookies, referenced from method org.apache.cordova.engine.SystemCookieManager.<init>
+W/dalvikvm(16273): VFY: unable to resolve virtual method 9510: Landroid/webkit/CookieManager;.setAcceptThirdPartyCookies (Landroid/webkit/WebView;Z)V
+D/dalvikvm(16273): VFY: replacing opcode 0x6e at 0x0016
+I/dalvikvm(16273): Could not find method android.webkit.CookieManager.flush, referenced from method org.apache.cordova.engine.SystemCookieManager.flush
+W/dalvikvm(16273): VFY: unable to resolve virtual method 9504: Landroid/webkit/CookieManager;.flush ()V
+D/dalvikvm(16273): VFY: replacing opcode 0x6e at 0x0008
+W/dalvikvm(16273): VFY: unable to find class referenced in signature (Landroid/webkit/ClientCertRequest;)
+W/dalvikvm(16273): VFY: unable to find class referenced in signature (Landroid/webkit/ClientCertRequest;)
+I/dalvikvm(16273): Could not find method android.webkit.WebViewClient.onReceivedClientCertRequest, referenced from method org.apache.cordova.engine.SystemWebViewClient.onReceivedClientCertRequest
+W/dalvikvm(16273): VFY: unable to resolve virtual method 9578: Landroid/webkit/WebViewClient;.onReceivedClientCertRequest (Landroid/webkit/WebView;Landroid/webkit/ClientCertRequest;)V
+D/dalvikvm(16273): VFY: replacing opcode 0x6f at 0x001a
+W/dalvikvm(16273): VFY: unable to find class referenced in signature (Landroid/webkit/PermissionRequest;)
+I/dalvikvm(16273): Could not find method android.webkit.PermissionRequest.getResources, referenced from method org.apache.cordova.engine.SystemWebChromeClient.onPermissionRequest
+W/dalvikvm(16273): VFY: unable to resolve virtual method 9522: Landroid/webkit/PermissionRequest;.getResources ()[Ljava/lang/String;
+D/dalvikvm(16273): VFY: replacing opcode 0x6e at 0x000b
+I/dalvikvm(16273): Could not find method android.webkit.WebChromeClient$FileChooserParams.createIntent, referenced from method org.apache.cordova.engine.SystemWebChromeClient.onShowFileChooser
+W/dalvikvm(16273): VFY: unable to resolve virtual method 9527: Landroid/webkit/WebChromeClient$FileChooserParams;.createIntent ()Landroid/content/Intent;
+D/dalvikvm(16273): VFY: replacing opcode 0x6e at 0x0000
+D/SystemWebViewEngine(16273): CordovaWebView is running on device made by: samsung
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(16273): Enabling debug mode 0
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8574380, downTime=8574380, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8575129, downTime=8575129, deviceId=-1, source=0x101 }
+I/ActivityManager(  484): Displayed com.pgac.general.droid/.TheGeneral: +922ms
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+D/yeshen  (  689): launcher onstop
+I/WearableService( 1323): Wearable Services stopping
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(16273): GC_CONCURRENT freed 261K, 9% free 3671K/4016K, paused 1ms+1ms, total 7ms
+I/chromium(16273): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+I/chromium(16273): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+D/JsMessageQueue(16273): Set native->JS mode to OnlineEventsBridgeMode
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+I/chromium(16273): [INFO:CONSOLE(1777)] "Could not find cordova.js script tag. Plugin loading may fail.", source: file:///android_asset/www/phonegap.js (1777)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+D/dalvikvm(16273): GC_CONCURRENT freed 320K, 10% free 3740K/4148K, paused 1ms+2ms, total 5ms
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8576942, downTime=8576942, deviceId=-1, source=0x101 }
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_KATAKANA_HIRAGANA, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8577071, downTime=8577071, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_X, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8577169, downTime=8577169, deviceId=-1, source=0x101 }
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9d1d78 attribute=null, token = android.os.BinderProxy@4aa309c4
+D/CordovaNetworkManager(16273): Connection Type: wifi
+D/CordovaNetworkManager(16273): Connection Extra Info: "AndroidAP"
+D/CordovaNetworkManager(16273): Connection Type: wifi
+D/CordovaNetworkManager(16273): Connection Extra Info: "AndroidAP"
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8577757, downTime=8577757, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8577774, downTime=8577774, deviceId=-1, source=0x101 }
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(  689): GC_FOR_ALLOC freed 5429K, 3% free 197499K/203404K, paused 146ms, total 146ms
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/qtaguid (  689): Untagging socket 110 failed errno=-13
+W/NetworkManagementSocketTagger(  689): untagSocket(110) failed with errno -13
+I/qtaguid (  689): Tagging socket 110 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(110, 1239581248, -1) failed with errno-13
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9c0bb4 attribute=null, token = android.os.BinderProxy@4aa309c4
+I/qtaguid (  689): Tagging socket 176 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(176, 1239581248, -1) failed with errno-13
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(16273): GC_CONCURRENT freed 374K, 11% free 3757K/4216K, paused 0ms+1ms, total 2ms
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8578630, downTime=8578630, deviceId=-1, source=0x101 }
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PushPlugin(16273): execute: action=init
+V/PushPlugin(16273): execute: data=[{"android":{"senderID":"213196550094"},"ios":{"sound":"true","alert":"true","badge":"true"},"windows":{}}]
+V/PushPlugin(16273): execute: jo={"senderID":"213196550094"}
+V/PushPlugin(16273): execute: senderID=213196550094
+D/GCMRegistrar(16273): resetting backoff for com.pgac.general.droid
+V/GCMRegistrar(16273): Registering app com.pgac.general.droid of senders 213196550094
+D/PushPlugin(16273): no icon option
+D/PushPlugin(16273): no iconColor option
+W/PluginManager(16273): THREAD WARNING: exec() call to PushNotification.init blocked the main thread for 20ms. Plugin should use CordovaInterface.getThreadPool().
+I/chromium(16273): [INFO:simple_index_file.cc(397)] Simple Cache Index is being restored from disk.
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_FORWARD, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8579065, downTime=8579065, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8579362, downTime=8579362, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8579366, downTime=8579366, deviceId=-1, source=0x101 }
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa2bd00 attribute=null, token = android.os.BinderProxy@4aa309c4
+V/GCMBroadcastReceiver(16273): onReceive: com.google.android.c2dm.intent.REGISTRATION
+V/GCMRegistrar(16273): Setting the name of retry receiver class to com.adobe.phonegap.push.CordovaGCMBroadcastReceiver
+V/GCMBroadcastReceiver(16273): GCM IntentService class: com.adobe.phonegap.push.GCMIntentService
+V/GCMBaseIntentService(16273): Acquiring wakelock
+V/GCMBaseIntentService(16273): Intent service name: GCMIntentService-GCMIntentService-1
+V/GCMRegistrar(16273): Registering receiver
+D/GCMBaseIntentService(16273): handleRegistration: registrationId = APA91bEbDKXmOogMwj8sYueAektHXAaOumpFwC7ltvKxlqG23Teb3ej5mYhphvdOFk03R_9pRpltqcz7qQN6PdGLsUBlfcOpwRfFA_bjZNFfaqksCBEmWr64L74HA8ry3oHwGW67tmhJ, error = null, unregistered = null
+D/GCMRegistrar(16273): resetting backoff for com.pgac.general.droid
+V/GCMRegistrar(16273): Saving regId on app version 14
+V/PushPlugin_GCMIntentService(16273): onRegistered: APA91bEbDKXmOogMwj8sYueAektHXAaOumpFwC7ltvKxlqG23Teb3ej5mYhphvdOFk03R_9pRpltqcz7qQN6PdGLsUBlfcOpwRfFA_bjZNFfaqksCBEmWr64L74HA8ry3oHwGW67tmhJ
+V/PushPlugin_GCMIntentService(16273): onRegistered: {"registrationId":"APA91bEbDKXmOogMwj8sYueAektHXAaOumpFwC7ltvKxlqG23Teb3ej5mYhphvdOFk03R_9pRpltqcz7qQN6PdGLsUBlfcOpwRfFA_bjZNFfaqksCBEmWr64L74HA8ry3oHwGW67tmhJ"}
+V/GCMBaseIntentService(16273): Releasing wakelock
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(16273): GC_CONCURRENT freed 405K, 12% free 3763K/4252K, paused 0ms+0ms, total 3ms
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_FORWARD_DEL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8579655, downTime=8579655, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9261b4 attribute=null, token = android.os.BinderProxy@4aa309c4
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8579794, downTime=8579794, deviceId=-1, source=0x101 }
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 16263 failed.
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8580406, downTime=8580406, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac01bfc attribute=null, token = android.os.BinderProxy@4aa309c4
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/WindowManager(  484): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  484): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_L2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8580993, downTime=8580993, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  484): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8580998, downTime=8580998, deviceId=-1, source=0x101 }
+W/InputEventReceiver(  484): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  484): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8581051, downTime=8581051, deviceId=-1, source=0x101 }
+D/Tinker.DefaultAppLike(  689): onConfigurationChanged:{1.0 310mcc260mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger qwerty/v/v dpad/v s.99}
+I/ActivityManager(  484): Config changes=30 {1.0 310mcc260mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger qwerty/v/v dpad/v s.99}
+D/PhoneStatusBar(  536): mSettingsPanelGravity = 55
+D/dalvikvm( 1408): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 1408): GC_CONCURRENT freed 349K, 14% free 2822K/3256K, paused 13ms+0ms, total 29ms
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8581491, downTime=8581491, deviceId=-1, source=0x101 }
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a910930 attribute=null, token = android.os.BinderProxy@4aa309c4
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8582023, downTime=8582023, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac1b010 attribute=null, token = android.os.BinderProxy@4aa309c4
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 484
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  484): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 16273
+W/PhoneFallbackEventHandler(16273): No activity found for android.intent.action.CALL_BUTTON.
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 16263 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(16273): GC_CONCURRENT freed 368K, 12% free 3783K/4252K, paused 2ms+0ms, total 4ms
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(16273): GC_CONCURRENT freed 393K, 12% free 3774K/4252K, paused 3ms+0ms, total 5ms
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 484
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+D/dalvikvm(  484): GC_FOR_ALLOC freed 2899K, 49% free 18515K/36204K, paused 43ms, total 47ms
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+D/dalvikvm(16273): GC_CONCURRENT freed 388K, 12% free 3770K/4252K, paused 2ms+1ms, total 4ms
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  484): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 16273
+W/PhoneFallbackEventHandler(16273): No activity found for android.intent.action.CALL_BUTTON.
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(16273): GC_CONCURRENT freed 391K, 12% free 3773K/4252K, paused 1ms+1ms, total 4ms
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(16273): GC_CONCURRENT freed 419K, 12% free 3784K/4288K, paused 0ms+1ms, total 64ms
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(16273): GC_CONCURRENT freed 378K, 12% free 3806K/4288K, paused 1ms+0ms, total 3ms
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 484
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+D/InAppBrowser(16273): target = _blank
+D/InAppBrowser(16273): in blank
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+D/InAppBrowser(16273): target = _blank
+D/dalvikvm(16273): GC_CONCURRENT freed 202K, 9% free 3989K/4348K, paused 1ms+0ms, total 4ms
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PAGE_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8589363, downTime=8589363, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+D/dalvikvm(16273): GC_FOR_ALLOC freed 50K, 9% free 4173K/4564K, paused 3ms, total 3ms
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+D/InAppBrowser(16273): in blank
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8589778, downTime=8589778, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8589869, downTime=8589869, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8589872, downTime=8589872, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_6, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8589875, downTime=8589875, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8589875, downTime=8589875, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8589880, downTime=8589880, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=8589888, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DEL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8589889, downTime=8589889, deviceId=-1, source=0x101 }
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x408, repeatCount=0, eventTime=8585919, downTime=8585919, deviceId=-1, source=0x101 }
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+D/dalvikvm(16273): GC_CONCURRENT freed 159K, 7% free 4400K/4708K, paused 2ms+1ms, total 4ms
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(16273): GC_CONCURRENT freed 442K, 11% free 4378K/4904K, paused 2ms+0ms, total 35ms
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+V/FlingTracker(  536): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  536): java.lang.Throwable
+V/FlingTracker(  536): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  536): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  536): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  536): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  536): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  536): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  536): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  536): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  536): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  536): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  536): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  536): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  536): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  536): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  536): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  536): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  536): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  536): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  536): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  536): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  536): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  536): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(16273): GC_CONCURRENT freed 522K, 13% free 4388K/4992K, paused 46ms+1ms, total 49ms
+D/dalvikvm(16273): WAIT_FOR_CONCURRENT_GC blocked 3ms
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  484): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 16273
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/PhoneFallbackEventHandler(16273): No activity found for android.intent.action.CALL_BUTTON.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16273): setSnapScrollingMode case-default no-op
+D/InAppBrowser(16273): target = _blank
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x408, repeatCount=0, eventTime=8587205, downTime=8587205, deviceId=-1, source=0x101 }
+D/InAppBrowser(16273): in blank
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x408, repeatCount=0, eventTime=8587222, downTime=8587222, deviceId=-1, source=0x101 }
+D/dalvikvm(16273): GC_CONCURRENT freed 427K, 12% free 4419K/4992K, paused 1ms+1ms, total 6ms
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8593926, downTime=8593926, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8593968, downTime=8593968, deviceId=-1, source=0x101 }
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8593980, downTime=8593980, deviceId=-1, source=0x101 }
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/InAppBrowser(16273): target = _blank
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+D/InAppBrowser(16273): in blank
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_P, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8594537, downTime=8594537, deviceId=-1, source=0x101 }
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8594555, downTime=8594555, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8594559, downTime=8594559, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_Y, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8594581, downTime=8594581, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8594581, downTime=8594581, deviceId=-1, source=0x101 }
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16273): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=8594669, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8594671, downTime=8594657, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=8594684, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16273): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8594687, downTime=8594674, deviceId=0, source=0x10004 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x408, repeatCount=0, eventTime=8587464, downTime=8587464, deviceId=-1, source=0x101 }
+W/EGL_emulation(16273): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16273): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x408, repeatCount=0, eventTime=8587540, downTime=8587540, deviceId=-1, source=0x101 }
+I/Choreographer(16273): Skipped 38 frames!  The application may be doing too much work on its main thread.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(16273): GC_CONCURRENT freed 341K, 10% free 4498K/4992K, paused 3ms+0ms, total 20ms
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(16273): GC_CONCURRENT freed 494K, 12% free 4458K/5036K, paused 1ms+2ms, total 6ms
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral} from pid 16263
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+I/chromium(16273): [INFO:CONSOLE(8)] "Uncaught Error: Load timeout for modules: loginView
+I/chromium(16273): http://requirejs.org/docs/errors.html#timeout", source: file:///android_asset/www/libs/require/require.min.js (8)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(16273): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16273): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+E/SurfaceFlinger(  174): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  174): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  174): setOrientation, mFbdev=0xb9577da0, mFbDev->setOrientation=0xb6953ce0, orientation=0
+I/gralloc_nox(  174): setOrientation: orientation=0
+I/ActivityManager(  484): Config changes=480 {1.0 310mcc260mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.100}
+D/Tinker.DefaultAppLike(  689): onConfigurationChanged:{1.0 310mcc260mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.100}
+D/PhoneStatusBar(  536): mSettingsPanelGravity = 55
+D/Sensors (  484): Client connection accepted (189)
+I/InputReader(  484): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  484): Device reconfigured: id=1, name='Android Input', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  484): Device reconfigured: id=3, name='seamless mouse', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  484): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 0, mode 1, display id 0
+I/AndroidRuntime(16263): VM exiting with result code 0.

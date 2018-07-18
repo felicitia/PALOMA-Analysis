@@ -1,0 +1,753 @@
+--------- beginning of /dev/log/main
+D/AndroidRuntime( 1336): 
+D/AndroidRuntime( 1336): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1336): CheckJNI is OFF
+D/dalvikvm( 1336): Using executionMode 2
+D/dalvikvm( 1336): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1336): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1336): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1336): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1336): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1336): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1336): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1336): failed to load memtrack module: -2
+D/AndroidRuntime( 1336): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  478): Skipping deliver [background] BroadcastRecord{4abc738c u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4ab6f7bc 1336 (unknown name)/0/u-1 remote:4a891388}: process crashing
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity} from pid 1336
+D/yeshen  (  678): launcher onpause
+I/ActivityManager(  478): Start proc com.brainpop.brainpopfeaturedmovieandroid for activity com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity: pid=1346 uid=10192 gids={50192, 3003}
+E/SurfaceFlinger(  166): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  166): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  166): setOrientation, mFbdev=0xb88fadf0, mFbDev->setOrientation=0xb691fce0, orientation=3
+I/gralloc_nox(  166): setOrientation: orientation=3
+I/ActivityManager(  478): Config changes=480 {1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger qwerty/v/v dpad/v s.81}
+D/PhoneStatusBar(  530): mSettingsPanelGravity = 55
+D/Sensors (  478): Client connection accepted (196)
+D/Tinker.DefaultAppLike(  678): onConfigurationChanged:{1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger qwerty/v/v dpad/v s.81}
+I/dalvikvm( 1346): ignoring registerObject request in thread=1
+I/dalvikvm( 1346): ignoring registerObject request in thread=1
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10192, 1) failed with errno -13
+D/yeshen  (  678): launcher onstop
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+D/HockeyApp( 1346): Looking for exceptions in: /data/data/com.brainpop.brainpopfeaturedmovieandroid/files
+D/HockeyApp( 1346): Current handler class = com.android.internal.os.RuntimeInit$UncaughtHandler
+V/PurchaseManager( 1346): Stopping connection!!!
+D/IabHelper( 1346): Starting in-app billing setup.
+V/IabHelper( 1346): Binding service
+D/dalvikvm(  530): GC_FOR_ALLOC freed 55K, 41% free 12588K/21016K, paused 7ms, total 8ms
+I/dalvikvm-heap(  530): Grow heap (frag case) to 15.869MB for 3686412-byte allocation
+D/dalvikvm(  530): GC_CONCURRENT freed 6K, 35% free 16182K/24620K, paused 2ms+1ms, total 5ms
+D/IabHelper( 1346): Billing service connected.
+D/IabHelper( 1346): Checking for in-app billing 3 support.
+I/Finsky  (30729): [1273] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1346): In-app billing version 3 supported for com.brainpop.brainpopfeaturedmovieandroid
+I/Finsky  (30729): [1274] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1346): Subscriptions AVAILABLE.
+D/IabHelper( 1346): Starting async operation: refresh inventory
+E/MediaPlayer( 1346): Should have subtitle controller already set
+D/IabHelper( 1346): Querying owned items, item type: inapp
+D/IabHelper( 1346): Package name: com.brainpop.brainpopfeaturedmovieandroid
+D/IabHelper( 1346): Calling getPurchases with continuation token: null
+I/Finsky  (30729): [1238] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1346): Owned items response: 0
+D/IabHelper( 1346): Continuation token: null
+D/IabHelper( 1346): Querying SKU details.
+I/Finsky  (30729): [1239] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1346): Querying owned items, item type: subs
+D/IabHelper( 1346): Package name: com.brainpop.brainpopfeaturedmovieandroid
+D/IabHelper( 1346): Calling getPurchases with continuation token: null
+I/Finsky  (30729): [1273] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1346): Owned items response: 0
+D/IabHelper( 1346): Continuation token: null
+D/IabHelper( 1346): Querying SKU details.
+I/Finsky  (30729): [1274] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/dalvikvm(30729): GC_CONCURRENT freed 614K, 16% free 5169K/6104K, paused 3ms+0ms, total 7ms
+D/IabHelper( 1346): Got sku details: SkuDetails:{"productId":"brainpop_explorer","type":"subs","price":"R$5.07","price_amount_micros":5070000,"price_currency_code":"BRL","subscriptionPeriod":"P1M","title":"BrainPOP Explorer (BrainPOP Featured Movie)","description":"In-app access to four additional related movies and quizzes that rotate \ndaily."}
+D/IabHelper( 1346): Got sku details: SkuDetails:{"productId":"brainpop_full_access","type":"subs","price":"R$17.80","price_amount_micros":17800000,"price_currency_code":"BRL","subscriptionPeriod":"P1M","title":"BrainPOP Full Access (BrainPOP Featured Movie)","description":"Unlimited in-app access to our 700+ movies and quizzes."}
+D/IabHelper( 1346): Ending async operation: refresh inventory
+W/ActivityManager(  478): Unable to start service Intent { act=android.support.customtabs.action.CustomTabsService pkg=com.android.chrome } U=0: not found
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getFingerprintValid []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getDesiredAuthMethod []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getAuthFrequency []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getUserHasFop []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getFingerprintValid []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getDesiredAuthMethod []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getAuthFrequency []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getUserHasFop []
+I/Finsky  (30729): [1] com.google.android.finsky.billing.a.k.run(35): Skipping a request to /bulkAcquire since cache has all the records.
+I/InputReader(  478): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  478): Device reconfigured: id=1, name='Android Input', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  478): Device reconfigured: id=3, name='seamless mouse', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  478): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  478): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 3, mode 1, display id 0
+D/FirebaseApp(  678): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  678): onTrimMemory level:20
+D/libEGL  ( 1346): loaded /system/lib/egl/libEGL_adreno.so
+I/WearableService(16646): Wearable Services stopping
+W/EGL_emulation(  530): eglSurfaceAttrib not implemented 3093 12436
+D/        ( 1346): HostConnection::get() New Host Connection established 0xb8eec130, tid 1346
+D/libEGL  ( 1346): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 1346): loaded /system/lib/egl/libGLESv2_adreno.so
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+W/EGL_emulation( 1346): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer( 1346): Enabling debug mode 0
+D/UpgradeManager( 1346): Query inventory finished.
+D/UpgradeManager( 1346): Query inventory was successful.
+D/dalvikvm( 1346): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 1346): GC_FOR_ALLOC freed 164K, 8% free 2908K/3136K, paused 4ms, total 5ms
+I/dalvikvm-heap( 1346): Grow heap (frag case) to 4.276MB for 1446492-byte allocation
+D/dalvikvm( 1346): GC_FOR_ALLOC freed 1K, 6% free 4319K/4552K, paused 2ms, total 2ms
+D/dalvikvm( 1346): GC_CONCURRENT freed <1K, 6% free 4319K/4552K, paused 0ms+0ms, total 4ms
+D/dalvikvm( 1346): GC_FOR_ALLOC freed 3K, 5% free 4573K/4804K, paused 3ms, total 3ms
+D/dalvikvm( 1346): GC_FOR_ALLOC freed <1K, 5% free 4824K/5056K, paused 1ms, total 1ms
+D/dalvikvm( 1346): GC_FOR_ALLOC freed 1K, 5% free 5327K/5560K, paused 3ms, total 3ms
+W/IInputConnectionWrapper(  678): showStatusIcon on inactive InputConnection
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): Displayed com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity: +973ms
+I/WindowManager(  478): Screen frozen for +962ms due to Window{4a989cc8 u0 Starting com.brainpop.brainpopfeaturedmovieandroid}
+E/AudioSink(  169): received unknown event type: 1 inside CallbackWrapper !
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity} from pid 1336
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+D/dalvikvm(  642): GC_CONCURRENT freed 385K, 16% free 3062K/3616K, paused 0ms+0ms, total 2ms
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+D/dalvikvm( 1346): GC_FOR_ALLOC freed 16K, 4% free 5536K/5744K, paused 2ms, total 3ms
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity} from pid 1336
+D/dalvikvm( 1346): GC_CONCURRENT freed 93K, 3% free 6283K/6440K, paused 3ms+0ms, total 9ms
+D/dalvikvm( 1346): WAIT_FOR_CONCURRENT_GC blocked 3ms
+W/dalvikvm( 1346): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm( 1346): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 1346): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm( 1346): VFY: unable to resolve virtual method 25207: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm( 1346): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm( 1346): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm( 1346): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 1346): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm( 1346): VFY: unable to resolve interface method 25201: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm( 1346): VFY: replacing opcode 0x72 at 0x0006
+I/System.out( 1346): body:<com.brainpop.brainpopfeaturedmovieandroid.DeviceManager$DeviceRequest: void <init>(com.brainpop.brainpopfeaturedmovieandroid.DeviceManager,com.brainpop.brainpopfeaturedmovieandroid.LoadCallback)>	sig:$r5 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String)>($r5)	timediff:0
+W/ViewRootImpl( 1346): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13233369, downTime=13233369, deviceId=-1, source=0x101 }
+W/EGL_emulation( 1346): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 1346): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SCROLL_LOCK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13233394, downTime=13233394, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa00388 attribute=null, token = android.os.BinderProxy@4a89d620
+W/EGL_emulation( 1346): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abd8614 attribute=null, token = android.os.BinderProxy@4a89d620
+W/ViewRootImpl( 1346): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13233745, downTime=13233745, deviceId=-1, source=0x101 }
+W/EGL_emulation( 1346): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 1346): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_3, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13233923, downTime=13233923, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abf5158 attribute=null, token = android.os.BinderProxy@4a89d620
+W/ViewRootImpl( 1346): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13233976, downTime=13233976, deviceId=-1, source=0x101 }
+W/EGL_emulation( 1346): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 1346): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13234000, downTime=13234000, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 1346): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13234163, downTime=13234163, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4acd5548 attribute=null, token = android.os.BinderProxy@4a89d620
+I/AndroidRuntime( 1346): VM exiting with result code 0, cleanup skipped.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10192, 0) failed with errno -13
+W/InputDispatcher(  478): channel '4a9aa480 com.brainpop.brainpopfeaturedmovieandroid/com.brainpop.brainpopfeaturedmovieandroid.SplashActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  478): channel '4a9aa480 com.brainpop.brainpopfeaturedmovieandroid/com.brainpop.brainpopfeaturedmovieandroid.SplashActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+I/ActivityManager(  478): Process com.brainpop.brainpopfeaturedmovieandroid (pid 1346) has died.
+W/InputDispatcher(  478): Attempted to unregister already unregistered input channel '4a9aa480 com.brainpop.brainpopfeaturedmovieandroid/com.brainpop.brainpopfeaturedmovieandroid.SplashActivity (server)'
+I/WindowState(  478): WIN DEATH: Window{4a9aa480 u0 com.brainpop.brainpopfeaturedmovieandroid/com.brainpop.brainpopfeaturedmovieandroid.SplashActivity}
+D/FirebaseApp(  678): Notifying background state change listeners.
+W/Launcher(  678): setApplicationContext called twice! old=com.vphone.launcher.LauncherApplicationEx@4a7834d4 new=com.vphone.launcher.LauncherApplicationEx@4a7834d4
+W/ResourceType(  678): Attempt to retrieve bag 0x7f0b0001 which is invalid or in a cycle.
+D/Launcher(  678): 11683562 - bindAddScreens()
+D/Launcher(  678): 11683562 -   orderedScreenIds: 1, 10
+D/Launcher.Workspace(  678): 11683562 - insertNewWorkspaceScreen(): 1 at index: 0
+D/Launcher.Workspace(  678): 11683562 - insertNewWorkspaceScreen(): 10 at index: 1
+I/qtaguid (  678): Untagging socket 81 failed errno=-13
+W/NetworkManagementSocketTagger(  678): untagSocket(81) failed with errno -13
+I/qtaguid (  678): Tagging socket 81 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(81, 1239581248, -1) failed with errno-13
+W/PhoneWindow(  678): Previously focused view reported id 2131689766 during save, but can't be found during restore.
+W/ContextImpl(  678): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1492 android.content.ContextWrapper.startService:494 com.vphone.launcher.Launcher.i:690 com.vphone.launcher.Launcher.b:182 com.vphone.launcher.Launcher$11.run:650 
+D/Sensors (  478): Client connection accepted (192)
+W/EGL_emulation(  678): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  678): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13234480, downTime=13234480, deviceId=-1, source=0x101 }
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+I/qtaguid (  678): Tagging socket 141 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(141, 1239581248, -1) failed with errno-13
+E/SurfaceFlinger(  166): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  166): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  166): setOrientation, mFbdev=0xb88fadf0, mFbDev->setOrientation=0xb691fce0, orientation=0
+I/gralloc_nox(  166): setOrientation: orientation=0
+I/ActivityManager(  478): Config changes=480 {1.0 310mcc16mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.82}
+I/InputReader(  478): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  478): Device reconfigured: id=1, name='Android Input', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  478): Device reconfigured: id=3, name='seamless mouse', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  478): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  478): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 0, mode 1, display id 0
+D/Sensors (  478): Client connection accepted (192)
+W/ViewRootImpl(  678): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13234797, downTime=13234797, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/PhoneStatusBar(  530): mSettingsPanelGravity = 55
+D/dalvikvm(  530): GC_FOR_ALLOC freed 5784K, 41% free 12587K/21016K, paused 3ms, total 3ms
+I/dalvikvm-heap(  530): Grow heap (frag case) to 15.868MB for 3686412-byte allocation
+D/dalvikvm(  530): GC_FOR_ALLOC freed 1K, 35% free 16186K/24620K, paused 5ms, total 7ms
+D/dalvikvm(  530): GC_CONCURRENT freed 5K, 35% free 16182K/24620K, paused 0ms+0ms, total 5ms
+W/SurfaceFlinger(  166): couldn't log to binary event log: overflow.
+W/Binder  (  642): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  642): java.lang.NullPointerException
+W/Binder  (  642): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  642): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  642): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  642): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  478): Got RemoteException sending setActive(false) notification to pid 1346 uid 10192
+I/Choreographer(  678): Skipped 35 frames!  The application may be doing too much work on its main thread.
+D/Tinker.DefaultAppLike(  678): onConfigurationChanged:{1.0 310mcc16mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.82}
+D/yeshen  (  678): launcher onpause
+D/yeshen  (  678): launcher onstop
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+W/Launcher(  678): setApplicationContext called twice! old=com.vphone.launcher.LauncherApplicationEx@4a7834d4 new=com.vphone.launcher.LauncherApplicationEx@4a7834d4
+W/ResourceType(  678): Attempt to retrieve bag 0x7f0b0001 which is invalid or in a cycle.
+D/Launcher(  678): 11683562 - bindAddScreens()
+D/Launcher(  678): 11683562 -   orderedScreenIds: 1, 10
+D/Launcher.Workspace(  678): 11683562 - insertNewWorkspaceScreen(): 1 at index: 0
+D/Launcher.Workspace(  678): 11683562 - insertNewWorkspaceScreen(): 10 at index: 1
+W/EGL_emulation(  530): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(  678): GC_CONCURRENT freed 8853K, 10% free 103012K/113404K, paused 1ms+28ms, total 96ms
+D/dalvikvm(  678): WAIT_FOR_CONCURRENT_GC blocked 60ms
+W/ContextImpl(  678): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1492 android.content.ContextWrapper.startService:494 com.vphone.launcher.Launcher.i:690 com.vphone.launcher.Launcher.b:182 com.vphone.launcher.Launcher$11.run:650 
+I/Choreographer(  678): Skipped 30 frames!  The application may be doing too much work on its main thread.
+W/EGL_emulation(  678): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  678): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=13235647, downTime=13235647, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  678): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=13235647, downTime=13235647, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  678): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=13235647, downTime=13235647, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  678): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=13235647, downTime=13235647, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  678): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=13235647, downTime=13235647, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  678): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=13235647, downTime=13235647, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  678): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=13235647, downTime=13235647, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  678): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=13235647, downTime=13235647, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/WindowManager(  478): Screen frozen for +910ms due to Window{4aa56f10 u0 com.vphone.launcher/com.vphone.launcher.Launcher}
+W/ContextImpl(  678): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/ContextImpl(  678): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/qtaguid (  678): Tagging socket 143 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(143, 1239581248, -1) failed with errno-13
+I/qtaguid (  678): Tagging socket 148 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(148, 1239581248, -1) failed with errno-13
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+I/qtaguid (  678): Untagging socket 74 failed errno=-13
+W/NetworkManagementSocketTagger(  678): untagSocket(74) failed with errno -13
+I/qtaguid (  678): Untagging socket 136 failed errno=-13
+W/NetworkManagementSocketTagger(  678): untagSocket(136) failed with errno -13
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity} from pid 1336
+W/PropertyValuesHolder(  678): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  678): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyanogenmod.filemanager/.activities.NavigationActivity bnds=[334,174][538,301] (has extras)} from pid 678
+W/ContextImpl(  678): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+D/yeshen  (  678): launcher onpause
+I/ActivityManager(  478): Start proc com.brainpop.brainpopfeaturedmovieandroid for activity com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity: pid=1427 uid=10192 gids={50192, 3003}
+E/SurfaceFlinger(  166): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  166): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  166): setOrientation, mFbdev=0xb88fadf0, mFbDev->setOrientation=0xb691fce0, orientation=3
+I/gralloc_nox(  166): setOrientation: orientation=3
+I/ActivityManager(  478): Config changes=480 {1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger qwerty/v/v dpad/v s.83}
+I/InputReader(  478): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  478): Device reconfigured: id=1, name='Android Input', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  478): Device reconfigured: id=3, name='seamless mouse', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  478): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 3, mode 1, display id 0
+D/PhoneStatusBar(  530): mSettingsPanelGravity = 55
+D/Sensors (  478): Client connection accepted (187)
+I/qtaguid (  678): Tagging socket 74 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(74, 462060827, -1) failed with errno-13
+I/qtaguid (  678): Tagging socket 139 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(139, 462060827, -1) failed with errno-13
+I/qtaguid (  678): Tagging socket 131 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(131, 462060827, -1) failed with errno-13
+I/qtaguid (  678): Tagging socket 138 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(138, 462060827, -1) failed with errno-13
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10192, 1) failed with errno -13
+I/dalvikvm( 1427): ignoring registerObject request in thread=1
+I/dalvikvm( 1427): ignoring registerObject request in thread=1
+D/HockeyApp( 1427): Looking for exceptions in: /data/data/com.brainpop.brainpopfeaturedmovieandroid/files
+D/HockeyApp( 1427): Current handler class = com.android.internal.os.RuntimeInit$UncaughtHandler
+V/PurchaseManager( 1427): Stopping connection!!!
+D/IabHelper( 1427): Starting in-app billing setup.
+V/IabHelper( 1427): Binding service
+D/dalvikvm(  530): GC_FOR_ALLOC freed 4846K, 41% free 12586K/21016K, paused 2ms, total 2ms
+I/dalvikvm-heap(  530): Grow heap (frag case) to 15.867MB for 3686412-byte allocation
+D/dalvikvm(  530): GC_CONCURRENT freed 1K, 35% free 16184K/24620K, paused 3ms+0ms, total 7ms
+D/IabHelper( 1427): Billing service connected.
+D/IabHelper( 1427): Checking for in-app billing 3 support.
+I/Finsky  (30729): [1274] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): In-app billing version 3 supported for com.brainpop.brainpopfeaturedmovieandroid
+I/Finsky  (30729): [1238] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): Subscriptions AVAILABLE.
+D/IabHelper( 1427): Starting async operation: refresh inventory
+E/MediaPlayer( 1427): Should have subtitle controller already set
+D/IabHelper( 1427): Querying owned items, item type: inapp
+D/IabHelper( 1427): Package name: com.brainpop.brainpopfeaturedmovieandroid
+D/IabHelper( 1427): Calling getPurchases with continuation token: null
+I/Finsky  (30729): [1273] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): Owned items response: 0
+D/IabHelper( 1427): Continuation token: null
+D/IabHelper( 1427): Querying SKU details.
+I/Finsky  (30729): [1239] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): Querying owned items, item type: subs
+D/IabHelper( 1427): Package name: com.brainpop.brainpopfeaturedmovieandroid
+D/IabHelper( 1427): Calling getPurchases with continuation token: null
+I/Finsky  (30729): [1274] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): Owned items response: 0
+D/IabHelper( 1427): Continuation token: null
+D/IabHelper( 1427): Querying SKU details.
+I/Finsky  (30729): [1238] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): Got sku details: SkuDetails:{"productId":"brainpop_explorer","type":"subs","price":"R$5.07","price_amount_micros":5070000,"price_currency_code":"BRL","subscriptionPeriod":"P1M","title":"BrainPOP Explorer (BrainPOP Featured Movie)","description":"In-app access to four additional related movies and quizzes that rotate \ndaily."}
+D/IabHelper( 1427): Got sku details: SkuDetails:{"productId":"brainpop_full_access","type":"subs","price":"R$17.80","price_amount_micros":17800000,"price_currency_code":"BRL","subscriptionPeriod":"P1M","title":"BrainPOP Full Access (BrainPOP Featured Movie)","description":"Unlimited in-app access to our 700+ movies and quizzes."}
+D/IabHelper( 1427): Ending async operation: refresh inventory
+W/ActivityManager(  478): Unable to start service Intent { act=android.support.customtabs.action.CustomTabsService pkg=com.android.chrome } U=0: not found
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getFingerprintValid []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getDesiredAuthMethod []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getAuthFrequency []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getUserHasFop []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getFingerprintValid []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getDesiredAuthMethod []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getAuthFrequency []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getUserHasFop []
+I/Finsky  (30729): [1] com.google.android.finsky.billing.a.k.run(35): Skipping a request to /bulkAcquire since cache has all the records.
+D/Tinker.DefaultAppLike(  678): onConfigurationChanged:{1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger qwerty/v/v dpad/v s.83}
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+D/libEGL  ( 1427): loaded /system/lib/egl/libEGL_adreno.so
+D/dalvikvm(  678): GC_CONCURRENT freed 8242K, 10% free 102961K/113404K, paused 1ms+15ms, total 68ms
+D/dalvikvm(  678): WAIT_FOR_CONCURRENT_GC blocked 63ms
+D/dalvikvm(  678): WAIT_FOR_CONCURRENT_GC blocked 40ms
+D/dalvikvm(  678): WAIT_FOR_CONCURRENT_GC blocked 41ms
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+D/yeshen  (  678): launcher onstop
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+I/qtaguid (  678): Tagging socket 127 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(127, 462060827, -1) failed with errno-13
+D/        ( 1427): HostConnection::get() New Host Connection established 0xb8eec3f0, tid 1427
+I/qtaguid (  678): Tagging socket 129 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(129, 462060827, -1) failed with errno-13
+I/qtaguid (  678): Tagging socket 133 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(133, 462060827, -1) failed with errno-13
+I/qtaguid (  678): Tagging socket 134 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(134, 462060827, -1) failed with errno-13
+D/libEGL  ( 1427): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 1427): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation(  530): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer( 1427): Enabling debug mode 0
+D/UpgradeManager( 1427): Query inventory finished.
+D/UpgradeManager( 1427): Query inventory was successful.
+D/dalvikvm( 1427): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 1427): GC_FOR_ALLOC freed 167K, 8% free 2908K/3140K, paused 7ms, total 7ms
+I/dalvikvm-heap( 1427): Grow heap (frag case) to 4.276MB for 1446492-byte allocation
+D/dalvikvm( 1427): GC_CONCURRENT freed 1K, 6% free 4319K/4556K, paused 3ms+0ms, total 4ms
+D/dalvikvm( 1427): GC_FOR_ALLOC freed 3K, 5% free 4573K/4808K, paused 2ms, total 2ms
+D/dalvikvm( 1427): GC_FOR_ALLOC freed <1K, 5% free 4823K/5060K, paused 2ms, total 2ms
+D/dalvikvm( 1427): GC_FOR_ALLOC freed 2K, 5% free 5327K/5564K, paused 1ms, total 2ms
+W/IInputConnectionWrapper(  678): showStatusIcon on inactive InputConnection
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): Displayed com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity: +879ms
+I/WindowManager(  478): Screen frozen for +881ms due to Window{4aa8ef94 u0 Starting com.brainpop.brainpopfeaturedmovieandroid}
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+D/dalvikvm( 1427): GC_FOR_ALLOC freed 7K, 4% free 5537K/5748K, paused 2ms, total 3ms
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity} from pid 1336
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+W/ContextImpl(  678): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/ContextImpl(  678): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/qtaguid (  678): Tagging socket 81 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(81, 1239581248, -1) failed with errno-13
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13239194, downTime=13239194, deviceId=-1, source=0x101 }
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13239228, downTime=13239228, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4b448c78 attribute=null, token = android.os.BinderProxy@4abde91c
+I/qtaguid (  678): Tagging socket 137 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(137, 1239581248, -1) failed with errno-13
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13239770, downTime=13239770, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9be47c attribute=null, token = android.os.BinderProxy@4abde91c
+D/dalvikvm(  478): GC_EXPLICIT freed 2904K, 46% free 17227K/31608K, paused 2ms+2ms, total 27ms
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13239952, downTime=13239952, deviceId=-1, source=0x101 }
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm( 1427): GC_CONCURRENT freed 77K, 3% free 6252K/6392K, paused 2ms+1ms, total 5ms
+W/ContextImpl(  678): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/dalvikvm( 1427): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm( 1427): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 1427): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm( 1427): VFY: unable to resolve virtual method 25207: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm( 1427): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm( 1427): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm( 1427): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 1427): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm( 1427): VFY: unable to resolve interface method 25201: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm( 1427): VFY: replacing opcode 0x72 at 0x0006
+I/System.out( 1427): body:<com.brainpop.brainpopfeaturedmovieandroid.DeviceManager$DeviceRequest: void <init>(com.brainpop.brainpopfeaturedmovieandroid.DeviceManager,com.brainpop.brainpopfeaturedmovieandroid.LoadCallback)>	sig:$r5 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String)>($r5)	timediff:0
+W/BroadcastQueue(  478): Unable to launch app com.innovativelanguage.innovativelanguage101/10200 for broadcast Intent { act=android.intent.action.MEDIA_BUTTON flg=0x10 (has extras) }: process is bad
+W/BroadcastQueue(  478): Unable to launch app com.innovativelanguage.innovativelanguage101/10200 for broadcast Intent { act=android.intent.action.MEDIA_BUTTON flg=0x10 (has extras) }: process is bad
+V/PanelView(  530): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4acdc328 attribute=null, token = android.os.BinderProxy@4abde91c
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity} from pid 1336
+V/PanelView(  530): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13240288, downTime=13240288, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab8034c attribute=null, token = android.os.BinderProxy@4abde91c
+W/Launcher(  678): setApplicationContext called twice! old=com.vphone.launcher.LauncherApplicationEx@4a7834d4 new=com.vphone.launcher.LauncherApplicationEx@4a7834d4
+V/PanelView(  530): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+D/Launcher.Model(  678): 11683562 - loadWorkspaceScreensDb()
+D/Launcher.Model(  678): 11683562 -   screens: { 0: 1 }, { 1: 10 }
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+D/Launcher.Model(  678): 11683562 - updateWorkspaceScreenOrder()
+D/Launcher.Model(  678): 11683562 -   screens: 1, 10
+I/Launcher(  678): Deferring update until onResume
+I/Launcher(  678): Deferring update until onResume
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_EQUALS, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13240785, downTime=13240785, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 1427): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=2.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=13240794, downTime=-1, deviceId=0, source=0x10004 }
+V/PanelView(  530): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9d4430 attribute=null, token = android.os.BinderProxy@4abde91c
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13241149, downTime=13241149, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8c5e90 attribute=null, token = android.os.BinderProxy@4abde91c
+D/dalvikvm( 1427): GC_CONCURRENT freed 802K, 12% free 6490K/7356K, paused 1ms+0ms, total 5ms
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_A, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13241692, downTime=13241692, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13241692, downTime=13241692, deviceId=-1, source=0x101 }
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13241722, downTime=13241722, deviceId=-1, source=0x101 }
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13241781, downTime=13241781, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abff7d0 attribute=null, token = android.os.BinderProxy@4abde91c
+V/PanelView(  530): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  530): animationTick called with dtms=-2; nothing to do (h=0.0 v=-0.0)
+D/dalvikvm( 1427): GC_FOR_ALLOC freed 749K, 15% free 6646K/7780K, paused 4ms, total 4ms
+D/dalvikvm( 1427): GC_FOR_ALLOC freed 527K, 14% free 6857K/7960K, paused 6ms, total 6ms
+I/System.out( 1427): body:<com.androidquery.callback.AbstractAjaxCallback: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,org.apache.http.impl.client.DefaultHttpClient,org.apache.http.protocol.HttpContext)>	sig:$r6 = virtualinvoke $r5.<java.net.URI: java.lang.String getAuthority()>()	timediff:0
+D/dalvikvm(  478): GC_EXPLICIT freed 542K, 46% free 17314K/31608K, paused 0ms+4ms, total 29ms
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_T, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13242423, downTime=13242423, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13242445, downTime=13242445, deviceId=-1, source=0x101 }
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13242468, downTime=13242468, deviceId=-1, source=0x101 }
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+I/ActivityManager(  478): START u0 {cmp=com.brainpop.brainpopfeaturedmovieandroid/.MainMenuActivity} from pid 1427
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aad5d38 attribute=null, token = android.os.BinderProxy@4abde91c
+V/PurchaseManager( 1427): Stopping connection!!!
+D/IabHelper( 1427): Starting in-app billing setup.
+V/IabHelper( 1427): Binding service
+D/HockeyApp( 1427): Looking for exceptions in: /data/data/com.brainpop.brainpopfeaturedmovieandroid/files
+D/HockeyApp( 1427): Current handler class = net.hockeyapp.android.ExceptionHandler
+D/dalvikvm( 1427): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm( 1427): GC_EXPLICIT freed 1368K, 19% free 6464K/7960K, paused 1ms+1ms, total 7ms
+D/dalvikvm( 1427): GC_FOR_ALLOC freed 24K, 19% free 6510K/7960K, paused 3ms, total 4ms
+I/dalvikvm-heap( 1427): Grow heap (frag case) to 6.886MB for 430204-byte allocation
+D/dalvikvm( 1427): GC_FOR_ALLOC freed <1K, 18% free 6929K/8384K, paused 8ms, total 8ms
+D/dalvikvm( 1427): GC_FOR_ALLOC freed <1K, 16% free 7048K/8384K, paused 7ms, total 7ms
+I/dalvikvm-heap( 1427): Grow heap (frag case) to 7.413MB for 430204-byte allocation
+D/dalvikvm( 1427): GC_FOR_ALLOC freed 0K, 16% free 7468K/8808K, paused 2ms, total 2ms
+D/dalvikvm( 1427): GC_FOR_ALLOC freed 971K, 25% free 6652K/8808K, paused 3ms, total 3ms
+D/dalvikvm( 1427): GC_FOR_ALLOC freed 1K, 14% free 7625K/8808K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1427): Grow heap (frag case) to 8.730MB for 1221292-byte allocation
+D/dalvikvm( 1427): GC_FOR_ALLOC freed <1K, 12% free 8817K/10004K, paused 2ms, total 2ms
+D/IabHelper( 1427): Billing service connected.
+D/IabHelper( 1427): Checking for in-app billing 3 support.
+I/Finsky  (30729): [1273] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): In-app billing version 3 supported for com.brainpop.brainpopfeaturedmovieandroid
+I/Finsky  (30729): [1239] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): Subscriptions AVAILABLE.
+D/IabHelper( 1427): Starting async operation: refresh inventory
+D/IabHelper( 1427): Querying owned items, item type: inapp
+D/IabHelper( 1427): Package name: com.brainpop.brainpopfeaturedmovieandroid
+D/IabHelper( 1427): Calling getPurchases with continuation token: null
+I/Finsky  (30729): [1274] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): Owned items response: 0
+D/IabHelper( 1427): Continuation token: null
+D/IabHelper( 1427): Querying SKU details.
+I/Finsky  (30729): [1238] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): Querying owned items, item type: subs
+D/IabHelper( 1427): Package name: com.brainpop.brainpopfeaturedmovieandroid
+D/IabHelper( 1427): Calling getPurchases with continuation token: null
+I/Finsky  (30729): [1273] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): Owned items response: 0
+D/IabHelper( 1427): Continuation token: null
+D/IabHelper( 1427): Querying SKU details.
+I/Finsky  (30729): [1239] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): Got sku details: SkuDetails:{"productId":"brainpop_explorer","type":"subs","price":"R$5.07","price_amount_micros":5070000,"price_currency_code":"BRL","subscriptionPeriod":"P1M","title":"BrainPOP Explorer (BrainPOP Featured Movie)","description":"In-app access to four additional related movies and quizzes that rotate \ndaily."}
+D/IabHelper( 1427): Got sku details: SkuDetails:{"productId":"brainpop_full_access","type":"subs","price":"R$17.80","price_amount_micros":17800000,"price_currency_code":"BRL","subscriptionPeriod":"P1M","title":"BrainPOP Full Access (BrainPOP Featured Movie)","description":"Unlimited in-app access to our 700+ movies and quizzes."}
+D/IabHelper( 1427): Ending async operation: refresh inventory
+D/dalvikvm(30729): GC_CONCURRENT freed 768K, 16% free 5139K/6104K, paused 1ms+3ms, total 16ms
+W/ActivityManager(  478): Unable to start service Intent { act=android.support.customtabs.action.CustomTabsService pkg=com.android.chrome } U=0: not found
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getFingerprintValid []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getDesiredAuthMethod []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getAuthFrequency []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getUserHasFop []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getFingerprintValid []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getDesiredAuthMethod []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getAuthFrequency []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getUserHasFop []
+I/Finsky  (30729): [1] com.google.android.finsky.billing.a.k.run(35): Skipping a request to /bulkAcquire since cache has all the records.
+W/ContextImpl(  678): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13242785, downTime=13242785, deviceId=-1, source=0x101 }
+W/ResourceType(  478): Skipping entry 0x7f050014 in package table 0 because it is not complex!
+W/ResourceType(  478): Skipping entry 0x7f050015 in package table 0 because it is not complex!
+I/ActivityManager(  478): Displayed com.brainpop.brainpopfeaturedmovieandroid/.MainMenuActivity: +608ms
+D/UpgradeManager( 1427): Query inventory finished.
+D/UpgradeManager( 1427): Query inventory was successful.
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13243230, downTime=13243230, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/SurfaceFlinger(  166): couldn't log to binary event log: overflow.
+I/ActivityManager(  478): Activity reported stop, but no longer stopping: ActivityRecord{4a9982b4 u0 com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity t241 f}
+I/ActivityManager(  478): START u0 {cmp=com.brainpop.brainpopfeaturedmovieandroid/.PlayTheMovieActivity} from pid 1427
+V/PurchaseManager( 1427): Stopping connection!!!
+D/IabHelper( 1427): Disposing.
+D/IabHelper( 1427): Unbinding from service.
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=4, eventTime=13243749, downTime=13243749, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=13243749, downTime=13243749, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=13243749, downTime=13243749, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=13243749, downTime=13243749, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=13243749, downTime=13243749, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 1427): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=13243731, downTime=-1, deviceId=0, source=0x10004 }
+V/PurchaseManager( 1427): Stopping connection!!!
+D/IabHelper( 1427): Starting in-app billing setup.
+V/IabHelper( 1427): Binding service
+D/HockeyApp( 1427): Looking for exceptions in: /data/data/com.brainpop.brainpopfeaturedmovieandroid/files
+D/HockeyApp( 1427): Current handler class = net.hockeyapp.android.ExceptionHandler
+D/dalvikvm( 1427): GC_EXPLICIT freed 166K, 9% free 9351K/10244K, paused 1ms+1ms, total 4ms
+D/dalvikvm( 1427): GC_FOR_ALLOC freed 884K, 14% free 9823K/11392K, paused 5ms, total 5ms
+I/dalvikvm-heap( 1427): Grow heap (frag case) to 10.877MB for 1221292-byte allocation
+D/dalvikvm( 1427): GC_FOR_ALLOC freed 1K, 13% free 11014K/12588K, paused 8ms, total 8ms
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+D/MediaPlayer( 1427): Couldn't open file on client side, trying server side
+I/AwesomePlayer(  169): setDataSource_l(URL suppressed)
+D/IabHelper( 1427): Billing service connected.
+D/IabHelper( 1427): Checking for in-app billing 3 support.
+I/Finsky  (30729): [1274] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): In-app billing version 3 supported for com.brainpop.brainpopfeaturedmovieandroid
+I/Finsky  (30729): [1238] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): Subscriptions AVAILABLE.
+D/IabHelper( 1427): Starting async operation: refresh inventory
+D/IabHelper( 1427): Querying owned items, item type: inapp
+D/IabHelper( 1427): Package name: com.brainpop.brainpopfeaturedmovieandroid
+D/IabHelper( 1427): Calling getPurchases with continuation token: null
+I/Finsky  (30729): [1273] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): Owned items response: 0
+D/IabHelper( 1427): Continuation token: null
+D/IabHelper( 1427): Querying SKU details.
+I/Finsky  (30729): [1239] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): Querying owned items, item type: subs
+D/IabHelper( 1427): Package name: com.brainpop.brainpopfeaturedmovieandroid
+D/IabHelper( 1427): Calling getPurchases with continuation token: null
+I/Finsky  (30729): [1274] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+D/IabHelper( 1427): Owned items response: 0
+D/IabHelper( 1427): Continuation token: null
+D/IabHelper( 1427): Querying SKU details.
+I/Finsky  (30729): [1238] com.google.android.finsky.billing.iab.ab.b(46): com.brainpop.brainpopfeaturedmovieandroid: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+W/ViewRootImpl( 1427): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=13243866, downTime=-1, deviceId=0, source=0x10004 }
+D/IabHelper( 1427): Got sku details: SkuDetails:{"productId":"brainpop_explorer","type":"subs","price":"R$5.07","price_amount_micros":5070000,"price_currency_code":"BRL","subscriptionPeriod":"P1M","title":"BrainPOP Explorer (BrainPOP Featured Movie)","description":"In-app access to four additional related movies and quizzes that rotate \ndaily."}
+D/IabHelper( 1427): Got sku details: SkuDetails:{"productId":"brainpop_full_access","type":"subs","price":"R$17.80","price_amount_micros":17800000,"price_currency_code":"BRL","subscriptionPeriod":"P1M","title":"BrainPOP Full Access (BrainPOP Featured Movie)","description":"Unlimited in-app access to our 700+ movies and quizzes."}
+D/IabHelper( 1427): Ending async operation: refresh inventory
+W/ActivityManager(  478): Unable to start service Intent { act=android.support.customtabs.action.CustomTabsService pkg=com.android.chrome } U=0: not found
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getFingerprintValid []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getDesiredAuthMethod []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getAuthFrequency []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getUserHasFop []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getFingerprintValid []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getDesiredAuthMethod []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getAuthFrequency []
+W/Finsky  (30729): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getUserHasFop []
+I/Finsky  (30729): [1] com.google.android.finsky.billing.a.k.run(35): Skipping a request to /bulkAcquire since cache has all the records.
+I/ActivityManager(  478): Displayed com.brainpop.brainpopfeaturedmovieandroid/.PlayTheMovieActivity: +352ms
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13243879, downTime=13243879, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/UpgradeManager( 1427): Query inventory finished.
+D/UpgradeManager( 1427): Query inventory was successful.
+W/SurfaceFlinger(  166): couldn't log to binary event log: overflow.
+W/BroadcastQueue(  478): Unable to launch app com.innovativelanguage.innovativelanguage101/10200 for broadcast Intent { act=android.intent.action.MEDIA_BUTTON flg=0x10 (has extras) }: process is bad
+W/BroadcastQueue(  478): Unable to launch app com.innovativelanguage.innovativelanguage101/10200 for broadcast Intent { act=android.intent.action.MEDIA_BUTTON flg=0x10 (has extras) }: process is bad
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity} from pid 1336
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity} from pid 1336
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 1427
+W/PhoneFallbackEventHandler( 1427): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity} from pid 1336
+I/qtaguid (  169): Tagging socket 23 with tag 3f500000000(1013) for uid 10192 failed errno=-13
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity} from pid 1336
+I/GAV3    ( 1427): Thread[GAThread,5,main]: No campaign data found.
+I/SampleTable(  169): There are reordered frames present.
+I/OMXCodec(  169): [OMX.ffmpeg.h264.decoder] AVC profile = 77 (Main), level = 31
+I/OMXCodec(  169): [OMX.ffmpeg.h264.decoder] video dimensions are 320 x 240
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 1427
+W/PhoneFallbackEventHandler( 1427): No activity found for android.intent.action.CALL_BUTTON.
+D/MediaPlayer( 1427): getMetadata
+I/OMXCodec(  169): [OMX.ffmpeg.h264.decoder] video dimensions are 768 x 768
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity} from pid 1336
+D/        (  169): HostConnection::get() New Host Connection established 0xb7fe82c0, tid 1503
+D/dalvikvm( 1427): GC_EXPLICIT freed 3008K, 33% free 8450K/12532K, paused 0ms+1ms, total 6ms
+W/MediaPlayer( 1427): info/warning (3, 0)
+D/dalvikvm(30549): GC_FOR_ALLOC freed 91K, 31% free 3884K/5552K, paused 3ms, total 3ms
+D/dalvikvm(30549): GC_FOR_ALLOC freed 1K, 29% free 3950K/5552K, paused 2ms, total 2ms
+I/dalvikvm-heap(30549): Grow heap (frag case) to 3.976MB for 65548-byte allocation
+D/dalvikvm(30549): GC_FOR_ALLOC freed <1K, 29% free 4014K/5620K, paused 21ms, total 21ms
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+D/dalvikvm(30549): GC_FOR_ALLOC freed 6K, 29% free 4020K/5620K, paused 17ms, total 17ms
+I/dalvikvm-heap(30549): Grow heap (frag case) to 4.044MB for 65548-byte allocation
+D/dalvikvm(30549): GC_FOR_ALLOC freed 0K, 29% free 4084K/5688K, paused 6ms, total 6ms
+I/System.out(30562): body:<com.hellotalk.core.utils.ab: java.lang.String k()>	sig:staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r4, "UTF-8")	timediff:0
+D/WnsServiceManager(30549):  success to connect ip=119.28.39.249:443
+D/WnsServiceManager(30549):  success to connect ip=119.28.39.249:80
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+W/FileTracer(30549): wtf-too-much-logs , cost = 68 ms
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 478
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 478
+D/dalvikvm(30549): GC_FOR_ALLOC freed 139K, 29% free 4088K/5688K, paused 5ms, total 6ms
+I/dalvikvm-heap(30549): Grow heap (frag case) to 4.174MB for 131084-byte allocation
+D/dalvikvm(30549): GC_FOR_ALLOC freed <1K, 28% free 4216K/5820K, paused 6ms, total 6ms
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13250673, downTime=13250673, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13250801, downTime=13250801, deviceId=-1, source=0x101 }
+D/dalvikvm(30549): GC_FOR_ALLOC freed 164K, 30% free 4098K/5820K, paused 3ms, total 3ms
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity} from pid 1336
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9d4530 attribute=null, token = android.os.BinderProxy@4a8d5d34
+W/WindowManager(  478): updateFocusedWindowLocked, focusedAppToken is null.
+D/WnsServiceManager(30549):  success to connect ip=115.159.15.249:443
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  478): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a7ad9ec (uid=10192 pid=1427)
+D/dalvikvm(30549): GC_FOR_ALLOC freed 211K, 30% free 4091K/5820K, paused 3ms, total 3ms
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+D/dalvikvm(30549): GC_FOR_ALLOC freed 162K, 30% free 4099K/5820K, paused 3ms, total 3ms
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+D/WnsServiceManager(30549):  success to connect ip=119.28.39.249:14000
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+W/InputEventReceiver(  530): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  530): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  530): Attempted to finish an input event but the input event receiver has already been disposed.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity} from pid 1336
+W/ViewRootImpl(  530): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=179.52443, y[0]=-452.40283, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=13251237, downTime=13251234, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  530): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=177.32407, y[0]=-436.28583, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=13251239, downTime=13251234, deviceId=0, source=0x1002 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.brainpop.brainpopfeaturedmovieandroid/.SplashActivity} from pid 1336
+W/SurfaceFlinger(  166): couldn't log to binary event log: overflow.
+E/AudioTrack( 1427): did not receive expected priority boost on time
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 1427
+W/PhoneFallbackEventHandler( 1427): No activity found for android.intent.action.CALL_BUTTON.
+D/WnsServiceManager(30549):  success to connect ip=115.159.15.249:443
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13251525, downTime=13251525, deviceId=-1, source=0x101 }
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13251555, downTime=13251555, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+D/WnsServiceManager(30549):  success to connect ip=119.28.39.249:14000
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+W/InputEventReceiver( 1427): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 1427): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 1427): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 1427): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 1427): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=399.4547, y[0]=-439.38977, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=13251642, downTime=13251630, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 1427): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=143.0, y[0]=422.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=13251681, downTime=13251681, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 1427): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=13251680, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_AVR_INPUT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13251686, downTime=13251686, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ad36fc8 attribute=null, token = android.os.BinderProxy@4a8d5d34
+V/PanelView(  530): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  530): animationTick called with dtms=-15; nothing to do (h=0.0 v=0.0)
+D/dalvikvm(30549): GC_FOR_ALLOC freed 323K, 30% free 4114K/5820K, paused 4ms, total 4ms
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:1
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+D/dalvikvm(30549): GC_FOR_ALLOC freed 278K, 30% free 4110K/5820K, paused 3ms, total 3ms
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13252049, downTime=13252049, deviceId=-1, source=0x101 }
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/InputEventReceiver( 1427): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/ViewRootImpl( 1427): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=365.3177, y[0]=-291.1823, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=13252197, downTime=13252192, deviceId=0, source=0x1002 }
+W/InputEventReceiver( 1427): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/InputManager(  478): Input event injection from pid 1336 failed.
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9c0ce8 attribute=null, token = android.os.BinderProxy@4a8d5d34
+D/WnsServiceManager(30549):  success to connect ip=115.159.15.249:14000
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13252406, downTime=13252406, deviceId=-1, source=0x101 }
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+D/WnsServiceManager(30549):  success to connect ip=115.159.15.249:14000
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+W/InputEventReceiver( 1427): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 1427): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 1427): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 1427): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 1427): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 1427): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=150.3655, y[0]=411.53052, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=6, eventTime=13252636, downTime=13252626, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 1427): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=157.54253, y[0]=395.1996, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=13252638, downTime=13252626, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 1427): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=148.0, y[0]=636.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=13252644, downTime=13252643, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 1427): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=160.99315, y[0]=635.1393, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=13252645, downTime=13252643, deviceId=0, source=0x1002 }
+D/dalvikvm(30549): GC_FOR_ALLOC freed 269K, 30% free 4112K/5820K, paused 6ms, total 6ms
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa937cc attribute=null, token = android.os.BinderProxy@4a8d5d34
+D/dalvikvm(30549): GC_FOR_ALLOC freed 225K, 31% free 4048K/5820K, paused 11ms, total 11ms
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+D/dalvikvm(30549): GC_FOR_ALLOC freed 22K, 29% free 4180K/5820K, paused 7ms, total 7ms
+I/dalvikvm-heap(30549): Grow heap (frag case) to 4.263MB for 131084-byte allocation
+D/dalvikvm(30549): GC_FOR_ALLOC freed 0K, 28% free 4308K/5952K, paused 4ms, total 4ms
+D/dalvikvm(30549): GC_FOR_ALLOC freed 145K, 30% free 4184K/5952K, paused 4ms, total 5ms
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+W/SurfaceFlinger(  166): couldn't log to binary event log: overflow.
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13252944, downTime=13252944, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13252979, downTime=13252979, deviceId=-1, source=0x101 }
+W/EGL_emulation( 1427): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(30549): GC_FOR_ALLOC freed 318K, 32% free 4063K/5952K, paused 3ms, total 3ms
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+W/ViewRootImpl( 1427): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=13252986, downTime=13252986, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 1427): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 1427): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 1427): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=200.77147, y[0]=-79.108795, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=13253068, downTime=13253067, deviceId=0, source=0x1002 }
+W/InputEventReceiver( 1427): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 1427): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=13253084, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4adb62fc attribute=null, token = android.os.BinderProxy@4a8d5d34
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/System.out(30549): body:<cloudwns.f.b: java.lang.String a(java.lang.Object)>	sig:$r1 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "utf-8")	timediff:0
+I/AndroidRuntime( 1336): VM exiting with result code 0.

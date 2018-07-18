@@ -1,0 +1,320 @@
+--------- beginning of /dev/log/main
+I/Icing   (  788): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+I/Icing   (  788): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/AndroidRuntime( 9947): 
+D/AndroidRuntime( 9947): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 9947): CheckJNI is OFF
+D/dalvikvm( 9947): Using executionMode 2
+D/dalvikvm( 9947): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 9947): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 9947): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 9947): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 9947): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 9947): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 9947): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 9947): failed to load memtrack module: -2
+D/AndroidRuntime( 9947): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  496): Skipping deliver [background] BroadcastRecord{4ad29640 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4a9e6f54 9947 (unknown name)/0/u-1 remote:4a9ecf08}: process crashing
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sec.cloudprint/.activity.AnySharpLoginActivity} from pid 9947
+I/ActivityManager(  496): Start proc com.sec.cloudprint for activity com.sec.cloudprint/.activity.AnySharpLoginActivity: pid=9957 uid=10044 gids={50044, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  496): setKernelCountSet(10044, 1) failed with errno -13
+I/dalvikvm( 9957): ignoring registerObject request in thread=1
+I/dalvikvm( 9957): ignoring registerObject request in thread=1
+I/Finsky  ( 1107): [1] com.google.android.finsky.cg.a.onTrimMemory(5): Memory trim requested to level 20
+I/Finsky  ( 1107): [1] com.google.android.finsky.cg.a.onTrimMemory(11): Flushing in-memory image cache
+I/SCP     ( 9957): App version: 2.14.005
+W/System.err( 9957): java.io.IOException: open failed: ENOENT (No such file or directory)
+W/System.err( 9957): 	at java.io.File.createNewFile(File.java:946)
+W/System.err( 9957): 	at com.sec.cloudprint.utils.FileUtil.createNomedia(FileUtil.java:22)
+W/System.err( 9957): 	at com.sec.cloudprint.application.SharedAppClass.onCreate(SharedAppClass.java:285)
+W/System.err( 9957): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1024)
+W/System.err( 9957): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4346)
+W/System.err( 9957): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/System.err( 9957): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/System.err( 9957): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 9957): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 9957): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err( 9957): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 9957): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 9957): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err( 9957): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err( 9957): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 9957): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err( 9957): 	at libcore.io.Posix.open(Native Method)
+W/System.err( 9957): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/System.err( 9957): 	at java.io.File.createNewFile(File.java:939)
+W/System.err( 9957): 	... 14 more
+W/NetworkManagementSocketTagger(  496): setKernelCountSet(10012, 0) failed with errno -13
+D/dalvikvm( 9957): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 9957): GC_CONCURRENT freed 212K, 9% free 2968K/3236K, paused 0ms+0ms, total 4ms
+E/SCP     ( 9957): [TelephonyUtils] Failed to get own country code or own phone number
+E/SCP     ( 9957): [EncryptionUtils] Failed to decrypt, not valid data
+E/SCP     ( 9957): [EncryptionUtils] Failed to decrypt, not valid data
+E/SCP     ( 9957): [EncryptionUtils] Failed to decrypt, not valid data
+E/NFC     ( 9957): could not retrieve NFC service
+I/Finsky  ( 1107): [78] com.google.android.finsky.cy.a.a.a.b(28): Triggered update for experiment package com.google.android.finsky.stable.
+I/Finsky  ( 1107): [80] com.google.android.finsky.cy.a.a.a.b(28): Triggered update for experiment package com.google.android.finsky.regular.
+D/dalvikvm( 9957): GC_CONCURRENT freed 102K, 6% free 3276K/3476K, paused 2ms+1ms, total 4ms
+W/ProxyAndroidLoggerBackend( 1107): Too many Flogger logs received before configuration. Dropping old logs.
+W/ProxyAndroidLoggerBackend( 1107): Too many Flogger logs received before configuration. Dropping old logs.
+W/ProxyAndroidLoggerBackend( 1107): Too many Flogger logs received before configuration. Dropping old logs.
+I/Finsky  ( 1107): [78] com.google.android.finsky.cy.a.a.a.b(73): Already at the latest configurations for experiment package com.google.android.finsky.stable.
+W/ProxyAndroidLoggerBackend( 1107): Too many Flogger logs received before configuration. Dropping old logs.
+W/ProxyAndroidLoggerBackend( 1107): Too many Flogger logs received before configuration. Dropping old logs.
+I/SCP     ( 9957): Failed to add param to resolve URI
+I/SCP     ( 9957): Failed to add param to resolve URI
+W/dalvikvm( 9957): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm( 9957): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 9957): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm( 9957): VFY: unable to resolve virtual method 34083: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm( 9957): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm( 9957): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm( 9957): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+W/ProxyAndroidLoggerBackend( 1107): Too many Flogger logs received before configuration. Dropping old logs.
+I/Finsky  ( 1107): [80] com.google.android.finsky.cy.a.a.a.b(73): Already at the latest configurations for experiment package com.google.android.finsky.regular.
+I/dalvikvm( 9957): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm( 9957): VFY: unable to resolve interface method 34077: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm( 9957): VFY: replacing opcode 0x72 at 0x0006
+I/System.out( 9957): body:<com.sec.cloudprint.rest.RestClient: java.io.InputStream Execute(java.lang.String)>	sig:$r6 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r6, "UTF-8")	timediff:0
+I/System.out( 9957): body:<com.sec.cloudprint.rest.RestClient: java.io.InputStream Execute(java.lang.String)>	sig:$r6 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r6, "UTF-8")	timediff:0
+I/System.out( 9957): body:<com.sec.cloudprint.rest.RestClient: java.io.InputStream Execute(java.lang.String)>	sig:$r6 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r6, "UTF-8")	timediff:0
+I/System.out( 9957): body:<com.sec.cloudprint.rest.RestClient: java.io.InputStream Execute(java.lang.String)>	sig:$r6 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r6, "UTF-8")	timediff:0
+D/dalvikvm( 9957): GC_CONCURRENT freed 182K, 7% free 3505K/3744K, paused 1ms+0ms, total 3ms
+E/SCP     ( 9957): [JSONUtils] : Failed to get string, name = port
+E/SCP     ( 9957): Exception message : No value for port
+E/SCP     ( 9957): [JSONUtils] : Failed to get string, name = uploadLocation
+E/SCP     ( 9957): Exception message : No value for uploadLocation
+E/SCP     ( 9957): [JSONUtils] : Failed to get string, name = marketAgreement
+E/SCP     ( 9957): Exception message : No value for marketAgreement
+D/libEGL  ( 9957): loaded /system/lib/egl/libEGL_adreno.so
+D/        ( 9957): HostConnection::get() New Host Connection established 0xb7cabff0, tid 9957
+D/libEGL  ( 9957): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 9957): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation( 9957): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer( 9957): Enabling debug mode 0
+W/ViewRootImpl( 9957): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=325426, downTime=325426, deviceId=-1, source=0x101 }
+I/ActivityManager(  496): START u0 {cmp=com.sec.cloudprint/.activity.TutorialActivity} from pid 9957
+W/InputMethodManagerService(  496): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa06d08 (uid=10044 pid=9957)
+D/dalvikvm( 9957): GC_CONCURRENT freed 280K, 9% free 3650K/3988K, paused 0ms+0ms, total 3ms
+D/dalvikvm( 9957): WAIT_FOR_CONCURRENT_GC blocked 3ms
+I/dalvikvm-heap( 9957): Grow heap (frag case) to 4.224MB for 635808-byte allocation
+D/dalvikvm( 9957): GC_FOR_ALLOC freed 1K, 8% free 4270K/4612K, paused 3ms, total 3ms
+D/dalvikvm( 9957): GC_CONCURRENT freed 139K, 11% free 4130K/4612K, paused 1ms+1ms, total 3ms
+D/dalvikvm( 9957): GC_FOR_ALLOC freed 27K, 10% free 4160K/4612K, paused 3ms, total 3ms
+I/dalvikvm-heap( 9957): Grow heap (frag case) to 7.544MB for 3596412-byte allocation
+D/dalvikvm( 9957): GC_CONCURRENT freed 1K, 6% free 7670K/8128K, paused 1ms+1ms, total 3ms
+D/dalvikvm( 9957): GC_FOR_ALLOC freed 3K, 6% free 7683K/8128K, paused 2ms, total 2ms
+I/dalvikvm-heap( 9957): Grow heap (frag case) to 10.986MB for 3596412-byte allocation
+D/dalvikvm( 9957): GC_CONCURRENT freed <1K, 4% free 11195K/11644K, paused 0ms+1ms, total 3ms
+D/dalvikvm( 9957): GC_FOR_ALLOC freed 1K, 4% free 11208K/11644K, paused 2ms, total 2ms
+I/dalvikvm-heap( 9957): Grow heap (frag case) to 14.438MB for 3607212-byte allocation
+D/dalvikvm( 9957): GC_CONCURRENT freed <1K, 3% free 14731K/15168K, paused 0ms+1ms, total 3ms
+W/EGL_emulation( 9957): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9957): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_COMMA, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=326019, downTime=326019, deviceId=-1, source=0x101 }
+W/ContextImpl(  496): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  496): Displayed com.sec.cloudprint/.activity.TutorialActivity: +251ms (total +943ms)
+I/ActivityManager(  496): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 9957
+W/PhoneFallbackEventHandler( 9957): No activity found for android.intent.action.CALL_BUTTON.
+W/NetworkManagementSocketTagger(  496): setKernelCountSet(10007, 0) failed with errno -13
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 496
+I/ActivityManager(  496): START u0 {cmp=com.sec.cloudprint/.activity.AnySharpTermsAndPrivacyActivity} from pid 9957
+W/EGL_emulation( 9957): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation( 9957): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9957): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=327117, downTime=327117, deviceId=-1, source=0x101 }
+D/dalvikvm( 9957): GC_CONCURRENT freed 78K, 1% free 18511K/18684K, paused 1ms+1ms, total 4ms
+I/ActivityManager(  496): Displayed com.sec.cloudprint/.activity.AnySharpTermsAndPrivacyActivity: +92ms
+W/ContextImpl(  496): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+W/EGL_emulation( 9957): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  496): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/WearableService(  661): Wearable Services stopping
+V/FlingTracker(  558): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  558): java.lang.Throwable
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  558): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  558): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  558): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  558): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  558): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  558): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  558): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  558): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  558): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  558): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  558): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  558): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  558): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  558): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  558): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  558): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  558): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  558): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  558): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  558): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sec.cloudprint/.activity.AnySharpLoginActivity} from pid 9947
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sec.cloudprint/.activity.AnySharpLoginActivity} from pid 9947
+D/dalvikvm(  646): GC_CONCURRENT freed 205K, 9% free 3038K/3304K, paused 0ms+0ms, total 2ms
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sec.cloudprint/.activity.AnySharpLoginActivity} from pid 9947
+V/FlingTracker(  558): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  558): java.lang.Throwable
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  558): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  558): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  558): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  558): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  558): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  558): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  558): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  558): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  558): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  558): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  558): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  558): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  558): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  558): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  558): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  558): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  558): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  558): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sec.cloudprint/.activity.AnySharpLoginActivity} from pid 9947
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 496
+W/WindowManager(  496): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  558): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=328667, downTime=328667, deviceId=-1, source=0x101 }
+W/ContextImpl(  496): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/BackupManagerService(  496): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/InputMethodManagerService(  496): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa06d08 (uid=10044 pid=9957)
+W/BackupManagerService(  496): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/InputEventReceiver(  558): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  558): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ContextImpl(  496): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl(  558): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=434.15472, y[0]=-189.80344, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=328718, downTime=328717, deviceId=0, source=0x1002 }
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 496
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sec.cloudprint/.activity.AnySharpLoginActivity} from pid 9947
+I/ActivityManager(  496): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 9957
+W/PhoneFallbackEventHandler( 9957): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 496
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sec.cloudprint/.activity.AnySharpLoginActivity} from pid 9947
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sec.cloudprint/.activity.AnySharpLoginActivity} from pid 9947
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sec.cloudprint/.activity.AnySharpLoginActivity} from pid 9947
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sec.cloudprint/.activity.AnySharpLoginActivity} from pid 9947
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 496
+D/dalvikvm(  496): GC_CONCURRENT freed 2218K, 46% free 14704K/26788K, paused 1ms+2ms, total 18ms
+D/dalvikvm(  496): WAIT_FOR_CONCURRENT_GC blocked 21ms
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sec.cloudprint/.activity.AnySharpLoginActivity} from pid 9947
+I/InputDispatcher(  496): Dropped event because of pending overdue app switch.
+W/InputManager(  496): Input event injection from pid 9947 failed.
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sec.cloudprint/.activity.AnySharpLoginActivity} from pid 9947
+I/ActivityManager(  496): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 9957
+W/PhoneFallbackEventHandler( 9957): No activity found for android.intent.action.CALL_BUTTON.
+V/FlingTracker(  558): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  558): java.lang.Throwable
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  558): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  558): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  558): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  558): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  558): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  558): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  558): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  558): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  558): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  558): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  558): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  558): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  558): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  558): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  558): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  558): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  558): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  558): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  558): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  558): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 496
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 496
+D/dalvikvm(  558): GC_CONCURRENT freed 6101K, 34% free 14504K/21792K, paused 0ms+0ms, total 4ms
+I/ActivityManager(  496): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 9957
+W/PhoneFallbackEventHandler( 9957): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 496
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sec.cloudprint/.activity.AnySharpLoginActivity} from pid 9947
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sec.cloudprint/.activity.AnySharpLoginActivity} from pid 9947
+I/ActivityManager(  496): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 496
+I/AndroidRuntime( 9947): VM exiting with result code 0.

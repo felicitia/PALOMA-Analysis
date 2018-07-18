@@ -1,0 +1,300 @@
+--------- beginning of /dev/log/main
+D/AndroidRuntime(23170): 
+D/AndroidRuntime(23170): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(23170): CheckJNI is OFF
+D/dalvikvm(23170): Using executionMode 2
+D/dalvikvm(23170): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(23170): Added shared lib libjavacore.so 0x0
+D/dalvikvm(23170): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(23170): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(23170): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(23170): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(23170): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(23170): failed to load memtrack module: -2
+D/AndroidRuntime(23170): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  484): Skipping deliver [background] BroadcastRecord{4b102270 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4afebd28 23170 (unknown name)/0/u-1 remote:4ac046d8}: process crashing
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+D/yeshen  (  689): launcher onpause
+I/ActivityManager(  484): Start proc com.appriss.vinemobile for activity com.appriss.vinemobile/.WelcomeActivity: pid=23180 uid=10063 gids={50063, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10063, 1) failed with errno -13
+I/dalvikvm(23180): ignoring registerObject request in thread=1
+I/dalvikvm(23180): ignoring registerObject request in thread=1
+W/Ads     (23180): No Google Analytics: Library Incompatible.
+W/GAV2    (23180): Thread[main,5,main]: Need to call initialize() and be in fallback mode to start dispatch.
+D/dalvikvm(23180): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(23180): GC_FOR_ALLOC freed 148K, 8% free 2900K/3132K, paused 3ms, total 3ms
+I/dalvikvm-heap(23180): Grow heap (frag case) to 9.174MB for 6567916-byte allocation
+D/dalvikvm(23180): GC_FOR_ALLOC freed <1K, 3% free 9314K/9548K, paused 3ms, total 3ms
+D/dalvikvm(23180): GC_CONCURRENT freed <1K, 3% free 9314K/9548K, paused 0ms+0ms, total 1ms
+I/dalvikvm(23180): Could not find method com.google.android.gms.ads.identifier.AdvertisingIdClient$Info.getId, referenced from method com.flurry.sdk.dj.v
+W/dalvikvm(23180): VFY: unable to resolve virtual method 13092: Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;.getId ()Ljava/lang/String;
+D/dalvikvm(23180): VFY: replacing opcode 0x6e at 0x0042
+I/dalvikvm(23180): Could not find method com.google.android.gms.ads.identifier.AdvertisingIdClient$Info.isLimitAdTrackingEnabled, referenced from method com.flurry.sdk.dj.o
+W/dalvikvm(23180): VFY: unable to resolve virtual method 13093: Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;.isLimitAdTrackingEnabled ()Z
+D/dalvikvm(23180): VFY: replacing opcode 0x6e at 0x0006
+W/FlurryAgent(23180): Start session with context: com.appriss.vinemobile.WelcomeActivity@4a777ec0 count:0
+I/dalvikvm(23180): Could not find method com.google.android.gms.common.GooglePlayServicesUtil.isGooglePlayServicesAvailable, referenced from method com.flurry.sdk.dw.b
+W/dalvikvm(23180): VFY: unable to resolve static method 13124: Lcom/google/android/gms/common/GooglePlayServicesUtil;.isGooglePlayServicesAvailable (Landroid/content/Context;)I
+D/dalvikvm(23180): VFY: replacing opcode 0x71 at 0x0008
+I/dalvikvm(23180): Could not find method com.google.android.gms.ads.identifier.AdvertisingIdClient.getAdvertisingIdInfo, referenced from method com.flurry.sdk.dw.c
+W/dalvikvm(23180): VFY: unable to resolve static method 13094: Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;.getAdvertisingIdInfo (Landroid/content/Context;)Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;
+D/dalvikvm(23180): VFY: replacing opcode 0x71 at 0x0008
+W/dalvikvm(23180): VFY: unable to resolve exception class 1810 (Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;)
+W/dalvikvm(23180): VFY: unable to find exception handler at addr 0x29
+W/dalvikvm(23180): VFY:  rejected Lcom/flurry/sdk/dw;.c ()Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;
+W/dalvikvm(23180): VFY:  rejecting opcode 0x0d at 0x0029
+W/dalvikvm(23180): VFY:  rejected Lcom/flurry/sdk/dw;.c ()Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;
+W/dalvikvm(23180): Verifier rejected class Lcom/flurry/sdk/dw;
+W/System.err(23180): java.lang.VerifyError: com/flurry/sdk/dw
+W/System.err(23180): 	at com.flurry.sdk.dj$1.a(SourceFile:247)
+W/System.err(23180): 	at com.flurry.sdk.ff.run(SourceFile:49)
+W/System.err(23180): 	at android.os.Handler.handleCallback(Handler.java:733)
+W/System.err(23180): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/System.err(23180): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err(23180): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/dalvikvm(23180): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(23180): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(23180): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(23180): VFY: unable to resolve virtual method 13778: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(23180): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(23180): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(23180): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(23180): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(23180): VFY: unable to resolve interface method 13772: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(23180): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(23180): body:<com.flurry.sdk.en: void o()>	sig:specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(23180): <com.flurry.sdk.en: void o()>###specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r1)###https://data.flurry.com/aap.do
+I/System.out(23180): body:<com.flurry.sdk.en: void o()>	sig:$r6 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:14
+I/System.out(23180): body:<com.flurry.sdk.en: void o()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(23180): body:<com.flurry.sdk.en: void o()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out(23180): body:<com.flurry.sdk.en: void o()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r1)	timediff:0
+I/System.out(23180): body:<com.flurry.sdk.en: void o()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>($z0)	timediff:0
+I/System.out(23180): body:<com.flurry.sdk.en: void o()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setDoOutput(boolean)>($z0)	timediff:0
+I/System.out(23180): body:<com.flurry.sdk.en: void o()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(23180): body:<com.flurry.sdk.en: void o()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void addRequestProperty(java.lang.String,java.lang.String)>($r1, $r17)	timediff:0
+D/libEGL  (23180): loaded /system/lib/egl/libEGL_adreno.so
+D/        (23180): HostConnection::get() New Host Connection established 0xb7e26630, tid 23180
+D/libEGL  (23180): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (23180): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(23180): Enabling debug mode 0
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5280354, downTime=5280354, deviceId=-1, source=0x101 }
+I/WearableService( 1323): Wearable Services stopping
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/System.out(23180): body:<com.flurry.sdk.en: void o()>	sig:$r19 = virtualinvoke $r4.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:1356
+I/ActivityManager(  484): Displayed com.appriss.vinemobile/.WelcomeActivity: +1s564ms
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  536): animationTick called with dtms=-15; nothing to do (h=0.0 v=-0.0)
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5282147, downTime=5282147, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a960cf4 attribute=null, token = android.os.BinderProxy@4a9c2aa4
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=5282306, downTime=5282306, deviceId=-1, source=0x101 }
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=5282306, downTime=5282306, deviceId=-1, source=0x101 }
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=5282306, downTime=5282306, deviceId=-1, source=0x101 }
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=5282306, downTime=5282306, deviceId=-1, source=0x101 }
+I/System.out(23180): body:<com.flurry.sdk.en: void o()>	sig:$i0 = virtualinvoke $r4.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:451
+I/System.out(23180): body:<com.flurry.sdk.en: void o()>	sig:$r21 = virtualinvoke $r4.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:0
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5282338, downTime=5282338, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9c9c50 attribute=null, token = android.os.BinderProxy@4a9c2aa4
+I/System.out(23180): body:<com.flurry.sdk.en: void o()>	sig:$r26 = virtualinvoke $r4.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(23180): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(23180): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(23180): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(23180): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:1
+I/System.out(23180): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(23180): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(23180): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:1
+I/System.out(23180): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:1
+I/System.out(23180): URLConn;%;0;%;<com.flurry.sdk.en: void o()>;%;$r26 = virtualinvoke $r4.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://data.flurry.com/aap.do;%;true;%;Not found;%;Not found;%;Not found;%;0;%;Not found
+I/System.out(23180): body:<com.flurry.sdk.en: void r()>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+W/FlurryAgent(23180): FlurryDataSender: report 34c409cd-9bb9-482c-ac0e-da1c07600510 sent. HTTP response: 200
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 484
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5282752, downTime=5282752, deviceId=-1, source=0x101 }
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5282757, downTime=5282757, deviceId=-1, source=0x101 }
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5282771, downTime=5282771, deviceId=-1, source=0x101 }
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa0bf1c attribute=null, token = android.os.BinderProxy@4a9c2aa4
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5282909, downTime=5282909, deviceId=-1, source=0x101 }
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a838094 attribute=null, token = android.os.BinderProxy@4a9c2aa4
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5283328, downTime=5283328, deviceId=-1, source=0x101 }
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5283333, downTime=5283333, deviceId=-1, source=0x101 }
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9bf460 attribute=null, token = android.os.BinderProxy@4a9c2aa4
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5283498, downTime=5283498, deviceId=-1, source=0x101 }
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab52720 attribute=null, token = android.os.BinderProxy@4a9c2aa4
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 23170 failed.
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5283752, downTime=5283752, deviceId=-1, source=0x101 }
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5283766, downTime=5283766, deviceId=-1, source=0x101 }
+W/InputManager(  484): Input event injection from pid 23170 failed.
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac1ac98 attribute=null, token = android.os.BinderProxy@4a9c2aa4
+W/InputManager(  484): Input event injection from pid 23170 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+W/ViewRootImpl(23180): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=5283840, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4b072674 attribute=null, token = android.os.BinderProxy@4a9c2aa4
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8f54f4 attribute=null, token = android.os.BinderProxy@4a9c2aa4
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5284036, downTime=5284036, deviceId=-1, source=0x101 }
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5284068, downTime=5284068, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac389dc attribute=null, token = android.os.BinderProxy@4a9c2aa4
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5284151, downTime=5284151, deviceId=-1, source=0x101 }
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_ENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5284158, downTime=5284158, deviceId=-1, source=0x101 }
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5284158, downTime=5284158, deviceId=-1, source=0x101 }
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_10, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5284164, downTime=5284164, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a95c974 attribute=null, token = android.os.BinderProxy@4a9c2aa4
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5284291, downTime=5284291, deviceId=-1, source=0x101 }
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a962b20 attribute=null, token = android.os.BinderProxy@4a9c2aa4
+W/InputManager(  484): Input event injection from pid 23170 failed.
+W/InputManager(  484): Input event injection from pid 23170 failed.
+W/InputManager(  484): Input event injection from pid 23170 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 484
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5284433, downTime=5284433, deviceId=-1, source=0x101 }
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5284514, downTime=5284514, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4afb7a04 attribute=null, token = android.os.BinderProxy@4a9c2aa4
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5284672, downTime=5284672, deviceId=-1, source=0x101 }
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_EQUALS, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5284683, downTime=5284683, deviceId=-1, source=0x101 }
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5284691, downTime=5284691, deviceId=-1, source=0x101 }
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 23170 failed.
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abc351c attribute=null, token = android.os.BinderProxy@4a9c2aa4
+W/ViewRootImpl(23180): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=2.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=5285111, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4af7a200 attribute=null, token = android.os.BinderProxy@4a9c2aa4
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+W/ContextImpl(23180): Implicit intents with startService are not safe: Intent { act=com.google.android.gms.analytics.service.START (has extras) } android.content.ContextWrapper.bindService:517 com.google.analytics.tracking.android.AnalyticsGmsCoreClient.connect:82 com.google.analytics.tracking.android.GAServiceProxy.connectToService:279 
+W/GAV2    (23180): Thread[GAThread,5,main]: Service unavailable (code=1), will retry.
+I/GAV2    (23180): Thread[GAThread,5,main]: No campaign data found.
+W/ActivityManager(  484): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5285575, downTime=5285575, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab7421c attribute=null, token = android.os.BinderProxy@4a9c2aa4
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 484
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5285713, downTime=5285713, deviceId=-1, source=0x101 }
+W/InputManager(  484): Input event injection from pid 23170 failed.
+W/InputManager(  484): Input event injection from pid 23170 failed.
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa18068 attribute=null, token = android.os.BinderProxy@4a9c2aa4
+W/InputManager(  484): Input event injection from pid 23170 failed.
+W/InputManager(  484): Input event injection from pid 23170 failed.
+W/InputManager(  484): Input event injection from pid 23170 failed.
+W/InputManager(  484): Input event injection from pid 23170 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+I/ActivityManager(  484): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 23180
+W/PhoneFallbackEventHandler(23180): No activity found for android.intent.action.CALL_BUTTON.
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  536): animationTick called with dtms=-3; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl(23180): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5286012, downTime=5286012, deviceId=-1, source=0x101 }
+W/EGL_emulation(23180): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(23180): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=5286042, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(23180): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=5286043, downTime=5286026, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac186f0 attribute=null, token = android.os.BinderProxy@4a9c2aa4
+W/InputManager(  484): Input event injection from pid 23170 failed.
+W/InputManager(  484): Input event injection from pid 23170 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 484
+W/WindowManager(  484): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  484): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5286436, downTime=5286436, deviceId=-1, source=0x101 }
+W/InputEventReceiver(  484): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  484): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x408, repeatCount=0, eventTime=5286556, downTime=5286556, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  484): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5286558, downTime=5286558, deviceId=-1, source=0x101 }
+I/ActivityManager(  484): Config changes=30 {1.0 310mcc260mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.42}
+D/Tinker.DefaultAppLike(  689): onConfigurationChanged:{1.0 310mcc260mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.42}
+D/PhoneStatusBar(  536): mSettingsPanelGravity = 55
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4b10153c attribute=null, token = android.os.BinderProxy@4a9c2aa4
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+V/PanelView(  536): animationTick called with dtms=-10; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  484): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 23180
+W/PhoneFallbackEventHandler(23180): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  536): animationTick called with dtms=-2; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 484
+I/ActivityManager(  484): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 23180
+W/PhoneFallbackEventHandler(23180): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 484
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 484
+E/InputDispatcher(  484): Received spurious receive callback for unknown input channel.  fd=186, events=0x1
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ContextImpl(23180): Implicit intents with startService are not safe: Intent { act=com.google.android.gms.analytics.service.START (has extras) } android.content.ContextWrapper.bindService:517 com.google.analytics.tracking.android.AnalyticsGmsCoreClient.connect:82 com.google.analytics.tracking.android.GAServiceProxy.connectToService:279 
+W/ActivityManager(  484): Unable to start service Intent { act=com.google.android.gms.analytics.service.START (has extras) } U=0: not found
+W/GAV2    (23180): Thread[Service Reconnect,5,main]: Service unavailable (code=1), using local store.
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=4500.0)
+W/WindowManager(  484): updateFocusedWindowLocked, focusedAppToken is null.
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:1
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:1
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:7
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:1
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.HitBuilder: java.lang.String encode(java.lang.String)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.SimpleNetworkDispatcher: java.net.URL getUrl(com.google.analytics.tracking.android.Hit)>	sig:specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r4)	timediff:0
+I/System.out(23180): <com.google.analytics.tracking.android.SimpleNetworkDispatcher: java.net.URL getUrl(com.google.analytics.tracking.android.Hit)>###specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r4)###https://ssl.google-analytics.com/collect
+I/System.out(23180): body:<com.google.analytics.tracking.android.SimpleNetworkDispatcher: int dispatchHits(java.util.List)>	sig:$r3 = virtualinvoke $r9.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.SimpleNetworkDispatcher: int dispatchHits(java.util.List)>	sig:$i3 = virtualinvoke $r9.<java.net.URL: int getPort()>()	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.SimpleNetworkDispatcher: int dispatchHits(java.util.List)>	sig:$r11 = virtualinvoke $r9.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(23180): body:<com.google.analytics.tracking.android.SimpleNetworkDispatcher: int dispatchHits(java.util.List)>	sig:$r11 = virtualinvoke $r9.<java.net.URL: java.lang.String getPath()>()	timediff:0
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=36.0 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=36.0 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=36.0 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=36.0 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=-9; nothing to do (h=36.0 v=-3000.0)
+W/ViewRootImpl(  536): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=2.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=5290459, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a95860c attribute=null, token = android.os.BinderProxy@4a9c2aa4
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5290469, downTime=5290469, deviceId=-1, source=0x101 }
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 23170 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appriss.vinemobile/.WelcomeActivity} from pid 23170
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(23180): GC_CONCURRENT freed 1409K, 14% free 9978K/11472K, paused 0ms+10ms, total 54ms
+I/AndroidRuntime(23170): VM exiting with result code 0.

@@ -1,0 +1,930 @@
+--------- beginning of /dev/log/main
+I/Icing   (  746): Indexing 9EBFE84EABD9270B25A97439CA522B4FC49A4875 from com.google.android.gms
+I/Icing   (  746): Indexing done 9EBFE84EABD9270B25A97439CA522B4FC49A4875
+D/AndroidRuntime(12141): 
+D/AndroidRuntime(12141): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(12141): CheckJNI is OFF
+D/dalvikvm(12141): Using executionMode 2
+D/dalvikvm(12141): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(12141): Added shared lib libjavacore.so 0x0
+D/dalvikvm(12141): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(12141): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(12141): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(12141): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(12141): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(12141): failed to load memtrack module: -2
+D/AndroidRuntime(12141): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  470): Skipping deliver [background] BroadcastRecord{4b18105c u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4af85364 12141 (unknown name)/0/u-1 remote:4aced1c0}: process crashing
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.beyondmenu/.activity.SplashActivity} from pid 12141
+D/yeshen  (10668): launcher onpause
+I/ActivityManager(  470): Start proc com.beyondmenu for activity com.beyondmenu/.activity.SplashActivity: pid=12152 uid=10058 gids={50058, 3003}
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10058, 1) failed with errno -13
+I/dalvikvm(12152): ignoring registerObject request in thread=1
+I/dalvikvm(12152): ignoring registerObject request in thread=1
+D/yeshen  (10668): launcher onstop
+D/FirebaseApp(10668): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(10668): onTrimMemory level:20
+W/DebugConnManager(10668): getNetworkInfo() on networkType 1
+I/FirebaseInitProvider(12152): FirebaseApp initialization unsuccessful
+D/dalvikvm(12152): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(12152): GC_CONCURRENT freed 214K, 9% free 3144K/3420K, paused 2ms+1ms, total 8ms
+D/dalvikvm(12152): WAIT_FOR_CONCURRENT_GC blocked 4ms
+D/dalvikvm(12152): WAIT_FOR_CONCURRENT_GC blocked 4ms
+D/dalvikvm(12152): GC_CONCURRENT freed 267K, 10% free 3328K/3668K, paused 2ms+0ms, total 8ms
+I/CrashlyticsCore(12152): Initializing Crashlytics 2.3.14.151
+I/dalvikvm(12152): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.zze.zzs
+W/dalvikvm(12152): VFY: unable to resolve virtual method 618: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(12152): VFY: replacing opcode 0x6e at 0x001a
+I/GAv4    (12152): Google Analytics 9.8.77 is starting up. To enable debug logging on a device run:
+I/GAv4    (12152):   adb shell setprop log.tag.GAv4 DEBUG
+I/GAv4    (12152):   adb logcat -s GAv4
+D/a       (12152): set channel --> none
+W/dalvikvm(12152): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(12152): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(12152): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(12152): VFY: unable to resolve virtual method 50969: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(12152): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(12152): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(12152): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(12152): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(12152): VFY: unable to resolve interface method 50963: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(12152): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out(12152): <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://graph.facebook.com/v2.4/1590033024581834?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_content%2Cgdpv4_nux_enabled%2Candroid_dialog_configs%2Candroid_sdk_error_categories&format=json&sdk=android
+D/dalvikvm(12152): GC_CONCURRENT freed 307K, 10% free 3493K/3872K, paused 2ms+1ms, total 7ms
+D/dalvikvm(12152): WAIT_FOR_CONCURRENT_GC blocked 3ms
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:$r1 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:28
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r3)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Language", $r3)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setChunkedStreamingMode(int)>(0)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r6)	timediff:0
+D/dalvikvm(12152): GC_CONCURRENT freed 518K, 16% free 3362K/3972K, paused 2ms+0ms, total 4ms
+I/System.out(12152): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/x-www-form-urlencoded")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Encoding", "gzip")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r7 = virtualinvoke $r1.<java.net.HttpURLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestMethod()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("User-Agent")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i2)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setReadTimeout(int)>($i2)	timediff:0
+I/System.out(12152): body:<b.u$a: void <init>()>	sig:$r4 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:0
+D/dalvikvm(12152): GC_FOR_ALLOC freed 99K, 15% free 3405K/3972K, paused 2ms, total 2ms
+I/dalvikvm-heap(12152): Grow heap (frag case) to 3.459MB for 79888-byte allocation
+D/dalvikvm(12152): GC_FOR_ALLOC freed <1K, 15% free 3483K/4052K, paused 5ms, total 5ms
+D/dalvikvm(12152): GC_FOR_ALLOC freed 131K, 14% free 3486K/4052K, paused 6ms, total 6ms
+W/Settings(12152): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+E/SurfaceFlinger(  165): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  165): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  165): setOrientation, mFbdev=0xb8e13050, mFbDev->setOrientation=0xb694cce0, orientation=3
+I/gralloc_nox(  165): setOrientation: orientation=3
+D/Tinker.DefaultAppLike(10668): onConfigurationChanged:{1.0 310mcc16mnc ja_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger qwerty/v/v dpad/v s.49}
+I/ActivityManager(  470): Config changes=480 {1.0 310mcc16mnc ja_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger qwerty/v/v dpad/v s.49}
+D/Sensors (  470): Client connection accepted (192)
+I/InputReader(  470): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  470): Device reconfigured: id=1, name='seamless mouse', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  470): Device reconfigured: id=3, name='Android Input', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  470): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 3, mode 1, display id 0
+I/dalvikvm(12152): Could not find method android.view.Window$Callback.onProvideKeyboardShortcuts, referenced from method android.support.v7.view.i.onProvideKeyboardShortcuts
+W/dalvikvm(12152): VFY: unable to resolve interface method 14694: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V
+D/dalvikvm(12152): VFY: replacing opcode 0x72 at 0x0002
+W/dalvikvm(12152): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm(12152): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.i.onSearchRequested
+W/dalvikvm(12152): VFY: unable to resolve interface method 14696: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm(12152): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm(12152): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.i.onWindowStartingActionMode
+W/dalvikvm(12152): VFY: unable to resolve interface method 14700: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm(12152): VFY: replacing opcode 0x72 at 0x0002
+D/BaseActivity(12152): SplashActivity onCreate()
+I/dalvikvm(12152): Could not find method android.widget.FrameLayout.startActionModeForChild, referenced from method android.support.v7.widget.ActionBarContainer.startActionModeForChild
+W/dalvikvm(12152): VFY: unable to resolve virtual method 15109: Landroid/widget/FrameLayout;.startActionModeForChild (Landroid/view/View;Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm(12152): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(12152): Could not find method android.content.Context.getColorStateList, referenced from method android.support.v7.c.a.b.a
+W/dalvikvm(12152): VFY: unable to resolve virtual method 459: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm(12152): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(12152): Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ag.getDrawable
+W/dalvikvm(12152): VFY: unable to resolve virtual method 664: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(12152): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm(12152): Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ag.getDrawableForDensity
+W/dalvikvm(12152): VFY: unable to resolve virtual method 666: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(12152): VFY: replacing opcode 0x6e at 0x0002
+E/dalvikvm(12152): Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method android.support.v7.widget.i.a
+W/dalvikvm(12152): VFY: unable to resolve instanceof 206 (Landroid/graphics/drawable/RippleDrawable;) in Landroid/support/v7/widget/i;
+D/dalvikvm(12152): VFY: replacing opcode 0x20 at 0x000c
+D/dalvikvm(12152): GC_CONCURRENT freed 275K, 12% free 3604K/4052K, paused 1ms+2ms, total 7ms
+D/dalvikvm(12152): Trying to load lib /data/app-lib/com.beyondmenu-1/librsjni.so 0x94f648c0
+D/dalvikvm(12152): Added shared lib /data/app-lib/com.beyondmenu-1/librsjni.so 0x94f648c0
+V/RenderScript_jni(12152): RS compat mode
+V/RenderScript_jni(12152): Unable to load libRSSupportIO.so, USAGE_IO not supported
+V/RenderScript_jni(12152): Unable to load BLAS lib, ONLY BNNM will be supported: java.lang.UnsatisfiedLinkError: Couldn't load blasV8 from loader dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.beyondmenu-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.beyondmenu-1, /system/lib]]]: findLibrary returned null
+E/RenderScript(12152): Couldn't load libRSSupportIO.so
+D/dalvikvm(12152): GC_CONCURRENT freed 348K, 10% free 3764K/4176K, paused 0ms+0ms, total 7ms
+D/dalvikvm(12152): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm(12152): GC_FOR_ALLOC freed 108K, 9% free 3944K/4332K, paused 2ms, total 2ms
+D/dalvikvm(12152): GC_FOR_ALLOC freed 122K, 10% free 4049K/4452K, paused 3ms, total 3ms
+D/dalvikvm(12152): GC_FOR_ALLOC freed 123K, 12% free 4011K/4540K, paused 2ms, total 3ms
+D/dalvikvm(12152): GC_FOR_ALLOC freed <1K, 10% free 4097K/4540K, paused 3ms, total 3ms
+D/dalvikvm(12152): GC_FOR_ALLOC freed <1K, 10% free 4183K/4628K, paused 3ms, total 3ms
+D/dalvikvm(12152): GC_FOR_ALLOC freed <1K, 10% free 4268K/4716K, paused 3ms, total 3ms
+D/dalvikvm(12152): GC_FOR_ALLOC freed <1K, 10% free 4354K/4804K, paused 2ms, total 2ms
+D/dalvikvm(12152): GC_FOR_ALLOC freed <1K, 10% free 4440K/4892K, paused 3ms, total 3ms
+D/dalvikvm(12152): GC_FOR_ALLOC freed <1K, 10% free 4525K/4980K, paused 3ms, total 3ms
+D/a       (12152): send event --> category: splash, action: day_since_installation, label: 0
+D/a       (12152): send event --> category: splash, action: app_open_weekday, label: Friday
+D/a       (12152): send event --> category: splash, action: is_touch_exploration_enabled, label: No
+W/DebugConnManager(12152): getNetworkInfo() on networkType 1
+D/a       (12152): set channel: attempting to replace the channel with the same channel --> don't do anything
+I/System.out(12152): body:<b.u$a: void <init>()>	sig:$r4 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:0
+D/dalvikvm(12152): GC_FOR_ALLOC freed 148K, 9% free 4661K/5120K, paused 3ms, total 3ms
+D/BaseActivity(12152): SplashActivity onStart()
+D/a       (12152): send screen view --> splash
+D/BaseActivity(12152): SplashActivity onResume()
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$i0 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:244
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): URLConn;%;0;%;<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>;%;$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://graph.facebook.com/v2.4/1590033024581834?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_content%2Cgdpv4_nux_enabled%2Candroid_dialog_configs%2Candroid_sdk_error_categories&format=json&sdk=android;%;false;%;Not found;%;private, no-cache, no-store, must-revalidate;%;Sat, 01 Jan 2000 00:00:00 GMT;%;Not found;%;Not found
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List createResponsesFromObject(java.net.HttpURLConnection,java.util.List,java.lang.Object)>	sig:$i2 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(12152): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+D/dalvikvm(12152): GC_CONCURRENT freed 278K, 7% free 4865K/5208K, paused 3ms+1ms, total 6ms
+D/TokenRegisterService(12152): === TOKEN REGISTER SERVICE ===
+I/dalvikvm(12152): Could not find method android.content.Context.getNoBackupFilesDir, referenced from method com.google.android.gms.common.util.zzw.getNoBackupFilesDir
+W/dalvikvm(12152): VFY: unable to resolve virtual method 471: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;
+D/dalvikvm(12152): VFY: replacing opcode 0x6e at 0x0006
+W/InstanceID/Rpc(12152): Found 10007
+I/WearableService(  668): Wearable Services stopping
+D/PhoneStatusBar(  556): mSettingsPanelGravity = 55
+I/Choreographer(  556): Skipped 303 frames!  The application may be doing too much work on its main thread.
+D/libEGL  (12152): loaded /system/lib/egl/libEGL_adreno.so
+E/GAv4    (12152): Successfully bound to service but never got onServiceConnected callback
+W/ActivityManager(  470): Launch timeout has expired, giving up wake lock!
+D/        (12152): HostConnection::get() New Host Connection established 0xb8e797c0, tid 12152
+D/libEGL  (12152): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (12152): loaded /system/lib/egl/libGLESv2_adreno.so
+I/Choreographer(  470): Skipped 603 frames!  The application may be doing too much work on its main thread.
+W/WindowManager(  470): Window freeze timeout expired.
+W/WindowManager(  470): Force clearing orientation change: Window{4a9639a4 u0 StatusBar}
+W/WindowManager(  470): Force clearing orientation change: Window{4aa75200 u0 Starting com.beyondmenu}
+W/WindowManager(  470): Force clearing orientation change: Window{4ac3865c u0 com.beyondmenu/com.beyondmenu.activity.SplashActivity}
+W/WindowManager(  470): Force clearing orientation change: Window{4a997784 u0 com.android.systemui.ImageWallpaper}
+W/WindowManager(  470): App freeze timeout expired.
+E/WindowManager(  470): Starting window AppWindowToken{4b1815b4 token=Token{4aff4190 ActivityRecord{4aa83c38 u0 com.beyondmenu/.activity.SplashActivity t66}}} timed out
+W/EGL_emulation(12152): eglSurfaceAttrib not implemented 3093 12436
+I/InputDispatcher(  470): Dropped event because it is stale.
+D/dalvikvm(  556): GC_FOR_ALLOC freed 6470K, 53% free 9325K/19764K, paused 4ms, total 8ms
+D/OpenGLRenderer(12152): Enabling debug mode 0
+I/WindowManager(  470): Screen frozen for +10s173ms due to Window{4a9639a4 u0 StatusBar}
+W/InputManager(  470): Input event injection from pid 12141 failed.
+I/dalvikvm-heap(  556): Grow heap (frag case) to 15.418MB for 6553612-byte allocation
+D/dalvikvm(  556): GC_CONCURRENT freed 2K, 40% free 15723K/26168K, paused 2ms+0ms, total 5ms
+D/GraphRequest(12152): Warning: Request without access token missing application ID or client token.
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out(12152): <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://graph.facebook.com/v2.4/1590033024581834/activities?format=json&sdk=android
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:$r1 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r3)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Language", $r3)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setChunkedStreamingMode(int)>(0)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r6)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/x-www-form-urlencoded")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Encoding", "gzip")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r7 = virtualinvoke $r1.<java.net.HttpURLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestMethod()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("User-Agent")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i2)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setReadTimeout(int)>($i2)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r10 = virtualinvoke $r1.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:56
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+W/GAv4    (12152): onServiceConnected received after the timeout limit
+D/dalvikvm(12152): DexOpt: couldn't find field Landroid/os/Message;.sendingUid
+W/dalvikvm(12152): VFY: unable to resolve instance field 219
+D/dalvikvm(12152): VFY: replacing opcode 0x52 at 0x0000
+I/System.out(12152): <io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.beyondmenu/settings?instance=e2b10b289205b3db8d6ccbf911087ee539faa5a2&source=1&build_version=343&icon_hash=ccfe346c84efbef116e14f3c6b9818cecba05c0b&display_version=2.32
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r2.<java.net.URL: int getPort()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r6 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+D/dalvikvm(12152): GC_CONCURRENT freed 559K, 12% free 4973K/5596K, paused 0ms+3ms, total 22ms
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r2.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:specialinvoke $r5.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r3, $r1, $r6, $r7, null)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r5.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out(12152): <io.a.a.a.a.e.d: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.beyondmenu/settings?instance=e2b10b289205b3db8d6ccbf911087ee539faa5a2&source=1&build_version=343&icon_hash=ccfe346c84efbef116e14f3c6b9818cecba05c0b&display_version=2.32
+I/System.out(12152): body:<io.a.a.a.a.e.d$b$1: java.net.HttpURLConnection a(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.net.HttpURLConnection r()>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r1)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(boolean)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setUseCaches(boolean)>($z0)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(int)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<b.u$a: void <init>()>	sig:$r4 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:0
+I/System.out(12152): body:<com.google.android.gms.analytics.internal.zzj: java.util.Map zzex(java.lang.String)>	sig:specialinvoke $r3.<java.net.URI: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.util.Map zza(java.net.URI,java.lang.String)>	sig:$r4 = virtualinvoke $r0.<java.net.URI: java.lang.String getRawQuery()>()	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/qtaguid (  668): Tagging socket 98 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  668): tagSocketFd(98, 805307399, -1) failed with errno-13
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void processRequest(com.facebook.GraphRequestBatch,com.facebook.internal.Logger,int,java.net.URL,java.io.OutputStream,boolean)>	sig:$r11 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.analytics.internal.zzj: java.util.Map zzex(java.lang.String)>	sig:specialinvoke $r3.<java.net.URI: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.util.Map zza(java.net.URI,java.lang.String)>	sig:$r4 = virtualinvoke $r0.<java.net.URI: java.lang.String getRawQuery()>()	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:1
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.analytics.internal.zzj: java.util.Map zzex(java.lang.String)>	sig:specialinvoke $r3.<java.net.URI: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.util.Map zza(java.net.URI,java.lang.String)>	sig:$r4 = virtualinvoke $r0.<java.net.URI: java.lang.String getRawQuery()>()	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.analytics.internal.zzj: java.util.Map zzex(java.lang.String)>	sig:specialinvoke $r3.<java.net.URI: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.util.Map zza(java.net.URI,java.lang.String)>	sig:$r4 = virtualinvoke $r0.<java.net.URI: java.lang.String getRawQuery()>()	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.analytics.internal.zzj: java.util.Map zzex(java.lang.String)>	sig:specialinvoke $r3.<java.net.URI: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.util.Map zza(java.net.URI,java.lang.String)>	sig:$r4 = virtualinvoke $r0.<java.net.URI: java.lang.String getRawQuery()>()	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+I/System.out(12152): body:<com.google.android.gms.common.util.zzn: java.lang.String decode(java.lang.String,java.lang.String)>	sig:$r1 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r0, $r1)	timediff:0
+D/dalvikvm(12152): GC_CONCURRENT freed 484K, 11% free 5101K/5676K, paused 2ms+1ms, total 9ms
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$i0 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:87
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): URLConn;%;1;%;<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>;%;$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://graph.facebook.com/v2.4/1590033024581834/activities?format=json&sdk=android;%;true;%;16;%;private, no-cache, no-store, must-revalidate;%;Sat, 01 Jan 2000 00:00:00 GMT;%;Not found;%;Not found
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List createResponsesFromObject(java.net.HttpURLConnection,java.util.List,java.lang.Object)>	sig:$i2 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(12152): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+D/GraphRequest(12152): Warning: Request without access token missing application ID or client token.
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out(12152): <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://graph.facebook.com/v2.4/1590033024581834/activities?format=json&sdk=android
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:$r1 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r3)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Language", $r3)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setChunkedStreamingMode(int)>(0)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r6)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/x-www-form-urlencoded")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Encoding", "gzip")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r7 = virtualinvoke $r1.<java.net.HttpURLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestMethod()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("User-Agent")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i2)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setReadTimeout(int)>($i2)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r10 = virtualinvoke $r1.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:11
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void processRequest(com.facebook.GraphRequestBatch,com.facebook.internal.Logger,int,java.net.URL,java.io.OutputStream,boolean)>	sig:$r11 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+D/dalvikvm(12152): GC_FOR_ALLOC freed 207K, 11% free 5063K/5676K, paused 3ms, total 8ms
+I/dalvikvm-heap(12152): Grow heap (frag case) to 9.486MB for 4700172-byte allocation
+D/dalvikvm(12152): GC_FOR_ALLOC freed <1K, 6% free 9653K/10268K, paused 5ms, total 5ms
+D/dalvikvm(12152): GC_CONCURRENT freed 5K, 7% free 9648K/10268K, paused 1ms+0ms, total 4ms
+D/dalvikvm(12152): GC_FOR_ALLOC freed 5K, 7% free 9646K/10268K, paused 7ms, total 9ms
+I/dalvikvm-heap(12152): Grow heap (frag case) to 12.890MB for 3576972-byte allocation
+D/dalvikvm(12152): GC_FOR_ALLOC freed <1K, 5% free 13139K/13764K, paused 3ms, total 5ms
+D/dalvikvm(12152): GC_CONCURRENT freed <1K, 2% free 13536K/13764K, paused 2ms+0ms, total 23ms
+I/qtaguid (  668): Untagging socket 98 failed errno=-13
+W/NetworkManagementSocketTagger(  668): untagSocket(98) failed with errno -13
+D/dalvikvm(12152): GC_FOR_ALLOC freed 385K, 5% free 13152K/13764K, paused 5ms, total 6ms
+I/dalvikvm-heap(12152): Grow heap (frag case) to 17.384MB for 4700172-byte allocation
+D/dalvikvm(12152): GC_FOR_ALLOC freed 4593K, 29% free 13149K/18356K, paused 2ms, total 5ms
+D/dalvikvm(12152): GC_CONCURRENT freed 1K, 29% free 13148K/18356K, paused 0ms+1ms, total 3ms
+D/dalvikvm(12152): GC_FOR_ALLOC freed 3K, 29% free 13145K/18356K, paused 3ms, total 3ms
+I/dalvikvm-heap(12152): Grow heap (frag case) to 16.306MB for 3576972-byte allocation
+D/dalvikvm(12152): GC_CONCURRENT freed <1K, 10% free 16638K/18356K, paused 1ms+0ms, total 5ms
+D/dalvikvm(12152): WAIT_FOR_CONCURRENT_GC blocked 1ms
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$i0 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:221
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): URLConn;%;2;%;<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>;%;$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://graph.facebook.com/v2.4/1590033024581834/activities?format=json&sdk=android;%;true;%;16;%;private, no-cache, no-store, must-revalidate;%;Sat, 01 Jan 2000 00:00:00 GMT;%;Not found;%;Not found
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List createResponsesFromObject(java.net.HttpURLConnection,java.util.List,java.lang.Object)>	sig:$i2 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(12152): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:specialinvoke $r16.<java.net.URL: void <init>(java.lang.String)>($r2)	timediff:0
+I/System.out(12152): <io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>###specialinvoke $r16.<java.net.URL: void <init>(java.lang.String)>($r2)###https://api.branch.io/v1/install
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:$r17 = virtualinvoke $r16.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:virtualinvoke $r18.<javax.net.ssl.HttpsURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:virtualinvoke $r18.<javax.net.ssl.HttpsURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:virtualinvoke $r18.<javax.net.ssl.HttpsURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:virtualinvoke $r18.<javax.net.ssl.HttpsURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:virtualinvoke $r18.<javax.net.ssl.HttpsURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/json")	timediff:0
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:virtualinvoke $r18.<javax.net.ssl.HttpsURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept", "application/json")	timediff:0
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:virtualinvoke $r18.<javax.net.ssl.HttpsURLConnection: void setRequestMethod(java.lang.String)>("POST")	timediff:0
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:$r20 = virtualinvoke $r18.<javax.net.ssl.HttpsURLConnection: java.io.OutputStream getOutputStream()>()	timediff:111
+I/System.out(12152): body:<io.a.a.a.a.e.d: int b()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:466
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String b(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: int a(java.lang.String,int)>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getHeaderFieldInt(java.lang.String,int)>($r1, $i0)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: int b()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.io.InputStream g()>	sig:$r2 = virtualinvoke $r1.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): URLConn;%;3;%;<io.a.a.a.a.e.d: java.io.InputStream g()>;%;$r2 = virtualinvoke $r1.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.beyondmenu/settings?instance=e2b10b289205b3db8d6ccbf911087ee539faa5a2&source=1&build_version=343&icon_hash=ccfe346c84efbef116e14f3c6b9818cecba05c0b&display_version=2.32;%;false;%;Not found;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String b(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(12152): <io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###https://e.crashlytics.com/spi/v2/events
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r2.<java.net.URL: int getPort()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r6 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r2.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:specialinvoke $r5.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r3, $r1, $r6, $r7, null)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r5.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out(12152): <io.a.a.a.a.e.d: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)###https://e.crashlytics.com/spi/v2/events
+I/System.out(12152): body:<io.a.a.a.a.e.d$b$1: java.net.HttpURLConnection a(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.net.HttpURLConnection r()>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r1)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(boolean)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setUseCaches(boolean)>($z0)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(int)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d m()>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d m()>	sig:$r3 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:$i4 = virtualinvoke $r18.<javax.net.ssl.HttpsURLConnection: int getResponseCode()>()	timediff:210
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:$i4 = virtualinvoke $r18.<javax.net.ssl.HttpsURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:$r25 = virtualinvoke $r18.<javax.net.ssl.HttpsURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): URLConn;%;4;%;<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>;%;$r25 = virtualinvoke $r18.<javax.net.ssl.HttpsURLConnection: java.io.InputStream getInputStream()>();%;https://api.branch.io/v1/install;%;true;%;301;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:$i4 = virtualinvoke $r18.<javax.net.ssl.HttpsURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(12152): body:<io.branch.referral.p: io.branch.referral.ai a(org.json.JSONObject,java.lang.String,java.lang.String,int,int,boolean)>	sig:virtualinvoke $r18.<javax.net.ssl.HttpsURLConnection: void disconnect()>()	timediff:0
+I/System.out(12152): body:<b.a.c: java.lang.String b(java.lang.String)>	sig:$r0 = staticinvoke <java.net.IDN: java.lang.String toASCII(java.lang.String)>($r0)	timediff:0
+I/System.out(12152): body:<b.a.c: java.lang.String b(java.lang.String)>	sig:$r0 = staticinvoke <java.net.IDN: java.lang.String toASCII(java.lang.String)>($r0)	timediff:0
+I/System.out(12152): body:<b.r: java.net.URI a()>	sig:specialinvoke $r3.<java.net.URI: void <init>(java.lang.String)>($r2)	timediff:0
+I/System.out(12152): body:<b.a.b.f: void a(b.r,java.net.Proxy)>	sig:$r3 = virtualinvoke $r6.<java.net.ProxySelector: java.util.List select(java.net.URI)>($r7)	timediff:0
+I/System.out(12152): body:<b.a.b.f: void a(java.net.Proxy)>	sig:$r6 = virtualinvoke $r1.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+I/System.out(12152): body:<b.a.b.f: void a(java.net.Proxy)>	sig:$r6 = virtualinvoke $r1.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+I/System.out(12152): body:<b.o$1: java.util.List a(java.lang.String)>	sig:$r3 = staticinvoke <java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)>($r1)	timediff:93
+I/System.out(12152): body:<b.a.b.f: void a(java.net.Proxy)>	sig:specialinvoke $r5.<java.net.InetSocketAddress: void <init>(java.net.InetAddress,int)>($r18, $i0)	timediff:0
+I/System.out(12152): body:<b.ab: int hashCode()>	sig:$i1 = virtualinvoke $r2.<java.net.Proxy: int hashCode()>()	timediff:0
+I/System.out(12152): body:<b.ab: int hashCode()>	sig:$i0 = virtualinvoke $r3.<java.net.InetSocketAddress: int hashCode()>()	timediff:0
+I/System.out(12152): body:<b.ab: boolean d()>	sig:$r3 = virtualinvoke $r5.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+I/System.out(12152): body:<b.a.b.c: void a(int,int)>	sig:$r5 = virtualinvoke $r3.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+I/System.out(12152): body:<b.a.b.c: void a(int,int)>	sig:virtualinvoke $r7.<java.net.Socket: void setSoTimeout(int)>($i1)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d m()>	sig:$r4 = virtualinvoke $r2.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:277
+I/System.out(12152): body:<b.a.f.a: void a(java.net.Socket,java.net.InetSocketAddress,int)>	sig:virtualinvoke $r1.<java.net.Socket: void connect(java.net.SocketAddress,int)>($r2, $i0)	timediff:72
+I/System.out(12152): body:<c.m: c.t b(java.net.Socket)>	sig:$r3 = virtualinvoke $r0.<java.net.Socket: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(12152): body:<c.m: c.s a(java.net.Socket)>	sig:$r3 = virtualinvoke $r0.<java.net.Socket: java.io.OutputStream getOutputStream()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: int b()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:74
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(12152): <io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###https://e.crashlytics.com/spi/v2/events
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r2.<java.net.URL: int getPort()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r6 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r2.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:specialinvoke $r5.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r3, $r1, $r6, $r7, null)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.lang.String a(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r5.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out(12152): <io.a.a.a.a.e.d: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)###https://e.crashlytics.com/spi/v2/events
+I/System.out(12152): body:<io.a.a.a.a.e.d$b$1: java.net.HttpURLConnection a(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: java.net.HttpURLConnection r()>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r1)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(boolean)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setUseCaches(boolean)>($z0)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(int)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d m()>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d m()>	sig:$r3 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out(12152): body:<io.a.a.a.a.e.d: io.a.a.a.a.e.d m()>	sig:$r4 = virtualinvoke $r2.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:12
+I/System.out(12152): body:<io.a.a.a.a.e.d: int b()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:73
+I/System.out(12152): body:<c.m: c.t b(java.net.Socket)>	sig:$r3 = virtualinvoke $r0.<java.net.Socket: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(12152): body:<c.m: c.s a(java.net.Socket)>	sig:$r3 = virtualinvoke $r0.<java.net.Socket: java.io.OutputStream getOutputStream()>()	timediff:0
+I/System.out(12152): body:<b.ab: int hashCode()>	sig:$i1 = virtualinvoke $r2.<java.net.Proxy: int hashCode()>()	timediff:0
+I/System.out(12152): body:<b.ab: int hashCode()>	sig:$i0 = virtualinvoke $r3.<java.net.InetSocketAddress: int hashCode()>()	timediff:0
+I/System.out(12152): body:<b.a.b.g: b.a.d.h a(b.u,boolean)>	sig:virtualinvoke $r6.<java.net.Socket: void setSoTimeout(int)>($i1)	timediff:0
+I/System.out(12152): body:<b.a.d.c: void a(b.x)>	sig:$r6 = virtualinvoke $r5.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+W/DebugConnManager(10668): getNetworkInfo() on networkType 1
+I/InputDispatcher(  470): Application is not responding: AppWindowToken{4b1815b4 token=Token{4aff4190 ActivityRecord{4aa83c38 u0 com.beyondmenu/.activity.SplashActivity t66}}} - Window{4ac3865c u0 com.beyondmenu/com.beyondmenu.activity.SplashActivity}.  It has been 5006.6ms since event, 5005.4ms since wait started.  Reason: Waiting because the focused window has not finished processing the input events that were previously delivered to it.
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out(12152): <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://graph.facebook.com/v2.4/1590033024581834/activities?access_token=&format=json&sdk=android
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:$r1 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r3)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Language", $r3)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setChunkedStreamingMode(int)>(0)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r6)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r1)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r7 = virtualinvoke $r1.<java.net.HttpURLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestMethod()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("User-Agent")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i2)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setReadTimeout(int)>($i2)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r10 = virtualinvoke $r1.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:11
+I/System.out(12152): body:<com.facebook.GraphRequest: void processRequest(com.facebook.GraphRequestBatch,com.facebook.internal.Logger,int,java.net.URL,java.io.OutputStream,boolean)>	sig:$r11 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+W/SurfaceFlinger(  165): setTransactionState timed out waiting for previous animation frame
+I/Choreographer(  470): Skipped 299 frames!  The application may be doing too much work on its main thread.
+I/Choreographer(12152): Skipped 304 frames!  The application may be doing too much work on its main thread.
+W/IInputConnectionWrapper(10668): showStatusIcon on inactive InputConnection
+I/InputDispatcher(  470): Window 'Window{4ac3865c u0 com.beyondmenu/com.beyondmenu.activity.SplashActivity}' spent 5084.1ms processing the last input event: MotionEvent(deviceId=3, source=0x00001002, action=7, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (85.9, 60.0)]), policyFlags=0x42000000
+I/WindowManager(  470): Input event dispatching timed out sending to com.beyondmenu/com.beyondmenu.activity.SplashActivity.  Reason: Waiting because the focused window has not finished processing the input events that were previously delivered to it.
+W/InputManager(  470): Input event injection from pid 12141 timed out.
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/Process (  470): Sending signal. PID: 12152 SIG: 3
+I/dalvikvm(12152): threadid=3: reacting to signal 3
+I/Process (  470): Sending signal. PID: 470 SIG: 3
+I/dalvikvm(  470): threadid=3: reacting to signal 3
+I/dalvikvm(  470): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  470): Sending signal. PID: 680 SIG: 3
+I/dalvikvm(  680): threadid=3: reacting to signal 3
+I/dalvikvm(  680): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  470): Sending signal. PID: 556 SIG: 3
+I/dalvikvm(  556): threadid=3: reacting to signal 3
+I/dalvikvm(12152): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm(12152): GC_CONCURRENT freed 6138K, 34% free 12176K/18376K, paused 2ms+1ms, total 5ms
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$i0 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:417
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): URLConn;%;5;%;<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>;%;$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://graph.facebook.com/v2.4/1590033024581834/activities?access_token=&format=json&sdk=android;%;true;%;16;%;private, no-cache, no-store, must-revalidate;%;Sat, 01 Jan 2000 00:00:00 GMT;%;Not found;%;Not found
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List createResponsesFromObject(java.net.HttpURLConnection,java.util.List,java.lang.Object)>	sig:$i2 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(12152): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+D/dalvikvm(  746): GC_CONCURRENT freed 2030K, 21% free 9153K/11584K, paused 2ms+1ms, total 12ms
+I/qtaguid (  746): Tagging socket 79 with tag 3000020000000000(805306880) for uid 10007 failed errno=-13
+I/NetworkManagementSocketTagger(  746): tagSocketFd(79, 805306880, 10007) failed with errno-13
+I/qtaguid (  746): Tagging socket 95 with tag 3000020000000000(805306880) for uid 10007 failed errno=-13
+I/NetworkManagementSocketTagger(  746): tagSocketFd(95, 805306880, 10007) failed with errno-13
+I/qtaguid (  746): Untagging socket 95 failed errno=-13
+W/NetworkManagementSocketTagger(  746): untagSocket(95) failed with errno -13
+I/qtaguid (  746): Tagging socket 95 with tag 3000020000000000(805306880) for uid 10007 failed errno=-13
+I/NetworkManagementSocketTagger(  746): tagSocketFd(95, 805306880, 10007) failed with errno-13
+I/qtaguid (  746): Untagging socket 95 failed errno=-13
+W/NetworkManagementSocketTagger(  746): untagSocket(95) failed with errno -13
+I/qtaguid (  746): Tagging socket 95 with tag 3000020000000000(805306880) for uid 10007 failed errno=-13
+I/NetworkManagementSocketTagger(  746): tagSocketFd(95, 805306880, 10007) failed with errno-13
+I/qtaguid (  746): Untagging socket 95 failed errno=-13
+W/NetworkManagementSocketTagger(  746): untagSocket(95) failed with errno -13
+I/qtaguid (  746): Tagging socket 95 with tag 3000020000000000(805306880) for uid 10007 failed errno=-13
+I/NetworkManagementSocketTagger(  746): tagSocketFd(95, 805306880, 10007) failed with errno-13
+I/qtaguid (  746): Untagging socket 95 failed errno=-13
+W/NetworkManagementSocketTagger(  746): untagSocket(95) failed with errno -13
+I/qtaguid (  746): Tagging socket 95 with tag 3000020000000000(805306880) for uid 10007 failed errno=-13
+I/NetworkManagementSocketTagger(  746): tagSocketFd(95, 805306880, 10007) failed with errno-13
+I/qtaguid (  746): Untagging socket 95 failed errno=-13
+W/NetworkManagementSocketTagger(  746): untagSocket(95) failed with errno -13
+I/qtaguid (  746): Tagging socket 95 with tag 3000020000000000(805306880) for uid 10007 failed errno=-13
+I/NetworkManagementSocketTagger(  746): tagSocketFd(95, 805306880, 10007) failed with errno-13
+I/qtaguid (  746): Untagging socket 95 failed errno=-13
+W/NetworkManagementSocketTagger(  746): untagSocket(95) failed with errno -13
+I/qtaguid (  746): Untagging socket 79 failed errno=-13
+W/NetworkManagementSocketTagger(  746): untagSocket(79) failed with errno -13
+I/dalvikvm(  556): Wrote stack traces to '/data/anr/traces.txt'
+I/InputDispatcher(  470): Application is not responding: AppWindowToken{4b1815b4 token=Token{4aff4190 ActivityRecord{4aa83c38 u0 com.beyondmenu/.activity.SplashActivity t66}}} - Window{4ac3865c u0 com.beyondmenu/com.beyondmenu.activity.SplashActivity}.  It has been 5006.1ms since event, 5005.8ms since wait started.  Reason: Waiting because the focused window has not finished processing the input events that were previously delivered to it.
+W/SurfaceFlinger(  165): setTransactionState timed out waiting for previous animation frame
+I/WindowManager(  470): Input event dispatching timed out sending to com.beyondmenu/com.beyondmenu.activity.SplashActivity.  Reason: Waiting because the focused window has not finished processing the input events that were previously delivered to it.
+W/InputManager(  470): Input event injection from pid 12141 timed out.
+D/dalvikvm(  470): GC_EXPLICIT freed 2745K, 48% free 16871K/32384K, paused 6ms+9ms, total 29ms
+I/InputDispatcher(  470): Window 'Window{4a9639a4 u0 StatusBar}' spent 10158.0ms processing the last input event: MotionEvent(deviceId=3, source=0x00001002, action=10, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (51.0, 36.0)]), policyFlags=0x42000000
+I/InputDispatcher(  470): Window 'Window{4a9639a4 u0 StatusBar}' spent 10158.1ms processing the last input event: MotionEvent(deviceId=3, source=0x00001002, action=10, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (51.0, 36.0)]), policyFlags=0x42000000
+D/dalvikvm(  470): GC_EXPLICIT freed 729K, 48% free 17020K/32384K, paused 1ms+2ms, total 18ms
+I/InputDispatcher(  470): Window 'Window{4ac3865c u0 com.beyondmenu/com.beyondmenu.activity.SplashActivity}' spent 5195.8ms processing the last input event: KeyEvent(deviceId=-1, source=0x00000101, action=0, flags=0x00000008, keyCode=21, scanCode=0, metaState=0x00000000, repeatCount=0), policyFlags=0x4b000000
+I/System.out(12152): body:<b.a.c: java.lang.String b(java.lang.String)>	sig:$r0 = staticinvoke <java.net.IDN: java.lang.String toASCII(java.lang.String)>($r0)	timediff:0
+D/a       (12152): send event --> category: push_notification, action: register
+I/System.out(12152): body:<b.a.c: java.lang.String b(java.lang.String)>	sig:$r0 = staticinvoke <java.net.IDN: java.lang.String toASCII(java.lang.String)>($r0)	timediff:0
+I/System.out(12152): body:<b.r: java.net.URI a()>	sig:specialinvoke $r3.<java.net.URI: void <init>(java.lang.String)>($r2)	timediff:0
+I/System.out(12152): body:<b.a.b.f: void a(b.r,java.net.Proxy)>	sig:$r3 = virtualinvoke $r6.<java.net.ProxySelector: java.util.List select(java.net.URI)>($r7)	timediff:0
+I/System.out(12152): body:<b.a.b.f: void a(java.net.Proxy)>	sig:$r6 = virtualinvoke $r1.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+I/System.out(12152): body:<b.a.b.f: void a(java.net.Proxy)>	sig:$r6 = virtualinvoke $r1.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+W/EGL_emulation(  556): eglSurfaceAttrib not implemented 3093 12436
+D/GraphRequest(12152): Warning: Request without access token missing application ID or client token.
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+V/WebViewChromium(12152): Binding Chromium to the main looper Looper (main, tid 1) {4a7ae094}
+I/chromium(12152): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain(12152): Initializing chromium process, renderers=0
+I/ActivityManager(  470): Displayed com.beyondmenu/.activity.SplashActivity: +20s710ms
+I/System.out(12152): body:<b.o$1: java.util.List a(java.lang.String)>	sig:$r3 = staticinvoke <java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)>($r1)	timediff:16
+I/System.out(12152): body:<b.a.b.f: void a(java.net.Proxy)>	sig:specialinvoke $r5.<java.net.InetSocketAddress: void <init>(java.net.InetAddress,int)>($r18, $i0)	timediff:0
+I/System.out(12152): body:<b.ab: int hashCode()>	sig:$i1 = virtualinvoke $r2.<java.net.Proxy: int hashCode()>()	timediff:0
+I/System.out(12152): body:<b.ab: int hashCode()>	sig:$i0 = virtualinvoke $r3.<java.net.InetSocketAddress: int hashCode()>()	timediff:0
+I/System.out(12152): <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://graph.facebook.com/v2.4/1590033024581834/activities?format=json&sdk=android
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:$r1 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(12152): body:<b.ab: boolean d()>	sig:$r3 = virtualinvoke $r5.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+I/System.out(12152): body:<b.a.b.c: void a(int,int)>	sig:$r5 = virtualinvoke $r3.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+I/System.out(12152): body:<b.a.b.c: void a(int,int)>	sig:virtualinvoke $r7.<java.net.Socket: void setSoTimeout(int)>($i1)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r3)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Language", $r3)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setChunkedStreamingMode(int)>(0)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r6)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/x-www-form-urlencoded")	timediff:1
+I/System.out(12152): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Encoding", "gzip")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r7 = virtualinvoke $r1.<java.net.HttpURLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestMethod()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("User-Agent")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i2)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setReadTimeout(int)>($i2)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+W/chromium(12152): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+I/System.out(12152): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r10 = virtualinvoke $r1.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:11
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest: void processRequest(com.facebook.GraphRequestBatch,com.facebook.internal.Logger,int,java.net.URL,java.io.OutputStream,boolean)>	sig:$r11 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out(12152): body:<b.u$a: void <init>()>	sig:$r4 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:0
+I/System.out(12152): body:<b.a.c: java.lang.String b(java.lang.String)>	sig:$r0 = staticinvoke <java.net.IDN: java.lang.String toASCII(java.lang.String)>($r0)	timediff:0
+I/System.out(12152): body:<b.a.c: java.lang.String b(java.lang.String)>	sig:$r0 = staticinvoke <java.net.IDN: java.lang.String toASCII(java.lang.String)>($r0)	timediff:0
+I/System.out(12152): body:<b.r: java.net.URI a()>	sig:specialinvoke $r3.<java.net.URI: void <init>(java.lang.String)>($r2)	timediff:0
+I/System.out(12152): body:<b.a.b.f: void a(b.r,java.net.Proxy)>	sig:$r3 = virtualinvoke $r6.<java.net.ProxySelector: java.util.List select(java.net.URI)>($r7)	timediff:0
+I/System.out(12152): body:<b.a.b.c: boolean a(boolean)>	sig:$z1 = virtualinvoke $r1.<java.net.Socket: boolean isClosed()>()	timediff:0
+I/System.out(12152): body:<b.a.b.c: boolean a(boolean)>	sig:$z1 = virtualinvoke $r1.<java.net.Socket: boolean isInputShutdown()>()	timediff:0
+I/System.out(12152): body:<b.a.b.c: boolean a(boolean)>	sig:$z1 = virtualinvoke $r1.<java.net.Socket: boolean isOutputShutdown()>()	timediff:0
+I/System.out(12152): body:<b.a.b.c: boolean a(boolean)>	sig:$i0 = virtualinvoke $r1.<java.net.Socket: int getSoTimeout()>()	timediff:0
+I/System.out(12152): body:<b.a.b.c: boolean a(boolean)>	sig:virtualinvoke $r1.<java.net.Socket: void setSoTimeout(int)>(1)	timediff:0
+I/System.out(12152): body:<b.a.b.c: boolean a(boolean)>	sig:virtualinvoke $r1.<java.net.Socket: void setSoTimeout(int)>($i0)	timediff:0
+I/System.out(12152): body:<b.a.b.g: b.a.d.h a(b.u,boolean)>	sig:virtualinvoke $r6.<java.net.Socket: void setSoTimeout(int)>($i1)	timediff:0
+I/System.out(12152): body:<b.a.d.c: void a(b.x)>	sig:$r6 = virtualinvoke $r5.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+I/System.out(12152): body:<b.a.f.a: void a(java.net.Socket,java.net.InetSocketAddress,int)>	sig:virtualinvoke $r1.<java.net.Socket: void connect(java.net.SocketAddress,int)>($r2, $i0)	timediff:75
+I/System.out(12152): body:<c.m: c.t b(java.net.Socket)>	sig:$r3 = virtualinvoke $r0.<java.net.Socket: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(12152): body:<c.m: c.s a(java.net.Socket)>	sig:$r3 = virtualinvoke $r0.<java.net.Socket: java.io.OutputStream getOutputStream()>()	timediff:0
+I/System.out(12152): body:<b.a.c: java.lang.String b(java.lang.String)>	sig:$r0 = staticinvoke <java.net.IDN: java.lang.String toASCII(java.lang.String)>($r0)	timediff:0
+I/System.out(12152): body:<b.a.c: java.lang.String b(java.lang.String)>	sig:$r0 = staticinvoke <java.net.IDN: java.lang.String toASCII(java.lang.String)>($r0)	timediff:0
+I/System.out(12152): body:<b.r: java.net.URI a()>	sig:specialinvoke $r3.<java.net.URI: void <init>(java.lang.String)>($r2)	timediff:0
+I/System.out(12152): body:<b.a.b.f: void a(b.r,java.net.Proxy)>	sig:$r3 = virtualinvoke $r6.<java.net.ProxySelector: java.util.List select(java.net.URI)>($r7)	timediff:0
+I/System.out(12152): body:<b.a.b.f: void a(java.net.Proxy)>	sig:$r6 = virtualinvoke $r1.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+I/System.out(12152): body:<b.a.b.f: void a(java.net.Proxy)>	sig:$r6 = virtualinvoke $r1.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+I/System.out(12152): body:<b.o$1: java.util.List a(java.lang.String)>	sig:$r3 = staticinvoke <java.net.InetAddress: java.net.InetAddress[] getAllByName(java.lang.String)>($r1)	timediff:0
+I/System.out(12152): body:<b.a.b.f: void a(java.net.Proxy)>	sig:specialinvoke $r5.<java.net.InetSocketAddress: void <init>(java.net.InetAddress,int)>($r18, $i0)	timediff:0
+I/System.out(12152): body:<b.ab: int hashCode()>	sig:$i1 = virtualinvoke $r2.<java.net.Proxy: int hashCode()>()	timediff:0
+I/System.out(12152): body:<b.ab: int hashCode()>	sig:$i0 = virtualinvoke $r3.<java.net.InetSocketAddress: int hashCode()>()	timediff:0
+I/System.out(12152): body:<b.ab: boolean d()>	sig:$r3 = virtualinvoke $r5.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+I/System.out(12152): body:<b.a.b.c: void a(int,int)>	sig:$r5 = virtualinvoke $r3.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+I/System.out(12152): body:<b.a.b.c: void a(int,int)>	sig:virtualinvoke $r7.<java.net.Socket: void setSoTimeout(int)>($i1)	timediff:0
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$i0 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:86
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(12152): URLConn;%;6;%;<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>;%;$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://graph.facebook.com/v2.4/1590033024581834/activities?format=json&sdk=android;%;true;%;16;%;private, no-cache, no-store, must-revalidate;%;Sat, 01 Jan 2000 00:00:00 GMT;%;Not found;%;Not found
+I/System.out(12152): body:<com.facebook.GraphResponse: java.util.List createResponsesFromObject(java.net.HttpURLConnection,java.util.List,java.lang.Object)>	sig:$i2 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(12152): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+D/a       (12152): send event --> category: splash, action: key_close
+I/System.out(12152): body:<b.a.f.a: void a(java.net.Socket,java.net.InetSocketAddress,int)>	sig:virtualinvoke $r1.<java.net.Socket: void connect(java.net.SocketAddress,int)>($r2, $i0)	timediff:73
+I/System.out(12152): body:<c.m: c.t b(java.net.Socket)>	sig:$r3 = virtualinvoke $r0.<java.net.Socket: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(12152): body:<c.m: c.s a(java.net.Socket)>	sig:$r3 = virtualinvoke $r0.<java.net.Socket: java.io.OutputStream getOutputStream()>()	timediff:0
+D/BaseActivity(12152): SplashActivity onPause()
+D/FirebaseApp(10668): Notifying background state change listeners.
+W/Launcher(10668): setApplicationContext called twice! old=com.vphone.launcher.LauncherApplicationEx@4a7b2a28 new=com.vphone.launcher.LauncherApplicationEx@4a7b2a28
+W/ResourceType(10668): Attempt to retrieve bag 0x7f0b0001 which is invalid or in a cycle.
+I/System.out(12152): body:<c.m: c.t b(java.net.Socket)>	sig:$r3 = virtualinvoke $r0.<java.net.Socket: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(12152): body:<c.m: c.s a(java.net.Socket)>	sig:$r3 = virtualinvoke $r0.<java.net.Socket: java.io.OutputStream getOutputStream()>()	timediff:0
+I/System.out(12152): body:<b.ab: int hashCode()>	sig:$i1 = virtualinvoke $r2.<java.net.Proxy: int hashCode()>()	timediff:0
+I/System.out(12152): body:<b.ab: int hashCode()>	sig:$i0 = virtualinvoke $r3.<java.net.InetSocketAddress: int hashCode()>()	timediff:0
+I/System.out(12152): body:<b.a.b.g: b.a.d.h a(b.u,boolean)>	sig:virtualinvoke $r6.<java.net.Socket: void setSoTimeout(int)>($i1)	timediff:0
+I/System.out(12152): body:<b.a.d.c: void a(b.x)>	sig:$r6 = virtualinvoke $r5.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+D/Launcher(10668): 11683562 - bindAddScreens()
+D/Launcher(10668): 11683562 -   orderedScreenIds: 1
+D/Launcher.Workspace(10668): 11683562 - insertNewWorkspaceScreen(): 1 at index: 0
+D/dalvikvm(10668): GC_FOR_ALLOC freed 3623K, 11% free 31725K/35424K, paused 6ms, total 14ms
+D/TokenRegisterService(12152): ==============================
+W/PhoneWindow(10668): Previously focused view reported id 2131689740 during save, but can't be found during restore.
+W/ContextImpl(10668): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1492 android.content.ContextWrapper.startService:494 com.vphone.launcher.Launcher.h:664 com.vphone.launcher.Launcher.b:180 com.vphone.launcher.Launcher$11.run:646 
+I/Auth.Api.Credentials(  746): [CredentialsApiOperation] Error when executing the operation.
+D/a       (12152): send event --> category: smart_lock_for_passwords, action: get_credentials, label: Error: 16
+D/a       (12152): send user timing --> category: screen_timing, variable: splash_screen, label: NLNC, value: 20686
+D/a       (12152): set installation source --> none
+I/ActivityManager(  470): START u0 {flg=0x24000000 cmp=com.beyondmenu/.activity.HomeDrawerPhoneActivity} from pid 12152
+W/ActivityManager(  470): startActivity called from finishing ActivityRecord{4aa83c38 u0 com.beyondmenu/.activity.SplashActivity t66 f}; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=0x24000000 cmp=com.beyondmenu/.activity.HomeDrawerPhoneActivity }
+W/ActivityManager(  470): Duplicate finish request for ActivityRecord{4aa83c38 u0 com.beyondmenu/.activity.SplashActivity t66 f}
+I/System.out(12152): body:<c.m: c.t b(java.net.Socket)>	sig:$r3 = virtualinvoke $r0.<java.net.Socket: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(12152): body:<c.m: c.s a(java.net.Socket)>	sig:$r3 = virtualinvoke $r0.<java.net.Socket: java.io.OutputStream getOutputStream()>()	timediff:0
+I/System.out(12152): body:<b.ab: int hashCode()>	sig:$i1 = virtualinvoke $r2.<java.net.Proxy: int hashCode()>()	timediff:0
+I/System.out(12152): body:<b.ab: int hashCode()>	sig:$i0 = virtualinvoke $r3.<java.net.InetSocketAddress: int hashCode()>()	timediff:0
+I/System.out(12152): body:<b.a.b.g: b.a.d.h a(b.u,boolean)>	sig:virtualinvoke $r6.<java.net.Socket: void setSoTimeout(int)>($i1)	timediff:0
+I/System.out(12152): body:<b.a.d.c: void a(b.x)>	sig:$r6 = virtualinvoke $r5.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+W/EGL_emulation(10668): eglSurfaceAttrib not implemented 3093 12436
+I/Process (  470): Sending signal. PID: 10668 SIG: 3
+I/dalvikvm(10668): threadid=3: reacting to signal 3
+D/yeshen  (10668): launcher onpause
+D/BaseActivity(12152): HomeDrawerPhoneActivity onCreate()
+I/AppCompatViewInflater(12152): app:theme is now deprecated. Please move to using android:theme instead.
+I/dalvikvm(10668): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  470): Sending signal. PID: 746 SIG: 3
+I/dalvikvm(  746): threadid=3: reacting to signal 3
+D/BaseActivity(12152): HomeDrawerPhoneActivity onStart()
+D/BaseActivity(12152): HomeDrawerPhoneActivity onResume()
+I/dalvikvm(  746): Wrote stack traces to '/data/anr/traces.txt'
+E/ActivityManager(  470): ANR in com.beyondmenu (com.beyondmenu/.activity.SplashActivity)
+E/ActivityManager(  470): PID: 12152
+E/ActivityManager(  470): Reason: Input dispatching timed out (Waiting because the focused window has not finished processing the input events that were previously delivered to it.)
+E/ActivityManager(  470): Load: 1.19 / 2.14 / 2.07
+E/ActivityManager(  470): CPU usage from 1975ms to -5790ms ago:
+E/ActivityManager(  470):   2.8% 12152/com.beyondmenu: 1.4% user + 1.4% kernel / faults: 3327 minor
+E/ActivityManager(  470):   2.4% 470/system_server: 1.2% user + 1.1% kernel / faults: 1775 minor
+E/ActivityManager(  470):   0.7% 10668/com.vphone.launcher: 0.6% user + 0.1% kernel / faults: 1610 minor
+E/ActivityManager(  470):   0.9% 746/com.google.android.gms: 0.6% user + 0.2% kernel / faults: 253 minor
+E/ActivityManager(  470):   0% 162/debuggerd: 0% user + 0% kernel / faults: 2702 minor
+E/ActivityManager(  470):   0.6% 556/com.android.systemui: 0.5% user + 0.1% kernel / faults: 13 minor 1 major
+E/ActivityManager(  470):   0.2% 165/surfaceflinger: 0.1% user + 0.1% kernel / faults: 105 minor
+E/ActivityManager(  470):   0.2% 12139/logcat: 0% user + 0.2% kernel
+E/ActivityManager(  470):   0% 68/sdcard: 0% user + 0% kernel
+E/ActivityManager(  470):   0.1% 70/adbd: 0% user + 0.1% kernel
+E/ActivityManager(  470):   0% 680/com.android.phone: 0% user + 0% kernel
+E/ActivityManager(  470): 10% TOTAL: 5.9% user + 3.4% kernel + 0.1% iowait + 0.6% softirq
+E/ActivityManager(  470): CPU usage from 5189ms to 5692ms later:
+E/ActivityManager(  470):   22% 10668/com.vphone.launcher: 18% user + 3.7% kernel / faults: 1554 minor
+E/ActivityManager(  470):     7.4% 10668/vphone.launcher: 5.5% user + 1.8% kernel
+E/ActivityManager(  470):     5.5% 10813/uil-pool-2-thre: 3.7% user + 1.8% kernel
+E/ActivityManager(  470):     3.7% 10811/uil-pool-2-thre: 3.7% user + 0% kernel
+E/ActivityManager(  470):     3.7% 10812/uil-pool-2-thre: 3.7% user + 0% kernel
+E/ActivityManager(  470):     1.8% 10675/FinalizerDaemon: 1.8% user + 0% kernel
+E/ActivityManager(  470):     1.8% 10684/launcher-loader: 1.8% user + 0% kernel
+E/ActivityManager(  470):    +0% 12240/uil-pool-d-3-th: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12241/uil-pool-d-3-th: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12242/uil-pool-d-3-th: 0% user + 0% kernel
+E/ActivityManager(  470):   22% 12152/com.beyondmenu: 11% user + 11% kernel / faults: 2308 minor
+E/ActivityManager(  470):     9.2% 12152/com.beyondmenu: 3.7% user + 5.5% kernel
+E/ActivityManager(  470):     1.8% 12155/GC: 1.8% user + 0% kernel
+E/ActivityManager(  470):     1.8% 12174/measurement-1: 0% user + 1.8% kernel
+E/ActivityManager(  470):    +0% 12224/com.beyondmenu: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12225/com.beyondmenu: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12226/OkHttp Connecti: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12227/com.beyondmenu: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12228/com.beyondmenu: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12229/com.beyondmenu: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12230/com.beyondmenu: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12231/com.beyondmenu: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12232/com.beyondmenu: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12233/com.beyondmenu: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12234/com.beyondmenu: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12235/com.beyondmenu: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12236/IntentService[R: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12237/OkHttp Connecti: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12238/GAC_Executor[0]: 0% user + 0% kernel
+E/ActivityManager(  470):    +0% 12239/GAC_Executor[1]: 0% user + 0% kernel
+E/ActivityManager(  470):   14% 470/system_server: 6% user + 8% kernel / faults: 1419 minor
+E/ActivityManager(  470):     4% 484/android.bg: 0% user + 4% kernel
+E/ActivityManager(  470):     2% 479/Binder_1: 2% user + 0% kernel
+E/ActivityManager(  470):     2% 482/WindowManager: 0% user + 2% kernel
+E/ActivityManager(  470):     2% 483/ActivityManager: 0% user + 2% kernel
+E/ActivityManager(  470):   5.4% 746/com.google.android.gms: 5.4% user + 0% kernel / faults: 119 minor
+E/ActivityManager(  470):     1.8% 849/Binder_3: 1.8% user + 0% kernel
+E/ActivityManager(  470):     1.8% 942/highpool[0]: 1.8% user + 0% kernel
+E/ActivityManager(  470):     1.8% 12207/measurement-6: 1.8% user + 0% kernel
+E/ActivityManager(  470):   3.5% 165/surfaceflinger: 0% user + 3.5% kernel / faults: 105 minor
+E/ActivityManager(  470):     1.7% 165/surfaceflinger: 0% user + 1.7% kernel
+E/ActivityManager(  470):     1.7% 193/DispSync: 0% user + 1.7% kernel
+E/ActivityManager(  470):   1.7% 68/sdcard: 0% user + 1.7% kernel
+E/ActivityManager(  470):   1.7% 70/adbd: 0% user + 1.7% kernel
+E/ActivityManager(  470):     1.7% 824/adbd: 0% user + 1.7% kernel
+E/ActivityManager(  470):     1.7% 825/adbd: 0% user + 1.7% kernel
+E/ActivityManager(  470):   1.8% 556/com.android.systemui: 1.8% user + 0% kernel
+E/ActivityManager(  470):   1.8% 12139/logcat: 0% user + 1.8% kernel
+E/ActivityManager(  470): 83% TOTAL: 51% user + 24% kernel + 2% iowait + 6.1% softirq
+I/ActivityManager(  470): Skipping duplicate ANR: ProcessRecord{4aa6838c 12152:com.beyondmenu/u0a58} Input dispatching timed out (Waiting because the focused window has not finished processing the input events that were previously delivered to it.)
+D/Fragment(12152): * h onOrientationSet *
+D/Fragment(12152): *** h onFragmentShown ***
+D/a       (12152): send screen view --> home
+I/DaoManager(12152): Loaded configuration for class com.beyondmenu.model.UserCreditCard
+I/DaoManager(12152): Loaded configuration for class com.beyondmenu.model.RecentRestaurant
+I/DaoManager(12152): Loaded configuration for class com.beyondmenu.model.RestaurantOrderCounter
+I/TableUtils(12152): creating table 'user_credit_cards'
+I/TableUtils(12152): executed create table statement changed 1 rows: CREATE TABLE `user_credit_cards` (`id` INTEGER PRIMARY KEY AUTOINCREMENT , `email` VARCHAR , `number` VARCHAR , `holder` VARCHAR , `addressNumber` VARCHAR , `billingZipcode` VARCHAR ) 
+I/TableUtils(12152): creating table 'recent_restaurants'
+I/TableUtils(12152): executed create table statement changed 1 rows: CREATE TABLE `recent_restaurants` (`id` INTEGER PRIMARY KEY AUTOINCREMENT , `businessEntityID` BIGINT , `businessEntityGUID` VARCHAR , `businessName` VARCHAR , `date` VARCHAR ) 
+I/TableUtils(12152): creating table 'restaurant_order_counters'
+I/TableUtils(12152): executed create table statement changed 1 rows: CREATE TABLE `restaurant_order_counters` (`businessEntityID` BIGINT , `businessEntityGUID` VARCHAR , `businessName` VARCHAR , `orderCount` INTEGER , `shortcutAccepted` SMALLINT , `shortcutDeclined` SMALLINT , `modifyDate` VARCHAR , PRIMARY KEY (`businessEntityID`) ) 
+W/EGL_emulation(12152): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(12152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1758024, downTime=1758024, deviceId=-1, source=0x101 }
+D/dalvikvm(12152): GC_CONCURRENT freed 2104K, 29% free 13057K/18376K, paused 2ms+1ms, total 8ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  470): Displayed com.beyondmenu/.activity.HomeDrawerPhoneActivity: +592ms
+D/yeshen  (10668): launcher onstop
+W/DebugConnManager(10668): getNetworkInfo() on networkType 1
+D/BaseActivity(12152): SplashActivity onStop()
+D/BaseActivity(12152): SplashActivity onDestroy()
+D/dalvikvm(12152): GC_EXPLICIT freed 314K, 31% free 12783K/18376K, paused 1ms+1ms, total 8ms
+D/dalvikvm(12152): GC_EXPLICIT freed 5K, 31% free 12779K/18376K, paused 0ms+1ms, total 9ms
+I/AndroidRuntime(12141): VM exiting with result code 30.

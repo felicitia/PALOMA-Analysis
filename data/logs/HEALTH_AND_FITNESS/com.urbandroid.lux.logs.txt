@@ -1,0 +1,264 @@
+--------- beginning of /dev/log/main
+D/dalvikvm(  346): GC_EXPLICIT freed 1162K, 63% free 15254K/41192K, paused 0ms+2ms, total 21ms
+I/Icing   (26586): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+I/Icing   (26586): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+I/WearableService(  643): Wearable Services stopping
+D/AndroidRuntime(27106): 
+D/AndroidRuntime(27106): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(27106): CheckJNI is OFF
+D/dalvikvm(27106): Using executionMode 2
+D/dalvikvm(27106): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(27106): Added shared lib libjavacore.so 0x0
+D/dalvikvm(27106): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(27106): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(27106): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(27106): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(27106): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(27106): failed to load memtrack module: -2
+D/AndroidRuntime(27106): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  346): Skipping deliver [background] BroadcastRecord{4b6fb538 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4b140b6c 27106 (unknown name)/0/u-1 remote:4ad921a4}: process crashing
+I/ActivityManager(  346): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.urbandroid.lux/.MainActivity} from pid 27106
+D/yeshen  (11448): launcher onpause
+I/ActivityManager(  346): Start proc com.urbandroid.lux for activity com.urbandroid.lux/.MainActivity: pid=27116 uid=10150 gids={50150, 3003}
+W/NetworkManagementSocketTagger(  346): setKernelCountSet(10150, 1) failed with errno -13
+W/DebugConnManager(11448): getNetworkInfo() on networkType 1
+I/dalvikvm(27116): ignoring registerObject request in thread=1
+I/dalvikvm(27116): ignoring registerObject request in thread=1
+I/dalvikvm(27116): Could not find method android.view.Window$Callback.onProvideKeyboardShortcuts, referenced from method android.support.v7.view.WindowCallbackWrapper.onProvideKeyboardShortcuts
+W/dalvikvm(27116): VFY: unable to resolve interface method 16073: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V
+D/dalvikvm(27116): VFY: replacing opcode 0x72 at 0x0002
+W/dalvikvm(27116): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm(27116): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.WindowCallbackWrapper.onSearchRequested
+W/dalvikvm(27116): VFY: unable to resolve interface method 16075: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm(27116): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm(27116): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.WindowCallbackWrapper.onWindowStartingActionMode
+W/dalvikvm(27116): VFY: unable to resolve interface method 16079: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm(27116): VFY: replacing opcode 0x72 at 0x0002
+E/UNSPECIFIED(27116): Calling log before initializing logger.
+E/UNSPECIFIED(27116): java.lang.Exception: MARKER
+E/UNSPECIFIED(27116): 	at com.urbandroid.common.logging.Logger.logInMemory(SourceFile:184)
+E/UNSPECIFIED(27116): 	at com.urbandroid.common.logging.Logger.logInfo(SourceFile:247)
+E/UNSPECIFIED(27116): 	at com.urbandroid.common.logging.Logger.logInfo(SourceFile:242)
+E/UNSPECIFIED(27116): 	at com.urbandroid.common.logging.Logger.logInfo(SourceFile:264)
+E/UNSPECIFIED(27116): 	at com.urbandroid.lux.ui.PreferenceActivity.onCreate(SourceFile:28)
+E/UNSPECIFIED(27116): 	at com.urbandroid.lux.MainActivity.onCreate(SourceFile:237)
+E/UNSPECIFIED(27116): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/UNSPECIFIED(27116): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/UNSPECIFIED(27116): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/UNSPECIFIED(27116): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/UNSPECIFIED(27116): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/UNSPECIFIED(27116): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/UNSPECIFIED(27116): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/UNSPECIFIED(27116): 	at android.os.Looper.loop(Looper.java:136)
+E/UNSPECIFIED(27116): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/UNSPECIFIED(27116): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/UNSPECIFIED(27116): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/UNSPECIFIED(27116): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/UNSPECIFIED(27116): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/UNSPECIFIED(27116): 	at dalvik.system.NativeStart.main(Native Method)
+I/UNSPECIFIED(27116): [16:33:51.348, main]: Before setContentView
+I/AppCompatViewInflater(27116): app:theme is now deprecated. Please move to using android:theme instead.
+I/dalvikvm(27116): Could not find method android.content.Context.getColorStateList, referenced from method android.support.v7.content.res.AppCompatResources.getColorStateList
+W/dalvikvm(27116): VFY: unable to resolve virtual method 422: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm(27116): VFY: replacing opcode 0x6e at 0x0006
+D/dalvikvm(27116): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(27116): GC_CONCURRENT freed 216K, 9% free 2957K/3236K, paused 2ms+1ms, total 7ms
+D/dalvikvm(27116): GC_FOR_ALLOC freed 46K, 8% free 3075K/3336K, paused 1ms, total 1ms
+I/dalvikvm-heap(27116): Grow heap (frag case) to 3.666MB for 635808-byte allocation
+D/dalvikvm(27116): GC_FOR_ALLOC freed <1K, 7% free 3695K/3960K, paused 3ms, total 3ms
+I/dalvikvm(27116): Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawable
+W/dalvikvm(27116): VFY: unable to resolve virtual method 611: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(27116): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm(27116): Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawableForDensity
+W/dalvikvm(27116): VFY: unable to resolve virtual method 613: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(27116): VFY: replacing opcode 0x6e at 0x0002
+D/dalvikvm(27116): GC_CONCURRENT freed 7K, 7% free 3709K/3960K, paused 2ms+1ms, total 6ms
+E/dalvikvm(27116): Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method android.support.v7.widget.AppCompatImageHelper.hasOverlappingRendering
+W/dalvikvm(27116): VFY: unable to resolve instanceof 192 (Landroid/graphics/drawable/RippleDrawable;) in Landroid/support/v7/widget/AppCompatImageHelper;
+D/dalvikvm(27116): VFY: replacing opcode 0x20 at 0x000c
+E/UNSPECIFIED(27116): Calling log before initializing logger.
+E/UNSPECIFIED(27116): java.lang.Exception: MARKER
+E/UNSPECIFIED(27116): 	at com.urbandroid.common.logging.Logger.logInMemory(SourceFile:184)
+E/UNSPECIFIED(27116): 	at com.urbandroid.common.logging.Logger.logInfo(SourceFile:247)
+E/UNSPECIFIED(27116): 	at com.urbandroid.common.logging.Logger.logInfo(SourceFile:242)
+E/UNSPECIFIED(27116): 	at com.urbandroid.common.logging.Logger.logInfo(SourceFile:264)
+E/UNSPECIFIED(27116): 	at com.urbandroid.lux.ui.PreferenceActivity.onCreate(SourceFile:32)
+E/UNSPECIFIED(27116): 	at com.urbandroid.lux.MainActivity.onCreate(SourceFile:237)
+E/UNSPECIFIED(27116): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/UNSPECIFIED(27116): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/UNSPECIFIED(27116): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/UNSPECIFIED(27116): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/UNSPECIFIED(27116): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/UNSPECIFIED(27116): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/UNSPECIFIED(27116): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/UNSPECIFIED(27116): 	at android.os.Looper.loop(Looper.java:136)
+E/UNSPECIFIED(27116): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/UNSPECIFIED(27116): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/UNSPECIFIED(27116): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/UNSPECIFIED(27116): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/UNSPECIFIED(27116): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/UNSPECIFIED(27116): 	at dalvik.system.NativeStart.main(Native Method)
+I/UNSPECIFIED(27116): [16:33:51.401, main]: After setContentView
+I/TWILIGHT(27116): [16:33:51.404, main]: Multiprocess init remote = false
+I/TWILIGHT(27116): [16:33:51.412, main]: Preparing copy settings_dim
+I/TWILIGHT(27116): [16:33:51.412, main]: Preparing copy settings_color_temperature2
+I/TWILIGHT(27116): [16:33:51.412, main]: Preparing copy settings_intensity
+D/dalvikvm(27116): GC_CONCURRENT freed 262K, 8% free 3895K/4220K, paused 0ms+0ms, total 4ms
+I/TWILIGHT(27116): [16:33:51.417, main]: key settings_dim equal
+I/TWILIGHT(27116): [16:33:51.418, main]: key settings_color_temperature2 equal
+I/TWILIGHT(27116): [16:33:51.418, main]: key settings_intensity equal
+I/TWILIGHT(27116): [16:33:51.418, main]: equals
+W/ActionBarDrawerToggle(27116): DrawerToggle may not show up because NavigationIcon is not visible. You may need to call actionbar.setDisplayHomeAsUpEnabled(true);
+D/dalvikvm(27116): GC_FOR_ALLOC freed 131K, 9% free 3906K/4252K, paused 2ms, total 2ms
+I/dalvikvm-heap(27116): Grow heap (frag case) to 4.649MB for 816012-byte allocation
+D/dalvikvm(27116): GC_FOR_ALLOC freed <1K, 7% free 4703K/5052K, paused 3ms, total 3ms
+D/dalvikvm(27116): GC_CONCURRENT freed 1K, 7% free 4702K/5052K, paused 0ms+1ms, total 2ms
+I/TWILIGHT(27116): [16:33:51.434, main]: Is trial true
+I/dalvikvm(27116): Could not find method android.app.AlarmManager.getNextAlarmClock, referenced from method com.urbandroid.lux.AbstractTwilightService.updateTimeToBed
+W/dalvikvm(27116): VFY: unable to resolve virtual method 148: Landroid/app/AlarmManager;.getNextAlarmClock ()Landroid/app/AlarmManager$AlarmClockInfo;
+D/dalvikvm(27116): VFY: replacing opcode 0x6e at 0x009d
+I/TWILIGHT(27116): [16:33:51.451, main]: Alarm scheduleProfileSwitch()
+I/TWILIGHT(27116): [16:33:51.451, main]: Alarm Wed Dec 31 16:59:59 MST 1969 null
+I/dalvikvm(27134): ignoring registerObject request in thread=1
+I/dalvikvm(27134): ignoring registerObject request in thread=1
+W/Settings(27116): Setting location_providers_allowed has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+W/Settings(27116): Setting location_providers_allowed has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+W/Settings(27116): Setting location_providers_allowed has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+I/TWILIGHT(27116): [16:33:51.457, main]: Is paused false
+I/TWILIGHT(27116): [16:33:51.457, main]: RESUME
+I/TWILIGHT(27116): [16:33:51.457, main]: Check location permission true granted true
+I/TWILIGHT(27116): [16:33:51.458, main]: settings_color_temperature2 Setting color R 255 G 36 B 0
+I/TWILIGHT(27116): [16:33:51.458, main]: settings_dim Setting color R 0 G 0 B 0
+I/TWILIGHT(27116): [16:33:51.458, main]: settings_intensity Setting color R 255 G 36 B 0
+I/ActivityManager(  346): Start proc com.urbandroid.lux:background for service com.urbandroid.lux/.TwilightService: pid=27134 uid=10150 gids={50150, 3003}
+I/dalvikvm(27134): Could not find method android.app.AlarmManager.getNextAlarmClock, referenced from method com.urbandroid.lux.AbstractTwilightService.updateTimeToBed
+W/dalvikvm(27134): VFY: unable to resolve virtual method 148: Landroid/app/AlarmManager;.getNextAlarmClock ()Landroid/app/AlarmManager$AlarmClockInfo;
+D/dalvikvm(27134): VFY: replacing opcode 0x6e at 0x009d
+I/TWILIGHT(27134): [16:33:51.466, main]: Multiprocess init remote = true
+I/TWILIGHT(27134): [16:33:51.467, main]: TwilightService onCreate() Multiprocess
+I/TWILIGHT(27134): [16:33:51.470, main]: Service start null
+I/TWILIGHT(27134): [16:33:51.477, main]: Is paused false
+I/TWILIGHT(27134): [16:33:51.477, main]: VIEW: Show
+I/TWILIGHT(27134): [16:33:51.482, main]: Start foreground true
+I/TWILIGHT(27134): [16:33:51.488, main]: New view
+I/dalvikvm(27134): Could not find method android.app.AlarmManager.setExactAndAllowWhileIdle, referenced from method com.urbandroid.lux.AlarmScheduler.scheduleNextAlarmWake
+W/dalvikvm(27134): VFY: unable to resolve virtual method 151: Landroid/app/AlarmManager;.setExactAndAllowWhileIdle (IJLandroid/app/PendingIntent;)V
+D/dalvikvm(27134): VFY: replacing opcode 0x6e at 0x0034
+I/TWILIGHT(27134): [16:33:51.496, main]: VIEW: Location unknown 
+E/TWILIGHT(27134): [16:33:51.497, main]: Sunrise or sunset is null
+I/TWILIGHT(27134): [16:33:51.497, main]: VIEW: Finally Update current 0 1500
+I/TWILIGHT(27134): [16:33:51.497, main]: Collapse
+I/TWILIGHT(27134): [16:33:51.497, main]: VIEW: Refreshing view
+I/dalvikvm(27134): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.zze.zzs
+W/dalvikvm(27134): VFY: unable to resolve virtual method 567: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(27134): VFY: replacing opcode 0x6e at 0x001a
+D/dalvikvm(27134): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(27134): GC_CONCURRENT freed 233K, 10% free 2940K/3236K, paused 1ms+3ms, total 6ms
+D/libEGL  (27116): loaded /system/lib/egl/libEGL_adreno.so
+D/        (27116): HostConnection::get() New Host Connection established 0xb7afb850, tid 27116
+D/libEGL  (27116): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (27116): loaded /system/lib/egl/libGLESv2_adreno.so
+D/        (27134): HostConnection::get() New Host Connection established 0xb7ac3610, tid 27134
+W/EGL_emulation(27116): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(27116): Enabling debug mode 0
+I/TWILIGHT(27116): [16:33:51.596, main]: settings_color_temperature2 Setting color R 255 G 36 B 0
+I/TWILIGHT(27116): [16:33:51.598, main]: settings_intensity Setting color R 255 G 36 B 0
+W/GCoreFlp(  643): No location to return for getLastLocation()
+W/GCoreFlp(  643): No location to return for getLastLocation()
+W/GCoreFlp(  643): No location to return for getLastLocation()
+W/ViewRootImpl(27116): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=15653374, downTime=15653374, deviceId=-1, source=0x101 }
+W/ViewRootImpl(27116): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ALT_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=15653683, downTime=15653683, deviceId=-1, source=0x101 }
+W/ContextImpl(  346): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(27116): GC_CONCURRENT freed 256K, 7% free 4966K/5284K, paused 1ms+2ms, total 6ms
+D/dalvikvm(11448): GC_FOR_ALLOC freed 4221K, 2% free 389435K/395584K, paused 63ms, total 63ms
+D/dalvikvm(11448): GC_FOR_ALLOC freed 337K, 2% free 391170K/397456K, paused 34ms, total 34ms
+D/dalvikvm(11448): GC_FOR_ALLOC freed 202K, 2% free 393038K/399328K, paused 31ms, total 31ms
+D/dalvikvm(11448): GC_FOR_ALLOC freed 202K, 2% free 394907K/401200K, paused 33ms, total 33ms
+D/TWILIGHT(27134): [16:33:52.468, Log-Flusher]: No need to rotate log (logbuffer_com.urbandroid.lux:background), too small: 0
+I/InputDispatcher(  346): Application is not responding: AppWindowToken{4b4f3dd4 token=Token{4a985f44 ActivityRecord{4a7edac8 u0 com.urbandroid.lux/.MainActivity t386}}} - Window{4a87e500 u0 com.urbandroid.lux/com.urbandroid.lux.MainActivity}.  It has been 5007.2ms since event, 5006.1ms since wait started.  Reason: Waiting because the focused window has not finished processing the input events that were previously delivered to it.
+W/SurfaceFlinger(  172): setTransactionState timed out waiting for previous animation frame
+I/WindowManager(  346): Input event dispatching timed out sending to com.urbandroid.lux/com.urbandroid.lux.MainActivity.  Reason: Waiting because the focused window has not finished processing the input events that were previously delivered to it.
+W/InputManager(  346): Input event injection from pid 27106 timed out.
+I/Process (  346): Sending signal. PID: 27116 SIG: 3
+I/dalvikvm(27116): threadid=3: reacting to signal 3
+I/dalvikvm(27116): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  346): Sending signal. PID: 346 SIG: 3
+I/dalvikvm(  346): threadid=3: reacting to signal 3
+I/dalvikvm(  346): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  346): Sending signal. PID: 657 SIG: 3
+I/dalvikvm(  657): threadid=3: reacting to signal 3
+I/dalvikvm(  657): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  346): Sending signal. PID: 531 SIG: 3
+I/dalvikvm(  531): threadid=3: reacting to signal 3
+I/dalvikvm(  531): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm(26586): GC_CONCURRENT freed 2120K, 48% free 8615K/16284K, paused 2ms+1ms, total 10ms
+I/ContentMaintenance(26586): Pruning caches...
+I/ContentMaintenance(26586): Internal cache bytes used: 0; limit: 100000000; download size: 0
+I/ContentMaintenance(26586): Cache pruning complete.
+I/ContentMaintenance(26586): Beginning garbage collection.
+I/RealtimeCacheCleanup(26586): Beginning Realtime garbage collection.
+I/RealtimeCacheCleanup(26586): Finished Realtime garbage collection.
+I/ContentMaintenance(26586): Finished garbage collection.
+E/WindowManager(  346): Starting window AppWindowToken{4b4f3dd4 token=Token{4a985f44 ActivityRecord{4a7edac8 u0 com.urbandroid.lux/.MainActivity t386}}} timed out
+I/Choreographer(27116): Skipped 605 frames!  The application may be doing too much work on its main thread.
+I/ActivityManager(  346): START u0 {cmp=com.urbandroid.lux/.TourActivity} from pid 27116
+I/InputDispatcher(  346): Application is not responding: AppWindowToken{4b4f3dd4 token=Token{4a985f44 ActivityRecord{4a7edac8 u0 com.urbandroid.lux/.MainActivity t386}}} - Window{4a87e500 u0 com.urbandroid.lux/com.urbandroid.lux.MainActivity}.  It has been 5010.5ms since event, 5000.5ms since wait started.  Reason: Waiting because the focused window has not finished processing the input events that were previously delivered to it.
+I/WindowManager(  346): Input event dispatching timed out sending to com.urbandroid.lux/com.urbandroid.lux.MainActivity.  Reason: Waiting because the focused window has not finished processing the input events that were previously delivered to it.
+I/InputDispatcher(  346): Window 'Window{4a87e500 u0 com.urbandroid.lux/com.urbandroid.lux.MainActivity}' spent 10486.0ms processing the last input event: MotionEvent(deviceId=0, source=0x00010004, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (4.0, 4.0)]), policyFlags=0x4b000000
+I/InputDispatcher(  346): Window 'Window{4a87e500 u0 com.urbandroid.lux/com.urbandroid.lux.MainActivity}' spent 10485.8ms processing the last input event: MotionEvent(deviceId=0, source=0x00010004, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (-2.0, 0.0)]), policyFlags=0x4b000000
+I/InputDispatcher(  346): Window 'Window{4a87e500 u0 com.urbandroid.lux/com.urbandroid.lux.MainActivity}' spent 10485.7ms processing the last input event: MotionEvent(deviceId=0, source=0x00010004, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (-4.0, 0.0)]), policyFlags=0x4b000000
+I/InputDispatcher(  346): Window 'Window{4a87e500 u0 com.urbandroid.lux/com.urbandroid.lux.MainActivity}' spent 10485.6ms processing the last input event: MotionEvent(deviceId=0, source=0x00010004, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (1.0, 3.0)]), policyFlags=0x4b000000
+I/InputDispatcher(  346): Window 'Window{4a87e500 u0 com.urbandroid.lux/com.urbandroid.lux.MainActivity}' spent 10485.5ms processing the last input event: MotionEvent(deviceId=0, source=0x00010004, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (4.0, -4.0)]), policyFlags=0x4b000000
+I/InputDispatcher(  346): Window 'Window{4a87e500 u0 com.urbandroid.lux/com.urbandroid.lux.MainActivity}' spent 10485.3ms processing the last input event: MotionEvent(deviceId=0, source=0x00010004, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (-1.0, 2.0)]), policyFlags=0x4b000000
+I/InputDispatcher(  346): Window 'Window{4a87e500 u0 com.urbandroid.lux/com.urbandroid.lux.MainActivity}' spent 10485.2ms processing the last input event: MotionEvent(deviceId=0, source=0x00010004, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (-5.0, 3.0)]), policyFlags=0x4b000000
+I/InputDispatcher(  346): Window 'Window{4a87e500 u0 com.urbandroid.lux/com.urbandroid.lux.MainActivity}' spent 10485.0ms processing the last input event: MotionEvent(deviceId=0, source=0x00010004, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (-5.0, -2.0)]), policyFlags=0x4b000000
+I/InputDispatcher(  346): Window 'Window{4a87e500 u0 com.urbandroid.lux/com.urbandroid.lux.MainActivity}' spent 10484.8ms processing the last input event: MotionEvent(deviceId=0, source=0x00010004, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (2.0, 1.0)]), policyFlags=0x4b000000
+I/InputDispatcher(  346): Window 'Window{4a87e500 u0 com.urbandroid.lux/com.urbandroid.lux.MainActivity}' spent 10484.3ms processing the last input event: MotionEvent(deviceId=0, source=0x00010004, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (0.0, -4.0)]), policyFlags=0x4b000000
+D/dalvikvm(  346): GC_EXPLICIT freed 1387K, 62% free 15778K/41192K, paused 1ms+1ms, total 13ms
+E/ActivityManager(  346): ANR in com.urbandroid.lux (com.urbandroid.lux/.MainActivity)
+E/ActivityManager(  346): PID: 27116
+E/ActivityManager(  346): Reason: Input dispatching timed out (Waiting because the focused window has not finished processing the input events that were previously delivered to it.)
+E/ActivityManager(  346): Load: 1.06 / 0.73 / 1.02
+E/ActivityManager(  346): CPU usage from 3174ms to -6355ms ago:
+E/ActivityManager(  346):   1.9% 346/system_server: 0.5% user + 1.4% kernel / faults: 304 minor
+E/ActivityManager(  346):   1.9% 11448/com.vphone.launcher: 0.4% user + 1.5% kernel / faults: 1 minor
+E/ActivityManager(  346):   0% 24125/debuggerd: 0% user + 0% kernel / faults: 2863 minor
+E/ActivityManager(  346):   0.4% 172/surfaceflinger: 0.1% user + 0.3% kernel
+E/ActivityManager(  346):   0.4% 26586/com.google.android.gms: 0.2% user + 0.2% kernel / faults: 109 minor
+E/ActivityManager(  346):   0.2% 27116/com.urbandroid.lux: 0% user + 0.2% kernel / faults: 90 minor
+E/ActivityManager(  346):   0.1% 74/adbd: 0% user + 0.1% kernel
+E/ActivityManager(  346):   0.1% 531/com.android.systemui: 0% user + 0.1% kernel / faults: 2 minor
+E/ActivityManager(  346): 3.9% TOTAL: 1.1% user + 2.7% kernel + 0% softirq
+E/ActivityManager(  346): CPU usage from 5849ms to 6351ms later with 99% awake:
+E/ActivityManager(  346): 1.9% TOTAL: 0% user + 1.9% kernel
+W/ActivityManager(  346): Launch timeout has expired, giving up wake lock!
+D/yeshen  (11448): launcher onstop
+I/ActivityManager(  346): Skipping duplicate ANR: ProcessRecord{4a7e693c 27116:com.urbandroid.lux/u0a150} Input dispatching timed out (Waiting because the focused window has not finished processing the input events that were previously delivered to it.)
+W/ActivityManager(  346): Activity pause timeout for ActivityRecord{4a7edac8 u0 com.urbandroid.lux/.MainActivity t386}
+W/DebugConnManager(11448): getNetworkInfo() on networkType 1
+I/TWILIGHT(27134): [16:34:06.527, AsyncTask #1]: Location unknown 
+I/TWILIGHT(27134): [16:34:06.530, main]: Service start null
+I/TWILIGHT(27134): [16:34:06.530, main]: Extra update
+I/TWILIGHT(27134): [16:34:06.536, main]: Update command
+I/TWILIGHT(27134): [16:34:06.558, main]: VIEW: Location unknown 
+E/TWILIGHT(27134): [16:34:06.558, main]: Sunrise or sunset is null
+I/TWILIGHT(27134): [16:34:06.558, main]: VIEW: Finally Update current 0 1500
+D/dalvikvm(27116): GC_EXPLICIT freed 91K, 7% free 4945K/5284K, paused 1ms+0ms, total 7ms
+I/TWILIGHT(27134): [16:34:06.588, main]: Start foreground true
+I/InputDispatcher(  346): Dropped event because it is stale.
+W/InputManager(  346): Input event injection from pid 27106 failed.
+I/Choreographer(  346): Skipped 241 frames!  The application may be doing too much work on its main thread.
+I/Choreographer(27116): Skipped 603 frames!  The application may be doing too much work on its main thread.
+I/TWILIGHT(27116): [16:34:12.215, main]: TintUtil: parent view is NULL
+W/InputMethodManagerService(  346): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa666fc (uid=10150 pid=27116)
+D/dalvikvm(27116): GC_FOR_ALLOC freed 272K, 7% free 5202K/5540K, paused 2ms, total 2ms
+I/dalvikvm-heap(27116): Grow heap (frag case) to 7.581MB for 2560012-byte allocation
+D/dalvikvm(27116): GC_FOR_ALLOC freed 2K, 5% free 7700K/8044K, paused 4ms, total 4ms
+D/dalvikvm(27116): GC_CONCURRENT freed 0K, 5% free 7700K/8044K, paused 2ms+0ms, total 4ms
+W/EGL_emulation(27116): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(27116): GC_FOR_ALLOC freed 776K, 10% free 7768K/8608K, paused 3ms, total 3ms
+I/dalvikvm-heap(27116): Grow heap (frag case) to 10.086MB for 2560012-byte allocation
+D/dalvikvm(27116): GC_FOR_ALLOC freed <1K, 8% free 10268K/11112K, paused 3ms, total 3ms
+D/dalvikvm(27116): GC_CONCURRENT freed 0K, 8% free 10268K/11112K, paused 2ms+1ms, total 4ms
+I/AndroidRuntime(27106): VM exiting with result code 18.

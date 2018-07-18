@@ -1,0 +1,1863 @@
+--------- beginning of /dev/log/main
+D/AndroidRuntime(14800): 
+D/AndroidRuntime(14800): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(14800): CheckJNI is OFF
+D/dalvikvm(14800): Using executionMode 2
+D/dalvikvm(14800): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(14800): Added shared lib libjavacore.so 0x0
+D/dalvikvm(14800): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(14800): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(14800): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(14800): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(14800): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(14800): failed to load memtrack module: -2
+D/AndroidRuntime(14800): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  485): Skipping deliver [background] BroadcastRecord{4ac21e30 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4a9f69e4 14800 (unknown name)/0/u-1 remote:4a9f7afc}: process crashing
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+D/yeshen  (  683): launcher onpause
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  485): Start proc com.abg.VRVideoPlayer for activity com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: pid=14810 uid=10180 gids={50180, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 1) failed with errno -13
+I/dalvikvm(14810): ignoring registerObject request in thread=1
+D/yeshen  (  683): launcher onstop
+I/dalvikvm(14810): ignoring registerObject request in thread=1
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/Unity   (14810): UnityPlayerNativeActivity has been deprecated, please update your AndroidManifest to use UnityPlayerActivity instead
+D/dalvikvm(14810): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f2b748
+D/dalvikvm(14810): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f2b748
+I/Prime31 (14810): found Activity proxy class: class com.abg.androidlauncher.Launcher
+W/ViewRootImpl(14810): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3704722, downTime=3704722, deviceId=-1, source=0x101 }
+W/ViewRootImpl(14810): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3704998, downTime=3704998, deviceId=-1, source=0x101 }
+W/ViewRootImpl(14810): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ZOOM_IN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3705004, downTime=3705004, deviceId=-1, source=0x101 }
+D/        (14810): HostConnection::get() New Host Connection established 0xb8c6cdb0, tid 14810
+I/ActivityManager(  485): Displayed com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: +389ms
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(14810): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f2b748
+D/dalvikvm(14810): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f2b748
+E/Unity   (14810): Unable to find libaudiopluginvrunity
+D/libEGL  (14810): loaded /system/lib/egl/libEGL_adreno.so
+D/        (14810): HostConnection::get() New Host Connection established 0xb8dc3870, tid 14828
+D/libEGL  (14810): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (14810): loaded /system/lib/egl/libGLESv2_adreno.so
+E/EGL_emulation(14810): [eglGetConfigAttrib] Bad attribute idx 12513
+E/EGL_emulation(14810): tid 14828: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(14810): [eglGetConfigAttrib] Bad attribute idx 12514
+E/EGL_emulation(14810): tid 14828: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(14810): [eglGetConfigAttrib] Bad attribute idx 12615
+E/EGL_emulation(14810): tid 14828: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+D/dalvikvm(14810): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(14810): GC_CONCURRENT freed 299K, 12% free 2878K/3240K, paused 1ms+0ms, total 10ms
+D/Unity   (14810): GL_EXT_debug_marker GL_OES_EGL_image GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_EXT_texture_format_BGRA8888 GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_EGL_image_external GL_IMG_texture_compression_pvrtc GL_EXT_color_buffer_half_float
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+W/libc    (14810): pthread_create sched_setscheduler call failed: Operation not permitted
+W/Unity   (14810): OnLevelWasLoaded was found on API
+W/Unity   (14810): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (14810): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (14810):  
+W/Unity   (14810): (Filename:  Line: 375)
+W/Unity   (14810): 
+W/Unity   (14810): OnLevelWasLoaded was found on LauncherManager
+W/Unity   (14810): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (14810): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (14810):  
+W/Unity   (14810): (Filename:  Line: 375)
+W/Unity   (14810): 
+W/Unity   (14810): OnLevelWasLoaded was found on Cardboard
+W/Unity   (14810): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (14810): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (14810):  
+W/Unity   (14810): (Filename:  Line: 375)
+W/Unity   (14810): 
+W/Unity   (14810): Timeout while trying to pause the Unity Engine.
+W/InputDispatcher(  485): channel '4ab8c244 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0xd
+E/InputDispatcher(  485): channel '4ab8c244 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/InputDispatcher(  485): Attempted to unregister already unregistered input channel '4ab8c244 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)'
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 0) failed with errno -13
+I/ActivityManager(  485): Process com.abg.VRVideoPlayer (pid 14810) has died.
+W/ActivityManager(  485): Force removing ActivityRecord{4a9d73d4 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity t140}: app died, no saved state
+I/WindowState(  485): WIN DEATH: Window{4ab8c244 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/WindowManager(  485): Force-removing child win Window{4ae16a84 u0 SurfaceView} from container Window{4ab8c244 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+D/Zygote  (  169): Process 14810 terminated by signal (6)
+W/WindowManager(  485): Failed looking up window
+W/WindowManager(  485): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4a9de6dc does not exist
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8096)
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8087)
+W/WindowManager(  485): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1051)
+W/WindowManager(  485): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+W/WindowManager(  485): 	at dalvik.system.NativeStart.run(Native Method)
+I/WindowState(  485): WIN DEATH: null
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 485
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+D/yeshen  (  683): launcher onpause
+I/ActivityManager(  485): Start proc com.abg.VRVideoPlayer for activity com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: pid=14860 uid=10180 gids={50180, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 1) failed with errno -13
+I/dalvikvm(14860): ignoring registerObject request in thread=1
+I/dalvikvm(14860): ignoring registerObject request in thread=1
+W/Unity   (14860): UnityPlayerNativeActivity has been deprecated, please update your AndroidManifest to use UnityPlayerActivity instead
+D/dalvikvm(14860): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f2c518
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+D/dalvikvm(14860): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f2c518
+I/Prime31 (14860): found Activity proxy class: class com.abg.androidlauncher.Launcher
+W/ViewRootImpl(14860): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3709689, downTime=3709689, deviceId=-1, source=0x101 }
+D/        (14860): HostConnection::get() New Host Connection established 0xb8c6e800, tid 14860
+W/ViewRootImpl(14860): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3709997, downTime=3709997, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  485): Got RemoteException sending setActive(false) notification to pid 14810 uid 10180
+I/ActivityManager(  485): Displayed com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: +451ms
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+D/dalvikvm(14860): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f2c518
+D/dalvikvm(14860): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f2c518
+E/Unity   (14860): Unable to find libaudiopluginvrunity
+D/libEGL  (14860): loaded /system/lib/egl/libEGL_adreno.so
+D/        (14860): HostConnection::get() New Host Connection established 0xb8d9c2a0, tid 14876
+D/libEGL  (14860): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (14860): loaded /system/lib/egl/libGLESv2_adreno.so
+E/EGL_emulation(14860): [eglGetConfigAttrib] Bad attribute idx 12513
+E/EGL_emulation(14860): tid 14876: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(14860): [eglGetConfigAttrib] Bad attribute idx 12514
+E/EGL_emulation(14860): tid 14876: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(14860): [eglGetConfigAttrib] Bad attribute idx 12615
+E/EGL_emulation(14860): tid 14876: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+D/Unity   (14860): GL_EXT_debug_marker GL_OES_EGL_image GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_EXT_texture_format_BGRA8888 GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_EGL_image_external GL_IMG_texture_compression_pvrtc GL_EXT_color_buffer_half_float
+W/libc    (14860): pthread_create sched_setscheduler call failed: Operation not permitted
+W/Unity   (14860): OnLevelWasLoaded was found on API
+W/Unity   (14860): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (14860): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (14860):  
+W/Unity   (14860): (Filename:  Line: 375)
+W/Unity   (14860): 
+W/Unity   (14860): OnLevelWasLoaded was found on LauncherManager
+W/Unity   (14860): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (14860): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (14860):  
+W/Unity   (14860): (Filename:  Line: 375)
+W/Unity   (14860): 
+W/Unity   (14860): OnLevelWasLoaded was found on Cardboard
+W/Unity   (14860): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (14860): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (14860):  
+W/Unity   (14860): (Filename:  Line: 375)
+W/Unity   (14860): 
+I/ActivityManager(  485): Waited long enough for: ServiceRecord{4ae5f9c8 u0 com.google.android.gsf/.gtalkservice.PushMessagingRegistrar}
+W/Unity   (14860): Timeout while trying to pause the Unity Engine.
+W/InputDispatcher(  485): channel '4aab21d0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0xd
+E/InputDispatcher(  485): channel '4aab21d0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 0) failed with errno -13
+I/ActivityManager(  485): Process com.abg.VRVideoPlayer (pid 14860) has died.
+W/ActivityManager(  485): Force removing ActivityRecord{4aa3e02c u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity t141}: app died, no saved state
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+D/FirebaseApp(  683): Notifying background state change listeners.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+D/Zygote  (  169): Process 14860 terminated by signal (6)
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputDispatcher(  485): Attempted to unregister already unregistered input channel '4aab21d0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)'
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/WindowState(  485): WIN DEATH: Window{4aab21d0 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/WindowManager(  485): Force-removing child win Window{4ab042fc u0 SurfaceView} from container Window{4aab21d0 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+W/WindowManager(  485): Failed looking up window
+W/WindowManager(  485): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4aa02b90 does not exist
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8096)
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8087)
+W/WindowManager(  485): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1051)
+W/WindowManager(  485): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+W/WindowManager(  485): 	at dalvik.system.NativeStart.run(Native Method)
+I/WindowState(  485): WIN DEATH: null
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+D/yeshen  (  683): launcher onpause
+I/ActivityManager(  485): Start proc com.abg.VRVideoPlayer for activity com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: pid=14909 uid=10180 gids={50180, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 1) failed with errno -13
+I/dalvikvm(14909): ignoring registerObject request in thread=1
+I/dalvikvm(14909): ignoring registerObject request in thread=1
+W/Unity   (14909): UnityPlayerNativeActivity has been deprecated, please update your AndroidManifest to use UnityPlayerActivity instead
+D/dalvikvm(14909): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f2d3d8
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+D/dalvikvm(14909): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f2d3d8
+I/Prime31 (14909): found Activity proxy class: class com.abg.androidlauncher.Launcher
+W/ViewRootImpl(14909): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_6, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3714403, downTime=3714403, deviceId=-1, source=0x101 }
+D/        (14909): HostConnection::get() New Host Connection established 0xb8c6c210, tid 14909
+W/ViewRootImpl(14909): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3714403, downTime=3714403, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  485): Got RemoteException sending setActive(false) notification to pid 14860 uid 10180
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+I/ActivityManager(  485): Displayed com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: +461ms
+D/dalvikvm(14909): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f2d3d8
+D/dalvikvm(14909): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f2d3d8
+E/Unity   (14909): Unable to find libaudiopluginvrunity
+D/libEGL  (14909): loaded /system/lib/egl/libEGL_adreno.so
+D/        (14909): HostConnection::get() New Host Connection established 0xb8d9bac0, tid 14925
+D/libEGL  (14909): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (14909): loaded /system/lib/egl/libGLESv2_adreno.so
+E/EGL_emulation(14909): [eglGetConfigAttrib] Bad attribute idx 12513
+E/EGL_emulation(14909): tid 14925: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(14909): [eglGetConfigAttrib] Bad attribute idx 12514
+E/EGL_emulation(14909): tid 14925: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(14909): [eglGetConfigAttrib] Bad attribute idx 12615
+E/EGL_emulation(14909): tid 14925: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+D/Unity   (14909): GL_EXT_debug_marker GL_OES_EGL_image GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_EXT_texture_format_BGRA8888 GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_EGL_image_external GL_IMG_texture_compression_pvrtc GL_EXT_color_buffer_half_float
+W/libc    (14909): pthread_create sched_setscheduler call failed: Operation not permitted
+W/Unity   (14909): OnLevelWasLoaded was found on API
+W/Unity   (14909): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (14909): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (14909):  
+W/Unity   (14909): (Filename:  Line: 375)
+W/Unity   (14909): 
+W/Unity   (14909): OnLevelWasLoaded was found on LauncherManager
+W/Unity   (14909): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (14909): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (14909):  
+W/Unity   (14909): (Filename:  Line: 375)
+W/Unity   (14909): 
+W/Unity   (14909): OnLevelWasLoaded was found on Cardboard
+W/Unity   (14909): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (14909): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (14909):  
+W/Unity   (14909): (Filename:  Line: 375)
+W/Unity   (14909): 
+W/AudioFlinger(  171): write blocked for 9869 msecs, 56 delayed writes, thread 0xb4185010
+I/MediaFocusControl(  485):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@4a7a7230<native proxy object>
+I/ActivityManager(  485): Process com.abg.VRVideoPlayer (pid 14909) has died.
+I/WindowState(  485): WIN DEATH: Window{4ae1861c u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/ActivityManager(  485): Force removing ActivityRecord{4aa4da90 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity t142}: app died, no saved state
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 0) failed with errno -13
+W/WindowManager(  485): Force-removing child win Window{4ae835cc u0 SurfaceView} from container Window{4ae1861c u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/WindowManager(  485): Failed looking up window
+W/WindowManager(  485): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4aba4cc4 does not exist
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8096)
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8087)
+W/WindowManager(  485): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1051)
+W/WindowManager(  485): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+W/WindowManager(  485): 	at dalvik.system.NativeStart.run(Native Method)
+I/WindowState(  485): WIN DEATH: null
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+D/Zygote  (  169): Process 14909 terminated by signal (6)
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+D/yeshen  (  683): launcher onpause
+D/dalvikvm(  169): GC_EXPLICIT freed 40K, 4% free 2788K/2892K, paused 0ms+0ms, total 3ms
+D/dalvikvm(  169): GC_EXPLICIT freed <1K, 4% free 2788K/2892K, paused 1ms+0ms, total 3ms
+I/ActivityManager(  485): Start proc com.abg.VRVideoPlayer for activity com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: pid=14956 uid=10180 gids={50180, 3003, 1028, 1015, 1023}
+D/dalvikvm(  169): GC_EXPLICIT freed <1K, 4% free 2788K/2892K, paused 0ms+1ms, total 4ms
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 1) failed with errno -13
+I/dalvikvm(14956): ignoring registerObject request in thread=1
+I/dalvikvm(14956): ignoring registerObject request in thread=1
+W/Unity   (14956): UnityPlayerNativeActivity has been deprecated, please update your AndroidManifest to use UnityPlayerActivity instead
+D/dalvikvm(14956): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f2e288
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+D/dalvikvm(14956): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f2e288
+I/Prime31 (14956): found Activity proxy class: class com.abg.androidlauncher.Launcher
+W/ViewRootImpl(14956): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3717652, downTime=3717652, deviceId=-1, source=0x101 }
+D/        (14956): HostConnection::get() New Host Connection established 0xb8c6c2e0, tid 14956
+W/ViewRootImpl(14956): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3717926, downTime=3717926, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+I/ActivityManager(  485): Displayed com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: +453ms
+W/InputMethodManagerService(  485): Got RemoteException sending setActive(false) notification to pid 14909 uid 10180
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 485
+D/dalvikvm(14956): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f2e288
+D/dalvikvm(14956): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f2e288
+E/Unity   (14956): Unable to find libaudiopluginvrunity
+D/libEGL  (14956): loaded /system/lib/egl/libEGL_adreno.so
+D/        (14956): HostConnection::get() New Host Connection established 0xb8dc47e0, tid 14972
+D/libEGL  (14956): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (14956): loaded /system/lib/egl/libGLESv2_adreno.so
+E/EGL_emulation(14956): [eglGetConfigAttrib] Bad attribute idx 12513
+E/EGL_emulation(14956): tid 14972: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(14956): [eglGetConfigAttrib] Bad attribute idx 12514
+E/EGL_emulation(14956): tid 14972: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(14956): [eglGetConfigAttrib] Bad attribute idx 12615
+E/EGL_emulation(14956): tid 14972: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+D/Unity   (14956): GL_EXT_debug_marker GL_OES_EGL_image GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_EXT_texture_format_BGRA8888 GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_EGL_image_external GL_IMG_texture_compression_pvrtc GL_EXT_color_buffer_half_float
+W/libc    (14956): pthread_create sched_setscheduler call failed: Operation not permitted
+D/dalvikvm(14956): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(14956): GC_CONCURRENT freed 292K, 11% free 2882K/3236K, paused 1ms+1ms, total 5ms
+W/Unity   (14956): OnLevelWasLoaded was found on API
+W/Unity   (14956): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (14956): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (14956):  
+W/Unity   (14956): (Filename:  Line: 375)
+W/Unity   (14956): 
+W/Unity   (14956): OnLevelWasLoaded was found on LauncherManager
+W/Unity   (14956): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (14956): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (14956):  
+W/Unity   (14956): (Filename:  Line: 375)
+W/Unity   (14956): 
+W/Unity   (14956): OnLevelWasLoaded was found on Cardboard
+W/Unity   (14956): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (14956): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (14956):  
+W/Unity   (14956): (Filename:  Line: 375)
+W/Unity   (14956): 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+D/dalvikvm(14956): GC_CONCURRENT freed 380K, 14% free 2889K/3332K, paused 1ms+0ms, total 4ms
+I/MediaFocusControl(  485):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@4a7a751c<native proxy object>
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 0) failed with errno -13
+I/ActivityManager(  485): Process com.abg.VRVideoPlayer (pid 14956) has died.
+I/WindowState(  485): WIN DEATH: Window{4ae4e84c u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/ActivityManager(  485): Force removing ActivityRecord{4aa58390 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity t143}: app died, no saved state
+W/WindowManager(  485): Force-removing child win Window{4ae55f28 u0 SurfaceView} from container Window{4ae4e84c u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/WindowManager(  485): Failed looking up window
+W/WindowManager(  485): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4a9d52e4 does not exist
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8096)
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8087)
+W/WindowManager(  485): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1051)
+W/WindowManager(  485): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+W/WindowManager(  485): 	at dalvik.system.NativeStart.run(Native Method)
+I/WindowState(  485): WIN DEATH: null
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+D/Zygote  (  169): Process 14956 terminated by signal (6)
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+D/yeshen  (  683): launcher onpause
+I/ActivityManager(  485): Start proc com.abg.VRVideoPlayer for activity com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: pid=15003 uid=10180 gids={50180, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 1) failed with errno -13
+I/dalvikvm(15003): ignoring registerObject request in thread=1
+I/dalvikvm(15003): ignoring registerObject request in thread=1
+W/Unity   (15003): UnityPlayerNativeActivity has been deprecated, please update your AndroidManifest to use UnityPlayerActivity instead
+D/dalvikvm(15003): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f24178
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+D/dalvikvm(15003): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f24178
+I/Prime31 (15003): found Activity proxy class: class com.abg.androidlauncher.Launcher
+D/dalvikvm(  485): GC_EXPLICIT freed 1909K, 31% free 18303K/26380K, paused 1ms+3ms, total 20ms
+W/ViewRootImpl(15003): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=2.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=8, eventTime=3722111, downTime=-1, deviceId=0, source=0x10004 }
+D/        (15003): HostConnection::get() New Host Connection established 0xb8c6cf00, tid 15003
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  485): Got RemoteException sending setActive(false) notification to pid 14956 uid 10180
+I/ActivityManager(  485): Displayed com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: +528ms
+D/dalvikvm(15003): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f24178
+D/dalvikvm(15003): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f24178
+E/Unity   (15003): Unable to find libaudiopluginvrunity
+D/libEGL  (15003): loaded /system/lib/egl/libEGL_adreno.so
+D/        (15003): HostConnection::get() New Host Connection established 0xb8dc2c00, tid 15019
+D/libEGL  (15003): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (15003): loaded /system/lib/egl/libGLESv2_adreno.so
+E/EGL_emulation(15003): [eglGetConfigAttrib] Bad attribute idx 12513
+E/EGL_emulation(15003): tid 15019: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(15003): [eglGetConfigAttrib] Bad attribute idx 12514
+E/EGL_emulation(15003): tid 15019: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(15003): [eglGetConfigAttrib] Bad attribute idx 12615
+E/EGL_emulation(15003): tid 15019: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+D/Unity   (15003): GL_EXT_debug_marker GL_OES_EGL_image GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_EXT_texture_format_BGRA8888 GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_EGL_image_external GL_IMG_texture_compression_pvrtc GL_EXT_color_buffer_half_float
+W/SocketClient(  164): write error (Broken pipe)
+W/libc    (15003): pthread_create sched_setscheduler call failed: Operation not permitted
+D/dalvikvm(15003): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(15003): GC_CONCURRENT freed 291K, 11% free 2882K/3236K, paused 0ms+0ms, total 2ms
+W/Unity   (15003): OnLevelWasLoaded was found on API
+W/Unity   (15003): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15003): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15003):  
+W/Unity   (15003): (Filename:  Line: 375)
+W/Unity   (15003): 
+W/Unity   (15003): OnLevelWasLoaded was found on LauncherManager
+W/Unity   (15003): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15003): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15003):  
+W/Unity   (15003): (Filename:  Line: 375)
+W/Unity   (15003): 
+W/Unity   (15003): OnLevelWasLoaded was found on Cardboard
+W/Unity   (15003): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15003): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15003):  
+W/Unity   (15003): (Filename:  Line: 375)
+W/Unity   (15003): 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 485
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+I/InputDispatcher(  485): Dropped event because of pending overdue app switch.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/ActivityManager(  485): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 542
+I/InputDispatcher(  485): Dropped event because of pending overdue app switch.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/MediaFocusControl(  485):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@4a7ad324<native proxy object>
+W/InputDispatcher(  485): channel '4aa4c308 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0xd
+E/InputDispatcher(  485): channel '4aa4c308 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+I/ActivityManager(  485): Process com.abg.VRVideoPlayer (pid 15003) has died.
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 0) failed with errno -13
+D/Zygote  (  169): Process 15003 terminated by signal (6)
+W/ActivityManager(  485): Force removing ActivityRecord{4aa6ef50 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity t144}: app died, no saved state
+W/InputDispatcher(  485): Attempted to unregister already unregistered input channel '4aa4c308 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)'
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/WindowState(  485): WIN DEATH: Window{4aa4c308 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/WindowManager(  485): Force-removing child win Window{4aa53b5c u0 SurfaceView} from container Window{4aa4c308 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/WindowManager(  485): Failed looking up window
+W/WindowManager(  485): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4aed5a50 does not exist
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8096)
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8087)
+W/WindowManager(  485): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1051)
+W/WindowManager(  485): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+W/WindowManager(  485): 	at dalvik.system.NativeStart.run(Native Method)
+I/WindowState(  485): WIN DEATH: null
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+D/FirebaseApp(  683): Notifying background state change listeners.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+D/yeshen  (  683): launcher onpause
+I/ActivityManager(  485): Start proc com.abg.VRVideoPlayer for activity com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: pid=15052 uid=10180 gids={50180, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 1) failed with errno -13
+I/dalvikvm(15052): ignoring registerObject request in thread=1
+I/dalvikvm(15052): ignoring registerObject request in thread=1
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+W/Unity   (15052): UnityPlayerNativeActivity has been deprecated, please update your AndroidManifest to use UnityPlayerActivity instead
+D/dalvikvm(15052): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f25030
+D/dalvikvm(15052): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f25030
+I/Prime31 (15052): found Activity proxy class: class com.abg.androidlauncher.Launcher
+W/ViewRootImpl(15052): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3725757, downTime=3725757, deviceId=-1, source=0x101 }
+D/        (15052): HostConnection::get() New Host Connection established 0xb8c6bdd0, tid 15052
+W/ViewRootImpl(15052): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3726097, downTime=3726097, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  485): Got RemoteException sending setActive(false) notification to pid 15003 uid 10180
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+I/ActivityManager(  485): Displayed com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: +600ms
+D/dalvikvm(15052): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f25030
+D/dalvikvm(15052): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f25030
+E/Unity   (15052): Unable to find libaudiopluginvrunity
+D/libEGL  (15052): loaded /system/lib/egl/libEGL_adreno.so
+D/        (15052): HostConnection::get() New Host Connection established 0xb8d9a170, tid 15068
+D/libEGL  (15052): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (15052): loaded /system/lib/egl/libGLESv2_adreno.so
+E/EGL_emulation(15052): [eglGetConfigAttrib] Bad attribute idx 12513
+E/EGL_emulation(15052): tid 15068: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(15052): [eglGetConfigAttrib] Bad attribute idx 12514
+E/EGL_emulation(15052): tid 15068: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(15052): [eglGetConfigAttrib] Bad attribute idx 12615
+E/EGL_emulation(15052): tid 15068: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+D/Unity   (15052): GL_EXT_debug_marker GL_OES_EGL_image GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_EXT_texture_format_BGRA8888 GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_EGL_image_external GL_IMG_texture_compression_pvrtc GL_EXT_color_buffer_half_float
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+W/libc    (15052): pthread_create sched_setscheduler call failed: Operation not permitted
+W/Unity   (15052): OnLevelWasLoaded was found on API
+W/Unity   (15052): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15052): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15052):  
+W/Unity   (15052): (Filename:  Line: 375)
+W/Unity   (15052): 
+W/Unity   (15052): OnLevelWasLoaded was found on LauncherManager
+W/Unity   (15052): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15052): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15052):  
+W/Unity   (15052): (Filename:  Line: 375)
+W/Unity   (15052): 
+W/Unity   (15052): OnLevelWasLoaded was found on Cardboard
+W/Unity   (15052): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15052): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15052):  
+W/Unity   (15052): (Filename:  Line: 375)
+W/Unity   (15052): 
+W/SocketClient(  164): write error (Broken pipe)
+I/MediaFocusControl(  485):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@4a7a328c<native proxy object>
+W/InputDispatcher(  485): channel '4aa334ac com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0xd
+E/InputDispatcher(  485): channel '4aa334ac com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/InputDispatcher(  485): Attempted to unregister already unregistered input channel '4aa334ac com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)'
+I/ActivityManager(  485): Process com.abg.VRVideoPlayer (pid 15052) has died.
+I/WindowState(  485): WIN DEATH: Window{4aa334ac u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/WindowManager(  485): Force-removing child win Window{4aa60a70 u0 SurfaceView} from container Window{4aa334ac u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/ActivityManager(  485): Force removing ActivityRecord{4a9b0e24 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity t145}: app died, no saved state
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 0) failed with errno -13
+W/WindowManager(  485): Failed looking up window
+W/WindowManager(  485): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4aa76838 does not exist
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8096)
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8087)
+W/WindowManager(  485): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1051)
+W/WindowManager(  485): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+W/WindowManager(  485): 	at dalvik.system.NativeStart.run(Native Method)
+D/Zygote  (  169): Process 15052 terminated by signal (6)
+I/WindowState(  485): WIN DEATH: null
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/WindowManager(  485): updateFocusedWindowLocked, focusedAppToken is null.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/ViewRootImpl(  542): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3728914, downTime=3728914, deviceId=-1, source=0x101 }
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  485): Got RemoteException sending setActive(false) notification to pid 15052 uid 10180
+I/ActivityManager(  485): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 542
+W/PhoneFallbackEventHandler(  542): No activity found for android.intent.action.CALL_BUTTON.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/ViewRootImpl(  542): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=687.01965, y[0]=-113.58852, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=3729074, downTime=3729067, deviceId=0, source=0x1002 }
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/ViewRootImpl(  542): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=686.7866, y[0]=-104.21617, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3729075, downTime=3729067, deviceId=0, source=0x1002 }
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/ViewRootImpl(  542): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3729077, downTime=-1, deviceId=0, source=0x10004 }
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3729111, downTime=3729111, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Launcher(  683): No global search activity found.
+I/ActivityManager(  485): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 683
+W/PhoneFallbackEventHandler(  683): No activity found for android.intent.action.CALL_BUTTON.
+W/Launcher(  683): No global search activity found.
+D/ConnectivityService(  485): Sampling interval elapsed, updating statistics ..
+D/ConnectivityService(  485): Done.
+D/ConnectivityService(  485): Setting timer for 720seconds
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): Start proc media.music.musicplayer.mp3player for broadcast media.music.musicplayer.mp3player/com.ijoysoft.music.service.MediaButtonReceiver: pid=15126 uid=10201 gids={50201, 1028, 1015, 1023, 3003}
+I/dalvikvm(15126): ignoring registerObject request in thread=1
+I/dalvikvm(15126): ignoring registerObject request in thread=1
+I/MyApplication(15126): onCreate()
+I/DBManager(15126): sort sql :  order by title asc
+E/MusicQueue(15126): 列表为空
+E/MusicQueue(15126): 列表为空
+E/MusicQueue(15126): 列表为空
+I/EQUtils (15126): enabled : true
+I/changle-listsize(15126): 23
+E/ImageCache(15126): memory size : 12582912
+W/dalvikvm(15126): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(15126): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(15126): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(15126): VFY: unable to resolve virtual method 22392: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x0006
+D/dalvikvm(15126): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(15126): GC_CONCURRENT freed 314K, 12% free 2880K/3256K, paused 3ms+10ms, total 15ms
+W/dalvikvm(15126): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(15126): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(15126): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(15126): VFY: unable to resolve interface method 22386: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(15126): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(15126): body:<com.ijoysoft.appwall.b.b: java.lang.String b(java.lang.String)>	sig:specialinvoke r10.<java.net.URL: void <init>(java.lang.String)>($r0)	timediff:0
+I/System.out(15126): <com.ijoysoft.appwall.b.b: java.lang.String b(java.lang.String)>###specialinvoke r10.<java.net.URL: void <init>(java.lang.String)>($r0)###https://s3.amazonaws.com/appgift/giftListMusic.xml
+D/dalvikvm(15126): GC_CONCURRENT freed 179K, 8% free 3095K/3336K, paused 0ms+0ms, total 7ms
+I/System.out(15126): body:<com.ijoysoft.appwall.b.b: java.lang.String b(java.lang.String)>	sig:$r3 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:31
+I/System.out(15126): body:<com.ijoysoft.appwall.b.b: java.lang.String b(java.lang.String)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setConnectTimeout(int)>(5000)	timediff:0
+I/dalvikvm(15126): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method jpn.a
+W/dalvikvm(15126): VFY: unable to resolve virtual method 2625: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x001c
+I/dalvikvm(15126): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method jcg.createCredentialProtectedStorageContext
+W/dalvikvm(15126): VFY: unable to resolve virtual method 2532: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(15126): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(15126): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method jcg.createDeviceProtectedStorageContext
+W/dalvikvm(15126): VFY: unable to resolve virtual method 2533: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(15126): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(15126): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createCredentialProtectedStorageContext
+W/dalvikvm(15126): VFY: unable to resolve virtual method 2532: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(15126): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(15126): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createDeviceProtectedStorageContext
+W/dalvikvm(15126): VFY: unable to resolve virtual method 2533: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(15126): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(15126): Could not find method android.content.Context.isCredentialProtectedStorage, referenced from method cyg.a
+W/dalvikvm(15126): VFY: unable to resolve virtual method 2512: Landroid/content/Context;.isCredentialProtectedStorage ()Z
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(15126): Could not find method android.os.UserManager.isUserUnlocked, referenced from method cyg.a
+W/dalvikvm(15126): VFY: unable to resolve virtual method 3156: Landroid/os/UserManager;.isUserUnlocked ()Z
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x001a
+I/dalvikvm(15126): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cyg.b
+W/dalvikvm(15126): VFY: unable to resolve virtual method 2513: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(15126): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cyg.c
+W/dalvikvm(15126): VFY: unable to resolve virtual method 2513: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(15126): Could not find method android.system.Os.readlink, referenced from method cyw.a
+W/dalvikvm(15126): VFY: unable to resolve static method 3176: Landroid/system/Os;.readlink (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm(15126): VFY: replacing opcode 0x71 at 0x0000
+I/dalvikvm(15126): Could not find method android.system.Os.stat, referenced from method cyw.a
+W/dalvikvm(15126): VFY: unable to resolve static method 3177: Landroid/system/Os;.stat (Ljava/lang/String;)Landroid/system/StructStat;
+D/dalvikvm(15126): VFY: replacing opcode 0x71 at 0x0042
+I/dalvikvm(15126): Could not find method android.system.Os.symlink, referenced from method cyw.a
+W/dalvikvm(15126): VFY: unable to resolve static method 3178: Landroid/system/Os;.symlink (Ljava/lang/String;Ljava/lang/String;)V
+D/dalvikvm(15126): VFY: replacing opcode 0x71 at 0x013b
+I/dalvikvm(15126): DexOpt: unable to optimize instance field ref 0x061f at 0x46 in Lcyw;.a
+I/dalvikvm(15126): DexOpt: unable to optimize static field ref 0x061a at 0x48 in Lcyw;.a
+I/dalvikvm(15126): DexOpt: unable to optimize static field ref 0x0618 at 0x4a in Lcyw;.a
+I/dalvikvm(15126): DexOpt: unable to optimize static field ref 0x0619 at 0x4d in Lcyw;.a
+I/dalvikvm(15126): DexOpt: unable to optimize static field ref 0x061b at 0x57 in Lcyw;.a
+I/dalvikvm(15126): DexOpt: unable to optimize static field ref 0x061e at 0x5f in Lcyw;.a
+I/dalvikvm(15126): DexOpt: unable to optimize static field ref 0x061c at 0x61 in Lcyw;.a
+I/dalvikvm(15126): DexOpt: unable to optimize static field ref 0x061d at 0x64 in Lcyw;.a
+I/dalvikvm(15126): DexOpt: unable to optimize static field ref 0x061a at 0x7f in Lcyw;.a
+I/dalvikvm(15126): DexOpt: unable to optimize static field ref 0x061e at 0x90 in Lcyw;.a
+I/dalvikvm(15126): Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method kbn.a
+W/dalvikvm(15126): VFY: unable to resolve virtual method 2481: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x0029
+I/dalvikvm(15126): Could not find method android.content.Context.getSystemService, referenced from method kbn.b
+W/dalvikvm(15126): VFY: unable to resolve virtual method 2508: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x000b
+D/dalvikvm(15126): GC_CONCURRENT freed 272K, 10% free 3214K/3548K, paused 0ms+0ms, total 2ms
+D/dalvikvm(15126): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm(15126): VFY: unable to resolve static field 1539 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(15126): VFY: replacing opcode 0x62 at 0x0011
+D/dalvikvm(15126): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm(15126): VFY: unable to resolve static field 1539 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(15126): VFY: replacing opcode 0x62 at 0x0025
+D/dalvikvm(15126): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+W/dalvikvm(15126): VFY: unable to resolve static field 1538 (SUPPORTED_32_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(15126): VFY: replacing opcode 0x62 at 0x0039
+D/dalvikvm(15126): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm(15126): VFY: unable to resolve static field 1540 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm(15126): VFY: replacing opcode 0x62 at 0x0032
+D/dalvikvm(15126): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm(15126): DexOpt: unable to optimize static field ref 0x0603 at 0x16 in Ldak;.a
+D/dalvikvm(15126): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm(15126): DexOpt: unable to optimize static field ref 0x0603 at 0x2a in Ldak;.a
+D/dalvikvm(15126): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+I/dalvikvm(15126): DexOpt: unable to optimize static field ref 0x0602 at 0x3e in Ldak;.a
+D/DynamitePackage(15126): Instantiated singleton DynamitePackage.
+D/DynamitePackage(15126): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/dalvikvm(15126): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method jy.a
+W/dalvikvm(15126): VFY: unable to resolve virtual method 2571: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x0017
+W/Launcher(  683): No global search activity found.
+I/dalvikvm(15126): Could not find method android.security.NetworkSecurityPolicy.getInstance, referenced from method com.google.android.gms.ads.internal.util.h.b_
+W/dalvikvm(15126): VFY: unable to resolve static method 3107: Landroid/security/NetworkSecurityPolicy;.getInstance ()Landroid/security/NetworkSecurityPolicy;
+D/dalvikvm(15126): VFY: replacing opcode 0x71 at 0x0022
+D/dalvikvm(15126): GC_CONCURRENT freed 299K, 10% free 3307K/3668K, paused 2ms+0ms, total 6ms
+I/dalvikvm(15126): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method rd.a
+W/dalvikvm(15126): VFY: unable to resolve virtual method 2576: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x002d
+I/dalvikvm(15126): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method rc.a
+W/dalvikvm(15126): VFY: unable to resolve virtual method 2575: Landroid/content/pm/PackageManager;.isInstantApp ()Z
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x0028
+I/Ads     (15126): Starting ad request.
+I/Ads     (15126): Use AdRequest.Builder.addTestDevice("57AA76C100C9FF6BE6E98F3E45FE0045") to get test ads on this device.
+I/dalvikvm(15126): Could not find method android.webkit.WebSettings.setMixedContentMode, referenced from method com.google.android.gms.ads.internal.webview.u.<init>
+W/dalvikvm(15126): VFY: unable to resolve virtual method 3426: Landroid/webkit/WebSettings;.setMixedContentMode (I)V
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x0079
+V/WebViewChromium(15126): Binding Chromium to the main looper Looper (main, tid 1) {4a7904c4}
+I/chromium(15126): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain(15126): Initializing chromium process, renderers=0
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+D/dalvikvm(15126): GC_FOR_ALLOC freed 366K, 12% free 3428K/3864K, paused 3ms, total 3ms
+D/dalvikvm(15126): GC_CONCURRENT freed 32K, 12% free 3428K/3864K, paused 1ms+1ms, total 3ms
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+W/chromium(15126): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+D/yeshen  (  683): launcher onpause
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+D/libEGL  (15126): loaded /system/lib/egl/libEGL_adreno.so
+D/        (15126): HostConnection::get() New Host Connection established 0xb8bf6410, tid 15126
+I/ActivityManager(  485): Start proc com.abg.VRVideoPlayer for activity com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: pid=15174 uid=10180 gids={50180, 3003, 1028, 1015, 1023}
+D/libEGL  (15126): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (15126): loaded /system/lib/egl/libGLESv2_adreno.so
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 1) failed with errno -13
+I/dalvikvm(15174): ignoring registerObject request in thread=1
+I/dalvikvm(15174): ignoring registerObject request in thread=1
+D/dalvikvm(15126): GC_CONCURRENT freed 395K, 15% free 3417K/3996K, paused 0ms+1ms, total 3ms
+W/Unity   (15174): UnityPlayerNativeActivity has been deprecated, please update your AndroidManifest to use UnityPlayerActivity instead
+D/dalvikvm(15174): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f27b28
+D/dalvikvm(15126): GC_FOR_ALLOC freed 9K, 13% free 3483K/3996K, paused 4ms, total 4ms
+I/dalvikvm-heap(15126): Grow heap (frag case) to 4.064MB for 635808-byte allocation
+D/dalvikvm(15126): GC_FOR_ALLOC freed <1K, 12% free 4104K/4620K, paused 2ms, total 2ms
+D/dalvikvm(15126): GC_CONCURRENT freed <1K, 12% free 4108K/4620K, paused 0ms+0ms, total 13ms
+W/dalvikvm(15126): VFY: unable to find class referenced in signature (Landroid/webkit/PermissionRequest;)
+I/dalvikvm(15126): Could not find method android.webkit.WebChromeClient.onPermissionRequest, referenced from method com.google.android.gms.ads.internal.webview.a.onPermissionRequest
+W/dalvikvm(15126): VFY: unable to resolve virtual method 3403: Landroid/webkit/WebChromeClient;.onPermissionRequest (Landroid/webkit/PermissionRequest;)V
+D/dalvikvm(15126): VFY: replacing opcode 0x6f at 0x0016
+I/dalvikvm(15126): Could not find method android.webkit.PermissionRequest.deny, referenced from method com.google.android.gms.ads.internal.webview.a.onPermissionRequest
+W/dalvikvm(15126): VFY: unable to resolve virtual method 3395: Landroid/webkit/PermissionRequest;.deny ()V
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x0048
+I/dalvikvm(15126): Could not find method android.webkit.PermissionRequest.getResources, referenced from method com.google.android.gms.ads.internal.webview.a.onPermissionRequest
+W/dalvikvm(15126): VFY: unable to resolve virtual method 3396: Landroid/webkit/PermissionRequest;.getResources ()[Ljava/lang/String;
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x0050
+I/Ads     (15126): Please set theme of AdActivity to @android:style/Theme.Translucent to enable transparent background interstitial ad.
+I/EQUtils (15126): enabled : true
+I/changle-listsize(15126): 23
+I/MyApplication(15126): 启动时间:504
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+W/Ads     (15126): Invoke Firebase method getInstance error.
+W/Ads     (15126): The Google Mobile Ads SDK will not integrate with Firebase. Admob/Firebase integration requires the latest Firebase SDK jar, but Firebase SDK is either missing or out of date
+D/dalvikvm(15174): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f27b28
+D/dalvikvm(15126): GC_CONCURRENT freed 318K, 9% free 4206K/4620K, paused 1ms+0ms, total 4ms
+I/Prime31 (15174): found Activity proxy class: class com.abg.androidlauncher.Launcher
+W/ViewRootImpl(15174): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_X, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3730289, downTime=3730289, deviceId=-1, source=0x101 }
+I/chromium( 1842): [INFO:CONSOLE(0)] "Document was loaded from Application Cache with manifest https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.appcache", source: https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html (0)
+I/chromium( 1842): [INFO:CONSOLE(0)] "Application Cache Checking event", source: https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html (0)
+D/        (15174): HostConnection::get() New Host Connection established 0xb8c6bee0, tid 15174
+W/ViewRootImpl(15174): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3730901, downTime=3730901, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): Displayed com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: +635ms
+W/ViewRootImpl(15174): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3730978, downTime=3730978, deviceId=-1, source=0x101 }
+W/ViewRootImpl(15174): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3730986, downTime=3730986, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 485
+D/dalvikvm(15174): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f27b28
+D/dalvikvm(15174): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f27b28
+E/Unity   (15174): Unable to find libaudiopluginvrunity
+D/libEGL  (15174): loaded /system/lib/egl/libEGL_adreno.so
+D/        (15174): HostConnection::get() New Host Connection established 0xb8ddd180, tid 15218
+D/libEGL  (15174): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (15174): loaded /system/lib/egl/libGLESv2_adreno.so
+E/EGL_emulation(15174): [eglGetConfigAttrib] Bad attribute idx 12513
+E/EGL_emulation(15174): tid 15218: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(15174): [eglGetConfigAttrib] Bad attribute idx 12514
+E/EGL_emulation(15174): tid 15218: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(15174): [eglGetConfigAttrib] Bad attribute idx 12615
+E/EGL_emulation(15174): tid 15218: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+D/Unity   (15174): GL_EXT_debug_marker GL_OES_EGL_image GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_EXT_texture_format_BGRA8888 GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_EGL_image_external GL_IMG_texture_compression_pvrtc GL_EXT_color_buffer_half_float
+D/dalvikvm(15174): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(15174): GC_CONCURRENT freed 293K, 12% free 2879K/3236K, paused 3ms+1ms, total 12ms
+W/WindowManager(  485): updateFocusedWindowLocked, focusedAppToken is null.
+W/libc    (15174): pthread_create sched_setscheduler call failed: Operation not permitted
+W/ViewRootImpl(  542): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=3731491, downTime=-1, deviceId=0, source=0x10004 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  485): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4abce87c (uid=10180 pid=15174)
+W/Unity   (15174): OnLevelWasLoaded was found on API
+W/Unity   (15174): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15174): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15174):  
+W/Unity   (15174): (Filename:  Line: 375)
+W/Unity   (15174): 
+W/Unity   (15174): OnLevelWasLoaded was found on LauncherManager
+W/Unity   (15174): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15174): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15174):  
+W/Unity   (15174): (Filename:  Line: 375)
+W/Unity   (15174): 
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/Unity   (15174): OnLevelWasLoaded was found on Cardboard
+W/Unity   (15174): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15174): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15174):  
+W/Unity   (15174): (Filename:  Line: 375)
+W/Unity   (15174): 
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  542): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=400.8073, y[0]=314.37146, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3731810, downTime=3731809, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-304.0, y[0]=-174.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3731813, downTime=3731812, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=3731807, downTime=-1, deviceId=0, source=0x10004 }
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+I/MediaFocusControl(  485):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@4a7a4144<native proxy object>
+W/InputDispatcher(  485): channel '4abe73b4 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0xd
+E/InputDispatcher(  485): channel '4abe73b4 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/InputDispatcher(  485): Attempted to unregister already unregistered input channel '4abe73b4 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)'
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 0) failed with errno -13
+I/ActivityManager(  485): Process com.abg.VRVideoPlayer (pid 15174) has died.
+I/WindowState(  485): WIN DEATH: Window{4abe73b4 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/WindowManager(  485): Force-removing child win Window{4ab8776c u0 SurfaceView} from container Window{4abe73b4 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/ActivityManager(  485): Force removing ActivityRecord{4a9d73d4 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity t146}: app died, no saved state
+W/WindowManager(  485): Failed looking up window
+W/WindowManager(  485): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4ab7f2b4 does not exist
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8096)
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8087)
+W/WindowManager(  485): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1051)
+W/WindowManager(  485): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+W/WindowManager(  485): 	at dalvik.system.NativeStart.run(Native Method)
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/WindowState(  485): WIN DEATH: null
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+D/Zygote  (  169): Process 15174 terminated by signal (6)
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+D/FirebaseApp(  683): Notifying background state change listeners.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 485
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACKSLASH, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3733955, downTime=3733955, deviceId=-1, source=0x101 }
+D/dalvikvm(  485): GC_CONCURRENT freed 4142K, 32% free 18045K/26380K, paused 2ms+2ms, total 21ms
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3733978, downTime=3733978, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  485): Got RemoteException sending setActive(false) notification to pid 15174 uid 10180
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 485
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+D/dalvikvm(  683): GC_CONCURRENT freed 7852K, 5% free 177679K/185656K, paused 1ms+32ms, total 154ms
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+I/MediaButtonReceiver(15126): event : ACTION_DOWN3
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+W/WindowManager(  485): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  542): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CLEAR, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3734913, downTime=3734913, deviceId=-1, source=0x101 }
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vphone.helper/.MainActivity bnds=[946,174][1150,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ViewRootImpl(  542): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3734921, downTime=3734921, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/InputMethodManagerService(  485): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9d250c (uid=1000 pid=683)
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  542): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=290.6831, y[0]=-56.86429, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=3735004, downTime=3734997, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=285.20343, y[0]=-61.66118, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3735007, downTime=3734997, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734985, downTime=3734985, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734985, downTime=3734985, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734988, downTime=3734988, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734988, downTime=3734988, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734988, downTime=3734988, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734988, downTime=3734988, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734988, downTime=3734988, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734988, downTime=3734988, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=96, eventTime=3734989, downTime=3734989, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734989, downTime=3734989, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734989, downTime=3734989, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734989, downTime=3734989, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734989, downTime=3734989, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734989, downTime=3734989, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734989, downTime=3734989, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734989, downTime=3734989, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3734989, downTime=3734989, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3735001, downTime=3735001, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3734981, downTime=3734958, deviceId=0, source=0x10004 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+E/MusicQueue(15126): 列表为空
+I/MusicPlayService(15126): mPlayer:com.ijoysoft.music.model.c.h@4a79bf20  mQueue:com.ijoysoft.music.model.c.k@4a79c348
+I/MediaFocusControl(  485):   Remote Control   registerMediaButtonIntent() for PendingIntent{4a9c0ff0: PendingIntentRecord{4a949dc4 media.music.musicplayer.mp3player broadcastIntent}}
+I/dalvikvm(15126): Could not find method android.app.Notification$Builder.setVisibility, referenced from method com.ijoysoft.music.model.c.o.a
+W/dalvikvm(15126): VFY: unable to resolve virtual method 286: Landroid/app/Notification$Builder;.setVisibility (I)Landroid/app/Notification$Builder;
+D/dalvikvm(15126): VFY: replacing opcode 0x6e at 0x0111
+I/MusicPlayService(15126): action:music_action_play_pause
+I/MusicPlayer(15126): startOrPause()
+I/MusicPlayer(15126): start()
+E/MusicQueue(15126): 列表为空
+E/MusicQueue(15126): 列表为空
+E/MusicQueue(15126): 列表为空
+E/MusicQueue(15126): 列表为空
+D/MusicPlayService(15126): doUpdateWidget
+E/MusicQueue(15126): 列表为空
+D/dalvikvm(15126): GC_FOR_ALLOC freed 220K, 10% free 4311K/4768K, paused 5ms, total 5ms
+D/dalvikvm(15126): GC_FOR_ALLOC freed <1K, 9% free 4374K/4768K, paused 2ms, total 2ms
+I/dalvikvm-heap(15126): Grow heap (frag case) to 4.576MB for 259212-byte allocation
+D/dalvikvm(15126): GC_FOR_ALLOC freed <1K, 8% free 4628K/5024K, paused 2ms, total 2ms
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.NotificationManagerService$6.run:1838 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+D/dalvikvm(15126): GC_FOR_ALLOC freed 83K, 10% free 4555K/5024K, paused 3ms, total 4ms
+I/dalvikvm-heap(15126): Grow heap (frag case) to 6.067MB for 1638412-byte allocation
+D/dalvikvm(15126): GC_FOR_ALLOC freed <1K, 8% free 6154K/6628K, paused 4ms, total 4ms
+D/dalvikvm(15126): GC_CONCURRENT freed 0K, 8% free 6154K/6628K, paused 2ms+1ms, total 4ms
+D/dalvikvm(15126): GC_FOR_ALLOC freed <1K, 8% free 6154K/6628K, paused 3ms, total 3ms
+I/dalvikvm-heap(15126): Grow heap (frag case) to 7.824MB for 1843212-byte allocation
+D/dalvikvm(15126): GC_FOR_ALLOC freed <1K, 6% free 7954K/8432K, paused 5ms, total 5ms
+D/dalvikvm(15126): GC_CONCURRENT freed <1K, 6% free 7954K/8432K, paused 0ms+1ms, total 4ms
+I/Widget2x2Transparent(15126): appWidgetIds为空
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+D/yeshen  (  683): launcher onpause
+I/ActivityManager(  485): Start proc com.abg.VRVideoPlayer for activity com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: pid=15286 uid=10180 gids={50180, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 1) failed with errno -13
+I/dalvikvm(15286): ignoring registerObject request in thread=1
+I/dalvikvm(15286): ignoring registerObject request in thread=1
+W/Unity   (15286): UnityPlayerNativeActivity has been deprecated, please update your AndroidManifest to use UnityPlayerActivity instead
+D/dalvikvm(15286): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f289e0
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+D/dalvikvm(15286): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f289e0
+I/Prime31 (15286): found Activity proxy class: class com.abg.androidlauncher.Launcher
+W/ViewRootImpl(15286): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3735911, downTime=3735911, deviceId=-1, source=0x101 }
+D/        (15286): HostConnection::get() New Host Connection established 0xb8c6bf60, tid 15286
+W/ViewRootImpl(15286): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CLEAR, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3736223, downTime=3736223, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): Displayed com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: +490ms
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+D/dalvikvm(15286): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f289e0
+D/dalvikvm(15286): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f289e0
+E/Unity   (15286): Unable to find libaudiopluginvrunity
+D/libEGL  (15286): loaded /system/lib/egl/libEGL_adreno.so
+D/        (15286): HostConnection::get() New Host Connection established 0xb8d98420, tid 15302
+D/libEGL  (15286): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (15286): loaded /system/lib/egl/libGLESv2_adreno.so
+E/EGL_emulation(15286): [eglGetConfigAttrib] Bad attribute idx 12513
+E/EGL_emulation(15286): tid 15302: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(15286): [eglGetConfigAttrib] Bad attribute idx 12514
+E/EGL_emulation(15286): tid 15302: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(15286): [eglGetConfigAttrib] Bad attribute idx 12615
+E/EGL_emulation(15286): tid 15302: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+D/Unity   (15286): GL_EXT_debug_marker GL_OES_EGL_image GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_EXT_texture_format_BGRA8888 GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_EGL_image_external GL_IMG_texture_compression_pvrtc GL_EXT_color_buffer_half_float
+W/libc    (15286): pthread_create sched_setscheduler call failed: Operation not permitted
+W/Unity   (15286): OnLevelWasLoaded was found on API
+W/Unity   (15286): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15286): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15286):  
+W/Unity   (15286): (Filename:  Line: 375)
+W/Unity   (15286): 
+W/Unity   (15286): OnLevelWasLoaded was found on LauncherManager
+W/Unity   (15286): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15286): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15286):  
+W/Unity   (15286): (Filename:  Line: 375)
+W/Unity   (15286): 
+W/Unity   (15286): OnLevelWasLoaded was found on Cardboard
+W/Unity   (15286): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15286): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15286):  
+W/Unity   (15286): (Filename:  Line: 375)
+W/Unity   (15286): 
+I/MediaFocusControl(  485):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@4a7a48b8<native proxy object>
+W/InputDispatcher(  485): channel '4aaa45dc com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0xd
+E/InputDispatcher(  485): channel '4aaa45dc com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+I/ActivityManager(  485): Process com.abg.VRVideoPlayer (pid 15286) has died.
+W/ActivityManager(  485): Force removing ActivityRecord{4a95a7e4 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity t147}: app died, no saved state
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 0) failed with errno -13
+W/InputDispatcher(  485): Attempted to unregister already unregistered input channel '4aaa45dc com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity (server)'
+I/WindowState(  485): WIN DEATH: Window{4aaa45dc u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/WindowManager(  485): Force-removing child win Window{4aab21d0 u0 SurfaceView} from container Window{4aaa45dc u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+D/Zygote  (  169): Process 15286 terminated by signal (6)
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/WindowManager(  485): Failed looking up window
+W/WindowManager(  485): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4a98c354 does not exist
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8096)
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8087)
+W/WindowManager(  485): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1051)
+W/WindowManager(  485): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+W/WindowManager(  485): 	at dalvik.system.NativeStart.run(Native Method)
+I/WindowState(  485): WIN DEATH: null
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+D/yeshen  (  683): launcher onpause
+I/ActivityManager(  485): Start proc com.abg.VRVideoPlayer for activity com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: pid=15336 uid=10180 gids={50180, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 1) failed with errno -13
+I/dalvikvm(15336): ignoring registerObject request in thread=1
+I/dalvikvm(15336): ignoring registerObject request in thread=1
+W/Unity   (15336): UnityPlayerNativeActivity has been deprecated, please update your AndroidManifest to use UnityPlayerActivity instead
+D/dalvikvm(15336): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f29898
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+D/dalvikvm(15336): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libmain.so 0x94f29898
+I/Prime31 (15336): found Activity proxy class: class com.abg.androidlauncher.Launcher
+W/ViewRootImpl(15336): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3739274, downTime=3739274, deviceId=-1, source=0x101 }
+W/ViewRootImpl(15336): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3739616, downTime=3739616, deviceId=-1, source=0x101 }
+D/        (15336): HostConnection::get() New Host Connection established 0xb8c6a3f0, tid 15336
+W/ViewRootImpl(15336): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_9, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3739629, downTime=3739629, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  485): Got RemoteException sending setActive(false) notification to pid 15286 uid 10180
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+I/ActivityManager(  485): Displayed com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity: +532ms
+D/dalvikvm(15336): Trying to load lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f29898
+D/dalvikvm(15336): Added shared lib /data/app-lib/com.abg.VRVideoPlayer-1/libaudiopluginvrunity.so 0x94f29898
+E/Unity   (15336): Unable to find libaudiopluginvrunity
+D/libEGL  (15336): loaded /system/lib/egl/libEGL_adreno.so
+D/        (15336): HostConnection::get() New Host Connection established 0xb8dcaa10, tid 15352
+D/libEGL  (15336): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (15336): loaded /system/lib/egl/libGLESv2_adreno.so
+E/EGL_emulation(15336): [eglGetConfigAttrib] Bad attribute idx 12513
+E/EGL_emulation(15336): tid 15352: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(15336): [eglGetConfigAttrib] Bad attribute idx 12514
+E/EGL_emulation(15336): tid 15352: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+E/EGL_emulation(15336): [eglGetConfigAttrib] Bad attribute idx 12615
+E/EGL_emulation(15336): tid 15352: eglGetConfigAttrib(741): error 0x3004 (EGL_BAD_ATTRIBUTE)
+D/Unity   (15336): GL_EXT_debug_marker GL_OES_EGL_image GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_EXT_texture_format_BGRA8888 GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_EGL_image_external GL_IMG_texture_compression_pvrtc GL_EXT_color_buffer_half_float
+D/dalvikvm(15336): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(15336): GC_CONCURRENT freed 293K, 11% free 2880K/3236K, paused 6ms+1ms, total 9ms
+W/libc    (15336): pthread_create sched_setscheduler call failed: Operation not permitted
+W/Unity   (15336): OnLevelWasLoaded was found on API
+W/Unity   (15336): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15336): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15336):  
+W/Unity   (15336): (Filename:  Line: 375)
+W/Unity   (15336): 
+W/Unity   (15336): OnLevelWasLoaded was found on LauncherManager
+W/Unity   (15336): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15336): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15336):  
+W/Unity   (15336): (Filename:  Line: 375)
+W/Unity   (15336): 
+W/Unity   (15336): OnLevelWasLoaded was found on Cardboard
+W/Unity   (15336): This message has been deprecated and will be removed in a later version of Unity.
+W/Unity   (15336): Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+W/Unity   (15336):  
+W/Unity   (15336): (Filename:  Line: 375)
+W/Unity   (15336): 
+I/ActivityManager(  485): Start proc com.android.systemui:screenshot for service com.android.systemui/.screenshot.TakeScreenshotService: pid=15382 uid=10010 gids={50010, 1028, 1015, 1023, 1035, 3002, 3001}
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity} from pid 14800
+I/dalvikvm(15382): ignoring registerObject request in thread=1
+I/dalvikvm(15382): ignoring registerObject request in thread=1
+W/Ads     (15126): There was a problem getting an ad response. ErrorCode: 0
+W/Ads     (15126): Failed to load ad: 0
+D/libEGL  (15382): loaded /system/lib/egl/libEGL_adreno.so
+D/        (15382): HostConnection::get() New Host Connection established 0xb8c649d0, tid 15382
+D/libEGL  (15382): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (15382): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation(15382): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(15382): Enabling debug mode 0
+D/dalvikvm(15382): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(15382): GC_FOR_ALLOC freed 67K, 5% free 2845K/2972K, paused 3ms, total 4ms
+I/dalvikvm-heap(15382): Grow heap (frag case) to 4.812MB for 2073612-byte allocation
+D/dalvikvm(15382): GC_FOR_ALLOC freed <1K, 3% free 4869K/5000K, paused 5ms, total 6ms
+D/dalvikvm(15382): GC_CONCURRENT freed 0K, 3% free 4869K/5000K, paused 0ms+0ms, total 2ms
+D/dalvikvm(  485): GC_FOR_ALLOC freed 1480K, 30% free 18529K/26380K, paused 16ms, total 17ms
+I/dalvikvm-heap(  485): Grow heap (frag case) to 20.134MB for 2073612-byte allocation
+D/dalvikvm(  485): GC_FOR_ALLOC freed 12K, 28% free 20541K/28408K, paused 17ms, total 17ms
+D/dalvikvm(  485): GC_FOR_ALLOC freed 1K, 28% free 20544K/28408K, paused 17ms, total 17ms
+I/dalvikvm-heap(  485): Grow heap (frag case) to 22.103MB for 2073612-byte allocation
+D/dalvikvm(  485): GC_FOR_ALLOC freed 16K, 26% free 22553K/30436K, paused 19ms, total 19ms
+D/dalvikvm(  542): GC_FOR_ALLOC freed 10164K, 42% free 10976K/18660K, paused 5ms, total 5ms
+D/dalvikvm(  542): GC_FOR_ALLOC freed 11K, 27% free 13627K/18660K, paused 25ms, total 33ms
+D/dalvikvm(  542): GC_CONCURRENT freed 214K, 28% free 13498K/18660K, paused 2ms+0ms, total 6ms
+D/dalvikvm(  485): GC_FOR_ALLOC freed 32K, 26% free 22537K/30436K, paused 36ms, total 36ms
+I/dalvikvm-heap(  485): Grow heap (frag case) to 24.049MB for 2073612-byte allocation
+D/dalvikvm(  485): GC_FOR_ALLOC freed 3K, 25% free 24559K/32464K, paused 13ms, total 13ms
+D/dalvikvm(  485): GC_FOR_ALLOC freed 6289K, 44% free 18399K/32464K, paused 14ms, total 14ms
+D/dalvikvm(  485): GC_FOR_ALLOC freed 2K, 38% free 20428K/32464K, paused 30ms, total 30ms
+D/dalvikvm( 1070): GC_CONCURRENT freed 350K, 14% free 3376K/3920K, paused 1ms+0ms, total 3ms
+I/MediaFocusControl(  485):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@4a7a4fe0<native proxy object>
+I/ActivityManager(  485): Process com.abg.VRVideoPlayer (pid 15336) has died.
+I/WindowState(  485): WIN DEATH: Window{4aae6560 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/WindowManager(  485): Force-removing child win Window{4aafec1c u0 SurfaceView} from container Window{4aae6560 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity}
+W/ActivityManager(  485): Force removing ActivityRecord{4a9b0e24 u0 com.abg.VRVideoPlayer/com.prime31.UnityPlayerNativeActivity t148}: app died, no saved state
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10180, 0) failed with errno -13
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/WindowManager(  485): Failed looking up window
+W/WindowManager(  485): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4aacd2d8 does not exist
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8096)
+W/WindowManager(  485): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8087)
+W/WindowManager(  485): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1051)
+W/WindowManager(  485): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+W/WindowManager(  485): 	at dalvik.system.NativeStart.run(Native Method)
+I/WindowState(  485): WIN DEATH: null
+W/InputManager(  485): Input event injection from pid 14800 failed.
+D/Zygote  (  169): Process 15336 terminated by signal (6)
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  485): Dropping event because there is no focused window or focused application.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/InputManager(  485): Input event injection from pid 14800 failed.
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_10, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3743680, downTime=3743680, deviceId=-1, source=0x101 }
+D/dalvikvm(  485): GC_CONCURRENT freed 6630K, 31% free 18217K/26380K, paused 1ms+3ms, total 26ms
+D/dalvikvm(  485): WAIT_FOR_CONCURRENT_GC blocked 16ms
+D/dalvikvm(  485): WAIT_FOR_CONCURRENT_GC blocked 10ms
+D/dalvikvm(  485): WAIT_FOR_CONCURRENT_GC blocked 15ms
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3743680, downTime=3743680, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  485): Got RemoteException sending setActive(false) notification to pid 15336 uid 10180
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+F/libc    (15417): Fatal signal 13 (SIGPIPE) at 0x00003c39 (code=0), thread 15417 (busybox)
+D/dalvikvm(  700): GC_CONCURRENT freed 555K, 22% free 4758K/6088K, paused 1ms+1ms, total 5ms
+W/GLSUser (  700): [DeviceKeyStore] Cannot load key: Device key file not found.
+E/Drm     (  171): Failed to open plugin directory /vendor/lib/mediadrm
+W/DG.WV   ( 1230): Widevine DRM not supported on this device
+W/DG.WV   ( 1230): android.media.UnsupportedSchemeException: Failed to instantiate drm object.
+W/DG.WV   ( 1230): 	at android.media.MediaDrm.native_setup(Native Method)
+W/DG.WV   ( 1230): 	at android.media.MediaDrm.<init>(MediaDrm.java:163)
+W/DG.WV   ( 1230): 	at ntm.run(:com.google.android.gms@12529005@12.5.29 (000700-192802242):11)
+W/DG.WV   ( 1230): 	at kuw.run(:com.google.android.gms@12529005@12.5.29 (000700-192802242):27)
+W/DG.WV   ( 1230): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/DG.WV   ( 1230): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/DG.WV   ( 1230): 	at laq.run(:com.google.android.gms@12529005@12.5.29 (000700-192802242))
+W/DG.WV   ( 1230): 	at java.lang.Thread.run(Thread.java:841)
+I/DEBUG   (  165): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  165): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  165): Revision: '0'
+I/DEBUG   (  165): pid: 15417, tid: 15417, name: busybox  >>> busybox <<<
+I/DEBUG   (  165): signal 13 (SIGPIPE), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   (  165):     eax ffffffe0  ebx 00000001  ecx b8ad0fd0  edx 00000002
+I/DEBUG   (  165): AM write failure (32 / Broken pipe)
+I/DEBUG   (  165):     esi b7638214  edi b8ad0fd0
+I/DEBUG   (  165):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 00000000  xss 0000007b
+I/DEBUG   (  165):     eip b75d3456  ebp b7638214  esp bfad2180  flags 00000202
+I/DEBUG   (  165): 
+I/DEBUG   (  165): backtrace:
+I/DEBUG   (  165):     #00  pc 0003c456  /system/lib/libc.so (write+22)
+I/DEBUG   (  165):     #01  pc 0000bab7  <unknown>
+I/DEBUG   (  165): 
+I/DEBUG   (  165): stack:
+I/DEBUG   (  165):          bfad2140  b75b5fd7  /system/lib/libc.so (__swsetup+7)
+I/DEBUG   (  165):          bfad2144  b7638214  /system/lib/libc.so
+I/DEBUG   (  165):          bfad2148  00000888  
+I/DEBUG   (  165):          bfad214c  b75de6e7  /system/lib/libc.so
+I/DEBUG   (  165):          bfad2150  b8ad0fd1  [heap]
+I/DEBUG   (  165):          bfad2154  b8acf920  [heap]
+I/DEBUG   (  165):          bfad2158  00000001  
+I/DEBUG   (  165):          bfad215c  b75a9d4f  /system/lib/libc.so (dlmalloc+351)
+I/DEBUG   (  165):          bfad2160  00000000  
+I/DEBUG   (  165):          bfad2164  00000000  
+I/DEBUG   (  165):          bfad2168  b778bb90  /system/bin/busybox
+I/DEBUG   (  165):          bfad216c  b76b4cc7  /system/bin/busybox (next_token+359)
+I/DEBUG   (  165):          bfad2170  b8acf921  [heap]
+I/DEBUG   (  165):          bfad2174  00000001  
+I/DEBUG   (  165):          bfad2178  bfad21d4  [stack]
+I/DEBUG   (  165):          bfad217c  b7637fcc  /system/lib/libc.so
+I/DEBUG   (  165):     #00  bfad2180  b7646ab8  
+I/DEBUG   (  165):          bfad2184  00001000  
+I/DEBUG   (  165):          bfad2188  b7637fcc  /system/lib/libc.so
+I/DEBUG   (  165):          bfad218c  b75def17  /system/lib/libc.so (__swrite+103)
+I/DEBUG   (  165):          bfad2190  00000001  
+I/DEBUG   (  165):          bfad2194  b8ad0fd0  [heap]
+I/DEBUG   (  165):          bfad2198  00000002  
+I/DEBUG   (  165):          bfad219c  b75b4b33  /system/lib/libc.so (fputs+99)
+I/DEBUG   (  165):          bfad21a0  b7638214  /system/lib/libc.so
+I/DEBUG   (  165):          bfad21a4  b7637fcc  /system/lib/libc.so
+I/DEBUG   (  165):          bfad21a8  00000002  
+I/DEBUG   (  165):          bfad21ac  b75dd0e9  /system/lib/libc.so (fflush+185)
+I/DEBUG   (  165):          bfad21b0  b7638214  /system/lib/libc.so
+I/DEBUG   (  165):          bfad21b4  b8ad0fd0  [heap]
+I/DEBUG   (  165):          bfad21b8  00000002  
+I/DEBUG   (  165):          bfad21bc  b8ad0980  [heap]
+W/NativeCrashListener(  485): Couldn't find ProcessRecord for pid 15417
+I/BootReceiver(  485): Copying /data/tombstones/tombstone_01 to DropBox (SYSTEM_TOMBSTONE)
+I/Auth    (  700): [ReflectiveChannelBinder] Successfully bound channel!
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=874060&bid_id=DAE7wPWyKnCRwX4P2Z9WcWRv4gK2&imp_id=8xKGZJqXkmSg3jJRvvKLtnn5MvzZ&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab&android_id=2c56dc4e22148605 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 485
+W/Launcher(  683): No global search activity found.
+W/Launcher(  683): No global search activity found.
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=894732&bid_id=DAE7wPWyKnCRwX4P2Z9WcWRv4gK2&imp_id=xWAQORw402hN1XN72YWOFr3y7D0&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab cmp=com.android.browser/.BrowserActivity} from pid 683
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cmc.dms/.PixelDMSStart bnds=[130,428][334,555]} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dndteam.vplayer/.ui.MainActivity bnds=[742,428][946,555]} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 485
+W/Launcher(  683): No global search activity found.
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=885515&bid_id=DAE7wPWyKnCRwX4P2Z9WcWRv4gK2&imp_id=n3NDAQGrNpHVvGEWB1j5FwpMpJE&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab cmp=com.android.browser/.BrowserActivity} from pid 683
+W/EGL_emulation(15382): eglSurfaceAttrib not implemented 3093 12436
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=874060&bid_id=DAE7wPWyKnCRwX4P2Z9WcWRv4gK2&imp_id=8xKGZJqXkmSg3jJRvvKLtnn5MvzZ&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab&android_id=2c56dc4e22148605 cmp=com.android.browser/.BrowserActivity} from pid 683
+I/AndroidRuntime(14800): VM exiting with result code 0.

@@ -1,0 +1,788 @@
+--------- beginning of /dev/log/main
+I/Icing   (  713): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+D/dalvikvm(  713): GC_CONCURRENT freed 2393K, 40% free 9589K/15900K, paused 3ms+2ms, total 16ms
+D/dalvikvm(  713): WAIT_FOR_CONCURRENT_GC blocked 10ms
+I/Icing   (  713): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/AndroidRuntime( 3145): 
+D/AndroidRuntime( 3145): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3145): CheckJNI is OFF
+D/dalvikvm( 3145): Using executionMode 2
+D/dalvikvm( 3145): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3145): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3145): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3145): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 3145): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 3145): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 3145): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3145): failed to load memtrack module: -2
+D/AndroidRuntime( 3145): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  464): Skipping deliver [background] BroadcastRecord{4b00ea44 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4acf1cc0 3145 (unknown name)/0/u-1 remote:4ac2dc80}: process crashing
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.huffingtonpost.android/.base.LaunchActivity} from pid 3145
+D/WebViewTimersControl(31424): onBrowserActivityPause
+D/WebViewTimersControl(31424): Pausing webview timers, view=com.android.browser.BrowserWebView{4a7e3464 VFEDHVCL .F...... 0,0-1280,604}
+I/ActivityManager(  464): Start proc com.huffingtonpost.android for activity com.huffingtonpost.android/.base.LaunchActivity: pid=3155 uid=10165 gids={50165, 3003}
+W/NetworkManagementSocketTagger(  464): setKernelCountSet(10165, 1) failed with errno -13
+I/dalvikvm( 3155): ignoring registerObject request in thread=1
+I/dalvikvm( 3155): ignoring registerObject request in thread=1
+E/dalvikvm( 3155): Could not find class 'android.app.job.JobScheduler', referenced from method com.huffingtonpost.android.HuffingtonPostApplication.onCreate
+W/dalvikvm( 3155): VFY: unable to resolve check-cast 79 (Landroid/app/job/JobScheduler;) in Lcom/huffingtonpost/android/HuffingtonPostApplication;
+D/dalvikvm( 3155): VFY: replacing opcode 0x1f at 0x00fe
+D/dalvikvm( 3155): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 3155): GC_CONCURRENT freed 172K, 8% free 3001K/3228K, paused 3ms+0ms, total 6ms
+D/dalvikvm( 3155): GC_CONCURRENT freed 121K, 6% free 3295K/3476K, paused 3ms+2ms, total 8ms
+D/dalvikvm( 3155): DexOpt: --- BEGIN 'com.huffingtonpost.android-1.apk.classes2.zip' (bootstrap=0) ---
+E/cutils-trace( 3169): Error opening trace file: No such file or directory (2)
+D/dalvikvm( 3169): GC_FOR_ALLOC freed 377K, 19% free 1668K/2048K, paused 1ms, total 1ms
+D/dalvikvm( 3169): DexOpt: load 57ms, verify+opt 385ms, 5611556 bytes
+D/dalvikvm( 3155): DexOpt: --- END 'com.huffingtonpost.android-1.apk.classes2.zip' (success) ---
+D/dalvikvm( 3155): DEX prep '/data/data/com.huffingtonpost.android/code_cache/secondary-dexes/com.huffingtonpost.android-1.apk.classes2.zip': unzip in 68ms, rewrite 692ms
+I/dalvikvm( 3155): Could not find method android.app.job.JobScheduler.getAllPendingJobs, referenced from method com.huffingtonpost.android.settings.OfflineSettingsManager.rescheduleDownloads
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 407: Landroid/app/job/JobScheduler;.getAllPendingJobs ()Ljava/util/List;
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x0026
+I/dalvikvm( 3155): Could not find method android.app.job.JobScheduler.cancelAll, referenced from method com.huffingtonpost.android.settings.OfflineSettingsManager.rescheduleDownloads
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 406: Landroid/app/job/JobScheduler;.cancelAll ()V
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x0129
+D/dalvikvm( 3155): DexOpt: unable to opt direct call 0x0190 at 0x5a in Lcom/huffingtonpost/android/settings/OfflineSettingsManager;.rescheduleDownloads
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <clinit>()>	sig:$r2 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.lang.Object[])>($r0)	timediff:1
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <clinit>()>	sig:$r2 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.lang.Object[])>($r3)	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <clinit>()>	sig:specialinvoke $r5.<okhttp3.OkHttpClient$1: void <init>()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r3.<okhttp3.Dispatcher: void <init>()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$000()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$100()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r4 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r10.<okhttp3.ConnectionPool: void <init>()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.Dns: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.Dns$1: void <init>()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>()>	sig:specialinvoke $r1.<okhttp3.OkHttpClient$Builder: void <init>()>()	timediff:2
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$z1 = virtualinvoke $r12.<okhttp3.ConnectionSpec: boolean isTls()>()	timediff:0
+D/dalvikvm( 3155): GC_CONCURRENT freed 290K, 10% free 3405K/3752K, paused 0ms+1ms, total 4ms
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r20 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.X509TrustManager systemDefaultTrustManager()>()	timediff:19
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r13 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)>($r20)	timediff:2
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r14 = staticinvoke <okhttp3.internal.tls.CertificateChainCleaner: okhttp3.internal.tls.CertificateChainCleaner get(javax.net.ssl.X509TrustManager)>($r20)	timediff:1
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r16 = virtualinvoke $r16.<okhttp3.CertificatePinner: okhttp3.CertificatePinner withCertificateChainCleaner(okhttp3.internal.tls.CertificateChainCleaner)>($r14)	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>()>	sig:specialinvoke $r0.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>($r1)	timediff:24
+I/System.out( 3155): body:<com.huffingtonpost.android.data.RetrofitManager: void <init>()>	sig:specialinvoke $r1.<okhttp3.OkHttpClient: void <init>()>()	timediff:27
+W/DebugConnManager( 3155): getNetworkInfo() on networkType 1
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r3.<okhttp3.Dispatcher: void <init>()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$000()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$100()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r4 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r10.<okhttp3.ConnectionPool: void <init>()>()	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:specialinvoke $r26.<okhttp3.OkHttpClient$Builder: void <init>()>()	timediff:1
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:specialinvoke $r27.<okhttp3.Dispatcher: void <init>(java.util.concurrent.ExecutorService)>($r28)	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder dispatcher(okhttp3.Dispatcher)>($r27)	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder connectTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r29)	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder readTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r29)	timediff:1
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder writeTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r29)	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder dns(okhttp3.Dns)>($r30)	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder retryOnConnectionFailure(boolean)>(1)	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder followRedirects(boolean)>(1)	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder followSslRedirects(boolean)>(1)	timediff:0
+I/System.out( 3155): body:<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>	sig:specialinvoke $r3.<okhttp3.Cache$1: void <init>(okhttp3.Cache)>($r0)	timediff:0
+I/System.out( 3155): body:<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>	sig:$r4 = staticinvoke <okhttp3.internal.cache.DiskLruCache: okhttp3.internal.cache.DiskLruCache create(okhttp3.internal.io.FileSystem,java.io.File,int,int,long)>($r2, $r1, 201105, 2, $l0)	timediff:0
+I/System.out( 3155): body:<okhttp3.Cache: void <init>(java.io.File,long)>	sig:specialinvoke $r0.<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>($r1, $l0, $r2)	timediff:1
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:specialinvoke $r31.<okhttp3.Cache: void <init>(java.io.File,long)>($r32, 314572800L)	timediff:2
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder cache(okhttp3.Cache)>($r31)	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder addInterceptor(okhttp3.Interceptor)>($r33)	timediff:0
+W/dalvikvm( 3155): VFY: warning: method is huge (regs=2459 insnsSize=18924)
+W/dalvikvm( 3155): VFY:  rejected Lcom/huffingtonpost/android/data/RetrofitManager$2;.intercept (Lokhttp3/Interceptor$Chain;)Lokhttp3/Response;
+E/dalvikvm( 3155): ERROR: register map can't handle 2459 registers
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder addInterceptor(okhttp3.Interceptor)>($r34)	timediff:1
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder addNetworkInterceptor(okhttp3.Interceptor)>($r35)	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:1
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$z1 = virtualinvoke $r12.<okhttp3.ConnectionSpec: boolean isTls()>()	timediff:0
+D/dalvikvm( 3155): GC_CONCURRENT freed 655K, 19% free 3256K/3972K, paused 3ms+2ms, total 9ms
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r20 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.X509TrustManager systemDefaultTrustManager()>()	timediff:21
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r13 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)>($r20)	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r14 = staticinvoke <okhttp3.internal.tls.CertificateChainCleaner: okhttp3.internal.tls.CertificateChainCleaner get(javax.net.ssl.X509TrustManager)>($r20)	timediff:1
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r16 = virtualinvoke $r16.<okhttp3.CertificatePinner: okhttp3.CertificatePinner withCertificateChainCleaner(okhttp3.internal.tls.CertificateChainCleaner)>($r14)	timediff:1
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder,okhttp3.OkHttpClient$1)>	sig:specialinvoke $r0.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>($r1)	timediff:27
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient build()>	sig:specialinvoke $r1.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder,okhttp3.OkHttpClient$1)>($r0, null)	timediff:27
+I/System.out( 3155): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:$r36 = virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient build()>()	timediff:27
+I/dalvikvm( 3155): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.zze.zzs
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 605: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x001a
+D/dalvikvm( 3155): GC_CONCURRENT freed 378K, 18% free 3267K/3972K, paused 3ms+1ms, total 6ms
+I/dalvikvm( 3155): Could not find method android.content.res.Resources.getColor, referenced from method com.atinternet.tracker.Tool.getColor
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 645: Landroid/content/res/Resources;.getColor (ILandroid/content/res/Resources$Theme;)I
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x000b
+D/dalvikvm( 3155): GC_CONCURRENT freed 216K, 12% free 3518K/3972K, paused 2ms+0ms, total 5ms
+D/dalvikvm( 3155): GC_CONCURRENT freed 181K, 7% free 3756K/4016K, paused 4ms+5ms, total 17ms
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r3.<okhttp3.Dispatcher: void <init>()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$000()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$100()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r4 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r10.<okhttp3.ConnectionPool: void <init>()>()	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:specialinvoke $r2.<okhttp3.OkHttpClient$Builder: void <init>()>()	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder connectTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r4)	timediff:1
+I/System.out( 3155): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder readTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r4)	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder writeTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r4)	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder dns(okhttp3.Dns)>($r5)	timediff:0
+I/System.out( 3155): body:<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>	sig:specialinvoke $r3.<okhttp3.Cache$1: void <init>(okhttp3.Cache)>($r0)	timediff:0
+I/System.out( 3155): body:<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>	sig:$r4 = staticinvoke <okhttp3.internal.cache.DiskLruCache: okhttp3.internal.cache.DiskLruCache create(okhttp3.internal.io.FileSystem,java.io.File,int,int,long)>($r2, $r1, 201105, 2, $l0)	timediff:0
+I/System.out( 3155): body:<okhttp3.Cache: void <init>(java.io.File,long)>	sig:specialinvoke $r0.<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>($r1, $l0, $r2)	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:specialinvoke $r6.<okhttp3.Cache: void <init>(java.io.File,long)>($r3, 314572800L)	timediff:0
+I/System.out( 3155): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder cache(okhttp3.Cache)>($r6)	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:1
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$z1 = virtualinvoke $r12.<okhttp3.ConnectionSpec: boolean isTls()>()	timediff:0
+D/dalvikvm( 3155): GC_CONCURRENT freed 215K, 7% free 3948K/4224K, paused 1ms+2ms, total 5ms
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r20 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.X509TrustManager systemDefaultTrustManager()>()	timediff:16
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r13 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)>($r20)	timediff:1
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r14 = staticinvoke <okhttp3.internal.tls.CertificateChainCleaner: okhttp3.internal.tls.CertificateChainCleaner get(javax.net.ssl.X509TrustManager)>($r20)	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r16 = virtualinvoke $r16.<okhttp3.CertificatePinner: okhttp3.CertificatePinner withCertificateChainCleaner(okhttp3.internal.tls.CertificateChainCleaner)>($r14)	timediff:0
+I/System.out( 3155): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder,okhttp3.OkHttpClient$1)>	sig:specialinvoke $r0.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>($r1)	timediff:18
+I/System.out( 3155): body:<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient build()>	sig:specialinvoke $r1.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder,okhttp3.OkHttpClient$1)>($r0, null)	timediff:18
+I/System.out( 3155): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:$r7 = virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient build()>()	timediff:18
+W/Settings( 3155): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+I/dalvikvm( 3155): Could not find method android.content.Context.getNoBackupFilesDir, referenced from method com.urbanairship.util.DataManager.<init>
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 250: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x000b
+W/DebugConnManager( 3155): getNetworkInfo() on networkType 1
+D/dalvikvm( 3155): GC_CONCURRENT freed 238K, 7% free 4095K/4392K, paused 2ms+1ms, total 5ms
+D/dalvikvm( 3155): GC_FOR_ALLOC freed 27K, 7% free 4105K/4392K, paused 5ms, total 5ms
+I/dalvikvm-heap( 3155): Grow heap (frag case) to 4.431MB for 391888-byte allocation
+D/dalvikvm( 3155): GC_FOR_ALLOC freed 1K, 7% free 4486K/4776K, paused 3ms, total 3ms
+D/dalvikvm( 3155): GC_FOR_ALLOC freed 1K, 7% free 4486K/4776K, paused 3ms, total 3ms
+I/dalvikvm-heap( 3155): Grow heap (frag case) to 4.803MB for 391888-byte allocation
+D/dalvikvm( 3155): GC_FOR_ALLOC freed <1K, 6% free 4868K/5160K, paused 3ms, total 3ms
+I/dalvikvm( 3155): Could not find method android.view.ViewAnimationUtils.createCircularReveal, referenced from method com.huffingtonpost.android.utils.EnterReveal.safeRun
+W/dalvikvm( 3155): VFY: unable to resolve static method 1734: Landroid/view/ViewAnimationUtils;.createCircularReveal (Landroid/view/View;IIFF)Landroid/animation/Animator;
+D/dalvikvm( 3155): VFY: replacing opcode 0x71 at 0x002e
+I/System.out( 3155): body:<com.envrmnt.lib.data.VolleyDataProvider: void <init>(android.content.Context,java.lang.String)>	sig:specialinvoke $r4.<java.net.CookieManager: void <init>()>()	timediff:3
+I/System.out( 3155): body:<com.envrmnt.lib.data.VolleyDataProvider: void <init>(android.content.Context,java.lang.String)>	sig:staticinvoke <java.net.CookieHandler: void setDefault(java.net.CookieHandler)>($r4)	timediff:0
+D/dalvikvm( 3155): GC_FOR_ALLOC freed 67K, 5% free 5308K/5584K, paused 5ms, total 5ms
+D/dalvikvm( 3155): GC_CONCURRENT freed 112K, 4% free 5948K/6168K, paused 2ms+3ms, total 11ms
+D/dalvikvm( 3155): WAIT_FOR_CONCURRENT_GC blocked 11ms
+D/dalvikvm( 3155): GC_FOR_ALLOC freed 91K, 4% free 6699K/6936K, paused 3ms, total 6ms
+D/dalvikvm( 3155): GC_FOR_ALLOC freed 137K, 3% free 7488K/7704K, paused 3ms, total 3ms
+D/dalvikvm( 3155): GC_FOR_ALLOC freed 10K, 3% free 8631K/8856K, paused 6ms, total 6ms
+I/dalvikvm( 3155): Could not find method android.content.Context.checkSelfPermission, referenced from method com.urbanairship.actions.Action.requestPermissions
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 234: Landroid/content/Context;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x000e
+D/dalvikvm( 3155): GC_FOR_ALLOC freed 203K, 3% free 10125K/10388K, paused 8ms, total 8ms
+W/dalvikvm( 3155): Found non-abstract interface method Lcom/crashlytics/android/answers/SessionAnalyticsManagerStrategy;.rollFileOver ()Z
+I/dalvikvm( 3155): Could not find method com.crashlytics.android.answers.SessionAnalyticsManagerStrategy.rollFileOver, referenced from method com.crashlytics.android.answers.AnswersEventsHandler$6.run
+W/dalvikvm( 3155): VFY: unable to resolve interface method 26120: Lcom/crashlytics/android/answers/SessionAnalyticsManagerStrategy;.rollFileOver ()Z
+D/dalvikvm( 3155): VFY: replacing opcode 0x72 at 0x0011
+I/WearableService(  654): Wearable Services stopping
+D/dalvikvm( 3155): GC_FOR_ALLOC freed 319K, 4% free 11866K/12252K, paused 3ms, total 4ms
+D/dalvikvm( 3155): GC_FOR_ALLOC freed 549K, 6% free 14091K/14940K, paused 4ms, total 4ms
+D/dalvikvm( 3155): GC_FOR_ALLOC freed 8K, 5% free 16770K/17628K, paused 3ms, total 4ms
+E/dalvikvm( 3155): Could not find class 'android.media.session.MediaController', referenced from method android.support.v4.app.FragmentActivity.setSupportMediaController
+W/dalvikvm( 3155): VFY: unable to resolve check-cast 309 (Landroid/media/session/MediaController;) in Landroid/support/v4/app/FragmentActivity;
+D/dalvikvm( 3155): VFY: replacing opcode 0x1f at 0x0022
+I/ActivityManager(  464): START u0 {cmp=com.huffingtonpost.android/.edition.SelectAnEditionActivity (has extras)} from pid 3155
+W/SocketClient(  163): write error (Broken pipe)
+I/dalvikvm( 3155): Could not find method android.view.Window$Callback.onProvideKeyboardShortcuts, referenced from method android.support.v7.view.WindowCallbackWrapper.onProvideKeyboardShortcuts
+W/dalvikvm( 3155): VFY: unable to resolve interface method 12440: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V
+D/dalvikvm( 3155): VFY: replacing opcode 0x72 at 0x0002
+W/dalvikvm( 3155): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm( 3155): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.WindowCallbackWrapper.onSearchRequested
+W/dalvikvm( 3155): VFY: unable to resolve interface method 12442: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm( 3155): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm( 3155): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.WindowCallbackWrapper.onWindowStartingActionMode
+W/dalvikvm( 3155): VFY: unable to resolve interface method 12446: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 3155): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm( 3155): Could not find method android.content.Context.getNoBackupFilesDir, referenced from method com.google.android.gms.common.util.zzw.getNoBackupFilesDir
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 458: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm( 3155): Could not find method android.content.Context.getColor, referenced from method android.support.v4.content.ContextCompat.getColor
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 448: Landroid/content/Context;.getColor (I)I
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm( 3155): Could not find method android.content.Context.getColorStateList, referenced from method android.support.v4.content.ContextCompat.getColorStateList
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 449: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm( 3155): Could not find method android.content.Context.getDrawable, referenced from method android.support.v4.content.ContextCompat.getDrawable
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 453: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm( 3155): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method android.support.v4.content.ContextCompat.isDeviceProtectedStorage
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 469: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x0006
+D/dalvikvm( 3155): DexOpt: couldn't find static field Landroid/hardware/camera2/CameraCharacteristics;.LENS_FACING
+W/dalvikvm( 3155): VFY: unable to resolve static field 93 (LENS_FACING) in Landroid/hardware/camera2/CameraCharacteristics;
+D/dalvikvm( 3155): VFY: replacing opcode 0x62 at 0x002d
+I/dalvikvm( 3155): Could not find method android.content.Context.getExternalMediaDirs, referenced from method com.millennialmedia.internal.utils.EnvironmentUtils.getPicturesDirectory
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 247: Landroid/content/Context;.getExternalMediaDirs ()[Ljava/io/File;
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x0009
+D/EmulatedCamera_Camera(  170): getCameraInfo , camera orientation: front(0) , back(0)
+D/EmulatedCamera_Camera(  170): getCameraInfo , camera orientation: front(0) , back(0)
+V/WebViewChromium( 3155): Binding Chromium to the main looper Looper (main, tid 1) {4a7e70ec}
+I/chromium( 3155): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain( 3155): Initializing chromium process, renderers=0
+W/chromium( 3155): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/libEGL  ( 3155): loaded /system/lib/egl/libEGL_adreno.so
+D/        ( 3155): HostConnection::get() New Host Connection established 0xb8823650, tid 3155
+D/libEGL  ( 3155): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 3155): loaded /system/lib/egl/libGLESv2_adreno.so
+I/dalvikvm( 3155): Could not find method android.content.Context.getColorStateList, referenced from method android.support.v7.content.res.AppCompatResources.getColorStateList
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 449: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm( 3155): Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawable
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 654: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm( 3155): Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawableForDensity
+W/dalvikvm( 3155): VFY: unable to resolve virtual method 656: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 3155): VFY: replacing opcode 0x6e at 0x0002
+E/dalvikvm( 3155): Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method android.support.v7.widget.AppCompatImageHelper.hasOverlappingRendering
+W/dalvikvm( 3155): VFY: unable to resolve instanceof 248 (Landroid/graphics/drawable/RippleDrawable;) in Landroid/support/v7/widget/AppCompatImageHelper;
+D/dalvikvm( 3155): VFY: replacing opcode 0x20 at 0x000c
+D/AndroidRuntime( 3155): Shutting down VM
+W/dalvikvm( 3155): threadid=1: thread exiting with uncaught exception (group=0x94d12b20)
+E/AndroidRuntime( 3155): FATAL EXCEPTION: main
+E/AndroidRuntime( 3155): Process: com.huffingtonpost.android, PID: 3155
+E/AndroidRuntime( 3155): java.lang.Error: Unresolved compilation error: Method <android.support.graphics.drawable.VectorDrawableCompat: int getLayoutDirection()> does not exist!
+E/AndroidRuntime( 3155): 	at android.support.graphics.drawable.VectorDrawableCompat.getLayoutDirection(VectorDrawableCompat.java)
+E/AndroidRuntime( 3155): 	at android.graphics.drawable.Drawable.setLayoutDirection(Drawable.java:403)
+E/AndroidRuntime( 3155): 	at android.widget.ImageView.updateDrawable(ImageView.java:712)
+E/AndroidRuntime( 3155): 	at android.widget.ImageView.setImageDrawable(ImageView.java:421)
+E/AndroidRuntime( 3155): 	at android.support.v7.widget.Toolbar.setNavigationIcon(Toolbar.java:969)
+E/AndroidRuntime( 3155): 	at android.support.v7.widget.ToolbarWidgetWrapper.updateNavigationIcon(ToolbarWidgetWrapper.java:611)
+E/AndroidRuntime( 3155): 	at android.support.v7.widget.ToolbarWidgetWrapper.setDisplayOptions(ToolbarWidgetWrapper.java:392)
+E/AndroidRuntime( 3155): 	at android.support.v7.app.ToolbarActionBar.setDisplayOptions(ToolbarActionBar.java:264)
+E/AndroidRuntime( 3155): 	at android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled(ToolbarActionBar.java:279)
+E/AndroidRuntime( 3155): 	at com.huffingtonpost.android.base.BaseActivity.setShowBack(BaseActivity.java:280)
+E/AndroidRuntime( 3155): 	at com.huffingtonpost.android.base.SingleFragmentActivity.onCreate(SingleFragmentActivity.java:20)
+E/AndroidRuntime( 3155): 	at com.huffingtonpost.android.edition.SelectAnEditionActivity.onCreate(SelectAnEditionActivity.java:53)
+E/AndroidRuntime( 3155): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime( 3155): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime( 3155): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime( 3155): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime( 3155): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime( 3155): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime( 3155): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 3155): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime( 3155): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime( 3155): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 3155): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime( 3155): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime( 3155): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime( 3155): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  464): Sending signal. PID: 3155 SIG: 9
+W/ActivityManager(  464): Force-killing crashed app com.huffingtonpost.android at watcher's request
+W/ContextImpl(  464): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+W/NetworkManagementSocketTagger(  464): setKernelCountSet(10165, 0) failed with errno -13
+I/ActivityManager(  464): Process com.huffingtonpost.android (pid 3155) has died.
+I/ActivityManager(  464): Start proc com.huffingtonpost.android for activity com.huffingtonpost.android/.edition.SelectAnEditionActivity: pid=3241 uid=10165 gids={50165, 3003}
+I/dalvikvm( 3241): ignoring registerObject request in thread=1
+I/dalvikvm( 3241): ignoring registerObject request in thread=1
+W/NetworkManagementSocketTagger(  464): setKernelCountSet(10165, 1) failed with errno -13
+E/dalvikvm( 3241): Could not find class 'android.app.job.JobScheduler', referenced from method com.huffingtonpost.android.HuffingtonPostApplication.onCreate
+W/dalvikvm( 3241): VFY: unable to resolve check-cast 79 (Landroid/app/job/JobScheduler;) in Lcom/huffingtonpost/android/HuffingtonPostApplication;
+D/dalvikvm( 3241): VFY: replacing opcode 0x1f at 0x00fe
+I/dalvikvm( 3241): Could not find method android.app.job.JobScheduler.getAllPendingJobs, referenced from method com.huffingtonpost.android.settings.OfflineSettingsManager.rescheduleDownloads
+W/dalvikvm( 3241): VFY: unable to resolve virtual method 407: Landroid/app/job/JobScheduler;.getAllPendingJobs ()Ljava/util/List;
+D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x0026
+I/dalvikvm( 3241): Could not find method android.app.job.JobScheduler.cancelAll, referenced from method com.huffingtonpost.android.settings.OfflineSettingsManager.rescheduleDownloads
+W/dalvikvm( 3241): VFY: unable to resolve virtual method 406: Landroid/app/job/JobScheduler;.cancelAll ()V
+D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x0129
+D/dalvikvm( 3241): DexOpt: unable to opt direct call 0x0190 at 0x5a in Lcom/huffingtonpost/android/settings/OfflineSettingsManager;.rescheduleDownloads
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <clinit>()>	sig:$r2 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.lang.Object[])>($r0)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <clinit>()>	sig:$r2 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.lang.Object[])>($r3)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <clinit>()>	sig:specialinvoke $r5.<okhttp3.OkHttpClient$1: void <init>()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r3.<okhttp3.Dispatcher: void <init>()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$000()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$100()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r4 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r10.<okhttp3.ConnectionPool: void <init>()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.Dns: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.Dns$1: void <init>()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>()>	sig:specialinvoke $r1.<okhttp3.OkHttpClient$Builder: void <init>()>()	timediff:4
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$z1 = virtualinvoke $r12.<okhttp3.ConnectionSpec: boolean isTls()>()	timediff:0
+D/dalvikvm( 3241): JIT code cache reset in 1 ms (0 bytes 1/0)
+D/dalvikvm( 3241): GC_CONCURRENT freed 366K, 13% free 2933K/3352K, paused 3ms+5ms, total 24ms
+D/dalvikvm( 3241): WAIT_FOR_CONCURRENT_GC blocked 7ms
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r20 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.X509TrustManager systemDefaultTrustManager()>()	timediff:22
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r13 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)>($r20)	timediff:1
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r14 = staticinvoke <okhttp3.internal.tls.CertificateChainCleaner: okhttp3.internal.tls.CertificateChainCleaner get(javax.net.ssl.X509TrustManager)>($r20)	timediff:1
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r16 = virtualinvoke $r16.<okhttp3.CertificatePinner: okhttp3.CertificatePinner withCertificateChainCleaner(okhttp3.internal.tls.CertificateChainCleaner)>($r14)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>()>	sig:specialinvoke $r0.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>($r1)	timediff:26
+I/System.out( 3241): body:<com.huffingtonpost.android.data.RetrofitManager: void <init>()>	sig:specialinvoke $r1.<okhttp3.OkHttpClient: void <init>()>()	timediff:33
+W/DebugConnManager( 3241): getNetworkInfo() on networkType 1
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r3.<okhttp3.Dispatcher: void <init>()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$000()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$100()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r4 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r10.<okhttp3.ConnectionPool: void <init>()>()	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:specialinvoke $r26.<okhttp3.OkHttpClient$Builder: void <init>()>()	timediff:2
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:specialinvoke $r27.<okhttp3.Dispatcher: void <init>(java.util.concurrent.ExecutorService)>($r28)	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder dispatcher(okhttp3.Dispatcher)>($r27)	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder connectTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r29)	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder readTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r29)	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder writeTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r29)	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder dns(okhttp3.Dns)>($r30)	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder retryOnConnectionFailure(boolean)>(1)	timediff:1
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder followRedirects(boolean)>(1)	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder followSslRedirects(boolean)>(1)	timediff:0
+I/System.out( 3241): body:<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>	sig:specialinvoke $r3.<okhttp3.Cache$1: void <init>(okhttp3.Cache)>($r0)	timediff:0
+I/System.out( 3241): body:<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>	sig:$r4 = staticinvoke <okhttp3.internal.cache.DiskLruCache: okhttp3.internal.cache.DiskLruCache create(okhttp3.internal.io.FileSystem,java.io.File,int,int,long)>($r2, $r1, 201105, 2, $l0)	timediff:0
+I/System.out( 3241): body:<okhttp3.Cache: void <init>(java.io.File,long)>	sig:specialinvoke $r0.<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>($r1, $l0, $r2)	timediff:1
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:specialinvoke $r31.<okhttp3.Cache: void <init>(java.io.File,long)>($r32, 314572800L)	timediff:1
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder cache(okhttp3.Cache)>($r31)	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder addInterceptor(okhttp3.Interceptor)>($r33)	timediff:0
+W/dalvikvm( 3241): VFY: warning: method is huge (regs=2459 insnsSize=18924)
+W/dalvikvm( 3241): VFY:  rejected Lcom/huffingtonpost/android/data/RetrofitManager$2;.intercept (Lokhttp3/Interceptor$Chain;)Lokhttp3/Response;
+D/dalvikvm( 3241): GC_CONCURRENT freed 197K, 10% free 3130K/3472K, paused 1ms+9ms, total 22ms
+E/dalvikvm( 3241): ERROR: register map can't handle 2459 registers
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder addInterceptor(okhttp3.Interceptor)>($r34)	timediff:1
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder addNetworkInterceptor(okhttp3.Interceptor)>($r35)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$z1 = virtualinvoke $r12.<okhttp3.ConnectionSpec: boolean isTls()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r20 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.X509TrustManager systemDefaultTrustManager()>()	timediff:10
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r13 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)>($r20)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r14 = staticinvoke <okhttp3.internal.tls.CertificateChainCleaner: okhttp3.internal.tls.CertificateChainCleaner get(javax.net.ssl.X509TrustManager)>($r20)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r16 = virtualinvoke $r16.<okhttp3.CertificatePinner: okhttp3.CertificatePinner withCertificateChainCleaner(okhttp3.internal.tls.CertificateChainCleaner)>($r14)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder,okhttp3.OkHttpClient$1)>	sig:specialinvoke $r0.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>($r1)	timediff:17
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient build()>	sig:specialinvoke $r1.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder,okhttp3.OkHttpClient$1)>($r0, null)	timediff:18
+I/System.out( 3241): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:$r36 = virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient build()>()	timediff:18
+D/dalvikvm( 3241): GC_CONCURRENT freed 330K, 11% free 3188K/3572K, paused 4ms+2ms, total 9ms
+I/dalvikvm( 3241): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.zze.zzs
+W/dalvikvm( 3241): VFY: unable to resolve virtual method 605: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x001a
+I/dalvikvm( 3241): Could not find method android.content.res.Resources.getColor, referenced from method com.atinternet.tracker.Tool.getColor
+W/dalvikvm( 3241): VFY: unable to resolve virtual method 645: Landroid/content/res/Resources;.getColor (ILandroid/content/res/Resources$Theme;)I
+D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x000b
+D/dalvikvm( 3241): GC_CONCURRENT freed 237K, 8% free 3462K/3752K, paused 3ms+2ms, total 10ms
+D/dalvikvm( 3241): WAIT_FOR_CONCURRENT_GC blocked 4ms
+D/dalvikvm( 3241): GC_CONCURRENT freed 123K, 5% free 3795K/3980K, paused 2ms+3ms, total 8ms
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r3.<okhttp3.Dispatcher: void <init>()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$000()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$100()>()	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r4 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:1
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r10.<okhttp3.ConnectionPool: void <init>()>()	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:specialinvoke $r2.<okhttp3.OkHttpClient$Builder: void <init>()>()	timediff:1
+I/System.out( 3241): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder connectTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r4)	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder readTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r4)	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder writeTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r4)	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder dns(okhttp3.Dns)>($r5)	timediff:0
+I/System.out( 3241): body:<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>	sig:specialinvoke $r3.<okhttp3.Cache$1: void <init>(okhttp3.Cache)>($r0)	timediff:0
+I/System.out( 3241): body:<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>	sig:$r4 = staticinvoke <okhttp3.internal.cache.DiskLruCache: okhttp3.internal.cache.DiskLruCache create(okhttp3.internal.io.FileSystem,java.io.File,int,int,long)>($r2, $r1, 201105, 2, $l0)	timediff:0
+I/System.out( 3241): body:<okhttp3.Cache: void <init>(java.io.File,long)>	sig:specialinvoke $r0.<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>($r1, $l0, $r2)	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:specialinvoke $r6.<okhttp3.Cache: void <init>(java.io.File,long)>($r3, 314572800L)	timediff:0
+I/System.out( 3241): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder cache(okhttp3.Cache)>($r6)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$z1 = virtualinvoke $r12.<okhttp3.ConnectionSpec: boolean isTls()>()	timediff:0
+D/dalvikvm( 3241): GC_CONCURRENT freed 352K, 10% free 3928K/4332K, paused 2ms+2ms, total 11ms
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r20 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.X509TrustManager systemDefaultTrustManager()>()	timediff:21
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r13 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)>($r20)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r14 = staticinvoke <okhttp3.internal.tls.CertificateChainCleaner: okhttp3.internal.tls.CertificateChainCleaner get(javax.net.ssl.X509TrustManager)>($r20)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r16 = virtualinvoke $r16.<okhttp3.CertificatePinner: okhttp3.CertificatePinner withCertificateChainCleaner(okhttp3.internal.tls.CertificateChainCleaner)>($r14)	timediff:0
+I/System.out( 3241): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder,okhttp3.OkHttpClient$1)>	sig:specialinvoke $r0.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>($r1)	timediff:29
+I/System.out( 3241): body:<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient build()>	sig:specialinvoke $r1.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder,okhttp3.OkHttpClient$1)>($r0, null)	timediff:29
+I/System.out( 3241): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:$r7 = virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient build()>()	timediff:29
+W/Settings( 3241): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+I/dalvikvm( 3241): Could not find method android.content.Context.getNoBackupFilesDir, referenced from method com.urbanairship.util.DataManager.<init>
+W/dalvikvm( 3241): VFY: unable to resolve virtual method 250: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;
+D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x000b
+W/DebugConnManager( 3241): getNetworkInfo() on networkType 1
+D/dalvikvm( 3241): GC_CONCURRENT freed 275K, 8% free 4083K/4412K, paused 1ms+3ms, total 9ms
+I/dalvikvm( 3241): Could not find method android.view.ViewAnimationUtils.createCircularReveal, referenced from method com.huffingtonpost.android.utils.EnterReveal.safeRun
+W/dalvikvm( 3241): VFY: unable to resolve static method 1734: Landroid/view/ViewAnimationUtils;.createCircularReveal (Landroid/view/View;IIFF)Landroid/animation/Animator;
+D/dalvikvm( 3241): VFY: replacing opcode 0x71 at 0x002e
+E/dalvikvm( 3241): Could not find class 'android.media.session.MediaController', referenced from method android.support.v4.app.FragmentActivity.setSupportMediaController
+W/dalvikvm( 3241): VFY: unable to resolve check-cast 309 (Landroid/media/session/MediaController;) in Landroid/support/v4/app/FragmentActivity;
+D/dalvikvm( 3241): VFY: replacing opcode 0x1f at 0x0022
+I/dalvikvm( 3241): Could not find method android.view.Window$Callback.onProvideKeyboardShortcuts, referenced from method android.support.v7.view.WindowCallbackWrapper.onProvideKeyboardShortcuts
+W/dalvikvm( 3241): VFY: unable to resolve interface method 12440: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V
+D/dalvikvm( 3241): VFY: replacing opcode 0x72 at 0x0002
+W/dalvikvm( 3241): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm( 3241): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.WindowCallbackWrapper.onSearchRequested
+W/dalvikvm( 3241): VFY: unable to resolve interface method 12442: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm( 3241): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm( 3241): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.WindowCallbackWrapper.onWindowStartingActionMode
+W/dalvikvm( 3241): VFY: unable to resolve interface method 12446: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 3241): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm( 3241): Could not find method android.content.Context.getColor, referenced from method android.support.v4.content.ContextCompat.getColor
+W/dalvikvm( 3241): VFY: unable to resolve virtual method 448: Landroid/content/Context;.getColor (I)I
+D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm( 3241): Could not find method android.content.Context.getColorStateList, referenced from method android.support.v4.content.ContextCompat.getColorStateList
+W/dalvikvm( 3241): VFY: unable to resolve virtual method 449: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm( 3241): Could not find method android.content.Context.getDrawable, referenced from method android.support.v4.content.ContextCompat.getDrawable
+W/dalvikvm( 3241): VFY: unable to resolve virtual method 453: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm( 3241): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method android.support.v4.content.ContextCompat.isDeviceProtectedStorage
+W/dalvikvm( 3241): VFY: unable to resolve virtual method 469: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x0006
+I/System.out( 3241): body:<com.envrmnt.lib.data.VolleyDataProvider: void <init>(android.content.Context,java.lang.String)>	sig:specialinvoke $r4.<java.net.CookieManager: void <init>()>()	timediff:2
+I/System.out( 3241): body:<com.envrmnt.lib.data.VolleyDataProvider: void <init>(android.content.Context,java.lang.String)>	sig:staticinvoke <java.net.CookieHandler: void setDefault(java.net.CookieHandler)>($r4)	timediff:0
+D/dalvikvm( 3241): DexOpt: couldn't find static field Landroid/hardware/camera2/CameraCharacteristics;.LENS_FACING
+W/dalvikvm( 3241): VFY: unable to resolve static field 93 (LENS_FACING) in Landroid/hardware/camera2/CameraCharacteristics;
+D/dalvikvm( 3241): VFY: replacing opcode 0x62 at 0x002d
+I/dalvikvm( 3241): Could not find method android.content.Context.getExternalMediaDirs, referenced from method com.millennialmedia.internal.utils.EnvironmentUtils.getPicturesDirectory
+W/dalvikvm( 3241): VFY: unable to resolve virtual method 247: Landroid/content/Context;.getExternalMediaDirs ()[Ljava/io/File;
+D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x0009
+D/dalvikvm( 3241): GC_CONCURRENT freed 252K, 7% free 4234K/4540K, paused 2ms+2ms, total 11ms
+D/EmulatedCamera_Camera(  170): getCameraInfo , camera orientation: front(0) , back(0)
+D/EmulatedCamera_Camera(  170): getCameraInfo , camera orientation: front(0) , back(0)
+V/WebViewChromium( 3241): Binding Chromium to the main looper Looper (main, tid 1) {4a7e778c}
+I/chromium( 3241): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain( 3241): Initializing chromium process, renderers=0
+D/dalvikvm( 3241): GC_CONCURRENT freed 168K, 5% free 4463K/4684K, paused 4ms+3ms, total 12ms
+I/InputDispatcher(  464): Application is not responding: AppWindowToken{4acaa0e0 token=Token{4adb7880 ActivityRecord{4adbf054 u0 com.huffingtonpost.android/.edition.SelectAnEditionActivity t485}}}.  It has been 7588.3ms since event, 5001.3ms since wait started.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+I/dalvikvm( 3241): Could not find method android.content.Context.checkSelfPermission, referenced from method com.urbanairship.actions.Action.requestPermissions
+W/dalvikvm( 3241): VFY: unable to resolve virtual method 234: Landroid/content/Context;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x000e
+W/chromium( 3241): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/dalvikvm( 3241): GC_CONCURRENT freed 291K, 7% free 4735K/5076K, paused 2ms+4ms, total 34ms
+D/dalvikvm( 3241): WAIT_FOR_CONCURRENT_GC blocked 18ms
+D/dalvikvm( 3241): WAIT_FOR_CONCURRENT_GC blocked 19ms
+D/dalvikvm( 3241): WAIT_FOR_CONCURRENT_GC blocked 21ms
+D/dalvikvm( 3241): WAIT_FOR_CONCURRENT_GC blocked 23ms
+D/dalvikvm( 3241): WAIT_FOR_CONCURRENT_GC blocked 24ms
+D/dalvikvm( 3241): GC_CONCURRENT freed 323K, 8% free 4963K/5368K, paused 2ms+1ms, total 7ms
+D/libEGL  ( 3241): loaded /system/lib/egl/libEGL_adreno.so
+D/        ( 3241): HostConnection::get() New Host Connection established 0xb87ccef0, tid 3241
+D/libEGL  ( 3241): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 3241): loaded /system/lib/egl/libGLESv2_adreno.so
+I/WindowManager(  464): Input event dispatching timed out sending to application AppWindowToken{4acaa0e0 token=Token{4adb7880 ActivityRecord{4adbf054 u0 com.huffingtonpost.android/.edition.SelectAnEditionActivity t485}}}.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+W/InputManager(  464): Input event injection from pid 3145 timed out.
+I/Process (  464): Sending signal. PID: 3241 SIG: 3
+I/dalvikvm( 3241): threadid=3: reacting to signal 3
+I/dalvikvm( 3241): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  464): Sending signal. PID: 464 SIG: 3
+I/dalvikvm(  464): threadid=3: reacting to signal 3
+D/dalvikvm( 3241): GC_CONCURRENT freed 625K, 16% free 4535K/5368K, paused 1ms+0ms, total 5ms
+I/dalvikvm(  464): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  464): Sending signal. PID: 668 SIG: 3
+I/dalvikvm(  668): threadid=3: reacting to signal 3
+I/dalvikvm( 3241): Could not find method android.content.Context.getColorStateList, referenced from method android.support.v7.content.res.AppCompatResources.getColorStateList
+W/dalvikvm( 3241): VFY: unable to resolve virtual method 449: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm( 3241): Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawable
+W/dalvikvm( 3241): VFY: unable to resolve virtual method 654: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm( 3241): Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawableForDensity
+W/dalvikvm( 3241): VFY: unable to resolve virtual method 656: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x0002
+E/dalvikvm( 3241): Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method android.support.v7.widget.AppCompatImageHelper.hasOverlappingRendering
+W/dalvikvm( 3241): VFY: unable to resolve instanceof 248 (Landroid/graphics/drawable/RippleDrawable;) in Landroid/support/v7/widget/AppCompatImageHelper;
+D/dalvikvm( 3241): VFY: replacing opcode 0x20 at 0x000c
+D/AndroidRuntime( 3241): Shutting down VM
+W/dalvikvm( 3241): threadid=1: thread exiting with uncaught exception (group=0x94d12b20)
+I/dalvikvm(  668): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  464): Sending signal. PID: 532 SIG: 3
+I/dalvikvm(  532): threadid=3: reacting to signal 3
+I/dalvikvm(  532): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm(  464): GC_EXPLICIT freed 3650K, 45% free 17270K/31284K, paused 2ms+2ms, total 21ms
+E/ActivityManager(  464): ANR in com.huffingtonpost.android (com.huffingtonpost.android/.edition.SelectAnEditionActivity)
+E/ActivityManager(  464): PID: 3241
+E/ActivityManager(  464): Reason: Input dispatching timed out (Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.)
+E/ActivityManager(  464): Load: 3.06 / 2.78 / 2.62
+E/ActivityManager(  464): CPU usage from 5356ms to 0ms ago:
+E/ActivityManager(  464):   7.6% 167/surfaceflinger: 0.3% user + 7.2% kernel
+E/ActivityManager(  464):   3.9% 464/system_server: 0.3% user + 3.5% kernel / faults: 957 minor
+E/ActivityManager(  464):   0.9% 76/adbd: 0% user + 0.9% kernel
+E/ActivityManager(  464):   0.5% 713/com.google.android.gms: 0.1% user + 0.3% kernel / faults: 6 minor
+E/ActivityManager(  464):   0.3% 654/com.google.android.gms.persistent: 0% user + 0.3% kernel / faults: 2 minor
+E/ActivityManager(  464):   0.3% 3143/logcat: 0% user + 0.3% kernel / faults: 2 minor
+E/ActivityManager(  464):   0% 168/zygote: 0% user + 0% kernel / faults: 235 minor
+E/ActivityManager(  464):  +0% 3241/com.huffingtonpost.android: 0% user + 0% kernel
+E/ActivityManager(  464): 24% TOTAL: 10% user + 13% kernel + 0.1% iowait + 0.7% softirq
+E/ActivityManager(  464): CPU usage from 1087ms to 1596ms later:
+E/ActivityManager(  464):   3.9% 464/system_server: 0% user + 3.9% kernel
+E/ActivityManager(  464):     1.9% 471/FinalizerDaemon: 0% user + 1.9% kernel
+E/ActivityManager(  464): 2% TOTAL: 0% user + 2% kernel
+W/ActivityManager(  464): Launch timeout has expired, giving up wake lock!
+I/Process (  464): Sending signal. PID: 3241 SIG: 9
+E/AndroidRuntime( 3241): FATAL EXCEPTION: main
+E/AndroidRuntime( 3241): Process: com.huffingtonpost.android, PID: 3241
+E/AndroidRuntime( 3241): java.lang.Error: Unresolved compilation error: Method <android.support.graphics.drawable.VectorDrawableCompat: int getLayoutDirection()> does not exist!
+E/AndroidRuntime( 3241): 	at android.support.graphics.drawable.VectorDrawableCompat.getLayoutDirection(VectorDrawableCompat.java)
+E/AndroidRuntime( 3241): 	at android.graphics.drawable.Drawable.setLayoutDirection(Drawable.java:403)
+E/AndroidRuntime( 3241): 	at android.widget.ImageView.updateDrawable(ImageView.java:712)
+E/AndroidRuntime( 3241): 	at android.widget.ImageView.setImageDrawable(ImageView.java:421)
+E/AndroidRuntime( 3241): 	at android.support.v7.widget.Toolbar.setNavigationIcon(Toolbar.java:969)
+E/AndroidRuntime( 3241): 	at android.support.v7.widget.ToolbarWidgetWrapper.updateNavigationIcon(ToolbarWidgetWrapper.java:611)
+E/AndroidRuntime( 3241): 	at android.support.v7.widget.ToolbarWidgetWrapper.setDisplayOptions(ToolbarWidgetWrapper.java:392)
+E/AndroidRuntime( 3241): 	at android.support.v7.app.ToolbarActionBar.setDisplayOptions(ToolbarActionBar.java:264)
+E/AndroidRuntime( 3241): 	at android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled(ToolbarActionBar.java:279)
+E/AndroidRuntime( 3241): 	at com.huffingtonpost.android.base.BaseActivity.setShowBack(BaseActivity.java:280)
+E/AndroidRuntime( 3241): 	at com.huffingtonpost.android.base.SingleFragmentActivity.onCreate(SingleFragmentActivity.java:20)
+E/AndroidRuntime( 3241): 	at com.huffingtonpost.android.edition.SelectAnEditionActivity.onCreate(SelectAnEditionActivity.java:53)
+E/AndroidRuntime( 3241): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime( 3241): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime( 3241): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime( 3241): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime( 3241): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime( 3241): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime( 3241): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 3241): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime( 3241): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime( 3241): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 3241): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime( 3241): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime( 3241): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime( 3241): 	at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  464): Force-killing crashed app com.huffingtonpost.android at watcher's request
+W/ContextImpl(  464): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+W/NetworkManagementSocketTagger(  464): setKernelCountSet(10165, 0) failed with errno -13
+I/ActivityManager(  464): Process com.huffingtonpost.android (pid 3241) has died.
+I/ActivityManager(  464): Start proc com.huffingtonpost.android for activity com.huffingtonpost.android/.edition.SelectAnEditionActivity: pid=3320 uid=10165 gids={50165, 3003}
+W/NetworkManagementSocketTagger(  464): setKernelCountSet(10165, 1) failed with errno -13
+I/dalvikvm( 3320): ignoring registerObject request in thread=1
+I/dalvikvm( 3320): ignoring registerObject request in thread=1
+E/dalvikvm( 3320): Could not find class 'android.app.job.JobScheduler', referenced from method com.huffingtonpost.android.HuffingtonPostApplication.onCreate
+W/dalvikvm( 3320): VFY: unable to resolve check-cast 79 (Landroid/app/job/JobScheduler;) in Lcom/huffingtonpost/android/HuffingtonPostApplication;
+D/dalvikvm( 3320): VFY: replacing opcode 0x1f at 0x00fe
+I/dalvikvm( 3320): Could not find method android.app.job.JobScheduler.getAllPendingJobs, referenced from method com.huffingtonpost.android.settings.OfflineSettingsManager.rescheduleDownloads
+W/dalvikvm( 3320): VFY: unable to resolve virtual method 407: Landroid/app/job/JobScheduler;.getAllPendingJobs ()Ljava/util/List;
+D/dalvikvm( 3320): VFY: replacing opcode 0x6e at 0x0026
+I/dalvikvm( 3320): Could not find method android.app.job.JobScheduler.cancelAll, referenced from method com.huffingtonpost.android.settings.OfflineSettingsManager.rescheduleDownloads
+W/dalvikvm( 3320): VFY: unable to resolve virtual method 406: Landroid/app/job/JobScheduler;.cancelAll ()V
+D/dalvikvm( 3320): VFY: replacing opcode 0x6e at 0x0129
+D/dalvikvm( 3320): DexOpt: unable to opt direct call 0x0190 at 0x5a in Lcom/huffingtonpost/android/settings/OfflineSettingsManager;.rescheduleDownloads
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <clinit>()>	sig:$r2 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.lang.Object[])>($r0)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <clinit>()>	sig:$r2 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.lang.Object[])>($r3)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <clinit>()>	sig:specialinvoke $r5.<okhttp3.OkHttpClient$1: void <init>()>()	timediff:0
+D/dalvikvm( 3320): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 3320): GC_CONCURRENT freed 334K, 12% free 2906K/3296K, paused 0ms+4ms, total 10ms
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r3.<okhttp3.Dispatcher: void <init>()>()	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$000()>()	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$100()>()	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r4 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r10.<okhttp3.ConnectionPool: void <init>()>()	timediff:1
+I/System.out( 3320): body:<okhttp3.Dns: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.Dns$1: void <init>()>()	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>()>	sig:specialinvoke $r1.<okhttp3.OkHttpClient$Builder: void <init>()>()	timediff:5
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$z1 = virtualinvoke $r12.<okhttp3.ConnectionSpec: boolean isTls()>()	timediff:1
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r20 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.X509TrustManager systemDefaultTrustManager()>()	timediff:14
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r13 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)>($r20)	timediff:1
+D/dalvikvm( 3320): GC_CONCURRENT freed 177K, 9% free 3116K/3416K, paused 2ms+1ms, total 4ms
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r14 = staticinvoke <okhttp3.internal.tls.CertificateChainCleaner: okhttp3.internal.tls.CertificateChainCleaner get(javax.net.ssl.X509TrustManager)>($r20)	timediff:5
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r16 = virtualinvoke $r16.<okhttp3.CertificatePinner: okhttp3.CertificatePinner withCertificateChainCleaner(okhttp3.internal.tls.CertificateChainCleaner)>($r14)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>()>	sig:specialinvoke $r0.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>($r1)	timediff:21
+I/System.out( 3320): body:<com.huffingtonpost.android.data.RetrofitManager: void <init>()>	sig:specialinvoke $r1.<okhttp3.OkHttpClient: void <init>()>()	timediff:30
+W/DebugConnManager( 3320): getNetworkInfo() on networkType 1
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r3.<okhttp3.Dispatcher: void <init>()>()	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$000()>()	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$100()>()	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r4 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r10.<okhttp3.ConnectionPool: void <init>()>()	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:specialinvoke $r26.<okhttp3.OkHttpClient$Builder: void <init>()>()	timediff:4
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:specialinvoke $r27.<okhttp3.Dispatcher: void <init>(java.util.concurrent.ExecutorService)>($r28)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder dispatcher(okhttp3.Dispatcher)>($r27)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder connectTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r29)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder readTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r29)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder writeTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r29)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder dns(okhttp3.Dns)>($r30)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder retryOnConnectionFailure(boolean)>(1)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder followRedirects(boolean)>(1)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder followSslRedirects(boolean)>(1)	timediff:0
+I/System.out( 3320): body:<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>	sig:specialinvoke $r3.<okhttp3.Cache$1: void <init>(okhttp3.Cache)>($r0)	timediff:0
+I/System.out( 3320): body:<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>	sig:$r4 = staticinvoke <okhttp3.internal.cache.DiskLruCache: okhttp3.internal.cache.DiskLruCache create(okhttp3.internal.io.FileSystem,java.io.File,int,int,long)>($r2, $r1, 201105, 2, $l0)	timediff:1
+I/System.out( 3320): body:<okhttp3.Cache: void <init>(java.io.File,long)>	sig:specialinvoke $r0.<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>($r1, $l0, $r2)	timediff:2
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:specialinvoke $r31.<okhttp3.Cache: void <init>(java.io.File,long)>($r32, 314572800L)	timediff:2
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder cache(okhttp3.Cache)>($r31)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder addInterceptor(okhttp3.Interceptor)>($r33)	timediff:0
+W/dalvikvm( 3320): VFY: warning: method is huge (regs=2459 insnsSize=18924)
+W/dalvikvm( 3320): VFY:  rejected Lcom/huffingtonpost/android/data/RetrofitManager$2;.intercept (Lokhttp3/Interceptor$Chain;)Lokhttp3/Response;
+E/dalvikvm( 3320): ERROR: register map can't handle 2459 registers
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder addInterceptor(okhttp3.Interceptor)>($r34)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder addNetworkInterceptor(okhttp3.Interceptor)>($r35)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$z1 = virtualinvoke $r12.<okhttp3.ConnectionSpec: boolean isTls()>()	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r20 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.X509TrustManager systemDefaultTrustManager()>()	timediff:10
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r13 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)>($r20)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r14 = staticinvoke <okhttp3.internal.tls.CertificateChainCleaner: okhttp3.internal.tls.CertificateChainCleaner get(javax.net.ssl.X509TrustManager)>($r20)	timediff:1
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r16 = virtualinvoke $r16.<okhttp3.CertificatePinner: okhttp3.CertificatePinner withCertificateChainCleaner(okhttp3.internal.tls.CertificateChainCleaner)>($r14)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder,okhttp3.OkHttpClient$1)>	sig:specialinvoke $r0.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>($r1)	timediff:13
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient build()>	sig:specialinvoke $r1.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder,okhttp3.OkHttpClient$1)>($r0, null)	timediff:13
+I/System.out( 3320): body:<com.huffingtonpost.android.HuffingtonPostApplication: void onCreate()>	sig:$r36 = virtualinvoke $r26.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient build()>()	timediff:14
+D/dalvikvm( 3320): GC_CONCURRENT freed 373K, 12% free 3187K/3612K, paused 0ms+3ms, total 7ms
+I/dalvikvm( 3320): Could not find method android.content.res.Resources.getColor, referenced from method com.atinternet.tracker.Tool.getColor
+W/dalvikvm( 3320): VFY: unable to resolve virtual method 645: Landroid/content/res/Resources;.getColor (ILandroid/content/res/Resources$Theme;)I
+D/dalvikvm( 3320): VFY: replacing opcode 0x6e at 0x000b
+I/dalvikvm( 3320): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.zze.zzs
+W/dalvikvm( 3320): VFY: unable to resolve virtual method 605: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 3320): VFY: replacing opcode 0x6e at 0x001a
+D/dalvikvm( 3320): GC_CONCURRENT freed 216K, 7% free 3490K/3752K, paused 2ms+0ms, total 5ms
+D/dalvikvm( 3320): GC_CONCURRENT freed 173K, 7% free 3739K/3980K, paused 0ms+1ms, total 3ms
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r3.<okhttp3.Dispatcher: void <init>()>()	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$000()>()	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$100()>()	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r4 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r10.<okhttp3.ConnectionPool: void <init>()>()	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:specialinvoke $r2.<okhttp3.OkHttpClient$Builder: void <init>()>()	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder connectTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r4)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder readTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r4)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder writeTimeout(long,java.util.concurrent.TimeUnit)>($l1, $r4)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder dns(okhttp3.Dns)>($r5)	timediff:0
+I/System.out( 3320): body:<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>	sig:specialinvoke $r3.<okhttp3.Cache$1: void <init>(okhttp3.Cache)>($r0)	timediff:0
+I/System.out( 3320): body:<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>	sig:$r4 = staticinvoke <okhttp3.internal.cache.DiskLruCache: okhttp3.internal.cache.DiskLruCache create(okhttp3.internal.io.FileSystem,java.io.File,int,int,long)>($r2, $r1, 201105, 2, $l0)	timediff:0
+I/System.out( 3320): body:<okhttp3.Cache: void <init>(java.io.File,long)>	sig:specialinvoke $r0.<okhttp3.Cache: void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)>($r1, $l0, $r2)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:specialinvoke $r6.<okhttp3.Cache: void <init>(java.io.File,long)>($r3, 314572800L)	timediff:0
+I/System.out( 3320): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder cache(okhttp3.Cache)>($r6)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:1
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r3 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r3)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$z1 = virtualinvoke $r12.<okhttp3.ConnectionSpec: boolean isTls()>()	timediff:0
+D/dalvikvm( 3320): GC_CONCURRENT freed 297K, 9% free 3952K/4304K, paused 0ms+0ms, total 3ms
+D/dalvikvm( 3320): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm( 3320): WAIT_FOR_CONCURRENT_GC blocked 11ms
+D/dalvikvm( 3320): WAIT_FOR_CONCURRENT_GC blocked 13ms
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r20 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.X509TrustManager systemDefaultTrustManager()>()	timediff:22
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r13 = specialinvoke $r0.<okhttp3.OkHttpClient: javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)>($r20)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r14 = staticinvoke <okhttp3.internal.tls.CertificateChainCleaner: okhttp3.internal.tls.CertificateChainCleaner get(javax.net.ssl.X509TrustManager)>($r20)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r16 = virtualinvoke $r16.<okhttp3.CertificatePinner: okhttp3.CertificatePinner withCertificateChainCleaner(okhttp3.internal.tls.CertificateChainCleaner)>($r14)	timediff:0
+I/System.out( 3320): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder,okhttp3.OkHttpClient$1)>	sig:specialinvoke $r0.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>($r1)	timediff:25
+I/System.out( 3320): body:<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient build()>	sig:specialinvoke $r1.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder,okhttp3.OkHttpClient$1)>($r0, null)	timediff:26
+I/System.out( 3320): body:<com.huffingtonpost.android.api.OkHttpDownloader: void <init>(android.content.Context)>	sig:$r7 = virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient build()>()	timediff:26
+W/Settings( 3320): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+I/dalvikvm( 3320): Could not find method android.content.Context.getNoBackupFilesDir, referenced from method com.urbanairship.util.DataManager.<init>
+W/dalvikvm( 3320): VFY: unable to resolve virtual method 250: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;
+D/dalvikvm( 3320): VFY: replacing opcode 0x6e at 0x000b
+W/DebugConnManager( 3320): getNetworkInfo() on networkType 1
+D/dalvikvm( 3320): GC_CONCURRENT freed 295K, 8% free 4052K/4404K, paused 3ms+3ms, total 10ms
+I/dalvikvm( 3320): Could not find method android.view.ViewAnimationUtils.createCircularReveal, referenced from method com.huffingtonpost.android.utils.EnterReveal.safeRun
+W/dalvikvm( 3320): VFY: unable to resolve static method 1734: Landroid/view/ViewAnimationUtils;.createCircularReveal (Landroid/view/View;IIFF)Landroid/animation/Animator;
+D/dalvikvm( 3320): VFY: replacing opcode 0x71 at 0x002e
+I/dalvikvm( 3320): Could not find method android.content.Context.checkSelfPermission, referenced from method com.urbanairship.actions.Action.requestPermissions
+W/dalvikvm( 3320): VFY: unable to resolve virtual method 234: Landroid/content/Context;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 3320): VFY: replacing opcode 0x6e at 0x000e
+E/dalvikvm( 3320): Could not find class 'android.media.session.MediaController', referenced from method android.support.v4.app.FragmentActivity.setSupportMediaController
+W/dalvikvm( 3320): VFY: unable to resolve check-cast 309 (Landroid/media/session/MediaController;) in Landroid/support/v4/app/FragmentActivity;
+D/dalvikvm( 3320): VFY: replacing opcode 0x1f at 0x0022
+I/System.out( 3320): body:<com.envrmnt.lib.data.VolleyDataProvider: void <init>(android.content.Context,java.lang.String)>	sig:specialinvoke $r4.<java.net.CookieManager: void <init>()>()	timediff:1
+I/System.out( 3320): body:<com.envrmnt.lib.data.VolleyDataProvider: void <init>(android.content.Context,java.lang.String)>	sig:staticinvoke <java.net.CookieHandler: void setDefault(java.net.CookieHandler)>($r4)	timediff:0
+D/dalvikvm( 3320): GC_CONCURRENT freed 194K, 6% free 4314K/4564K, paused 4ms+3ms, total 10ms
+I/dalvikvm( 3320): Could not find method android.view.Window$Callback.onProvideKeyboardShortcuts, referenced from method android.support.v7.view.WindowCallbackWrapper.onProvideKeyboardShortcuts
+W/dalvikvm( 3320): VFY: unable to resolve interface method 12440: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V
+D/dalvikvm( 3320): VFY: replacing opcode 0x72 at 0x0002
+W/dalvikvm( 3320): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm( 3320): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.WindowCallbackWrapper.onSearchRequested
+W/dalvikvm( 3320): VFY: unable to resolve interface method 12442: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm( 3320): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm( 3320): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.WindowCallbackWrapper.onWindowStartingActionMode
+W/dalvikvm( 3320): VFY: unable to resolve interface method 12446: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 3320): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm( 3320): Could not find method android.content.Context.getColor, referenced from method android.support.v4.content.ContextCompat.getColor
+W/dalvikvm( 3320): VFY: unable to resolve virtual method 448: Landroid/content/Context;.getColor (I)I
+D/dalvikvm( 3320): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm( 3320): Could not find method android.content.Context.getColorStateList, referenced from method android.support.v4.content.ContextCompat.getColorStateList
+W/dalvikvm( 3320): VFY: unable to resolve virtual method 449: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm( 3320): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm( 3320): Could not find method android.content.Context.getDrawable, referenced from method android.support.v4.content.ContextCompat.getDrawable
+W/dalvikvm( 3320): VFY: unable to resolve virtual method 453: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 3320): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm( 3320): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method android.support.v4.content.ContextCompat.isDeviceProtectedStorage
+W/dalvikvm( 3320): VFY: unable to resolve virtual method 469: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm( 3320): VFY: replacing opcode 0x6e at 0x0006
+D/dalvikvm( 3320): DexOpt: couldn't find static field Landroid/hardware/camera2/CameraCharacteristics;.LENS_FACING
+W/dalvikvm( 3320): VFY: unable to resolve static field 93 (LENS_FACING) in Landroid/hardware/camera2/CameraCharacteristics;
+D/dalvikvm( 3320): VFY: replacing opcode 0x62 at 0x002d
+I/dalvikvm( 3320): Could not find method android.content.Context.getExternalMediaDirs, referenced from method com.millennialmedia.internal.utils.EnvironmentUtils.getPicturesDirectory
+W/dalvikvm( 3320): VFY: unable to resolve virtual method 247: Landroid/content/Context;.getExternalMediaDirs ()[Ljava/io/File;
+D/dalvikvm( 3320): VFY: replacing opcode 0x6e at 0x0009
+D/EmulatedCamera_Camera(  170): getCameraInfo , camera orientation: front(0) , back(0)
+D/EmulatedCamera_Camera(  170): getCameraInfo , camera orientation: front(0) , back(0)
+V/WebViewChromium( 3320): Binding Chromium to the main looper Looper (main, tid 1) {4a7e7ea0}
+I/chromium( 3320): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain( 3320): Initializing chromium process, renderers=0
+D/dalvikvm( 3320): GC_CONCURRENT freed 226K, 6% free 4482K/4764K, paused 3ms+3ms, total 12ms
+W/chromium( 3320): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/libEGL  ( 3320): loaded /system/lib/egl/libEGL_adreno.so
+D/dalvikvm( 3320): GC_FOR_ALLOC freed 293K, 7% free 4757K/5104K, paused 3ms, total 14ms
+D/        ( 3320): HostConnection::get() New Host Connection established 0xb8817620, tid 3320
+D/dalvikvm( 3320): GC_CONCURRENT freed 34K, 5% free 4887K/5104K, paused 3ms+5ms, total 17ms
+D/libEGL  ( 3320): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 3320): loaded /system/lib/egl/libGLESv2_adreno.so
+D/dalvikvm( 3320): GC_CONCURRENT freed 468K, 10% free 5019K/5548K, paused 2ms+3ms, total 10ms
+W/SocketClient(  163): write error (Broken pipe)
+I/dalvikvm( 3320): Could not find method android.content.Context.getColorStateList, referenced from method android.support.v7.content.res.AppCompatResources.getColorStateList
+W/dalvikvm( 3320): VFY: unable to resolve virtual method 449: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm( 3320): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm( 3320): Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawable
+W/dalvikvm( 3320): VFY: unable to resolve virtual method 654: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 3320): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm( 3320): Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawableForDensity
+W/dalvikvm( 3320): VFY: unable to resolve virtual method 656: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 3320): VFY: replacing opcode 0x6e at 0x0002
+E/dalvikvm( 3320): Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method android.support.v7.widget.AppCompatImageHelper.hasOverlappingRendering
+W/dalvikvm( 3320): VFY: unable to resolve instanceof 248 (Landroid/graphics/drawable/RippleDrawable;) in Landroid/support/v7/widget/AppCompatImageHelper;
+D/dalvikvm( 3320): VFY: replacing opcode 0x20 at 0x000c
+D/AndroidRuntime( 3320): Shutting down VM
+W/dalvikvm( 3320): threadid=1: thread exiting with uncaught exception (group=0x94d12b20)
+I/InputDispatcher(  464): Application is not responding: AppWindowToken{4acaa0e0 token=Token{4adb7880 ActivityRecord{4adbf054 u0 com.huffingtonpost.android/.edition.SelectAnEditionActivity t485}}}.  It has been 5003.5ms since event, 5001.6ms since wait started.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+I/WindowManager(  464): Input event dispatching timed out sending to application AppWindowToken{4acaa0e0 token=Token{4adb7880 ActivityRecord{4adbf054 u0 com.huffingtonpost.android/.edition.SelectAnEditionActivity t485}}}.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+W/InputManager(  464): Input event injection from pid 3145 timed out.
+I/Process (  464): Sending signal. PID: 3320 SIG: 3
+I/dalvikvm( 3320): threadid=3: reacting to signal 3
+W/ProcessCpuTracker(  464): Skipping unknown process pid 3395
+I/dalvikvm( 3320): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  464): Sending signal. PID: 464 SIG: 3
+I/dalvikvm(  464): threadid=3: reacting to signal 3
+D/dalvikvm( 3320): GC_CONCURRENT freed 723K, 16% free 4665K/5548K, paused 0ms+0ms, total 4ms
+I/dalvikvm(  464): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  464): Sending signal. PID: 668 SIG: 3
+I/dalvikvm(  668): threadid=3: reacting to signal 3
+I/dalvikvm(  668): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  464): Sending signal. PID: 532 SIG: 3
+I/dalvikvm(  532): threadid=3: reacting to signal 3
+I/dalvikvm(  532): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm(  464): GC_EXPLICIT freed 2003K, 45% free 17235K/31284K, paused 0ms+2ms, total 17ms
+E/ActivityManager(  464): ANR in com.huffingtonpost.android (com.huffingtonpost.android/.edition.SelectAnEditionActivity)
+E/ActivityManager(  464): PID: 3320
+E/ActivityManager(  464): Reason: Input dispatching timed out (Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.)
+E/ActivityManager(  464): Load: 3.22 / 2.82 / 2.64
+E/ActivityManager(  464): CPU usage from 5008ms to 0ms ago:
+E/ActivityManager(  464):   4.1% 464/system_server: 0.9% user + 3.1% kernel / faults: 409 minor
+E/ActivityManager(  464):   0.7% 76/adbd: 0.1% user + 0.5% kernel
+E/ActivityManager(  464):   0% 24587/debuggerd: 0% user + 0% kernel / faults: 2887 minor
+E/ActivityManager(  464):   0.5% 3143/logcat: 0% user + 0.5% kernel / faults: 1 minor
+E/ActivityManager(  464):   0.3% 167/surfaceflinger: 0% user + 0.3% kernel
+E/ActivityManager(  464):   0.3% 713/com.google.android.gms: 0% user + 0.3% kernel / faults: 4 minor
+E/ActivityManager(  464):   0% 532/com.android.systemui: 0% user + 0% kernel
+E/ActivityManager(  464):   0% 668/com.android.phone: 0% user + 0% kernel / faults: 11 minor
+E/ActivityManager(  464):  +0% 3320/com.huffingtonpost.android: 0% user + 0% kernel
+E/ActivityManager(  464): 15% TOTAL: 4.4% user + 10% kernel + 0.1% iowait + 0.8% softirq
+E/ActivityManager(  464): CPU usage from 1480ms to 1995ms later:
+E/ActivityManager(  464):   1.9% 464/system_server: 0% user + 1.9% kernel
+E/ActivityManager(  464): 1% TOTAL: 0% user + 1% kernel
+E/AndroidRuntime( 3320): FATAL EXCEPTION: main
+E/AndroidRuntime( 3320): Process: com.huffingtonpost.android, PID: 3320
+E/AndroidRuntime( 3320): java.lang.Error: Unresolved compilation error: Method <android.support.graphics.drawable.VectorDrawableCompat: int getLayoutDirection()> does not exist!
+E/AndroidRuntime( 3320): 	at android.support.graphics.drawable.VectorDrawableCompat.getLayoutDirection(VectorDrawableCompat.java)
+E/AndroidRuntime( 3320): 	at android.graphics.drawable.Drawable.setLayoutDirection(Drawable.java:403)
+E/AndroidRuntime( 3320): 	at android.widget.ImageView.updateDrawable(ImageView.java:712)
+E/AndroidRuntime( 3320): 	at android.widget.ImageView.setImageDrawable(ImageView.java:421)
+E/AndroidRuntime( 3320): 	at android.support.v7.widget.Toolbar.setNavigationIcon(Toolbar.java:969)
+E/AndroidRuntime( 3320): 	at android.support.v7.widget.ToolbarWidgetWrapper.updateNavigationIcon(ToolbarWidgetWrapper.java:611)
+E/AndroidRuntime( 3320): 	at android.support.v7.widget.ToolbarWidgetWrapper.setDisplayOptions(ToolbarWidgetWrapper.java:392)
+E/AndroidRuntime( 3320): 	at android.support.v7.app.ToolbarActionBar.setDisplayOptions(ToolbarActionBar.java:264)
+E/AndroidRuntime( 3320): 	at android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled(ToolbarActionBar.java:279)
+E/AndroidRuntime( 3320): 	at com.huffingtonpost.android.base.BaseActivity.setShowBack(BaseActivity.java:280)
+E/AndroidRuntime( 3320): 	at com.huffingtonpost.android.base.SingleFragmentActivity.onCreate(SingleFragmentActivity.java:20)
+E/AndroidRuntime( 3320): 	at com.huffingtonpost.android.edition.SelectAnEditionActivity.onCreate(SelectAnEditionActivity.java:53)
+E/AndroidRuntime( 3320): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime( 3320): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime( 3320): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime( 3320): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime( 3320): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime( 3320): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime( 3320): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 3320): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime( 3320): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime( 3320): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 3320): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime( 3320): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime( 3320): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime( 3320): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  464): Sending signal. PID: 3320 SIG: 9
+W/ActivityManager(  464): Force-killing crashed app com.huffingtonpost.android at watcher's request
+W/ContextImpl(  464): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  464): Process com.huffingtonpost.android (pid 3320) has died.
+W/ActivityManager(  464): Force removing ActivityRecord{4adbf054 u0 com.huffingtonpost.android/.edition.SelectAnEditionActivity t485}: app died, no saved state
+W/NetworkManagementSocketTagger(  464): setKernelCountSet(10165, 0) failed with errno -13
+W/EGL_emulation(31424): eglSurfaceAttrib not implemented 3093 12436
+D/WebViewTimersControl(31424): onBrowserActivityResume
+D/WebViewTimersControl(31424): Resuming webview timers, view=com.android.browser.BrowserWebView{4a7e3464 VFEDHVCL .F...... 0,0-1280,604}
+W/InputMethodManagerService(  464): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae3b948 attribute=null, token = android.os.BinderProxy@4a9c1814
+I/AndroidRuntime( 3145): VM exiting with result code 7.

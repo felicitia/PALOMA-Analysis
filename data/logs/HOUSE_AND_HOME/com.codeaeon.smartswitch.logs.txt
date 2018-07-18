@@ -1,0 +1,1616 @@
+--------- beginning of /dev/log/main
+D/AndroidRuntime(18917): 
+D/AndroidRuntime(18917): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(18917): CheckJNI is OFF
+D/dalvikvm(18917): Using executionMode 2
+D/dalvikvm(18917): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(18917): Added shared lib libjavacore.so 0x0
+D/dalvikvm(18917): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(18917): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(18917): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(18917): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(18917): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(18917): failed to load memtrack module: -2
+D/AndroidRuntime(18917): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  478): Skipping deliver [background] BroadcastRecord{4ab43910 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4aa3841c 18917 (unknown name)/0/u-1 remote:4aa4303c}: process crashing
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/yeshen  (  682): launcher onpause
+I/ActivityManager(  478): Start proc com.codeaeon.smartswitch for activity com.codeaeon.smartswitch/.MainActivity: pid=18927 uid=10226 gids={50226, 3002, 3001}
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=490.14282 v=0.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=490.14282 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=490.14282 v=-3000.0)
+D/yeshen  (  682): launcher onstop
+D/FirebaseApp(  682): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  682): onTrimMemory level:20
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/dalvikvm(18927): ignoring registerObject request in thread=1
+I/dalvikvm(18927): ignoring registerObject request in thread=1
+D/BluetoothManagerService(  478): Message: 20
+D/BluetoothManagerService(  478): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@4abe12c8:true
+W/dalvikvm(18927): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm(18927): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.internal.view.WindowCallbackWrapper.onSearchRequested
+W/dalvikvm(18927): VFY: unable to resolve interface method 15487: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm(18927): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm(18927): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.internal.view.WindowCallbackWrapper.onWindowStartingActionMode
+W/dalvikvm(18927): VFY: unable to resolve interface method 15491: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm(18927): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm(18927): Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.internal.widget.TintTypedArray.getChangingConfigurations
+W/dalvikvm(18927): VFY: unable to resolve virtual method 439: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+D/dalvikvm(18927): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm(18927): Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.internal.widget.TintTypedArray.getType
+W/dalvikvm(18927): VFY: unable to resolve virtual method 461: Landroid/content/res/TypedArray;.getType (I)I
+D/dalvikvm(18927): VFY: replacing opcode 0x6e at 0x0002
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+D/dalvikvm(18927): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(18927): GC_CONCURRENT freed 217K, 9% free 2957K/3240K, paused 3ms+0ms, total 5ms
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+D/dalvikvm(18927): GC_FOR_ALLOC freed 40K, 9% free 3112K/3400K, paused 3ms, total 3ms
+I/dalvikvm-heap(18927): Grow heap (frag case) to 3.702MB for 635808-byte allocation
+D/dalvikvm(18927): GC_CONCURRENT freed 0K, 8% free 3733K/4024K, paused 0ms+0ms, total 2ms
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+W/EGL_emulation(  534): eglSurfaceAttrib not implemented 3093 12436
+D/libEGL  (18927): loaded /system/lib/egl/libEGL_adreno.so
+D/        (18927): HostConnection::get() New Host Connection established 0xb96ce590, tid 18927
+D/libEGL  (18927): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (18927): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(18927): Enabling debug mode 0
+D/FirebaseApp(  682): Notifying background state change listeners.
+D/Sensors (  478): Client connection accepted (202)
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  682): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=2453758, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2453761, downTime=2453744, deviceId=0, source=0x10004 }
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+D/dalvikvm(18927): GC_CONCURRENT freed 65K, 4% free 4054K/4180K, paused 0ms+0ms, total 3ms
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2453771, downTime=2453771, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  645): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  645): java.lang.NullPointerException
+W/Binder  (  645): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  645): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  645): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  645): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  478): Got RemoteException sending setActive(false) notification to pid 18420 uid 10225
+W/Launcher(  682): No global search activity found.
+W/Launcher(  682): No global search activity found.
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1020 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 com.vphone.launcher.utils.AppUtil.onQsbClicked:1474 
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1032 android.app.ContextImpl.startActivity:1021 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=https://www.bignox.com/gsearch/index?g=32c3adf2-4ef0-4bfa-9817-0931a0a194ab&a=2c56dc4e22148605&i=355325040445621&m=2C:56:DC:4E:22:14 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/Launcher(  682): No global search activity found.
+D/Sensors (  478): Client connection accepted (181)
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 682
+W/PhoneFallbackEventHandler(  682): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+W/Launcher(  682): No global search activity found.
+I/WearableService(18105): Wearable Services stopping
+D/Sensors (  478): Client connection accepted (185)
+W/Launcher(  682): No global search activity found.
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1020 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 com.vphone.launcher.utils.AppUtil.onQsbClicked:1474 
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1032 android.app.ContextImpl.startActivity:1021 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=https://www.bignox.com/gsearch/index?g=32c3adf2-4ef0-4bfa-9817-0931a0a194ab&a=2c56dc4e22148605&i=355325040445621&m=2C:56:DC:4E:22:14 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+D/Sensors (  478): Client connection accepted (185)
+W/Launcher(  682): No global search activity found.
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/yeshen  (  682): launcher onpause
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 1) failed with errno -13
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x400, repeatCount=2, eventTime=2455486, downTime=2455486, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2455487, downTime=2455487, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2455487, downTime=2455487, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2455487, downTime=2455487, deviceId=-1, source=0x101 }
+E/SurfaceFlinger(  166): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  166): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  166): setOrientation, mFbdev=0xb885b050, mFbDev->setOrientation=0xb69fdce0, orientation=0
+I/gralloc_nox(  166): setOrientation: orientation=0
+I/ActivityManager(  478): Config changes=480 {1.0 310mcc16mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger -keyb/v/h dpad/v s.87}
+D/Sensors (  478): Client connection accepted (176)
+D/Tinker.DefaultAppLike(  682): onConfigurationChanged:{1.0 310mcc16mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger -keyb/v/h dpad/v s.87}
+I/InputReader(  478): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  478): Device reconfigured: id=1, name='seamless mouse', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  478): Device reconfigured: id=3, name='Android Input', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  478): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 0, mode 1, display id 0
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1189)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.dispatchCreate(FragmentManager.java:1996)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.dispatchCreate(FragmentController.java:154)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onCreate(FragmentActivity.java:253)
+E/SQLiteDatabase(18927): 	at android.support.v7.app.AppCompatActivity.onCreate(AppCompatActivity.java:61)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onCreate(MainActivity.java:92)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleRelaunchActivity(ActivityThread.java:3736)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$900(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1202)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+D/PhoneStatusBar(  534): mSettingsPanelGravity = 55
+D/dalvikvm(  534): GC_FOR_ALLOC freed 9102K, 48% free 7544K/14440K, paused 6ms, total 6ms
+I/dalvikvm-heap(  534): Grow heap (frag case) to 13.676MB for 6553612-byte allocation
+D/dalvikvm(  534): GC_CONCURRENT freed 10K, 34% free 13934K/20844K, paused 2ms+0ms, total 8ms
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+W/ActivityManager(  478): Duplicate finish request for ActivityRecord{4af318c8 u0 com.codeaeon.smartswitch/.MainActivity t192 f}
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+D/yeshen  (  682): launcher onstop
+W/Launcher(  682): setApplicationContext called twice! old=com.vphone.launcher.LauncherApplicationEx@4a7d8d18 new=com.vphone.launcher.LauncherApplicationEx@4a7d8d18
+W/EGL_emulation(  534): eglSurfaceAttrib not implemented 3093 12436
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+W/ResourceType(  682): Attempt to retrieve bag 0x7f0b0001 which is invalid or in a cycle.
+D/Launcher(  682): 11683562 - bindAddScreens()
+D/Launcher(  682): 11683562 -   orderedScreenIds: 1
+D/Launcher.Workspace(  682): 11683562 - insertNewWorkspaceScreen(): 1 at index: 0
+D/dalvikvm(18927): GC_CONCURRENT freed 269K, 8% free 4172K/4504K, paused 41ms+1ms, total 45ms
+W/PhoneWindow(  682): Previously focused view reported id 2131689766 during save, but can't be found during restore.
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1492 android.content.ContextWrapper.startService:494 com.vphone.launcher.Launcher.i:690 com.vphone.launcher.Launcher.b:182 com.vphone.launcher.Launcher$11.run:650 
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 0) failed with errno -13
+I/WindowManager(  478): Screen frozen for +728ms due to Window{4aa8e5a8 u0 com.vphone.launcher/com.vphone.launcher.Launcher}
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/PropertyValuesHolder(  682): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  682): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/yeshen  (  682): launcher onpause
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 1) failed with errno -13
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+D/dalvikvm(  478): GC_FOR_ALLOC freed 1923K, 36% free 12557K/19616K, paused 14ms, total 14ms
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2456936, downTime=2456936, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abe635c attribute=android.view.inputmethod.EditorInfo@4af13144, token = android.os.BinderProxy@4adbc7ec
+W/PropertyValuesHolder(  682): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  682): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  534): animationTick called with dtms=-9; nothing to do (h=0.0 v=0.0)
+D/dalvikvm(  682): GC_CONCURRENT freed 8130K, 6% free 153830K/162736K, paused 1ms+38ms, total 201ms
+W/PropertyValuesHolder(  682): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  682): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mobilehomesdirect4less.mhd/.MainActivity bnds=[130,428][334,555]} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/yeshen  (  682): launcher onpause
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+D/dalvikvm(18927): GC_CONCURRENT freed 380K, 10% free 4183K/4624K, paused 1ms+3ms, total 11ms
+W/SQLiteConnectionPool(18927): A SQLiteConnection object for database '/data/data/com.codeaeon.smartswitch/databases/smart_switch' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+W/SQLiteConnectionPool(18927): A SQLiteConnection object for database '/data/data/com.codeaeon.smartswitch/databases/smart_switch' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_H, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2457841, downTime=2457841, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8d2620 attribute=null, token = android.os.BinderProxy@4adbc7ec
+W/PropertyValuesHolder(  682): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  682): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vphone.helper/.MainActivity bnds=[946,174][1150,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 0) failed with errno -13
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+E/Finsky  (18825): [1064] com.google.android.finsky.aq.c.a(34): Unable to build selector: /storage/emulated/0/Download/marketenvs.csv: open failed: ENOENT (No such file or directory)
+I/Finsky  (18825): [1089] com.google.android.finsky.da.a.a.a.b(28): Triggered update for experiment package com.google.android.finsky.stable.
+I/Finsky  (18825): [1090] com.google.android.finsky.da.a.a.a.b(28): Triggered update for experiment package com.google.android.finsky.regular.
+W/PropertyValuesHolder(  682): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  682): Method getBrightness() with type int not found on target class class ph
+D/dalvikvm(18825): GC_CONCURRENT freed 580K, 12% free 4794K/5436K, paused 3ms+1ms, total 13ms
+D/dalvikvm(18825): WAIT_FOR_CONCURRENT_GC blocked 10ms
+D/dalvikvm(18825): WAIT_FOR_CONCURRENT_GC blocked 10ms
+D/dalvikvm(18825): WAIT_FOR_CONCURRENT_GC blocked 13ms
+I/Finsky  (18825): [1087] com.google.android.finsky.da.a.a.a.b(28): Triggered update for experiment package com.google.android.finsky.regular.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera bnds=[742,174][946,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/dalvikvm(18825): Could not find method android.app.AppOpsManager.permissionToOp, referenced from method android.support.v4.content.x.a
+W/dalvikvm(18825): VFY: unable to resolve static method 440: Landroid/app/AppOpsManager;.permissionToOp (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm(18825): VFY: replacing opcode 0x71 at 0x000f
+I/dalvikvm(18825): Could not find method android.content.Context.getSystemService, referenced from method android.support.v4.content.x.a
+W/dalvikvm(18825): VFY: unable to resolve virtual method 809: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm(18825): VFY: replacing opcode 0x6e at 0x0030
+W/PropertyValuesHolder(  682): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  682): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.modstudio.housemap/.MainActivity bnds=[334,428][538,555]} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/Finsky  (18825): [1090] com.google.android.finsky.da.a.a.a.b(73): Already at the latest configurations for experiment package com.google.android.finsky.regular.
+I/Finsky  (18825): [1089] com.google.android.finsky.da.a.a.a.b(73): Already at the latest configurations for experiment package com.google.android.finsky.stable.
+I/Finsky  (18825): [1087] com.google.android.finsky.da.a.l.a(7): Started reading experiment flags from file [v6B-2IolLQRBwrwPhscSaeg04As].
+I/Finsky  (18825): [1087] com.google.android.finsky.da.a.l.a(44): Finished reading experiment flags from file [v6B-2IolLQRBwrwPhscSaeg04As].
+I/Finsky  (18825): [1087] com.google.android.finsky.da.a.a.a.b(73): Already at the latest configurations for experiment package com.google.android.finsky.regular.
+I/Finsky  (18825): [1] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for send_installed_apps
+I/Finsky  (18825): [1] com.google.android.finsky.wear.ar.a(80): Connecting to wearable; initiated by: com.google.android.finsky.wear.WearSupportService
+I/WearableService(18105): Wearable Services not starting - Wear is not available on this device.
+W/WearableService(18105): onGetService - Wear is not available on this device.
+E/Finsky  (18825): [1] com.google.android.finsky.wear.au.a(3): onConnectionFailed: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+W/Finsky  (18825): [1] com.google.android.finsky.wear.cd.run(12): Dropping command=send_installed_apps due to Gms not connected
+I/Finsky  (18825): [1] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/PropertyValuesHolder(  682): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  682): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.facebook.lite/.MainActivity bnds=[538,301][742,428] (has extras)} from pid 682
+I/ShortcutBadger(18825): Checking if platform supports badge counters, attempt 1/3.
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/ShortcutBadger(18825): Checking if platform supports badge counters, attempt 2/3.
+I/ShortcutBadger(18825): Checking if platform supports badge counters, attempt 3/3.
+W/ShortcutBadger(18825): Badge counter seems not supported in this platform: unable to resolve intent: Intent { act=android.intent.action.BADGE_COUNT_UPDATE (has extras) }
+I/Finsky  (18825): [1090] com.google.android.finsky.verifier.impl.as.a(6): Restoring notifications
+I/Finsky  (18825): [1] com.google.android.finsky.verifier.impl.as.c(55): Done restoring notifications
+D/dalvikvm(18825): GC_CONCURRENT freed 427K, 10% free 4934K/5436K, paused 1ms+6ms, total 9ms
+I/Finsky  (18825): [1] com.google.android.finsky.setup.aw.a(213): Restore complete with 0 success and 0 failed.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/Launcher(  682): No global search activity found.
+W/Launcher(  682): No global search activity found.
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1020 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 com.vphone.launcher.utils.AppUtil.onQsbClicked:1474 
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1032 android.app.ContextImpl.startActivity:1021 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=https://www.bignox.com/gsearch/index?g=32c3adf2-4ef0-4bfa-9817-0931a0a194ab&a=2c56dc4e22148605&i=355325040445621&m=2C:56:DC:4E:22:14 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/Launcher(  682): No global search activity found.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vphone.helper/.MainActivity bnds=[946,174][1150,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/Launcher(  682): No global search activity found.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/dalvikvm(  478): GC_FOR_ALLOC freed 1250K, 36% free 12710K/19616K, paused 12ms, total 12ms
+D/yeshen  (  682): launcher onpause
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 1) failed with errno -13
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa69d00 attribute=null, token = android.os.BinderProxy@4adbc7ec
+D/dalvikvm(18927): GC_CONCURRENT freed 298K, 8% free 4271K/4632K, paused 0ms+1ms, total 3ms
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 0) failed with errno -13
+W/PropertyValuesHolder(  682): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  682): Method getBrightness() with type int not found on target class class ph
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  534): animationTick called with dtms=-5; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyanogenmod.filemanager/.activities.NavigationActivity bnds=[334,174][538,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+D/dalvikvm(  682): GC_FOR_ALLOC freed 5473K, 6% free 153782K/162736K, paused 68ms, total 70ms
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/Launcher(  682): No global search activity found.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera bnds=[742,174][946,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/yeshen  (  682): launcher onpause
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 1) failed with errno -13
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+W/EGL_emulation( 4100): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+D/dalvikvm(  478): GC_FOR_ALLOC freed 1289K, 37% free 12499K/19616K, paused 19ms, total 19ms
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2462442, downTime=2462442, deviceId=-1, source=0x101 }
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aab9490 attribute=null, token = android.os.BinderProxy@4adbc7ec
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+D/yeshen  (  682): launcher onpause
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+I/qtaguid (  682): Untagging socket 188 failed errno=-13
+W/NetworkManagementSocketTagger(  682): untagSocket(188) failed with errno -13
+I/qtaguid (  682): Tagging socket 144 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  682): tagSocketFd(144, 1239581248, -1) failed with errno-13
+D/dalvikvm(18927): GC_CONCURRENT freed 366K, 10% free 4291K/4720K, paused 2ms+1ms, total 5ms
+W/SQLiteConnectionPool(18927): A SQLiteConnection object for database '/data/data/com.codeaeon.smartswitch/databases/smart_switch' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(18927): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2463465, downTime=2463465, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa67eb8 (uid=10226 pid=18927)
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2463691, downTime=2463691, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aac3580 attribute=android.view.inputmethod.EditorInfo@4aaa8338, token = android.os.BinderProxy@4adbc7ec
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 478
+I/qtaguid (  682): Tagging socket 188 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  682): tagSocketFd(188, 1239581248, -1) failed with errno-13
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 0) failed with errno -13
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/dalvikvm(  478): GC_FOR_ALLOC freed 1306K, 36% free 12685K/19616K, paused 25ms, total 28ms
+D/yeshen  (  682): launcher onpause
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 1) failed with errno -13
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+D/dalvikvm( 4100): GC_FOR_ALLOC freed 2149K, 62% free 4892K/12768K, paused 4ms, total 6ms
+I/dalvikvm-heap( 4100): Grow heap (frag case) to 6.812MB for 2073612-byte allocation
+D/dalvikvm( 4100): GC_FOR_ALLOC freed <1K, 46% free 6917K/12768K, paused 6ms, total 6ms
+D/dalvikvm( 4100): GC_CONCURRENT freed 8K, 46% free 6909K/12768K, paused 0ms+1ms, total 12ms
+D/dalvikvm(  478): GC_FOR_ALLOC freed 274K, 36% free 12662K/19616K, paused 10ms, total 16ms
+I/dalvikvm-heap(  478): Grow heap (frag case) to 14.405MB for 2073612-byte allocation
+D/dalvikvm(  478): GC_FOR_ALLOC freed 6K, 33% free 14680K/21644K, paused 15ms, total 15ms
+D/dalvikvm(  478): GC_FOR_ALLOC freed 2K, 33% free 14683K/21644K, paused 22ms, total 22ms
+I/dalvikvm-heap(  478): Grow heap (frag case) to 16.379MB for 2073612-byte allocation
+D/dalvikvm(  478): GC_FOR_ALLOC freed 1K, 30% free 16707K/23672K, paused 18ms, total 18ms
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.NotificationManagerService$6.run:1838 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+D/dalvikvm(  478): GC_FOR_ALLOC freed 11K, 30% free 16713K/23672K, paused 17ms, total 18ms
+I/dalvikvm-heap(  478): Grow heap (frag case) to 18.362MB for 2073612-byte allocation
+D/dalvikvm(  478): GC_FOR_ALLOC freed <1K, 28% free 18738K/25700K, paused 17ms, total 17ms
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(18927): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_B, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2464012, downTime=2464012, deviceId=-1, source=0x101 }
+W/ViewRootImpl(18927): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_THUMBR, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2464394, downTime=2464394, deviceId=-1, source=0x101 }
+W/ViewRootImpl(18927): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2464394, downTime=2464394, deviceId=-1, source=0x101 }
+W/ViewRootImpl(18927): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2464398, downTime=2464398, deviceId=-1, source=0x101 }
+W/ViewRootImpl(18927): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=2464416, downTime=-1, deviceId=0, source=0x10004 }
+D/dalvikvm(18927): GC_CONCURRENT freed 308K, 8% free 4370K/4740K, paused 0ms+1ms, total 3ms
+W/SQLiteConnectionPool(18927): A SQLiteConnection object for database '/data/data/com.codeaeon.smartswitch/databases/smart_switch' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+W/SQLiteConnectionPool(18927): A SQLiteConnection object for database '/data/data/com.codeaeon.smartswitch/databases/smart_switch' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+I/WearableService(18105): Wearable Services stopping
+W/InputMethodManagerService(  478): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa67eb8 (uid=10226 pid=18927)
+D/dalvikvm(  682): GC_FOR_ALLOC freed 4664K, 5% free 156049K/162736K, paused 94ms, total 94ms
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2464417, downTime=2464417, deviceId=-1, source=0x101 }
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa34628 attribute=android.view.inputmethod.EditorInfo@4aa02370, token = android.os.BinderProxy@4adbc7ec
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 0) failed with errno -13
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 682
+W/PhoneFallbackEventHandler(  682): No activity found for android.intent.action.CALL_BUTTON.
+W/Launcher(  682): No global search activity found.
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  534): animationTick called with dtms=-9; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/yeshen  (  682): launcher onpause
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 1) failed with errno -13
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+D/dalvikvm(  478): GC_FOR_ALLOC freed 3408K, 35% free 16750K/25700K, paused 13ms, total 21ms
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  682): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=2465443, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2465443, downTime=2465175, deviceId=0, source=0x10004 }
+D/dalvikvm(  478): GC_FOR_ALLOC freed 257K, 27% free 18866K/25700K, paused 19ms, total 19ms
+I/dalvikvm-heap(  478): Grow heap (frag case) to 20.464MB for 2073612-byte allocation
+D/dalvikvm(  478): GC_FOR_ALLOC freed <1K, 25% free 20891K/27728K, paused 13ms, total 13ms
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae8787c attribute=null, token = android.os.BinderProxy@4adbc7ec
+D/dalvikvm(  534): GC_FOR_ALLOC freed 10016K, 50% free 7259K/14440K, paused 4ms, total 4ms
+I/dalvikvm-heap(  534): Grow heap (frag case) to 9.125MB for 2073612-byte allocation
+D/dalvikvm(  534): GC_CONCURRENT freed <1K, 36% free 9284K/14440K, paused 0ms+1ms, total 10ms
+D/dalvikvm(  534): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm(  534): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm(  478): GC_FOR_ALLOC freed 29K, 25% free 20981K/27728K, paused 31ms, total 31ms
+I/dalvikvm-heap(  478): Grow heap (frag case) to 22.529MB for 2073612-byte allocation
+D/dalvikvm(  478): GC_FOR_ALLOC freed <1K, 23% free 23005K/29756K, paused 14ms, total 14ms
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.namcobandaigames.pacmantournaments flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 0) failed with errno -13
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/yeshen  (  682): launcher onpause
+W/InputManager(  478): Input event injection from pid 18917 failed.
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 1) failed with errno -13
+D/dalvikvm(18927): GC_CONCURRENT freed 365K, 9% free 4412K/4840K, paused 0ms+1ms, total 5ms
+W/SQLiteConnectionPool(18927): A SQLiteConnection object for database '/data/data/com.codeaeon.smartswitch/databases/smart_switch' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+W/SQLiteConnectionPool(18927): A SQLiteConnection object for database '/data/data/com.codeaeon.smartswitch/databases/smart_switch' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+W/SQLiteConnectionPool(18927): A SQLiteConnection object for database '/data/data/com.codeaeon.smartswitch/databases/smart_switch' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2466213, downTime=2466213, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa10740 attribute=null, token = android.os.BinderProxy@4adbc7ec
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 0) failed with errno -13
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.supercell.clashroyale flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 478
+D/yeshen  (  682): launcher onpause
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 1) failed with errno -13
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+D/dalvikvm(  478): GC_FOR_ALLOC freed 7429K, 44% free 16689K/29756K, paused 18ms, total 23ms
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa98cdc attribute=null, token = android.os.BinderProxy@4adbc7ec
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingangelafree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/Launcher(  682): No global search activity found.
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 478
+W/Launcher(  682): No global search activity found.
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=net.mobigame.zombietsunami flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=net.mobigame.zombietsunami flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+D/dalvikvm(  682): GC_CONCURRENT freed 7864K, 5% free 156380K/164368K, paused 3ms+26ms, total 139ms
+D/dalvikvm(  682): WAIT_FOR_CONCURRENT_GC blocked 130ms
+D/dalvikvm(  682): WAIT_FOR_CONCURRENT_GC blocked 130ms
+D/dalvikvm(  682): WAIT_FOR_CONCURRENT_GC blocked 124ms
+D/dalvikvm(  682): WAIT_FOR_CONCURRENT_GC blocked 113ms
+D/dalvikvm(  682): WAIT_FOR_CONCURRENT_GC blocked 114ms
+D/dalvikvm(  682): WAIT_FOR_CONCURRENT_GC blocked 114ms
+D/dalvikvm(  682): WAIT_FOR_CONCURRENT_GC blocked 117ms
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-1791.5305)
+D/dalvikvm(  671): GC_CONCURRENT freed 382K, 12% free 3274K/3716K, paused 0ms+0ms, total 4ms
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.king.farmheroessaga flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=br.com.lgrmobile.jdb2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/WindowManager(  478): updateFocusedWindowLocked, focusedAppToken is null.
+D/dalvikvm(  682): GC_FOR_ALLOC freed 4550K, 5% free 156786K/164616K, paused 66ms, total 66ms
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2470276, downTime=2470276, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2470276, downTime=2470276, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2470276, downTime=2470276, deviceId=-1, source=0x101 }
+W/EGL_emulation(  534): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  534): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2470173, downTime=2470173, deviceId=-1, source=0x101 }
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=77.8789 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=77.8789 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=-7; nothing to do (h=77.8789 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=77.8789 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=77.8789 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=-8; nothing to do (h=77.8789 v=-3000.0)
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 478
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9a76e0 attribute=null, token = android.os.BinderProxy@4adbc7ec
+I/ActivityManager(  478): START u0 {act=android.intent.action.QUICK_CLOCK flg=0x14000000 cmp=com.android.settings/.Settings$DateTimeSettingsActivity} from pid 534
+W/EGL_emulation(  534): eglSurfaceAttrib not implemented 3093 12436
+W/Launcher(  682): No global search activity found.
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.edujoy.Word_Search flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+D/dalvikvm(  645): GC_CONCURRENT freed 384K, 14% free 3079K/3544K, paused 0ms+1ms, total 27ms
+D/dalvikvm(  682): GC_FOR_ALLOC freed 4437K, 5% free 157236K/165060K, paused 68ms, total 68ms
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.sega.sonicdash flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.sega.sonicdash flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingangelafree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/Launcher(  682): No global search activity found.
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.netfreegames.mw flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.netfreegames.mw flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/Launcher(  682): No global search activity found.
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=me.pou.app flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/yeshen  (  682): launcher onpause
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=4, eventTime=2472565, downTime=2472565, deviceId=-1, source=0x101 }
+D/dalvikvm(18927): GC_CONCURRENT freed 401K, 10% free 4498K/4960K, paused 2ms+4ms, total 45ms
+W/SQLiteConnectionPool(18927): A SQLiteConnection object for database '/data/data/com.codeaeon.smartswitch/databases/smart_switch' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(18927): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=2472789, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  478): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa67eb8 (uid=10226 pid=18927)
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2472791, downTime=2472791, deviceId=-1, source=0x101 }
+W/PropertyValuesHolder(  682): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  682): Method getBrightness() with type int not found on target class class ph
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1020 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 com.vphone.launcher.utils.AppUtil.onQsbClicked:1474 
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1032 android.app.ContextImpl.startActivity:1021 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=https://www.bignox.com/gsearch/index?g=32c3adf2-4ef0-4bfa-9817-0931a0a194ab&a=2c56dc4e22148605&i=355325040445621&m=2C:56:DC:4E:22:14 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abb75cc attribute=null, token = android.os.BinderProxy@4adbc7ec
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.activities.PeopleActivity bnds=[538,174][742,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.ansangha.drdriving flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/Launcher(  682): No global search activity found.
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.skgames.trafficrider flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera bnds=[742,174][946,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+D/dalvikvm(  682): GC_FOR_ALLOC freed 5747K, 5% free 157417K/165532K, paused 65ms, total 65ms
+W/Launcher(  682): No global search activity found.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/yeshen  (  682): launcher onpause
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=2, eventTime=2474303, downTime=2474303, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2474306, downTime=2474306, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2474306, downTime=2474306, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2474306, downTime=2474306, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2474306, downTime=2474306, deviceId=-1, source=0x101 }
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+W/ViewRootImpl(  682): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=2474269, downTime=-1, deviceId=0, source=0x10004 }
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9f342c attribute=null, token = android.os.BinderProxy@4adbc7ec
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.activities.PeopleActivity bnds=[538,174][742,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.extremefungames.mototrafficrace2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 0) failed with errno -13
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.modstudio.housemap/.MainActivity bnds=[334,428][538,555]} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+D/dalvikvm(  682): GC_FOR_ALLOC freed 5549K, 6% free 157332K/165716K, paused 62ms, total 62ms
+W/PropertyValuesHolder(  682): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  682): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vphone.helper/.MainActivity bnds=[946,174][1150,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/Launcher(  682): No global search activity found.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/yeshen  (  682): launcher onpause
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 1) failed with errno -13
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+D/dalvikvm(18927): GC_CONCURRENT freed 468K, 11% free 4486K/5016K, paused 0ms+11ms, total 15ms
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+W/SQLiteConnectionPool(18927): A SQLiteConnection object for database '/data/data/com.codeaeon.smartswitch/databases/smart_switch' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+D/dalvikvm(  478): GC_CONCURRENT freed 2923K, 43% free 17208K/29756K, paused 2ms+3ms, total 27ms
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  682): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=2476283, downTime=-1, deviceId=0, source=0x10004 }
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2476284, downTime=2476284, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aae6898 attribute=null, token = android.os.BinderProxy@4adbc7ec
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.igg.android.lordsmobile flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.igg.android.lordsmobile flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 478
+D/yeshen  (  682): launcher onpause
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+D/yeshen  (  682): launcher onstop
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa2e2a0 attribute=null, token = android.os.BinderProxy@4adbc7ec
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.namcobandaigames.pacmantournaments flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/Launcher(  682): No global search activity found.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/yeshen  (  682): launcher onpause
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+D/dalvikvm(18927): GC_CONCURRENT freed 530K, 14% free 4405K/5064K, paused 2ms+2ms, total 7ms
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+W/InputManager(  478): Input event injection from pid 18917 failed.
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2477906, downTime=2477906, deviceId=-1, source=0x101 }
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2478265, downTime=2478265, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9d072c attribute=null, token = android.os.BinderProxy@4adbc7ec
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  534): animationTick called with dtms=-16; nothing to do (h=0.0 v=-0.0)
+D/dalvikvm(  682): GC_FOR_ALLOC freed 6881K, 6% free 157384K/165716K, paused 87ms, total 88ms
+W/Launcher(  682): No global search activity found.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/yeshen  (  682): launcher onpause
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(18927): GC_CONCURRENT freed 374K, 12% free 4476K/5064K, paused 0ms+0ms, total 12ms
+W/SQLiteConnectionPool(18927): A SQLiteConnection object for database '/data/data/com.codeaeon.smartswitch/databases/smart_switch' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+W/SQLiteConnectionPool(18927): A SQLiteConnection object for database '/data/data/com.codeaeon.smartswitch/databases/smart_switch' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2479128, downTime=2479128, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaba6fc attribute=null, token = android.os.BinderProxy@4adbc7ec
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 0) failed with errno -13
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity} from pid 18917
+D/yeshen  (  682): launcher onpause
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 1) failed with errno -13
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2480098, downTime=2480098, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab009f8 attribute=null, token = android.os.BinderProxy@4adbc7ec
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=net.mobigame.zombietsunami flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/PropertyValuesHolder(  682): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  682): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.trulia.android.mortgage/.activity.MortgageMainActivity bnds=[538,428][742,555]} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+W/PropertyValuesHolder(  682): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  682): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.codeaeon.smartswitch/.MainActivity bnds=[946,301][1150,428]} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1020 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 com.vphone.launcher.utils.AppUtil.onQsbClicked:1474 
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1032 android.app.ContextImpl.startActivity:1021 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=https://www.bignox.com/gsearch/index?g=32c3adf2-4ef0-4bfa-9817-0931a0a194ab&a=2c56dc4e22148605&i=355325040445621&m=2C:56:DC:4E:22:14 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+D/yeshen  (  682): launcher onpause
+E/SQLiteLog(18927): (14) cannot open file at line 30191 of [00bb9c9ce4]
+E/SQLiteLog(18927): (14) os_unix.c:30191: (2) open(/data/data/databasessmart_switch) - 
+E/SQLiteDatabase(18927): Failed to open database '/data/data/databasessmart_switch'.
+E/SQLiteDatabase(18927): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (code 14): Could not open database
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:209)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:193)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:804)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:789)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:694)
+E/SQLiteDatabase(18927): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:669)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.checkDbExists(DBHelper.java:81)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.createDatabase(DBHelper.java:39)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.DBHelper.<init>(DBHelper.java:22)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.openAndQueryDatabase(HeadlinesFragment.java:85)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.HeadlinesFragment.onCreate(HeadlinesFragment.java:37)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.Fragment.performCreate(Fragment.java:1939)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:988)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1207)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1572)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:330)
+E/SQLiteDatabase(18927): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:511)
+E/SQLiteDatabase(18927): 	at com.codeaeon.smartswitch.MainActivity.onStart(MainActivity.java:178)
+E/SQLiteDatabase(18927): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1188)
+E/SQLiteDatabase(18927): 	at android.app.Activity.performStart(Activity.java:5241)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2166)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/SQLiteDatabase(18927): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/SQLiteDatabase(18927): 	at android.os.Looper.loop(Looper.java:136)
+E/SQLiteDatabase(18927): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SQLiteDatabase(18927): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/SQLiteDatabase(18927): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/SQLiteDatabase(18927): 	at dalvik.system.NativeStart.main(Native Method)
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2481430, downTime=2481430, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2481430, downTime=2481430, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2481430, downTime=2481430, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2481431, downTime=2481431, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.bluetooth.adapter.action.REQUEST_ENABLE cmp=com.android.settings/.bluetooth.RequestPermissionActivity} from pid 18927
+D/dalvikvm(  478): GC_CONCURRENT freed 3713K, 39% free 17028K/27716K, paused 2ms+2ms, total 27ms
+D/dalvikvm(  478): WAIT_FOR_CONCURRENT_GC blocked 25ms
+W/EGL_emulation(18927): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(18927): GC_CONCURRENT freed 432K, 12% free 4485K/5064K, paused 3ms+1ms, total 6ms
+W/SQLiteConnectionPool(18927): A SQLiteConnection object for database '/data/data/com.codeaeon.smartswitch/databases/smart_switch' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+W/SQLiteConnectionPool(18927): A SQLiteConnection object for database '/data/data/com.codeaeon.smartswitch/databases/smart_switch' was leaked!  Please fix your application to end transactions in progress properly and to close the database when it is no longer needed.
+W/EGL_emulation(  682): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2481353, downTime=2481353, deviceId=-1, source=0x101 }
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab40534 attribute=null, token = android.os.BinderProxy@4adbc7ec
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10226, 0) failed with errno -13
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.itchmedia.ta3 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  534): animationTick called with dtms=-3; nothing to do (h=0.0 v=-0.0)
+W/PropertyValuesHolder(  682): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  682): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera bnds=[742,174][946,301] (has extras)} from pid 682
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1020 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 com.vphone.launcher.utils.AppUtil.onQsbClicked:1474 
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1032 android.app.ContextImpl.startActivity:1021 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=https://www.bignox.com/gsearch/index?g=32c3adf2-4ef0-4bfa-9817-0931a0a194ab&a=2c56dc4e22148605&i=355325040445621&m=2C:56:DC:4E:22:14 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  534): animationTick called with dtms=-6; nothing to do (h=0.0 v=-0.0)
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.ansangha.drdriving flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/Launcher(  682): No global search activity found.
+D/dalvikvm(  682): GC_FOR_ALLOC freed 6115K, 6% free 157205K/165716K, paused 85ms, total 88ms
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 478
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 18917 failed.
+D/dalvikvm(  682): GC_FOR_ALLOC freed 4879K, 6% free 157263K/165716K, paused 65ms, total 65ms
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.extremefungames.mototrafficrace2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/Launcher(  682): No global search activity found.
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.supercell.clashroyale flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/Launcher(  682): No global search activity found.
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.igg.android.lordsmobile flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.igg.android.lordsmobile flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+D/dalvikvm(  682): GC_FOR_ALLOC freed 4941K, 6% free 157359K/165716K, paused 68ms, total 73ms
+W/Launcher(  682): No global search activity found.
+W/Launcher(  682): No global search activity found.
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+W/WindowManager(  478): updateFocusedWindowLocked, focusedAppToken is null.
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.cauagamesoft.carrossocadosbrasil flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  478): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9c1ce0 (uid=1000 pid=682)
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+W/BackupManagerService(  478): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/InputEventReceiver(  534): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  534): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  534): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=86.3725, y[0]=223.64447, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2485742, downTime=2485741, deviceId=0, source=0x1002 }
+W/InputEventReceiver(  534): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  534): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-314.0, y[0]=231.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2485744, downTime=2485744, deviceId=0, source=0x1002 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.kiloo.subwaysurf flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/BackupManagerService(  478): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/InputEventReceiver(  534): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  534): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  534): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  534): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  534): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-311.3672, y[0]=230.94824, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2485746, downTime=2485744, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  534): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=612.0, y[0]=-306.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2485747, downTime=2485747, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  534): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=611.47516, y[0]=-313.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2485748, downTime=2485747, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  534): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=2485739, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(  682): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_X, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2485801, downTime=2485801, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  534): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2485758, downTime=2485758, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  534): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2485758, downTime=2485758, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl(  534): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2485758, downTime=2485758, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  534): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2485758, downTime=2485758, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  534): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2485758, downTime=2485758, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  534): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2485758, downTime=2485758, deviceId=-1, source=0x101 }
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingangelafree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=me.pou.app flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=me.pou.app flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+D/dalvikvm(  682): GC_FOR_ALLOC freed 5068K, 5% free 157497K/165716K, paused 76ms, total 78ms
+D/dalvikvm(  682): GC_FOR_ALLOC freed 3335K, 5% free 158984K/165804K, paused 82ms, total 84ms
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.namcobandaigames.pacmantournaments flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+W/Launcher(  682): No global search activity found.
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.bbqstudio.bbqqoversea flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 682
+I/AndroidRuntime(18917): VM exiting with result code 0.

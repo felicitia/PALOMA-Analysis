@@ -1,0 +1,1088 @@
+--------- beginning of /dev/log/main
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+D/AndroidRuntime( 4913): 
+D/AndroidRuntime( 4913): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 4913): CheckJNI is OFF
+D/dalvikvm( 4913): Using executionMode 2
+D/dalvikvm( 4913): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 4913): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 4913): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 4913): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 4913): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 4913): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 4913): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4913): failed to load memtrack module: -2
+D/AndroidRuntime( 4913): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  478): Skipping deliver [background] BroadcastRecord{4ab0bcc4 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4aace414 4913 (unknown name)/0/u-1 remote:4aaf2270}: process crashing
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.comichub/.Splash_Screen} from pid 4913
+D/yeshen  (  678): launcher onpause
+I/ActivityManager(  478): Start proc com.comichub for activity com.comichub/.Splash_Screen: pid=4923 uid=10136 gids={50136, 3003, 1028, 1015, 1023}
+E/SurfaceFlinger(  166): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  166): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  166): setOrientation, mFbdev=0xb88fadf0, mFbDev->setOrientation=0xb691fce0, orientation=3
+I/gralloc_nox(  166): setOrientation: orientation=3
+I/ActivityManager(  478): Config changes=480 {1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.18}
+D/Sensors (  478): Client connection accepted (184)
+D/Tinker.DefaultAppLike(  678): onConfigurationChanged:{1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.18}
+D/PhoneStatusBar(  530): mSettingsPanelGravity = 55
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10136, 1) failed with errno -13
+I/dalvikvm( 4923): ignoring registerObject request in thread=1
+D/yeshen  (  678): launcher onstop
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+I/dalvikvm( 4923): ignoring registerObject request in thread=1
+D/dalvikvm(  530): GC_FOR_ALLOC freed 501K, 27% free 9246K/12604K, paused 11ms, total 14ms
+D/g       ( 4923): Initialize ImageLoader with configuration
+D/dalvikvm( 4923): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 4923): GC_FOR_ALLOC freed 165K, 8% free 2910K/3136K, paused 3ms, total 3ms
+I/dalvikvm-heap( 4923): Grow heap (frag case) to 4.216MB for 1382412-byte allocation
+D/dalvikvm( 4923): GC_FOR_ALLOC freed <1K, 6% free 4260K/4488K, paused 5ms, total 5ms
+D/dalvikvm(  530): GC_FOR_ALLOC freed 5K, 18% free 10438K/12604K, paused 3ms, total 3ms
+I/InputReader(  478): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  478): Device reconfigured: id=1, name='Android Input', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  478): Device reconfigured: id=3, name='seamless mouse', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  478): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 3, mode 1, display id 0
+I/dalvikvm-heap(  530): Grow heap (frag case) to 16.501MB for 6553612-byte allocation
+D/dalvikvm(  530): GC_FOR_ALLOC freed <1K, 12% free 16838K/19008K, paused 5ms, total 5ms
+D/dalvikvm( 4923): GC_CONCURRENT freed 0K, 6% free 4260K/4488K, paused 19ms+0ms, total 21ms
+D/FirebaseApp(  678): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  678): onTrimMemory level:20
+W/System.err( 4923): java.io.IOException: MAIN_THREAD
+W/System.err( 4923): 	at com.google.android.gms.gcm.GoogleCloudMessaging.unregister(dalvik_source_com.comichub.apk)
+W/System.err( 4923): 	at com.comichub.Splash_Screen.a(dalvik_source_com.comichub.apk)
+W/System.err( 4923): 	at com.comichub.Splash_Screen.onCreate(dalvik_source_com.comichub.apk)
+W/System.err( 4923): 	at android.app.Activity.performCreate(Activity.java:5231)
+W/System.err( 4923): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+W/System.err( 4923): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+W/System.err( 4923): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+W/System.err( 4923): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+W/System.err( 4923): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+W/System.err( 4923): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 4923): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 4923): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err( 4923): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 4923): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 4923): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err( 4923): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err( 4923): 	at dalvik.system.NativeStart.main(Native Method)
+D/Splash_Screen( 4923): Registration ID not found.
+D/Splash_Screen( 4923): Reg id is Empty.
+D/dalvikvm(  530): GC_CONCURRENT freed <1K, 12% free 16839K/19008K, paused 0ms+0ms, total 3ms
+I/qtaguid (  652): Tagging socket 62 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  652): tagSocketFd(62, 805307399, -1) failed with errno-13
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper(  678): showStatusIcon on inactive InputConnection
+D/        ( 4923): HostConnection::get() New Host Connection established 0xb8ee8840, tid 4923
+W/EGL_emulation(  530): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  478): Displayed com.comichub/.Splash_Screen: +396ms
+I/WindowManager(  478): Screen frozen for +378ms due to Window{4a8dbdec u0 Starting com.comichub}
+D/dalvikvm( 4923): GC_FOR_ALLOC freed 48K, 3% free 4514K/4624K, paused 1ms, total 1ms
+I/dalvikvm-heap( 4923): Grow heap (frag case) to 5.071MB for 635808-byte allocation
+D/dalvikvm( 4923): GC_CONCURRENT freed <1K, 3% free 5135K/5248K, paused 2ms+1ms, total 4ms
+I/qtaguid (  652): Untagging socket 62 failed errno=-13
+W/NetworkManagementSocketTagger(  652): untagSocket(62) failed with errno -13
+D/in async task( 4923): APA91bHtHKWv1TsukmqWAmpjrx7e2MfiyON8tVam64SshrcHWNsojjOeCAOoKO0fcuuxkTXvqJx4VUIurt83RXv9uKwD-xC5TdphcjSibr4Sg6g_NtD8qME
+W/WindowManager(  478): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  530): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=429024, downTime=429024, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/WearableService(  652): Wearable Services stopping
+W/InputEventReceiver(  530): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  530): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl(  530): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=489.41977, y[0]=248.24725, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=429359, downTime=429357, deviceId=0, source=0x1002 }
+W/InputEventReceiver(  530): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  530): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=2.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=429365, downTime=-1, deviceId=0, source=0x10004 }
+V/PanelView(  530): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ViewRootImpl( 4923): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=429544, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9a9c7c attribute=null, token = android.os.BinderProxy@4aae3e44
+I/ActivityManager(  478): START u0 {cmp=com.comichub/.Welcome_Screen} from pid 4923
+W/ActivityManager(  478): startActivity called from finishing ActivityRecord{4a8dca24 u0 com.comichub/.Splash_Screen t21 f}; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { cmp=com.comichub/.Welcome_Screen }
+D/FirebaseApp(  678): Notifying background state change listeners.
+W/Launcher(  678): setApplicationContext called twice! old=com.vphone.launcher.LauncherApplicationEx@4a7834d4 new=com.vphone.launcher.LauncherApplicationEx@4a7834d4
+W/ResourceType(  678): Attempt to retrieve bag 0x7f0b0001 which is invalid or in a cycle.
+I/qtaguid (  678): Untagging socket 81 failed errno=-13
+W/NetworkManagementSocketTagger(  678): untagSocket(81) failed with errno -13
+D/Launcher(  678): 11683562 - bindAddScreens()
+D/Launcher(  678): 11683562 -   orderedScreenIds: 1, 7
+D/Launcher.Workspace(  678): 11683562 - insertNewWorkspaceScreen(): 1 at index: 0
+D/Launcher.Workspace(  678): 11683562 - insertNewWorkspaceScreen(): 7 at index: 1
+I/qtaguid (  678): Tagging socket 81 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(81, 1239581248, -1) failed with errno-13
+W/ContextImpl(  678): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1492 android.content.ContextWrapper.startService:494 com.vphone.launcher.Launcher.i:690 com.vphone.launcher.Launcher.b:182 com.vphone.launcher.Launcher$11.run:650 
+W/EGL_emulation(  678): eglSurfaceAttrib not implemented 3093 12436
+D/yeshen  (  678): launcher onpause
+D/dalvikvm( 4923): GC_FOR_ALLOC freed 74K, 3% free 5201K/5336K, paused 3ms, total 4ms
+I/dalvikvm-heap( 4923): Grow heap (frag case) to 6.454MB for 1382412-byte allocation
+D/dalvikvm( 4923): GC_FOR_ALLOC freed <1K, 3% free 6550K/6688K, paused 4ms, total 4ms
+D/dalvikvm( 4923): GC_CONCURRENT freed 2K, 3% free 6547K/6688K, paused 0ms+0ms, total 2ms
+I/dalvikvm( 4923): Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.internal.widget.bw.f
+W/dalvikvm( 4923): VFY: unable to resolve virtual method 788: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+D/dalvikvm( 4923): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm( 4923): Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.internal.widget.bw.h
+W/dalvikvm( 4923): VFY: unable to resolve virtual method 810: Landroid/content/res/TypedArray;.getType (I)I
+D/dalvikvm( 4923): VFY: replacing opcode 0x6e at 0x0002
+W/drawable( 4923): Bad element under <shape>: item
+W/drawable( 4923): Bad element under <shape>: item
+W/DBHelper( 4923): onCreateSQL==CREATE TABLE SUB_CART_TABLE(HubId TEXT PRIMARY KEY NOT NULL ,SubscriptionHubId TEXT ,SubscriptionType TEXT ,Srp TEXT ,IsStoryAvailable TEXT ,StartIssue TEXT ,Quantity TEXT ,FullTitle TEXT ,OrderStatus TEXT ,SupplierDataHubId TEXT ,IssueSequenceNumber TEXT )
+W/DBHelper( 4923): onCreateSQL==CREATE TABLE FILTER_TABLE(HubId TEXT PRIMARY KEY NOT NULL ,FullTitle TEXT ,CategoryName TEXT ,IsStoryAvailable TEXT ,Created TEXT ,Updated TEXT )
+W/DBHelper( 4923): onCreateSQL==CREATE TABLE COMICS_TABLE(HubId TEXT PRIMARY KEY NOT NULL ,CategoryName TEXT ,FullTitle TEXT ,Srp TEXT ,IsStoryAvailable TEXT ,IssueNumber TEXT ,Id TEXT ,TotalPage TEXT ,PreferencesType TEXT ,SupplierHubId TEXT ,SubscriptionHubId TEXT ,BrandHubId TEXT ,CategoryHubId TEXT ,GenreHubId TEXT ,PublisherHubId TEXT ,GenreName TEXT ,PublisherName TEXT ,Artist TEXT ,Writer TEXT ,IssueSequenceNo TEXT ,StoryId TEXT ,StoryHeader TEXT )
+W/DBHelper( 4923): onCreateSQL==CREATE TABLE CART_TABLE(SubscriptionHubId TEXT NOT NULL ,HubId TEXT ,CustomerId TEXT ,SubscriptionType TEXT ,FullTitle TEXT ,Srp TEXT ,IsStoryAvailable TEXT ,StartIssue TEXT ,EndIssue TEXT ,StoreId TEXT ,StoreName TEXT ,Quantity TEXT ,SupplierDataHubId TEXT ,OrderStatus TEXT ,IssueSequenceNumber TEXT )
+W/DBHelper( 4923): onCreateSQL==CREATE TABLE PROFILE_TABLE(CustomerId TEXT PRIMARY KEY NOT NULL ,ProfileName TEXT ,ProfileGender TEXT ,ProfileDOB TEXT ,ProfileAddress TEXT ,ProfileCity TEXT ,ProfileState TEXT ,ProfileEmail TEXT ,ProfilePhone TEXT ,ProfileImage TEXT ,ProfilePic TEXT ,FacebookID TEXT ,GoogleID TEXT )
+W/DBHelper( 4923): onCreateSQL==CREATE TABLE NON_SUBSCRIPTION_HISTORY(Id TEXT PRIMARY KEY NOT NULL ,PublisherId TEXT ,PublisherName TEXT ,IsActive TEXT ,CustomerId TEXT ,QtyOrdered TEXT ,QtyReceived TEXT ,Status TEXT ,Notes TEXT ,OrderDate TEXT ,Quoted TEXT ,SupplierDataHubId TEXT ,ItemDescription TEXT ,CustomerName TEXT ,VendorStatus TEXT ,HubId TEXT ,IsNew TEXT ,IsDirty TEXT ,LastOrderVal TEXT )
+W/DBHelper( 4923): onCreateSQL==CREATE TABLE SUBSCRIPTION_HISTORY(SubscriptionHubId TEXT NOT NULL ,CustomerID TEXT ,SubscriptionType TEXT ,Qty TEXT ,StartIssue TEXT ,EndIssue TEXT ,SubscriptionTitle TEXT ,Publisher TEXT ,IssueSequenceNo TEXT ,CategoryId TEXT ,PublisherId TEXT ,Status TEXT ,CategoryName TEXT ,LastOrderVal TEXT )
+W/DBHelper( 4923): onCreateSQL==CREATE TABLE ORDER_HISTORY(SupplierDataHubId TEXT PRIMARY KEY NOT NULL ,IsActive TEXT ,Allocate TEXT ,Id TEXT ,IssueNo TEXT ,SequenceNo TEXT ,QtyOrdered TEXT ,QtyReceived TEXT ,Status TEXT ,Quoted TEXT ,FillDate TEXT ,CustomerId TEXT ,SubscriptionHubId TEXT ,Description TEXT ,Notes TEXT ,CustomerName TEXT ,HubId TEXT ,IsNew TEXT ,IsDirty TEXT ,SupplierData TEXT ,LastOrderVal TEXT )
+V/WebViewChromium( 4923): Binding Chromium to the background looper Looper (main, tid 1) {4a77d8c8}
+I/chromium( 4923): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain( 4923): Initializing chromium process, renderers=0
+W/chromium( 4923): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/libEGL  ( 4923): loaded /system/lib/egl/libEGL_adreno.so
+D/libEGL  ( 4923): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 4923): loaded /system/lib/egl/libGLESv2_adreno.so
+I/qtaguid (  678): Tagging socket 109 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(109, 1239581248, -1) failed with errno-13
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer( 4923): Enabling debug mode 0
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=429719, downTime=429719, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): Displayed com.comichub/.Welcome_Screen: +697ms
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.windowGainedFocus:1985 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper( 4923): showStatusIcon on inactive InputConnection
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/yeshen  (  678): launcher onstop
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+V/Welcome_Screen( 4923): google is not Connected button clicked
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  678): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/Welcome_Screen( 4923): onConnectionFailed result    ConnectionResult{statusCode=SIGN_IN_REQUIRED, resolution=PendingIntent{4a9adf0c: android.os.BinderProxy@4a9adedc}}
+I/ActivityManager(  478): START u0 {act=com.google.android.gms.plus.action.SIGN_UP cmp=com.google.android.gms/.plus.activity.AccountSignUpActivity (has extras)} from pid -1
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/chromium( 4923): [INFO:simple_index_file.cc(397)] Simple Cache Index is being restored from disk.
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.comichub/.Splash_Screen} from pid 4913
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/Welcome_Screen( 4923): btn_connectFb called
+V/Welcome_Screen( 4923): signInWithFb called...
+D/dalvikvm( 4923): GC_CONCURRENT freed 399K, 6% free 7285K/7740K, paused 1ms+1ms, total 4ms
+D/Request ( 4923): Warning: Sessionless Request needs token but missing either application ID or client token.
+W/dalvikvm( 4923): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm( 4923): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 4923): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm( 4923): VFY: unable to resolve virtual method 51077: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm( 4923): VFY: replacing opcode 0x6e at 0x0006
+E/ActivityThread( 4923): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+I/ActivityManager(  478): START u0 {act=SSO_WITH_FALLBACK cmp=com.comichub/com.facebook.LoginActivity (has extras)} from pid 4923
+W/dalvikvm( 4923): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm( 4923): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 4923): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm( 4923): VFY: unable to resolve interface method 51071: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm( 4923): VFY: replacing opcode 0x72 at 0x0006
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection toHttpConnection(com.facebook.RequestBatch)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r4)	timediff:0
+I/System.out( 4923): <com.facebook.Request: java.net.HttpURLConnection toHttpConnection(com.facebook.RequestBatch)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r4)###https://graph.facebook.com/v2.0/1659718104348069?fields=supports_attribution%2Csupports_implicit_sdk_logging%2Cgdpv4_nux_content%2Cgdpv4_nux_enabled&format=json&sdk=android
+D/Request ( 4923): Warning: Sessionless Request needs token but missing either application ID or client token.
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection toHttpConnection(com.facebook.RequestBatch)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r4)	timediff:0
+I/System.out( 4923): <com.facebook.Request: java.net.HttpURLConnection toHttpConnection(com.facebook.RequestBatch)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r4)###https://graph.facebook.com/v2.0/1659718104348069?fields=supports_attribution%2Csupports_implicit_sdk_logging%2Cgdpv4_nux_content%2Cgdpv4_nux_enabled&format=json&sdk=android
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:$r1 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:3
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r3)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r3)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Language", $r3)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setChunkedStreamingMode(int)>(0)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r6)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:$r7 = virtualinvoke $r1.<java.net.HttpURLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestMethod()>()	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("User-Agent")	timediff:1
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setReadTimeout(int)>($i1)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:$r1 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:14
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r3)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r3)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Language", $r3)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setChunkedStreamingMode(int)>(0)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r6)	timediff:4
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:$r7 = virtualinvoke $r1.<java.net.HttpURLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestMethod()>()	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("User-Agent")	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setReadTimeout(int)>($i1)	timediff:0
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+E/ActivityThread( 4923): Failed to find provider info for com.facebook.katana.provider.PlatformProvider
+E/ActivityThread( 4923): Failed to find provider info for com.facebook.wakizashi.provider.PlatformProvider
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=430943, downTime=430943, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=96, eventTime=430975, downTime=430975, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=430975, downTime=430975, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=430975, downTime=430975, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=430975, downTime=430975, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=430975, downTime=430975, deviceId=-1, source=0x101 }
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): Displayed com.comichub/com.facebook.LoginActivity: +171ms
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=431179, downTime=431179, deviceId=-1, source=0x101 }
+D/dalvikvm( 4923): GC_CONCURRENT freed 845K, 11% free 7904K/8800K, paused 1ms+3ms, total 27ms
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver( 4923): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 4923): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 4923): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 4923): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 4923): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=359.95428, y[0]=8.982544, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=6, eventTime=431324, downTime=431316, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 4923): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=368.31104, y[0]=11.966553, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=431326, downTime=431316, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 4923): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=301.0, y[0]=-477.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=431327, downTime=431327, deviceId=0, source=0x1002 }
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+I/System.out( 4923): body:<com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>	sig:$i0 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:406
+I/System.out( 4923): body:<com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>	sig:$r8 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 4923): URLConn;%;0;%;<com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>;%;$r8 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://graph.facebook.com/v2.0/1659718104348069?fields=supports_attribution%2Csupports_implicit_sdk_logging%2Cgdpv4_nux_content%2Cgdpv4_nux_enabled&format=json&sdk=android;%;false;%;Not found;%;private, no-cache, no-store, must-revalidate;%;Sat, 01 Jan 2000 00:00:00 GMT;%;Not found;%;Not found
+I/System.out( 4923): body:<com.facebook.Response: java.util.List createResponsesFromObject(java.net.HttpURLConnection,java.util.List,java.lang.Object,boolean)>	sig:$i2 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 4923): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:1
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+I/System.out( 4923): body:<com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>	sig:$i0 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:453
+I/System.out( 4923): body:<com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>	sig:$r8 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:1
+I/System.out( 4923): URLConn;%;1;%;<com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>;%;$r8 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://graph.facebook.com/v2.0/1659718104348069?fields=supports_attribution%2Csupports_implicit_sdk_logging%2Cgdpv4_nux_content%2Cgdpv4_nux_enabled&format=json&sdk=android;%;false;%;Not found;%;private, no-cache, no-store, must-revalidate;%;Sat, 01 Jan 2000 00:00:00 GMT;%;Not found;%;Not found
+I/System.out( 4923): body:<com.facebook.Response: java.util.List createResponsesFromObject(java.net.HttpURLConnection,java.util.List,java.lang.Object,boolean)>	sig:$i2 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 4923): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection toHttpConnection(com.facebook.RequestBatch)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r4)	timediff:0
+I/System.out( 4923): <com.facebook.Request: java.net.HttpURLConnection toHttpConnection(com.facebook.RequestBatch)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r4)###https://graph.facebook.com/v2.0/1659718104348069/activities?access_token=&format=json&sdk=android
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:$r1 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r3)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r3)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Language", $r3)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setChunkedStreamingMode(int)>(0)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r6)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:$r7 = virtualinvoke $r1.<java.net.HttpURLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestMethod()>()	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("User-Agent")	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setReadTimeout(int)>($i1)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out( 4923): body:<com.facebook.Request: void serializeToUrlConnection(com.facebook.RequestBatch,java.net.HttpURLConnection)>	sig:$r13 = virtualinvoke $r1.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:11
+I/System.out( 4923): body:<com.facebook.Request: void processRequest(com.facebook.RequestBatch,com.facebook.internal.Logger,int,java.net.URL,java.io.OutputStream)>	sig:$r11 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+I/qtaguid (  678): Untagging socket 88 failed errno=-13
+W/NetworkManagementSocketTagger(  678): untagSocket(88) failed with errno -13
+I/qtaguid (  678): Tagging socket 88 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(88, 462060827, -1) failed with errno-13
+I/qtaguid (  678): Tagging socket 89 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(89, 462060827, -1) failed with errno-13
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+I/qtaguid (  678): Tagging socket 113 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(113, 462060827, -1) failed with errno-13
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+I/qtaguid (  678): Tagging socket 84 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(84, 462060827, -1) failed with errno-13
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/Welcome_Screen( 4923): btn_connectFb called
+V/Welcome_Screen( 4923): signInWithFb called...
+I/ActivityManager(  478): START u0 {act=SSO_WITH_FALLBACK cmp=com.comichub/com.facebook.LoginActivity (has extras)} from pid 4923
+E/ActivityThread( 4923): Failed to find provider info for com.facebook.katana.provider.PlatformProvider
+E/ActivityThread( 4923): Failed to find provider info for com.facebook.wakizashi.provider.PlatformProvider
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=431805, downTime=431805, deviceId=-1, source=0x101 }
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+I/qtaguid (  678): Tagging socket 125 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(125, 462060827, -1) failed with errno-13
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+I/qtaguid (  678): Tagging socket 126 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(126, 462060827, -1) failed with errno-13
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=431884, downTime=431884, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/qtaguid (  678): Tagging socket 127 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(127, 462060827, -1) failed with errno-13
+I/ActivityManager(  478): Displayed com.comichub/com.facebook.LoginActivity: +135ms
+I/qtaguid (  678): Tagging socket 128 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  678): tagSocketFd(128, 462060827, -1) failed with errno-13
+I/System.out( 4923): body:<com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>	sig:$i0 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:594
+I/System.out( 4923): body:<com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>	sig:$r8 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 4923): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 4923): URLConn;%;2;%;<com.facebook.Response: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.RequestBatch)>;%;$r8 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://graph.facebook.com/v2.0/1659718104348069/activities?access_token=&format=json&sdk=android;%;true;%;16;%;private, no-cache, no-store, must-revalidate;%;Sat, 01 Jan 2000 00:00:00 GMT;%;Not found;%;Not found
+I/System.out( 4923): body:<com.facebook.Response: java.util.List createResponsesFromObject(java.net.HttpURLConnection,java.util.List,java.lang.Object,boolean)>	sig:$i2 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 4923): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver( 4923): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=432086, downTime=432086, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.comichub/.Splash_Screen} from pid 4913
+V/Welcome_Screen( 4923): btn_connectFb called
+V/Welcome_Screen( 4923): signInWithFb called...
+I/ActivityManager(  478): START u0 {act=SSO_WITH_FALLBACK cmp=com.comichub/com.facebook.LoginActivity (has extras)} from pid 4923
+E/ActivityThread( 4923): Failed to find provider info for com.facebook.katana.provider.PlatformProvider
+E/ActivityThread( 4923): Failed to find provider info for com.facebook.wakizashi.provider.PlatformProvider
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=432124, downTime=432124, deviceId=-1, source=0x101 }
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=432226, downTime=432226, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=432237, downTime=432237, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+I/ActivityManager(  478): Displayed com.comichub/com.facebook.LoginActivity: +178ms
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=432407, downTime=432407, deviceId=-1, source=0x101 }
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 4923): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=432444, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 4923): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=432445, downTime=432432, deviceId=0, source=0x10004 }
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+W/InputEventReceiver( 4923): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 4923): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 4923): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-118.833466, y[0]=309.72174, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=432476, downTime=432474, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=432477, downTime=432477, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.comichub/.Splash_Screen} from pid 4913
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+I/        (  678): {"errNum":0,"message":"SUCCESS"}
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm( 4923): GC_CONCURRENT freed 2432K, 27% free 7096K/9592K, paused 5ms+1ms, total 16ms
+D/dalvikvm(  478): GC_CONCURRENT freed 2426K, 34% free 15019K/22652K, paused 0ms+1ms, total 46ms
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideMySoftInput:2299 com.android.internal.view.IInputMethodManager$Stub.onTransact:288 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  678): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/Welcome_Screen( 4923): btn_connectFb called
+V/Welcome_Screen( 4923): signInWithFb called...
+I/ActivityManager(  478): START u0 {act=SSO_WITH_FALLBACK cmp=com.comichub/com.facebook.LoginActivity (has extras)} from pid 4923
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+E/ActivityThread( 4923): Failed to find provider info for com.facebook.katana.provider.PlatformProvider
+E/ActivityThread( 4923): Failed to find provider info for com.facebook.wakizashi.provider.PlatformProvider
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 4923): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=434045, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 4923): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=434046, downTime=434037, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434047, downTime=434047, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): Displayed com.comichub/com.facebook.LoginActivity: +304ms
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 4923
+W/PhoneFallbackEventHandler( 4923): No activity found for android.intent.action.CALL_BUTTON.
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434361, downTime=434361, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434442, downTime=434442, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434448, downTime=434448, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 4923): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 4923): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 4923): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 4923): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 4923): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-146.24658, y[0]=87.11774, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=434535, downTime=434525, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 4923): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-141.2913, y[0]=83.69983, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=434535, downTime=434525, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 4923): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=434523, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434563, downTime=434563, deviceId=-1, source=0x101 }
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 4923
+W/PhoneFallbackEventHandler( 4923): No activity found for android.intent.action.CALL_BUTTON.
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 4923
+W/PhoneFallbackEventHandler( 4923): No activity found for android.intent.action.CALL_BUTTON.
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  478): START u0 {cmp=com.comichub/.Forgot_Password_Activity} from pid 4923
+W/ViewRootImpl( 4923): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=6, eventTime=435567, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 4923): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=435623, downTime=-1, deviceId=0, source=0x10004 }
+W/ResourceType(  478): Skipping entry 0x7f04000b in package table 0 because it is not complex!
+W/ResourceType(  478): Skipping entry 0x7f04000c in package table 0 because it is not complex!
+I/ActivityManager(  478): Displayed com.comichub/.Forgot_Password_Activity: +104ms
+W/ViewRootImpl( 4923): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_V, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435624, downTime=435624, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.windowGainedFocus:1981 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.windowGainedFocus:1985 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/PanelView(  530): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  530): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  642): GC_CONCURRENT freed 385K, 13% free 3050K/3492K, paused 2ms+0ms, total 11ms
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 4923
+W/PhoneFallbackEventHandler( 4923): No activity found for android.intent.action.CALL_BUTTON.
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  678): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  478): GC_EXPLICIT freed 1232K, 35% free 14894K/22652K, paused 1ms+3ms, total 13ms
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 4923
+W/PhoneFallbackEventHandler( 4923): No activity found for android.intent.action.CALL_BUTTON.
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.comichub/.Splash_Screen} from pid 4913
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.comichub/.Splash_Screen} from pid 4913
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/PanelView(  530): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideMySoftInput:2299 com.android.internal.view.IInputMethodManager$Stub.onTransact:288 com.android.server.InputMethodManagerService.onTransact:818 
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 530
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.comichub/.Splash_Screen} from pid 4913
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.comichub/.Splash_Screen} from pid 4913
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 478
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.comichub/.Splash_Screen} from pid 4913
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.comichub/.Splash_Screen} from pid 4913
+D/dalvikvm(  642): GC_EXPLICIT freed 150K, 14% free 3026K/3492K, paused 0ms+0ms, total 3ms
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.comichub/.Splash_Screen} from pid 4913
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.comichub/.Splash_Screen} from pid 4913
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideMySoftInput:2299 com.android.internal.view.IInputMethodManager$Stub.onTransact:288 com.android.server.InputMethodManagerService.onTransact:818 
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(  478): GC_CONCURRENT freed 2804K, 34% free 15004K/22652K, paused 1ms+3ms, total 31ms
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/ActivityManager(  478): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 530
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/IInputConnectionWrapper( 4923): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.comichub/.Splash_Screen} from pid 4913
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 478
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 4923
+W/PhoneFallbackEventHandler( 4923): No activity found for android.intent.action.CALL_BUTTON.
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  478): GC_FOR_ALLOC freed 3037K, 35% free 14871K/22652K, paused 9ms, total 10ms
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.comichub/.Splash_Screen} from pid 4913
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 4923
+W/PhoneFallbackEventHandler( 4923): No activity found for android.intent.action.CALL_BUTTON.
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  478): Input event injection from pid 4913 failed.
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  530): GC_FOR_ALLOC freed 11330K, 54% free 10065K/21460K, paused 5ms, total 7ms
+I/ActivityManager(  478): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 530
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  478): GC_CONCURRENT freed 2970K, 35% free 14804K/22652K, paused 0ms+1ms, total 10ms
+V/PanelView(  530): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 4913 failed.
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/EGL_emulation( 4923): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+D/dalvikvm(  678): GC_CONCURRENT freed 7024K, 20% free 28783K/35936K, paused 1ms+6ms, total 41ms
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/AndroidRuntime( 4913): VM exiting with result code 0.
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2

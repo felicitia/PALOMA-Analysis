@@ -1,0 +1,770 @@
+--------- beginning of /dev/log/main
+I/WearableService(  641): Wearable Services stopping
+I/Icing   (  711): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+I/Icing   (  711): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/dalvikvm(  711): GC_CONCURRENT freed 2475K, 47% free 10176K/19072K, paused 2ms+2ms, total 20ms
+D/AndroidRuntime( 6082): 
+D/AndroidRuntime( 6082): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 6082): CheckJNI is OFF
+D/dalvikvm( 6082): Using executionMode 2
+D/dalvikvm( 6082): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 6082): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 6082): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 6082): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 6082): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 6082): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 6082): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 6082): failed to load memtrack module: -2
+D/AndroidRuntime( 6082): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  481): Skipping deliver [background] BroadcastRecord{4aeb3840 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4abfd6dc 6082 (unknown name)/0/u-1 remote:4aa442c0}: process crashing
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=yducky.application.babytime/.BabyTime} from pid 6082
+I/ActivityManager(  481): Start proc yducky.application.babytime for activity yducky.application.babytime/.BabyTime: pid=6092 uid=10237 gids={50237, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  481): setKernelCountSet(10237, 1) failed with errno -13
+I/dalvikvm( 6092): ignoring registerObject request in thread=1
+I/dalvikvm( 6092): ignoring registerObject request in thread=1
+D/dalvikvm( 6092): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 6092): GC_CONCURRENT freed 177K, 8% free 3113K/3352K, paused 0ms+0ms, total 4ms
+D/dalvikvm( 6092): DexOpt: --- BEGIN 'yducky.application.babytime-1.apk.classes2.zip' (bootstrap=0) ---
+D/dalvikvm( 6106): DexOpt: load 7ms, verify+opt 13ms, 736700 bytes
+D/dalvikvm( 6092): DexOpt: --- END 'yducky.application.babytime-1.apk.classes2.zip' (success) ---
+D/dalvikvm( 6092): DEX prep '/data/data/yducky.application.babytime/code_cache/secondary-dexes/yducky.application.babytime-1.apk.classes2.zip': unzip in 3ms, rewrite 150ms
+D/dalvikvm( 6092): GC_CONCURRENT freed 278K, 10% free 3342K/3684K, paused 0ms+0ms, total 2ms
+D/dalvikvm( 6092): GC_CONCURRENT freed 520K, 15% free 3332K/3892K, paused 1ms+1ms, total 5ms
+D/dalvikvm( 6092): GC_FOR_ALLOC freed 88K, 12% free 3450K/3892K, paused 4ms, total 4ms
+W/dalvikvm( 6092): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm( 6092): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 6092): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm( 6092): VFY: unable to resolve virtual method 58144: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm( 6092): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm( 6092): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm( 6092): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 6092): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm( 6092): VFY: unable to resolve interface method 58138: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm( 6092): VFY: replacing opcode 0x72 at 0x0006
+I/System.out( 6092): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 6092): <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://graph.facebook.com/v2.5/252022921831709?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_content%2Cgdpv4_nux_enabled%2Candroid_dialog_configs%2Candroid_sdk_error_categories&format=json&sdk=android
+D/dalvikvm( 6092): GC_FOR_ALLOC freed 162K, 12% free 3543K/4024K, paused 3ms, total 3ms
+I/System.out( 6092): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:$r1 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:19
+I/System.out( 6092): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r3)	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Language", $r3)	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setChunkedStreamingMode(int)>(0)	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r6)	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/x-www-form-urlencoded")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Encoding", "gzip")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r7 = virtualinvoke $r1.<java.net.HttpURLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestMethod()>()	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("User-Agent")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i2)	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setReadTimeout(int)>($i2)	timediff:0
+D/dalvikvm( 6092): GC_CONCURRENT freed 563K, 17% free 3380K/4032K, paused 1ms+3ms, total 6ms
+D/dalvikvm( 6092): GC_CONCURRENT freed 406K, 16% free 3417K/4032K, paused 0ms+2ms, total 5ms
+I/ActivityManager(  481): START u0 {flg=0x40000000 cmp=yducky.application.babytime/.NewIntroActivity} from pid 6092
+I/System.out( 6092): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$i0 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:113
+I/System.out( 6092): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): URLConn;%;0;%;<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>;%;$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://graph.facebook.com/v2.5/252022921831709?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_content%2Cgdpv4_nux_enabled%2Candroid_dialog_configs%2Candroid_sdk_error_categories&format=json&sdk=android;%;false;%;Not found;%;private, no-cache, no-store, must-revalidate;%;Sat, 01 Jan 2000 00:00:00 GMT;%;Not found;%;Not found
+D/dalvikvm( 6092): GC_FOR_ALLOC freed 290K, 14% free 3492K/4032K, paused 2ms, total 3ms
+I/System.out( 6092): body:<com.facebook.GraphResponse: java.util.List createResponsesFromObject(java.net.HttpURLConnection,java.util.List,java.lang.Object)>	sig:$i2 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 6092): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out( 6092): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+D/dalvikvm( 6092): GC_FOR_ALLOC freed 172K, 12% free 3587K/4052K, paused 2ms, total 2ms
+D/dalvikvm( 6092): GC_FOR_ALLOC freed 3K, 12% free 3640K/4108K, paused 1ms, total 2ms
+I/dalvikvm-heap( 6092): Grow heap (frag case) to 4.218MB for 635808-byte allocation
+D/dalvikvm( 6092): GC_FOR_ALLOC freed <1K, 10% free 4261K/4732K, paused 3ms, total 3ms
+D/dalvikvm( 6092): GC_CONCURRENT freed 0K, 10% free 4261K/4732K, paused 2ms+1ms, total 5ms
+W/GAV4    ( 6092): Thread[main,5,main]: int configuration name not recognized:  ga_dispatchPeriod
+W/GAV4    ( 6092): Thread[main,5,main]: string configuration name not recognized:  ga_logLevel
+D/dalvikvm( 6092): GC_FOR_ALLOC freed 94K, 7% free 4494K/4832K, paused 3ms, total 3ms
+V/WebViewChromium( 6092): Binding Chromium to the main looper Looper (main, tid 1) {4a780940}
+I/chromium( 6092): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain( 6092): Initializing chromium process, renderers=0
+W/chromium( 6092): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/libEGL  ( 6092): loaded /system/lib/egl/libEGL_adreno.so
+D/        ( 6092): HostConnection::get() New Host Connection established 0xb8217340, tid 6092
+D/libEGL  ( 6092): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 6092): loaded /system/lib/egl/libGLESv2_adreno.so
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:specialinvoke $r13.<java.net.URL: void <init>(java.lang.String)>($r9)	timediff:0
+I/System.out( 6092): <com.mocoplex.adlib.util.d: void run()>###specialinvoke $r13.<java.net.URL: void <init>(java.lang.String)>($r9)###http://gwk.adlibr.com/ad/config/init
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:$r14 = virtualinvoke $r13.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setReadTimeout(int)>(1000)	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setConnectTimeout(int)>(1000)	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("POST")	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+D/dalvikvm( 6092): GC_FOR_ALLOC freed 237K, 8% free 4539K/4884K, paused 2ms, total 2ms
+I/dalvikvm-heap( 6092): Grow heap (frag case) to 6.467MB for 2073612-byte allocation
+D/dalvikvm( 6092): GC_FOR_ALLOC freed <1K, 6% free 6564K/6912K, paused 4ms, total 4ms
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:$r22 = virtualinvoke $r15.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:157
+D/dalvikvm( 6092): GC_CONCURRENT freed 77K, 5% free 6569K/6912K, paused 0ms+1ms, total 3ms
+W/dalvikvm( 6092): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm( 6092): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method io.userhabit.service.main.b.b.onSearchRequested
+W/dalvikvm( 6092): VFY: unable to resolve interface method 18383: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm( 6092): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm( 6092): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method io.userhabit.service.main.b.b.onWindowStartingActionMode
+W/dalvikvm( 6092): VFY: unable to resolve interface method 18387: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 6092): VFY: replacing opcode 0x72 at 0x0002
+I/System.out( 6092): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 6092): <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://graph.facebook.com/v2.5/252022921831709/activities?format=json&sdk=android
+I/System.out( 6092): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:$r1 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r3)	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Language", $r3)	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setChunkedStreamingMode(int)>(0)	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r6)	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/x-www-form-urlencoded")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Encoding", "gzip")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r7 = virtualinvoke $r1.<java.net.HttpURLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestMethod()>()	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("User-Agent")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r6 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i2)	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setReadTimeout(int)>($i2)	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 6092): <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/yducky.application.babytime/settings?instance=691a46587b497871f830d047df3142fffeb98c30&source=1&build_version=182&icon_hash=cff2b2bff1fd4fa02d48c955b4f30b522f34dd55&display_version=3.6.7
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r2.<java.net.URL: int getPort()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r6 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r2.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r5.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r3, $r1, $r6, $r7, null)	timediff:1
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r5.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 6092): <io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/yducky.application.babytime/settings?instance=691a46587b497871f830d047df3142fffeb98c30&source=1&build_version=182&icon_hash=cff2b2bff1fd4fa02d48c955b4f30b522f34dd55&display_version=3.6.7
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.net.HttpURLConnection createConnection()>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r1)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest useCaches(boolean)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setUseCaches(boolean)>($z0)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest connectTimeout(int)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r10 = virtualinvoke $r1.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:13
+I/System.out( 6092): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest: void processRequest(com.facebook.GraphRequestBatch,com.facebook.internal.Logger,int,java.net.URL,java.io.OutputStream,boolean)>	sig:$r11 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+I/System.out( 6092): body:<com.facebook.GraphRequest$Serializer: void write(java.lang.String,java.lang.Object[])>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+W/EGL_emulation( 6092): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer( 6092): Enabling debug mode 0
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2534633, downTime=2534633, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2535464, downTime=2535464, deviceId=-1, source=0x101 }
+V/InputMethodService(  616): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+I/System.out( 6092): body:<io.userhabit.service.main.c.a: java.net.URI a(java.lang.String)>	sig:$r2 = staticinvoke <java.net.URI: java.net.URI create(java.lang.String)>($r1)	timediff:0
+I/System.out( 6092): body:<io.userhabit.service.main.c.a: java.net.URI a(java.lang.String)>	sig:$r2 = virtualinvoke $r2.<java.net.URI: java.net.URI normalize()>()	timediff:0
+I/System.out( 6092): body:<io.userhabit.service.main.c.b: void c()>	sig:$r4 = virtualinvoke $r3.<java.net.URI: java.lang.String getScheme()>()	timediff:0
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.onSessionCreated:1290 com.android.server.InputMethodManagerService$MethodCallback.sessionCreated:580 
+I/ActivityManager(  481): Displayed yducky.application.babytime/.NewIntroActivity: +184ms (total +9s174ms)
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:$i0 = virtualinvoke $r15.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:158
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:$r18 = virtualinvoke $r15.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): URLConn;%;1;%;<com.mocoplex.adlib.util.d: void run()>;%;$r18 = virtualinvoke $r15.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://gwk.adlibr.com/ad/config/init;%;true;%;1663;%;Not found;%;Not found;%;Not found;%;Not found
+D/dalvikvm( 6092): GC_CONCURRENT freed 943K, 13% free 6820K/7828K, paused 1ms+1ms, total 4ms
+I/dalvikvm( 6092): Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.internal.widget.TintTypedArray.getChangingConfigurations
+W/dalvikvm( 6092): VFY: unable to resolve virtual method 756: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+D/dalvikvm( 6092): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm( 6092): Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.internal.widget.TintTypedArray.getType
+W/dalvikvm( 6092): VFY: unable to resolve virtual method 778: Landroid/content/res/TypedArray;.getType (I)I
+D/dalvikvm( 6092): VFY: replacing opcode 0x6e at 0x0002
+D/dalvikvm( 6092): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm( 6092): VFY: unable to resolve static field 174 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm( 6092): VFY: replacing opcode 0x62 at 0x000c
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:specialinvoke $r13.<java.net.URL: void <init>(java.lang.String)>($r9)	timediff:0
+I/System.out( 6092): <com.mocoplex.adlib.util.d: void run()>###specialinvoke $r13.<java.net.URL: void <init>(java.lang.String)>($r9)###http://log.adlibr.com/rat/apps/package
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:$r14 = virtualinvoke $r13.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setReadTimeout(int)>(1000)	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setConnectTimeout(int)>(1000)	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("POST")	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:specialinvoke $r13.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 6092): <com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>###specialinvoke $r13.<java.net.URL: void <init>(java.lang.String)>($r1)###http://stmj.adlibr.com/config/engine/trid1124.zip
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:$r14 = virtualinvoke $r13.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2535571, downTime=2535571, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_RIGHT_PAREN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2535575, downTime=2535575, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2535576, downTime=2535576, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 6092): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=2535578, downTime=-1, deviceId=0, source=0x10004 }
+I/System.out( 6092): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$i0 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:164
+I/System.out( 6092): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): URLConn;%;2;%;<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>;%;$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://graph.facebook.com/v2.5/252022921831709/activities?format=json&sdk=android;%;true;%;16;%;private, no-cache, no-store, must-revalidate;%;Sat, 01 Jan 2000 00:00:00 GMT;%;Not found;%;Not found
+I/System.out( 6092): body:<com.facebook.GraphResponse: java.util.List createResponsesFromObject(java.net.HttpURLConnection,java.util.List,java.lang.Object)>	sig:$i2 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+W/EGL_emulation( 6092): eglSurfaceAttrib not implemented 3093 12436
+I/System.out( 6092): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out( 6092): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2535579, downTime=2535579, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aeb3b24 attribute=null, token = android.os.BinderProxy@4aaa26fc
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+D/dalvikvm( 6092): GC_CONCURRENT freed 1288K, 17% free 6879K/8228K, paused 0ms+2ms, total 11ms
+D/dalvikvm( 6092): WAIT_FOR_CONCURRENT_GC blocked 7ms
+D/dalvikvm( 6092): WAIT_FOR_CONCURRENT_GC blocked 6ms
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:virtualinvoke $r14.<java.net.URLConnection: void connect()>()	timediff:167
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:virtualinvoke $r14.<java.net.URLConnection: void setConnectTimeout(int)>(1000)	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:virtualinvoke $r14.<java.net.URLConnection: void setReadTimeout(int)>(30000)	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:$r22 = virtualinvoke $r15.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:170
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=yducky.application.babytime/.BabyTime} from pid 6082
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: int code()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:378
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String header(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: int intHeader(java.lang.String,int)>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getHeaderFieldInt(java.lang.String,int)>($r1, $i0)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: int code()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.io.InputStream stream()>	sig:$r2 = virtualinvoke $r1.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): URLConn;%;3;%;<io.fabric.sdk.android.services.network.HttpRequest: java.io.InputStream stream()>;%;$r2 = virtualinvoke $r1.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://settings.crashlytics.com/spi/v2/platforms/android/apps/yducky.application.babytime/settings?instance=691a46587b497871f830d047df3142fffeb98c30&source=1&build_version=182&icon_hash=cff2b2bff1fd4fa02d48c955b4f30b522f34dd55&display_version=3.6.7;%;false;%;Not found;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String header(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 6092): <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###https://e.crashlytics.com/spi/v2/events
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r2.<java.net.URL: int getPort()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r6 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r2.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r5.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r3, $r1, $r6, $r7, null)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r5.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 6092): <io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)###https://e.crashlytics.com/spi/v2/events
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.net.HttpURLConnection createConnection()>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r1)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest useCaches(boolean)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setUseCaches(boolean)>($z0)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest connectTimeout(int)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest openOutput()>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest openOutput()>	sig:$r3 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=0.0 v=4500.0)
+W/WindowManager(  481): updateFocusedWindowLocked, focusedAppToken is null.
+W/EGL_emulation(  533): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  533): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2535834, downTime=2535834, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  533): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2535879, downTime=2535879, deviceId=-1, source=0x101 }
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:$i0 = virtualinvoke $r15.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:163
+I/System.out( 6092): body:<com.mocoplex.adlib.util.d: void run()>	sig:$r18 = virtualinvoke $r15.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): URLConn;%;4;%;<com.mocoplex.adlib.util.d: void run()>;%;$r18 = virtualinvoke $r15.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://log.adlibr.com/rat/apps/package;%;true;%;42;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:$i4 = virtualinvoke $r14.<java.net.URLConnection: int getContentLength()>()	timediff:166
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:$r27 = virtualinvoke $r14.<java.net.URLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): URLConn;%;5;%;<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>;%;$r27 = virtualinvoke $r14.<java.net.URLConnection: java.io.InputStream getInputStream()>();%;http://stmj.adlibr.com/config/engine/trid1124.zip;%;false;%;3743584;%;Not found;%;Not found;%;Not found;%;Not found
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=252.0 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=252.0 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=-9; nothing to do (h=252.0 v=-3000.0)
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2535902, downTime=2535902, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa9e2a8 attribute=null, token = android.os.BinderProxy@4aaa26fc
+W/ViewRootImpl(  533): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=2535902, downTime=-1, deviceId=0, source=0x10004 }
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=-3; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=-6; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=42.58198 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=24.473982 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=24.473982 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=24.473982 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=24.473982 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=24.473982 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=24.473982 v=-3000.0)
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=yducky.application.babytime/.BabyTime} from pid 6082
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest openOutput()>	sig:$r4 = virtualinvoke $r2.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:227
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=9.398981 v=-3000.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=9.398981 v=-3000.0)
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=yducky.application.babytime/.BabyTime} from pid 6082
+D/dalvikvm( 6092): GC_CONCURRENT freed 1175K, 16% free 6954K/8228K, paused 1ms+1ms, total 5ms
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: int code()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:71
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 6092): <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###https://e.crashlytics.com/spi/v2/events
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r2.<java.net.URL: int getPort()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r6 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r2.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r5.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r3, $r1, $r6, $r7, null)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r5.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:1
+I/System.out( 6092): <io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)###https://e.crashlytics.com/spi/v2/events
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: java.net.HttpURLConnection createConnection()>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r1)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest useCaches(boolean)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setUseCaches(boolean)>($z0)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest connectTimeout(int)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:1
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest openOutput()>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest openOutput()>	sig:$r3 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest openOutput()>	sig:$r4 = virtualinvoke $r2.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:11
+W/EGL_emulation(  533): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(  616): GC_CONCURRENT freed 389K, 14% free 3042K/3520K, paused 0ms+0ms, total 3ms
+I/InputDispatcher(  481): Dropped event because of pending overdue app switch.
+W/InputManager(  481): Input event injection from pid 6082 failed.
+I/System.out( 6092): body:<io.fabric.sdk.android.services.network.HttpRequest: int code()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:72
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=yducky.application.babytime/.BabyTime} from pid 6082
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 6092
+W/PhoneFallbackEventHandler( 6092): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=yducky.application.babytime/.BabyTime} from pid 6082
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=yducky.application.babytime/.BabyTime} from pid 6082
+D/dalvikvm( 2623): GC_FOR_ALLOC freed 7785K, 62% free 4894K/12752K, paused 2ms, total 2ms
+I/dalvikvm-heap( 2623): Grow heap (frag case) to 8.351MB for 3686412-byte allocation
+D/dalvikvm( 2623): GC_CONCURRENT freed 9K, 34% free 8484K/12752K, paused 1ms+0ms, total 3ms
+D/dalvikvm( 2623): WAIT_FOR_CONCURRENT_GC blocked 2ms
+W/EGL_emulation( 2623): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=yducky.application.babytime/.BabyTime} from pid 6082
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=yducky.application.babytime/.BabyTime} from pid 6082
+D/dalvikvm( 6092): GC_FOR_ALLOC freed 1145K, 18% free 6923K/8404K, paused 4ms, total 4ms
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=yducky.application.babytime/.BabyTime} from pid 6082
+I/ActivityManager(  481): START u0 {flg=0x4000000 cmp=yducky.application.babytime/.BabyTime (has extras)} from pid 6092
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:specialinvoke $r13.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 6092): <com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>###specialinvoke $r13.<java.net.URL: void <init>(java.lang.String)>($r1)###http://stmj.adlibr.com/config/engine/trid1124.zip
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:$r14 = virtualinvoke $r13.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:1
+I/System.out( 6092): body:<yducky.application.babytime.net.SslConnection: javax.net.ssl.HttpsURLConnection postHttps(java.lang.String,int,int)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 6092): <yducky.application.babytime.net.SslConnection: javax.net.ssl.HttpsURLConnection postHttps(java.lang.String,int,int)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###https://babytime.simfler.com
+I/System.out( 6092): body:<yducky.application.babytime.net.SslConnection: javax.net.ssl.HttpsURLConnection postHttps(java.lang.String,int,int)>	sig:$r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 6092): body:<yducky.application.babytime.net.SslConnection: javax.net.ssl.HttpsURLConnection postHttps(java.lang.String,int,int)>	sig:virtualinvoke $r5.<javax.net.ssl.HttpsURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 6092): body:<yducky.application.babytime.net.SslConnection: javax.net.ssl.HttpsURLConnection postHttps(java.lang.String,int,int)>	sig:virtualinvoke $r5.<javax.net.ssl.HttpsURLConnection: void setReadTimeout(int)>($i1)	timediff:0
+D/dalvikvm(  481): GC_CONCURRENT freed 3514K, 41% free 11770K/19764K, paused 2ms+3ms, total 34ms
+W/ActivityDBHelper( 6092): ActivityRecordDatabaseHelper: db=activity_record.db, version=2
+I/dalvikvm( 6092): Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.internal.widget.ResourcesWrapper.getDrawable
+W/dalvikvm( 6092): VFY: unable to resolve virtual method 719: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 6092): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm( 6092): Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.internal.widget.ResourcesWrapper.getDrawableForDensity
+W/dalvikvm( 6092): VFY: unable to resolve virtual method 721: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 6092): VFY: replacing opcode 0x6e at 0x0002
+W/ActivitySyncMgr( 6092): getFirstSyncDone() currentBabyId is null
+W/StopWatchMotherMilk( 6092): loadStatus() : Empty baby Id!
+W/StopWatchBasic( 6092): loadStatus() : Empty baby Id!
+W/StopWatchPump( 6092): loadStatus() : Empty baby Id!
+W/StopWatchBasic( 6092): loadStatus() : Empty baby Id!
+W/StopWatchBasic( 6092): loadStatus() : Empty baby Id!
+D/dalvikvm( 6092): GC_CONCURRENT freed 678K, 11% free 7505K/8404K, paused 1ms+1ms, total 8ms
+W/ActivitySyncMgr( 6092): getFirstSyncDone() currentBabyId is null
+W/StopWatchMotherMilk( 6092): loadStatus() : Empty baby Id!
+W/StopWatchBasic( 6092): loadStatus() : Empty baby Id!
+W/StopWatchPump( 6092): loadStatus() : Empty baby Id!
+W/StopWatchBasic( 6092): loadStatus() : Empty baby Id!
+W/StopWatchBasic( 6092): loadStatus() : Empty baby Id!
+W/BabyTime( 6092): Preferences have been converted!!
+W/BabyTime( 6092): First time after installation!!!
+W/StatusCheckerManager( 6092): Need Register
+W/StatusCheckerManager( 6092): Need Register
+I/dalvikvm( 6092): Could not find method com.google.android.gms.common.GoogleApiAvailability.getInstance, referenced from method com.appsflyer.AppsFlyerLib.isGooglePlayServicesAvailable
+W/dalvikvm( 6092): VFY: unable to resolve static method 33269: Lcom/google/android/gms/common/GoogleApiAvailability;.getInstance ()Lcom/google/android/gms/common/GoogleApiAvailability;
+D/dalvikvm( 6092): VFY: replacing opcode 0x71 at 0x0000
+W/StatusCheckerManager( 6092): Need Register
+W/BackendApi( 6092): --- CheckLoginTask ---
+W/StatusCheckerManager( 6092): Need Register
+W/BackendUtil( 6092): use SettingsUtil for birthday
+W/SettingsUtil( 6092): java.lang.Exception: Deprecated Call
+W/SettingsUtil( 6092): 	at yducky.application.babytime.SettingsUtil.getBirthdayMillis(SettingsUtil.java:195)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.backend.api.BackendUtil.getBirthdayCalendar(BackendUtil.java:51)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.refreshBirthInfo(BabyTime.java:2128)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.onResume(BabyTime.java:1793)
+W/SettingsUtil( 6092): 	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1209)
+W/SettingsUtil( 6092): 	at android.app.Activity.performResume(Activity.java:5310)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2776)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2815)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2248)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+W/SettingsUtil( 6092): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/SettingsUtil( 6092): 	at android.os.Looper.loop(Looper.java:136)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/SettingsUtil( 6092): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/SettingsUtil( 6092): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/SettingsUtil( 6092): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/SettingsUtil( 6092): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/SettingsUtil( 6092): 	at dalvik.system.NativeStart.main(Native Method)
+W/SettingsUtil( 6092): java.lang.Exception: Deprecated Call
+W/SettingsUtil( 6092): 	at yducky.application.babytime.SettingsUtil.getBirthdayMillisSet(SettingsUtil.java:203)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.backend.api.BackendUtil.getBirthdayCalendar(BackendUtil.java:52)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.refreshBirthInfo(BabyTime.java:2128)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.onResume(BabyTime.java:1793)
+W/SettingsUtil( 6092): 	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1209)
+W/SettingsUtil( 6092): 	at android.app.Activity.performResume(Activity.java:5310)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2776)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2815)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2248)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+W/SettingsUtil( 6092): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/SettingsUtil( 6092): 	at android.os.Looper.loop(Looper.java:136)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/SettingsUtil( 6092): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/SettingsUtil( 6092): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/SettingsUtil( 6092): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/SettingsUtil( 6092): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/SettingsUtil( 6092): 	at dalvik.system.NativeStart.main(Native Method)
+W/BackendUtil( 6092): use SettingsUtil for birthday
+W/SettingsUtil( 6092): java.lang.Exception: Deprecated Call
+W/SettingsUtil( 6092): 	at yducky.application.babytime.SettingsUtil.getBirthdayMillis(SettingsUtil.java:195)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.backend.api.BackendUtil.getBirthdayCalendar(BackendUtil.java:51)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.backend.api.BackendUtil.isBirthdaySet(BackendUtil.java:70)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.refreshBirthInfo(BabyTime.java:2129)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.onResume(BabyTime.java:1793)
+W/SettingsUtil( 6092): 	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1209)
+W/SettingsUtil( 6092): 	at android.app.Activity.performResume(Activity.java:5310)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2776)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2815)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2248)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+W/SettingsUtil( 6092): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/SettingsUtil( 6092): 	at android.os.Looper.loop(Looper.java:136)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/SettingsUtil( 6092): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/SettingsUtil( 6092): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/SettingsUtil( 6092): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/SettingsUtil( 6092): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/SettingsUtil( 6092): 	at dalvik.system.NativeStart.main(Native Method)
+W/SettingsUtil( 6092): java.lang.Exception: Deprecated Call
+W/SettingsUtil( 6092): 	at yducky.application.babytime.SettingsUtil.getBirthdayMillisSet(SettingsUtil.java:203)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.backend.api.BackendUtil.getBirthdayCalendar(BackendUtil.java:52)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.backend.api.BackendUtil.isBirthdaySet(BackendUtil.java:70)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.refreshBirthInfo(BabyTime.java:2129)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.onResume(BabyTime.java:1793)
+W/SettingsUtil( 6092): 	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1209)
+W/SettingsUtil( 6092): 	at android.app.Activity.performResume(Activity.java:5310)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2776)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2815)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2248)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+W/SettingsUtil( 6092): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/SettingsUtil( 6092): 	at android.os.Looper.loop(Looper.java:136)
+W/SettingsUtil( 6092): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/SettingsUtil( 6092): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/SettingsUtil( 6092): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/SettingsUtil( 6092): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/SettingsUtil( 6092): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/SettingsUtil( 6092): 	at dalvik.system.NativeStart.main(Native Method)
+W/StatusCheckerManager( 6092): needLogin() tokenCache is null!
+W/BabyTime( 6092): login & babyProfile needed! skip checkAndDownSyncFirst()
+E/ActivityThread( 6092): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+W/StopWatchMotherMilk( 6092): loadStatus() : Empty baby Id!
+W/StopWatchBasic( 6092): loadStatus() : Empty baby Id!
+W/StopWatchPump( 6092): loadStatus() : Empty baby Id!
+W/StopWatchBasic( 6092): loadStatus() : Empty baby Id!
+W/StopWatchBasic( 6092): loadStatus() : Empty baby Id!
+W/BackendUtil( 6092): use SettingsUtil for DueDate
+W/SettingsUtil( 6092): java.lang.Exception: Deprecated Call
+W/SettingsUtil( 6092): 	at yducky.application.babytime.SettingsUtil.getDueDateMillis(SettingsUtil.java:199)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.backend.api.BackendUtil.getDueDateCalendar(BackendUtil.java:88)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.updateAgeText(BabyTime.java:2712)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.access$3800(BabyTime.java:105)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime$35.run(BabyTime.java:2494)
+W/SettingsUtil( 6092): 	at java.lang.Thread.run(Thread.java:841)
+W/SettingsUtil( 6092): java.lang.Exception: Deprecated Call
+W/SettingsUtil( 6092): 	at yducky.application.babytime.SettingsUtil.getDueDateMillisSet(SettingsUtil.java:207)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.backend.api.BackendUtil.getDueDateCalendar(BackendUtil.java:89)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.updateAgeText(BabyTime.java:2712)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.access$3800(BabyTime.java:105)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime$35.run(BabyTime.java:2494)
+W/SettingsUtil( 6092): 	at java.lang.Thread.run(Thread.java:841)
+W/BackendUtil( 6092): use SettingsUtil for DueDate
+W/SettingsUtil( 6092): java.lang.Exception: Deprecated Call
+W/SettingsUtil( 6092): 	at yducky.application.babytime.SettingsUtil.getDueDateMillis(SettingsUtil.java:199)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.backend.api.BackendUtil.getDueDateCalendar(BackendUtil.java:88)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.backend.api.BackendUtil.isDueDateSet(BackendUtil.java:107)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.updateAgeText(BabyTime.java:2713)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.access$3800(BabyTime.java:105)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime$35.run(BabyTime.java:2494)
+W/SettingsUtil( 6092): 	at java.lang.Thread.run(Thread.java:841)
+W/SettingsUtil( 6092): java.lang.Exception: Deprecated Call
+W/SettingsUtil( 6092): 	at yducky.application.babytime.SettingsUtil.getDueDateMillisSet(SettingsUtil.java:207)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.backend.api.BackendUtil.getDueDateCalendar(BackendUtil.java:89)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.backend.api.BackendUtil.isDueDateSet(BackendUtil.java:107)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.updateAgeText(BabyTime.java:2713)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime.access$3800(BabyTime.java:105)
+W/SettingsUtil( 6092): 	at yducky.application.babytime.BabyTime$35.run(BabyTime.java:2494)
+W/SettingsUtil( 6092): 	at java.lang.Thread.run(Thread.java:841)
+E/WidgetData( 6092): loadFromStore() error: babyId is null! Return dummy object!
+E/WidgetData( 6092): putToStore() error: First, load data by using loadFromStore()
+E/BabyTimeUtils( 6092): babyListItem is null! babyId = null
+W/ActivityDBHelper( 6092): babyId is null
+W/ActivityDBHelper( 6092): babyId is null
+W/ActivityDBHelper( 6092): babyId is null
+W/ActivityDBHelper( 6092): babyId is null
+E/WidgetData( 6092): loadFromStore() error: babyId is null! Return dummy object!
+E/WidgetData( 6092): putToStore() error: First, load data by using loadFromStore()
+W/ActivityDBHelper( 6092): babyId is null
+W/ActivityDBHelper( 6092): babyId is null
+W/ActivityDBHelper( 6092): babyId is null
+W/BabyTime( 6092): Error while reading last feed item
+W/BabyTime TimeChecker( 6092): feed data error!
+W/ActivityDBHelper( 6092): babyId is null
+W/BabyTime( 6092): Error while reading last waste item
+W/BabyTime TimeChecker( 6092): waste data error!
+W/ActivityDBHelper( 6092): babyId is null
+W/BabyTime( 6092): Error while reading last sleep item
+W/BabyTime TimeChecker( 6092): waste data error!
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2537394, downTime=2537394, deviceId=-1, source=0x101 }
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:virtualinvoke $r14.<java.net.URLConnection: void connect()>()	timediff:149
+D/dalvikvm( 6092): GC_CONCURRENT freed 1081K, 13% free 7937K/9080K, paused 2ms+1ms, total 8ms
+W/EGL_emulation( 6092): eglSurfaceAttrib not implemented 3093 12436
+E/BackendApi( 6092): CheckLoginTask return Error!
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2537525, downTime=2537525, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): START u0 {flg=0x20000000 cmp=yducky.application.babytime/.LoginIntroActivity} from pid 6092
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2537598, downTime=2537598, deviceId=-1, source=0x101 }
+I/System.out( 6092): body:<com.appsflyer.AppsFlyerLib: void sendRequestToServer(java.lang.String,java.lang.String,java.lang.String,java.lang.ref.WeakReference,java.lang.String,boolean)>	sig:specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 6092): <com.appsflyer.AppsFlyerLib: void sendRequestToServer(java.lang.String,java.lang.String,java.lang.String,java.lang.ref.WeakReference,java.lang.String,boolean)>###specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r1)###https://t.appsflyer.com/api/v4/androidevent?buildnumber=3.7&app_id=yducky.application.babytime
+I/System.out( 6092): body:<com.appsflyer.AppsFlyerLib: void sendRequestToServer(java.lang.String,java.lang.String,java.lang.String,java.lang.ref.WeakReference,java.lang.String,boolean)>	sig:$r8 = virtualinvoke $r7.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 6092): body:<com.appsflyer.AppsFlyerLib: void sendRequestToServer(java.lang.String,java.lang.String,java.lang.String,java.lang.ref.WeakReference,java.lang.String,boolean)>	sig:$r8 = virtualinvoke $r7.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 6092): body:<com.appsflyer.AppsFlyerLib: void callServer(java.net.URL,java.lang.String,java.lang.String,java.lang.ref.WeakReference,java.lang.String,boolean)>	sig:$r8 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 6092): body:<com.appsflyer.AppsFlyerLib: void callServer(java.net.URL,java.lang.String,java.lang.String,java.lang.ref.WeakReference,java.lang.String,boolean)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("POST")	timediff:0
+I/System.out( 6092): body:<com.appsflyer.AppsFlyerLib: void callServer(java.net.URL,java.lang.String,java.lang.String,java.lang.ref.WeakReference,java.lang.String,boolean)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Length", $r11)	timediff:0
+I/System.out( 6092): body:<com.appsflyer.AppsFlyerLib: void callServer(java.net.URL,java.lang.String,java.lang.String,java.lang.ref.WeakReference,java.lang.String,boolean)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/json")	timediff:0
+I/System.out( 6092): body:<com.appsflyer.AppsFlyerLib: void callServer(java.net.URL,java.lang.String,java.lang.String,java.lang.ref.WeakReference,java.lang.String,boolean)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setConnectTimeout(int)>(10000)	timediff:0
+I/System.out( 6092): body:<com.appsflyer.AppsFlyerLib: void callServer(java.net.URL,java.lang.String,java.lang.String,java.lang.ref.WeakReference,java.lang.String,boolean)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+V/InputMethodService(  616): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ActivitySyncMgr( 6092): getFirstSyncDone() currentBabyId is null
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.windowGainedFocus:2026 
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:$i0 = virtualinvoke $r14.<java.net.URLConnection: int getContentLength()>()	timediff:148
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:$r14 = virtualinvoke $r13.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:virtualinvoke $r14.<java.net.URLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Range", $r2)	timediff:0
+E/Util    ( 6092): java.lang.NullPointerException
+E/Util    ( 6092): 	at yducky.application.babytime.Util.deleteAllFiles(Util.java:2607)
+E/Util    ( 6092): 	at yducky.application.babytime.backend.api.BackendApi.deleteUserAndBabyDatas(BackendApi.java:1442)
+E/Util    ( 6092): 	at yducky.application.babytime.LoginIntroActivity.onResume(LoginIntroActivity.java:142)
+E/Util    ( 6092): 	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1209)
+E/Util    ( 6092): 	at android.app.Activity.performResume(Activity.java:5310)
+E/Util    ( 6092): 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2776)
+E/Util    ( 6092): 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2815)
+E/Util    ( 6092): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2248)
+E/Util    ( 6092): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/Util    ( 6092): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/Util    ( 6092): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/Util    ( 6092): 	at android.os.Looper.loop(Looper.java:136)
+E/Util    ( 6092): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/Util    ( 6092): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/Util    ( 6092): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/Util    ( 6092): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/Util    ( 6092): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/Util    ( 6092): 	at dalvik.system.NativeStart.main(Native Method)
+D/dalvikvm( 6092): GC_FOR_ALLOC freed 571K, 9% free 8720K/9528K, paused 4ms, total 4ms
+W/EGL_emulation( 6092): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  616): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.windowGainedFocus:2026 
+W/ResourceType(  481): Skipping entry 0x7f04000d in package table 0 because it is not complex!
+W/ResourceType(  481): Skipping entry 0x7f04000e in package table 0 because it is not complex!
+I/ActivityManager(  481): Displayed yducky.application.babytime/.LoginIntroActivity: +162ms (total +435ms)
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:virtualinvoke $r14.<java.net.URLConnection: void connect()>()	timediff:155
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:virtualinvoke $r14.<java.net.URLConnection: void setConnectTimeout(int)>(1000)	timediff:0
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:virtualinvoke $r14.<java.net.URLConnection: void setReadTimeout(int)>(30000)	timediff:0
+D/dalvikvm( 6092): GC_FOR_ALLOC freed 239K, 8% free 9391K/10196K, paused 4ms, total 4ms
+I/ActivityManager(  481): START u0 {flg=0x20000000 cmp=yducky.application.babytime/.RegisterActivity} from pid 6092
+V/InputMethodService(  616): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/System.out( 6092): body:<com.appsflyer.AppsFlyerLib: void callServer(java.net.URL,java.lang.String,java.lang.String,java.lang.ref.WeakReference,java.lang.String,boolean)>	sig:$r13 = virtualinvoke $r9.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:411
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:$i4 = virtualinvoke $r14.<java.net.URLConnection: int getContentLength()>()	timediff:155
+I/System.out( 6092): body:<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>	sig:$r18 = virtualinvoke $r14.<java.net.URLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 6092): URLConn;%;6;%;<com.mocoplex.adlib.util.c: boolean b(java.lang.String,java.lang.String)>;%;$r18 = virtualinvoke $r14.<java.net.URLConnection: java.io.InputStream getInputStream()>();%;http://stmj.adlibr.com/config/engine/trid1124.zip;%;false;%;3380259;%;Not found;%;Not found;%;Not found;%;Not found
+W/EGL_emulation( 6092): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2537949, downTime=2537949, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): Displayed yducky.application.babytime/.RegisterActivity: +126ms
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2538045, downTime=2538045, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2538144, downTime=2538144, deviceId=-1, source=0x101 }
+I/System.out( 6092): body:<com.appsflyer.AppsFlyerLib: void callServer(java.net.URL,java.lang.String,java.lang.String,java.lang.ref.WeakReference,java.lang.String,boolean)>	sig:$i0 = virtualinvoke $r9.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:135
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PROG_YELLOW, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2538146, downTime=2538146, deviceId=-1, source=0x101 }
+D/dalvikvm( 2623): GC_FOR_ALLOC freed 17K, 34% free 8484K/12752K, paused 2ms, total 2ms
+I/System.out( 6092): body:<com.appsflyer.AppsFlyerLib: void callServer(java.net.URL,java.lang.String,java.lang.String,java.lang.ref.WeakReference,java.lang.String,boolean)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void disconnect()>()	timediff:1
+I/dalvikvm-heap( 2623): Grow heap (frag case) to 10.320MB for 2073612-byte allocation
+D/dalvikvm( 2623): GC_FOR_ALLOC freed <1K, 18% free 10509K/12752K, paused 4ms, total 4ms
+D/dalvikvm( 2623): GC_CONCURRENT freed 0K, 18% free 10510K/12752K, paused 2ms+0ms, total 3ms
+W/EGL_emulation( 6092): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2538149, downTime=2538149, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): START u0 {act=android.intent.action.VIEW dat=https://www.babytime.care/terms-of-service/ cmp=com.android.browser/.BrowserActivity} from pid 6092
+D/dalvikvm(  481): GC_FOR_ALLOC freed 468K, 42% free 11470K/19764K, paused 19ms, total 19ms
+I/dalvikvm-heap(  481): Grow heap (frag case) to 13.241MB for 2073612-byte allocation
+D/dalvikvm(  481): GC_FOR_ALLOC freed 18K, 39% free 13476K/21792K, paused 16ms, total 16ms
+D/dalvikvm(  481): GC_FOR_ALLOC freed 12K, 39% free 13472K/21792K, paused 15ms, total 15ms
+I/dalvikvm-heap(  481): Grow heap (frag case) to 15.196MB for 2073612-byte allocation
+D/dalvikvm(  481): GC_FOR_ALLOC freed <1K, 35% free 15497K/23820K, paused 15ms, total 15ms
+W/InputManager(  481): Input event injection from pid 6082 failed.
+W/InputManager(  481): Input event injection from pid 6082 failed.
+W/InputManager(  481): Input event injection from pid 6082 failed.
+W/InputManager(  481): Input event injection from pid 6082 failed.
+W/InputManager(  481): Input event injection from pid 6082 failed.
+W/InputManager(  481): Input event injection from pid 6082 failed.
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MANNER_MODE, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2538255, downTime=2538255, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2538266, downTime=2538266, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.NotificationManagerService$6.run:1838 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aca4f78 attribute=null, token = android.os.BinderProxy@4a9d1f64
+I/ActivityManager(  481): START u0 {act=NATIVE_WITH_FALLBACK cmp=yducky.application.babytime/com.facebook.FacebookActivity (has extras)} from pid 6092
+D/dalvikvm(  481): GC_FOR_ALLOC freed 35K, 35% free 15517K/23820K, paused 18ms, total 18ms
+I/dalvikvm-heap(  481): Grow heap (frag case) to 17.193MB for 2073612-byte allocation
+D/dalvikvm(  481): GC_FOR_ALLOC freed 5K, 33% free 17536K/25848K, paused 18ms, total 18ms
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F10, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2538276, downTime=2538276, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2538292, downTime=2538292, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2538292, downTime=2538292, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2538292, downTime=2538292, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2538292, downTime=2538292, deviceId=-1, source=0x101 }
+I/iu.UploadsManager(  711): End new media; added: 1, uploading: 0, time: 110 ms
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(  481): GC_FOR_ALLOC freed 2061K, 40% free 15628K/25848K, paused 17ms, total 17ms
+D/dalvikvm(  481): GC_FOR_ALLOC freed 8K, 32% free 17655K/25848K, paused 24ms, total 24ms
+I/dalvikvm-heap(  481): Grow heap (frag case) to 19.281MB for 2073612-byte allocation
+D/dalvikvm(  481): GC_FOR_ALLOC freed 3K, 30% free 19677K/27876K, paused 34ms, total 34ms
+D/dalvikvm(  533): GC_FOR_ALLOC freed 1927K, 30% free 17104K/24136K, paused 8ms, total 8ms
+D/dalvikvm(  481): GC_FOR_ALLOC freed 1K, 30% free 19789K/27876K, paused 20ms, total 22ms
+I/dalvikvm-heap(  481): Grow heap (frag case) to 21.366MB for 2073612-byte allocation
+D/dalvikvm(  481): GC_FOR_ALLOC freed <1K, 28% free 21814K/29904K, paused 24ms, total 24ms
+I/ActivityManager(  481): Displayed yducky.application.babytime/com.facebook.FacebookActivity: +270ms
+I/chromium( 6092): [INFO:simple_index_file.cc(397)] Simple Cache Index is being restored from disk.
+W/ViewRootImpl( 6092): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=2538587, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 6092): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2538587, downTime=2538586, deviceId=0, source=0x10004 }
+W/InputEventReceiver( 6092): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 6092): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 6092): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SHIFT_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2538588, downTime=2538588, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 6092): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=5.3250732, y[0]=375.3636, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2538591, downTime=2538591, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 6092): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-1.3113708, y[0]=375.78577, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2538591, downTime=2538591, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_POUND, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2538596, downTime=2538596, deviceId=-1, source=0x101 }
+D/dalvikvm( 6092): GC_CONCURRENT freed 1245K, 12% free 10261K/11568K, paused 1ms+3ms, total 15ms
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2538599, downTime=2538599, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  481): START u0 {act=android.intent.action.VIEW dat=https://www.babytime.care/terms-of-service/ cmp=com.android.browser/.BrowserActivity} from pid 6092
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 6092
+W/PhoneFallbackEventHandler( 6092): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=yducky.application.babytime/.BabyTime} from pid 6082
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 6092
+W/PhoneFallbackEventHandler( 6092): No activity found for android.intent.action.CALL_BUTTON.
+W/WindowManager(  481): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  533): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2539050, downTime=2539050, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  481): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4adea580 (uid=10237 pid=6092)
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  533): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=498.49448, y[0]=-305.13272, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2539074, downTime=2539074, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  533): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=291.0, y[0]=544.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2539074, downTime=2539074, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  533): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=272.7627, y[0]=513.66174, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=2539075, downTime=2539074, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  533): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=264.12173, y[0]=513.02136, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2539075, downTime=2539074, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  533): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=2539073, downTime=-1, deviceId=0, source=0x10004 }
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 6092
+W/PhoneFallbackEventHandler( 6092): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=yducky.application.babytime/.BabyTime} from pid 6082
+E/Util    ( 6092): java.lang.NullPointerException
+E/Util    ( 6092): 	at yducky.application.babytime.Util.deleteAllFiles(Util.java:2607)
+E/Util    ( 6092): 	at yducky.application.babytime.backend.api.BackendApi.deleteUserAndBabyDatas(BackendApi.java:1442)
+E/Util    ( 6092): 	at yducky.application.babytime.LoginIntroActivity.onResume(LoginIntroActivity.java:142)
+E/Util    ( 6092): 	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1209)
+E/Util    ( 6092): 	at android.app.Activity.performResume(Activity.java:5310)
+E/Util    ( 6092): 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2776)
+E/Util    ( 6092): 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2815)
+E/Util    ( 6092): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1238)
+E/Util    ( 6092): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/Util    ( 6092): 	at android.os.Looper.loop(Looper.java:136)
+E/Util    ( 6092): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/Util    ( 6092): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/Util    ( 6092): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/Util    ( 6092): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/Util    ( 6092): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/Util    ( 6092): 	at dalvik.system.NativeStart.main(Native Method)
+W/InputManager(  481): Input event injection from pid 6082 failed.
+W/InputManager(  481): Input event injection from pid 6082 failed.
+W/InputManager(  481): Input event injection from pid 6082 failed.
+W/InputManager(  481): Input event injection from pid 6082 failed.
+W/InputManager(  481): Input event injection from pid 6082 failed.
+W/EGL_emulation( 6092): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/System.err( 6092): java.io.FileNotFoundException: /storage/emulated/0/Android/data/com.adlibr/gapping/engines/storage/emulated/0/Android/data/com.adlibr/gapping/engines: open failed: ENOENT (No such file or directory)
+W/System.err( 6092): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+W/System.err( 6092): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/System.err( 6092): 	at java.io.FileInputStream.<init>(FileInputStream.java:105)
+W/System.err( 6092): 	at com.mocoplex.adlib.adrra.trid.TriDLoader$1.run(TriDLoader.java:82)
+W/System.err( 6092): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 6092): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err( 6092): 	at libcore.io.Posix.open(Native Method)
+W/System.err( 6092): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/System.err( 6092): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+W/System.err( 6092): 	... 4 more
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2539331, downTime=2539331, deviceId=-1, source=0x101 }
+W/EGL_emulation( 6092): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 6092): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2539335, downTime=2539335, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abfeb6c attribute=android.view.inputmethod.EditorInfo@4abf94c4, token = android.os.BinderProxy@4a962a1c
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=yducky.application.babytime/.BabyTime} from pid 6082
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 481
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 481
+I/AndroidRuntime( 6082): VM exiting with result code 0.

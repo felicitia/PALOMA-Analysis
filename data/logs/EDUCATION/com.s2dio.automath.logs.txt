@@ -1,0 +1,1264 @@
+--------- beginning of /dev/log/main
+D/dalvikvm(  478): GC_EXPLICIT freed 354K, 19% free 14899K/18364K, paused 1ms+1ms, total 12ms
+D/AndroidRuntime( 5116): 
+D/AndroidRuntime( 5116): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 5116): CheckJNI is OFF
+D/dalvikvm( 5116): Using executionMode 2
+D/dalvikvm( 5116): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 5116): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 5116): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 5116): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 5116): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 5116): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 5116): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5116): failed to load memtrack module: -2
+D/AndroidRuntime( 5116): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  478): Skipping deliver [background] BroadcastRecord{4ac2dcc8 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4abd7368 5116 (unknown name)/0/u-1 remote:4ac2e2cc}: process crashing
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+D/yeshen  (  682): launcher onpause
+I/ActivityManager(  478): Start proc com.s2dio.automath for activity com.s2dio.automath/.Scan: pid=5126 uid=10206 gids={50206, 1028, 1015, 1023, 3003}
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10206, 1) failed with errno -13
+I/dalvikvm( 5126): ignoring registerObject request in thread=1
+I/dalvikvm( 5126): ignoring registerObject request in thread=1
+D/yeshen  (  682): launcher onstop
+D/FirebaseApp(  682): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  682): onTrimMemory level:20
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+I/dalvikvm( 5126): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.r.zzi
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 445: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x000a
+I/GMPM    ( 5126): App measurement is starting up, version: 8487
+I/GMPM    ( 5126): To enable debug logging run: adb shell setprop log.tag.GMPM VERBOSE
+E/GMPM    ( 5126): GoogleService failed to initialize, status: 10, Missing an expected resource: 'R.string.google_app_id' for initializing Google services.  Possible causes are missing google-services.json or com.google.gms.google-services gradle plugin.
+E/GMPM    ( 5126): Scheduler not set. Not logging error/warn.
+E/GMPM    ( 5126): Uploading is not possible. App measurement disabled
+D/dalvikvm( 5126): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 5126): GC_CONCURRENT freed 253K, 10% free 2922K/3236K, paused 3ms+2ms, total 7ms
+D/dalvikvm( 5126): DexOpt: couldn't find static field Landroid/hardware/camera2/CameraCharacteristics;.LENS_FACING
+W/dalvikvm( 5126): VFY: unable to resolve static field 133 (LENS_FACING) in Landroid/hardware/camera2/CameraCharacteristics;
+D/dalvikvm( 5126): VFY: replacing opcode 0x62 at 0x0020
+I/dalvikvm( 5126): Could not find method android.webkit.WebView.enableSlowWholeDocumentDraw, referenced from method com.s2dio.automath.Scan.onCreate
+W/dalvikvm( 5126): VFY: unable to resolve static method 9187: Landroid/webkit/WebView;.enableSlowWholeDocumentDraw ()V
+D/dalvikvm( 5126): VFY: replacing opcode 0x71 at 0x000d
+D/dalvikvm( 5126): DexOpt: couldn't find static field Landroid/hardware/camera2/CameraCharacteristics;.INFO_SUPPORTED_HARDWARE_LEVEL
+I/dalvikvm( 5126): DexOpt: unable to optimize static field ref 0x0084 at 0x31 in Lcom/s2dio/automath/Scan;.n
+D/dalvikvm( 5126): DexOpt: couldn't find static field Landroid/hardware/camera2/CameraCharacteristics;.INFO_SUPPORTED_HARDWARE_LEVEL
+I/dalvikvm( 5126): DexOpt: unable to optimize static field ref 0x0084 at 0x42 in Lcom/s2dio/automath/Scan;.n
+I/dalvikvm( 5126): Could not find method com.s2dio.automath.a.getDrawable, referenced from method com.s2dio.automath.a.a
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 32119: Lcom/s2dio/automath/a;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x0006
+V/WebViewChromium( 5126): Binding Chromium to the background looper Looper (main, tid 1) {4a7d349c}
+I/chromium( 5126): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain( 5126): Initializing chromium process, renderers=0
+D/dalvikvm( 5126): GC_CONCURRENT freed 127K, 6% free 3186K/3376K, paused 3ms+0ms, total 8ms
+W/chromium( 5126): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/libEGL  ( 5126): loaded /system/lib/egl/libEGL_adreno.so
+D/        ( 5126): HostConnection::get() New Host Connection established 0xb96b37f0, tid 5126
+D/libEGL  ( 5126): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 5126): loaded /system/lib/egl/libGLESv2_adreno.so
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 11K, 6% free 3251K/3432K, paused 2ms, total 3ms
+I/dalvikvm-heap( 5126): Grow heap (frag case) to 3.837MB for 635808-byte allocation
+D/dalvikvm( 5126): GC_CONCURRENT freed <1K, 5% free 3872K/4056K, paused 2ms+1ms, total 6ms
+D/dalvikvm( 5126): WAIT_FOR_CONCURRENT_GC blocked 5ms
+D/dalvikvm( 5126): WAIT_FOR_CONCURRENT_GC blocked 6ms
+D/dalvikvm( 5126): Trying to load lib /data/app-lib/com.s2dio.automath-1/liblept.so 0x94facdc8
+D/dalvikvm( 5126): Added shared lib /data/app-lib/com.s2dio.automath-1/liblept.so 0x94facdc8
+D/dalvikvm( 5126): No JNI_OnLoad found in /data/app-lib/com.s2dio.automath-1/liblept.so 0x94facdc8, skipping init
+D/dalvikvm( 5126): Trying to load lib /data/app-lib/com.s2dio.automath-1/libtess.so 0x94facdc8
+D/dalvikvm( 5126): Added shared lib /data/app-lib/com.s2dio.automath-1/libtess.so 0x94facdc8
+D/dalvikvm( 5126): No JNI_OnLoad found in /data/app-lib/com.s2dio.automath-1/libtess.so 0x94facdc8, skipping init
+D/dalvikvm( 5126): Trying to load lib /data/app-lib/com.s2dio.automath-1/libnative.so 0x94facdc8
+D/dalvikvm( 5126): Added shared lib /data/app-lib/com.s2dio.automath-1/libnative.so 0x94facdc8
+D/dalvikvm( 5126): No JNI_OnLoad found in /data/app-lib/com.s2dio.automath-1/libnative.so 0x94facdc8, skipping init
+W/FFmpegExtractor(  169): sniff through BetterSniffFFMPEG failed, try LegacySniffFFMPEG
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 65K, 5% free 3900K/4076K, paused 1ms, total 4ms
+I/dalvikvm-heap( 5126): Grow heap (frag case) to 5.588MB for 1807932-byte allocation
+D/dalvikvm( 5126): GC_CONCURRENT freed 0K, 4% free 5665K/5844K, paused 2ms+0ms, total 5ms
+D/AppLovinSdkImpl( 5126): SDK has not been updated since last run. Continuing...
+I/dalvikvm( 5126): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method jpn.a
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2625: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x001c
+D/dalvikvm( 5126): GC_CONCURRENT freed 589K, 10% free 6006K/6656K, paused 0ms+1ms, total 7ms
+I/dalvikvm( 5126): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method jcg.createCredentialProtectedStorageContext
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2532: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 5126): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm( 5126): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method jcg.createDeviceProtectedStorageContext
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2533: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 5126): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm( 5126): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createCredentialProtectedStorageContext
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2532: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 5126): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm( 5126): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createDeviceProtectedStorageContext
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2533: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 5126): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm( 5126): Could not find method android.content.Context.isCredentialProtectedStorage, referenced from method cyg.a
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2512: Landroid/content/Context;.isCredentialProtectedStorage ()Z
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm( 5126): Could not find method android.os.UserManager.isUserUnlocked, referenced from method cyg.a
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 3156: Landroid/os/UserManager;.isUserUnlocked ()Z
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x001a
+I/dalvikvm( 5126): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cyg.b
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2513: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm( 5126): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cyg.c
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2513: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm( 5126): Could not find method android.system.Os.readlink, referenced from method cyw.a
+W/dalvikvm( 5126): VFY: unable to resolve static method 3176: Landroid/system/Os;.readlink (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm( 5126): VFY: replacing opcode 0x71 at 0x0000
+I/dalvikvm( 5126): Could not find method android.system.Os.stat, referenced from method cyw.a
+W/dalvikvm( 5126): VFY: unable to resolve static method 3177: Landroid/system/Os;.stat (Ljava/lang/String;)Landroid/system/StructStat;
+D/dalvikvm( 5126): VFY: replacing opcode 0x71 at 0x0042
+I/dalvikvm( 5126): Could not find method android.system.Os.symlink, referenced from method cyw.a
+W/dalvikvm( 5126): VFY: unable to resolve static method 3178: Landroid/system/Os;.symlink (Ljava/lang/String;Ljava/lang/String;)V
+D/dalvikvm( 5126): VFY: replacing opcode 0x71 at 0x013b
+I/dalvikvm( 5126): DexOpt: unable to optimize instance field ref 0x061f at 0x46 in Lcyw;.a
+I/dalvikvm( 5126): DexOpt: unable to optimize static field ref 0x061a at 0x48 in Lcyw;.a
+I/dalvikvm( 5126): DexOpt: unable to optimize static field ref 0x0618 at 0x4a in Lcyw;.a
+I/dalvikvm( 5126): DexOpt: unable to optimize static field ref 0x0619 at 0x4d in Lcyw;.a
+I/dalvikvm( 5126): DexOpt: unable to optimize static field ref 0x061b at 0x57 in Lcyw;.a
+I/dalvikvm( 5126): DexOpt: unable to optimize static field ref 0x061e at 0x5f in Lcyw;.a
+I/dalvikvm( 5126): DexOpt: unable to optimize static field ref 0x061c at 0x61 in Lcyw;.a
+I/dalvikvm( 5126): DexOpt: unable to optimize static field ref 0x061d at 0x64 in Lcyw;.a
+I/dalvikvm( 5126): DexOpt: unable to optimize static field ref 0x061a at 0x7f in Lcyw;.a
+I/dalvikvm( 5126): DexOpt: unable to optimize static field ref 0x061e at 0x90 in Lcyw;.a
+I/dalvikvm( 5126): Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method kbn.a
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2481: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x0029
+I/dalvikvm( 5126): Could not find method android.content.Context.getSystemService, referenced from method kbn.b
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2508: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x000b
+D/dalvikvm( 5126): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm( 5126): VFY: unable to resolve static field 1539 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm( 5126): VFY: replacing opcode 0x62 at 0x0011
+D/dalvikvm( 5126): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm( 5126): VFY: unable to resolve static field 1539 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm( 5126): VFY: replacing opcode 0x62 at 0x0025
+D/dalvikvm( 5126): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+W/dalvikvm( 5126): VFY: unable to resolve static field 1538 (SUPPORTED_32_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm( 5126): VFY: replacing opcode 0x62 at 0x0039
+D/dalvikvm( 5126): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm( 5126): VFY: unable to resolve static field 1540 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm( 5126): VFY: replacing opcode 0x62 at 0x0032
+D/dalvikvm( 5126): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm( 5126): DexOpt: unable to optimize static field ref 0x0603 at 0x16 in Ldak;.a
+D/dalvikvm( 5126): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm( 5126): DexOpt: unable to optimize static field ref 0x0603 at 0x2a in Ldak;.a
+D/dalvikvm( 5126): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+I/dalvikvm( 5126): DexOpt: unable to optimize static field ref 0x0602 at 0x3e in Ldak;.a
+D/DynamitePackage( 5126): Instantiated singleton DynamitePackage.
+D/DynamitePackage( 5126): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+E/FFmpegExtractor(  169): /data/app/com.s2dio.automath-1.apk: avformat_open_input failed, err:Invalid data found when processing input
+I/dalvikvm( 5126): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method jy.a
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2571: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x0017
+I/dalvikvm( 5126): Could not find method android.security.NetworkSecurityPolicy.getInstance, referenced from method com.google.android.gms.ads.internal.util.h.b_
+W/dalvikvm( 5126): VFY: unable to resolve static method 3107: Landroid/security/NetworkSecurityPolicy;.getInstance ()Landroid/security/NetworkSecurityPolicy;
+D/dalvikvm( 5126): VFY: replacing opcode 0x71 at 0x0022
+I/dalvikvm( 5126): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method rd.a
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2576: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x002d
+I/dalvikvm( 5126): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method rc.a
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2575: Landroid/content/pm/PackageManager;.isInstantApp ()Z
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x0028
+I/Ads     ( 5126): Starting ad request.
+I/Ads     ( 5126): Use AdRequest.Builder.addTestDevice("57AA76C100C9FF6BE6E98F3E45FE0045") to get test ads on this device.
+D/dalvikvm( 5126): GC_CONCURRENT freed 814K, 13% free 6208K/7060K, paused 6ms+1ms, total 10ms
+I/GAv4    ( 5126): Google Analytics 8.4.87 is starting up. To enable debug logging on a device run:
+I/GAv4    ( 5126):   adb shell setprop log.tag.GAv4 DEBUG
+I/GAv4    ( 5126):   adb logcat -s GAv4
+I/WearableService(  656): Wearable Services stopping
+W/Ads     ( 5126): Invoke Firebase method getInstance error.
+W/Ads     ( 5126): The Google Mobile Ads SDK will not integrate with Firebase. Admob/Firebase integration requires the latest Firebase SDK jar, but Firebase SDK is either missing or out of date
+W/GAv4    ( 5126): AnalyticsReceiver is not registered or is disabled. Register the receiver for reliable dispatching on non-Google Play devices. See http://goo.gl/8Rd3yj for instructions.
+W/GAv4    ( 5126): CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+W/GAv4    ( 5126): AnalyticsService not registered in the app manifest. Hits might not be delivered reliably. See http://goo.gl/8Rd3yj for instructions.
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=264242, downTime=264242, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer( 5126): Enabling debug mode 0
+D/EmulatedCamera_Camera(  169): getCameraInfo , camera orientation: front(0) , back(0)
+D/EmulatedCamera_Camera(  169): getCameraInfo , camera orientation: front(0) , back(0)
+D/EmulatedCamera_Camera(  169): getCameraInfo , camera orientation: front(0) , back(0)
+I/AwesomePlayer(  169): setDataSource_l(URL suppressed)
+I/AwesomePlayer(  169): setDataSource_l(URL suppressed)
+I/CameraClient(  169): Opening camera 0
+V/EmulatedCamera_FakeDevice(  169): connectDevice
+D/EmulatedCamera_Camera(  169): getCameraInfo , camera orientation: front(0) , back(0)
+D/EmulatedCamera_Camera(  169): doStartPreview: preview pixel format yuv420sp
+D/EmulatedCamera_Camera(  169): Starting camera: 640x480 -> NV21(yuv420sp)
+V/EmulatedCamera_FakeDevice(  169): startDevice
+I/WindowManager(  478): Switching to real app window: Window{4aab1118 u0 com.s2dio.automath/com.s2dio.automath.Scan}
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl( 5126): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=265113, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=18, eventTime=265192, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=265215, downTime=265215, deviceId=-1, source=0x101 }
+D/        (  169): HostConnection::get() New Host Connection established 0xb925d090, tid 5208
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=265383, downTime=265383, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=265393, downTime=265393, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): Displayed com.s2dio.automath/.Scan: +1s183ms
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm( 5126): GC_CONCURRENT freed 964K, 14% free 6343K/7360K, paused 119ms+1ms, total 125ms
+W/dalvikvm( 5126): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm( 5126): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 5126): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 42530: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm( 5126): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm( 5126): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 5126): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm( 5126): VFY: unable to resolve interface method 42524: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm( 5126): VFY: replacing opcode 0x72 at 0x0006
+I/System.out( 5126): body:<com.applovin.impl.a.bl: java.lang.String c(java.lang.String)>	sig:$r0 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bl: java.lang.String c(java.lang.String)>	sig:$r0 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:1
+I/System.out( 5126): body:<com.applovin.impl.a.bl: java.lang.String c(java.lang.String)>	sig:$r0 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bl: java.lang.String c(java.lang.String)>	sig:$r0 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r0, "UTF-8")	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 5126): <com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###http://rt.applovin.com/pix?event=landing&ts=1524196910254&platform=Android&model=SM-G930K&package_name=com.s2dio.automath&sdk_key=IMvxFK_GVFZC-DXPAk3Ws60ifZFOQbviyoeB7dRdu0qsDMGO4JwxQxd4UtSwSMcO9GaGu1un1idE3ud7CT3cTg&idfa=32c3adf2-4ef0-4bfa-9817-0931a0a194ab&dnt=false&ia=1524193066000&api_did=10f9f0fc7626002098&brand=samsung&model=SM-G930K&revision=heroltektt&sdk_version=6.1.5&os=4.4.2&app_version=2.94&postback_ts=1524196910624
+W/InputMethodManager( 5126): Ignoring onBind: cur seq=534, given seq=533
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:$r6 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:23
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r2)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setDefaultUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:virtualinvoke $r14.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/json; charset=utf-8")	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:virtualinvoke $r14.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:virtualinvoke $r14.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)>($i0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 5126): <com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###http://a.applovin.com/2.0/ad?v1=true&model=SM-G930K&dx=1280&dy=720&accept=custom_size,launch_app,video&v2=true&api_did=10f9f0fc7626002098&locale=en_US&app_version=2.94&network=wifi&revision=heroltektt&preloading=true&ia=1524193066000&carrier=&os=4.4.2&platform=android&sdk_version=6.1.5&format=json&dnt=false&sdk_key=IMvxFK_GVFZC-DXPAk3Ws60ifZFOQbviyoeB7dRdu0qsDMGO4JwxQxd4UtSwSMcO9GaGu1un1idE3ud7CT3cTg&size=BANNER&si=0&li=0&vz=0cb7ec6dd4a9b278&brand=samsung&require=REGULAR&idfa=32c3adf2-4ef0-4bfa-9817-0931a0a194ab
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:$r6 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r2)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setDefaultUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$r21 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:124
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 5126
+W/PhoneFallbackEventHandler( 5126): No activity found for android.intent.action.CALL_BUTTON.
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_REWIND, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=265646, downTime=265646, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa66200 attribute=null, token = android.os.BinderProxy@4a949614
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/AwContents( 5126): nativeOnDraw failed; clearing to background color.
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$i0 = virtualinvoke $r14.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:209
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$r22 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): URLConn;%;0;%;<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>;%;$r22 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://a.applovin.com/2.0/ad?v1=true&model=SM-G930K&dx=1280&dy=720&accept=custom_size,launch_app,video&v2=true&api_did=10f9f0fc7626002098&locale=en_US&app_version=2.94&network=wifi&revision=heroltektt&preloading=true&ia=1524193066000&carrier=&os=4.4.2&platform=android&sdk_version=6.1.5&format=json&dnt=false&sdk_key=IMvxFK_GVFZC-DXPAk3Ws60ifZFOQbviyoeB7dRdu0qsDMGO4JwxQxd4UtSwSMcO9GaGu1un1idE3ud7CT3cTg&size=BANNER&si=0&li=0&vz=0cb7ec6dd4a9b278&brand=samsung&require=REGULAR&idfa=32c3adf2-4ef0-4bfa-9817-0931a0a194ab;%;false;%;Not found;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$i0 = virtualinvoke $r14.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.net.HttpURLConnection)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$i0 = virtualinvoke $r14.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:203
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.net.HttpURLConnection)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 5126): <com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###http://a.applovin.com/2.0/ad?v1=true&model=SM-G930K&etf=340&dx=1280&dy=720&accept=custom_size,launch_app,video&v2=true&api_did=10f9f0fc7626002098&locale=en_US&app_version=2.94&network=wifi&revision=heroltektt&preloading=true&ia=1524193066000&carrier=&ntf=wifi&os=4.4.2&platform=android&sdk_version=6.1.5&format=json&dnt=false&sdk_key=IMvxFK_GVFZC-DXPAk3Ws60ifZFOQbviyoeB7dRdu0qsDMGO4JwxQxd4UtSwSMcO9GaGu1un1idE3ud7CT3cTg&size=INTER&si=0&li=0&vz=0cb7ec6dd4a9b278&brand=samsung&require=REGULAR&idfa=32c3adf2-4ef0-4bfa-9817-0931a0a194ab
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:$r6 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r2)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setDefaultUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(1)	timediff:1
+D/dalvikvm( 5126): GC_CONCURRENT freed 848K, 13% free 6567K/7476K, paused 1ms+0ms, total 5ms
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=265926, downTime=265926, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aae3338 attribute=android.view.inputmethod.EditorInfo@4aac7644, token = android.os.BinderProxy@4a949614
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_RECORD, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=266252, downTime=266252, deviceId=-1, source=0x101 }
+I/chromium( 5126): [INFO:simple_index_file.cc(397)] Simple Cache Index is being restored from disk.
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$i0 = virtualinvoke $r14.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:411
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$r22 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): URLConn;%;1;%;<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>;%;$r22 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://a.applovin.com/2.0/ad?v1=true&model=SM-G930K&etf=340&dx=1280&dy=720&accept=custom_size,launch_app,video&v2=true&api_did=10f9f0fc7626002098&locale=en_US&app_version=2.94&network=wifi&revision=heroltektt&preloading=true&ia=1524193066000&carrier=&ntf=wifi&os=4.4.2&platform=android&sdk_version=6.1.5&format=json&dnt=false&sdk_key=IMvxFK_GVFZC-DXPAk3Ws60ifZFOQbviyoeB7dRdu0qsDMGO4JwxQxd4UtSwSMcO9GaGu1un1idE3ud7CT3cTg&size=INTER&si=0&li=0&vz=0cb7ec6dd4a9b278&brand=samsung&require=REGULAR&idfa=32c3adf2-4ef0-4bfa-9817-0931a0a194ab;%;false;%;Not found;%;Not found;%;Not found;%;Not found;%;Not found
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$i0 = virtualinvoke $r14.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 437K, 14% free 6801K/7864K, paused 11ms, total 12ms
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a917528 attribute=android.view.inputmethod.EditorInfo@4aab1030, token = android.os.BinderProxy@4a949614
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.net.HttpURLConnection)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:1
+I/System.out( 5126): <com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###http://a.applovin.com/2.0/ad?v1=true&model=SM-G930K&etf=565&dx=1280&dy=720&accept=custom_size,launch_app,video&v2=true&api_did=10f9f0fc7626002098&locale=en_US&app_version=2.94&network=wifi&revision=heroltektt&preloading=true&ia=1524193066000&carrier=&ntf=wifi&os=4.4.2&platform=android&sdk_version=6.1.5&format=json&dnt=false&sdk_key=IMvxFK_GVFZC-DXPAk3Ws60ifZFOQbviyoeB7dRdu0qsDMGO4JwxQxd4UtSwSMcO9GaGu1un1idE3ud7CT3cTg&size=INTER&si=0&li=0&vz=0cb7ec6dd4a9b278&brand=samsung&require=VIDEOA&idfa=32c3adf2-4ef0-4bfa-9817-0931a0a194ab
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:$r6 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r2)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setDefaultUseCaches(boolean)>(0)	timediff:1
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+D/dalvikvm( 5126): GC_EXPLICIT freed 592K, 17% free 6589K/7864K, paused 1ms+12ms, total 31ms
+V/EmulatedCamera_FakeDevice(  169): inWorkerThread: Worker thread has been terminated.
+V/EmulatedCamera_FakeDevice(  169): stopDevice
+D/EmulatedCamera_Camera(  169): Starting camera for picture: NV21(jpeg)[640x480]
+V/EmulatedCamera_FakeDevice(  169): startDevice
+V/EmulatedCamera_JPEG(  169): compressRawImage: 0xb1a37010[640x480]
+D/skia    (  169): onFlyCompress
+V/EmulatedCamera_JPEG(  169): compressRawImage: Compressed JPEG: 460800[640x480] -> 22751 bytes
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=266542, downTime=266542, deviceId=-1, source=0x101 }
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$i0 = virtualinvoke $r14.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:156
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$r22 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): URLConn;%;2;%;<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>;%;$r22 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://a.applovin.com/2.0/ad?v1=true&model=SM-G930K&etf=565&dx=1280&dy=720&accept=custom_size,launch_app,video&v2=true&api_did=10f9f0fc7626002098&locale=en_US&app_version=2.94&network=wifi&revision=heroltektt&preloading=true&ia=1524193066000&carrier=&ntf=wifi&os=4.4.2&platform=android&sdk_version=6.1.5&format=json&dnt=false&sdk_key=IMvxFK_GVFZC-DXPAk3Ws60ifZFOQbviyoeB7dRdu0qsDMGO4JwxQxd4UtSwSMcO9GaGu1un1idE3ud7CT3cTg&size=INTER&si=0&li=0&vz=0cb7ec6dd4a9b278&brand=samsung&require=VIDEOA&idfa=32c3adf2-4ef0-4bfa-9817-0931a0a194ab;%;false;%;Not found;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$i0 = virtualinvoke $r14.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.net.HttpURLConnection)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/dalvikvm(  723): Could not find method android.security.NetworkSecurityPolicy.getInstance, referenced from method com.google.android.gms.ads.internal.util.h.a
+W/dalvikvm(  723): VFY: unable to resolve static method 5063: Landroid/security/NetworkSecurityPolicy;.getInstance ()Landroid/security/NetworkSecurityPolicy;
+D/dalvikvm(  723): VFY: replacing opcode 0x71 at 0x0020
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+V/MAIN    ( 5126): mkdirs:/data/data/com.s2dio.automath/files/tessdata/
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 5126): <com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###http://a.applovin.com/2.0/ad?v1=true&model=SM-G930K&etf=223&dx=1280&dy=720&accept=custom_size,launch_app,video&v2=true&api_did=10f9f0fc7626002098&locale=en_US&app_version=2.94&network=wifi&revision=heroltektt&preloading=true&ia=1524193066000&carrier=&ntf=wifi&os=4.4.2&platform=android&sdk_version=6.1.5&format=json&dnt=false&sdk_key=IMvxFK_GVFZC-DXPAk3Ws60ifZFOQbviyoeB7dRdu0qsDMGO4JwxQxd4UtSwSMcO9GaGu1un1idE3ud7CT3cTg&size=INTER&si=0&li=0&vz=0cb7ec6dd4a9b278&brand=samsung&require=VIDEOA&idfa=32c3adf2-4ef0-4bfa-9817-0931a0a194ab
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:$r6 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:1
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r2)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setDefaultUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9fb83c attribute=android.view.inputmethod.EditorInfo@4aa11bd8, token = android.os.BinderProxy@4a949614
+D/dalvikvm(  723): GC_CONCURRENT freed 1848K, 36% free 8823K/13676K, paused 2ms+11ms, total 69ms
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$i0 = virtualinvoke $r14.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:171
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$r22 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): URLConn;%;3;%;<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>;%;$r22 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://a.applovin.com/2.0/ad?v1=true&model=SM-G930K&etf=223&dx=1280&dy=720&accept=custom_size,launch_app,video&v2=true&api_did=10f9f0fc7626002098&locale=en_US&app_version=2.94&network=wifi&revision=heroltektt&preloading=true&ia=1524193066000&carrier=&ntf=wifi&os=4.4.2&platform=android&sdk_version=6.1.5&format=json&dnt=false&sdk_key=IMvxFK_GVFZC-DXPAk3Ws60ifZFOQbviyoeB7dRdu0qsDMGO4JwxQxd4UtSwSMcO9GaGu1un1idE3ud7CT3cTg&size=INTER&si=0&li=0&vz=0cb7ec6dd4a9b278&brand=samsung&require=VIDEOA&idfa=32c3adf2-4ef0-4bfa-9817-0931a0a194ab;%;false;%;Not found;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$i0 = virtualinvoke $r14.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.net.HttpURLConnection)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+V/EmulatedCamera_FakeDevice(  169): stopDevice
+D/EmulatedCamera_Camera(  169): doStartPreview: preview pixel format yuv420sp
+D/EmulatedCamera_Camera(  169): Starting camera: 640x480 -> NV21(yuv420sp)
+V/EmulatedCamera_FakeDevice(  169): startDevice
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 5126): <com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###http://a.applovin.com/nad?v1=true&model=SM-G930K&dx=1280&dy=720&accept=custom_size,launch_app,video&slot_count=1&v2=true&api_did=10f9f0fc7626002098&locale=en_US&app_version=2.94&network=wifi&revision=heroltektt&preloading=true&ia=1524193066000&carrier=&os=4.4.2&platform=android&sdk_version=6.1.5&format=json&dnt=false&sdk_key=IMvxFK_GVFZC-DXPAk3Ws60ifZFOQbviyoeB7dRdu0qsDMGO4JwxQxd4UtSwSMcO9GaGu1un1idE3ud7CT3cTg&size=NATIVE&si=0&li=0&vz=0cb7ec6dd4a9b278&brand=samsung&idfa=32c3adf2-4ef0-4bfa-9817-0931a0a194ab
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:$r6 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r2)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setDefaultUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:1
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+D/        (  169): HostConnection::get() New Host Connection established 0xb91ee230, tid 5253
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=266937, downTime=266937, deviceId=-1, source=0x101 }
+I/dalvikvm(  723): Could not find method android.webkit.WebSettings.setMixedContentMode, referenced from method com.google.android.gms.ads.internal.webview.p.<init>
+W/dalvikvm(  723): VFY: unable to resolve virtual method 7971: Landroid/webkit/WebSettings;.setMixedContentMode (I)V
+D/dalvikvm(  723): VFY: replacing opcode 0x6e at 0x0064
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+I/chromium(  723): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$i0 = virtualinvoke $r14.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:190
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$r22 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): URLConn;%;4;%;<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>;%;$r22 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://a.applovin.com/nad?v1=true&model=SM-G930K&dx=1280&dy=720&accept=custom_size,launch_app,video&slot_count=1&v2=true&api_did=10f9f0fc7626002098&locale=en_US&app_version=2.94&network=wifi&revision=heroltektt&preloading=true&ia=1524193066000&carrier=&os=4.4.2&platform=android&sdk_version=6.1.5&format=json&dnt=false&sdk_key=IMvxFK_GVFZC-DXPAk3Ws60ifZFOQbviyoeB7dRdu0qsDMGO4JwxQxd4UtSwSMcO9GaGu1un1idE3ud7CT3cTg&size=NATIVE&si=0&li=0&vz=0cb7ec6dd4a9b278&brand=samsung&idfa=32c3adf2-4ef0-4bfa-9817-0931a0a194ab;%;false;%;Not found;%;no-store, no-cache, must-revalidate, post-check=0, pre-check=0;%;Tue, 2 Jan 2001 08:00:00 GMT;%;Not found;%;Not found
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$i0 = virtualinvoke $r14.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.net.HttpURLConnection)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+W/chromium(  723): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+E/AudioTrack( 5126): did not receive expected priority boost on time
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a85e4dc attribute=null, token = android.os.BinderProxy@4a949614
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=267118, downTime=267118, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+D/libEGL  (  723): loaded /system/lib/egl/libEGL_adreno.so
+D/        (  723): HostConnection::get() New Host Connection established 0xb9bf2310, tid 723
+D/libEGL  (  723): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (  723): loaded /system/lib/egl/libGLESv2_adreno.so
+W/dalvikvm(  723): VFY: unable to find class referenced in signature (Landroid/webkit/PermissionRequest;)
+I/dalvikvm(  723): Could not find method android.webkit.WebChromeClient.onPermissionRequest, referenced from method com.google.android.gms.ads.internal.webview.a.onPermissionRequest
+W/dalvikvm(  723): VFY: unable to resolve virtual method 7945: Landroid/webkit/WebChromeClient;.onPermissionRequest (Landroid/webkit/PermissionRequest;)V
+D/dalvikvm(  723): VFY: replacing opcode 0x6f at 0x0016
+I/dalvikvm(  723): Could not find method android.webkit.PermissionRequest.deny, referenced from method com.google.android.gms.ads.internal.webview.a.onPermissionRequest
+W/dalvikvm(  723): VFY: unable to resolve virtual method 7936: Landroid/webkit/PermissionRequest;.deny ()V
+D/dalvikvm(  723): VFY: replacing opcode 0x6e at 0x0045
+I/dalvikvm(  723): Could not find method android.webkit.PermissionRequest.getResources, referenced from method com.google.android.gms.ads.internal.webview.a.onPermissionRequest
+W/dalvikvm(  723): VFY: unable to resolve virtual method 7937: Landroid/webkit/PermissionRequest;.getResources ()[Ljava/lang/String;
+D/dalvikvm(  723): VFY: replacing opcode 0x6e at 0x004d
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa5e988 attribute=null, token = android.os.BinderProxy@4a949614
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=267379, downTime=267379, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 5126): <com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###http://d.applovin.com/device?device_token=MaznYs97JTiqaqEwnZGZ5t_V1qCmdyYxqWT8gS0mDE38umw5aag599VCPr1j2OdmsBQ4DB26eNqrHrftvSmm4VWPfS4AFLIAjAMl0G5TXSCi1rz13FO2UwlZ1ruZLzGUkc6tYcdrfWv7DbuSYd-_Yr2nkomASXgoSYxkSKcoZEQ=
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:$r6 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r2)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setDefaultUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:1
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: java.net.HttpURLConnection a(java.lang.String,java.lang.String,int)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:3
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:virtualinvoke $r14.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/json; charset=utf-8")	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:virtualinvoke $r14.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:virtualinvoke $r14.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)>($i0)	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$r21 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:30
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa5a980 attribute=android.view.inputmethod.EditorInfo@4aa12488, token = android.os.BinderProxy@4a949614
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$i0 = virtualinvoke $r14.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:162
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$r22 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:1
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5126): URLConn;%;5;%;<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>;%;$r22 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://d.applovin.com/device?device_token=MaznYs97JTiqaqEwnZGZ5t_V1qCmdyYxqWT8gS0mDE38umw5aag599VCPr1j2OdmsBQ4DB26eNqrHrftvSmm4VWPfS4AFLIAjAMl0G5TXSCi1rz13FO2UwlZ1ruZLzGUkc6tYcdrfWv7DbuSYd-_Yr2nkomASXgoSYxkSKcoZEQ=;%;true;%;Not found;%;no-store, no-cache, must-revalidate;%;Tue, 2 Jan 2001 08:00:00 GMT;%;Not found;%;Not found
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.lang.String,java.lang.String,int,org.json.JSONObject,boolean,com.applovin.impl.a.bx)>	sig:$i0 = virtualinvoke $r14.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 5126): body:<com.applovin.impl.a.bw: void a(java.net.HttpURLConnection)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+D/dalvikvm( 5126): GC_CONCURRENT freed 1173K, 17% free 6602K/7908K, paused 1ms+1ms, total 4ms
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 124K, 17% free 6654K/8000K, paused 19ms, total 19ms
+I/chromium(  723): [INFO:CONSOLE(0)] "Document was loaded from Application Cache with manifest https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.appcache", source: https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html (0)
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 97K, 18% free 6658K/8048K, paused 9ms, total 9ms
+I/chromium(  723): [INFO:CONSOLE(0)] "Application Cache Checking event", source: https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html (0)
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 116K, 18% free 6660K/8096K, paused 6ms, total 6ms
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 52K, 18% free 6706K/8096K, paused 15ms, total 15ms
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 116K, 18% free 6707K/8144K, paused 7ms, total 8ms
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 75K, 18% free 6730K/8144K, paused 21ms, total 21ms
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 129K, 18% free 6718K/8192K, paused 10ms, total 10ms
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_STOP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=267886, downTime=267886, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(  723): GC_CONCURRENT freed 1009K, 29% free 9796K/13676K, paused 7ms+5ms, total 26ms
+W/InputEventReceiver( 5126): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 5126): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=268087, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aadf6b0 attribute=android.view.inputmethod.EditorInfo@4aaf56f0, token = android.os.BinderProxy@4a949614
+I/chromium(  723): [INFO:CONSOLE(0)] "Application Cache NoUpdate event", source: https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html (0)
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa3ea24 attribute=null, token = android.os.BinderProxy@4a949614
+W/ContextImpl(  682): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/qtaguid (  682): Untagging socket 76 failed errno=-13
+W/NetworkManagementSocketTagger(  682): untagSocket(76) failed with errno -13
+I/qtaguid (  682): Untagging socket 102 failed errno=-13
+W/NetworkManagementSocketTagger(  682): untagSocket(102) failed with errno -13
+I/qtaguid (  682): Tagging socket 76 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  682): tagSocketFd(76, 1239581248, -1) failed with errno-13
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CAMERA, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=268587, downTime=268587, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa4ab44 attribute=null, token = android.os.BinderProxy@4a949614
+I/ActivityManager(  478): START u0 {cmp=com.s2dio.automath/.Calculator} from pid 5126
+V/EmulatedCamera_FakeDevice(  169): inWorkerThread: Worker thread has been terminated.
+V/EmulatedCamera_FakeDevice(  169): stopDevice
+I/qtaguid (  682): Tagging socket 102 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  682): tagSocketFd(102, 1239581248, -1) failed with errno-13
+V/EmulatedCamera_FakeDevice(  169): disconnectDevice
+D/        (  169): HostConnection::get() New Host Connection established 0xb925e330, tid 169
+I/CameraClient(  169): Destroying camera 0
+I/dalvikvm( 5126): Could not find method android.webkit.WebView.enableSlowWholeDocumentDraw, referenced from method com.s2dio.automath.Calculator.onCreate
+W/dalvikvm( 5126): VFY: unable to resolve static method 9187: Landroid/webkit/WebView;.enableSlowWholeDocumentDraw ()V
+D/dalvikvm( 5126): VFY: replacing opcode 0x71 at 0x000d
+I/System.out( 5126): Config.SHOW_STACKTRACE == true
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 970K, 14% free 7082K/8192K, paused 6ms, total 7ms
+D/dalvikvm( 5126): GC_CONCURRENT freed 8K, 14% free 7074K/8192K, paused 2ms+1ms, total 9ms
+D/DynamitePackage( 5126): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/Ads     ( 5126): Starting ad request.
+I/Ads     ( 5126): Use AdRequest.Builder.addTestDevice("57AA76C100C9FF6BE6E98F3E45FE0045") to get test ads on this device.
+W/Ads     ( 5126): Not retrying to fetch app settings
+D/DynamitePackage( 5126): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/Ads     ( 5126): Starting ad request.
+I/Ads     ( 5126): Use AdRequest.Builder.addTestDevice("57AA76C100C9FF6BE6E98F3E45FE0045") to get test ads on this device.
+W/Ads     ( 5126): Not retrying to fetch app settings
+I/Finsky  (  984): [85] com.google.android.finsky.billing.iab.ab.b(46): com.s2dio.automath: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=268775, downTime=268775, deviceId=-1, source=0x101 }
+D/dalvikvm( 5126): GC_CONCURRENT freed 820K, 12% free 7589K/8536K, paused 0ms+1ms, total 33ms
+D/dalvikvm( 5126): WAIT_FOR_CONCURRENT_GC blocked 29ms
+I/dalvikvm-heap( 5126): Grow heap (frag case) to 9.435MB for 1996812-byte allocation
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 18K, 10% free 9520K/10488K, paused 4ms, total 4ms
+I/Finsky  (  984): [47] com.google.android.finsky.billing.iab.ab.b(46): com.s2dio.automath: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CHANNEL_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=269132, downTime=269132, deviceId=-1, source=0x101 }
+I/qtaguid (  723): Tagging socket 254 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/Finsky  (  984): [48] com.google.android.finsky.billing.iab.ab.b(46): com.s2dio.automath: Account from first account - [xQe8da4TESvRdCFmIKHFJNyiMQg]
+I/qtaguid (  723): Tagging socket 257 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Tagging socket 262 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+D/dalvikvm(  723): GC_CONCURRENT freed 2185K, 28% free 9947K/13676K, paused 6ms+2ms, total 27ms
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/qtaguid (  723): Tagging socket 265 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/qtaguid (  723): Untagging socket 265 failed errno=-13
+I/ActivityManager(  478): Displayed com.s2dio.automath/.Calculator: +776ms
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  534): animationTick called with dtms=-5; nothing to do (h=0.0 v=0.0)
+W/ActivityManager(  478): Unable to start service Intent { act=android.support.customtabs.action.CustomTabsService pkg=com.android.chrome } U=0: not found
+W/Finsky  (  984): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getFingerprintValid []
+D/dalvikvm(  984): GC_CONCURRENT freed 735K, 15% free 5474K/6396K, paused 3ms+1ms, total 12ms
+W/Finsky  (  984): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getDesiredAuthMethod []
+W/Finsky  (  984): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getAuthFrequency []
+W/Finsky  (  984): [1] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getUserHasFop []
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/SocketClient(  162): write error (Broken pipe)
+W/System.err( 5126): java.lang.NullPointerException
+W/System.err( 5126): 	at com.s2dio.automath.helper.a.c(Keyboard.java:83)
+W/System.err( 5126): 	at com.s2dio.automath.helper.e.onTouch(Keyboard.java:94)
+W/System.err( 5126): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1917)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1917)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1917)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1917)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1917)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow$DecorView.superDispatchTouchEvent(PhoneWindow.java:2068)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow.superDispatchTouchEvent(PhoneWindow.java:1515)
+W/System.err( 5126): 	at android.app.Activity.dispatchTouchEvent(Activity.java:2458)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchTouchEvent(PhoneWindow.java:2016)
+W/System.err( 5126): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+W/System.err( 5126): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+W/System.err( 5126): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 5126): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+W/System.err( 5126): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+W/System.err( 5126): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+W/System.err( 5126): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+W/System.err( 5126): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+W/System.err( 5126): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+W/System.err( 5126): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+W/System.err( 5126): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+W/System.err( 5126): 	at android.os.Looper.loop(Looper.java:123)
+W/System.err( 5126): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err( 5126): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 5126): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 5126): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err( 5126): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err( 5126): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 5126): java.lang.NullPointerException
+W/System.err( 5126): 	at com.s2dio.automath.helper.a.c(Keyboard.java:83)
+W/System.err( 5126): 	at com.s2dio.automath.helper.e.onTouch(Keyboard.java:94)
+W/System.err( 5126): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow$DecorView.superDispatchTouchEvent(PhoneWindow.java:2068)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow.superDispatchTouchEvent(PhoneWindow.java:1515)
+W/System.err( 5126): 	at android.app.Activity.dispatchTouchEvent(Activity.java:2458)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchTouchEvent(PhoneWindow.java:2016)
+W/System.err( 5126): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+W/System.err( 5126): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+W/System.err( 5126): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 5126): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+W/System.err( 5126): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+W/System.err( 5126): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+W/System.err( 5126): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+W/System.err( 5126): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+W/System.err( 5126): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+W/System.err( 5126): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+W/System.err( 5126): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+W/System.err( 5126): 	at android.os.Looper.loop(Looper.java:123)
+W/System.err( 5126): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err( 5126): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 5126): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 5126): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err( 5126): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err( 5126): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 5126): java.lang.NullPointerException
+W/System.err( 5126): 	at com.s2dio.automath.helper.a.c(Keyboard.java:83)
+W/System.err( 5126): 	at com.s2dio.automath.helper.e.onTouch(Keyboard.java:94)
+W/System.err( 5126): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow$DecorView.superDispatchTouchEvent(PhoneWindow.java:2068)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow.superDispatchTouchEvent(PhoneWindow.java:1515)
+W/System.err( 5126): 	at android.app.Activity.dispatchTouchEvent(Activity.java:2458)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchTouchEvent(PhoneWindow.java:2016)
+W/System.err( 5126): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+W/System.err( 5126): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+W/System.err( 5126): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 5126): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+W/System.err( 5126): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+W/System.err( 5126): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+W/System.err( 5126): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+W/System.err( 5126): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+W/System.err( 5126): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+W/System.err( 5126): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+W/System.err( 5126): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+W/System.err( 5126): 	at android.os.Looper.loop(Looper.java:123)
+W/System.err( 5126): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err( 5126): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 5126): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 5126): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err( 5126): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err( 5126): 	at dalvik.system.NativeStart.main(Native Method)
+I/qtaguid (  723): Untagging socket 257 failed errno=-13
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/qtaguid (  723): Untagging socket 254 failed errno=-13
+I/dalvikvm( 5126): Could not find method android.webkit.WebSettings.setMixedContentMode, referenced from method com.google.android.gms.ads.internal.webview.u.<init>
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 3426: Landroid/webkit/WebSettings;.setMixedContentMode (I)V
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x0079
+W/dalvikvm( 5126): VFY: unable to find class referenced in signature (Landroid/webkit/PermissionRequest;)
+I/dalvikvm( 5126): Could not find method android.webkit.WebChromeClient.onPermissionRequest, referenced from method com.google.android.gms.ads.internal.webview.a.onPermissionRequest
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 3403: Landroid/webkit/WebChromeClient;.onPermissionRequest (Landroid/webkit/PermissionRequest;)V
+D/dalvikvm( 5126): VFY: replacing opcode 0x6f at 0x0016
+I/dalvikvm( 5126): Could not find method android.webkit.PermissionRequest.deny, referenced from method com.google.android.gms.ads.internal.webview.a.onPermissionRequest
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 3395: Landroid/webkit/PermissionRequest;.deny ()V
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x0048
+I/dalvikvm( 5126): Could not find method android.webkit.PermissionRequest.getResources, referenced from method com.google.android.gms.ads.internal.webview.a.onPermissionRequest
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 3396: Landroid/webkit/PermissionRequest;.getResources ()[Ljava/lang/String;
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x0050
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_NEXT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=270114, downTime=270114, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=270125, downTime=270125, deviceId=-1, source=0x101 }
+I/qtaguid (  723): Untagging socket 262 failed errno=-13
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/AwContents( 5126): nativeOnDraw failed; clearing to background color.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=270295, downTime=270295, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaeebf0 attribute=android.view.inputmethod.EditorInfo@4aaeebf8, token = android.os.BinderProxy@4aaa028c
+W/Finsky  (  984): [112] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getFingerprintValid []
+W/Finsky  (  984): [112] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getDesiredAuthMethod []
+W/Finsky  (  984): [112] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getAuthFrequency []
+W/Finsky  (  984): [112] com.google.android.finsky.billing.a.j.a(46): Got an exception trying to get proto method: java.lang.NoSuchMethodException: getUserHasFop []
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/InputEventReceiver( 5126): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5126): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 5126): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=849.9193, y[0]=473.52875, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=270543, downTime=270543, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaf4268 attribute=null, token = android.os.BinderProxy@4aaa028c
+D/dalvikvm( 5126): GC_CONCURRENT freed 1475K, 14% free 10188K/11788K, paused 1ms+0ms, total 7ms
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab2c46c attribute=null, token = android.os.BinderProxy@4aaa028c
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_3D_MODE, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=271189, downTime=271189, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=271195, downTime=271195, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACKSLASH, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=271199, downTime=271199, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac289c4 attribute=null, token = android.os.BinderProxy@4aaa028c
+I/GMPM    ( 5126): Tag Manager is not found and thus will not be used
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=271368, downTime=271368, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=271377, downTime=271377, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaef8c8 attribute=null, token = android.os.BinderProxy@4aaa028c
+I/chromium( 5126): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+I/chromium( 5126): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_4, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=271749, downTime=271749, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=271749, downTime=271749, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aae90cc attribute=null, token = android.os.BinderProxy@4aaa028c
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 5126
+W/PhoneFallbackEventHandler( 5126): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=0.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=272194, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aad2270 attribute=null, token = android.os.BinderProxy@4aaa028c
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=272269, downTime=272269, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 478
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aafa6cc attribute=null, token = android.os.BinderProxy@4aaa028c
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=272479, downTime=272479, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=272516, downTime=272516, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abd4f48 attribute=null, token = android.os.BinderProxy@4aaa028c
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TV_INPUT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=272765, downTime=272765, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=272775, downTime=272775, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=272788, downTime=272788, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab280dc attribute=null, token = android.os.BinderProxy@4aaa028c
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=272886, downTime=272886, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=272894, downTime=272894, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=272907, downTime=272907, deviceId=-1, source=0x101 }
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=272984, downTime=272984, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab30720 attribute=null, token = android.os.BinderProxy@4aaa028c
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  534): animationTick called with dtms=-4; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  534): animationTick called with dtms=-12; nothing to do (h=0.0 v=0.0)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=273173, downTime=273173, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=273179, downTime=273179, deviceId=-1, source=0x101 }
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab33118 attribute=null, token = android.os.BinderProxy@4aaa028c
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=273410, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=273415, downTime=273415, deviceId=-1, source=0x101 }
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac4a5d8 attribute=null, token = android.os.BinderProxy@4aaa028c
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(  478): GC_EXPLICIT freed 1219K, 16% free 15475K/18364K, paused 1ms+6ms, total 22ms
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=273917, downTime=273917, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=273966, downTime=273966, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa93dd0 attribute=null, token = android.os.BinderProxy@4aaa028c
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SHIFT_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=274177, downTime=274177, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa5f86c attribute=null, token = android.os.BinderProxy@4aaa028c
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=274610, downTime=274610, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=274611, downTime=274611, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=274611, downTime=274611, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa2d920 attribute=null, token = android.os.BinderProxy@4aaa028c
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm( 5126): GC_CONCURRENT freed 2192K, 19% free 10383K/12700K, paused 1ms+1ms, total 44ms
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=274871, downTime=274871, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+I/ExoPlayerImpl( 5126): Init 1.3.1
+I/dalvikvm( 5126): Could not find method android.media.MediaCodec.releaseOutputBuffer, referenced from method com.google.android.gms.ads.exoplayer1.ab.a
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2768: Landroid/media/MediaCodec;.releaseOutputBuffer (IJ)V
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x007d
+I/dalvikvm( 5126): Could not find method android.media.AudioTrack.write, referenced from method com.google.android.gms.ads.exoplayer1.l.a
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 2747: Landroid/media/AudioTrack;.write (Ljava/nio/ByteBuffer;II)I
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x01cb
+W/DebugConnManager(  682): getNetworkInfo() on networkType 1
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9f765c attribute=null, token = android.os.BinderProxy@4aaa028c
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=275161, downTime=275161, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=275191, downTime=275191, deviceId=-1, source=0x101 }
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=275197, downTime=275197, deviceId=-1, source=0x101 }
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=275211, downTime=275211, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=275221, downTime=275221, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9bb5ec attribute=null, token = android.os.BinderProxy@4aaa028c
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 486K, 19% free 10528K/12960K, paused 17ms, total 17ms
+I/OMXClient( 5126): Using client-side OMX mux.
+I/OMXClient( 5126): Using client-side OMX mux.
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 32K, 17% free 11032K/13220K, paused 10ms, total 10ms
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 2K, 16% free 11546K/13740K, paused 4ms, total 4ms
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 1K, 16% free 12321K/14520K, paused 14ms, total 14ms
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_PLAY, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=275577, downTime=275577, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=275598, downTime=275598, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=275605, downTime=275605, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=275607, downTime=275607, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=275610, downTime=275610, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a982954 attribute=android.view.inputmethod.EditorInfo@4aab2230, token = android.os.BinderProxy@4aaa028c
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=275797, downTime=275797, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=275816, downTime=275816, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=275839, downTime=275839, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8ea52c attribute=null, token = android.os.BinderProxy@4aaa028c
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=276713, downTime=276713, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=276728, downTime=276728, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_0, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=276733, downTime=276733, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_INSERT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=276733, downTime=276733, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=276739, downTime=276739, deviceId=-1, source=0x101 }
+W/System.err( 5126): java.lang.NullPointerException
+W/System.err( 5126): 	at com.s2dio.automath.helper.a.c(Keyboard.java:83)
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/System.err( 5126): 	at com.s2dio.automath.helper.e.onTouch(Keyboard.java:94)
+W/System.err( 5126): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1917)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1917)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1917)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1917)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1917)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow$DecorView.superDispatchTouchEvent(PhoneWindow.java:2068)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow.superDispatchTouchEvent(PhoneWindow.java:1515)
+W/System.err( 5126): 	at android.app.Activity.dispatchTouchEvent(Activity.java:2458)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchTouchEvent(PhoneWindow.java:2016)
+W/System.err( 5126): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+W/System.err( 5126): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+W/System.err( 5126): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 5126): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+W/System.err( 5126): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+W/System.err( 5126): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+W/System.err( 5126): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+W/System.err( 5126): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+W/System.err( 5126): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+W/System.err( 5126): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+W/System.err( 5126): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+W/System.err( 5126): 	at android.os.Looper.loop(Looper.java:123)
+W/System.err( 5126): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err( 5126): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 5126): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 5126): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err( 5126): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err( 5126): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 5126): java.lang.NullPointerException
+W/System.err( 5126): 	at com.s2dio.automath.helper.a.c(Keyboard.java:83)
+W/System.err( 5126): 	at com.s2dio.automath.helper.e.onTouch(Keyboard.java:94)
+W/System.err( 5126): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+W/System.err( 5126): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow$DecorView.superDispatchTouchEvent(PhoneWindow.java:2068)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow.superDispatchTouchEvent(PhoneWindow.java:1515)
+W/System.err( 5126): 	at android.app.Activity.dispatchTouchEvent(Activity.java:2458)
+W/System.err( 5126): 	at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchTouchEvent(PhoneWindow.java:2016)
+W/System.err( 5126): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+W/System.err( 5126): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+W/System.err( 5126): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 5126): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+W/System.err( 5126): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+W/System.err( 5126): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 5126): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+W/System.err( 5126): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+W/System.err( 5126): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+W/System.err( 5126): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+W/System.err( 5126): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+W/System.err( 5126): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+W/System.err( 5126): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+W/System.err( 5126): 	at android.os.Looper.loop(Looper.java:123)
+W/System.err( 5126): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err( 5126): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 5126): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 5126): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err( 5126): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err( 5126): 	at dalvik.system.NativeStart.main(Native Method)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=276760, downTime=276760, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=276773, downTime=276773, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=276778, downTime=276778, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=276786, downTime=276786, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_TAB, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=276801, downTime=276801, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=276807, downTime=276807, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=276834, downTime=276834, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=276842, downTime=276842, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=276846, downTime=276846, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a946958 attribute=null, token = android.os.BinderProxy@4aaa028c
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=277174, downTime=277174, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_6, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=277268, downTime=277268, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa73000 attribute=android.view.inputmethod.EditorInfo@4a9fdde8, token = android.os.BinderProxy@4aaa028c
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ExoPlayerImpl( 5126): Init 1.3.1
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=277363, downTime=277363, deviceId=-1, source=0x101 }
+D/dalvikvm(  723): GC_CONCURRENT freed 2603K, 29% free 9750K/13676K, paused 1ms+5ms, total 58ms
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver( 5126): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5126): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 5126): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=700.0818, y[0]=359.55072, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=277532, downTime=277530, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9f6450 attribute=android.view.inputmethod.EditorInfo@4aa48878, token = android.os.BinderProxy@4aaa028c
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 474K, 13% free 13493K/15456K, paused 7ms, total 7ms
+I/OMXClient( 5126): Using client-side OMX mux.
+D/dalvikvm( 5126): GC_FOR_ALLOC freed 37K, 12% free 15002K/17016K, paused 5ms, total 5ms
+I/Ads     ( 5126): Ad finished loading.
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=277765, downTime=277765, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+D/dalvikvm(  478): GC_FOR_ALLOC freed 2371K, 17% free 15480K/18576K, paused 24ms, total 31ms
+D/        (  478): HostConnection::get() New Host Connection established 0xb97f93d0, tid 1311
+I/Ads     ( 5126): Ad finished loading.
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=278092, downTime=278092, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PAGE_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=278267, downTime=278267, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=278274, downTime=278274, deviceId=-1, source=0x101 }
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 5116 failed.
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaa39f0 attribute=null, token = android.os.BinderProxy@4aaa028c
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CTRL_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=278534, downTime=278534, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {cmp=com.s2dio.automath/.Graphing} from pid 5126
+W/InputEventReceiver( 5126): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 5126): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_REWIND, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=278659, downTime=278659, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa736bc attribute=android.view.inputmethod.EditorInfo@4ac51f2c, token = android.os.BinderProxy@4aaa028c
+D/DynamitePackage( 5126): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/Ads     ( 5126): Starting ad request.
+I/Ads     ( 5126): Use AdRequest.Builder.addTestDevice("57AA76C100C9FF6BE6E98F3E45FE0045") to get test ads on this device.
+I/dalvikvm( 5126): Could not find method android.os.PowerManager.isInteractive, referenced from method com.google.android.gms.ads.internal.activeview.c.g
+W/dalvikvm( 5126): VFY: unable to resolve virtual method 3075: Landroid/os/PowerManager;.isInteractive ()Z
+D/dalvikvm( 5126): VFY: replacing opcode 0x6e at 0x0008
+I/Ads     ( 5126): Ad finished loading.
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+I/chromium( 5126): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+I/chromium( 5126): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_5, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=278674, downTime=278674, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=278674, downTime=278674, deviceId=-1, source=0x101 }
+I/qtaguid (  723): Tagging socket 257 with tag 3000010500000000(805306629) for uid -1 failed errno=-13
+I/ActivityManager(  478): Displayed com.s2dio.automath/.Graphing: +806ms
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=279143, downTime=279143, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/qtaguid (  723): Untagging socket 257 failed errno=-13
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+E/chromium( 5126): [ERROR:cache_creator.cc(115)] Unable to create cache
+E/chromium( 5126): [ERROR:appcache_storage_impl.cc(1803)] Failed to open the appcache diskcache.
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  645): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  645): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/Ads     ( 5126): Scheduling ad refresh 30000 milliseconds from now.
+I/Ads     ( 5126): Ad finished loading.
+I/chromium( 5126): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm( 5126): GC_CONCURRENT freed 2263K, 13% free 16837K/19224K, paused 1ms+2ms, total 23ms
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/Ads     ( 5126): Scheduling ad refresh 30000 milliseconds from now.
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=281532, downTime=281532, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=281616, downTime=281616, deviceId=-1, source=0x101 }
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=281635, downTime=281635, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=281813, downTime=281813, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_11, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=282380, downTime=282380, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=282380, downTime=282380, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=282395, downTime=282395, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa4c0a0 attribute=null, token = android.os.BinderProxy@4aaa028c
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=283405, downTime=283405, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=283438, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=283438, downTime=283438, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=283457, downTime=283457, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a950d88 attribute=null, token = android.os.BinderProxy@4aaa028c
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=283562, downTime=283562, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=283609, downTime=283609, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=283660, downTime=283660, deviceId=-1, source=0x101 }
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  534): animationTick called with dtms=-7; nothing to do (h=0.0 v=-0.0)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SLASH, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=283874, downTime=283874, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=283895, downTime=283895, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa14f50 attribute=null, token = android.os.BinderProxy@4aaa028c
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=284433, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=284434, downTime=284415, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=284437, downTime=284437, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=284445, downTime=284445, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a94ea74 attribute=null, token = android.os.BinderProxy@4aaa028c
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=284752, downTime=284752, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=284764, downTime=284764, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab4025c attribute=null, token = android.os.BinderProxy@4aaa028c
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=285058, downTime=285058, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=285071, downTime=285071, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=285125, downTime=285125, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=285137, downTime=285137, deviceId=-1, source=0x101 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=285141, downTime=285141, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 5126): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5126): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5126): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 5126): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=308.0, y[0]=-282.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=285346, downTime=285346, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 5126): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=308.60495, y[0]=-279.46045, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=285347, downTime=285346, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=285392, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=285393, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 5126): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa5f720 attribute=android.view.inputmethod.EditorInfo@4aae4aec, token = android.os.BinderProxy@4aaa028c
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.s2dio.automath/.Scan} from pid 5116
+W/ViewRootImpl( 5126): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=8, eventTime=285634, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 5126): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=285640, downTime=285640, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa5a5a8 attribute=null, token = android.os.BinderProxy@4aaa028c
+W/UnimplementedWebViewApi( 5126): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/AndroidRuntime( 5116): VM exiting with result code 0.

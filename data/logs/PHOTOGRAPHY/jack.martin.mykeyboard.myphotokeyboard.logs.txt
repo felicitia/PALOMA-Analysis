@@ -1,0 +1,683 @@
+--------- beginning of /dev/log/main
+D/dalvikvm(  700): GC_CONCURRENT freed 2282K, 45% free 9171K/16644K, paused 2ms+1ms, total 13ms
+I/Icing   (  700): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+I/Icing   (  700): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/AndroidRuntime(20503): 
+D/AndroidRuntime(20503): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(20503): CheckJNI is OFF
+D/dalvikvm(20503): Using executionMode 2
+D/dalvikvm(20503): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(20503): Added shared lib libjavacore.so 0x0
+D/dalvikvm(20503): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(20503): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(20503): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(20503): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(20503): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(20503): failed to load memtrack module: -2
+D/AndroidRuntime(20503): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  470): Skipping deliver [background] BroadcastRecord{4b020eac u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4afc1438 20503 (unknown name)/0/u-1 remote:4afd2f88}: process crashing
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity} from pid 20503
+I/ActivityManager(  470): Start proc jack.martin.mykeyboard.myphotokeyboard for activity jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity: pid=20513 uid=10066 gids={50066, 1028, 1015, 1023, 3003}
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity} from pid 20503
+E/SurfaceFlinger(  166): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  166): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  166): setOrientation, mFbdev=0xb78d4da0, mFbDev->setOrientation=0xb69b9ce0, orientation=3
+I/gralloc_nox(  166): setOrientation: orientation=3
+I/InputReader(  470): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  470): Device reconfigured: id=1, name='seamless mouse', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  470): Device reconfigured: id=3, name='Android Input', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  470): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 3, mode 1, display id 0
+D/Tinker.DefaultAppLike(  656): onConfigurationChanged:{1.0 ?mcc?mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.43}
+I/ActivityManager(  470): Config changes=480 {1.0 ?mcc?mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.43}
+D/PhoneStatusBar(  528): mSettingsPanelGravity = 55
+D/Sensors (  470): Client connection accepted (190)
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10066, 1) failed with errno -13
+I/dalvikvm(20513): ignoring registerObject request in thread=1
+I/dalvikvm(20513): ignoring registerObject request in thread=1
+I/AppCompatDelegate(  947): Failed to instantiate custom view inflater android.support.v7.app.AppCompatViewInflater. Falling back to default.
+I/AppCompatDelegate(  947): java.lang.ClassNotFoundException: android.support.v7.app.AppCompatViewInflater
+I/AppCompatDelegate(  947): 	at java.lang.Class.classForName(Native Method)
+I/AppCompatDelegate(  947): 	at java.lang.Class.forName(Class.java:251)
+I/AppCompatDelegate(  947): 	at java.lang.Class.forName(Class.java:216)
+I/AppCompatDelegate(  947): 	at android.support.v7.app.ap.a(SourceFile:480)
+I/AppCompatDelegate(  947): 	at android.support.v7.app.ap.onCreateView(SourceFile:570)
+I/AppCompatDelegate(  947): 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:684)
+I/AppCompatDelegate(  947): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:469)
+I/AppCompatDelegate(  947): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:397)
+I/AppCompatDelegate(  947): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:353)
+I/AppCompatDelegate(  947): 	at com.android.internal.policy.impl.PhoneWindow.generateLayout(PhoneWindow.java:3022)
+I/AppCompatDelegate(  947): 	at com.android.internal.policy.impl.PhoneWindow.installDecor(PhoneWindow.java:3085)
+I/AppCompatDelegate(  947): 	at com.android.internal.policy.impl.PhoneWindow.getDecorView(PhoneWindow.java:1678)
+I/AppCompatDelegate(  947): 	at android.view.Window.findViewById(Window.java:913)
+I/AppCompatDelegate(  947): 	at com.google.android.finsky.t.a.K(SourceFile:277)
+I/AppCompatDelegate(  947): 	at com.google.android.finsky.t.a.onCreate(SourceFile:44)
+I/AppCompatDelegate(  947): 	at com.google.android.finsky.activities.MainActivity.onCreate(SourceFile:11)
+I/AppCompatDelegate(  947): 	at android.app.Activity.performCreate(Activity.java:5231)
+I/AppCompatDelegate(  947): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+I/AppCompatDelegate(  947): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+I/AppCompatDelegate(  947): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+I/AppCompatDelegate(  947): 	at android.app.ActivityThread.handleRelaunchActivity(ActivityThread.java:3736)
+I/AppCompatDelegate(  947): 	at android.app.ActivityThread.access$900(ActivityThread.java:135)
+I/AppCompatDelegate(  947): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1202)
+I/AppCompatDelegate(  947): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+I/AppCompatDelegate(  947): 	at android.os.Looper.loop(Looper.java:136)
+I/AppCompatDelegate(  947): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+I/AppCompatDelegate(  947): 	at java.lang.reflect.Method.invokeNative(Native Method)
+I/AppCompatDelegate(  947): 	at java.lang.reflect.Method.invoke(Method.java:515)
+I/AppCompatDelegate(  947): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+I/AppCompatDelegate(  947): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+I/AppCompatDelegate(  947): 	at dalvik.system.NativeStart.main(Native Method)
+I/AppCompatDelegate(  947): Caused by: java.lang.NoClassDefFoundError: android/support/v7/app/AppCompatViewInflater
+I/AppCompatDelegate(  947): 	... 31 more
+I/AppCompatDelegate(  947): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.support.v7.app.AppCompatViewInflater" on path: DexPathList[[zip file "/data/app/com.android.vending-2.apk", zip file "/data/data/com.android.vending/code_cache/secondary-dexes/com.android.vending-2.apk.classes2.zip"],nativeLibraryDirectories=[/data/app-lib/com.android.vending-2, /system/lib]]
+I/AppCompatDelegate(  947): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+I/AppCompatDelegate(  947): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+I/AppCompatDelegate(  947): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+I/AppCompatDelegate(  947): 	... 31 more
+I/Finsky  (  947): [1] com.google.android.finsky.t.a.onCreate(62): Waiting for user to return from auth screen.
+I/dalvikvm(20513): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.s.a
+W/dalvikvm(20513): VFY: unable to resolve virtual method 712: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(20513): VFY: replacing opcode 0x6e at 0x000a
+D/dalvikvm(20513): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(20513): GC_FOR_ALLOC freed 145K, 7% free 3155K/3376K, paused 3ms, total 4ms
+D/dalvikvm(20513): GC_CONCURRENT freed 0K, 7% free 3155K/3376K, paused 1ms+0ms, total 3ms
+D/dalvikvm(  947): GC_FOR_ALLOC freed 970K, 21% free 7009K/8816K, paused 9ms, total 9ms
+I/dalvikvm-heap(  947): Grow heap (frag case) to 7.523MB for 635808-byte allocation
+I/dalvikvm(20513): Could not find method android.content.Context.getColor, referenced from method com.onesignal.p.a
+W/dalvikvm(20513): VFY: unable to resolve virtual method 581: Landroid/content/Context;.getColor (I)I
+D/dalvikvm(20513): VFY: replacing opcode 0x6e at 0x0006
+W/InstanceID/Rpc(20513): Found 10007
+W/dalvikvm(20513): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+D/dalvikvm(  947): GC_FOR_ALLOC freed 22K, 20% free 7608K/9440K, paused 9ms, total 13ms
+W/dalvikvm(20513): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(20513): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(20513): VFY: unable to resolve virtual method 23308: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(20513): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(20513): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(20513): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(20513): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(20513): VFY: unable to resolve interface method 23302: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(20513): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(20513): body:<com.onesignal.bl: void b(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.bp)>	sig:specialinvoke $r8.<java.net.URL: void <init>(java.lang.String)>($r7)	timediff:0
+I/System.out(20513): <com.onesignal.bl: void b(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.bp)>###specialinvoke $r8.<java.net.URL: void <init>(java.lang.String)>($r7)###https://onesignal.com/api/v1/apps/b57f4117-3a0e-465f-93a3-356311f77fd3/awl
+D/dalvikvm(20513): GC_CONCURRENT freed 644K, 20% free 2896K/3620K, paused 1ms+0ms, total 3ms
+W/EGL_emulation( 2074): eglSurfaceAttrib not implemented 3093 12436
+I/qtaguid (  637): Tagging socket 116 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  637): tagSocketFd(116, 805307399, -1) failed with errno-13
+I/System.out(20513): body:<com.onesignal.bl: void b(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.bp)>	sig:$r9 = virtualinvoke $r8.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:22
+I/System.out(20513): body:<com.onesignal.bl: void b(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.bp)>	sig:virtualinvoke $r10.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(20513): body:<com.onesignal.bl: void b(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.bp)>	sig:virtualinvoke $r10.<java.net.HttpURLConnection: void setConnectTimeout(int)>(120000)	timediff:0
+I/System.out(20513): body:<com.onesignal.bl: void b(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.bp)>	sig:virtualinvoke $r10.<java.net.HttpURLConnection: void setReadTimeout(int)>(120000)	timediff:0
+D/dalvikvm(20513): GC_FOR_ALLOC freed 118K, 16% free 3072K/3620K, paused 3ms, total 3ms
+I/dalvikvm-heap(20513): Grow heap (frag case) to 5.050MB for 2073612-byte allocation
+D/dalvikvm(20513): GC_FOR_ALLOC freed 28K, 11% free 5069K/5648K, paused 3ms, total 3ms
+D/dalvikvm(20513): GC_CONCURRENT freed <1K, 11% free 5071K/5648K, paused 2ms+1ms, total 4ms
+W/EGL_emulation(  528): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  947): eglSurfaceAttrib not implemented 3093 12436
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000316b8  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 0003831e  /system/lib/libhwui.so (android::uirenderer::OpenGLRenderer::prepare(bool)+62)
+D/emuglGLESv2_enc(  947): #05  pc 000bf989  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #06  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00031b52  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/        (20513): HostConnection::get() New Host Connection established 0xb85b4a40, tid 20513
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+W/IInputConnectionWrapper( 2074): showStatusIcon on inactive InputConnection
+I/ActivityManager(  470): Displayed jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity: +310ms (total +8s399ms)
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/WindowManager(  470): Screen frozen for +299ms due to Window{4af184d8 u0 jack.martin.mykeyboard.myphotokeyboard/jack.martin.mykeyboard.myphotokeyboard.SplashScreenActivity}
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+W/Herrevad(  700): [1038] sjl.a: On wifi, but couldn't get security type
+W/DebugConnManager(  700): getNetworkInfo() on networkType 0
+I/qtaguid (  637): Untagging socket 116 failed errno=-13
+W/NetworkManagementSocketTagger(  637): untagSocket(116) failed with errno -13
+I/System.out(20513): body:<com.onesignal.bl: void b(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.bp)>	sig:$i1 = virtualinvoke $r10.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:210
+I/System.out(20513): body:<com.onesignal.bl: void b(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.bp)>	sig:$r13 = virtualinvoke $r10.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(20513): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(20513): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(20513): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(20513): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(20513): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(20513): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(20513): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(20513): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(20513): URLConn;%;0;%;<com.onesignal.bl: void b(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.bp)>;%;$r13 = virtualinvoke $r10.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://onesignal.com/api/v1/apps/b57f4117-3a0e-465f-93a3-356311f77fd3/awl;%;false;%;Not found;%;max-age=3600, public;%;Not found;%;Not found;%;__cfduid=de58015f2acff5aedfe039991d45ba1181524032265; expires=Thu, 18-Apr-19 06:17:45 GMT; path=/; domain=.onesignal.com; HttpOnly
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/dalvikvm(20513): GC_CONCURRENT freed 562K, 12% free 5203K/5860K, paused 1ms+0ms, total 4ms
+I/System.out(20513): body:<com.onesignal.bl: void b(java.lang.String,java.lang.String,org.json.JSONObject,com.onesignal.bp)>	sig:virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/dalvikvm(  637): GC_CONCURRENT freed 1122K, 18% free 6850K/8332K, paused 2ms+3ms, total 29ms
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity} from pid 20503
+D/dalvikvm(20513): GC_FOR_ALLOC freed 498K, 12% free 5338K/6032K, paused 3ms, total 3ms
+I/dalvikvm-heap(20513): Grow heap (frag case) to 5.891MB for 635808-byte allocation
+D/dalvikvm(20513): GC_FOR_ALLOC freed <1K, 11% free 5958K/6656K, paused 2ms, total 2ms
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity} from pid 20503
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=823473, downTime=823473, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=823479, downTime=823479, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_H, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=823481, downTime=823481, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=823487, downTime=823487, deviceId=-1, source=0x101 }
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+W/InputEventReceiver(20513): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae6ccf4 attribute=null, token = android.os.BinderProxy@4aa250f4
+D/emuglGLESv2_enc(  947): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  947): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  947): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+D/emuglGLESv2_enc(  947): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  947): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  947): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  947): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  947): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  947): Function is unsupported
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity} from pid 20503
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae5b160 attribute=null, token = android.os.BinderProxy@4aa250f4
+I/ActivityManager(  470): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 528
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=823628, downTime=823628, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=823630, downTime=823630, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=823632, downTime=823632, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=823635, downTime=823635, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4af3ec08 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=823875, downTime=823875, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=823878, downTime=-1, deviceId=0, source=0x10004 }
+W/InputManager(  470): Input event injection from pid 20503 failed.
+W/InputManager(  470): Input event injection from pid 20503 failed.
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae60d6c attribute=null, token = android.os.BinderProxy@4aa250f4
+I/ActivityManager(  470): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 20513
+W/PhoneFallbackEventHandler(20513): No activity found for android.intent.action.CALL_BUTTON.
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CHANNEL_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824041, downTime=824041, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_AVR_INPUT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824043, downTime=824043, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824044, downTime=824044, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity} from pid 20503
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824089, downTime=824089, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4af4b3d0 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824095, downTime=824095, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824098, downTime=824098, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_LEFT_BRACKET, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824104, downTime=824104, deviceId=-1, source=0x101 }
+I/InputDispatcher(  470): Dropped event because of pending overdue app switch.
+W/InputManager(  470): Input event injection from pid 20503 failed.
+W/InputManager(  470): Input event injection from pid 20503 failed.
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=2, eventTime=824126, downTime=824126, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=824126, downTime=824126, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=824126, downTime=824126, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=824126, downTime=824126, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_9, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824127, downTime=824127, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae68c90 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824194, downTime=824194, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824199, downTime=824199, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ad6f4e4 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=2, eventTime=824307, downTime=824307, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=824307, downTime=824307, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=824307, downTime=824307, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=824307, downTime=824307, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4af3bad4 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_I, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824358, downTime=824358, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824361, downTime=824361, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824365, downTime=824365, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824366, downTime=824366, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_DOT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824368, downTime=824368, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae59688 attribute=null, token = android.os.BinderProxy@4aa250f4
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity} from pid 20503
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity} from pid 20503
+W/ViewRootImpl(20513): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=824628, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac1393c attribute=null, token = android.os.BinderProxy@4aa250f4
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 470
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824761, downTime=824761, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824763, downTime=824763, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824765, downTime=824765, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_12, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824769, downTime=824769, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abd0374 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824794, downTime=824794, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity} from pid 20503
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  528): animationTick called with dtms=-1; nothing to do (h=0.0 v=-0.0)
+W/InputEventReceiver(20513): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(20513): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(20513): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(20513): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-320.0, y[0]=-809.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=824839, downTime=824839, deviceId=0, source=0x1002 }
+W/ViewRootImpl(20513): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-341.7474, y[0]=-790.01013, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=824840, downTime=824839, deviceId=0, source=0x1002 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824841, downTime=824841, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_1, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824844, downTime=824844, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MOVE_END, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824844, downTime=824844, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae25350 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_START, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824846, downTime=824846, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae2694c attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824859, downTime=824859, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=824864, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=824864, downTime=824862, deviceId=0, source=0x10004 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824864, downTime=824864, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_4, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824866, downTime=824866, deviceId=-1, source=0x101 }
+D/dalvikvm(  470): GC_FOR_ALLOC freed 7974K, 40% free 16100K/26812K, paused 16ms, total 16ms
+V/FlingTracker(  528): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  528): java.lang.Throwable
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  528): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  528): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  528): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  528): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  528): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  528): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  528): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  528): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  528): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  528): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  528): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  528): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  528): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  528): animationTick called with dtms=-16; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  470): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 528
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac3fad0 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=824937, downTime=824937, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 470
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aac1ab4 attribute=null, token = android.os.BinderProxy@4aa250f4
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=825031, downTime=825031, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_16, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=825064, downTime=825064, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abcbfb8 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=825075, downTime=825075, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=825085, downTime=825085, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=825088, downTime=825088, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a94408c attribute=null, token = android.os.BinderProxy@4aa250f4
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9b8084 attribute=null, token = android.os.BinderProxy@4aa250f4
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 470
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=825340, downTime=825340, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9b58fc attribute=null, token = android.os.BinderProxy@4aa250f4
+D/dalvikvm( 1915): GC_FOR_ALLOC freed 5687K, 62% free 4884K/12768K, paused 4ms, total 4ms
+I/dalvikvm-heap( 1915): Grow heap (frag case) to 8.358MB for 3686412-byte allocation
+D/dalvikvm( 1915): GC_FOR_ALLOC freed 6K, 34% free 8478K/12768K, paused 4ms, total 4ms
+D/dalvikvm( 1915): GC_CONCURRENT freed 1K, 34% free 8477K/12768K, paused 2ms+0ms, total 3ms
+I/WearableService(  637): Wearable Services stopping
+W/EGL_emulation( 1915): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity} from pid 20503
+I/ActivityManager(  470): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 20513
+W/PhoneFallbackEventHandler(20513): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity} from pid 20503
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=825970, downTime=825970, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PROG_RED, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=825973, downTime=825973, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=825976, downTime=825976, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=825977, downTime=825977, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PICTSYMBOLS, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=825978, downTime=825978, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PROG_GREEN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=825981, downTime=825981, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa57200 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826023, downTime=826023, deviceId=-1, source=0x101 }
+W/InputEventReceiver(20513): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826033, downTime=826033, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a929b28 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826036, downTime=826036, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abf9460 attribute=null, token = android.os.BinderProxy@4aa250f4
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_1, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826078, downTime=826078, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826078, downTime=826078, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PAGE_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826096, downTime=826096, deviceId=-1, source=0x101 }
+W/WindowManager(  470): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  528): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826107, downTime=826107, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  528): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_L, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826115, downTime=826115, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  528): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NOTIFICATION, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826119, downTime=826119, deviceId=-1, source=0x101 }
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  470): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa28918 (uid=10066 pid=20513)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+W/InputEventReceiver(  528): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  470): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 20513
+W/PhoneFallbackEventHandler(20513): No activity found for android.intent.action.CALL_BUTTON.
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826485, downTime=826485, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ESCAPE, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826488, downTime=826488, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826488, downTime=826488, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=826494, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=826494, downTime=826492, deviceId=0, source=0x10004 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity} from pid 20503
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826496, downTime=826496, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abcca28 attribute=null, token = android.os.BinderProxy@4aa250f4
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 470
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826555, downTime=826555, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=826561, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac74640 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_SUBTRACT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826622, downTime=826622, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826624, downTime=826624, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826626, downTime=826626, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826627, downTime=826627, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826628, downTime=826628, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826629, downTime=826629, deviceId=-1, source=0x101 }
+I/InputDispatcher(  470): Dropped event because of pending overdue app switch.
+W/InputManager(  470): Input event injection from pid 20503 failed.
+W/InputEventReceiver(20513): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4af70aa8 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=826846, downTime=826846, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=826846, downTime=826846, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=826846, downTime=826846, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826848, downTime=826848, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a995710 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826864, downTime=826864, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826868, downTime=826868, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=826870, downTime=826870, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abc3d28 attribute=null, token = android.os.BinderProxy@4aa250f4
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+D/dalvikvm(  470): GC_FOR_ALLOC freed 3441K, 41% free 15910K/26812K, paused 16ms, total 16ms
+D/dalvikvm(  470): GC_CONCURRENT freed 269K, 41% free 15854K/26812K, paused 4ms+1ms, total 21ms
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CHANNEL_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=827027, downTime=827027, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=827030, downTime=827030, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=827032, downTime=827032, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=827032, downTime=827032, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a98babc attribute=null, token = android.os.BinderProxy@4aa250f4
+D/dalvikvm( 1915): GC_FOR_ALLOC freed 10K, 34% free 8484K/12768K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1915): Grow heap (frag case) to 10.334MB for 2073612-byte allocation
+D/dalvikvm( 1915): GC_CONCURRENT freed <1K, 18% free 10508K/12768K, paused 1ms+0ms, total 3ms
+W/ViewRootImpl(20513): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=827090, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=827091, downTime=827091, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9ea580 attribute=null, token = android.os.BinderProxy@4aa250f4
+D/dalvikvm(  470): GC_FOR_ALLOC freed 760K, 42% free 15656K/26812K, paused 13ms, total 13ms
+D/dalvikvm(  470): GC_FOR_ALLOC freed 42K, 35% free 17646K/26812K, paused 13ms, total 13ms
+I/dalvikvm-heap(  470): Grow heap (frag case) to 19.288MB for 2073612-byte allocation
+D/dalvikvm(  470): GC_FOR_ALLOC freed 1K, 32% free 19669K/28840K, paused 19ms, total 19ms
+D/dalvikvm(  528): GC_FOR_ALLOC freed 8382K, 39% free 14759K/23872K, paused 4ms, total 4ms
+D/dalvikvm(  470): GC_FOR_ALLOC freed 10K, 32% free 19676K/28840K, paused 13ms, total 13ms
+I/dalvikvm-heap(  470): Grow heap (frag case) to 21.270MB for 2073612-byte allocation
+D/dalvikvm(  470): GC_FOR_ALLOC freed 7K, 30% free 21693K/30868K, paused 16ms, total 16ms
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac0fb2c attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=827262, downTime=827262, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=827269, downTime=827269, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9bcaa4 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=827294, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa2a0d0 attribute=null, token = android.os.BinderProxy@4aa250f4
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=827325, downTime=827325, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=827330, downTime=827330, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=827331, downTime=827331, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=827332, downTime=827332, deviceId=-1, source=0x101 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_14, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=827333, downTime=827333, deviceId=-1, source=0x101 }
+W/InputEventReceiver(20513): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(20513): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(20513): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputManager(  470): Input event injection from pid 20503 failed.
+W/ViewRootImpl(20513): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-80.0, y[0]=-783.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=827351, downTime=827351, deviceId=0, source=0x1002 }
+W/ViewRootImpl(20513): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-24.047577, y[0]=-846.1273, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=827353, downTime=827351, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9e5184 attribute=null, token = android.os.BinderProxy@4aa250f4
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ViewRootImpl(20513): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=8, eventTime=827359, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(20513): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=827360, downTime=827360, deviceId=-1, source=0x101 }
+W/InputManager(  470): Input event injection from pid 20503 failed.
+W/InputManager(  470): Input event injection from pid 20503 failed.
+W/InputManager(  470): Input event injection from pid 20503 failed.
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=jack.martin.mykeyboard.myphotokeyboard/.SplashScreenActivity} from pid 20503
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abb646c attribute=null, token = android.os.BinderProxy@4aa250f4
+I/AndroidRuntime(20503): VM exiting with result code 0.

@@ -1,0 +1,666 @@
+--------- beginning of /dev/log/system
+I/ActivityManager(  479): Resuming delayed broadcast
+I/ActivityManager(  479): Delay finish: com.google.android.partnersetup/.RlzPingBroadcastReceiver
+I/ActivityManager(  479): Resuming delayed broadcast
+I/ActivityManager(  479): Delay finish: com.google.android.partnersetup/.AppInstalledReceiver
+I/ActivityManager(  479): Resuming delayed broadcast
+I/ActivityManager(  479): Delay finish: com.android.gallery3d/.app.PackagesMonitor
+I/ActivityManager(  479): Resuming delayed broadcast
+--------- beginning of /dev/log/main
+I/Finsky  (  940): [1] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for auto_install
+I/Finsky  (  940): [1] com.google.android.finsky.wear.ar.a(80): Connecting to wearable; initiated by: com.google.android.finsky.wear.WearSupportService
+I/Finsky  (  940): [1] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for send_installed_apps
+I/Finsky  (  940): [1] com.google.android.finsky.externalreferrer.c.run(11): Package state data is missing for com.microsoft.windowsintune.companyportal
+D/WearableService(  654): onGetService - Wear is not available on this device.
+E/Finsky  (  940): [1] com.google.android.finsky.wear.au.a(3): onConnectionFailed: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+W/Finsky  (  940): [1] com.google.android.finsky.wear.cd.run(12): Dropping command=auto_install due to Gms not connected
+I/Finsky  (  940): [1] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+W/Finsky  (  940): [1] com.google.android.finsky.wear.cd.run(12): Dropping command=send_installed_apps due to Gms not connected
+I/Finsky  (  940): [1] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+I/WearableService(  654): Wearable Services stopping
+I/Icing   (  720): Indexing 9EBFE84EABD9270B25A97439CA522B4FC49A4875 from com.google.android.gms
+I/Icing   (  720): Indexing done 9EBFE84EABD9270B25A97439CA522B4FC49A4875
+D/AndroidRuntime( 9362): 
+D/AndroidRuntime( 9362): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 9362): CheckJNI is OFF
+D/dalvikvm( 9362): Using executionMode 2
+D/dalvikvm( 9362): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 9362): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 9362): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 9362): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 9362): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 9362): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 9362): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 9362): failed to load memtrack module: -2
+D/AndroidRuntime( 9362): Calling main entry com.android.commands.monkey.Monkey
+W/BroadcastQueue(  479): Skipping deliver [background] BroadcastRecord{4b15204c u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4afbe9dc 9362 (unknown name)/0/u-1 remote:4aaec718}: process crashing
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.microsoft.windowsintune.companyportal/.views.SplashActivity} from pid 9362
+W/NetworkManagementSocketTagger(  479): setKernelCountSet(10057, 1) failed with errno -13
+I/ActivityManager(  479): Start proc com.microsoft.windowsintune.companyportal for activity com.microsoft.windowsintune.companyportal/.views.SplashActivity: pid=9372 uid=10057 gids={50057, 3003}
+I/dalvikvm( 9372): ignoring registerObject request in thread=1
+I/dalvikvm( 9372): ignoring registerObject request in thread=1
+I/ompanyPortalApplication( 9372): Application is initializing.
+I/dalvikvm( 9372): Could not find method android.webkit.CookieManager.flush, referenced from method com.microsoft.windowsintune.companyportal.utils.CookieManagementUtils.clearCookiesAsync
+W/dalvikvm( 9372): VFY: unable to resolve virtual method 9055: Landroid/webkit/CookieManager;.flush ()V
+D/dalvikvm( 9372): VFY: replacing opcode 0x6e at 0x0019
+I/companyportal( 9372): Initializing logging to file pattern: /data/data/com.microsoft.windowsintune.companyportal/files/CompanyPortal_%g.log
+I/companyportal( 9372): com.microsoft.windowsintune.companyportal getting set to level: FINEST
+I/dalvikvm( 9384): ignoring registerObject request in thread=1
+I/dalvikvm( 9384): ignoring registerObject request in thread=1
+I/ActivityManager(  479): Start proc com.microsoft.windowsintune.companyportal:omadm_client_process for content provider com.microsoft.windowsintune.companyportal/com.microsoft.omadm.preferences.PreferencesContentProvider: pid=9384 uid=10057 gids={50057, 3003}
+E/dalvikvm( 9384): Could not find class 'android.hardware.fingerprint.FingerprintManager', referenced from method com.microsoft.intune.mam.client.ipc.AbstractAppPolicyEndpoint.fingerprintSupportedAndRegistered
+W/dalvikvm( 9384): VFY: unable to resolve const-class 309 (Landroid/hardware/fingerprint/FingerprintManager;) in Lcom/microsoft/intune/mam/client/ipc/AbstractAppPolicyEndpoint;
+D/dalvikvm( 9384): VFY: replacing opcode 0x1c at 0x0002
+I/com.microsoft.omadm( 9384): Initializing logging to file pattern: /data/user/0/com.microsoft.windowsintune.companyportal/files/OMADMLog_%g.log
+I/DeploymentSettings( 9384): Loading settings file from /data/user/0/com.microsoft.windowsintune.companyportal/files/settings.xml failed because it probably wasnt created yet. Loading the settings file from the application binary resources instead.
+D/dalvikvm( 9384): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 9384): GC_CONCURRENT freed 358K, 13% free 2997K/3420K, paused 2ms+2ms, total 11ms
+I/com.microsoft.omadm( 9384): com.microsoft.omadm getting set to level: FINEST
+I/Services( 9384): Using MDM backend NATIVE
+W/dalvikvm( 9384): VFY: unable to find class referenced in signature (Landroid/os/PersistableBundle;)
+I/dalvikvm( 9384): Could not find method android.app.admin.DevicePolicyManager.isProfileOwnerApp, referenced from method com.microsoft.omadm.platforms.android.policy.NativePolicyManager.isProfileOwner
+W/dalvikvm( 9384): VFY: unable to resolve virtual method 2087: Landroid/app/admin/DevicePolicyManager;.isProfileOwnerApp (Ljava/lang/String;)Z
+D/dalvikvm( 9384): VFY: replacing opcode 0x6e at 0x0027
+D/dalvikvm( 9384): GC_CONCURRENT freed 328K, 13% free 3077K/3516K, paused 1ms+2ms, total 6ms
+D/dalvikvm( 9384): GC_FOR_ALLOC freed 294K, 16% free 3079K/3640K, paused 2ms, total 2ms
+I/DeploymentSettings( 9384): Loading settings file from /data/user/0/com.microsoft.windowsintune.companyportal/files/settings.xml failed because it probably wasnt created yet. Loading the settings file from the application binary resources instead.
+W/dalvikvm( 9384): VFY: unable to resolve static field 38656 (hockeyapp_crash_dialog_title) in Lnet/hockeyapp/android/R$string;
+D/dalvikvm( 9384): VFY: replacing opcode 0x60 at 0x0004
+W/dalvikvm( 9384): VFY: unable to resolve static field 38652 (hockeyapp_crash_dialog_message) in Lnet/hockeyapp/android/R$string;
+D/dalvikvm( 9384): VFY: replacing opcode 0x60 at 0x0022
+I/dalvikvm( 9384): DexOpt: unable to optimize static field ref 0x96fd at 0x27 in Lnet/hockeyapp/android/CrashManager;.showDialog
+I/dalvikvm( 9384): DexOpt: unable to optimize static field ref 0x96fe at 0x31 in Lnet/hockeyapp/android/CrashManager;.showDialog
+I/dalvikvm( 9384): DexOpt: unable to optimize static field ref 0x96ff at 0x3b in Lnet/hockeyapp/android/CrashManager;.showDialog
+W/dalvikvm( 9384): VFY: unable to resolve static field 38651 (hockeyapp_crash_dialog_app_name_fallback) in Lnet/hockeyapp/android/R$string;
+D/dalvikvm( 9384): VFY: replacing opcode 0x60 at 0x0021
+D/dalvikvm( 9384): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm( 9384): VFY: unable to resolve static field 762 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm( 9384): VFY: replacing opcode 0x62 at 0x0006
+D/dalvikvm( 9384): GC_CONCURRENT freed 375K, 16% free 3087K/3640K, paused 1ms+0ms, total 3ms
+D/dalvikvm( 9384): GC_CONCURRENT freed 201K, 11% free 3273K/3640K, paused 2ms+0ms, total 4ms
+D/dalvikvm( 9384): GC_CONCURRENT freed 204K, 8% free 3454K/3728K, paused 1ms+1ms, total 4ms
+D/dalvikvm( 9384): GC_CONCURRENT freed 195K, 7% free 3644K/3908K, paused 1ms+0ms, total 3ms
+I/DatabaseHelper( 9384): Creating database schema
+I/DatabaseHelper( 9384): Upgrading database from version '0' to '525'
+I/MigrationBase( 9384): Upgrading to version 1
+I/MigrationBase( 9384): Upgrading to version 10
+I/MigrationBase( 9384): Upgrading to version 20
+I/MigrationBase( 9384): Upgrading to version 30
+I/MigrationBase( 9384): Upgrading to version 40
+I/MigrationBase( 9384): Upgrading to version 50
+I/MigrationBase( 9384): Upgrading to version 60
+I/MigrationBase( 9384): Upgrading to version 100
+I/MigrationBase( 9384): Upgrading to version 101
+I/MigrationBase( 9384): Upgrading to version 110
+I/MigrationBase( 9384): Upgrading to version 120
+I/MigrationBase( 9384): Upgrading to version 130
+I/MigrationBase( 9384): Upgrading to version 140
+I/MigrationBase( 9384): Upgrading to version 150
+I/MigrationBase( 9384): Upgrading to version 160
+I/MigrationBase( 9384): Upgrading to version 170
+I/MigrationBase( 9384): Upgrading to version 180
+I/MigrationBase( 9384): Upgrading to version 190
+I/MigrationBase( 9384): Upgrading to version 200
+I/MigrationBase( 9384): Upgrading to version 300
+I/MigrationBase( 9384): Upgrading to version 400
+I/MigrationBase( 9384): Upgrading to version 500
+I/MigrationBase( 9384): Upgrading to version 501
+I/MigrationBase( 9384): Upgrading to version 502
+I/MigrationBase( 9384): Upgrading to version 503
+I/MigrationBase( 9384): Upgrading to version 504
+I/MigrationBase( 9384): Downgrading from version 502
+I/MigrationBase( 9384): Upgrading to version 505
+I/MigrationBase( 9384): Upgrading to version 506
+I/MigrationBase( 9384): Upgrading to version 507
+I/MigrationBase( 9384): Upgrading to version 508
+I/MigrationBase( 9384): Upgrading to version 509
+I/MigrationBase( 9384): Upgrading to version 510
+D/dalvikvm( 9384): GC_CONCURRENT freed 264K, 9% free 3766K/4100K, paused 2ms+0ms, total 6ms
+I/MigrationBase( 9384): Upgrading to version 511
+I/MigrationBase( 9384): Upgrading to version 512
+I/MigrationBase( 9384): Upgrading to version 513
+I/MigrationBase( 9384): Upgrading to version 514
+I/MigrationBase( 9384): Upgrading to version 515
+I/MigrationBase( 9384): Upgrading to version 516
+I/MigrationBase( 9384): Upgrading to version 517
+I/MigrationBase( 9384): Upgrading to version 518
+I/MigrationBase( 9384): Upgrading to version 519
+I/MigrationBase( 9384): Upgrading to version 520
+I/MigrationBase( 9384): Upgrading to version 521
+I/MigrationBase( 9384): Upgrading to version 522
+I/MigrationBase( 9384): Upgrading to version 523
+I/MigrationBase( 9384): Upgrading to version 524
+I/MigrationBase( 9384): Upgrading to version 525
+I/DatabaseHelper( 9384): Database upgrade completed successfully.
+I/DeploymentSettings( 9372): Loading settings file from /data/data/com.microsoft.windowsintune.companyportal/files/settings.xml failed because it probably wasnt created yet. Loading the settings file from the application binary resources instead.
+I/DeploymentSettings( 9384): Loading settings file from /data/user/0/com.microsoft.windowsintune.companyportal/files/settings.xml failed because it probably wasnt created yet. Loading the settings file from the application binary resources instead.
+D/dalvikvm( 9372): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 9384): GC_CONCURRENT freed 345K, 10% free 3928K/4340K, paused 1ms+1ms, total 10ms
+D/dalvikvm( 9372): GC_CONCURRENT freed 232K, 10% free 2999K/3296K, paused 4ms+4ms, total 11ms
+D/dalvikvm( 9384): WAIT_FOR_CONCURRENT_GC blocked 5ms
+I/com.microsoft.omadm( 9384): com.microsoft.omadm getting set to level: FINEST
+I/DeploymentSettings( 9384): Loading settings file from /data/user/0/com.microsoft.windowsintune.companyportal/files/settings.xml failed because it probably wasnt created yet. Loading the settings file from the application binary resources instead.
+D/dalvikvm( 9372): GC_CONCURRENT freed 375K, 13% free 3007K/3448K, paused 4ms+0ms, total 7ms
+D/dalvikvm( 9384): GC_CONCURRENT freed 432K, 12% free 3882K/4380K, paused 2ms+0ms, total 12ms
+D/dalvikvm( 9372): GC_CONCURRENT freed 418K, 15% free 2979K/3468K, paused 2ms+0ms, total 4ms
+D/dalvikvm( 9384): GC_CONCURRENT freed 399K, 12% free 3894K/4400K, paused 2ms+1ms, total 6ms
+E/dalvikvm( 9372): Could not find class 'android.os.PersistableBundle', referenced from method com.microsoft.windowsintune.companyportal.branding.BrandingInformationStorage.deflateBrandingIntoBundle
+W/dalvikvm( 9372): VFY: unable to resolve new-instance 357 (Landroid/os/PersistableBundle;) in Lcom/microsoft/windowsintune/companyportal/branding/BrandingInformationStorage;
+D/dalvikvm( 9372): VFY: replacing opcode 0x22 at 0x0007
+W/dalvikvm( 9372): VFY: unable to find class referenced in signature (Landroid/os/PersistableBundle;)
+W/dalvikvm( 9372): VFY: unable to find class referenced in signature (Landroid/os/PersistableBundle;)
+I/dalvikvm( 9372): Could not find method android.os.PersistableBundle.getString, referenced from method com.microsoft.windowsintune.companyportal.branding.BrandingInformationStorage.loadBrandingFromBundle
+W/dalvikvm( 9372): VFY: unable to resolve virtual method 3204: Landroid/os/PersistableBundle;.getString (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm( 9372): VFY: replacing opcode 0x6e at 0x001e
+D/dalvikvm( 9372): DexOpt: unable to opt direct call 0x0c80 at 0x09 in Lcom/microsoft/windowsintune/companyportal/branding/BrandingInformationStorage;.deflateBrandingIntoBundle
+D/dalvikvm( 9372): GC_CONCURRENT freed 296K, 14% free 3071K/3548K, paused 1ms+1ms, total 3ms
+W/dalvikvm( 9372): VFY: unable to find class referenced in signature (Landroid/os/PersistableBundle;)
+I/dalvikvm( 9372): Could not find method android.os.PersistableBundle.getString, referenced from method com.microsoft.windowsintune.companyportal.models.rest.ApiVersionNegotiator.inflateVersionsFromBundle
+W/dalvikvm( 9372): VFY: unable to resolve virtual method 3204: Landroid/os/PersistableBundle;.getString (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm( 9372): VFY: replacing opcode 0x6e at 0x0013
+I/dalvikvm( 9372): Could not find method android.os.PersistableBundle.getString, referenced from method com.microsoft.windowsintune.companyportal.models.rest.ApiVersionNegotiator.inflateVersionsFromBundle
+W/dalvikvm( 9372): VFY: unable to resolve virtual method 3204: Landroid/os/PersistableBundle;.getString (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm( 9372): VFY: replacing opcode 0x6e at 0x001e
+E/dalvikvm( 9372): Could not find class 'android.os.PersistableBundle', referenced from method com.microsoft.windowsintune.companyportal.models.rest.ApiVersionNegotiator.deflateVersionsIntoBundle
+W/dalvikvm( 9372): VFY: unable to resolve new-instance 357 (Landroid/os/PersistableBundle;) in Lcom/microsoft/windowsintune/companyportal/models/rest/ApiVersionNegotiator;
+D/dalvikvm( 9372): VFY: replacing opcode 0x22 at 0x0000
+D/dalvikvm( 9372): DexOpt: unable to opt direct call 0x0c80 at 0x02 in Lcom/microsoft/windowsintune/companyportal/models/rest/ApiVersionNegotiator;.deflateVersionsIntoBundle
+D/dalvikvm( 9384): GC_CONCURRENT freed 380K, 12% free 3899K/4400K, paused 2ms+0ms, total 5ms
+W/dalvikvm( 9372): Found non-abstract interface method Lokhttp3/Call;.request ()Lokhttp3/Request;
+I/dalvikvm( 9372): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm( 9372): VFY: unable to resolve interface method 42425: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm( 9372): VFY: replacing opcode 0x72 at 0x0006
+I/System.out( 9372): body:<com.microsoft.cll.android.EventHandler: void setEndpointUrl(java.lang.String)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 9372): <com.microsoft.cll.android.EventHandler: void setEndpointUrl(java.lang.String)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###https://vortex.data.microsoft.com/collect/v1
+D/dalvikvm( 9384): GC_CONCURRENT freed 211K, 8% free 4071K/4400K, paused 2ms+0ms, total 5ms
+I/EventHandler( 9372): Draining All events
+I/AbstractHandler( 9372): File c5279a78-f78c-407e-8117-7cda89ef3712.norm.cllevent is in use still
+I/AbstractHandler( 9372): File b7a64fbb-96ac-43f9-aef8-57165b368d53.crit.cllevent is in use still
+I/SettingsSync( 9372): Cloud sync!
+I/CllSettings( 9372): Get Settings
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r7)	timediff:0
+I/System.out( 9372): <com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>###specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r7)###https://settings.data.microsoft.com/settings/v2.0/androidLL/app?os=Android&osVer=4.4.2&deviceClass=Android.Phone&deviceId=a:3ace0108121e3573
+W/ActivityThread( 9372): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+D/dalvikvm( 9372): GC_CONCURRENT freed 210K, 9% free 3316K/3628K, paused 2ms+0ms, total 7ms
+I/System.out( 9372): body:<okhttp3.RequestBody: okhttp3.RequestBody create(okhttp3.MediaType,byte[],int,int)>	sig:staticinvoke <okhttp3.internal.Util: void checkOffsetAndCount(long,long,long)>($l5, $l2, $l3)	timediff:0
+I/System.out( 9372): body:<okhttp3.RequestBody$2: void <init>(okhttp3.MediaType,int,byte[],int)>	sig:specialinvoke $r0.<okhttp3.RequestBody: void <init>()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.RequestBody: okhttp3.RequestBody create(okhttp3.MediaType,byte[],int,int)>	sig:specialinvoke $r3.<okhttp3.RequestBody$2: void <init>(okhttp3.MediaType,int,byte[],int)>($r0, $i1, $r1, $i0)	timediff:0
+I/System.out( 9372): body:<okhttp3.RequestBody: okhttp3.RequestBody create(okhttp3.MediaType,byte[])>	sig:$r2 = staticinvoke <okhttp3.RequestBody: okhttp3.RequestBody create(okhttp3.MediaType,byte[],int,int)>($r0, $r1, 0, $i0)	timediff:0
+I/System.out( 9372): body:<com.microsoft.windowsintune.companyportal.models.rest.utils.OkHttpStack: void <clinit>()>	sig:$r0 = staticinvoke <okhttp3.RequestBody: okhttp3.RequestBody create(okhttp3.MediaType,byte[])>(null, $r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r3.<okhttp3.Dispatcher: void <init>()>()	timediff:0
+D/dalvikvm( 9384): GC_CONCURRENT freed 320K, 9% free 4254K/4648K, paused 5ms+1ms, total 30ms
+D/dalvikvm( 9384): WAIT_FOR_CONCURRENT_GC blocked 14ms
+D/dalvikvm( 9372): GC_CONCURRENT freed 220K, 8% free 3483K/3768K, paused 3ms+1ms, total 7ms
+I/System.out( 9372): body:<okhttp3.Protocol: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.Protocol: void <init>(java.lang.String,int,java.lang.String)>("HTTP_1_0", 0, "http/1.0")	timediff:0
+I/System.out( 9372): body:<okhttp3.Protocol: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.Protocol: void <init>(java.lang.String,int,java.lang.String)>("HTTP_1_1", 1, "http/1.1")	timediff:0
+I/System.out( 9372): body:<okhttp3.Protocol: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.Protocol: void <init>(java.lang.String,int,java.lang.String)>("SPDY_3", 2, "spdy/3.1")	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:$r8 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:43
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: void setRequestMethod(java.lang.String)>("GET")	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept", "application/json")	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("If-None-Match", $r7)	timediff:0
+I/System.out( 9372): body:<okhttp3.Protocol: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.Protocol: void <init>(java.lang.String,int,java.lang.String)>("HTTP_2", 3, "h2")	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient: void <clinit>()>	sig:$r2 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.lang.Object[])>($r0)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_WITH_NULL_MD5", 0, "SSL_RSA_WITH_NULL_MD5", 1, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_WITH_NULL_SHA", 1, "SSL_RSA_WITH_NULL_SHA", 2, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_EXPORT_WITH_RC4_40_MD5", 2, "SSL_RSA_EXPORT_WITH_RC4_40_MD5", 3, 4346, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_WITH_RC4_128_MD5", 3, "SSL_RSA_WITH_RC4_128_MD5", 4, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_WITH_RC4_128_SHA", 4, "SSL_RSA_WITH_RC4_128_SHA", 5, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_EXPORT_WITH_DES40_CBC_SHA", 5, "SSL_RSA_EXPORT_WITH_DES40_CBC_SHA", 8, 4346, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_WITH_DES_CBC_SHA", 6, "SSL_RSA_WITH_DES_CBC_SHA", 9, 5469, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_WITH_3DES_EDE_CBC_SHA", 7, "SSL_RSA_WITH_3DES_EDE_CBC_SHA", 10, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA", 8, "SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA", 17, 4346, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_DSS_WITH_DES_CBC_SHA", 9, "SSL_DHE_DSS_WITH_DES_CBC_SHA", 18, 5469, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA", 10, "SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA", 19, 5246, 6, 10)	timediff:1
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA", 11, "SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA", 20, 4346, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_RSA_WITH_DES_CBC_SHA", 12, "SSL_DHE_RSA_WITH_DES_CBC_SHA", 21, 5469, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA", 13, "SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA", 22, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DH_anon_EXPORT_WITH_RC4_40_MD5", 14, "SSL_DH_anon_EXPORT_WITH_RC4_40_MD5", 23, 4346, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DH_anon_WITH_RC4_128_MD5", 15, "SSL_DH_anon_WITH_RC4_128_MD5", 24, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA", 16, "SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA", 25, 4346, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DH_anon_WITH_DES_CBC_SHA", 17, "SSL_DH_anon_WITH_DES_CBC_SHA", 26, 5469, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DH_anon_WITH_3DES_EDE_CBC_SHA", 18, "SSL_DH_anon_WITH_3DES_EDE_CBC_SHA", 27, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_KRB5_WITH_DES_CBC_SHA", 19, "TLS_KRB5_WITH_DES_CBC_SHA", 30, 2712, 6, 2147483647)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_KRB5_WITH_3DES_EDE_CBC_SHA", 20, "TLS_KRB5_WITH_3DES_EDE_CBC_SHA", 31, 2712, 6, 2147483647)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_KRB5_WITH_RC4_128_SHA", 21, "TLS_KRB5_WITH_RC4_128_SHA", 32, 2712, 6, 2147483647)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_KRB5_WITH_DES_CBC_MD5", 22, "TLS_KRB5_WITH_DES_CBC_MD5", 34, 2712, 6, 2147483647)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_KRB5_WITH_3DES_EDE_CBC_MD5", 23, "TLS_KRB5_WITH_3DES_EDE_CBC_MD5", 35, 2712, 6, 2147483647)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_KRB5_WITH_RC4_128_MD5", 24, "TLS_KRB5_WITH_RC4_128_MD5", 36, 2712, 6, 2147483647)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA", 25, "TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA", 38, 2712, 6, 2147483647)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_KRB5_EXPORT_WITH_RC4_40_SHA", 26, "TLS_KRB5_EXPORT_WITH_RC4_40_SHA", 40, 2712, 6, 2147483647)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5", 27, "TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5", 41, 2712, 6, 2147483647)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_KRB5_EXPORT_WITH_RC4_40_MD5", 28, "TLS_KRB5_EXPORT_WITH_RC4_40_MD5", 43, 2712, 6, 2147483647)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_WITH_AES_128_CBC_SHA", 29, "TLS_RSA_WITH_AES_128_CBC_SHA", 47, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_DSS_WITH_AES_128_CBC_SHA", 30, "TLS_DHE_DSS_WITH_AES_128_CBC_SHA", 50, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_RSA_WITH_AES_128_CBC_SHA", 31, "TLS_DHE_RSA_WITH_AES_128_CBC_SHA", 51, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DH_anon_WITH_AES_128_CBC_SHA", 32, "TLS_DH_anon_WITH_AES_128_CBC_SHA", 52, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_WITH_AES_256_CBC_SHA", 33, "TLS_RSA_WITH_AES_256_CBC_SHA", 53, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_DSS_WITH_AES_256_CBC_SHA", 34, "TLS_DHE_DSS_WITH_AES_256_CBC_SHA", 56, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_RSA_WITH_AES_256_CBC_SHA", 35, "TLS_DHE_RSA_WITH_AES_256_CBC_SHA", 57, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DH_anon_WITH_AES_256_CBC_SHA", 36, "TLS_DH_anon_WITH_AES_256_CBC_SHA", 58, 5246, 6, 10)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_WITH_NULL_SHA256", 37, "TLS_RSA_WITH_NULL_SHA256", 59, 5246, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_WITH_AES_128_CBC_SHA256", 38, "TLS_RSA_WITH_AES_128_CBC_SHA256", 60, 5246, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_WITH_AES_256_CBC_SHA256", 39, "TLS_RSA_WITH_AES_256_CBC_SHA256", 61, 5246, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_DSS_WITH_AES_128_CBC_SHA256", 40, "TLS_DHE_DSS_WITH_AES_128_CBC_SHA256", 64, 5246, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_RSA_WITH_AES_128_CBC_SHA256", 41, "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256", 103, 5246, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_DSS_WITH_AES_256_CBC_SHA256", 42, "TLS_DHE_DSS_WITH_AES_256_CBC_SHA256", 106, 5246, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_RSA_WITH_AES_256_CBC_SHA256", 43, "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256", 107, 5246, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DH_anon_WITH_AES_128_CBC_SHA256", 44, "TLS_DH_anon_WITH_AES_128_CBC_SHA256", 108, 5246, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DH_anon_WITH_AES_256_CBC_SHA256", 45, "TLS_DH_anon_WITH_AES_256_CBC_SHA256", 109, 5246, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_WITH_AES_128_GCM_SHA256", 46, "TLS_RSA_WITH_AES_128_GCM_SHA256", 156, 5288, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_RSA_WITH_AES_256_GCM_SHA384", 47, "TLS_RSA_WITH_AES_256_GCM_SHA384", 157, 5288, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_RSA_WITH_AES_128_GCM_SHA256", 48, "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256", 158, 5288, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_RSA_WITH_AES_256_GCM_SHA384", 49, "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384", 159, 5288, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_DSS_WITH_AES_128_GCM_SHA256", 50, "TLS_DHE_DSS_WITH_AES_128_GCM_SHA256", 162, 5288, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DHE_DSS_WITH_AES_256_GCM_SHA384", 51, "TLS_DHE_DSS_WITH_AES_256_GCM_SHA384", 163, 5288, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DH_anon_WITH_AES_128_GCM_SHA256", 52, "TLS_DH_anon_WITH_AES_128_GCM_SHA256", 166, 5288, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_DH_anon_WITH_AES_256_GCM_SHA384", 53, "TLS_DH_anon_WITH_AES_256_GCM_SHA384", 167, 5288, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_EMPTY_RENEGOTIATION_INFO_SCSV", 54, "TLS_EMPTY_RENEGOTIATION_INFO_SCSV", 255, 5746, 6, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_ECDSA_WITH_NULL_SHA", 55, "TLS_ECDH_ECDSA_WITH_NULL_SHA", 49153, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_ECDSA_WITH_RC4_128_SHA", 56, "TLS_ECDH_ECDSA_WITH_RC4_128_SHA", 49154, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA", 57, "TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA", 49155, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA", 58, "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA", 49156, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA", 59, "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA", 49157, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_ECDSA_WITH_NULL_SHA", 60, "TLS_ECDHE_ECDSA_WITH_NULL_SHA", 49158, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_ECDSA_WITH_RC4_128_SHA", 61, "TLS_ECDHE_ECDSA_WITH_RC4_128_SHA", 49159, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA", 62, "TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA", 49160, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA", 63, "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA", 49161, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA", 64, "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA", 49162, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_RSA_WITH_NULL_SHA", 65, "TLS_ECDH_RSA_WITH_NULL_SHA", 49163, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_RSA_WITH_RC4_128_SHA", 66, "TLS_ECDH_RSA_WITH_RC4_128_SHA", 49164, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA", 67, "TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA", 49165, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA", 68, "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA", 49166, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA", 69, "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA", 49167, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_RSA_WITH_NULL_SHA", 70, "TLS_ECDHE_RSA_WITH_NULL_SHA", 49168, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_RSA_WITH_RC4_128_SHA", 71, "TLS_ECDHE_RSA_WITH_RC4_128_SHA", 49169, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA", 72, "TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA", 49170, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA", 73, "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA", 49171, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA", 74, "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA", 49172, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_anon_WITH_NULL_SHA", 75, "TLS_ECDH_anon_WITH_NULL_SHA", 49173, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_anon_WITH_RC4_128_SHA", 76, "TLS_ECDH_anon_WITH_RC4_128_SHA", 49174, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA", 77, "TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA", 49175, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_anon_WITH_AES_128_CBC_SHA", 78, "TLS_ECDH_anon_WITH_AES_128_CBC_SHA", 49176, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_anon_WITH_AES_256_CBC_SHA", 79, "TLS_ECDH_anon_WITH_AES_256_CBC_SHA", 49177, 4492, 7, 14)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256", 80, "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256", 49187, 5289, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384", 81, "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384", 49188, 5289, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256", 82, "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256", 49189, 5289, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384", 83, "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384", 49190, 5289, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256", 84, "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256", 49191, 5289, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384", 85, "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384", 49192, 5289, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256", 86, "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256", 49193, 5289, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384", 87, "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384", 49194, 5289, 7, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256", 88, "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256", 49195, 5289, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384", 89, "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384", 49196, 5289, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256", 90, "TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256", 49197, 5289, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384", 91, "TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384", 49198, 5289, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256", 92, "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256", 49199, 5289, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384", 93, "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384", 49200, 5289, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256", 94, "TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256", 49201, 5289, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.CipherSuite: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CipherSuite: void <init>(java.lang.String,int,java.lang.String,int,int,int,int)>("TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384", 95, "TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384", 49202, 5289, 8, 21)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <clinit>()>	sig:specialinvoke $r1.<okhttp3.ConnectionSpec$Builder: void <init>(boolean)>(1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec$Builder cipherSuites(okhttp3.CipherSuite[])>	sig:$r0 = virtualinvoke $r0.<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec$Builder cipherSuites(java.lang.String[])>($r2)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <clinit>()>	sig:$r1 = virtualinvoke $r1.<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec$Builder cipherSuites(okhttp3.CipherSuite[])>($r2)	timediff:0
+I/System.out( 9372): body:<okhttp3.TlsVersion: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.TlsVersion: void <init>(java.lang.String,int,java.lang.String)>("TLS_1_2", 0, "TLSv1.2")	timediff:0
+I/System.out( 9372): body:<okhttp3.TlsVersion: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.TlsVersion: void <init>(java.lang.String,int,java.lang.String)>("TLS_1_1", 1, "TLSv1.1")	timediff:0
+I/System.out( 9372): body:<okhttp3.TlsVersion: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.TlsVersion: void <init>(java.lang.String,int,java.lang.String)>("TLS_1_0", 2, "TLSv1")	timediff:0
+I/System.out( 9372): body:<okhttp3.TlsVersion: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.TlsVersion: void <init>(java.lang.String,int,java.lang.String)>("SSL_3_0", 3, "SSLv3")	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec$Builder tlsVersions(okhttp3.TlsVersion[])>	sig:$r0 = virtualinvoke $r0.<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec$Builder tlsVersions(java.lang.String[])>($r2)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <clinit>()>	sig:$r1 = virtualinvoke $r1.<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec$Builder tlsVersions(okhttp3.TlsVersion[])>($r3)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <clinit>()>	sig:$r1 = virtualinvoke $r1.<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec$Builder supportsTlsExtensions(boolean)>(1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>	sig:$z0 = staticinvoke <okhttp3.ConnectionSpec$Builder: boolean access$000(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>	sig:$r2 = staticinvoke <okhttp3.ConnectionSpec$Builder: java.lang.String[] access$100(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>	sig:$r2 = staticinvoke <okhttp3.ConnectionSpec$Builder: java.lang.String[] access$200(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>	sig:$z0 = staticinvoke <okhttp3.ConnectionSpec$Builder: boolean access$300(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder,okhttp3.ConnectionSpec$1)>	sig:specialinvoke $r0.<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec build()>	sig:specialinvoke $r1.<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder,okhttp3.ConnectionSpec$1)>($r0, null)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <clinit>()>	sig:$r5 = virtualinvoke $r1.<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec build()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec$Builder: void <init>(okhttp3.ConnectionSpec)>	sig:$z0 = staticinvoke <okhttp3.ConnectionSpec: boolean access$400(okhttp3.ConnectionSpec)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec$Builder: void <init>(okhttp3.ConnectionSpec)>	sig:$r2 = staticinvoke <okhttp3.ConnectionSpec: java.lang.String[] access$500(okhttp3.ConnectionSpec)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec$Builder: void <init>(okhttp3.ConnectionSpec)>	sig:$r2 = staticinvoke <okhttp3.ConnectionSpec: java.lang.String[] access$600(okhttp3.ConnectionSpec)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec$Builder: void <init>(okhttp3.ConnectionSpec)>	sig:$z0 = staticinvoke <okhttp3.ConnectionSpec: boolean access$700(okhttp3.ConnectionSpec)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <clinit>()>	sig:specialinvoke $r1.<okhttp3.ConnectionSpec$Builder: void <init>(okhttp3.ConnectionSpec)>($r5)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec$Builder tlsVersions(okhttp3.TlsVersion[])>	sig:$r0 = virtualinvoke $r0.<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec$Builder tlsVersions(java.lang.String[])>($r2)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <clinit>()>	sig:$r1 = virtualinvoke $r1.<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec$Builder tlsVersions(okhttp3.TlsVersion[])>($r3)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <clinit>()>	sig:$r1 = virtualinvoke $r1.<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec$Builder supportsTlsExtensions(boolean)>(1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>	sig:$z0 = staticinvoke <okhttp3.ConnectionSpec$Builder: boolean access$000(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>	sig:$r2 = staticinvoke <okhttp3.ConnectionSpec$Builder: java.lang.String[] access$100(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>	sig:$r2 = staticinvoke <okhttp3.ConnectionSpec$Builder: java.lang.String[] access$200(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>	sig:$z0 = staticinvoke <okhttp3.ConnectionSpec$Builder: boolean access$300(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder,okhttp3.ConnectionSpec$1)>	sig:specialinvoke $r0.<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec build()>	sig:specialinvoke $r1.<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder,okhttp3.ConnectionSpec$1)>($r0, null)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <clinit>()>	sig:$r5 = virtualinvoke $r1.<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec build()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <clinit>()>	sig:specialinvoke $r1.<okhttp3.ConnectionSpec$Builder: void <init>(boolean)>(0)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>	sig:$z0 = staticinvoke <okhttp3.ConnectionSpec$Builder: boolean access$000(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>	sig:$r2 = staticinvoke <okhttp3.ConnectionSpec$Builder: java.lang.String[] access$100(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>	sig:$r2 = staticinvoke <okhttp3.ConnectionSpec$Builder: java.lang.String[] access$200(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>	sig:$z0 = staticinvoke <okhttp3.ConnectionSpec$Builder: boolean access$300(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder,okhttp3.ConnectionSpec$1)>	sig:specialinvoke $r0.<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder)>($r1)	timediff:1
+I/System.out( 9372): body:<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec build()>	sig:specialinvoke $r1.<okhttp3.ConnectionSpec: void <init>(okhttp3.ConnectionSpec$Builder,okhttp3.ConnectionSpec$1)>($r0, null)	timediff:1
+I/System.out( 9372): body:<okhttp3.ConnectionSpec: void <clinit>()>	sig:$r5 = virtualinvoke $r1.<okhttp3.ConnectionSpec$Builder: okhttp3.ConnectionSpec build()>()	timediff:1
+I/System.out( 9372): body:<okhttp3.OkHttpClient: void <clinit>()>	sig:$r2 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.lang.Object[])>($r3)	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient$1: void <init>()>	sig:specialinvoke $r0.<okhttp3.internal.Internal: void <init>()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient: void <clinit>()>	sig:specialinvoke $r5.<okhttp3.OkHttpClient$1: void <init>()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$000()>()	timediff:7
+I/System.out( 9372): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r2 = staticinvoke <okhttp3.OkHttpClient: java.util.List access$100()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:$r4 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.CookieJar: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CookieJar$1: void <init>()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.tls.OkHostnameVerifier: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.internal.tls.OkHostnameVerifier: void <init>()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.CertificatePinner$Builder: void <init>()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner: void <init>(okhttp3.CertificatePinner$Builder)>	sig:$r2 = staticinvoke <okhttp3.CertificatePinner$Builder: java.util.List access$000(okhttp3.CertificatePinner$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner: void <init>(okhttp3.CertificatePinner$Builder)>	sig:$r2 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r2)	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner: void <init>(okhttp3.CertificatePinner$Builder)>	sig:$r3 = staticinvoke <okhttp3.CertificatePinner$Builder: okhttp3.internal.tls.TrustRootIndex access$100(okhttp3.CertificatePinner$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner: void <init>(okhttp3.CertificatePinner$Builder,okhttp3.CertificatePinner$1)>	sig:specialinvoke $r0.<okhttp3.CertificatePinner: void <init>(okhttp3.CertificatePinner$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner$Builder: okhttp3.CertificatePinner build()>	sig:specialinvoke $r1.<okhttp3.CertificatePinner: void <init>(okhttp3.CertificatePinner$Builder,okhttp3.CertificatePinner$1)>($r0, null)	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner: void <clinit>()>	sig:$r1 = virtualinvoke $r0.<okhttp3.CertificatePinner$Builder: okhttp3.CertificatePinner build()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.Authenticator: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.Authenticator$1: void <init>()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.Util: java.util.concurrent.ThreadFactory threadFactory(java.lang.String,boolean)>	sig:specialinvoke $r1.<okhttp3.internal.Util$1: void <init>(java.lang.String,boolean)>($r0, $z0)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionPool: void <clinit>()>	sig:$r4 = staticinvoke <okhttp3.internal.Util: java.util.concurrent.ThreadFactory threadFactory(java.lang.String,boolean)>("OkHttp ConnectionPool", 1)	timediff:0
+W/AdalContext( 9384): Initializing ADAL Context with Test Signatures. Broker auth to the Company Portal will probably fail.
+I/System.out( 9372): body:<okhttp3.ConnectionPool: void <init>(int,long,java.util.concurrent.TimeUnit)>	sig:specialinvoke $r2.<okhttp3.ConnectionPool$1: void <init>(okhttp3.ConnectionPool)>($r0)	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionPool: void <init>(int,long,java.util.concurrent.TimeUnit)>	sig:specialinvoke $r5.<okhttp3.internal.RouteDatabase: void <init>()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.ConnectionPool: void <init>()>	sig:specialinvoke $r0.<okhttp3.ConnectionPool: void <init>(int,long,java.util.concurrent.TimeUnit)>(5, 5L, $r1)	timediff:6
+I/System.out( 9372): body:<okhttp3.OkHttpClient$Builder: void <init>()>	sig:specialinvoke $r10.<okhttp3.ConnectionPool: void <init>()>()	timediff:6
+I/System.out( 9372): body:<okhttp3.Dns: void <clinit>()>	sig:specialinvoke $r0.<okhttp3.Dns$1: void <init>()>()	timediff:0
+I/System.out( 9372): body:<com.microsoft.windowsintune.companyportal.models.rest.utils.OkHttpStack: void <init>()>	sig:specialinvoke $r2.<okhttp3.OkHttpClient$Builder: void <init>()>()	timediff:30
+I/System.out( 9372): body:<com.microsoft.windowsintune.companyportal.models.rest.utils.OkHttpStack: void <init>()>	sig:$r2 = virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient$Builder sslSocketFactory(javax.net.ssl.SSLSocketFactory)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r4 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r4)	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r4 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r4)	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$z1 = virtualinvoke $r13.<okhttp3.ConnectionSpec: boolean isTls()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.Platform: okhttp3.internal.Platform findPlatform()>	sig:specialinvoke $r1.<okhttp3.internal.OptionalMethod: void <init>(java.lang.Class,java.lang.String,java.lang.Class[])>(null, "setUseSessionTickets", $r8)	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.Platform: okhttp3.internal.Platform findPlatform()>	sig:specialinvoke $r2.<okhttp3.internal.OptionalMethod: void <init>(java.lang.Class,java.lang.String,java.lang.Class[])>(null, "setHostname", $r8)	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.Platform$Android: void <init>(java.lang.Class,okhttp3.internal.OptionalMethod,okhttp3.internal.OptionalMethod,okhttp3.internal.OptionalMethod,okhttp3.internal.OptionalMethod)>	sig:specialinvoke $r0.<okhttp3.internal.Platform: void <init>()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.Platform: okhttp3.internal.Platform findPlatform()>	sig:specialinvoke $r9.<okhttp3.internal.Platform$Android: void <init>(java.lang.Class,okhttp3.internal.OptionalMethod,okhttp3.internal.OptionalMethod,okhttp3.internal.OptionalMethod,okhttp3.internal.OptionalMethod)>($r0, $r1, $r2, $r3, $r4)	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.Platform: void <clinit>()>	sig:$r0 = staticinvoke <okhttp3.internal.Platform: okhttp3.internal.Platform findPlatform()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r16 = staticinvoke <okhttp3.internal.Platform: okhttp3.internal.Platform get()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.Platform: java.lang.Object readFieldOrNull(java.lang.Object,java.lang.Class,java.lang.String)>	sig:$r6 = staticinvoke <okhttp3.internal.Platform: java.lang.Object readFieldOrNull(java.lang.Object,java.lang.Class,java.lang.String)>($r0, class "java/lang/Object", "delegate")	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.Platform: java.lang.Object readFieldOrNull(java.lang.Object,java.lang.Class,java.lang.String)>	sig:$r6 = staticinvoke <okhttp3.internal.Platform: java.lang.Object readFieldOrNull(java.lang.Object,java.lang.Class,java.lang.String)>($r6, $r1, $r2)	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.Platform$Android: javax.net.ssl.X509TrustManager trustManager(javax.net.ssl.SSLSocketFactory)>	sig:$r5 = staticinvoke <okhttp3.internal.Platform$Android: java.lang.Object readFieldOrNull(java.lang.Object,java.lang.Class,java.lang.String)>($r1, $r4, "sslParameters")	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.Platform: java.lang.Object readFieldOrNull(java.lang.Object,java.lang.Class,java.lang.String)>	sig:$r6 = staticinvoke <okhttp3.internal.Platform: java.lang.Object readFieldOrNull(java.lang.Object,java.lang.Class,java.lang.String)>($r0, class "java/lang/Object", "delegate")	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.Platform$Android: javax.net.ssl.X509TrustManager trustManager(javax.net.ssl.SSLSocketFactory)>	sig:$r5 = staticinvoke <okhttp3.internal.Platform$Android: java.lang.Object readFieldOrNull(java.lang.Object,java.lang.Class,java.lang.String)>($r2, class "javax/net/ssl/X509TrustManager", "x509TrustManager")	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.Platform$Android: javax.net.ssl.X509TrustManager trustManager(javax.net.ssl.SSLSocketFactory)>	sig:$r5 = staticinvoke <okhttp3.internal.Platform$Android: java.lang.Object readFieldOrNull(java.lang.Object,java.lang.Class,java.lang.String)>($r2, class "javax/net/ssl/X509TrustManager", "trustManager")	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r17 = virtualinvoke $r16.<okhttp3.internal.Platform: javax.net.ssl.X509TrustManager trustManager(javax.net.ssl.SSLSocketFactory)>($r14)	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r16 = staticinvoke <okhttp3.internal.Platform: okhttp3.internal.Platform get()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.tls.AndroidTrustRootIndex: okhttp3.internal.tls.TrustRootIndex get(javax.net.ssl.X509TrustManager)>	sig:specialinvoke $r5.<okhttp3.internal.tls.AndroidTrustRootIndex: void <init>(javax.net.ssl.X509TrustManager,java.lang.reflect.Method)>($r0, $r4)	timediff:0
+I/System.out( 9372): body:<okhttp3.internal.Platform$Android: okhttp3.internal.tls.TrustRootIndex trustRootIndex(javax.net.ssl.X509TrustManager)>	sig:$r2 = staticinvoke <okhttp3.internal.tls.AndroidTrustRootIndex: okhttp3.internal.tls.TrustRootIndex get(javax.net.ssl.X509TrustManager)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r15 = virtualinvoke $r16.<okhttp3.internal.Platform: okhttp3.internal.tls.TrustRootIndex trustRootIndex(javax.net.ssl.X509TrustManager)>($r17)	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner$Builder: void <init>(okhttp3.CertificatePinner)>	sig:$r3 = staticinvoke <okhttp3.CertificatePinner: java.util.List access$200(okhttp3.CertificatePinner)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner$Builder: void <init>(okhttp3.CertificatePinner)>	sig:$r5 = staticinvoke <okhttp3.CertificatePinner: okhttp3.internal.tls.TrustRootIndex access$300(okhttp3.CertificatePinner)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner: okhttp3.CertificatePinner$Builder newBuilder()>	sig:specialinvoke $r1.<okhttp3.CertificatePinner$Builder: void <init>(okhttp3.CertificatePinner)>($r0)	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r25 = virtualinvoke $r24.<okhttp3.CertificatePinner: okhttp3.CertificatePinner$Builder newBuilder()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r25 = virtualinvoke $r25.<okhttp3.CertificatePinner$Builder: okhttp3.CertificatePinner$Builder trustRootIndex(okhttp3.internal.tls.TrustRootIndex)>($r15)	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner: void <init>(okhttp3.CertificatePinner$Builder)>	sig:$r2 = staticinvoke <okhttp3.CertificatePinner$Builder: java.util.List access$000(okhttp3.CertificatePinner$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner: void <init>(okhttp3.CertificatePinner$Builder)>	sig:$r2 = staticinvoke <okhttp3.internal.Util: java.util.List immutableList(java.util.List)>($r2)	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner: void <init>(okhttp3.CertificatePinner$Builder)>	sig:$r3 = staticinvoke <okhttp3.CertificatePinner$Builder: okhttp3.internal.tls.TrustRootIndex access$100(okhttp3.CertificatePinner$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner: void <init>(okhttp3.CertificatePinner$Builder,okhttp3.CertificatePinner$1)>	sig:specialinvoke $r0.<okhttp3.CertificatePinner: void <init>(okhttp3.CertificatePinner$Builder)>($r1)	timediff:0
+I/System.out( 9372): body:<okhttp3.CertificatePinner$Builder: okhttp3.CertificatePinner build()>	sig:specialinvoke $r1.<okhttp3.CertificatePinner: void <init>(okhttp3.CertificatePinner$Builder,okhttp3.CertificatePinner$1)>($r0, null)	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>	sig:$r24 = virtualinvoke $r25.<okhttp3.CertificatePinner$Builder: okhttp3.CertificatePinner build()>()	timediff:0
+I/System.out( 9372): body:<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder,okhttp3.OkHttpClient$1)>	sig:specialinvoke $r0.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder)>($r1)	timediff:1
+I/System.out( 9372): body:<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient build()>	sig:specialinvoke $r1.<okhttp3.OkHttpClient: void <init>(okhttp3.OkHttpClient$Builder,okhttp3.OkHttpClient$1)>($r0, null)	timediff:1
+I/System.out( 9372): body:<com.microsoft.windowsintune.companyportal.models.rest.utils.OkHttpStack: void <init>()>	sig:$r3 = virtualinvoke $r2.<okhttp3.OkHttpClient$Builder: okhttp3.OkHttpClient build()>()	timediff:1
+D/dalvikvm( 9372): GC_CONCURRENT freed 325K, 10% free 3638K/4028K, paused 1ms+2ms, total 5ms
+D/Volley  ( 9372): [1] DiskBasedCache.clear: Cache cleared.
+V/PRNGFixes( 9384): 2018-04-13 18:32:22-null-No need to apply the fix ver:1.10.0
+V/PRNGFixes( 9384): 2018-04-13 18:32:22-null-No need to apply the fix ver:1.10.0
+D/Volley  ( 9372): [1] VolleyLog.setTag: Changing log tag to CompanyPortal-Volley
+W/dalvikvm( 9372): VFY: unable to find class referenced in signature (Landroid/os/PersistableBundle;)
+I/dalvikvm( 9372): Could not find method android.os.PersistableBundle.getString, referenced from method com.microsoft.windowsintune.companyportal.models.rest.LocationServices.inflateEndpointsFromBundle
+W/dalvikvm( 9372): VFY: unable to resolve virtual method 3204: Landroid/os/PersistableBundle;.getString (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm( 9372): VFY: replacing opcode 0x6e at 0x0006
+E/dalvikvm( 9372): Could not find class 'android.os.PersistableBundle', referenced from method com.microsoft.windowsintune.companyportal.models.rest.LocationServices.deflateEndpointsIntoBundle
+W/dalvikvm( 9372): VFY: unable to resolve new-instance 357 (Landroid/os/PersistableBundle;) in Lcom/microsoft/windowsintune/companyportal/models/rest/LocationServices;
+D/dalvikvm( 9372): VFY: replacing opcode 0x22 at 0x0000
+D/dalvikvm( 9372): DexOpt: unable to opt direct call 0x0c80 at 0x02 in Lcom/microsoft/windowsintune/companyportal/models/rest/LocationServices;.deflateEndpointsIntoBundle
+W/AdalContext( 9372): Initializing ADAL Context with Test Signatures. Broker auth to the Company Portal will probably fail.
+V/PRNGFixes( 9372): 2018-04-13 18:32:22-null-No need to apply the fix ver:1.10.0
+V/PRNGFixes( 9372): 2018-04-13 18:32:22-null-No need to apply the fix ver:1.10.0
+I/companyportal( 9372): com.microsoft.windowsintune.companyportal getting set to level: FINEST
+W/dalvikvm( 9372): VFY: unable to resolve static field 38656 (hockeyapp_crash_dialog_title) in Lnet/hockeyapp/android/R$string;
+D/dalvikvm( 9372): VFY: replacing opcode 0x60 at 0x0004
+W/dalvikvm( 9372): VFY: unable to resolve static field 38652 (hockeyapp_crash_dialog_message) in Lnet/hockeyapp/android/R$string;
+D/dalvikvm( 9372): VFY: replacing opcode 0x60 at 0x0022
+I/dalvikvm( 9372): DexOpt: unable to optimize static field ref 0x96fd at 0x27 in Lnet/hockeyapp/android/CrashManager;.showDialog
+I/dalvikvm( 9372): DexOpt: unable to optimize static field ref 0x96fe at 0x31 in Lnet/hockeyapp/android/CrashManager;.showDialog
+I/dalvikvm( 9372): DexOpt: unable to optimize static field ref 0x96ff at 0x3b in Lnet/hockeyapp/android/CrashManager;.showDialog
+W/dalvikvm( 9372): VFY: unable to resolve static field 38651 (hockeyapp_crash_dialog_app_name_fallback) in Lnet/hockeyapp/android/R$string;
+D/dalvikvm( 9372): VFY: replacing opcode 0x60 at 0x0021
+D/dalvikvm( 9372): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm( 9372): VFY: unable to resolve static field 762 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm( 9372): VFY: replacing opcode 0x62 at 0x0006
+I/ompanyPortalApplication( 9372): 
+I/ompanyPortalApplication( 9372): Begin PlatformInfo Information.
+I/ompanyPortalApplication( 9372): 	Brand: samsung
+I/ompanyPortalApplication( 9372): 	Device: SM-G9350
+I/ompanyPortalApplication( 9372): 	Display: SM-G9350-user 4.4.2 JLS36C 381180120 release-keys
+I/ompanyPortalApplication( 9372): 	Hardware: qcom
+I/ompanyPortalApplication( 9372): 	Manufacturer: samsung
+I/ompanyPortalApplication( 9372): 	Model: SM-G9350
+I/ompanyPortalApplication( 9372): 	Type: user
+I/ompanyPortalApplication( 9372): 	Version Codename: REL
+I/ompanyPortalApplication( 9372): 	Version Incremental: 381180120
+I/ompanyPortalApplication( 9372): 	Version Release: 4.4.2
+I/ompanyPortalApplication( 9372): 	Version SdkInt: 19
+I/ompanyPortalApplication( 9372): End PlatformInfo Information.
+I/ompanyPortalApplication( 9372): 
+I/ompanyPortalApplication( 9372): Begin SSP Information.
+I/ompanyPortalApplication( 9372): 	Package Name: com.microsoft.windowsintune.companyportal
+I/ompanyPortalApplication( 9372): 	Version Name: 5.0.3534.0
+I/ompanyPortalApplication( 9372): 	Version Code: 1511230
+I/ompanyPortalApplication( 9372): 	Last Updated: 2018/04/13 11:32:18
+I/ompanyPortalApplication( 9372): 	First Installed: 2018/04/13 11:32:18
+I/ompanyPortalApplication( 9372): End SSP Information.
+D/dalvikvm( 9372): GC_CONCURRENT freed 402K, 12% free 3621K/4088K, paused 1ms+0ms, total 3ms
+W/ompanyPortalApplication( 9372): Application initialization took 470 milliseconds.
+D/dalvikvm( 9372): GC_FOR_ALLOC freed 48K, 11% free 3669K/4088K, paused 3ms, total 3ms
+I/dalvikvm-heap( 9372): Grow heap (frag case) to 3.797MB for 163228-byte allocation
+D/dalvikvm( 9372): GC_FOR_ALLOC freed <1K, 10% free 3828K/4248K, paused 3ms, total 3ms
+W/InstallReferralHandler( 9372): Referring package not found on system: 
+I/SplashViewModel( 9372): Navigating from splash screen to next page.
+I/SplashViewModel( 9372): Navigate to welcome screen from Splash screen.
+I/EventHandler( 9372): Filtered event
+I/EventHandler( 9372): Draining All events
+I/AbstractHandler( 9372): File c5279a78-f78c-407e-8117-7cda89ef3712.norm.cllevent is in use still
+I/AbstractHandler( 9372): File b7a64fbb-96ac-43f9-aef8-57165b368d53.crit.cllevent is in use still
+D/libEGL  ( 9372): loaded /system/lib/egl/libEGL_adreno.so
+D/        ( 9372): HostConnection::get() New Host Connection established 0xb8bf1df0, tid 9372
+D/libEGL  ( 9372): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 9372): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation( 9372): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer( 9372): Enabling debug mode 0
+W/ViewRootImpl( 9372): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=847652, downTime=847652, deviceId=-1, source=0x101 }
+D/dalvikvm( 9384): GC_CONCURRENT freed 358K, 10% free 4323K/4752K, paused 0ms+1ms, total 5ms
+I/ActivityManager(  479): START u0 {flg=0x10000000 cmp=com.microsoft.windowsintune.companyportal/.views.WelcomeActivity (has extras)} from pid 9372
+W/InputMethodManagerService(  479): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9b8090 (uid=10057 pid=9372)
+D/dalvikvm( 9372): GC_CONCURRENT freed 253K, 9% free 3961K/4340K, paused 1ms+0ms, total 5ms
+D/dalvikvm( 9372): GC_FOR_ALLOC freed 69K, 7% free 4113K/4420K, paused 3ms, total 3ms
+I/dalvikvm-heap( 9372): Grow heap (frag case) to 4.681MB for 635808-byte allocation
+D/dalvikvm( 9372): GC_FOR_ALLOC freed 1K, 7% free 4732K/5044K, paused 5ms, total 5ms
+D/dalvikvm( 9372): GC_CONCURRENT freed 0K, 7% free 4732K/5044K, paused 1ms+0ms, total 3ms
+I/EventHandler( 9372): Filtered event
+I/EventHandler( 9372): Draining All events
+I/AbstractHandler( 9372): File c5279a78-f78c-407e-8117-7cda89ef3712.norm.cllevent is in use still
+I/AbstractHandler( 9372): File b7a64fbb-96ac-43f9-aef8-57165b368d53.crit.cllevent is in use still
+W/EGL_emulation( 9372): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9372): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=848316, downTime=848316, deviceId=-1, source=0x101 }
+D/dalvikvm( 9372): GC_CONCURRENT freed 265K, 7% free 4973K/5304K, paused 2ms+0ms, total 5ms
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): Displayed com.microsoft.windowsintune.companyportal/.views.WelcomeActivity: +182ms (total +966ms)
+W/WindowManager(  479): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  533): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=848619, downTime=848619, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  479): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9b8090 (uid=10057 pid=9372)
+W/NetworkManagementSocketTagger(  479): setKernelCountSet(10007, 0) failed with errno -13
+W/ViewRootImpl(  533): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=2.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=848628, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(  533): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=848628, downTime=848628, deviceId=-1, source=0x101 }
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  479): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9b8090 (uid=10057 pid=9372)
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: void connect()>()	timediff:577
+W/BackupManagerService(  479): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/BackupManagerService(  479): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {flg=0x10008000 cmp=com.microsoft.windowsintune.companyportal/.views.DismissAppActivity} from pid 9372
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  533): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=346.15958, y[0]=221.38098, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=848758, downTime=848758, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  533): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=360.9342, y[0]=217.76776, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=848758, downTime=848758, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  533): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=848757, downTime=848757, deviceId=-1, source=0x101 }
+W/NetworkManagementSocketTagger(  479): setKernelCountSet(10007, 1) failed with errno -13
+W/InputMethodManagerService(  479): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9b8090 (uid=10057 pid=9372)
+W/EGL_emulation( 2025): eglSurfaceAttrib not implemented 3093 12436
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:$i1 = virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: int getResponseCode()>()	timediff:150
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:$r7 = virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: java.lang.String getHeaderField(java.lang.String)>("ETAG")	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:$i1 = virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:$r15 = virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): URLConn;%;0;%;<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>;%;$r15 = virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: java.io.InputStream getInputStream()>();%;https://settings.data.microsoft.com/settings/v2.0/androidLL/app?os=Android&osVer=4.4.2&deviceClass=Android.Phone&deviceId=a:3ace0108121e3573;%;false;%;176;%;no-cache,no-store;%;Not found;%;Not found;%;Not found
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: void disconnect()>()	timediff:0
+I/CllSettings( 9372): Json Settings, Key: UPLOADENABLED Value: true
+I/CllSettings( 9372): Json Settings, Key: MAXEVENTSPERPOST Value: 500
+I/CllSettings( 9372): Json Settings, Key: SAMPLERATE Value: 100
+I/CllSettings( 9372): Json Settings, Key: MAXEVENTSIZEINBYTES Value: 64000
+I/HostSettings( 9372): Get Settings
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r7)	timediff:0
+I/System.out( 9372): <com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>###specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r7)###https://settings.data.microsoft.com/settings/v2.0/telemetry/A-AndroidSSP?os=Android&osVer=4.4.2&deviceClass=Android.Phone&deviceId=a:3ace0108121e3573
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:$r8 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: void setRequestMethod(java.lang.String)>("GET")	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept", "application/json")	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("If-None-Match", $r7)	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: void connect()>()	timediff:4
+W/EGL_emulation( 9372): eglSurfaceAttrib not implemented 3093 12436
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:$i1 = virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: int getResponseCode()>()	timediff:153
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:$r7 = virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: java.lang.String getHeaderField(java.lang.String)>("ETAG")	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:$i1 = virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:$r15 = virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: java.io.InputStream getInputStream()>()	timediff:3
+I/System.out( 9372): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): URLConn;%;1;%;<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>;%;$r15 = virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: java.io.InputStream getInputStream()>();%;https://settings.data.microsoft.com/settings/v2.0/telemetry/A-AndroidSSP?os=Android&osVer=4.4.2&deviceClass=Android.Phone&deviceId=a:3ace0108121e3573;%;false;%;75;%;no-cache,no-store;%;Not found;%;Not found;%;Not found
+I/System.out( 9372): body:<com.microsoft.cll.android.AbstractSettings: org.json.JSONObject getSettings()>	sig:virtualinvoke $r10.<javax.net.ssl.HttpsURLConnection: void disconnect()>()	timediff:0
+I/HostSettings( 9372): Json result did not contain a "settings" field!
+I/EventHandler( 9372): Draining All events
+I/NormalEventHandler( 9372): Writing 1 events to disk
+I/FileStorage( 9372): Creating new file
+I/AbstractHandler( 9372): File b7a64fbb-96ac-43f9-aef8-57165b368d53.crit.cllevent is in use still
+D/dalvikvm( 9372): GC_FOR_ALLOC freed 496K, 10% free 5097K/5656K, paused 3ms, total 4ms
+D/dalvikvm( 9372): GC_CONCURRENT freed <1K, 10% free 5222K/5784K, paused 2ms+1ms, total 5ms
+I/EventQueueWriter( 9372): Starting upload
+I/FileStorage( 9372): Read 1 events from file
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: java.net.HttpURLConnection openConnection(int,boolean)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: java.net.HttpURLConnection openConnection(int,boolean)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(0)	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: java.net.HttpURLConnection openConnection(int,boolean)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("POST")	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: java.net.HttpURLConnection openConnection(int,boolean)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: java.net.HttpURLConnection openConnection(int,boolean)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/x-json-stream; charset=utf-8")	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: java.net.HttpURLConnection openConnection(int,boolean)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("X-UploadTime", $r8)	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: java.net.HttpURLConnection openConnection(int,boolean)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Length", $r8)	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: java.net.HttpURLConnection openConnection(int,boolean)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: java.net.HttpURLConnection openConnection(int,boolean)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: java.net.HttpURLConnection openConnection(int,boolean)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept", "application/json")	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: java.net.HttpURLConnection openConnection(int,boolean)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Encoding", "gzip, deflate")	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: java.net.HttpURLConnection openConnection(int,boolean)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Encoding", "deflate")	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: java.net.HttpURLConnection openConnection(int,boolean)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void connect()>()	timediff:346
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: void sendEvent(byte[],boolean)>	sig:$r6 = virtualinvoke $r5.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:0
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: void sendEvent(byte[],boolean)>	sig:$i1 = virtualinvoke $r5.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:148
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: void sendEvent(byte[],boolean)>	sig:$r8 = virtualinvoke $r5.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): URLConn;%;2;%;<com.microsoft.cll.android.EventSender: void sendEvent(byte[],boolean)>;%;$r8 = virtualinvoke $r5.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://vortex.data.microsoft.com/collect/v1;%;true;%;57;%;no-cache, no-store;%;Not found;%;Not found;%;Not found
+I/EventSender( 9372): {"ipv":false,"pvm":null,"rej":0,"bln":0,"acc":1,"efi":[]}
+I/System.out( 9372): body:<com.microsoft.cll.android.EventSender: void sendEvent(byte[],boolean)>	sig:$r8 = virtualinvoke $r5.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 9372): URLConn;%;3;%;<com.microsoft.cll.android.EventSender: void sendEvent(byte[],boolean)>;%;$r8 = virtualinvoke $r5.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://vortex.data.microsoft.com/collect/v1;%;true;%;57;%;no-cache, no-store;%;Not found;%;Not found;%;Not found
+I/FileStorage( 9372): Discarding file
+I/EventQueueWriter( 9372): Sent 1 events.
+I/InputDispatcher(  479): Application is not responding: AppWindowToken{4af74efc token=Token{4a9d9d4c ActivityRecord{4b1577b4 u0 com.microsoft.windowsintune.companyportal/.views.DismissAppActivity t40}}}.  It has been 5022.9ms since event, 5005.3ms since wait started.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+I/Process (  479): Sending signal. PID: 9372 SIG: 3
+I/dalvikvm( 9372): threadid=3: reacting to signal 3
+I/WindowManager(  479): Input event dispatching timed out sending to application AppWindowToken{4af74efc token=Token{4a9d9d4c ActivityRecord{4b1577b4 u0 com.microsoft.windowsintune.companyportal/.views.DismissAppActivity t40}}}.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+W/InputManager(  479): Input event injection from pid 9362 timed out.
+I/dalvikvm( 9372): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  479): Sending signal. PID: 479 SIG: 3
+I/dalvikvm(  479): threadid=3: reacting to signal 3
+D/dalvikvm( 9372): GC_CONCURRENT freed 499K, 13% free 5092K/5848K, paused 1ms+4ms, total 9ms
+I/dalvikvm(  479): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  479): Sending signal. PID: 668 SIG: 3
+I/dalvikvm(  668): threadid=3: reacting to signal 3
+I/dalvikvm(  668): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  479): Sending signal. PID: 533 SIG: 3
+I/dalvikvm(  533): threadid=3: reacting to signal 3
+I/dalvikvm(  533): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm(  479): GC_EXPLICIT freed 3130K, 52% free 14792K/30420K, paused 1ms+2ms, total 18ms
+E/ActivityManager(  479): ANR in com.microsoft.windowsintune.companyportal (com.microsoft.windowsintune.companyportal/.views.DismissAppActivity)
+E/ActivityManager(  479): PID: 9372
+E/ActivityManager(  479): Reason: Input dispatching timed out (Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.)
+E/ActivityManager(  479): Load: 1.83 / 2.29 / 1.59
+E/ActivityManager(  479): CPU usage from 6440ms to 1154ms ago:
+E/ActivityManager(  479):   5.1% 9362/com.android.commands.monkey: 4.5% user + 0.5% kernel / faults: 7232 minor
+E/ActivityManager(  479):   4.1% 479/system_server: 1.5% user + 2.6% kernel / faults: 2619 minor 1 major
+E/ActivityManager(  479):   1.5% 166/surfaceflinger: 0.1% user + 1.3% kernel / faults: 210 minor
+E/ActivityManager(  479):   0.5% 169/mediaserver: 0% user + 0.4% kernel / faults: 2 minor
+E/ActivityManager(  479):   0.5% 70/adbd: 0% user + 0.5% kernel / faults: 2 minor
+E/ActivityManager(  479):   0.2% 533/com.android.systemui: 0% user + 0.1% kernel / faults: 368 minor
+E/ActivityManager(  479):   0.5% 9357/logcat: 0% user + 0.5% kernel / faults: 3 minor
+E/ActivityManager(  479):   0% 167/zygote: 0% user + 0% kernel / faults: 378 minor
+E/ActivityManager(  479):   0% 2025/com.google.android.gsf.login: 0% user + 0% kernel / faults: 1 minor
+E/ActivityManager(  479):  +0% 9372/com.microsoft.windowsintune.companyportal: 0% user + 0% kernel
+E/ActivityManager(  479):  +0% 9384/com.microsoft.windowsintune.companyportal:omadm_client_process: 0% user + 0% kernel
+E/ActivityManager(  479): 23% TOTAL: 15% user + 6.3% kernel + 0.6% iowait + 0.8% softirq
+E/ActivityManager(  479): CPU usage from 241ms to 745ms later:
+E/ActivityManager(  479):   3.7% 166/surfaceflinger: 1.8% user + 1.8% kernel
+E/ActivityManager(  479):     3.7% 166/surfaceflinger: 0% user + 3.7% kernel
+E/ActivityManager(  479):   4% 479/system_server: 4% user + 0% kernel / faults: 3 minor 1 major
+E/ActivityManager(  479):     2% 4102/Binder_E: 2% user + 0% kernel
+E/ActivityManager(  479): 4.2% TOTAL: 0% user + 0% kernel + 4.2% iowait
+W/SurfaceFlinger(  166): couldn't log to binary event log: overflow.
+I/EventHandler( 9372): Draining All events
+I/AbstractHandler( 9372): File b6c99ae2-d5a9-4acb-90dc-d53b1cbbc4ae.norm.cllevent is in use still
+I/AbstractHandler( 9372): File b7a64fbb-96ac-43f9-aef8-57165b368d53.crit.cllevent is in use still
+I/ContentMaintenance(  720): Pruning caches...
+I/ContentMaintenance(  720): Internal cache bytes used: 0; limit: 100000000; download size: 0
+I/ContentMaintenance(  720): Cache pruning complete.
+I/ContentMaintenance(  720): Beginning garbage collection.
+I/RealtimeCacheCleanup(  720): Beginning Realtime garbage collection.
+I/RealtimeCacheCleanup(  720): Finished Realtime garbage collection.
+I/ContentMaintenance(  720): Finished garbage collection.
+I/InputDispatcher(  479): Application is not responding: AppWindowToken{4af74efc token=Token{4a9d9d4c ActivityRecord{4b1577b4 u0 com.microsoft.windowsintune.companyportal/.views.DismissAppActivity t40}}}.  It has been 5006.2ms since event, 5004.2ms since wait started.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+I/WindowManager(  479): Input event dispatching timed out sending to application AppWindowToken{4af74efc token=Token{4a9d9d4c ActivityRecord{4b1577b4 u0 com.microsoft.windowsintune.companyportal/.views.DismissAppActivity t40}}}.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+W/InputManager(  479): Input event injection from pid 9362 timed out.
+I/ActivityManager(  479): Skipping duplicate ANR: ProcessRecord{4b02c364 9372:com.microsoft.windowsintune.companyportal/u0a57} Input dispatching timed out (Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.)
+E/SurfaceFlinger(  166): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  166): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  166): setOrientation, mFbdev=0xb7aec050, mFbDev->setOrientation=0xb6a0ace0, orientation=0
+I/gralloc_nox(  166): setOrientation: orientation=0
+I/ActivityManager(  479): Config changes=480 {1.0 310mcc16mnc ja_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger -keyb/v/h dpad/v s.21}
+I/InputReader(  479): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  479): Device reconfigured: id=1, name='seamless mouse', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  479): Device reconfigured: id=3, name='Android Input', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  479): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 0, mode 1, display id 0
+D/Sensors (  479): Client connection accepted (82)
+D/Tinker.DefaultAppLike(  681): onConfigurationChanged:{1.0 310mcc16mnc ja_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger -keyb/v/h dpad/v s.21}
+D/PhoneStatusBar(  533): mSettingsPanelGravity = 55
+I/AndroidRuntime( 9362): VM exiting with result code 179.

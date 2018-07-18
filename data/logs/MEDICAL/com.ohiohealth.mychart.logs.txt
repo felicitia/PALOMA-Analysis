@@ -1,0 +1,612 @@
+--------- beginning of /dev/log/main
+I/Icing   (  728): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+I/Icing   (  728): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/dalvikvm(  728): GC_CONCURRENT freed 2408K, 46% free 10519K/19292K, paused 1ms+3ms, total 14ms
+D/AndroidRuntime(16878): 
+D/AndroidRuntime(16878): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(16878): CheckJNI is OFF
+D/dalvikvm(16878): Using executionMode 2
+D/dalvikvm(16878): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(16878): Added shared lib libjavacore.so 0x0
+D/dalvikvm(16878): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(16878): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(16878): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(16878): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(16878): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(16878): failed to load memtrack module: -2
+D/AndroidRuntime(16878): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  327): Skipping deliver [background] BroadcastRecord{4acb1cbc u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4abd27dc 16878 (unknown name)/0/u-1 remote:4ab66af0}: process crashing
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+I/ActivityManager(  327): Start proc com.ohiohealth.mychart for activity com.ohiohealth.mychart/.MainActivity: pid=16888 uid=10052 gids={50052, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  327): setKernelCountSet(10052, 1) failed with errno -13
+I/dalvikvm(16888): ignoring registerObject request in thread=1
+I/dalvikvm(16888): ignoring registerObject request in thread=1
+V/WebViewChromium(16888): Binding Chromium to the background looper Looper (main, tid 1) {4a7a640c}
+I/chromium(16888): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain(16888): Initializing chromium process, renderers=0
+W/chromium(16888): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/libEGL  (16888): loaded /system/lib/egl/libEGL_adreno.so
+D/        (16888): HostConnection::get() New Host Connection established 0xb870b2a0, tid 16888
+D/libEGL  (16888): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (16888): loaded /system/lib/egl/libGLESv2_adreno.so
+D/dalvikvm(16888): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(16888): GC_FOR_ALLOC freed 67K, 5% free 2908K/3040K, paused 4ms, total 4ms
+I/dalvikvm-heap(16888): Grow heap (frag case) to 3.504MB for 635808-byte allocation
+D/dalvikvm(16888): GC_FOR_ALLOC freed <1K, 4% free 3528K/3664K, paused 2ms, total 2ms
+D/dalvikvm(16888): GC_CONCURRENT freed <1K, 4% free 3528K/3664K, paused 1ms+0ms, total 2ms
+I/dalvikvm(16888): Could not find method android.webkit.CookieManager.setAcceptThirdPartyCookies, referenced from method org.apache.cordova.engine.SystemCookieManager.<init>
+W/dalvikvm(16888): VFY: unable to resolve virtual method 16509: Landroid/webkit/CookieManager;.setAcceptThirdPartyCookies (Landroid/webkit/WebView;Z)V
+D/dalvikvm(16888): VFY: replacing opcode 0x6e at 0x0016
+I/dalvikvm(16888): Could not find method android.webkit.CookieManager.flush, referenced from method org.apache.cordova.engine.SystemCookieManager.flush
+W/dalvikvm(16888): VFY: unable to resolve virtual method 16502: Landroid/webkit/CookieManager;.flush ()V
+D/dalvikvm(16888): VFY: replacing opcode 0x6e at 0x0008
+W/dalvikvm(16888): VFY: unable to find class referenced in signature (Landroid/webkit/ClientCertRequest;)
+W/dalvikvm(16888): VFY: unable to find class referenced in signature (Landroid/webkit/ClientCertRequest;)
+I/dalvikvm(16888): Could not find method android.webkit.WebViewClient.onReceivedClientCertRequest, referenced from method org.apache.cordova.engine.SystemWebViewClient.onReceivedClientCertRequest
+W/dalvikvm(16888): VFY: unable to resolve virtual method 16601: Landroid/webkit/WebViewClient;.onReceivedClientCertRequest (Landroid/webkit/WebView;Landroid/webkit/ClientCertRequest;)V
+D/dalvikvm(16888): VFY: replacing opcode 0x6f at 0x001a
+W/dalvikvm(16888): VFY: unable to find class referenced in signature (Landroid/webkit/PermissionRequest;)
+I/dalvikvm(16888): Could not find method android.webkit.PermissionRequest.getResources, referenced from method org.apache.cordova.engine.SystemWebChromeClient.onPermissionRequest
+W/dalvikvm(16888): VFY: unable to resolve virtual method 16523: Landroid/webkit/PermissionRequest;.getResources ()[Ljava/lang/String;
+D/dalvikvm(16888): VFY: replacing opcode 0x6e at 0x000b
+I/dalvikvm(16888): Could not find method android.webkit.WebChromeClient$FileChooserParams.createIntent, referenced from method org.apache.cordova.engine.SystemWebChromeClient.onShowFileChooser
+W/dalvikvm(16888): VFY: unable to resolve virtual method 16529: Landroid/webkit/WebChromeClient$FileChooserParams;.createIntent ()Landroid/content/Intent;
+D/dalvikvm(16888): VFY: replacing opcode 0x6e at 0x0000
+D/SystemWebViewEngine(16888): CordovaWebView is running on device made by: samsung
+D/dalvikvm(16888): GC_FOR_ALLOC freed 71K, 4% free 3575K/3712K, paused 2ms, total 2ms
+I/dalvikvm-heap(16888): Grow heap (frag case) to 5.015MB for 1536012-byte allocation
+D/dalvikvm(16888): GC_CONCURRENT freed 3K, 3% free 5072K/5216K, paused 0ms+1ms, total 2ms
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_FORWARD_DEL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8409470, downTime=8409470, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(16888): Enabling debug mode 0
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8409769, downTime=8409769, deviceId=-1, source=0x101 }
+W/ContextImpl(  327): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  327): Displayed com.ohiohealth.mychart/.MainActivity: +570ms (total +12s860ms)
+I/chromium(16888): [INFO:simple_index_file.cc(397)] Simple Cache Index is being restored from disk.
+D/dalvikvm(16888): GC_CONCURRENT freed 264K, 6% free 5469K/5796K, paused 2ms+2ms, total 6ms
+D/        (  327): HostConnection::get() New Host Connection established 0xb884f710, tid 335
+W/NetworkManagementSocketTagger(  327): setKernelCountSet(10018, 0) failed with errno -13
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/ContextImpl(  327): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/JsMessageQueue(16888): Set native->JS mode to OnlineEventsBridgeMode
+W/SurfaceFlinger(  173): FB is protected: PERMISSION_DENIED
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 327
+W/WindowManager(  327): Screenshot failure taking screenshot for (437x246) to layer 21015
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+I/chromium(16888): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+I/chromium(16888): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+I/chromium(16888): [INFO:CONSOLE(424)] "Wrong type for parameter "successCallback" of Device.getInfo: Expected Function, but got Array Iterator.", source: file:///android_asset/www/cordova.js (424)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/chromium(16888): [INFO:CONSOLE(426)] "Uncaught TypeError: Wrong type for parameter "successCallback" of Device.getInfo: Expected Function, but got Array Iterator.", source: file:///android_asset/www/cordova.js (426)
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 327
+W/SurfaceFlinger(  173): FB is protected: PERMISSION_DENIED
+W/WindowManager(  327): Screenshot failure taking screenshot for (437x246) to layer 21015
+W/SurfaceFlinger(  173): FB is protected: PERMISSION_DENIED
+W/WindowManager(  327): Screenshot failure taking screenshot for (437x246) to layer 21015
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  327): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 16888
+W/PhoneFallbackEventHandler(16888): No activity found for android.intent.action.CALL_BUTTON.
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8410821, downTime=8410821, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_STOP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8410832, downTime=8410832, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8410833, downTime=8410833, deviceId=-1, source=0x101 }
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=8410874, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8410876, downTime=8410876, deviceId=-1, source=0x101 }
+V/FlingTracker(  540): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  540): java.lang.Throwable
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  540): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  540): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  540): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  540): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  540): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  540): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  540): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  540): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  540): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  540): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  540): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  540): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  540): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  540): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  540): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  540): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  540): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  540): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa54fb4 attribute=null, token = android.os.BinderProxy@4ab02a34
+I/ContentMaintenance(  728): Pruning caches...
+I/ContentMaintenance(  728): Internal cache bytes used: 0; limit: 100000000; download size: 0
+I/ContentMaintenance(  728): Cache pruning complete.
+I/ContentMaintenance(  728): Beginning garbage collection.
+I/RealtimeCacheCleanup(  728): Beginning Realtime garbage collection.
+I/RealtimeCacheCleanup(  728): Finished Realtime garbage collection.
+I/ContentMaintenance(  728): Finished garbage collection.
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  327): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 16888
+W/PhoneFallbackEventHandler(16888): No activity found for android.intent.action.CALL_BUTTON.
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8410926, downTime=8410926, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F12, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8410930, downTime=8410930, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8410930, downTime=8410930, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8410974, downTime=8410974, deviceId=-1, source=0x101 }
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac155b4 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8410979, downTime=8410979, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aac2f48 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411108, downTime=8411108, deviceId=-1, source=0x101 }
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=8411111, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411112, downTime=8411112, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a974a3c attribute=null, token = android.os.BinderProxy@4ab02a34
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 327
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/SurfaceFlinger(  173): FB is protected: PERMISSION_DENIED
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/WindowManager(  327): Screenshot failure taking screenshot for (437x246) to layer 21030
+D/dalvikvm(16888): GC_CONCURRENT freed 741K, 13% free 5528K/6332K, paused 1ms+1ms, total 7ms
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411196, downTime=8411196, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411196, downTime=8411196, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411197, downTime=8411197, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a931958 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=8411256, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411256, downTime=8411256, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411268, downTime=8411268, deviceId=-1, source=0x101 }
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  327): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 16888
+W/PhoneFallbackEventHandler(16888): No activity found for android.intent.action.CALL_BUTTON.
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411310, downTime=8411310, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae90da8 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=8411342, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411343, downTime=8411343, deviceId=-1, source=0x101 }
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aad5aac attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411440, downTime=8411440, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411443, downTime=8411443, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411445, downTime=8411445, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411447, downTime=8411447, deviceId=-1, source=0x101 }
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8ce7d4 attribute=null, token = android.os.BinderProxy@4ab02a34
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+I/WearableService(  650): Wearable Services stopping
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411562, downTime=8411562, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_STAR, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411565, downTime=8411565, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a997b74 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/InputDispatcher(  327): Dropped event because of pending overdue app switch.
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411648, downTime=8411648, deviceId=-1, source=0x101 }
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=8411653, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8411654, downTime=8411651, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411654, downTime=8411654, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a97d458 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  327): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 16888
+W/PhoneFallbackEventHandler(16888): No activity found for android.intent.action.CALL_BUTTON.
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411707, downTime=8411707, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411719, downTime=8411719, deviceId=-1, source=0x101 }
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411746, downTime=8411746, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a964bb8 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411879, downTime=8411879, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411881, downTime=8411881, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411882, downTime=8411882, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411884, downTime=8411884, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16888): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_REWIND, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411913, downTime=8411913, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411916, downTime=8411916, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a94f130 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411922, downTime=8411922, deviceId=-1, source=0x101 }
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8411966, downTime=8411966, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9767c4 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412180, downTime=8412180, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a92c474 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+D/dalvikvm(16888): GC_CONCURRENT freed 2276K, 37% free 4046K/6384K, paused 1ms+0ms, total 4ms
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+V/PanelView(  540): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412530, downTime=8412530, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412531, downTime=8412531, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412535, downTime=8412535, deviceId=-1, source=0x101 }
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8f2e60 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_4, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412574, downTime=8412574, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412574, downTime=8412574, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412577, downTime=8412577, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412580, downTime=8412580, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412583, downTime=8412583, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412630, downTime=8412630, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a89fe00 attribute=null, token = android.os.BinderProxy@4ab02a34
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 327
+W/SurfaceFlinger(  173): FB is protected: PERMISSION_DENIED
+W/WindowManager(  327): Screenshot failure taking screenshot for (437x246) to layer 21025
+W/SurfaceFlinger(  173): FB is protected: PERMISSION_DENIED
+W/WindowManager(  327): Screenshot failure taking screenshot for (437x246) to layer 21025
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412709, downTime=8412709, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_L, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412710, downTime=8412710, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412712, downTime=8412712, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_META_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412713, downTime=8412713, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412717, downTime=8412717, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16888): Attempted to finish an input event but the input event receiver has already been disposed.
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412746, downTime=8412746, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_6, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412747, downTime=8412747, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412747, downTime=8412747, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412752, downTime=8412752, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412765, downTime=8412765, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac6eea0 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412795, downTime=8412795, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412798, downTime=8412798, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412799, downTime=8412799, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=8412802, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8412803, downTime=8412800, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac741f8 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412804, downTime=8412804, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae0bc30 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+V/FlingTracker(  540): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  540): java.lang.Throwable
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  540): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  540): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  540): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  540): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  540): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  540): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  540): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  540): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  540): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  540): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  540): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  540): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  540): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  540): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  540): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  540): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  540): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  540): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+D/dalvikvm(16888): GC_CONCURRENT freed 426K, 38% free 4006K/6384K, paused 2ms+1ms, total 6ms
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412871, downTime=8412871, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8412877, downTime=8412877, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4b09d45c attribute=null, token = android.os.BinderProxy@4ab02a34
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413015, downTime=8413015, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(16888): Attempted to finish an input event but the input event receiver has already been disposed.
+I/ActivityManager(  327): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 16888
+W/PhoneFallbackEventHandler(16888): No activity found for android.intent.action.CALL_BUTTON.
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ada3de0 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4af3086c attribute=null, token = android.os.BinderProxy@4ab02a34
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SWITCH_CHARSET, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413074, downTime=8413074, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413077, downTime=8413077, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413078, downTime=8413078, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/InputEventReceiver(16888): Attempted to finish an input event but the input event receiver has already been disposed.
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413117, downTime=8413117, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aae8e38 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413140, downTime=8413140, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abc1ab0 attribute=null, token = android.os.BinderProxy@4ab02a34
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 327
+W/SurfaceFlinger(  173): FB is protected: PERMISSION_DENIED
+W/SurfaceFlinger(  173): FB is protected: PERMISSION_DENIED
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 327
+W/WindowManager(  327): Screenshot failure taking screenshot for (437x246) to layer 21030
+W/WindowManager(  327): Screenshot failure taking screenshot for (437x246) to layer 21030
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+V/PanelView(  540): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+V/FlingTracker(  540): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  540): java.lang.Throwable
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  540): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  540): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  540): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  540): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  540): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  540): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  540): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  540): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  540): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  540): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  540): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  540): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  540): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  540): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  540): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  540): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  540): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  540): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  540): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  540): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413341, downTime=8413341, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413344, downTime=8413344, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413377, downTime=8413377, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac15f30 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abfdc08 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(16888): GC_CONCURRENT freed 389K, 38% free 4010K/6384K, paused 0ms+0ms, total 3ms
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 327
+W/SurfaceFlinger(  173): FB is protected: PERMISSION_DENIED
+W/WindowManager(  327): Screenshot failure taking screenshot for (437x246) to layer 21025
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413470, downTime=8413470, deviceId=-1, source=0x101 }
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae65c74 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=8413530, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8413531, downTime=8413528, deviceId=0, source=0x10004 }
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413532, downTime=8413532, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+E/InputDispatcher(  327): Received spurious receive callback for unknown input channel.  fd=180, events=0x1
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7f7d8 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413586, downTime=8413586, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=8413590, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413592, downTime=8413592, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae99758 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/InputManager(  327): Input event injection from pid 16878 failed.
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413655, downTime=8413655, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413656, downTime=8413656, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413657, downTime=8413657, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413657, downTime=8413657, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413659, downTime=8413659, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413660, downTime=8413660, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8413661, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac6c83c attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413706, downTime=8413706, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413710, downTime=8413710, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413714, downTime=8413714, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413715, downTime=8413715, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16888): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413749, downTime=8413749, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac520b8 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413751, downTime=8413751, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa9b5e8 attribute=null, token = android.os.BinderProxy@4ab02a34
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ohiohealth.mychart/.MainActivity} from pid 16878
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SHIFT_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413787, downTime=8413787, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=8413792, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8413792, downTime=8413790, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=8413795, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8413795, downTime=8413793, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_COMMA, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8413795, downTime=8413795, deviceId=-1, source=0x101 }
+W/SurfaceFlinger(  173): FB is protected: PERMISSION_DENIED
+W/WindowManager(  327): Screenshot failure taking screenshot for (437x246) to layer 21040
+I/ActivityManager(  327): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 327
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab09d88 attribute=null, token = android.os.BinderProxy@4ab02a34
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(16888): GC_CONCURRENT freed 389K, 37% free 4027K/6384K, paused 0ms+2ms, total 9ms
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+I/SnapScrollController(16888): setSnapScrollingMode case-default no-op
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8414089, downTime=8414089, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F7, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8414091, downTime=8414091, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8414097, downTime=8414097, deviceId=-1, source=0x101 }
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16888): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8414100, downTime=8414100, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16888): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16888): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16888): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16888): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=217.0, y[0]=-9.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8414129, downTime=8414129, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16888): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=198.73413, y[0]=-1.2630615, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8414130, downTime=8414129, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  327): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa1e64c attribute=null, token = android.os.BinderProxy@4ab02a34
+W/EGL_emulation(16888): eglSurfaceAttrib not implemented 3093 12436
+I/AndroidRuntime(16878): VM exiting with result code 0.
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(16888): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)

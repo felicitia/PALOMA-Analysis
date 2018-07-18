@@ -1,0 +1,323 @@
+--------- beginning of /dev/log/main
+I/Icing   (  700): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+I/Icing   (  700): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/AndroidRuntime(26489): 
+D/AndroidRuntime(26489): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(26489): CheckJNI is OFF
+D/dalvikvm(26489): Using executionMode 2
+D/dalvikvm(26489): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(26489): Added shared lib libjavacore.so 0x0
+D/dalvikvm(26489): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(26489): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(26489): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(26489): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(26489): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(26489): failed to load memtrack module: -2
+D/AndroidRuntime(26489): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  470): Skipping deliver [background] BroadcastRecord{4b0201dc u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4afa4378 26489 (unknown name)/0/u-1 remote:4af21c00}: process crashing
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=720.0 v=4500.0)
+I/ActivityManager(  470): Start proc com.dlink.mydlink for activity com.dlink.mydlink/.lite20.LaunchActivity: pid=26499 uid=10082 gids={50082, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10082, 1) failed with errno -13
+I/dalvikvm(26499): ignoring registerObject request in thread=1
+I/dalvikvm(26499): ignoring registerObject request in thread=1
+I/dalvikvm(26499): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.i.a
+W/dalvikvm(26499): VFY: unable to resolve virtual method 346: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(26499): VFY: replacing opcode 0x6e at 0x000a
+I/GMPM    (26499): App measurement is starting up, version: 8487
+I/GMPM    (26499): To enable debug logging run: adb shell setprop log.tag.GMPM VERBOSE
+E/GMPM    (26499): GoogleService failed to initialize, status: 10, Missing an expected resource: 'R.string.google_app_id' for initializing Google services.  Possible causes are missing google-services.json or com.google.gms.google-services gradle plugin.
+E/GMPM    (26499): Scheduler not set. Not logging error/warn.
+E/GMPM    (26499): Uploading is not possible. App measurement disabled
+D/dalvikvm(26499): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(26499): GC_CONCURRENT freed 225K, 10% free 2951K/3260K, paused 2ms+1ms, total 4ms
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=720.0 v=4500.0)
+V/PanelView(  528): animationTick called with dtms=-15; nothing to do (h=720.0 v=4500.0)
+D/dalvikvm(26499): GC_FOR_ALLOC freed 60K, 10% free 2935K/3260K, paused 2ms, total 2ms
+I/dalvikvm-heap(26499): Grow heap (frag case) to 11.727MB for 9216012-byte allocation
+D/dalvikvm(26499): GC_FOR_ALLOC freed <1K, 3% free 11935K/12264K, paused 3ms, total 3ms
+D/dalvikvm(26499): GC_CONCURRENT freed <1K, 3% free 11934K/12264K, paused 1ms+2ms, total 4ms
+V/FlingTracker(  528): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  528): java.lang.Throwable
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  528): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  528): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  528): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  528): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  528): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  528): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  528): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  528): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  528): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  528): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  528): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  528): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  528): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=720.0 v=0.0)
+D/Lite20  (26499): LaunchActivity::UpdateTask:http start
+W/dalvikvm(26499): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(26499): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(26499): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(26499): VFY: unable to resolve virtual method 23195: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(26499): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(26499): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(26499): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(26499): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(26499): VFY: unable to resolve interface method 23189: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(26499): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(26499): body:<com.dlink.mydlink.lite20.LaunchActivity$a: java.lang.Boolean a(java.lang.Void[])>	sig:specialinvoke $r21.<java.net.URI: void <init>(java.lang.String)>("https://d1vzklxl368c7b.cloudfront.net/350/cfg_devices.json")	timediff:0
+D/Lite20  (26499): LaunchActivity::UpdateTask:http get uri=https://d1vzklxl368c7b.cloudfront.net/350/cfg_devices.json
+D/Lite20  (26499): LaunchActivity::UpdateTask:download lite cfg start
+D/Lite20  (26499): LaunchActivity::UpdateTask:download lite cfg end
+D/dalvikvm(26499): GC_CONCURRENT freed 2167K, 16% free 12694K/14940K, paused 2ms+0ms, total 4ms
+D/dalvikvm(26499): GC_CONCURRENT freed 2523K, 17% free 13363K/15952K, paused 2ms+1ms, total 8ms
+I/tag     (26499): category=Camera device total count=58
+I/tag     (26499): category=Router device total count=128
+I/tag     (26499): category=NAS device total count=132
+I/tag     (26499): category=NVR device total count=136
+I/tag     (26499): category=OTHER device total count=140
+I/tag     (26499): 3RD AppList size=3
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=628.7529 v=-4500.0)
+V/PanelView(  528): animationTick called with dtms=-3; nothing to do (h=628.7529 v=-4500.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=628.7529 v=-3000.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.CHOOSER flg=0x10008001 cmp=android/com.android.internal.app.ChooserActivity bnds=[96,389][1280,461] (has clip) (has extras)} from pid -1
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=413.48193 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=413.48193 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=413.48193 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=-8; nothing to do (h=413.48193 v=-3000.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.CHOOSER flg=0x10008001 cmp=android/com.android.internal.app.ChooserActivity bnds=[96,389][1280,461] (has clip) (has extras)} from pid -1
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=content://media/external/images/media/2113 typ=image/png flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity bnds=[0,77][1280,461]} from pid -1
+I/ActivityManager(  470): START u0 {act=android.intent.action.CHOOSER flg=0x10008001 cmp=android/com.android.internal.app.ChooserActivity bnds=[96,389][1280,461] (has clip) (has extras)} from pid -1
+D/libEGL  (26499): loaded /system/lib/egl/libEGL_adreno.so
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=413.48193 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=-6; nothing to do (h=413.48193 v=-3000.0)
+W/View    (  528): requestLayout() improperly called by android.widget.TextView{4a7af310 V.ED.... ......ID 0,630-1280,666 #7f070006 app:id/carrier_label} during layout: running second layout pass
+D/        (26499): HostConnection::get() New Host Connection established 0xb8497fe0, tid 26499
+D/libEGL  (26499): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (26499): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation(26499): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(26499): Enabling debug mode 0
+W/EGL_emulation(26499): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(  626): GC_CONCURRENT freed 413K, 15% free 3035K/3556K, paused 0ms+1ms, total 3ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/EGL_emulation(  528): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  470): Displayed com.dlink.mydlink/.lite20.LaunchActivity: +1s128ms
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10007, 0) failed with errno -13
+W/InputEventReceiver(26499): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+I/ActivityManager(  470): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 26499
+W/PhoneFallbackEventHandler(26499): No activity found for android.intent.action.CALL_BUTTON.
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475103, downTime=1475103, deviceId=-1, source=0x101 }
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475106, downTime=1475106, deviceId=-1, source=0x101 }
+W/ViewRootImpl(26499): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1475110, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475111, downTime=1475111, deviceId=-1, source=0x101 }
+W/EGL_emulation(26499): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475148, downTime=1475148, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a982084 attribute=null, token = android.os.BinderProxy@4aa44150
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475172, downTime=1475172, deviceId=-1, source=0x101 }
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475181, downTime=1475181, deviceId=-1, source=0x101 }
+W/EGL_emulation(26499): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475184, downTime=1475184, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a961728 attribute=null, token = android.os.BinderProxy@4aa44150
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475205, downTime=1475205, deviceId=-1, source=0x101 }
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475208, downTime=1475208, deviceId=-1, source=0x101 }
+W/ViewRootImpl(26499): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=10, eventTime=1475211, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation(26499): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475249, downTime=1475249, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a91c08c attribute=null, token = android.os.BinderProxy@4aa44150
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475268, downTime=1475268, deviceId=-1, source=0x101 }
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_4, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475273, downTime=1475273, deviceId=-1, source=0x101 }
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475273, downTime=1475273, deviceId=-1, source=0x101 }
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475274, downTime=1475274, deviceId=-1, source=0x101 }
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475276, downTime=1475276, deviceId=-1, source=0x101 }
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475277, downTime=1475277, deviceId=-1, source=0x101 }
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_MULTIPLY, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475278, downTime=1475278, deviceId=-1, source=0x101 }
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475279, downTime=1475279, deviceId=-1, source=0x101 }
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475280, downTime=1475280, deviceId=-1, source=0x101 }
+W/EGL_emulation(26499): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 470
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8c388c attribute=null, token = android.os.BinderProxy@4aa44150
+W/ViewRootImpl(26499): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1475358, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation(26499): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(26499): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SETTINGS, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475358, downTime=1475358, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a7985b4 attribute=null, token = android.os.BinderProxy@4aa44150
+W/WindowManager(  470): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  470): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475433, downTime=1475433, deviceId=-1, source=0x101 }
+D/Tinker.DefaultAppLike(  656): onConfigurationChanged:{1.0 ?mcc?mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.61}
+I/ActivityManager(  470): Config changes=30 {1.0 ?mcc?mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.61}
+D/PhoneStatusBar(  528): mSettingsPanelGravity = 55
+W/InputEventReceiver(  470): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  470): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475503, downTime=1475503, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae89540 attribute=null, token = android.os.BinderProxy@4aa44150
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/WindowManager(  470): updateFocusedWindowLocked, focusedAppToken is null.
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ViewRootImpl(  528): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_RIGHT_PAREN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1475935, downTime=1475935, deviceId=-1, source=0x101 }
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper(26499): showStatusIcon on inactive InputConnection
+W/InputMethodManagerService(  470): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa4c9e0 (uid=10082 pid=26499)
+W/InputEventReceiver(  528): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  528): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  528): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=382.9209, y[0]=-45.85907, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1475973, downTime=1475972, deviceId=0, source=0x1002 }
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/WearableService(  637): Wearable Services stopping
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/InputDispatcher(  470): Dropped event because of pending overdue app switch.
+W/InputManager(  470): Input event injection from pid 26489 failed.
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+I/ActivityManager(  470): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 26499
+W/PhoneFallbackEventHandler(26499): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  470): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 26499
+W/PhoneFallbackEventHandler(26499): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+V/FlingTracker(  528): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  528): java.lang.Throwable
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  528): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  528): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  528): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  528): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  528): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  528): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  528): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  528): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  528): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  528): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  528): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  528): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  528): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 470
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 470
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 470
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+D/dalvikvm(  470): GC_CONCURRENT freed 10220K, 43% free 12842K/22172K, paused 2ms+4ms, total 29ms
+I/ActivityManager(  470): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 26499
+W/PhoneFallbackEventHandler(26499): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  470): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 26499
+W/PhoneFallbackEventHandler(26499): No activity found for android.intent.action.CALL_BUTTON.
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/FlingTracker(  528): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  528): java.lang.Throwable
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  528): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  528): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  528): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  528): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  528): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  528): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  528): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  528): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  528): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  528): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  528): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  528): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  528): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 26499
+W/PhoneFallbackEventHandler(26499): No activity found for android.intent.action.CALL_BUTTON.
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dlink.mydlink/.lite20.LaunchActivity} from pid 26489
+I/InputDispatcher(  470): Dropped event because of pending overdue app switch.
+W/InputManager(  470): Input event injection from pid 26489 failed.
+I/AndroidRuntime(26489): VM exiting with result code 0.

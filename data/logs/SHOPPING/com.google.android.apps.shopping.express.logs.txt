@@ -1,0 +1,1285 @@
+--------- beginning of /dev/log/main
+I/Icing   (  705): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+I/Icing   (  705): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/dalvikvm(  705): GC_CONCURRENT freed 2176K, 43% free 9275K/16044K, paused 2ms+2ms, total 15ms
+D/AndroidRuntime(12122): 
+D/AndroidRuntime(12122): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(12122): CheckJNI is OFF
+D/dalvikvm(12122): Using executionMode 2
+D/dalvikvm(12122): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(12122): Added shared lib libjavacore.so 0x0
+D/dalvikvm(12122): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(12122): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(12122): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(12122): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(12122): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(12122): failed to load memtrack module: -2
+D/AndroidRuntime(12122): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  469): Skipping deliver [background] BroadcastRecord{4af7fdd0 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4afad390 12122 (unknown name)/0/u-1 remote:4aa972f4}: process crashing
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+I/ActivityManager(  469): Start proc com.google.android.apps.shopping.express for activity com.google.android.apps.shopping.express/.activity.PreMainActivity: pid=12132 uid=10060 gids={50060, 3003}
+W/NetworkManagementSocketTagger(  469): setKernelCountSet(10060, 1) failed with errno -13
+I/dalvikvm(12132): ignoring registerObject request in thread=1
+I/dalvikvm(12132): ignoring registerObject request in thread=1
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 469
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+I/MultiDex(12132): VM with version 1.6.0 does not have multidex support
+I/MultiDex(12132): install
+I/MultiDex(12132): MultiDexExtractor.load(/data/app/com.google.android.apps.shopping.express-1.apk, false)
+I/MultiDex(12132): Detected that extraction must be performed.
+D/dalvikvm(12132): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(12132): GC_CONCURRENT freed 185K, 9% free 3097K/3384K, paused 0ms+0ms, total 5ms
+D/dalvikvm(12132): GC_CONCURRENT freed 127K, 7% free 3398K/3636K, paused 0ms+0ms, total 2ms
+I/MultiDex(12132): load found 0 secondary dex files
+I/MultiDex(12132): install done
+W/dalvikvm(12132): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(12132): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(12132): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(12132): VFY: unable to resolve virtual method 49284: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(12132): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(12132): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(12132): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(12132): VFY: unable to resolve interface method 49278: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(12132): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(12132): body:<com.google.android.apps.shopping.express.ShoppingExpressApplication: void onCreate()>	sig:specialinvoke $r5.<java.net.CookieManager: void <init>(java.net.CookieStore,java.net.CookiePolicy)>(null, $r6)	timediff:0
+I/System.out(12132): body:<com.google.android.apps.shopping.express.ShoppingExpressApplication: void onCreate()>	sig:staticinvoke <java.net.CookieHandler: void setDefault(java.net.CookieHandler)>($r5)	timediff:0
+I/GsxConfig(12132): Initializing config...
+I/dalvikvm(12132): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.GooglePlayServicesUtilLight.zzm
+W/dalvikvm(12132): VFY: unable to resolve virtual method 535: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x001a
+I/GsxConfig(12132): Updating config...
+I/GAv4    (12132): Google Analytics 9.4.52 is starting up. To enable debug logging on a device run:
+I/GAv4    (12132):   adb shell setprop log.tag.GAv4 DEBUG
+I/GAv4    (12132):   adb logcat -s GAv4
+W/GAv4    (12132): AnalyticsReceiver is not registered or is disabled. Register the receiver for reliable dispatching on non-Google Play devices. See http://goo.gl/8Rd3yj for instructions.
+W/GAv4    (12132): CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+D/dalvikvm(12132): GC_CONCURRENT freed 316K, 10% free 3575K/3964K, paused 2ms+1ms, total 6ms
+W/GAv4    (12132): AnalyticsService not registered in the app manifest. Hits might not be delivered reliably. See http://goo.gl/8Rd3yj for instructions.
+E/dalvikvm(12132): Could not find class 'android.media.session.MediaController', referenced from method android.support.v4.app.FragmentActivity.setSupportMediaController
+W/dalvikvm(12132): VFY: unable to resolve check-cast 212 (Landroid/media/session/MediaController;) in Landroid/support/v4/app/FragmentActivity;
+D/dalvikvm(12132): VFY: replacing opcode 0x1f at 0x000d
+D/dalvikvm(12132): GC_FOR_ALLOC freed 904K, 26% free 3015K/4024K, paused 2ms, total 3ms
+I/dalvikvm-heap(12132): Grow heap (frag case) to 3.218MB for 186636-byte allocation
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 25% free 3197K/4208K, paused 2ms, total 2ms
+D/dalvikvm(12132): GC_FOR_ALLOC freed 5K, 25% free 3194K/4208K, paused 2ms, total 2ms
+I/dalvikvm-heap(12132): Grow heap (frag case) to 3.265MB for 52284-byte allocation
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 24% free 3245K/4260K, paused 2ms, total 2ms
+I/InputDispatcher(  469): Dropped event because of pending overdue app switch.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+D/libEGL  (12132): loaded /system/lib/egl/libEGL_adreno.so
+D/        (12132): HostConnection::get() New Host Connection established 0xb7aacdf0, tid 12132
+D/libEGL  (12132): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (12132): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation(12132): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(12132): Enabling debug mode 0
+W/ViewRootImpl(12132): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=878391, downTime=878391, deviceId=-1, source=0x101 }
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN flg=0x10008000 cmp=com.google.android.apps.shopping.express/.activity.MainActivity} from pid 12132
+W/ActivityManager(  469): Duplicate finish request for ActivityRecord{4ac40364 u0 com.google.android.apps.shopping.express/.activity.PreMainActivity t58 f}
+W/InputMethodManagerService(  469): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9f5bb8 (uid=10060 pid=12132)
+W/dalvikvm(  620): VFY: unable to find class referenced in signature (Landroid/net/Network;)
+I/dalvikvm(12132): Could not find method android.view.Window$Callback.onProvideKeyboardShortcuts, referenced from method android.support.v7.view.WindowCallbackWrapper.onProvideKeyboardShortcuts
+W/dalvikvm(12132): VFY: unable to resolve interface method 13013: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V
+D/dalvikvm(12132): VFY: replacing opcode 0x72 at 0x0002
+W/dalvikvm(12132): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm(12132): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.WindowCallbackWrapper.onSearchRequested
+W/dalvikvm(12132): VFY: unable to resolve interface method 13015: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm(12132): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm(12132): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.WindowCallbackWrapper.onWindowStartingActionMode
+W/dalvikvm(12132): VFY: unable to resolve interface method 13019: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm(12132): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm(12132): Could not find method android.content.Context.getDrawable, referenced from method android.support.v4.content.ContextCompat.a
+W/dalvikvm(12132): VFY: unable to resolve virtual method 393: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(12132): Could not find method android.content.Context.getColorStateList, referenced from method android.support.v4.content.ContextCompat.b
+W/dalvikvm(12132): VFY: unable to resolve virtual method 389: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(12132): Could not find method android.content.Context.getColor, referenced from method android.support.v4.content.ContextCompat.c
+W/dalvikvm(12132): VFY: unable to resolve virtual method 388: Landroid/content/Context;.getColor (I)I
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x0006
+D/dalvikvm(12132): GC_FOR_ALLOC freed 109K, 22% free 3342K/4260K, paused 1ms, total 2ms
+I/dalvikvm-heap(12132): Grow heap (frag case) to 3.443MB for 87276-byte allocation
+D/dalvikvm(12132): GC_FOR_ALLOC freed 4K, 22% free 3423K/4348K, paused 2ms, total 2ms
+D/dalvikvm(  620): GC_CONCURRENT freed 1181K, 16% free 7163K/8512K, paused 0ms+2ms, total 9ms
+D/dalvikvm(12132): GC_FOR_ALLOC freed 4K, 22% free 3420K/4348K, paused 3ms, total 3ms
+I/dalvikvm-heap(12132): Grow heap (frag case) to 3.518MB for 87276-byte allocation
+I/qtaguid (  620): Tagging socket 115 with tag 3000040b00000000(805307403) for uid -1 failed errno=-13
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 21% free 3505K/4436K, paused 3ms, total 3ms
+I/NetworkManagementSocketTagger(  620): tagSocketFd(115, 805307403, -1) failed with errno-13
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 21% free 3505K/4436K, paused 3ms, total 3ms
+I/dalvikvm-heap(12132): Grow heap (frag case) to 3.602MB for 87276-byte allocation
+W/Conscrypt(  620): Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+W/Conscrypt(  620): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/Conscrypt(  620): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/Conscrypt(  620): Caused by: libcore.io.ErrnoException: setsockopt failed: EBADF (Bad file number)
+W/Conscrypt(  620): 	at libcore.io.Posix.setsockoptTimeval(Native Method)
+W/Conscrypt(  620): 	at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:126)
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 21% free 3591K/4524K, paused 3ms, total 3ms
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 21% free 3591K/4524K, paused 3ms, total 3ms
+I/dalvikvm-heap(12132): Grow heap (frag case) to 3.686MB for 87276-byte allocation
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 21% free 3676K/4612K, paused 2ms, total 2ms
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 21% free 3677K/4612K, paused 2ms, total 2ms
+I/dalvikvm-heap(12132): Grow heap (frag case) to 3.769MB for 87276-byte allocation
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 20% free 3762K/4700K, paused 2ms, total 2ms
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 20% free 3763K/4700K, paused 2ms, total 2ms
+I/dalvikvm-heap(12132): Grow heap (frag case) to 3.853MB for 87276-byte allocation
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 20% free 3848K/4788K, paused 1ms, total 1ms
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 20% free 3848K/4788K, paused 2ms, total 2ms
+I/dalvikvm-heap(12132): Grow heap (frag case) to 3.937MB for 87276-byte allocation
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 20% free 3934K/4876K, paused 3ms, total 3ms
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 20% free 3934K/4876K, paused 3ms, total 3ms
+I/dalvikvm-heap(12132): Grow heap (frag case) to 4.021MB for 87276-byte allocation
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 20% free 4019K/4964K, paused 2ms, total 2ms
+I/dalvikvm(12132): Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawable
+W/dalvikvm(12132): VFY: unable to resolve virtual method 579: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm(12132): Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawableForDensity
+W/dalvikvm(12132): VFY: unable to resolve virtual method 581: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x0002
+I/AppCompatViewInflater(12132): app:theme is now deprecated. Please move to using android:theme instead.
+I/dalvikvm(12132): Could not find method android.view.View.setNestedScrollingEnabled, referenced from method com.google.android.apps.shopping.express.widgets.GsxAccountSwitcherView.a
+W/dalvikvm(12132): VFY: unable to resolve virtual method 12780: Landroid/view/View;.setNestedScrollingEnabled (Z)V
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x002a
+I/dalvikvm(12132): Could not find method android.view.View.setOnApplyWindowInsetsListener, referenced from method com.google.android.apps.shopping.express.widgets.GsxAccountSwitcherView.onDetachedFromWindow
+W/dalvikvm(12132): VFY: unable to resolve virtual method 12781: Landroid/view/View;.setOnApplyWindowInsetsListener (Landroid/view/View$OnApplyWindowInsetsListener;)V
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x000a
+I/dalvikvm(12132): Could not find method android.content.Context.getColorStateList, referenced from method android.support.v7.content.res.AppCompatResources.a
+W/dalvikvm(12132): VFY: unable to resolve virtual method 389: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(12132): Could not find method android.view.View.setOnApplyWindowInsetsListener, referenced from method com.google.android.gms.people.accountswitcherview.AccountSwitcherView.onDetachedFromWindow
+W/dalvikvm(12132): VFY: unable to resolve virtual method 12781: Landroid/view/View;.setOnApplyWindowInsetsListener (Landroid/view/View$OnApplyWindowInsetsListener;)V
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x000a
+D/dalvikvm(12132): GC_FOR_ALLOC freed 141K, 17% free 4135K/4964K, paused 8ms, total 8ms
+I/dalvikvm-heap(12132): Grow heap (frag case) to 4.187MB for 56388-byte allocation
+W/Conscrypt(  620): Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+W/Conscrypt(  620): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/Conscrypt(  620): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/Conscrypt(  620): Caused by: libcore.io.ErrnoException: setsockopt failed: EBADF (Bad file number)
+W/Conscrypt(  620): 	at libcore.io.Posix.setsockoptTimeval(Native Method)
+W/Conscrypt(  620): 	at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:126)
+I/qtaguid (  620): Tagging socket 119 with tag 3000040b00000000(805307403) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  620): tagSocketFd(119, 805307403, -1) failed with errno-13
+I/qtaguid (  620): Untagging socket 119 failed errno=-13
+W/NetworkManagementSocketTagger(  620): untagSocket(119) failed with errno -13
+I/qtaguid (  620): Tagging socket 119 with tag 3000040b00000000(805307403) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  620): tagSocketFd(119, 805307403, -1) failed with errno-13
+I/qtaguid (  620): Untagging socket 119 failed errno=-13
+W/NetworkManagementSocketTagger(  620): untagSocket(119) failed with errno -13
+I/qtaguid (  620): Tagging socket 119 with tag 3000040b00000000(805307403) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  620): tagSocketFd(119, 805307403, -1) failed with errno-13
+I/qtaguid (  620): Untagging socket 119 failed errno=-13
+W/NetworkManagementSocketTagger(  620): untagSocket(119) failed with errno -13
+I/qtaguid (  620): Tagging socket 119 with tag 3000040b00000000(805307403) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  620): tagSocketFd(119, 805307403, -1) failed with errno-13
+I/qtaguid (  620): Untagging socket 119 failed errno=-13
+W/NetworkManagementSocketTagger(  620): untagSocket(119) failed with errno -13
+I/qtaguid (  620): Tagging socket 119 with tag 3000040b00000000(805307403) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  620): tagSocketFd(119, 805307403, -1) failed with errno-13
+I/qtaguid (  620): Untagging socket 119 failed errno=-13
+W/NetworkManagementSocketTagger(  620): untagSocket(119) failed with errno -13
+I/qtaguid (  620): Tagging socket 119 with tag 3000040b00000000(805307403) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  620): tagSocketFd(119, 805307403, -1) failed with errno-13
+I/qtaguid (  620): Untagging socket 119 failed errno=-13
+W/NetworkManagementSocketTagger(  620): untagSocket(119) failed with errno -13
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 17% free 4190K/5020K, paused 7ms, total 7ms
+D/dalvikvm(12132): GC_FOR_ALLOC freed 3K, 17% free 4187K/5020K, paused 3ms, total 3ms
+I/dalvikvm-heap(12132): Grow heap (frag case) to 4.791MB for 635808-byte allocation
+D/dalvikvm(12132): GC_CONCURRENT freed <1K, 15% free 4808K/5644K, paused 0ms+0ms, total 2ms
+I/qtaguid (  620): Untagging socket 115 failed errno=-13
+W/NetworkManagementSocketTagger(  620): untagSocket(115) failed with errno -13
+I/GoogleAnalyticsUtilsImpl(12132): INSTALL_REFERRER: 
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cmp=com.google.android.apps.shopping.express/.activity.WelcomeActivity} from pid 12132
+I/GsxConfig(12132): Initialized values: 0
+D/Primes  (12132): Package metric disabled.
+D/Primes  (12132): Battery metric disabled [experiment_enabled: false]
+D/dalvikvm(12132): GC_CONCURRENT freed 333K, 11% free 5023K/5644K, paused 2ms+1ms, total 6ms
+I/dalvikvm(12132): Could not find method android.os.PowerManager.isInteractive, referenced from method com.google.android.libraries.performance.primes.metriccapture.ProcessStats.c
+W/dalvikvm(12132): VFY: unable to resolve virtual method 1298: Landroid/os/PowerManager;.isInteractive ()Z
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x0010
+I/dalvikvm(12132): Could not find method android.os.Debug$MemoryInfo.getMemoryStats, referenced from method com.google.android.libraries.performance.primes.metriccapture.MemoryUsageCapture.a
+W/dalvikvm(12132): VFY: unable to resolve virtual method 1165: Landroid/os/Debug$MemoryInfo;.getMemoryStats ()Ljava/util/Map;
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x008a
+E/dalvikvm(12132): Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method android.support.v7.widget.AppCompatImageHelper.a
+W/dalvikvm(12132): VFY: unable to resolve instanceof 190 (Landroid/graphics/drawable/RippleDrawable;) in Landroid/support/v7/widget/AppCompatImageHelper;
+D/dalvikvm(12132): VFY: replacing opcode 0x20 at 0x000c
+I/dalvikvm(12132): Could not find method android.view.View.getTransitionName, referenced from method android.support.v4.app.BackStackRecord.a
+W/dalvikvm(12132): VFY: unable to resolve virtual method 12670: Landroid/view/View;.getTransitionName ()Ljava/lang/String;
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x0026
+I/dalvikvm(12132): Could not find method android.view.View.getTransitionName, referenced from method android.support.v4.app.BackStackRecord.b
+W/dalvikvm(12132): VFY: unable to resolve virtual method 12670: Landroid/view/View;.getTransitionName ()Ljava/lang/String;
+D/dalvikvm(12132): VFY: replacing opcode 0x6e at 0x0017
+D/dalvikvm(12132): GC_FOR_ALLOC freed 190K, 10% free 5103K/5644K, paused 2ms, total 2ms
+I/dalvikvm-heap(12132): Grow heap (frag case) to 6.068MB for 1036812-byte allocation
+D/dalvikvm(12132): GC_FOR_ALLOC freed 1K, 9% free 6114K/6660K, paused 4ms, total 4ms
+D/dalvikvm(12132): GC_CONCURRENT freed 0K, 9% free 6114K/6660K, paused 2ms+0ms, total 4ms
+D/dalvikvm(12132): GC_FOR_ALLOC freed 10K, 9% free 6115K/6660K, paused 3ms, total 3ms
+I/dalvikvm-heap(12132): Grow heap (frag case) to 7.056MB for 1036812-byte allocation
+D/dalvikvm(12132): GC_FOR_ALLOC freed <1K, 8% free 7127K/7676K, paused 3ms, total 3ms
+D/dalvikvm(12132): GC_CONCURRENT freed <1K, 8% free 7127K/7676K, paused 1ms+0ms, total 3ms
+W/EGL_emulation(12132): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(12132): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=878478, downTime=878478, deviceId=-1, source=0x101 }
+W/ContextImpl(  469): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  469): Displayed com.google.android.apps.shopping.express/.activity.WelcomeActivity: +196ms (total +1s860ms)
+D/AndroidRuntime(12132): Shutting down VM
+W/dalvikvm(12132): threadid=1: thread exiting with uncaught exception (group=0x94cbcb20)
+W/dalvikvm(  705): threadid=67: thread exiting with uncaught exception (group=0x94cbcb20)
+I/GCore-Chimera-Crash(  705): ChcKCWNvbnRhaW5lchDUy0oYQCD817bDLRpuCh1jb20uZ29vZ2
+I/GCore-Chimera-Crash(  705): xlLmFuZHJvaWQucGxheS5nYW1lcxIjNS41LjgxICgxODc0MTA1
+I/GCore-Chimera-Crash(  705): MDMuMTg3NDEwNTAzLTAwMDcwMCkYlrDOGiIjChxjb20uZ29vZ2
+I/GCore-Chimera-Crash(  705): xlLmFuZHJvaWQuZ21zLmdhbWVzELe3zho=
+I/GCore-Chimera-Crash(  705): GCore-Chimera-Crash
+I/DeviceDrDatabaseHelper(  705): Cleaning stale data from database!
+I/Process (  469): Sending signal. PID: 12132 SIG: 9
+E/AndroidRuntime(12132): FATAL EXCEPTION: main
+E/AndroidRuntime(12132): Process: com.google.android.apps.shopping.express, PID: 12132
+E/AndroidRuntime(12132): java.lang.SecurityException: GoogleCertificatesRslt: not whitelisted: pkg=com.google.android.apps.shopping.express, sha1=09ad9609e4dc4fbfd29aed05941f7191822b42ae, atk=false, ver=12221070.true
+E/AndroidRuntime(12132): 	at android.os.Parcel.readException(Parcel.java:1465)
+E/AndroidRuntime(12132): 	at android.os.Parcel.readException(Parcel.java:1419)
+E/AndroidRuntime(12132): 	at com.google.android.gms.common.internal.zzu$zza$zza.zza(dalvik_source_com.google.android.apps.shopping.express.apk)
+E/AndroidRuntime(12132): 	at com.google.android.gms.common.internal.zzd.zza(dalvik_source_com.google.android.apps.shopping.express.apk)
+E/AndroidRuntime(12132): 	at com.google.android.gms.internal.zzqu$zzc.a(dalvik_source_com.google.android.apps.shopping.express.apk)
+E/AndroidRuntime(12132): 	at com.google.android.gms.internal.zzqu$zzf.run(dalvik_source_com.google.android.apps.shopping.express.apk)
+E/AndroidRuntime(12132): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+E/AndroidRuntime(12132): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+E/AndroidRuntime(12132): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+E/AndroidRuntime(12132): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+E/AndroidRuntime(12132): 	at com.google.android.gms.internal.zzta.run(dalvik_source_com.google.android.apps.shopping.express.apk)
+E/AndroidRuntime(12132): 	at java.lang.Thread.run(Thread.java:841)
+W/ActivityManager(  469): Force-killing crashed app com.google.android.apps.shopping.express at watcher's request
+W/ContextImpl(  469): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  469): Process com.google.android.apps.shopping.express (pid 12132) has died.
+I/WindowState(  469): WIN DEATH: Window{4add7724 u0 com.google.android.apps.shopping.express/com.google.android.apps.shopping.express.activity.WelcomeActivity}
+W/NetworkManagementSocketTagger(  469): setKernelCountSet(10060, 0) failed with errno -13
+W/InputDispatcher(  469): channel '4ac36038 com.google.android.apps.shopping.express/com.google.android.apps.shopping.express.activity.PreMainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  469): channel '4ac36038 com.google.android.apps.shopping.express/com.google.android.apps.shopping.express.activity.PreMainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/InputDispatcher(  469): Attempted to unregister already unregistered input channel '4ac36038 com.google.android.apps.shopping.express/com.google.android.apps.shopping.express.activity.PreMainActivity (server)'
+I/InputDispatcher(  469): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  469): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  469): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  469): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  469): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  469): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  469): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  469): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  469): Dropping event because there is no focused window or focused application.
+I/DeviceDrDatabaseHelper(  705): Creating databases!
+W/ActivityManager(  469): Force removing ActivityRecord{4afc8d68 u0 com.google.android.apps.shopping.express/.activity.WelcomeActivity t58}: app died, no saved state
+I/WindowState(  469): WIN DEATH: Window{4ac36038 u0 com.google.android.apps.shopping.express/com.google.android.apps.shopping.express.activity.PreMainActivity}
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+I/InputDispatcher(  469): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  469): Dropping event because there is no focused window or focused application.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/DeviceDoctorHandler(  705): Crash Hash: fac8e98fc13c967492ee16c66b3ec6a6b27bff30
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/EGL_emulation( 3724): eglSurfaceAttrib not implemented 3093 12436
+W/Binder  (  608): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  608): java.lang.NullPointerException
+W/Binder  (  608): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  608): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  608): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  608): 	at dalvik.system.NativeStart.run(Native Method)
+W/ViewRootImpl( 3724): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=879491, downTime=879491, deviceId=-1, source=0x101 }
+W/ContextImpl(  469): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  469): Got RemoteException sending setActive(false) notification to pid 12132 uid 10060
+W/DeviceDoctorHandler(  705): Shushing due to low average crash frequency.
+E/DeviceDoctorHandler(  705): FATAL EXCEPTION: highpool[16]
+E/DeviceDoctorHandler(  705): Process: com.google.android.gms, PID: 705
+E/DeviceDoctorHandler(  705): java.lang.SecurityException: GoogleCertificatesRslt: not whitelisted: pkg=com.google.android.apps.shopping.express, sha1=09ad9609e4dc4fbfd29aed05941f7191822b42ae, atk=false, ver=12221070.true
+E/DeviceDoctorHandler(  705): 	at jjr.b(com.google.android.gms@12221070@12.2.21 (070-188803320):2)
+E/DeviceDoctorHandler(  705): 	at jjx.a(com.google.android.gms@12221070@12.2.21 (070-188803320):24)
+E/DeviceDoctorHandler(  705): 	at aixm.a(com.google.android.gms@12221070@12.2.21 (070-188803320):1)
+E/DeviceDoctorHandler(  705): 	at kkx.run(com.google.android.gms@12221070@12.2.21 (070-188803320):24)
+E/DeviceDoctorHandler(  705): 	at kot.run(com.google.android.gms@12221070@12.2.21 (070-188803320):26)
+E/DeviceDoctorHandler(  705): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+E/DeviceDoctorHandler(  705): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+E/DeviceDoctorHandler(  705): 	at kus.run(com.google.android.gms@12221070@12.2.21 (070-188803320))
+E/DeviceDoctorHandler(  705): 	at java.lang.Thread.run(Thread.java:841)
+E/DeviceDoctorHandler(  705): 
+I/Process (  705): Sending signal. PID: 705 SIG: 9
+W/WindowManager(  469): Rebuild removed 4 windows but added 3
+W/WindowManager(  469): java.lang.RuntimeException: here
+W/WindowManager(  469): 	at com.android.server.wm.WindowManagerService.rebuildAppWindowListLocked(WindowManagerService.java:8184)
+W/WindowManager(  469): 	at com.android.server.wm.WindowManagerService.rebuildAppWindowListLocked(WindowManagerService.java:8120)
+W/WindowManager(  469): 	at com.android.server.wm.WindowManagerService.handleAppTransitionReadyLocked(WindowManagerService.java:8603)
+W/WindowManager(  469): 	at com.android.server.wm.WindowManagerService.performLayoutAndPlaceSurfacesLockedInner(WindowManagerService.java:9366)
+W/WindowManager(  469): 	at com.android.server.wm.WindowManagerService.performLayoutAndPlaceSurfacesLockedLoop(WindowManagerService.java:8336)
+W/WindowManager(  469): 	at com.android.server.wm.WindowManagerService.performLayoutAndPlaceSurfacesLocked(WindowManagerService.java:8278)
+W/WindowManager(  469): 	at com.android.server.wm.WindowManagerService.access$400(WindowManagerService.java:165)
+W/WindowManager(  469): 	at com.android.server.wm.WindowManagerService$H.handleMessage(WindowManagerService.java:7312)
+W/WindowManager(  469): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/WindowManager(  469): 	at android.os.Looper.loop(Looper.java:136)
+W/WindowManager(  469): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/WindowManager(  469): This window was lost: Window{4aca360c u0 Starting com.google.android.apps.shopping.express EXITING}
+W/WindowManager(  469): mDisplayId=0 mSession=Session{4a926bbc 469:1000} mClient=android.view.ViewRootImpl$W@4af91d70
+W/WindowManager(  469): mOwnerUid=1000 mShowToOwnerOnly=false package=com.google.android.apps.shopping.express appop=NONE
+W/WindowManager(  469): mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=3 fl=#1830118 pfl=0x19 wanim=0x10302a1}
+W/WindowManager(  469): Requested w=720 h=1280 mLayoutSeq=6110
+W/WindowManager(  469): mBaseLayer=21000 mSubLayer=0 mAnimLayer=21020+0=21020 mLastLayer=21020
+W/WindowManager(  469): mToken=AppWindowToken{4afc8fb8 token=Token{4afc8e18 ActivityRecord{4afc8d68 u0 com.google.android.apps.shopping.express/.activity.WelcomeActivity t58}}}
+W/WindowManager(  469): mRootToken=AppWindowToken{4afc8fb8 token=Token{4afc8e18 ActivityRecord{4afc8d68 u0 com.google.android.apps.shopping.express/.activity.WelcomeActivity t58}}}
+W/WindowManager(  469): mAppToken=AppWindowToken{4afc8fb8 token=Token{4afc8e18 ActivityRecord{4afc8d68 u0 com.google.android.apps.shopping.express/.activity.WelcomeActivity t58}}}
+W/WindowManager(  469): mViewVisibility=0x0 mHaveFrame=true mObscured=false
+W/WindowManager(  469): mSeq=0 mSystemUiVisibility=0x0
+W/WindowManager(  469): mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+W/WindowManager(  469): mConfiguration={1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.30}
+W/WindowManager(  469): mHasSurface=true mShownFrame=[0.0,0.0][720.0,1280.0] isReadyForDisplay()=true
+W/WindowManager(  469): mFrame=[0,0][720,1280] last=[0,0][720,1280]
+W/WindowManager(  469): mSystemDecorRect=[0,38][720,1280] last=[0,38][720,1280]
+W/WindowManager(  469): Frames: containing=[0,0][720,1280] parent=[0,0][720,1280]
+W/WindowManager(  469):     display=[0,0][720,1280] overscan=[0,0][720,1280]
+W/WindowManager(  469):     content=[0,38][720,1280] visible=[0,38][720,1280]
+W/WindowManager(  469):     decor=[0,38][720,1280]
+W/WindowManager(  469): Cur insets: overscan=[0,0][0,0] content=[0,38][0,0] visible=[0,38][0,0]
+W/WindowManager(  469): Lst insets: overscan=[0,0][0,0] content=[0,38][0,0] visible=[0,38][0,0]
+W/WindowManager(  469): WindowStateAnimator{4aee68b8 Starting com.google.android.apps.shopping.express}:
+W/WindowManager(  469):   mAnimating=true mLocalAnimating=true mAnimationIsEntrance=false mAnimation=android.view.animation.AnimationSet@4aaa0cf4
+W/WindowManager(  469):   XForm: has=true hasLocal=true {alpha=0.64000005 matrix=[1.0, 0.0, 0.0][0.0, 1.0, 0.0][0.0, 0.0, 1.0]}
+W/WindowManager(  469):   mSurface=Surface(name=Starting com.google.android.apps.shopping.express)
+W/WindowManager(  469):   mDrawState=HAS_DRAWN mLastHidden=false
+W/WindowManager(  469):   Surface: shown=true layer=21020 alpha=0.64000005 rect=(0.0,0.0) 720.0 x 1280.0
+W/WindowManager(  469):   mShownAlpha=0.64000005 mAlpha=1.0 mLastAlpha=0.64000005
+W/WindowManager(  469):   mGlobalScale=1.0 mDsDx=1.0 mDtDx=0.0 mDsDy=0.0 mDtDy=1.0
+W/WindowManager(  469): mExiting=true mRemoveOnExit=true mDestroying=false mRemoved=false
+W/WindowManager(  469): Current app token list:
+V/WindowManager(  469):   Display 0
+V/WindowManager(  469):   #3: Token{4a8cf3a8 ActivityRecord{4a92007c u0 com.vphone.launcher/.Launcher t1}}
+V/WindowManager(  469):   #2: Token{4a9a30d8 ActivityRecord{4acaec1c u0 com.google.android.gsf.login/.AccountIntroUIActivity t17}}
+V/WindowManager(  469):   #1: Token{4aa58ac4 ActivityRecord{4a9c6e2c u0 com.google.android.gsf.login/.AccountIntroActivity t17}}
+V/WindowManager(  469):   #0: Token{4aaa3b44 ActivityRecord{4a9b6904 u0 com.android.vending/com.google.android.finsky.activities.MainActivity t17}}
+W/WindowManager(  469): Final window list:
+V/WindowManager(  469):   #0: Window{4a925108 u0 StatusBar}
+V/WindowManager(  469):   #1: Window{4a9389fc u0 KeyguardScrim}
+V/WindowManager(  469):   #2: Window{4ae90664 u0 InputMethod}
+V/WindowManager(  469):   #3: Window{4aa154cc u0 com.vphone.launcher/com.vphone.launcher.Launcher}
+V/WindowManager(  469):   #4: Window{4aa1c61c u0 com.google.android.gsf.login/com.google.android.gsf.login.AccountIntroUIActivity}
+V/WindowManager(  469):   #5: Window{4ac9c5ac u0 com.android.vending/com.google.android.finsky.activities.MainActivity}
+V/WindowManager(  469):   #6: Window{4a921eac u0 com.android.systemui.ImageWallpaper}
+I/ActivityManager(  469): Process com.google.android.gms (pid 705) has died.
+E/FastMixer(  169): did not receive expected priority boost
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+I/ActivityManager(  469): Start proc com.google.android.apps.shopping.express for activity com.google.android.apps.shopping.express/.activity.PreMainActivity: pid=12183 uid=10060 gids={50060, 3003}
+W/ViewRootImpl( 3724): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=879591, downTime=879591, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3724): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=879591, downTime=879591, deviceId=-1, source=0x101 }
+W/NetworkManagementSocketTagger(  469): setKernelCountSet(10060, 1) failed with errno -13
+I/dalvikvm(12183): ignoring registerObject request in thread=1
+I/dalvikvm(12183): ignoring registerObject request in thread=1
+W/ViewRootImpl( 3724): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=879591, downTime=879591, deviceId=-1, source=0x101 }
+I/MultiDex(12183): VM with version 1.6.0 does not have multidex support
+I/MultiDex(12183): install
+I/MultiDex(12183): MultiDexExtractor.load(/data/app/com.google.android.apps.shopping.express-1.apk, false)
+I/MultiDex(12183): loading existing secondary dex files
+I/MultiDex(12183): load found 0 secondary dex files
+I/MultiDex(12183): install done
+W/dalvikvm(12183): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(12183): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(12183): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(12183): VFY: unable to resolve virtual method 49284: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(12183): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(12183): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(12183): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(12183): VFY: unable to resolve interface method 49278: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(12183): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(12183): body:<com.google.android.apps.shopping.express.ShoppingExpressApplication: void onCreate()>	sig:specialinvoke $r5.<java.net.CookieManager: void <init>(java.net.CookieStore,java.net.CookiePolicy)>(null, $r6)	timediff:0
+I/System.out(12183): body:<com.google.android.apps.shopping.express.ShoppingExpressApplication: void onCreate()>	sig:staticinvoke <java.net.CookieHandler: void setDefault(java.net.CookieHandler)>($r5)	timediff:0
+I/GsxConfig(12183): Initializing config...
+I/dalvikvm(12183): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.GooglePlayServicesUtilLight.zzm
+W/dalvikvm(12183): VFY: unable to resolve virtual method 535: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x001a
+I/GsxConfig(12183): Updating config...
+I/GAv4    (12183): Google Analytics 9.4.52 is starting up. To enable debug logging on a device run:
+I/GAv4    (12183):   adb shell setprop log.tag.GAv4 DEBUG
+I/GAv4    (12183):   adb logcat -s GAv4
+D/dalvikvm(12183): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(12183): GC_CONCURRENT freed 332K, 14% free 2896K/3336K, paused 1ms+1ms, total 3ms
+W/GAv4    (12183): AnalyticsReceiver is not registered or is disabled. Register the receiver for reliable dispatching on non-Google Play devices. See http://goo.gl/8Rd3yj for instructions.
+W/GAv4    (12183): CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+W/GAv4    (12183): AnalyticsService not registered in the app manifest. Hits might not be delivered reliably. See http://goo.gl/8Rd3yj for instructions.
+D/dalvikvm(12183): GC_CONCURRENT freed 284K, 12% free 3011K/3396K, paused 1ms+0ms, total 3ms
+E/dalvikvm(12183): Could not find class 'android.media.session.MediaController', referenced from method android.support.v4.app.FragmentActivity.setSupportMediaController
+W/dalvikvm(12183): VFY: unable to resolve check-cast 212 (Landroid/media/session/MediaController;) in Landroid/support/v4/app/FragmentActivity;
+D/dalvikvm(12183): VFY: replacing opcode 0x1f at 0x000d
+D/dalvikvm(12183): GC_FOR_ALLOC freed 124K, 11% free 3202K/3580K, paused 3ms, total 4ms
+I/dalvikvm(12202): ignoring registerObject request in thread=1
+I/dalvikvm(12202): ignoring registerObject request in thread=1
+I/ActivityManager(  469): Start proc com.google.android.gms for service com.google.android.gms/.analytics.service.AnalyticsService: pid=12202 uid=10007 gids={50007, 3003, 1007, 1028, 1015, 1023, 3002, 3001, 3007, 2001, 3006}
+W/dalvikvm(12202): VFY: unable to resolve static field 1177 (PR_SET_DUMPABLE) in Landroid/system/OsConstants;
+D/dalvikvm(12202): VFY: replacing opcode 0x60 at 0x000e
+I/dalvikvm(12202): Could not find method android.content.Context.getSystemService, referenced from method sp.a
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2387: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x0008
+I/dalvikvm(12202): Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method jvu.a
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2362: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x0029
+I/dalvikvm(12202): Could not find method android.content.Context.getSystemService, referenced from method jvu.b
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2387: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x000b
+W/dalvikvm(12202): VFY: unable to find class referenced in signature (Lamgd;)
+W/dalvikvm(12202): VFY: unable to find class referenced in signature (Lamgd;)
+I/dalvikvm(12202): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method amfs.a
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x0009
+I/dalvikvm(12202): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method amfs.b
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x005d
+W/dalvikvm(12202): VFY: unable to find class referenced in signature (Laanf;)
+W/dalvikvm(12202): VFY: unable to find class referenced in signature (Laanf;)
+I/dalvikvm(12202): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method aamt.a
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x000c
+I/dalvikvm(12202): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method aamt.c
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x003d
+I/dalvikvm(12202): Could not find method android.os.PowerManager.isInteractive, referenced from method jsu.a
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2975: Landroid/os/PowerManager;.isInteractive ()Z
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x0012
+I/dalvikvm(12202): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createCredentialProtectedStorageContext
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2411: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(12202): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(12202): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createDeviceProtectedStorageContext
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2412: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(12202): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(12202): Could not find method android.content.Context.isCredentialProtectedStorage, referenced from method cub.a
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2391: Landroid/content/Context;.isCredentialProtectedStorage ()Z
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(12202): Could not find method android.os.UserManager.isUserUnlocked, referenced from method cub.a
+W/dalvikvm(12202): VFY: unable to resolve virtual method 3028: Landroid/os/UserManager;.isUserUnlocked ()Z
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x001a
+I/dalvikvm(12202): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cub.b
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(12202): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cub.c
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x0000
+I/MultiDex(12202): VM with version 1.6.0 does not have multidex support
+I/MultiDex(12202): install
+I/MultiDex(12202): MultiDexExtractor.load(/system/priv-app/GmsCore.apk, false)
+I/MultiDex(12202): Blocking on lock /data/data/com.google.android.gms/code_cache/secondary-dexes/MultiDex.lock
+I/MultiDex(12202): /data/data/com.google.android.gms/code_cache/secondary-dexes/MultiDex.lock locked
+I/MultiDex(12202): loading existing secondary dex files
+I/MultiDex(12202): load found 4 secondary dex files
+I/MultiDex(12202): install done
+D/dalvikvm(12202): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(12202): GC_CONCURRENT freed 289K, 12% free 2907K/3296K, paused 1ms+1ms, total 6ms
+D/dalvikvm(  469): GC_EXPLICIT freed 4960K, 46% free 15037K/27820K, paused 0ms+1ms, total 15ms
+I/dalvikvm(12202): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method kqa.d
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(12202): Could not find method android.os.UserHandle.isOwner, referenced from method kqa.i
+W/dalvikvm(12202): VFY: unable to resolve virtual method 3021: Landroid/os/UserHandle;.isOwner ()Z
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x000a
+I/dalvikvm(12202): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method kwe.a
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2511: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x002d
+I/dalvikvm(12202): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method khq.createCredentialProtectedStorageContext
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2411: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(12202): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(12202): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method khq.createDeviceProtectedStorageContext
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2412: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(12202): VFY: replacing opcode 0x6f at 0x0002
+D/dalvikvm(12202): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm(12202): VFY: unable to resolve static field 1158 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm(12202): VFY: replacing opcode 0x62 at 0x0008
+D/dalvikvm(12202): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm(12202): VFY: unable to resolve static field 1158 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm(12202): VFY: replacing opcode 0x62 at 0x0097
+D/dalvikvm(12202): DexOpt: couldn't find field Landroid/content/pm/ApplicationInfo;.splitSourceDirs
+W/dalvikvm(12202): VFY: unable to resolve instance field 1089
+D/dalvikvm(12202): VFY: replacing opcode 0x54 at 0x0053
+D/dalvikvm(12202): DexOpt: couldn't find field Landroid/content/pm/ApplicationInfo;.splitSourceDirs
+I/dalvikvm(12202): DexOpt: unable to optimize instance field ref 0x0441 at 0x57 in Lksq;.d
+I/dalvikvm(12202): Could not find method android.system.Os.stat, referenced from method kro.a
+W/dalvikvm(12202): VFY: unable to resolve static method 3048: Landroid/system/Os;.stat (Ljava/lang/String;)Landroid/system/StructStat;
+D/dalvikvm(12202): VFY: replacing opcode 0x71 at 0x0041
+I/dalvikvm(12202): DexOpt: unable to optimize instance field ref 0x04a2 at 0x45 in Lkro;.a
+I/dalvikvm(12202): DexOpt: unable to optimize instance field ref 0x04a1 at 0x51 in Lkro;.a
+I/dalvikvm(12202): DexOpt: unable to optimize static field ref 0x049e at 0x53 in Lkro;.a
+I/dalvikvm(12202): DexOpt: unable to optimize static field ref 0x049f at 0x58 in Lkro;.a
+I/dalvikvm(12202): DexOpt: unable to optimize static field ref 0x04a0 at 0x5d in Lkro;.a
+I/dalvikvm(12202): Could not find method android.app.AppOpsManager.permissionToOp, referenced from method qo.a
+W/dalvikvm(12202): VFY: unable to resolve static method 2144: Landroid/app/AppOpsManager;.permissionToOp (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm(12202): VFY: replacing opcode 0x71 at 0x000f
+I/dalvikvm(12202): Could not find method android.content.Context.getSystemService, referenced from method qo.a
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2387: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x0030
+D/dalvikvm(12202): Trying to load lib /data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so 0x94f9b088
+D/dalvikvm(12202): Added shared lib /data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so 0x94f9b088
+D/dalvikvm(12202): No JNI_OnLoad found in /data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so 0x94f9b088, skipping init
+D/dalvikvm(12202): Trying to load lib /data/data/com.google.android.gms/app_extracted_libs/x86/libconscrypt_gmscore_jni.so 0x94f9b088
+D/dalvikvm(12202): Added shared lib /data/data/com.google.android.gms/app_extracted_libs/x86/libconscrypt_gmscore_jni.so 0x94f9b088
+V/NativeCrypto(12202): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 279 native methods...
+D/dalvikvm(12202): Trying to load lib /data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so 0x94f9b088
+D/dalvikvm(12202): Shared lib '/data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so' already loaded in same CL 0x94f9b088
+D/dalvikvm(12202): Trying to load lib /data/data/com.google.android.gms/app_extracted_libs/x86/libconscrypt_gmscore_jni.so 0x94f9b088
+D/dalvikvm(12202): Shared lib '/data/data/com.google.android.gms/app_extracted_libs/x86/libconscrypt_gmscore_jni.so' already loaded in same CL 0x94f9b088
+E/dalvikvm(12202): Could not find class 'javax.net.ssl.SNIServerName', referenced from method com.google.android.gms.org.conscrypt.Platform.getSniHostnameFromParams
+W/dalvikvm(12202): VFY: unable to resolve check-cast 2477 (Ljavax/net/ssl/SNIServerName;) in Lcom/google/android/gms/org/conscrypt/Platform;
+D/dalvikvm(12202): VFY: replacing opcode 0x1f at 0x0025
+E/dalvikvm(12202): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.setParametersSniHostname
+W/dalvikvm(12202): VFY: unable to resolve new-instance 2476 (Ljavax/net/ssl/SNIHostName;) in Lcom/google/android/gms/org/conscrypt/Platform;
+D/dalvikvm(12202): VFY: replacing opcode 0x22 at 0x0024
+E/dalvikvm(12202): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.setParametersSniHostname
+W/dalvikvm(12202): VFY: unable to resolve new-instance 2476 (Ljavax/net/ssl/SNIHostName;) in Lcom/google/android/gms/org/conscrypt/Platform;
+D/dalvikvm(12202): VFY: replacing opcode 0x22 at 0x0024
+D/dalvikvm(12202): GC_CONCURRENT freed 338K, 13% free 3004K/3444K, paused 0ms+1ms, total 3ms
+W/dalvikvm(12202): Unable to resolve superclass of Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper; (2467)
+W/dalvikvm(12202): Link of class 'Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper;' failed
+I/dalvikvm(12202): Could not find method com.google.android.gms.org.conscrypt.Java7SessionWrapper.getDelegate, referenced from method com.google.android.gms.org.conscrypt.Platform.unwrapSSLSession
+W/dalvikvm(12202): VFY: unable to resolve static method 8510: Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper;.getDelegate (Ljavax/net/ssl/SSLSession;)Ljavax/net/ssl/SSLSession;
+D/dalvikvm(12202): VFY: replacing opcode 0x71 at 0x0007
+W/dalvikvm(12202): Unable to resolve superclass of Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper; (2467)
+W/dalvikvm(12202): Link of class 'Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper;' failed
+E/dalvikvm(12202): Could not find class 'com.google.android.gms.org.conscrypt.Java7SessionWrapper', referenced from method com.google.android.gms.org.conscrypt.Platform.wrapSSLSession
+W/dalvikvm(12202): VFY: unable to resolve new-instance 1610 (Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper;) in Lcom/google/android/gms/org/conscrypt/Platform;
+D/dalvikvm(12202): VFY: replacing opcode 0x22 at 0x0007
+D/dalvikvm(12202): DexOpt: unable to opt direct call 0x35f3 at 0x2a in Lcom/google/android/gms/org/conscrypt/Platform;.setParametersSniHostname
+D/dalvikvm(12202): DexOpt: unable to opt direct call 0x35f3 at 0x2a in Lcom/google/android/gms/org/conscrypt/Platform;.setParametersSniHostname
+W/dalvikvm(12202): Unable to resolve superclass of Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper; (2467)
+W/dalvikvm(12202): Link of class 'Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper;' failed
+D/dalvikvm(12202): DexOpt: unable to opt direct call 0x213a at 0x09 in Lcom/google/android/gms/org/conscrypt/Platform;.wrapSSLSession
+D/dalvikvm(12202): GC_CONCURRENT freed 306K, 12% free 3175K/3584K, paused 0ms+0ms, total 4ms
+I/ProviderInstaller(12202): Installed default security provider GmsCore_OpenSSL
+D/dalvikvm(12202): GC_CONCURRENT freed 216K, 9% free 3377K/3704K, paused 2ms+1ms, total 7ms
+I/dalvikvm(12202): Could not find method android.app.NotificationManager.getNotificationChannel, referenced from method jjd.a
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2253: Landroid/app/NotificationManager;.getNotificationChannel (Ljava/lang/String;)Landroid/app/NotificationChannel;
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x000c
+I/dalvikvm(12202): Could not find method android.app.Notification$Builder.setChannelId, referenced from method jjd.a
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2208: Landroid/app/Notification$Builder;.setChannelId (Ljava/lang/String;)Landroid/app/Notification$Builder;
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x007e
+D/dalvikvm(12202): DexOpt: unable to opt direct call 0x08c7 at 0x19 in Ljjd;.a
+I/dalvikvm(12202): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method jjw.a
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2504: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x001c
+D/dalvikvm(12202): GC_CONCURRENT freed 208K, 8% free 3604K/3912K, paused 2ms+3ms, total 6ms
+D/dalvikvm(12202): GC_CONCURRENT freed 133K, 6% free 3895K/4136K, paused 0ms+0ms, total 3ms
+D/dalvikvm(12202): GC_CONCURRENT freed 149K, 6% free 4253K/4508K, paused 2ms+0ms, total 5ms
+D/dalvikvm(12202): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm(12202): WAIT_FOR_CONCURRENT_GC blocked 3ms
+I/dalvikvm(12202): Could not find method android.system.Os.readlink, referenced from method cuq.a
+D/dalvikvm(12202): WAIT_FOR_CONCURRENT_GC blocked 4ms
+W/dalvikvm(12202): VFY: unable to resolve static method 3047: Landroid/system/Os;.readlink (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm(12202): VFY: replacing opcode 0x71 at 0x0000
+I/dalvikvm(12202): Could not find method android.system.Os.stat, referenced from method cuq.a
+W/dalvikvm(12202): VFY: unable to resolve static method 3048: Landroid/system/Os;.stat (Ljava/lang/String;)Landroid/system/StructStat;
+D/dalvikvm(12202): VFY: replacing opcode 0x71 at 0x0042
+D/dalvikvm(12202): GC_CONCURRENT freed 176K, 6% free 4584K/4868K, paused 2ms+1ms, total 6ms
+D/dalvikvm(12202): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm(12202): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm(12202): WAIT_FOR_CONCURRENT_GC blocked 2ms
+I/dalvikvm(12202): Could not find method android.system.Os.symlink, referenced from method cuq.a
+W/dalvikvm(12202): VFY: unable to resolve static method 3049: Landroid/system/Os;.symlink (Ljava/lang/String;Ljava/lang/String;)V
+D/dalvikvm(12202): VFY: replacing opcode 0x71 at 0x013b
+I/dalvikvm(12202): DexOpt: unable to optimize instance field ref 0x04a1 at 0x46 in Lcuq;.a
+I/dalvikvm(12202): DexOpt: unable to optimize static field ref 0x049c at 0x48 in Lcuq;.a
+I/dalvikvm(12202): DexOpt: unable to optimize static field ref 0x049a at 0x4a in Lcuq;.a
+I/dalvikvm(12202): DexOpt: unable to optimize static field ref 0x049b at 0x4d in Lcuq;.a
+I/dalvikvm(12202): DexOpt: unable to optimize static field ref 0x049d at 0x57 in Lcuq;.a
+D/dalvikvm(12202): GC_CONCURRENT freed 233K, 7% free 4846K/5172K, paused 3ms+0ms, total 8ms
+I/dalvikvm(12202): DexOpt: unable to optimize static field ref 0x04a0 at 0x5f in Lcuq;.a
+I/dalvikvm(12202): DexOpt: unable to optimize static field ref 0x049e at 0x61 in Lcuq;.a
+I/dalvikvm(12202): DexOpt: unable to optimize static field ref 0x049f at 0x64 in Lcuq;.a
+D/dalvikvm(12202): GC_CONCURRENT freed 264K, 7% free 5262K/5636K, paused 2ms+0ms, total 8ms
+D/dalvikvm(12202): WAIT_FOR_CONCURRENT_GC blocked 4ms
+D/dalvikvm(12202): WAIT_FOR_CONCURRENT_GC blocked 4ms
+D/dalvikvm(12202): WAIT_FOR_CONCURRENT_GC blocked 4ms
+I/dalvikvm(12202): DexOpt: unable to optimize static field ref 0x049c at 0x7f in Lcuq;.a
+I/dalvikvm(12202): DexOpt: unable to optimize static field ref 0x04a0 at 0x90 in Lcuq;.a
+I/dalvikvm(12202): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method jsl.createCredentialProtectedStorageContext
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2411: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(12202): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(12202): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method jsl.createDeviceProtectedStorageContext
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2412: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(12202): VFY: replacing opcode 0x6f at 0x0002
+I/GAv4-SVC(12202): Google Analytics 12.2.21 is starting up.
+E/dalvikvm(12202): Could not find class 'android.app.job.JobScheduler', referenced from method egf.c
+W/dalvikvm(12202): VFY: unable to resolve check-cast 735 (Landroid/app/job/JobScheduler;) in Legf;
+D/dalvikvm(12202): VFY: replacing opcode 0x1f at 0x001c
+D/dalvikvm(12202): GC_CONCURRENT freed 459K, 10% free 5523K/6088K, paused 1ms+3ms, total 7ms
+D/libEGL  (12183): loaded /system/lib/egl/libEGL_adreno.so
+D/        (12183): HostConnection::get() New Host Connection established 0xb79578d0, tid 12183
+D/libEGL  (12183): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (12183): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation(12183): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(12183): Enabling debug mode 0
+W/ViewRootImpl(12183): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=0.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=879940, downTime=-1, deviceId=0, source=0x10004 }
+I/WearableService(  620): Wearable Services stopping
+W/ViewRootImpl(12183): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=879940, downTime=879588, deviceId=0, source=0x10004 }
+W/ViewRootImpl(12183): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=879941, downTime=879941, deviceId=-1, source=0x101 }
+W/ViewRootImpl(12183): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=880302, downTime=880302, deviceId=-1, source=0x101 }
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+W/ContextImpl(  469): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN flg=0x10008000 cmp=com.google.android.apps.shopping.express/.activity.MainActivity} from pid 12183
+I/WindowManager(  469): Screenshot max retries 4 of Token{4aa4635c ActivityRecord{4aa462ac u0 com.google.android.apps.shopping.express/.activity.PreMainActivity t59 f}} appWin=Window{4aca4cac u0 Starting com.google.android.apps.shopping.express} drawState=4
+W/WindowManager(  469): Screenshot failure taking screenshot for (720x1280) to layer 21025
+W/ActivityManager(  469): Duplicate finish request for ActivityRecord{4aa462ac u0 com.google.android.apps.shopping.express/.activity.PreMainActivity t59 f}
+I/GsxConfig(12183): Initialized values: 0
+I/dalvikvm(12183): Could not find method android.view.Window$Callback.onProvideKeyboardShortcuts, referenced from method android.support.v7.view.WindowCallbackWrapper.onProvideKeyboardShortcuts
+W/dalvikvm(12183): VFY: unable to resolve interface method 13013: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V
+D/dalvikvm(12183): VFY: replacing opcode 0x72 at 0x0002
+W/dalvikvm(12183): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm(12183): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.WindowCallbackWrapper.onSearchRequested
+W/dalvikvm(12183): VFY: unable to resolve interface method 13015: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm(12183): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm(12183): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.WindowCallbackWrapper.onWindowStartingActionMode
+W/dalvikvm(12183): VFY: unable to resolve interface method 13019: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm(12183): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm(12183): Could not find method android.content.Context.getDrawable, referenced from method android.support.v4.content.ContextCompat.a
+W/dalvikvm(12183): VFY: unable to resolve virtual method 393: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(12183): Could not find method android.content.Context.getColorStateList, referenced from method android.support.v4.content.ContextCompat.b
+W/dalvikvm(12183): VFY: unable to resolve virtual method 389: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(12183): Could not find method android.content.Context.getColor, referenced from method android.support.v4.content.ContextCompat.c
+W/dalvikvm(12183): VFY: unable to resolve virtual method 388: Landroid/content/Context;.getColor (I)I
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x0006
+D/Primes  (12183): Package metric disabled.
+D/Primes  (12183): Battery metric disabled [experiment_enabled: false]
+D/dalvikvm(12183): GC_CONCURRENT freed 235K, 10% free 3383K/3720K, paused 2ms+2ms, total 6ms
+D/dalvikvm(12183): GC_FOR_ALLOC freed 12K, 9% free 3639K/3984K, paused 4ms, total 4ms
+I/dalvikvm(12183): Could not find method android.os.Debug$MemoryInfo.getMemoryStats, referenced from method com.google.android.libraries.performance.primes.metriccapture.MemoryUsageCapture.a
+W/dalvikvm(12183): VFY: unable to resolve virtual method 1165: Landroid/os/Debug$MemoryInfo;.getMemoryStats ()Ljava/util/Map;
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x008a
+D/dalvikvm(12183): GC_FOR_ALLOC freed 39K, 9% free 3897K/4248K, paused 3ms, total 3ms
+I/dalvikvm(12183): Could not find method android.os.PowerManager.isInteractive, referenced from method com.google.android.libraries.performance.primes.metriccapture.ProcessStats.c
+W/dalvikvm(12183): VFY: unable to resolve virtual method 1298: Landroid/os/PowerManager;.isInteractive ()Z
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x0010
+I/dalvikvm(12183): Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawable
+W/dalvikvm(12183): VFY: unable to resolve virtual method 579: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm(12183): Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawableForDensity
+W/dalvikvm(12183): VFY: unable to resolve virtual method 581: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x0002
+I/AppCompatViewInflater(12183): app:theme is now deprecated. Please move to using android:theme instead.
+D/dalvikvm(12183): GC_CONCURRENT freed 145K, 7% free 4136K/4424K, paused 1ms+0ms, total 3ms
+I/dalvikvm(12183): Could not find method android.view.View.setNestedScrollingEnabled, referenced from method com.google.android.apps.shopping.express.widgets.GsxAccountSwitcherView.a
+W/dalvikvm(12183): VFY: unable to resolve virtual method 12780: Landroid/view/View;.setNestedScrollingEnabled (Z)V
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x002a
+I/dalvikvm(12183): Could not find method android.view.View.setOnApplyWindowInsetsListener, referenced from method com.google.android.apps.shopping.express.widgets.GsxAccountSwitcherView.onDetachedFromWindow
+W/dalvikvm(12183): VFY: unable to resolve virtual method 12781: Landroid/view/View;.setOnApplyWindowInsetsListener (Landroid/view/View$OnApplyWindowInsetsListener;)V
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x000a
+I/dalvikvm(12183): Could not find method android.content.Context.getColorStateList, referenced from method android.support.v7.content.res.AppCompatResources.a
+W/dalvikvm(12183): VFY: unable to resolve virtual method 389: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(12183): Could not find method android.view.View.setOnApplyWindowInsetsListener, referenced from method com.google.android.gms.people.accountswitcherview.AccountSwitcherView.onDetachedFromWindow
+W/dalvikvm(12183): VFY: unable to resolve virtual method 12781: Landroid/view/View;.setOnApplyWindowInsetsListener (Landroid/view/View$OnApplyWindowInsetsListener;)V
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x000a
+D/dalvikvm(12183): GC_FOR_ALLOC freed 58K, 6% free 4249K/4480K, paused 4ms, total 4ms
+I/dalvikvm-heap(12183): Grow heap (frag case) to 4.851MB for 635808-byte allocation
+D/dalvikvm(12183): GC_FOR_ALLOC freed 1K, 5% free 4869K/5104K, paused 2ms, total 2ms
+D/dalvikvm(12183): GC_CONCURRENT freed 1K, 5% free 4867K/5104K, paused 0ms+0ms, total 2ms
+I/GoogleAnalyticsUtilsImpl(12183): INSTALL_REFERRER: 
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cmp=com.google.android.apps.shopping.express/.activity.WelcomeActivity} from pid 12183
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN flg=0x10008000 cmp=com.google.android.apps.shopping.express/.activity.MainActivity} from pid 12183
+W/dalvikvm(12202): VFY: unable to find class referenced in signature (Landroid/net/Network;)
+I/dalvikvm(12202): Could not find method android.net.Network.openConnection, referenced from method slr.a
+W/ActivityManager(  469): Duplicate finish request for ActivityRecord{4aa462ac u0 com.google.android.apps.shopping.express/.activity.PreMainActivity t59 f}
+W/dalvikvm(12202): VFY: unable to resolve virtual method 20861: Landroid/net/Network;.openConnection (Ljava/net/URL;)Ljava/net/URLConnection;
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x00ab
+E/BaseAppContext(12202): Tried to stop global GMSCore RequestQueue. This is likely unintended, so ignoring.
+D/dalvikvm(12202): GC_CONCURRENT freed 2351K, 39% free 3985K/6440K, paused 2ms+2ms, total 9ms
+I/dalvikvm(12202): Could not find method android.content.Context.checkSelfPermission, referenced from method kha.a
+W/dalvikvm(12202): VFY: unable to resolve virtual method 2360: Landroid/content/Context;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm(12202): VFY: replacing opcode 0x6e at 0x0034
+D/dalvikvm(12183): GC_CONCURRENT freed 221K, 6% free 5272K/5600K, paused 0ms+1ms, total 4ms
+D/dalvikvm(12183): WAIT_FOR_CONCURRENT_GC blocked 3ms
+I/dalvikvm(12202): Failed resolving Lkhb; interface 820 'Landroid/content/pm/PackageManager$OnPermissionsChangedListener;'
+W/dalvikvm(12202): Link of class 'Lkhb;' failed
+E/dalvikvm(12202): Could not find class 'khb', referenced from method kha.a
+W/dalvikvm(12202): VFY: unable to resolve new-instance 2954 (Lkhb;) in Lkha;
+D/dalvikvm(12202): VFY: replacing opcode 0x22 at 0x0000
+I/dalvikvm(12202): Failed resolving Lkhb; interface 820 'Landroid/content/pm/PackageManager$OnPermissionsChangedListener;'
+W/dalvikvm(12202): Link of class 'Lkhb;' failed
+D/dalvikvm(12202): DexOpt: unable to opt direct call 0x3ee7 at 0x02 in Lkha;.a
+I/AppCompatViewInflater(12183): app:theme is now deprecated. Please move to using android:theme instead.
+D/dalvikvm(  722): GC_EXPLICIT freed 245K, 29% free 4596K/6392K, paused 0ms+2ms, total 7ms
+E/dalvikvm(12183): Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method android.support.v7.widget.AppCompatImageHelper.a
+W/dalvikvm(12183): VFY: unable to resolve instanceof 190 (Landroid/graphics/drawable/RippleDrawable;) in Landroid/support/v7/widget/AppCompatImageHelper;
+D/dalvikvm(12183): VFY: replacing opcode 0x20 at 0x000c
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cmp=com.google.android.apps.shopping.express/.activity.WelcomeActivity} from pid 12183
+D/dalvikvm(12183): GC_CONCURRENT freed 190K, 5% free 5852K/6144K, paused 2ms+0ms, total 5ms
+I/dalvikvm(12183): Could not find method android.view.View.getTransitionName, referenced from method android.support.v4.app.BackStackRecord.a
+W/dalvikvm(12183): VFY: unable to resolve virtual method 12670: Landroid/view/View;.getTransitionName ()Ljava/lang/String;
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x0026
+I/dalvikvm(12183): Could not find method android.view.View.getTransitionName, referenced from method android.support.v4.app.BackStackRecord.b
+W/dalvikvm(12183): VFY: unable to resolve virtual method 12670: Landroid/view/View;.getTransitionName ()Ljava/lang/String;
+D/dalvikvm(12183): VFY: replacing opcode 0x6e at 0x0017
+D/dalvikvm(12183): GC_FOR_ALLOC freed 56K, 5% free 5844K/6144K, paused 4ms, total 4ms
+I/dalvikvm-heap(12183): Grow heap (frag case) to 6.791MB for 1036812-byte allocation
+D/dalvikvm(12183): GC_CONCURRENT freed 1K, 5% free 6855K/7160K, paused 0ms+0ms, total 2ms
+D/dalvikvm(12202): GC_CONCURRENT freed 253K, 36% free 4129K/6440K, paused 2ms+0ms, total 5ms
+W/EGL_emulation(12183): eglSurfaceAttrib not implemented 3093 12436
+I/DynamiteModule(12202): Considering local module com.google.android.gms.googlecertificates:4 and remote module com.google.android.gms.googlecertificates:4
+I/DynamiteModule(12202): Selected local version of com.google.android.gms.googlecertificates
+W/ContextImpl(  469): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/dalvikvm(12202): threadid=26: thread exiting with uncaught exception (group=0x94cbcb20)
+I/GCore-Chimera-Crash(12202): ChcKCWNvbnRhaW5lchDUy0oYQCD817bDLRpuCh1jb20uZ29vZ2
+I/GCore-Chimera-Crash(12202): xlLmFuZHJvaWQucGxheS5nYW1lcxIjNS41LjgxICgxODc0MTA1
+I/GCore-Chimera-Crash(12202): MDMuMTg3NDEwNTAzLTAwMDcwMCkYlrDOGiIjChxjb20uZ29vZ2
+I/GCore-Chimera-Crash(12202): xlLmFuZHJvaWQuZ21zLmdhbWVzELe3zho=
+I/GCore-Chimera-Crash(12202): GCore-Chimera-Crash
+I/DeviceDrDatabaseHelper(12202): Cleaning stale data from database!
+W/DeviceDoctorHandler(12202): Crash Hash: fac8e98fc13c967492ee16c66b3ec6a6b27bff30
+W/DeviceDoctorHandler(12202): Shushing due to low average crash frequency.
+E/DeviceDoctorHandler(12202): FATAL EXCEPTION: highpool[0]
+E/DeviceDoctorHandler(12202): Process: com.google.android.gms, PID: 12202
+E/DeviceDoctorHandler(12202): java.lang.SecurityException: GoogleCertificatesRslt: not whitelisted: pkg=com.google.android.apps.shopping.express, sha1=09ad9609e4dc4fbfd29aed05941f7191822b42ae, atk=false, ver=12221070.true
+E/DeviceDoctorHandler(12202): 	at jjr.b(com.google.android.gms@12221070@12.2.21 (070-188803320):2)
+E/DeviceDoctorHandler(12202): 	at jjx.a(com.google.android.gms@12221070@12.2.21 (070-188803320):24)
+E/DeviceDoctorHandler(12202): 	at aixm.a(com.google.android.gms@12221070@12.2.21 (070-188803320):1)
+E/DeviceDoctorHandler(12202): 	at kkx.run(com.google.android.gms@12221070@12.2.21 (070-188803320):24)
+E/DeviceDoctorHandler(12202): 	at kot.run(com.google.android.gms@12221070@12.2.21 (070-188803320):26)
+E/DeviceDoctorHandler(12202): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+E/DeviceDoctorHandler(12202): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+E/DeviceDoctorHandler(12202): 	at kus.run(com.google.android.gms@12221070@12.2.21 (070-188803320))
+E/DeviceDoctorHandler(12202): 	at java.lang.Thread.run(Thread.java:841)
+E/DeviceDoctorHandler(12202): 
+I/Process (12202): Sending signal. PID: 12202 SIG: 9
+E/JavaBinder(12183): !!! FAILED BINDER TRANSACTION !!!
+W/GmsClient(12183): Remote exception occurred
+W/GmsClient(12183): android.os.TransactionTooLargeException
+W/GmsClient(12183): 	at android.os.BinderProxy.transact(Native Method)
+W/GmsClient(12183): 	at com.google.android.gms.common.internal.zzu$zza$zza.zza(dalvik_source_com.google.android.apps.shopping.express.apk)
+W/GmsClient(12183): 	at com.google.android.gms.common.internal.zzd.zza(dalvik_source_com.google.android.apps.shopping.express.apk)
+W/GmsClient(12183): 	at com.google.android.gms.internal.zzqu$zzc.a(dalvik_source_com.google.android.apps.shopping.express.apk)
+W/GmsClient(12183): 	at com.google.android.gms.internal.zzqu$zzf.run(dalvik_source_com.google.android.apps.shopping.express.apk)
+W/GmsClient(12183): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/GmsClient(12183): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/GmsClient(12183): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/GmsClient(12183): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/GmsClient(12183): 	at com.google.android.gms.internal.zzta.run(dalvik_source_com.google.android.apps.shopping.express.apk)
+W/GmsClient(12183): 	at java.lang.Thread.run(Thread.java:841)
+W/GmsClient(12183): service died
+I/ActivityManager(  469): Process com.google.android.gms (pid 12202) has died.
+I/ActivityManager(  469): Displayed com.google.android.apps.shopping.express/.activity.WelcomeActivity: +134ms (total +1s984ms)
+I/dalvikvm(12266): ignoring registerObject request in thread=1
+I/dalvikvm(12266): ignoring registerObject request in thread=1
+I/ActivityManager(  469): Start proc com.google.android.gms for service com.google.android.gms/.chimera.GmsIntentOperationService: pid=12266 uid=10007 gids={50007, 3003, 1007, 1028, 1015, 1023, 3002, 3001, 3007, 2001, 3006}
+W/dalvikvm(12266): VFY: unable to resolve static field 1177 (PR_SET_DUMPABLE) in Landroid/system/OsConstants;
+D/dalvikvm(12266): VFY: replacing opcode 0x60 at 0x000e
+I/dalvikvm(12266): Could not find method android.content.Context.getSystemService, referenced from method sp.a
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2387: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x0008
+I/dalvikvm(12266): Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method jvu.a
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2362: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x0029
+I/dalvikvm(12266): Could not find method android.content.Context.getSystemService, referenced from method jvu.b
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2387: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x000b
+W/dalvikvm(12266): VFY: unable to find class referenced in signature (Lamgd;)
+W/dalvikvm(12266): VFY: unable to find class referenced in signature (Lamgd;)
+I/dalvikvm(12266): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method amfs.a
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x0009
+I/dalvikvm(12266): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method amfs.b
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x005d
+W/dalvikvm(12266): VFY: unable to find class referenced in signature (Laanf;)
+W/dalvikvm(12266): VFY: unable to find class referenced in signature (Laanf;)
+I/dalvikvm(12266): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method aamt.a
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x000c
+I/dalvikvm(12266): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method aamt.c
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x003d
+I/dalvikvm(12266): Could not find method android.os.PowerManager.isInteractive, referenced from method jsu.a
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2975: Landroid/os/PowerManager;.isInteractive ()Z
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x0012
+I/dalvikvm(12266): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createCredentialProtectedStorageContext
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2411: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(12266): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(12266): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createDeviceProtectedStorageContext
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2412: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(12266): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(12266): Could not find method android.content.Context.isCredentialProtectedStorage, referenced from method cub.a
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2391: Landroid/content/Context;.isCredentialProtectedStorage ()Z
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(12266): Could not find method android.os.UserManager.isUserUnlocked, referenced from method cub.a
+W/dalvikvm(12266): VFY: unable to resolve virtual method 3028: Landroid/os/UserManager;.isUserUnlocked ()Z
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x001a
+I/dalvikvm(12266): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cub.b
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(12266): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cub.c
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x0000
+I/MultiDex(12266): VM with version 1.6.0 does not have multidex support
+I/MultiDex(12266): install
+I/MultiDex(12266): MultiDexExtractor.load(/system/priv-app/GmsCore.apk, false)
+I/MultiDex(12266): Blocking on lock /data/data/com.google.android.gms/code_cache/secondary-dexes/MultiDex.lock
+I/MultiDex(12266): /data/data/com.google.android.gms/code_cache/secondary-dexes/MultiDex.lock locked
+I/MultiDex(12266): loading existing secondary dex files
+I/MultiDex(12266): load found 4 secondary dex files
+I/MultiDex(12266): install done
+D/dalvikvm(12266): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(12266): GC_CONCURRENT freed 293K, 12% free 2906K/3300K, paused 2ms+0ms, total 9ms
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+I/GX-23   (12183): Picker Canceled.
+I/dalvikvm(12266): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method kqa.d
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(12266): Could not find method android.os.UserHandle.isOwner, referenced from method kqa.i
+W/dalvikvm(12266): VFY: unable to resolve virtual method 3021: Landroid/os/UserHandle;.isOwner ()Z
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x000a
+I/dalvikvm(12266): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method kwe.a
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2511: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x002d
+I/dalvikvm(12266): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method khq.createCredentialProtectedStorageContext
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2411: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(12266): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(12266): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method khq.createDeviceProtectedStorageContext
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2412: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(12266): VFY: replacing opcode 0x6f at 0x0002
+D/dalvikvm(12266): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm(12266): VFY: unable to resolve static field 1158 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm(12266): VFY: replacing opcode 0x62 at 0x0008
+D/dalvikvm(12266): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm(12266): VFY: unable to resolve static field 1158 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm(12266): VFY: replacing opcode 0x62 at 0x0097
+D/dalvikvm(12266): DexOpt: couldn't find field Landroid/content/pm/ApplicationInfo;.splitSourceDirs
+W/dalvikvm(12266): VFY: unable to resolve instance field 1089
+D/dalvikvm(12266): VFY: replacing opcode 0x54 at 0x0053
+D/dalvikvm(12266): DexOpt: couldn't find field Landroid/content/pm/ApplicationInfo;.splitSourceDirs
+I/dalvikvm(12266): DexOpt: unable to optimize instance field ref 0x0441 at 0x57 in Lksq;.d
+I/dalvikvm(12266): Could not find method android.system.Os.stat, referenced from method kro.a
+W/dalvikvm(12266): VFY: unable to resolve static method 3048: Landroid/system/Os;.stat (Ljava/lang/String;)Landroid/system/StructStat;
+D/dalvikvm(12266): VFY: replacing opcode 0x71 at 0x0041
+I/dalvikvm(12266): DexOpt: unable to optimize instance field ref 0x04a2 at 0x45 in Lkro;.a
+I/dalvikvm(12266): DexOpt: unable to optimize instance field ref 0x04a1 at 0x51 in Lkro;.a
+I/dalvikvm(12266): DexOpt: unable to optimize static field ref 0x049e at 0x53 in Lkro;.a
+I/dalvikvm(12266): DexOpt: unable to optimize static field ref 0x049f at 0x58 in Lkro;.a
+I/dalvikvm(12266): DexOpt: unable to optimize static field ref 0x04a0 at 0x5d in Lkro;.a
+I/dalvikvm(12266): Could not find method android.app.AppOpsManager.permissionToOp, referenced from method qo.a
+W/dalvikvm(12266): VFY: unable to resolve static method 2144: Landroid/app/AppOpsManager;.permissionToOp (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm(12266): VFY: replacing opcode 0x71 at 0x000f
+I/dalvikvm(12266): Could not find method android.content.Context.getSystemService, referenced from method qo.a
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2387: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x0030
+D/dalvikvm(12266): Trying to load lib /data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so 0x94f9bf88
+D/dalvikvm(12266): Added shared lib /data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so 0x94f9bf88
+D/dalvikvm(12266): No JNI_OnLoad found in /data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so 0x94f9bf88, skipping init
+D/dalvikvm(12266): Trying to load lib /data/data/com.google.android.gms/app_extracted_libs/x86/libconscrypt_gmscore_jni.so 0x94f9bf88
+D/dalvikvm(12266): Added shared lib /data/data/com.google.android.gms/app_extracted_libs/x86/libconscrypt_gmscore_jni.so 0x94f9bf88
+V/NativeCrypto(12266): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 279 native methods...
+D/dalvikvm(12266): Trying to load lib /data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so 0x94f9bf88
+D/dalvikvm(12266): Shared lib '/data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so' already loaded in same CL 0x94f9bf88
+D/dalvikvm(12266): Trying to load lib /data/data/com.google.android.gms/app_extracted_libs/x86/libconscrypt_gmscore_jni.so 0x94f9bf88
+D/dalvikvm(12266): Shared lib '/data/data/com.google.android.gms/app_extracted_libs/x86/libconscrypt_gmscore_jni.so' already loaded in same CL 0x94f9bf88
+D/dalvikvm(12266): GC_CONCURRENT freed 293K, 12% free 3000K/3396K, paused 1ms+1ms, total 3ms
+E/dalvikvm(12266): Could not find class 'javax.net.ssl.SNIServerName', referenced from method com.google.android.gms.org.conscrypt.Platform.getSniHostnameFromParams
+W/dalvikvm(12266): VFY: unable to resolve check-cast 2477 (Ljavax/net/ssl/SNIServerName;) in Lcom/google/android/gms/org/conscrypt/Platform;
+D/dalvikvm(12266): VFY: replacing opcode 0x1f at 0x0025
+E/dalvikvm(12266): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.setParametersSniHostname
+W/dalvikvm(12266): VFY: unable to resolve new-instance 2476 (Ljavax/net/ssl/SNIHostName;) in Lcom/google/android/gms/org/conscrypt/Platform;
+D/dalvikvm(12266): VFY: replacing opcode 0x22 at 0x0024
+E/dalvikvm(12266): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.setParametersSniHostname
+W/dalvikvm(12266): VFY: unable to resolve new-instance 2476 (Ljavax/net/ssl/SNIHostName;) in Lcom/google/android/gms/org/conscrypt/Platform;
+D/dalvikvm(12266): VFY: replacing opcode 0x22 at 0x0024
+W/dalvikvm(12266): Unable to resolve superclass of Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper; (2467)
+W/dalvikvm(12266): Link of class 'Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper;' failed
+I/dalvikvm(12266): Could not find method com.google.android.gms.org.conscrypt.Java7SessionWrapper.getDelegate, referenced from method com.google.android.gms.org.conscrypt.Platform.unwrapSSLSession
+W/dalvikvm(12266): VFY: unable to resolve static method 8510: Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper;.getDelegate (Ljavax/net/ssl/SSLSession;)Ljavax/net/ssl/SSLSession;
+D/dalvikvm(12266): VFY: replacing opcode 0x71 at 0x0007
+W/dalvikvm(12266): Unable to resolve superclass of Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper; (2467)
+W/dalvikvm(12266): Link of class 'Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper;' failed
+E/dalvikvm(12266): Could not find class 'com.google.android.gms.org.conscrypt.Java7SessionWrapper', referenced from method com.google.android.gms.org.conscrypt.Platform.wrapSSLSession
+W/dalvikvm(12266): VFY: unable to resolve new-instance 1610 (Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper;) in Lcom/google/android/gms/org/conscrypt/Platform;
+D/dalvikvm(12266): VFY: replacing opcode 0x22 at 0x0007
+D/dalvikvm(12266): DexOpt: unable to opt direct call 0x35f3 at 0x2a in Lcom/google/android/gms/org/conscrypt/Platform;.setParametersSniHostname
+D/dalvikvm(12266): DexOpt: unable to opt direct call 0x35f3 at 0x2a in Lcom/google/android/gms/org/conscrypt/Platform;.setParametersSniHostname
+W/dalvikvm(12266): Unable to resolve superclass of Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper; (2467)
+W/dalvikvm(12266): Link of class 'Lcom/google/android/gms/org/conscrypt/Java7SessionWrapper;' failed
+D/dalvikvm(12266): DexOpt: unable to opt direct call 0x213a at 0x09 in Lcom/google/android/gms/org/conscrypt/Platform;.wrapSSLSession
+D/dalvikvm(12183): GC_CONCURRENT freed 129K, 3% free 7962K/8192K, paused 0ms+1ms, total 3ms
+D/dalvikvm(12266): GC_CONCURRENT freed 267K, 11% free 3117K/3488K, paused 2ms+0ms, total 5ms
+D/dalvikvm(12266): GC_CONCURRENT freed 229K, 10% free 3352K/3688K, paused 2ms+0ms, total 3ms
+I/ProviderInstaller(12266): Installed default security provider GmsCore_OpenSSL
+I/dalvikvm(12266): Could not find method android.app.NotificationManager.getNotificationChannel, referenced from method jjd.a
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2253: Landroid/app/NotificationManager;.getNotificationChannel (Ljava/lang/String;)Landroid/app/NotificationChannel;
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x000c
+I/dalvikvm(12266): Could not find method android.app.Notification$Builder.setChannelId, referenced from method jjd.a
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2208: Landroid/app/Notification$Builder;.setChannelId (Ljava/lang/String;)Landroid/app/Notification$Builder;
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x007e
+D/dalvikvm(12266): DexOpt: unable to opt direct call 0x08c7 at 0x19 in Ljjd;.a
+I/dalvikvm(12266): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method jjw.a
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2504: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x001c
+D/dalvikvm(12266): GC_CONCURRENT freed 198K, 8% free 3540K/3844K, paused 2ms+1ms, total 4ms
+D/dalvikvm(12183): GC_FOR_ALLOC freed 1059K, 14% free 7968K/9208K, paused 3ms, total 3ms
+I/dalvikvm-heap(12183): Grow heap (frag case) to 8.866MB for 1036812-byte allocation
+D/dalvikvm(12183): GC_FOR_ALLOC freed <1K, 13% free 8981K/10224K, paused 3ms, total 3ms
+I/dalvikvm(12266): Could not find method android.system.Os.readlink, referenced from method cuq.a
+W/dalvikvm(12266): VFY: unable to resolve static method 3047: Landroid/system/Os;.readlink (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm(12266): VFY: replacing opcode 0x71 at 0x0000
+I/dalvikvm(12266): Could not find method android.system.Os.stat, referenced from method cuq.a
+W/dalvikvm(12266): VFY: unable to resolve static method 3048: Landroid/system/Os;.stat (Ljava/lang/String;)Landroid/system/StructStat;
+D/dalvikvm(12266): VFY: replacing opcode 0x71 at 0x0042
+D/dalvikvm(12266): GC_CONCURRENT freed 225K, 9% free 3758K/4092K, paused 2ms+2ms, total 6ms
+I/dalvikvm(12266): Could not find method android.system.Os.symlink, referenced from method cuq.a
+W/dalvikvm(12266): VFY: unable to resolve static method 3049: Landroid/system/Os;.symlink (Ljava/lang/String;Ljava/lang/String;)V
+D/dalvikvm(12266): VFY: replacing opcode 0x71 at 0x013b
+I/dalvikvm(12266): DexOpt: unable to optimize instance field ref 0x04a1 at 0x46 in Lcuq;.a
+I/dalvikvm(12266): DexOpt: unable to optimize static field ref 0x049c at 0x48 in Lcuq;.a
+I/dalvikvm(12266): DexOpt: unable to optimize static field ref 0x049a at 0x4a in Lcuq;.a
+I/dalvikvm(12266): DexOpt: unable to optimize static field ref 0x049b at 0x4d in Lcuq;.a
+I/dalvikvm(12266): DexOpt: unable to optimize static field ref 0x049d at 0x57 in Lcuq;.a
+I/dalvikvm(12266): DexOpt: unable to optimize static field ref 0x04a0 at 0x5f in Lcuq;.a
+D/dalvikvm(12266): GC_CONCURRENT freed 248K, 9% free 4019K/4372K, paused 2ms+1ms, total 6ms
+D/dalvikvm(12266): WAIT_FOR_CONCURRENT_GC blocked 2ms
+I/dalvikvm(12266): DexOpt: unable to optimize static field ref 0x049e at 0x61 in Lcuq;.a
+I/dalvikvm(12266): DexOpt: unable to optimize static field ref 0x049f at 0x64 in Lcuq;.a
+I/dalvikvm(12266): DexOpt: unable to optimize static field ref 0x049c at 0x7f in Lcuq;.a
+D/dalvikvm(12266): WAIT_FOR_CONCURRENT_GC blocked 2ms
+I/dalvikvm(12266): DexOpt: unable to optimize static field ref 0x04a0 at 0x90 in Lcuq;.a
+D/dalvikvm(12266): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm(12266): GC_CONCURRENT freed 186K, 7% free 4258K/4552K, paused 2ms+0ms, total 6ms
+D/dalvikvm(12266): GC_CONCURRENT freed 120K, 5% free 4580K/4816K, paused 0ms+2ms, total 5ms
+I/dalvikvm(12266): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method jsl.createCredentialProtectedStorageContext
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2411: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(12266): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(12266): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method jsl.createDeviceProtectedStorageContext
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2412: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(12266): VFY: replacing opcode 0x6f at 0x0002
+I/GAv4-SVC(12266): Google Analytics 12.2.21 is starting up.
+D/dalvikvm(12266): GC_CONCURRENT freed 245K, 7% free 4916K/5236K, paused 1ms+1ms, total 7ms
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+E/dalvikvm(12266): Could not find class 'android.app.job.JobScheduler', referenced from method egf.c
+W/dalvikvm(12266): VFY: unable to resolve check-cast 735 (Landroid/app/job/JobScheduler;) in Legf;
+D/dalvikvm(12266): VFY: replacing opcode 0x1f at 0x001c
+I/GX-23   (12183): Picker Canceled.
+D/dalvikvm(12266): GC_CONCURRENT freed 252K, 7% free 5367K/5728K, paused 1ms+1ms, total 7ms
+D/dalvikvm(12266): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm(12266): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm(12266): GC_CONCURRENT freed 495K, 10% free 5636K/6240K, paused 2ms+2ms, total 6ms
+D/dalvikvm(12183): GC_FOR_ALLOC freed 1144K, 22% free 7989K/10224K, paused 2ms, total 2ms
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 469
+V/PanelView(  529): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  529): animationTick called with dtms=-7; nothing to do (h=0.0 v=-0.0)
+W/ViewRootImpl(12183): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=882125, downTime=882125, deviceId=-1, source=0x101 }
+W/ViewRootImpl(12183): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=882127, downTime=882127, deviceId=-1, source=0x101 }
+W/ViewRootImpl(12183): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=882129, downTime=882129, deviceId=-1, source=0x101 }
+W/EGL_emulation(12183): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  469): Input event injection from pid 12122 failed.
+W/ViewRootImpl(12183): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=882385, downTime=882385, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  469): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa52994 attribute=null, token = android.os.BinderProxy@4a9ff138
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 469
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 469
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+I/GX-23   (12183): Picker Canceled.
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+I/GX-23   (12183): Picker Canceled.
+D/dalvikvm(12266): GC_CONCURRENT freed 2662K, 43% free 3814K/6580K, paused 0ms+0ms, total 7ms
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+I/GX-23   (12183): Picker Canceled.
+I/GX-23   (12183): Picker Canceled.
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+D/dalvikvm(12266): GC_CONCURRENT freed 409K, 42% free 3825K/6580K, paused 1ms+2ms, total 4ms
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 469
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+I/ActivityManager(  469): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 12183
+W/PhoneFallbackEventHandler(12183): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+I/GX-23   (12183): Picker Canceled.
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+I/GX-23   (12183): Picker Canceled.
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+I/InputDispatcher(  469): Dropped event because of pending overdue app switch.
+W/InputManager(  469): Input event injection from pid 12122 failed.
+V/PanelView(  529): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/FlingTracker(  529): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  529): java.lang.Throwable
+V/FlingTracker(  529): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  529): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  529): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  529): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  529): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  529): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  529): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  529): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  529): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  529): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  529): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  529): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  529): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  529): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  529): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  529): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  529): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  529): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  529): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  529): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  529): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  529): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  529): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  529): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+D/dalvikvm(12266): GC_CONCURRENT freed 419K, 42% free 3826K/6580K, paused 1ms+0ms, total 6ms
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+I/GX-23   (12183): Picker Canceled.
+I/GX-23   (12183): Picker Canceled.
+I/GX-23   (12183): Picker Canceled.
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+D/dalvikvm(12183): GC_CONCURRENT freed 572K, 12% free 9046K/10224K, paused 2ms+0ms, total 5ms
+D/dalvikvm(12266): GC_CONCURRENT freed 401K, 42% free 3824K/6580K, paused 1ms+0ms, total 4ms
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+D/dalvikvm(12266): GC_CONCURRENT freed 412K, 43% free 3800K/6580K, paused 1ms+0ms, total 3ms
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+I/GX-23   (12183): Picker Canceled.
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=0,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=NewAccountAdded,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=AccountPicker,av=422,v=1,t=event,el=,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/GX-23   (12183): Picker Canceled.
+I/GX-23   (12183): Picker Canceled.
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=0,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=TapCancel,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=AccountPicker,av=422,v=1,t=event,el=,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=0,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=TapCancel,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=AccountPicker,av=422,v=1,t=event,el=,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen3,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/ActivityManager(  469): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 12183
+W/PhoneFallbackEventHandler(12183): No activity found for android.intent.action.CALL_BUTTON.
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen3,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/WindowManager(  469): updateFocusedWindowLocked, focusedAppToken is null.
+W/ContextImpl(  469): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  469): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac396e4 (uid=10060 pid=12183)
+W/InputEventReceiver(  529): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  529): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  529): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  529): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_DOWN(1), id[0]=0, x[0]=249.91522, y[0]=326.07794, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=651.0, y[1]=410.0, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=884147, downTime=884146, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  529): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=255.97198, y[0]=368.9442, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=644.8412, y[1]=413.3324, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=4, eventTime=884148, downTime=884146, deviceId=0, source=0x1002 }
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/ContextImpl(  469): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen1,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen1,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+V/PanelView(  529): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 469
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen1,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+D/dalvikvm( 1005): GC_CONCURRENT freed 1158K, 17% free 6626K/7896K, paused 1ms+4ms, total 13ms
+D/dalvikvm(12266): GC_CONCURRENT freed 400K, 43% free 3812K/6580K, paused 1ms+1ms, total 6ms
+I/dalvikvm(12266): Could not find method android.content.Context.checkSelfPermission, referenced from method kha.a
+W/dalvikvm(12266): VFY: unable to resolve virtual method 2360: Landroid/content/Context;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm(12266): VFY: replacing opcode 0x6e at 0x0034
+I/dalvikvm(12266): Failed resolving Lkhb; interface 820 'Landroid/content/pm/PackageManager$OnPermissionsChangedListener;'
+W/dalvikvm(12266): Link of class 'Lkhb;' failed
+E/dalvikvm(12266): Could not find class 'khb', referenced from method kha.a
+W/dalvikvm(12266): VFY: unable to resolve new-instance 2954 (Lkhb;) in Lkha;
+D/dalvikvm(12266): VFY: replacing opcode 0x22 at 0x0000
+I/dalvikvm(12266): Failed resolving Lkhb; interface 820 'Landroid/content/pm/PackageManager$OnPermissionsChangedListener;'
+W/dalvikvm(12266): Link of class 'Lkhb;' failed
+D/dalvikvm(12266): DexOpt: unable to opt direct call 0x3ee7 at 0x02 in Lkha;.a
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen3,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/ActivityManager(  469): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 12183
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/PhoneFallbackEventHandler(12183): No activity found for android.intent.action.CALL_BUTTON.
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen1,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+V/FlingTracker(  529): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  529): java.lang.Throwable
+V/FlingTracker(  529): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  529): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  529): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  529): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  529): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  529): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  529): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  529): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  529): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  529): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  529): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  529): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  529): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  529): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  529): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  529): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  529): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  529): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  529): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  529): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  529): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  529): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  529): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  529): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen1,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen1,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=0,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=NewAccountAdded,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=AccountPicker,av=422,v=1,t=event,el=,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen1,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+D/dalvikvm(12183): GC_CONCURRENT freed 4005K, 37% free 7046K/11160K, paused 1ms+1ms, total 6ms
+I/GX-23   (12183): Picker Canceled.
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=0,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=TapCancel,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=AccountPicker,av=422,v=1,t=event,el=,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen1,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=0,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=NewAccountAdded,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=AccountPicker,av=422,v=1,t=event,el=,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 469
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+I/GX-23   (12183): Picker Canceled.
+D/dalvikvm(12183): GC_CONCURRENT freed 369K, 29% free 7994K/11160K, paused 1ms+4ms, total 13ms
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=0,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=TapCancel,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=AccountPicker,av=422,v=1,t=event,el=,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 469
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/ActivityManager(  469): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 12183
+W/PhoneFallbackEventHandler(12183): No activity found for android.intent.action.CALL_BUTTON.
+D/dalvikvm( 2038): GC_FOR_ALLOC freed 7799K, 62% free 4893K/12792K, paused 2ms, total 2ms
+I/dalvikvm-heap( 2038): Grow heap (frag case) to 8.389MB for 3686412-byte allocation
+D/dalvikvm( 2038): GC_CONCURRENT freed 8K, 34% free 8484K/12792K, paused 2ms+0ms, total 4ms
+D/dalvikvm( 2038): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm( 2038): WAIT_FOR_CONCURRENT_GC blocked 3ms
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen1,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/EGL_emulation( 2038): eglSurfaceAttrib not implemented 3093 12436
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen3,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen1,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+D/dalvikvm(12183): GC_CONCURRENT freed 1640K, 29% free 8001K/11160K, paused 2ms+1ms, total 9ms
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen3,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen1,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=0,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=NewAccountAdded,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=AccountPicker,av=422,v=1,t=event,el=,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/GX-23   (12183): Picker Canceled.
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=0,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=TapCancel,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=AccountPicker,av=422,v=1,t=event,el=,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/ActivityManager(  469): START u0 {act=com.google.android.gms.common.account.CHOOSE_ACCOUNT pkg=com.google.android.gms cmp=com.google.android.gms/.common.account.SimpleAccountPickerActivity (has extras)} from pid 12183
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen3,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+I/ActivityManager(  469): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.apps.shopping.express/.activity.PreMainActivity} from pid 12122
+V/PanelView(  529): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/GAv4    (12183): Excessive tracking detected; call ignored.
+W/GAv4    (12183): Discarding hit. Too many hits sent too quickly, rate limiting invoked: ul=en-us,ev=1,sr=720x1280,a=886852097,sf=100.0,aid=com.google.android.apps.shopping.express,ea=ViewWarmWelcome,cid=f17ff433-dcf9-448c-93fd-32bedea9b394,ec=Onboarding,av=422,v=1,t=event,el=Screen2,an=Google Express,ni=0,tid=UA-26589500-4,_v=ma9.4.52,cd=Welcome Screen
+D/dalvikvm(12183): GC_CONCURRENT freed 1613K, 29% free 8004K/11160K, paused 2ms+2ms, total 6ms
+E/SurfaceFlinger(  166): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  166): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  166): setOrientation, mFbdev=0xb7c3b050, mFbDev->setOrientation=0xb6a01ce0, orientation=0
+I/gralloc_nox(  166): setOrientation: orientation=0
+D/Tinker.DefaultAppLike(  649): onConfigurationChanged:{1.0 310mcc16mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger -keyb/v/h dpad/v s.31}
+D/PhoneStatusBar(  529): mSettingsPanelGravity = 55
+I/ActivityManager(  469): Config changes=480 {1.0 310mcc16mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger -keyb/v/h dpad/v s.31}
+D/Sensors (  469): Client connection accepted (81)
+I/InputReader(  469): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  469): Device reconfigured: id=1, name='seamless mouse', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  469): Device reconfigured: id=3, name='Android Input', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  469): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 0, mode 1, display id 0
+I/AndroidRuntime(12122): VM exiting with result code 0.
+D/dalvikvm(  661): GC_EXPLICIT freed 289K, 17% free 3074K/3692K, paused 1ms+0ms, total 7ms
+W/EGL_emulation( 2038): eglSurfaceAttrib not implemented 3093 12436

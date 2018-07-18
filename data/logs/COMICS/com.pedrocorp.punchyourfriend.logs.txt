@@ -1,0 +1,796 @@
+--------- beginning of /dev/log/main
+D/AndroidRuntime(10784): 
+D/AndroidRuntime(10784): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(10784): CheckJNI is OFF
+D/dalvikvm(10784): Using executionMode 2
+D/dalvikvm(10784): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(10784): Added shared lib libjavacore.so 0x0
+D/dalvikvm(10784): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(10784): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(10784): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(10784): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(10784): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(10784): failed to load memtrack module: -2
+D/AndroidRuntime(10784): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  478): Skipping deliver [background] BroadcastRecord{4abcf8ac u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4a97b048 10784 (unknown name)/0/u-1 remote:4a98b624}: process crashing
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+I/ActivityManager(  478): Start proc com.pedrocorp.punchyourfriend for activity com.pedrocorp.punchyourfriend/.Main: pid=10794 uid=10146 gids={50146, 1028, 1015, 1023, 3003}
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10146, 1) failed with errno -13
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10012, 0) failed with errno -13
+I/Finsky  ( 1918): [1] com.google.android.finsky.ch.a.onTrimMemory(5): Memory trim requested to level 20
+I/Finsky  ( 1918): [1] com.google.android.finsky.ch.a.onTrimMemory(11): Flushing in-memory image cache
+I/dalvikvm(10794): ignoring registerObject request in thread=1
+I/dalvikvm(10794): ignoring registerObject request in thread=1
+W/dalvikvm(10794): VFY: unable to resolve static field 3283 (checking_license) in Lcom/pedrocorp/punchyourfriend/R$string;
+D/dalvikvm(10794): VFY: replacing opcode 0x60 at 0x0000
+D/dalvikvm(10794): Trying to load lib /data/app-lib/com.pedrocorp.punchyourfriend-1/libpunchyourfriend.so 0x94f00e28
+D/dalvikvm(10794): Added shared lib /data/app-lib/com.pedrocorp.punchyourfriend-1/libpunchyourfriend.so 0x94f00e28
+I/AppFlood(10794): Papaya AppFlood SDK init version V1.60
+W/System.err(10794): java.lang.SecurityException: WifiService: Neither user 10146 nor current process has android.permission.ACCESS_WIFI_STATE.
+W/System.err(10794): 	at android.os.Parcel.readException(Parcel.java:1465)
+W/System.err(10794): 	at android.os.Parcel.readException(Parcel.java:1419)
+W/System.err(10794): 	at android.net.wifi.IWifiManager$Stub$Proxy.getConnectionInfo(IWifiManager.java:768)
+W/System.err(10794): 	at android.net.wifi.WifiManager.getConnectionInfo(WifiManager.java:884)
+W/System.err(10794): 	at com.appflood.d.c.a(dalvik_source_com.pedrocorp.punchyourfriend.apk)
+W/System.err(10794): 	at com.appflood.c.c.a(dalvik_source_com.pedrocorp.punchyourfriend.apk)
+W/System.err(10794): 	at com.appflood.AppFlood.initialize(dalvik_source_com.pedrocorp.punchyourfriend.apk)
+W/System.err(10794): 	at com.appflood.AppFlood.initialize(dalvik_source_com.pedrocorp.punchyourfriend.apk)
+W/System.err(10794): 	at com.pedrocorp.punchyourfriend.CustomActivity.c(SourceFile:341)
+W/System.err(10794): 	at com.pedrocorp.punchyourfriend.CustomActivity.onCreate(SourceFile:59)
+W/System.err(10794): 	at android.app.Activity.performCreate(Activity.java:5231)
+W/System.err(10794): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+W/System.err(10794): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+W/System.err(10794): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+W/System.err(10794): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+W/System.err(10794): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+W/System.err(10794): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err(10794): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err(10794): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err(10794): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err(10794): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err(10794): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err(10794): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err(10794): 	at dalvik.system.NativeStart.main(Native Method)
+W/AppFlood(10794): Failed to get WIFI MAC
+W/DebugConnManager(10794): getNetworkInfo() on networkType 0
+W/DebugConnManager(10794): getNetworkInfo() on networkType 1
+W/dalvikvm(10794): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(10794): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(10794): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(10794): VFY: unable to resolve virtual method 12670: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(10794): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(10794): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(10794): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(10794): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(10794): VFY: unable to resolve interface method 12664: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(10794): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(10794): body:<com.appflood.c.b: void a(boolean)>	sig:specialinvoke $r1.<java.net.URL: void <init>(java.lang.String)>($r0)	timediff:0
+I/System.out(10794): <com.appflood.c.b: void a(boolean)>###specialinvoke $r1.<java.net.URL: void <init>(java.lang.String)>($r0)###http://data.appflood.com/
+D/dalvikvm(10794): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(10794): GC_CONCURRENT freed 278K, 11% free 2952K/3292K, paused 0ms+3ms, total 7ms
+I/System.out(10794): body:<com.appflood.d.j: java.net.URL a(java.lang.String,java.net.URL)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.net.URL,java.lang.String)>($r1, $r0)	timediff:0
+I/System.out(10794): body:<com.appflood.b.b: void run()>	sig:$r3 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:13
+I/System.out(10794): body:<com.appflood.b.b: void run()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(10794): body:<com.appflood.b.b: void run()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setReadTimeout(int)>(60000)	timediff:0
+W/Settings(10794): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+D/dalvikvm(10794): GC_FOR_ALLOC freed 141K, 8% free 3180K/3452K, paused 7ms, total 7ms
+W/AppFlood(10794): login Failed. code = -1
+I/System.out(10794): body:<com.appflood.b.b: void a(int)>	sig:$r5 = virtualinvoke $r4.<java.net.URL: java.lang.String toString()>()	timediff:1
+W/AppFlood(10794): connection failed -1 http://data.appflood.com/get_token?v=1.60&model=6&sm=1&duid=UqTCNIjtk4QdUVaQ2Eqxjg%3D%3D&ts=1524183858048&data=Rcdm3973Hp9rjDFtfQi2UUM96p59aT%2B%2BFFbQ3GNVLjXhCTu5Yz64V%2F6YIuG59ERdEUicAqs%2By3YA71hEncTL0puBLKhGInUDu2GIzwHLPT8KLsBjQNUXzGVEHQLqBcZBfQL2u0960H54RokbBHJiorO0MnYeQqMZIQgNj5bcsQ81nOb0CQHs9Q1CHZ91tKDuXS16CjkAVNRgpnhS2TEZM4eHDrQm2fwn3%2F%2BwUVAjr6vVM7c0tFfUoPRRzQEevO6%2BtjVGeQq1FxoasWP2kBWYkZ4cVk3f6aec&adtype=4&app_key=0ppe09z8IoYnBlUF&mac=&uuid=WLtcjmjbg42Ndpm5FOF6vAy642tz97EDJ4oI2z069nHugfVTUlF1JQ%3D%3D&aid=nEt9OGMw7PXsJagS0U5aR%2F3g%2F7OVPcif&signature=02cc77eff4ff43a129ce6f5353fb3808
+I/WearableService(  652): Wearable Services stopping
+D/dalvikvm(10794): GC_FOR_ALLOC freed 167K, 8% free 3265K/3532K, paused 2ms, total 2ms
+I/dalvikvm-heap(10794): Grow heap (frag case) to 5.002MB for 1843212-byte allocation
+D/dalvikvm(10794): GC_FOR_ALLOC freed <1K, 6% free 5064K/5336K, paused 8ms, total 8ms
+D/dalvikvm(10794): GC_FOR_ALLOC freed 0K, 6% free 5064K/5336K, paused 2ms, total 2ms
+I/dalvikvm-heap(10794): Grow heap (frag case) to 8.517MB for 3686412-byte allocation
+D/dalvikvm(10794): GC_FOR_ALLOC freed 0K, 4% free 8664K/8940K, paused 5ms, total 5ms
+D/dalvikvm(10794): GC_CONCURRENT freed 3K, 4% free 8661K/8940K, paused 1ms+0ms, total 4ms
+E/SurfaceFlinger(  166): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  166): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  166): setOrientation, mFbdev=0xb88fadf0, mFbDev->setOrientation=0xb691fce0, orientation=3
+I/gralloc_nox(  166): setOrientation: orientation=3
+I/InputReader(  478): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  478): Device reconfigured: id=1, name='Android Input', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  478): Device reconfigured: id=3, name='seamless mouse', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  478): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 3, mode 1, display id 0
+I/ActivityManager(  478): Config changes=480 {1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.28}
+D/Sensors (  478): Client connection accepted (203)
+W/ViewRootImpl(10794): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=980850, downTime=-1, deviceId=0, source=0x10004 }
+D/PhoneStatusBar(  530): mSettingsPanelGravity = 55
+D/Tinker.DefaultAppLike(  678): onConfigurationChanged:{1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.28}
+D/dalvikvm(10794): GC_FOR_ALLOC freed 1836K, 24% free 6867K/8940K, paused 4ms, total 4ms
+I/dalvikvm-heap(10794): Grow heap (frag case) to 8.520MB for 1843212-byte allocation
+D/dalvikvm(10794): GC_FOR_ALLOC freed 0K, 4% free 8667K/8940K, paused 2ms, total 2ms
+D/dalvikvm(10794): GC_CONCURRENT freed <1K, 4% free 8667K/8940K, paused 2ms+0ms, total 5ms
+W/EGL_emulation(  530): eglSurfaceAttrib not implemented 3093 12436
+D/        (10794): HostConnection::get() New Host Connection established 0xb8ef4860, tid 10794
+I/ActivityManager(  478): Displayed com.pedrocorp.punchyourfriend/.Main: +863ms
+W/IInputConnectionWrapper( 7054): showStatusIcon on inactive InputConnection
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/WindowManager(  478): Screen frozen for +370ms due to Window{4a9e1c6c u0 com.pedrocorp.punchyourfriend/com.pedrocorp.punchyourfriend.Main}
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10007, 0) failed with errno -13
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 10794
+W/PhoneFallbackEventHandler(10794): No activity found for android.intent.action.CALL_BUTTON.
+D/        (10794): HostConnection::get() New Host Connection established 0xb8ef28e0, tid 10813
+W/WindowManager(  478): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  530): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=982960, downTime=-1, deviceId=0, source=0x10004 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  478): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9e2a08 (uid=10146 pid=10794)
+W/ViewRootImpl(10794): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=983083, downTime=983083, deviceId=-1, source=0x101 }
+W/InputEventReceiver(  530): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  530): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl(  530): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=687.316, y[0]=-344.0506, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=983082, downTime=983080, deviceId=0, source=0x1002 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+I/ContentMaintenance(  732): Pruning caches...
+I/ContentMaintenance(  732): Internal cache bytes used: 0; limit: 100000000; download size: 0
+I/ContentMaintenance(  732): Cache pruning complete.
+I/ContentMaintenance(  732): Beginning garbage collection.
+I/RealtimeCacheCleanup(  732): Beginning Realtime garbage collection.
+I/RealtimeCacheCleanup(  732): Finished Realtime garbage collection.
+I/ContentMaintenance(  732): Finished garbage collection.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+D/dalvikvm(  478): GC_EXPLICIT freed 1164K, 34% free 15818K/23700K, paused 2ms+2ms, total 39ms
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 10794
+W/PhoneFallbackEventHandler(10794): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 10794
+W/PhoneFallbackEventHandler(10794): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+W/dalvikvm(10794): JNI WARNING: DeleteLocalRef(0x1d20046a) failed to find entry
+D/Flurry  (10794): LET App_Init
+D/dalvikvm(10794): GC_EXPLICIT freed 1989K, 24% free 6800K/8940K, paused 1ms+0ms, total 4ms
+D/dalvikvm(10794): GC_FOR_ALLOC freed 114K, 26% free 6690K/8940K, paused 2ms, total 2ms
+I/dalvikvm-heap(10794): Grow heap (frag case) to 8.410MB for 1843212-byte allocation
+D/dalvikvm(10794): GC_CONCURRENT freed 0K, 6% free 8490K/8940K, paused 2ms+1ms, total 4ms
+D/libEGL  (10794): loaded /system/lib/egl/libEGL_adreno.so
+D/libEGL  (10794): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (10794): loaded /system/lib/egl/libGLESv2_adreno.so
+D/AndroidRuntime(10794): Shutting down VM
+W/dalvikvm(10794): threadid=1: thread exiting with uncaught exception (group=0x94c3db20)
+I/Process (  478): Sending signal. PID: 10794 SIG: 9
+E/AndroidRuntime(10794): FATAL EXCEPTION: main
+E/AndroidRuntime(10794): Process: com.pedrocorp.punchyourfriend, PID: 10794
+E/AndroidRuntime(10794): java.lang.RuntimeException: Native crash (11: Segmentation fault) at 0x0 (beacon=0x7dbf59d0)
+E/AndroidRuntime(10794): 	at com.pedrocorp.punchyourfriend.a.run(SourceFile:164)
+E/AndroidRuntime(10794): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/AndroidRuntime(10794): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/AndroidRuntime(10794): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(10794): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(10794): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(10794): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(10794): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(10794): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(10794): 	at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  478): Force-killing crashed app com.pedrocorp.punchyourfriend at watcher's request
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  478): Process com.pedrocorp.punchyourfriend (pid 10794) has died.
+W/ActivityManager(  478): Force removing ActivityRecord{4a9b3bec u0 com.pedrocorp.punchyourfriend/.Main t65}: app died, no saved state
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10146, 0) failed with errno -13
+I/WindowState(  478): WIN DEATH: Window{4a9fb964 u0 SurfaceView}
+I/WindowState(  478): WIN DEATH: Window{4a9e1c6c u0 com.pedrocorp.punchyourfriend/com.pedrocorp.punchyourfriend.Main}
+W/WindowManager(  478): Force-removing child win Window{4a9e284c u0 SurfaceView} from container Window{4a9e1c6c u0 com.pedrocorp.punchyourfriend/com.pedrocorp.punchyourfriend.Main}
+W/WindowManager(  478): Failed looking up window
+W/WindowManager(  478): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4a9bfee0 does not exist
+W/WindowManager(  478): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8096)
+W/WindowManager(  478): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8087)
+W/WindowManager(  478): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1051)
+W/WindowManager(  478): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+W/WindowManager(  478): 	at dalvik.system.NativeStart.run(Native Method)
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/WindowState(  478): WIN DEATH: null
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+D/dalvikvm( 7054): GC_CONCURRENT freed 312K, 9% free 3933K/4308K, paused 1ms+1ms, total 10ms
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10007, 1) failed with errno -13
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10012, 1) failed with errno -13
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/AppCompatDelegate( 1918): Failed to instantiate custom view inflater android.support.v7.app.AppCompatViewInflater. Falling back to default.
+I/AppCompatDelegate( 1918): java.lang.ClassNotFoundException: android.support.v7.app.AppCompatViewInflater
+I/AppCompatDelegate( 1918): 	at java.lang.Class.classForName(Native Method)
+I/AppCompatDelegate( 1918): 	at java.lang.Class.forName(Class.java:251)
+I/AppCompatDelegate( 1918): 	at java.lang.Class.forName(Class.java:216)
+I/AppCompatDelegate( 1918): 	at android.support.v7.app.ap.a(SourceFile:480)
+I/AppCompatDelegate( 1918): 	at android.support.v7.app.ap.onCreateView(SourceFile:570)
+I/AppCompatDelegate( 1918): 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:684)
+I/AppCompatDelegate( 1918): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:469)
+I/AppCompatDelegate( 1918): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:397)
+I/AppCompatDelegate( 1918): 	at android.view.LayoutInflater.inflate(LayoutInflater.java:353)
+I/AppCompatDelegate( 1918): 	at com.android.internal.policy.impl.PhoneWindow.generateLayout(PhoneWindow.java:3022)
+I/AppCompatDelegate( 1918): 	at com.android.internal.policy.impl.PhoneWindow.installDecor(PhoneWindow.java:3085)
+I/AppCompatDelegate( 1918): 	at com.android.internal.policy.impl.PhoneWindow.getDecorView(PhoneWindow.java:1678)
+I/AppCompatDelegate( 1918): 	at android.view.Window.findViewById(Window.java:913)
+I/AppCompatDelegate( 1918): 	at com.google.android.finsky.t.a.K(SourceFile:277)
+I/AppCompatDelegate( 1918): 	at com.google.android.finsky.t.a.onCreate(SourceFile:44)
+I/AppCompatDelegate( 1918): 	at com.google.android.finsky.activities.MainActivity.onCreate(SourceFile:11)
+I/AppCompatDelegate( 1918): 	at android.app.Activity.performCreate(Activity.java:5231)
+I/AppCompatDelegate( 1918): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+I/AppCompatDelegate( 1918): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+I/AppCompatDelegate( 1918): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+I/AppCompatDelegate( 1918): 	at android.app.ActivityThread.handleRelaunchActivity(ActivityThread.java:3736)
+I/AppCompatDelegate( 1918): 	at android.app.ActivityThread.access$900(ActivityThread.java:135)
+I/AppCompatDelegate( 1918): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1202)
+I/AppCompatDelegate( 1918): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+I/AppCompatDelegate( 1918): 	at android.os.Looper.loop(Looper.java:136)
+I/AppCompatDelegate( 1918): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+I/AppCompatDelegate( 1918): 	at java.lang.reflect.Method.invokeNative(Native Method)
+I/AppCompatDelegate( 1918): 	at java.lang.reflect.Method.invoke(Method.java:515)
+I/AppCompatDelegate( 1918): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+I/AppCompatDelegate( 1918): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+I/AppCompatDelegate( 1918): 	at dalvik.system.NativeStart.main(Native Method)
+I/AppCompatDelegate( 1918): Caused by: java.lang.NoClassDefFoundError: android/support/v7/app/AppCompatViewInflater
+I/AppCompatDelegate( 1918): 	... 31 more
+I/AppCompatDelegate( 1918): Caused by: java.lang.ClassNotFoundException: Didn't find class "android.support.v7.app.AppCompatViewInflater" on path: DexPathList[[zip file "/data/app/com.android.vending-2.apk", zip file "/data/data/com.android.vending/code_cache/secondary-dexes/com.android.vending-2.apk.classes2.zip"],nativeLibraryDirectories=[/data/app-lib/com.android.vending-2, /system/lib]]
+I/AppCompatDelegate( 1918): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+I/AppCompatDelegate( 1918): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+I/AppCompatDelegate( 1918): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+I/AppCompatDelegate( 1918): 	... 31 more
+I/Finsky  ( 1918): [1] com.google.android.finsky.t.a.onCreate(62): Waiting for user to return from auth screen.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+D/dalvikvm( 1918): GC_CONCURRENT freed 655K, 15% free 7464K/8760K, paused 1ms+4ms, total 18ms
+D/dalvikvm( 1918): WAIT_FOR_CONCURRENT_GC blocked 11ms
+W/EGL_emulation( 7054): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  478): Start proc com.pedrocorp.punchyourfriend for activity com.pedrocorp.punchyourfriend/.Main: pid=10828 uid=10146 gids={50146, 1028, 1015, 1023, 3003}
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10146, 1) failed with errno -13
+I/dalvikvm(10828): ignoring registerObject request in thread=1
+I/dalvikvm(10828): ignoring registerObject request in thread=1
+W/dalvikvm(10828): VFY: unable to resolve static field 3283 (checking_license) in Lcom/pedrocorp/punchyourfriend/R$string;
+D/dalvikvm(10828): VFY: replacing opcode 0x60 at 0x0000
+D/dalvikvm(10828): Trying to load lib /data/app-lib/com.pedrocorp.punchyourfriend-1/libpunchyourfriend.so 0x94f01c20
+W/EGL_emulation( 1918): eglSurfaceAttrib not implemented 3093 12436
+I/Finsky  ( 1918): [1] com.google.android.finsky.ch.a.onTrimMemory(5): Memory trim requested to level 20
+I/Finsky  ( 1918): [1] com.google.android.finsky.ch.a.onTrimMemory(11): Flushing in-memory image cache
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10007, 0) failed with errno -13
+D/dalvikvm(10828): Added shared lib /data/app-lib/com.pedrocorp.punchyourfriend-1/libpunchyourfriend.so 0x94f01c20
+I/AppFlood(10828): Papaya AppFlood SDK init version V1.60
+W/System.err(10828): java.lang.SecurityException: WifiService: Neither user 10146 nor current process has android.permission.ACCESS_WIFI_STATE.
+W/System.err(10828): 	at android.os.Parcel.readException(Parcel.java:1465)
+W/System.err(10828): 	at android.os.Parcel.readException(Parcel.java:1419)
+W/System.err(10828): 	at android.net.wifi.IWifiManager$Stub$Proxy.getConnectionInfo(IWifiManager.java:768)
+W/System.err(10828): 	at android.net.wifi.WifiManager.getConnectionInfo(WifiManager.java:884)
+W/System.err(10828): 	at com.appflood.d.c.a(dalvik_source_com.pedrocorp.punchyourfriend.apk)
+W/System.err(10828): 	at com.appflood.c.c.a(dalvik_source_com.pedrocorp.punchyourfriend.apk)
+W/System.err(10828): 	at com.appflood.AppFlood.initialize(dalvik_source_com.pedrocorp.punchyourfriend.apk)
+W/System.err(10828): 	at com.appflood.AppFlood.initialize(dalvik_source_com.pedrocorp.punchyourfriend.apk)
+W/System.err(10828): 	at com.pedrocorp.punchyourfriend.CustomActivity.c(SourceFile:341)
+W/System.err(10828): 	at com.pedrocorp.punchyourfriend.CustomActivity.onCreate(SourceFile:59)
+W/System.err(10828): 	at android.app.Activity.performCreate(Activity.java:5231)
+W/System.err(10828): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+W/System.err(10828): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+W/System.err(10828): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+W/System.err(10828): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+W/System.err(10828): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+W/System.err(10828): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err(10828): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err(10828): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err(10828): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err(10828): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err(10828): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err(10828): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err(10828): 	at dalvik.system.NativeStart.main(Native Method)
+W/AppFlood(10828): Failed to get WIFI MAC
+W/DebugConnManager(10828): getNetworkInfo() on networkType 0
+W/DebugConnManager(10828): getNetworkInfo() on networkType 1
+W/dalvikvm(10828): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(10828): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(10828): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(10828): VFY: unable to resolve virtual method 12670: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(10828): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(10828): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(10828): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(10828): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(10828): VFY: unable to resolve interface method 12664: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(10828): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(10828): body:<com.appflood.c.b: void a(boolean)>	sig:specialinvoke $r1.<java.net.URL: void <init>(java.lang.String)>($r0)	timediff:0
+I/System.out(10828): <com.appflood.c.b: void a(boolean)>###specialinvoke $r1.<java.net.URL: void <init>(java.lang.String)>($r0)###http://data.appflood.com/
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10012, 0) failed with errno -13
+D/dalvikvm(10828): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(10828): GC_CONCURRENT freed 261K, 10% free 2942K/3264K, paused 3ms+3ms, total 8ms
+I/System.out(10828): body:<com.appflood.d.j: java.net.URL a(java.lang.String,java.net.URL)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.net.URL,java.lang.String)>($r1, $r0)	timediff:0
+W/Settings(10828): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+D/dalvikvm(10828): GC_CONCURRENT freed 145K, 8% free 3240K/3504K, paused 2ms+0ms, total 7ms
+D/dalvikvm(10828): GC_FOR_ALLOC freed 153K, 7% free 3270K/3504K, paused 2ms, total 2ms
+I/dalvikvm-heap(10828): Grow heap (frag case) to 5.007MB for 1843212-byte allocation
+D/dalvikvm(10828): GC_FOR_ALLOC freed <1K, 5% free 5069K/5308K, paused 4ms, total 4ms
+D/dalvikvm(10828): GC_CONCURRENT freed <1K, 5% free 5069K/5308K, paused 0ms+0ms, total 2ms
+D/dalvikvm(10828): GC_FOR_ALLOC freed <1K, 5% free 5068K/5308K, paused 1ms, total 2ms
+I/dalvikvm-heap(10828): Grow heap (frag case) to 8.522MB for 3686412-byte allocation
+D/dalvikvm(10828): GC_CONCURRENT freed 2K, 3% free 8666K/8912K, paused 3ms+2ms, total 6ms
+I/System.out(10828): body:<com.appflood.b.b: void run()>	sig:$r3 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:103
+I/System.out(10828): body:<com.appflood.b.b: void run()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(10828): body:<com.appflood.b.b: void run()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setReadTimeout(int)>(60000)	timediff:0
+W/ViewRootImpl(10828): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=984864, downTime=-1, deviceId=0, source=0x10004 }
+W/SocketClient(  162): write error (Broken pipe)
+W/AppFlood(10828): login Failed. code = -1
+I/System.out(10828): body:<com.appflood.b.b: void a(int)>	sig:$r5 = virtualinvoke $r4.<java.net.URL: java.lang.String toString()>()	timediff:0
+W/AppFlood(10828): connection failed -1 http://data.appflood.com/get_token?v=1.60&model=6&sm=1&duid=UqTCNIjtk4QdUVaQ2Eqxjg%3D%3D&ts=1524183862221&data=Rcdm3973Hp9rjDFtfQi2UUM96p59aT%2B%2BFFbQ3GNVLjXhCTu5Yz64V%2F6YIuG59ERdEUicAqs%2By3YA71hEncTL0puBLKhGInUDu2GIzwHLPT8KLsBjQNUXzGVEHQLqBcZBfQL2u0960H54RokbBHJiorO0MnYeQqMZIQgNj5bcsQ81nOb0CQHs9Q1CHZ91tKDuXS16CjkAVNRgpnhS2TEZM4eHDrQm2fwn3%2F%2BwUVAjr6vVM7c0tFfUoPRRzQEevO6%2BtjVGeQq1FxoasWP2kBWYkZ4cVk3f6aec&adtype=4&app_key=0ppe09z8IoYnBlUF&mac=&uuid=WLtcjmjbg42Ndpm5FOF6vAy642tz97EDJ4oI2z069nHugfVTUlF1JQ%3D%3D&aid=nEt9OGMw7PXsJagS0U5aR%2F3g%2F7OVPcif&signature=eaef7519b51a01faccdef99e0aff2bbb
+D/        (10828): HostConnection::get() New Host Connection established 0xb8f01890, tid 10828
+W/ViewRootImpl(10828): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=984879, downTime=984879, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  642): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  642): java.lang.NullPointerException
+W/Binder  (  642): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  642): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  642): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  642): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  478): Got RemoteException sending setActive(false) notification to pid 10794 uid 10146
+I/ActivityManager(  478): Displayed com.pedrocorp.punchyourfriend/.Main: +401ms
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 478
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+D/        (10828): HostConnection::get() New Host Connection established 0xb8eeaa90, tid 10845
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 10828
+W/PhoneFallbackEventHandler(10828): No activity found for android.intent.action.CALL_BUTTON.
+W/dalvikvm(10828): JNI WARNING: DeleteLocalRef(0x1d200486) failed to find entry
+D/Flurry  (10828): LET App_Init
+D/dalvikvm(10828): GC_EXPLICIT freed 2072K, 24% free 6801K/8936K, paused 0ms+0ms, total 4ms
+D/dalvikvm(10828): GC_FOR_ALLOC freed 116K, 26% free 6689K/8936K, paused 2ms, total 2ms
+I/dalvikvm-heap(10828): Grow heap (frag case) to 8.410MB for 1843212-byte allocation
+D/dalvikvm(10828): GC_FOR_ALLOC freed <1K, 6% free 8488K/8936K, paused 2ms, total 2ms
+D/libEGL  (10828): loaded /system/lib/egl/libEGL_adreno.so
+D/dalvikvm(10828): GC_CONCURRENT freed <1K, 6% free 8489K/8936K, paused 0ms+3ms, total 21ms
+D/libEGL  (10828): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (10828): loaded /system/lib/egl/libGLESv2_adreno.so
+D/AndroidRuntime(10828): Shutting down VM
+W/dalvikvm(10828): threadid=1: thread exiting with uncaught exception (group=0x94c3db20)
+I/Process (  478): Sending signal. PID: 10828 SIG: 9
+E/AndroidRuntime(10828): FATAL EXCEPTION: main
+E/AndroidRuntime(10828): Process: com.pedrocorp.punchyourfriend, PID: 10828
+E/AndroidRuntime(10828): java.lang.RuntimeException: Native crash (11: Segmentation fault) at 0x0 (beacon=0x7d60b9d0)
+E/AndroidRuntime(10828): 	at com.pedrocorp.punchyourfriend.a.run(SourceFile:164)
+E/AndroidRuntime(10828): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/AndroidRuntime(10828): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/AndroidRuntime(10828): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(10828): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(10828): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(10828): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(10828): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(10828): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(10828): 	at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  478): Force-killing crashed app com.pedrocorp.punchyourfriend at watcher's request
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+W/InputDispatcher(  478): channel '4abf9914 com.pedrocorp.punchyourfriend/com.pedrocorp.punchyourfriend.Main (server)' ~ Consumer closed input channel or an error occurred.  events=0xd
+E/InputDispatcher(  478): channel '4abf9914 com.pedrocorp.punchyourfriend/com.pedrocorp.punchyourfriend.Main (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/InputDispatcher(  478): Attempted to unregister already unregistered input channel '4abf9914 com.pedrocorp.punchyourfriend/com.pedrocorp.punchyourfriend.Main (server)'
+I/WindowState(  478): WIN DEATH: Window{4abebd0c u0 SurfaceView}
+I/WindowState(  478): WIN DEATH: Window{4abf9914 u0 com.pedrocorp.punchyourfriend/com.pedrocorp.punchyourfriend.Main}
+W/WindowManager(  478): Force-removing child win Window{4ac813b8 u0 SurfaceView} from container Window{4abf9914 u0 com.pedrocorp.punchyourfriend/com.pedrocorp.punchyourfriend.Main}
+I/ActivityManager(  478): Process com.pedrocorp.punchyourfriend (pid 10828) has died.
+W/ActivityManager(  478): Force removing ActivityRecord{4a9852fc u0 com.pedrocorp.punchyourfriend/.Main t66}: app died, no saved state
+W/WindowManager(  478): Failed looking up window
+W/WindowManager(  478): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@4a8bd92c does not exist
+W/WindowManager(  478): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8096)
+W/WindowManager(  478): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8087)
+W/WindowManager(  478): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1051)
+W/WindowManager(  478): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:493)
+W/WindowManager(  478): 	at dalvik.system.NativeStart.run(Native Method)
+I/WindowState(  478): WIN DEATH: null
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10146, 0) failed with errno -13
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10007, 1) failed with errno -13
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10012, 1) failed with errno -13
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  478): Dropping event because there is no focused window or focused application.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/InputManager(  478): Input event injection from pid 10784 failed.
+W/EGL_emulation( 7054): eglSurfaceAttrib not implemented 3093 12436
+W/Binder  (  642): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  642): java.lang.NullPointerException
+W/Binder  (  642): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  642): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  642): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  642): 	at dalvik.system.NativeStart.run(Native Method)
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  478): Got RemoteException sending setActive(false) notification to pid 10828 uid 10146
+W/EGL_emulation( 1918): eglSurfaceAttrib not implemented 3093 12436
+D/emuglGLESv2_enc( 1918): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc( 1918): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc( 1918): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #05  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+D/emuglGLESv2_enc( 1918): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc( 1918): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc( 1918): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #04  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+W/Herrevad(  732): [853] sjl.a: On wifi, but couldn't get security type
+W/DebugConnManager(  732): getNetworkInfo() on networkType 0
+D/emuglGLESv2_enc( 1918): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc( 1918): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc( 1918): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 000316b8  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #04  pc 0003831e  /system/lib/libhwui.so (android::uirenderer::OpenGLRenderer::prepare(bool)+62)
+D/emuglGLESv2_enc( 1918): #05  pc 000bf989  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #06  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+D/emuglGLESv2_enc( 1918): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc( 1918): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc( 1918): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 00031b52  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #04  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #05  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+D/emuglGLESv2_enc( 1918): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc( 1918): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc( 1918): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #05  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+D/emuglGLESv2_enc( 1918): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc( 1918): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc( 1918): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #04  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+D/emuglGLESv2_enc( 1918): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc( 1918): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc( 1918): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #05  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+D/emuglGLESv2_enc( 1918): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc( 1918): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc( 1918): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #04  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+D/emuglGLESv2_enc( 1918): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc( 1918): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc( 1918): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #05  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+D/emuglGLESv2_enc( 1918): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc( 1918): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc( 1918): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #04  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+D/emuglGLESv2_enc( 1918): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc( 1918): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc( 1918): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #05  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+D/emuglGLESv2_enc( 1918): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc( 1918): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc( 1918): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #04  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+D/emuglGLESv2_enc( 1918): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc( 1918): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc( 1918): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #05  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+D/emuglGLESv2_enc( 1918): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc( 1918): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc( 1918): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #04  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+D/emuglGLESv2_enc( 1918): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc( 1918): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc( 1918): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #04  pc 000c14a3  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #05  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+D/emuglGLESv2_enc( 1918): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc( 1918): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc( 1918): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc( 1918): #03  pc 000be13f  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc( 1918): #04  pc 000340ab  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc( 1918): Function is unsupported
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 478
+V/PanelView(  530): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  530): animationTick called with dtms=-7; nothing to do (h=0.0 v=-0.0)
+D/dalvikvm(  642): GC_CONCURRENT freed 431K, 15% free 3037K/3532K, paused 0ms+1ms, total 3ms
+W/WindowManager(  478): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  530): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=990024, downTime=990024, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  530): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=990033, downTime=990033, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  478): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a90fb1c (uid=10007 pid=7054)
+W/BackupManagerService(  478): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputEventReceiver(  530): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  530): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  530): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=510.9143, y[0]=-229.76251, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=990102, downTime=990099, deviceId=0, source=0x1002 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+I/ActivityManager(  478): Start proc com.pedrocorp.punchyourfriend for activity com.pedrocorp.punchyourfriend/.Main: pid=10867 uid=10146 gids={50146, 1028, 1015, 1023, 3003}
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10146, 1) failed with errno -13
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10012, 0) failed with errno -13
+I/dalvikvm(10867): ignoring registerObject request in thread=1
+I/dalvikvm(10867): ignoring registerObject request in thread=1
+I/Finsky  ( 1918): [1] com.google.android.finsky.ch.a.onTrimMemory(5): Memory trim requested to level 20
+I/Finsky  ( 1918): [1] com.google.android.finsky.ch.a.onTrimMemory(11): Flushing in-memory image cache
+W/dalvikvm(10867): VFY: unable to resolve static field 3283 (checking_license) in Lcom/pedrocorp/punchyourfriend/R$string;
+D/dalvikvm(10867): VFY: replacing opcode 0x60 at 0x0000
+D/dalvikvm(10867): Trying to load lib /data/app-lib/com.pedrocorp.punchyourfriend-1/libpunchyourfriend.so 0x94f02b18
+D/dalvikvm(10867): Added shared lib /data/app-lib/com.pedrocorp.punchyourfriend-1/libpunchyourfriend.so 0x94f02b18
+I/AppFlood(10867): Papaya AppFlood SDK init version V1.60
+W/System.err(10867): java.lang.SecurityException: WifiService: Neither user 10146 nor current process has android.permission.ACCESS_WIFI_STATE.
+W/System.err(10867): 	at android.os.Parcel.readException(Parcel.java:1465)
+W/System.err(10867): 	at android.os.Parcel.readException(Parcel.java:1419)
+W/System.err(10867): 	at android.net.wifi.IWifiManager$Stub$Proxy.getConnectionInfo(IWifiManager.java:768)
+W/System.err(10867): 	at android.net.wifi.WifiManager.getConnectionInfo(WifiManager.java:884)
+W/System.err(10867): 	at com.appflood.d.c.a(dalvik_source_com.pedrocorp.punchyourfriend.apk)
+W/System.err(10867): 	at com.appflood.c.c.a(dalvik_source_com.pedrocorp.punchyourfriend.apk)
+W/System.err(10867): 	at com.appflood.AppFlood.initialize(dalvik_source_com.pedrocorp.punchyourfriend.apk)
+W/System.err(10867): 	at com.appflood.AppFlood.initialize(dalvik_source_com.pedrocorp.punchyourfriend.apk)
+W/System.err(10867): 	at com.pedrocorp.punchyourfriend.CustomActivity.c(SourceFile:341)
+W/System.err(10867): 	at com.pedrocorp.punchyourfriend.CustomActivity.onCreate(SourceFile:59)
+W/System.err(10867): 	at android.app.Activity.performCreate(Activity.java:5231)
+W/System.err(10867): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+W/System.err(10867): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+W/System.err(10867): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+W/System.err(10867): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+W/System.err(10867): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+W/System.err(10867): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err(10867): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err(10867): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err(10867): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err(10867): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err(10867): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err(10867): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err(10867): 	at dalvik.system.NativeStart.main(Native Method)
+W/AppFlood(10867): Failed to get WIFI MAC
+W/DebugConnManager(10867): getNetworkInfo() on networkType 0
+W/DebugConnManager(10867): getNetworkInfo() on networkType 1
+W/dalvikvm(10867): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(10867): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(10867): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(10867): VFY: unable to resolve virtual method 12670: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(10867): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(10867): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(10867): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(10867): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(10867): VFY: unable to resolve interface method 12664: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(10867): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(10867): body:<com.appflood.c.b: void a(boolean)>	sig:specialinvoke $r1.<java.net.URL: void <init>(java.lang.String)>($r0)	timediff:0
+I/System.out(10867): <com.appflood.c.b: void a(boolean)>###specialinvoke $r1.<java.net.URL: void <init>(java.lang.String)>($r0)###http://data.appflood.com/
+D/dalvikvm(10867): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(10867): GC_CONCURRENT freed 245K, 10% free 2928K/3236K, paused 4ms+0ms, total 6ms
+I/System.out(10867): body:<com.appflood.d.j: java.net.URL a(java.lang.String,java.net.URL)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.net.URL,java.lang.String)>($r1, $r0)	timediff:0
+I/System.out(10867): body:<com.appflood.b.b: void run()>	sig:$r3 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:14
+I/System.out(10867): body:<com.appflood.b.b: void run()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(10867): body:<com.appflood.b.b: void run()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setReadTimeout(int)>(60000)	timediff:0
+W/AppFlood(10867): login Failed. code = -1
+I/System.out(10867): body:<com.appflood.b.b: void a(int)>	sig:$r5 = virtualinvoke $r4.<java.net.URL: java.lang.String toString()>()	timediff:0
+W/AppFlood(10867): connection failed -1 http://data.appflood.com/get_token?v=1.60&model=6&sm=1&duid=UqTCNIjtk4QdUVaQ2Eqxjg%3D%3D&ts=1524183867813&data=Rcdm3973Hp9rjDFtfQi2UUM96p59aT%2B%2BFFbQ3GNVLjXhCTu5Yz64V%2F6YIuG59ERdEUicAqs%2By3YA71hEncTL0puBLKhGInUDu2GIzwHLPT8KLsBjQNUXzGVEHQLqBcZBfQL2u0960H54RokbBHJiorO0MnYeQqMZIQgNj5bcsQ81nOb0CQHs9Q1CHZ91tKDuXS16CjkAVNRgpnhS2TEZM4eHDrQm2fwn3%2F%2BwUVAjr6vVM7c0tFfUoPRRzQEevO6%2BtjVGeQq1FxoasWP2kBWYkZ4cVk3f6aec&adtype=4&app_key=0ppe09z8IoYnBlUF&mac=&uuid=WLtcjmjbg42Ndpm5FOF6vAy642tz97EDJ4oI2z069nHugfVTUlF1JQ%3D%3D&aid=nEt9OGMw7PXsJagS0U5aR%2F3g%2F7OVPcif&signature=bc12470d153adbf142c9511c1141f49d
+W/SocketClient(  162): write error (Broken pipe)
+W/Settings(10867): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+D/dalvikvm(10867): GC_CONCURRENT freed 186K, 8% free 3129K/3376K, paused 2ms+5ms, total 9ms
+W/DebugConnManager(  678): getNetworkInfo() on networkType 1
+D/dalvikvm(10867): GC_FOR_ALLOC freed 163K, 7% free 3265K/3492K, paused 3ms, total 3ms
+I/dalvikvm-heap(10867): Grow heap (frag case) to 5.002MB for 1843212-byte allocation
+D/dalvikvm(10867): GC_FOR_ALLOC freed 0K, 5% free 5065K/5296K, paused 4ms, total 4ms
+D/dalvikvm(10867): GC_FOR_ALLOC freed 0K, 5% free 5065K/5296K, paused 3ms, total 3ms
+I/dalvikvm-heap(10867): Grow heap (frag case) to 8.518MB for 3686412-byte allocation
+D/dalvikvm(10867): GC_FOR_ALLOC freed <1K, 3% free 8665K/8900K, paused 2ms, total 2ms
+D/dalvikvm(10867): GC_CONCURRENT freed 4K, 3% free 8691K/8900K, paused 17ms+1ms, total 20ms
+W/ViewRootImpl(10867): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=990223, downTime=990223, deviceId=-1, source=0x101 }
+D/        (10867): HostConnection::get() New Host Connection established 0xb8ef0900, tid 10867
+W/ViewRootImpl(10867): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=990837, downTime=990837, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): Displayed com.pedrocorp.punchyourfriend/.Main: +849ms
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10007, 0) failed with errno -13
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+D/        (10867): HostConnection::get() New Host Connection established 0xb8ef0410, tid 10886
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pedrocorp.punchyourfriend/.Main} from pid 10784
+I/AndroidRuntime(10784): VM exiting with result code 0.

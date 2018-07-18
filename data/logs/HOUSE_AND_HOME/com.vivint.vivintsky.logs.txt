@@ -1,0 +1,936 @@
+--------- beginning of /dev/log/main
+I/Icing   (  746): Indexing 9EBFE84EABD9270B25A97439CA522B4FC49A4875 from com.google.android.gms
+I/Icing   (  746): Indexing done 9EBFE84EABD9270B25A97439CA522B4FC49A4875
+D/AndroidRuntime(31016): 
+D/AndroidRuntime(31016): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(31016): CheckJNI is OFF
+D/dalvikvm(31016): Using executionMode 2
+D/dalvikvm(31016): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(31016): Added shared lib libjavacore.so 0x0
+D/dalvikvm(31016): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(31016): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(31016): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(31016): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(31016): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(31016): failed to load memtrack module: -2
+D/AndroidRuntime(31016): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  470): Skipping deliver [background] BroadcastRecord{4b1f55e4 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4b173f20 31016 (unknown name)/0/u-1 remote:4b097580}: process crashing
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10088, 1) failed with errno -13
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10012, 0) failed with errno -13
+I/ActivityManager(  470): Start proc com.vivint.vivintsky for activity com.vivint.vivintsky/.MainActivity: pid=31026 uid=10088 gids={50088, 3003, 1028, 1015, 1023, 3002}
+E/FastMixer(  168): did not receive expected priority boost
+V/FlingTracker(  556): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  556): java.lang.Throwable
+V/FlingTracker(  556): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  556): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  556): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  556): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  556): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  556): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  556): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  556): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  556): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  556): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  556): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  556): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  556): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  556): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  556): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  556): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  556): animationTick called with dtms=0; nothing to do (h=1280.0 v=0.0)
+I/dalvikvm(31026): ignoring registerObject request in thread=1
+I/dalvikvm(31026): ignoring registerObject request in thread=1
+V/PanelView(  556): animationTick called with dtms=-2; nothing to do (h=1280.0 v=0.0)
+I/Finsky  (  920): [1] com.google.android.finsky.cg.a.onTrimMemory(5): Memory trim requested to level 20
+I/Finsky  (  920): [1] com.google.android.finsky.cg.a.onTrimMemory(11): Flushing in-memory image cache
+D/dalvikvm(31026): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(31026): GC_CONCURRENT freed 147K, 7% free 3211K/3420K, paused 2ms+2ms, total 6ms
+D/dalvikvm(31026): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm(31026): DexOpt: --- BEGIN 'com.vivint.vivintsky-1.apk.classes2.zip' (bootstrap=0) ---
+D/dalvikvm(31026): GC_CONCURRENT freed 178K, 7% free 3425K/3676K, paused 1ms+1ms, total 5ms
+D/dalvikvm(31041): DexOpt: load 21ms, verify+opt 33ms, 1316876 bytes
+D/dalvikvm(31026): DexOpt: --- END 'com.vivint.vivintsky-1.apk.classes2.zip' (success) ---
+D/dalvikvm(31026): DEX prep '/data/data/com.vivint.vivintsky/code_cache/secondary-dexes/com.vivint.vivintsky-1.apk.classes2.zip': unzip in 6ms, rewrite 248ms
+E/dalvikvm(31026): Could not find class 'android.media.session.MediaController', referenced from method android.support.v4.app.FragmentActivity.setSupportMediaController
+W/dalvikvm(31026): VFY: unable to resolve check-cast 277 (Landroid/media/session/MediaController;) in Landroid/support/v4/app/FragmentActivity;
+D/dalvikvm(31026): VFY: replacing opcode 0x1f at 0x000d
+W/com.facebook.internal.Validate(31026): FacebookActivity is not declared in the AndroidManifest.xml, please add com.facebook.FacebookActivity to your AndroidManifest.xml file. See https://developers.facebook.com/docs/android/getting-started for more info.
+W/dalvikvm(31026): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(31026): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(31026): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(31026): VFY: unable to resolve virtual method 63293: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(31026): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(31026): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(31026): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(31026): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(31026): VFY: unable to resolve interface method 63287: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(31026): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(31026): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:specialinvoke r29.<java.net.URL: void <init>(java.lang.String)>($r9)	timediff:0
+I/System.out(31026): <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>###specialinvoke r29.<java.net.URL: void <init>(java.lang.String)>($r9)###https://graph.facebook.com/v2.4/1602333533370768?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_content%2Cgdpv4_nux_enabled%2Candroid_dialog_configs%2Candroid_sdk_error_categories&format=json&sdk=android
+D/dalvikvm(31026): GC_CONCURRENT freed 788K, 19% free 3243K/4000K, paused 3ms+0ms, total 17ms
+I/System.out(31026): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:$r14 = virtualinvoke $r13.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:36
+I/System.out(31026): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r9)	timediff:0
+I/System.out(31026): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Language", $r9)	timediff:0
+I/System.out(31026): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setChunkedStreamingMode(int)>(0)	timediff:0
+I/System.out(31026): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r9)	timediff:0
+I/System.out(31026): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/x-www-form-urlencoded")	timediff:0
+I/System.out(31026): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Encoding", "gzip")	timediff:0
+I/System.out(31026): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:$r13 = virtualinvoke $r15.<java.net.HttpURLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(31026): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:$r9 = virtualinvoke $r15.<java.net.HttpURLConnection: java.lang.String getRequestMethod()>()	timediff:0
+I/System.out(31026): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:$r9 = virtualinvoke $r15.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("User-Agent")	timediff:0
+I/System.out(31026): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:$r9 = virtualinvoke $r15.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out(31026): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out(31026): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:virtualinvoke $r15.<java.net.HttpURLConnection: void setReadTimeout(int)>($i1)	timediff:0
+D/dalvikvm(31026): GC_FOR_ALLOC freed 308K, 19% free 3279K/4000K, paused 5ms, total 7ms
+D/dalvikvm(31026): GC_FOR_ALLOC freed 32K, 18% free 3292K/4000K, paused 2ms, total 3ms
+I/dalvikvm-heap(31026): Grow heap (frag case) to 3.350MB for 79888-byte allocation
+D/dalvikvm(31026): GC_FOR_ALLOC freed <1K, 18% free 3370K/4080K, paused 6ms, total 6ms
+W/Resources(31026): Converting to string: TypedValue{t=0x10/d=0x927c0 a=-1}
+W/Resources(31026): Converting to string: TypedValue{t=0x10/d=0x927c0 a=-1}
+W/Resources(31026): Converting to string: TypedValue{t=0x10/d=0xdbba0 a=-1}
+W/Resources(31026): Converting to string: TypedValue{t=0x10/d=0xdbba0 a=-1}
+I/dalvikvm(31026): Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.internal.widget.TintTypedArray.getChangingConfigurations
+W/dalvikvm(31026): VFY: unable to resolve virtual method 984: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+D/dalvikvm(31026): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm(31026): Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.internal.widget.TintTypedArray.getType
+W/dalvikvm(31026): VFY: unable to resolve virtual method 1006: Landroid/content/res/TypedArray;.getType (I)I
+D/dalvikvm(31026): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm(31026): Could not find method android.content.Context.getColor, referenced from method android.support.v4.content.ContextCompat.getColor
+W/dalvikvm(31026): VFY: unable to resolve virtual method 728: Landroid/content/Context;.getColor (I)I
+D/dalvikvm(31026): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(31026): Could not find method android.content.Context.getColorStateList, referenced from method android.support.v4.content.ContextCompat.getColorStateList
+W/dalvikvm(31026): VFY: unable to resolve virtual method 729: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm(31026): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(31026): Could not find method android.content.Context.getDrawable, referenced from method android.support.v4.content.ContextCompat.getDrawable
+W/dalvikvm(31026): VFY: unable to resolve virtual method 733: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(31026): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(31026): Could not find method android.content.Context.getCodeCacheDir, referenced from method android.support.v4.content.ContextCompat.getCodeCacheDir
+W/dalvikvm(31026): VFY: unable to resolve virtual method 727: Landroid/content/Context;.getCodeCacheDir ()Ljava/io/File;
+D/dalvikvm(31026): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(31026): Could not find method android.content.Context.getNoBackupFilesDir, referenced from method android.support.v4.content.ContextCompat.getNoBackupFilesDir
+W/dalvikvm(31026): VFY: unable to resolve virtual method 741: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;
+D/dalvikvm(31026): VFY: replacing opcode 0x6e at 0x0006
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:specialinvoke $r11.<java.net.URL: void <init>(java.lang.String)>($r9)	timediff:0
+I/System.out(31026): <com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>###specialinvoke $r11.<java.net.URL: void <init>(java.lang.String)>($r9)###https://api.instabug.com/api/android/v1/register_device
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:$r8 = virtualinvoke $r11.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("POST")	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: void a(java.net.HttpURLConnection,com.android.volley.Request)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: void a(java.net.HttpURLConnection,com.android.volley.Request)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void addRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r3)	timediff:0
+V/PanelView(  556): animationTick called with dtms=0; nothing to do (h=1280.0 v=0.0)
+D/dalvikvm(31026): GC_CONCURRENT freed 271K, 15% free 3483K/4080K, paused 2ms+0ms, total 15ms
+D/dalvikvm(31026): GC_FOR_ALLOC freed 214K, 16% free 3449K/4080K, paused 4ms, total 6ms
+I/dalvikvm-heap(31026): Grow heap (frag case) to 5.196MB for 1855500-byte allocation
+D/dalvikvm(31026): GC_FOR_ALLOC freed 1K, 11% free 5260K/5896K, paused 4ms, total 4ms
+I/qtaguid (31026): Tagging socket 40 with tag bfc5bb2000000000(-1077560544) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(31026): tagSocketFd(40, -1077560544, -1) failed with errno-13
+D/dalvikvm(31026): GC_CONCURRENT freed <1K, 11% free 5261K/5896K, paused 1ms+0ms, total 6ms
+D/dalvikvm(31026): GC_FOR_ALLOC freed 65K, 11% free 5322K/5952K, paused 3ms, total 3ms
+I/dalvikvm-heap(31026): Grow heap (frag case) to 5.862MB for 635808-byte allocation
+D/dalvikvm(31026): GC_FOR_ALLOC freed <1K, 10% free 5943K/6576K, paused 4ms, total 4ms
+I/System.out(31026): body:<com.vivint.vivintsky.net.VivUrlConnection: void <init>()>	sig:specialinvoke $r1.<java.net.CookieManager: void <init>(java.net.CookieStore,java.net.CookiePolicy)>(null, $r2)	timediff:0
+I/System.out(31026): body:<com.vivint.vivintsky.net.VivUrlConnection: void <init>()>	sig:staticinvoke <java.net.CookieHandler: void setDefault(java.net.CookieHandler)>($r1)	timediff:0
+I/System.out(31026): body:<com.vivint.vivintsky.net.VivUrlConnection: void setCookieStore(java.net.CookieStore)>	sig:specialinvoke $r2.<java.net.CookieManager: void <init>(java.net.CookieStore,java.net.CookiePolicy)>($r1, $r3)	timediff:0
+I/System.out(31026): body:<com.vivint.vivintsky.net.VivUrlConnection: void setCookieStore(java.net.CookieStore)>	sig:staticinvoke <java.net.CookieHandler: void setDefault(java.net.CookieHandler)>($r2)	timediff:0
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+I/System.out(31026): body:<com.facebook.GraphResponse: java.util.List a(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$i0 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:256
+I/Choreographer(  556): Skipped 43 frames!  The application may be doing too much work on its main thread.
+I/System.out(31026): body:<com.facebook.GraphResponse: java.util.List a(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(31026): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(31026): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:1
+I/System.out(31026): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(31026): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(31026): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(31026): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(31026): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(31026): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(31026): URLConn;%;0;%;<com.facebook.GraphResponse: java.util.List a(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>;%;$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://graph.facebook.com/v2.4/1602333533370768?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_content%2Cgdpv4_nux_enabled%2Candroid_dialog_configs%2Candroid_sdk_error_categories&format=json&sdk=android;%;false;%;Not found;%;private, no-cache, no-store, must-revalidate;%;Sat, 01 Jan 2000 00:00:00 GMT;%;Not found;%;Not found
+I/System.out(31026): body:<com.facebook.GraphResponse: java.util.List a(java.net.HttpURLConnection,java.util.List,java.lang.Object)>	sig:$i1 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(31026): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+V/PanelView(  556): animationTick called with dtms=0; nothing to do (h=1280.0 v=0.0)
+V/FlingTracker(  556): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  556): java.lang.Throwable
+V/FlingTracker(  556): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  556): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  556): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  556): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  556): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  556): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  556): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  556): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  556): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  556): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  556): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  556): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  556): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  556): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  556): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  556): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  556): animationTick called with dtms=0; nothing to do (h=1280.0 v=0.0)
+V/FlingTracker(  556): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  556): java.lang.Throwable
+V/FlingTracker(  556): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  556): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  556): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  556): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  556): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  556): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  556): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  556): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  556): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  556): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  556): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  556): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  556): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  556): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  556): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  556): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  556): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  556): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  556): animationTick called with dtms=0; nothing to do (h=1280.0 v=0.0)
+V/PanelView(  556): animationTick called with dtms=0; nothing to do (h=1280.0 v=-3000.0)
+V/PanelView(  556): animationTick called with dtms=-7; nothing to do (h=1280.0 v=-3000.0)
+W/ViewRootImpl(  556): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=3274031, downTime=-1, deviceId=0, source=0x10004 }
+D/dalvikvm(31026): GC_FOR_ALLOC freed 2027K, 36% free 4224K/6576K, paused 5ms, total 5ms
+I/dalvikvm-heap(31026): Grow heap (frag case) to 7.574MB for 3554556-byte allocation
+D/dalvikvm(31026): GC_FOR_ALLOC freed <1K, 24% free 7695K/10048K, paused 9ms, total 9ms
+D/dalvikvm(31026): GC_CONCURRENT freed 0K, 24% free 7706K/10048K, paused 2ms+3ms, total 8ms
+I/qtaguid (31026): Untagging socket 40 failed errno=-13
+D/dalvikvm(31026): GC_FOR_ALLOC freed 22K, 24% free 7686K/10048K, paused 3ms, total 3ms
+I/dalvikvm-heap(31026): Grow heap (frag case) to 13.588MB for 6316172-byte allocation
+D/dalvikvm(31026): GC_FOR_ALLOC freed <1K, 15% free 13854K/16220K, paused 8ms, total 8ms
+W/NetworkManagementSocketTagger(31026): untagSocket(40) failed with errno -13
+D/dalvikvm(31026): GC_CONCURRENT freed 2K, 15% free 13857K/16220K, paused 2ms+4ms, total 10ms
+I/dalvikvm(31026): Could not find method android.view.View.getTransitionName, referenced from method android.support.v4.app.BackStackRecord.a
+W/dalvikvm(31026): VFY: unable to resolve virtual method 18117: Landroid/view/View;.getTransitionName ()Ljava/lang/String;
+D/dalvikvm(31026): VFY: replacing opcode 0x6e at 0x0026
+W/dalvikvm(31026): Unable to resolve superclass of Landroid/support/v4/app/W; (2133)
+W/dalvikvm(31026): Link of class 'Landroid/support/v4/app/W;' failed
+E/dalvikvm(31026): Could not find class 'android.support.v4.app.W', referenced from method android.support.v4.app.BackStackRecord.a
+W/dalvikvm(31026): VFY: unable to resolve new-instance 640 (Landroid/support/v4/app/W;) in Landroid/support/v4/app/BackStackRecord;
+D/dalvikvm(31026): VFY: replacing opcode 0x22 at 0x0243
+I/dalvikvm(31026): Could not find method android.view.View.getTransitionName, referenced from method android.support.v4.app.BackStackRecord.b
+W/dalvikvm(31026): VFY: unable to resolve virtual method 18117: Landroid/view/View;.getTransitionName ()Ljava/lang/String;
+D/dalvikvm(31026): VFY: replacing opcode 0x6e at 0x0017
+I/dalvikvm(31026): Could not find method android.view.View.getTransitionName, referenced from method android.support.v4.app.BackStackRecord.addSharedElement
+W/dalvikvm(31026): VFY: unable to resolve virtual method 18117: Landroid/view/View;.getTransitionName ()Ljava/lang/String;
+D/dalvikvm(31026): VFY: replacing opcode 0x6e at 0x0004
+W/dalvikvm(31026): Unable to resolve superclass of Landroid/support/v4/app/W; (2133)
+W/dalvikvm(31026): Link of class 'Landroid/support/v4/app/W;' failed
+D/dalvikvm(31026): DexOpt: unable to opt direct call 0x0ef7 at 0x249 in Landroid/support/v4/app/BackStackRecord;.a
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+I/dalvikvm(31026): Could not find method android.app.AlarmManager.getNextAlarmClock, referenced from method com.vivint.vivintsky.net.WakefulDataService.onHandleIntent
+W/dalvikvm(31026): VFY: unable to resolve virtual method 359: Landroid/app/AlarmManager;.getNextAlarmClock ()Landroid/app/AlarmManager$AlarmClockInfo;
+D/dalvikvm(31026): VFY: replacing opcode 0x6e at 0x00d0
+I/dalvikvm(31026): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.b
+W/dalvikvm(31026): VFY: unable to resolve virtual method 574: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm(31026): VFY: replacing opcode 0x6e at 0x00eb
+I/dalvikvm(31026): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zzh
+W/dalvikvm(31026): VFY: unable to resolve virtual method 899: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(31026): VFY: replacing opcode 0x6e at 0x000a
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:specialinvoke $r11.<java.net.URL: void <init>(java.lang.String)>($r9)	timediff:0
+I/System.out(31026): <com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>###specialinvoke $r11.<java.net.URL: void <init>(java.lang.String)>($r9)###https://api.instabug.com/api/android/v1/features
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:$r8 = virtualinvoke $r11.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("POST")	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: void a(java.net.HttpURLConnection,com.android.volley.Request)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(31026): body:<com.android.volley.toolbox.HurlStack: void a(java.net.HttpURLConnection,com.android.volley.Request)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void addRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r3)	timediff:0
+I/qtaguid (31026): Tagging socket 56 with tag bfc5bb2000000000(-1077560544) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(31026): tagSocketFd(56, -1077560544, -1) failed with errno-13
+D/libEGL  (31026): loaded /system/lib/egl/libEGL_adreno.so
+D/        (31026): HostConnection::get() New Host Connection established 0xb8f9c260, tid 31026
+D/libEGL  (31026): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (31026): loaded /system/lib/egl/libGLESv2_adreno.so
+I/qtaguid (31026): Untagging socket 56 failed errno=-13
+W/NetworkManagementSocketTagger(31026): untagSocket(56) failed with errno -13
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(31026): Enabling debug mode 0
+W/ViewRootImpl(31026): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3274031, downTime=3274031, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/dalvikvm(31026): method Landroid/support/v7/internal/widget/ListViewCompat;.lookForSelectablePosition incorrectly overrides package-private method with same name in Landroid/widget/ListView;
+W/ViewRootImpl(31026): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3274484, downTime=3274484, deviceId=-1, source=0x101 }
+W/EGL_emulation(  556): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1995 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  656): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  656): java.lang.NullPointerException
+W/Binder  (  656): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  656): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  656): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  656): 	at dalvik.system.NativeStart.run(Native Method)
+I/ActivityManager(  470): Displayed com.vivint.vivintsky/.MainActivity: +1s382ms
+W/InputMethodManagerService(  470): Got RemoteException sending setActive(false) notification to pid 30458 uid 10087
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+D/WearableService(  668): onGetService - Wear is not available on this device.
+I/WindowManager(  470): Switching to real app window: Window{4a9f7600 u0 com.vivint.vivintsky/com.vivint.vivintsky.MainActivity}
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10007, 0) failed with errno -13
+E/Calling monitoring station(31026): Call failed
+E/Calling monitoring station(31026): android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.DIAL dat=tel:xxxxxxxxxxx flg=0x10000000 }
+E/Calling monitoring station(31026): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1649)
+E/Calling monitoring station(31026): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1441)
+E/Calling monitoring station(31026): 	at android.app.Activity.startActivityForResult(Activity.java:3424)
+E/Calling monitoring station(31026): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+E/Calling monitoring station(31026): 	at android.support.v4.app.FragmentActivity.startActivityForResult(SourceFile:784)
+E/Calling monitoring station(31026): 	at com.vivint.vivintsky.MainActivity.startActivityFromFragment(SourceFile:1859)
+E/Calling monitoring station(31026): 	at android.support.v4.app.D.onStartActivityFromFragment(SourceFile:907)
+E/Calling monitoring station(31026): 	at android.support.v4.app.Fragment.startActivity(SourceFile:916)
+E/Calling monitoring station(31026): 	at com.vivint.vivintsky.account.X.onClick(SourceFile:68)
+E/Calling monitoring station(31026): 	at android.view.View.performClick(View.java:4438)
+E/Calling monitoring station(31026): 	at android.view.View$PerformClick.run(View.java:18422)
+E/Calling monitoring station(31026): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/Calling monitoring station(31026): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/Calling monitoring station(31026): 	at android.os.Looper.loop(Looper.java:136)
+E/Calling monitoring station(31026): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/Calling monitoring station(31026): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/Calling monitoring station(31026): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/Calling monitoring station(31026): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/Calling monitoring station(31026): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/Calling monitoring station(31026): 	at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  470): START u0 {act=android.intent.action.DIAL dat=tel:xxxxxxxxxxx flg=0x10000000} from pid 31026
+W/WindowManager(  470): updateFocusedWindowLocked, focusedAppToken is null.
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/InputEventReceiver(  470): Attempted to finish an input event but the input event receiver has already been disposed.
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa039e0 attribute=android.view.inputmethod.EditorInfo@4aa02ab0, token = android.os.BinderProxy@4a9ba890
+I/ActivityManager(  470): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 31026
+W/PhoneFallbackEventHandler(31026): No activity found for android.intent.action.CALL_BUTTON.
+W/IInputConnectionWrapper(31026): getCursorCapsMode on inactive InputConnection
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+E/Calling monitoring station(31026): Call failed
+E/Calling monitoring station(31026): android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.DIAL dat=tel:xxxxxxxxxxx flg=0x10000000 }
+E/Calling monitoring station(31026): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1649)
+E/Calling monitoring station(31026): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1441)
+E/Calling monitoring station(31026): 	at android.app.Activity.startActivityForResult(Activity.java:3424)
+E/Calling monitoring station(31026): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+E/Calling monitoring station(31026): 	at android.support.v4.app.FragmentActivity.startActivityForResult(SourceFile:784)
+E/Calling monitoring station(31026): 	at com.vivint.vivintsky.MainActivity.startActivityFromFragment(SourceFile:1859)
+E/Calling monitoring station(31026): 	at android.support.v4.app.D.onStartActivityFromFragment(SourceFile:907)
+E/Calling monitoring station(31026): 	at android.support.v4.app.Fragment.startActivity(SourceFile:916)
+E/Calling monitoring station(31026): 	at com.vivint.vivintsky.account.X.onClick(SourceFile:68)
+E/Calling monitoring station(31026): 	at android.view.View.performClick(View.java:4438)
+E/Calling monitoring station(31026): 	at android.view.View$PerformClick.run(View.java:18422)
+E/Calling monitoring station(31026): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/Calling monitoring station(31026): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/Calling monitoring station(31026): 	at android.os.Looper.loop(Looper.java:136)
+E/Calling monitoring station(31026): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/Calling monitoring station(31026): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/Calling monitoring station(31026): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/Calling monitoring station(31026): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/Calling monitoring station(31026): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/Calling monitoring station(31026): 	at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  470): START u0 {act=android.intent.action.DIAL dat=tel:xxxxxxxxxxx flg=0x10000000} from pid 31026
+E/Calling monitoring station(31026): Call failed
+E/Calling monitoring station(31026): android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.DIAL dat=tel:xxxxxxxxxxx flg=0x10000000 }
+E/Calling monitoring station(31026): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1649)
+E/Calling monitoring station(31026): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1441)
+E/Calling monitoring station(31026): 	at android.app.Activity.startActivityForResult(Activity.java:3424)
+E/Calling monitoring station(31026): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+E/Calling monitoring station(31026): 	at android.support.v4.app.FragmentActivity.startActivityForResult(SourceFile:784)
+E/Calling monitoring station(31026): 	at com.vivint.vivintsky.MainActivity.startActivityFromFragment(SourceFile:1859)
+E/Calling monitoring station(31026): 	at android.support.v4.app.D.onStartActivityFromFragment(SourceFile:907)
+E/Calling monitoring station(31026): 	at android.support.v4.app.Fragment.startActivity(SourceFile:916)
+E/Calling monitoring station(31026): 	at com.vivint.vivintsky.account.X.onClick(SourceFile:68)
+E/Calling monitoring station(31026): 	at android.view.View.performClick(View.java:4438)
+E/Calling monitoring station(31026): 	at android.view.View$PerformClick.run(View.java:18422)
+E/Calling monitoring station(31026): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/Calling monitoring station(31026): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/Calling monitoring station(31026): 	at android.os.Looper.loop(Looper.java:136)
+E/Calling monitoring station(31026): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/Calling monitoring station(31026): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/Calling monitoring station(31026): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/Calling monitoring station(31026): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/Calling monitoring station(31026): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/Calling monitoring station(31026): 	at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  470): START u0 {act=android.intent.action.DIAL dat=tel:xxxxxxxxxxx flg=0x10000000} from pid 31026
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+E/Calling monitoring station(31026): Call failed
+E/Calling monitoring station(31026): android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.DIAL dat=tel:xxxxxxxxxxx flg=0x10000000 }
+E/Calling monitoring station(31026): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1649)
+E/Calling monitoring station(31026): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1441)
+E/Calling monitoring station(31026): 	at android.app.Activity.startActivityForResult(Activity.java:3424)
+E/Calling monitoring station(31026): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+E/Calling monitoring station(31026): 	at android.support.v4.app.FragmentActivity.startActivityForResult(SourceFile:784)
+E/Calling monitoring station(31026): 	at com.vivint.vivintsky.MainActivity.startActivityFromFragment(SourceFile:1859)
+E/Calling monitoring station(31026): 	at android.support.v4.app.D.onStartActivityFromFragment(SourceFile:907)
+E/Calling monitoring station(31026): 	at android.support.v4.app.Fragment.startActivity(SourceFile:916)
+E/Calling monitoring station(31026): 	at com.vivint.vivintsky.account.X.onClick(SourceFile:68)
+E/Calling monitoring station(31026): 	at android.view.View.performClick(View.java:4438)
+E/Calling monitoring station(31026): 	at android.view.View$PerformClick.run(View.java:18422)
+E/Calling monitoring station(31026): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/Calling monitoring station(31026): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/Calling monitoring station(31026): 	at android.os.Looper.loop(Looper.java:136)
+E/Calling monitoring station(31026): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/Calling monitoring station(31026): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/Calling monitoring station(31026): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/Calling monitoring station(31026): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/Calling monitoring station(31026): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/Calling monitoring station(31026): 	at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  470): START u0 {act=android.intent.action.DIAL dat=tel:xxxxxxxxxxx flg=0x10000000} from pid 31026
+W/IInputConnectionWrapper(31026): getCursorCapsMode on inactive InputConnection
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+I/ActivityManager(  470): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 556
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(  470): GC_CONCURRENT freed 6630K, 50% free 12080K/24072K, paused 0ms+7ms, total 28ms
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+I/InputDispatcher(  470): Dropped event because of pending overdue app switch.
+W/InputManager(  470): Input event injection from pid 31016 failed.
+V/PanelView(  556): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+D/dalvikvm(31026): GC_CONCURRENT freed 2549K, 15% free 14854K/17468K, paused 2ms+1ms, total 8ms
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/IInputConnectionWrapper(31026): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 925K, 30% free 3178K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.994MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed 2K, 11% free 4026K/4516K, paused 1ms+0ms, total 4ms
+D/dalvikvm(  656): GC_FOR_ALLOC freed 850K, 30% free 3176K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 3ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 470
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 854K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 3ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 853K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 3ms
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+W/IInputConnectionWrapper(31026): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 852K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 3ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 851K, 30% free 3176K/4516K, paused 3ms, total 3ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 4ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 851K, 30% free 3176K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+0ms, total 4ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 854K, 30% free 3177K/4516K, paused 3ms, total 3ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+1ms, total 4ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 852K, 30% free 3176K/4516K, paused 3ms, total 3ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 3ms
+W/WindowManager(  470): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  556): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3278222, downTime=3278222, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  556): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3278228, downTime=3278228, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  556): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3278228, downTime=3278228, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  556): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3278230, downTime=3278230, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  556): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_10, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3278230, downTime=3278230, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  556): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3278230, downTime=3278230, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  556): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3278231, downTime=3278231, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  556): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_COMMA, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3278232, downTime=3278232, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  556): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3278232, downTime=3278232, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  556): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_LEFT_BRACKET, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3278234, downTime=3278234, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  556): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3278235, downTime=3278235, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  470): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab892e0 (uid=10088 pid=31026)
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/InputMethodManagerService(  470): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab892e0 (uid=10088 pid=31026)
+W/BackupManagerService(  470): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/InputEventReceiver(  556): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  556): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  556): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputManager(  470): Input event injection from pid 31016 failed.
+W/ViewRootImpl(  556): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=399.33493, y[0]=-565.00806, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3278310, downTime=3278310, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  556): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3278308, downTime=3278308, deviceId=-1, source=0x101 }
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ViewRootImpl(31026): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=3278221, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(31026): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3278323, downTime=3278323, deviceId=-1, source=0x101 }
+V/PanelView(  556): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/PanelView(  556): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  556): animationTick called with dtms=-1; nothing to do (h=0.0 v=0.0)
+D/dalvikvm(  656): GC_FOR_ALLOC freed 863K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 3ms
+D/dalvikvm(  656): WAIT_FOR_CONCURRENT_GC blocked 1ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 851K, 30% free 3176K/4516K, paused 2ms, total 3ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+0ms, total 3ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 852K, 30% free 3176K/4516K, paused 3ms, total 3ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+1ms, total 4ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 852K, 30% free 3176K/4516K, paused 2ms, total 4ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 4ms
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 470
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 855K, 30% free 3176K/4516K, paused 2ms, total 5ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 4ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 851K, 30% free 3176K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+1ms, total 4ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 853K, 30% free 3176K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 3ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 851K, 30% free 3176K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+1ms, total 4ms
+V/PanelView(  556): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 851K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 4ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 855K, 30% free 3177K/4516K, paused 3ms, total 3ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+1ms, total 4ms
+D/dalvikvm(  656): GC_FOR_ALLOC freed 851K, 30% free 3176K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+0ms, total 4ms
+D/dalvikvm(  656): GC_FOR_ALLOC freed 849K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+0ms, total 5ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideMySoftInput:2299 com.android.internal.view.IInputMethodManager$Stub.onTransact:288 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/IInputConnectionWrapper(31026): getCursorCapsMode on inactive InputConnection
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+V/PanelView(  556): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/IInputConnectionWrapper(31026): getCursorCapsMode on inactive InputConnection
+I/WearableService(  668): Wearable Services stopping
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 864K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+1ms, total 3ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 852K, 30% free 3177K/4516K, paused 3ms, total 3ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+0ms, total 3ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+W/IInputConnectionWrapper(31026): getCursorCapsMode on inactive InputConnection
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+W/IInputConnectionWrapper(31026): getCursorCapsMode on inactive InputConnection
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper(31026): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 866K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+0ms, total 4ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 852K, 30% free 3177K/4516K, paused 3ms, total 3ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 4ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/PanelView(  556): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 851K, 30% free 3177K/4516K, paused 2ms, total 3ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+0ms, total 4ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 855K, 30% free 3177K/4516K, paused 1ms, total 1ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+2ms, total 6ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 851K, 30% free 3177K/4516K, paused 3ms, total 3ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+1ms, total 3ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideMySoftInput:2299 com.android.internal.view.IInputMethodManager$Stub.onTransact:288 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 850K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+0ms, total 4ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 852K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+0ms, total 4ms
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper(31026): getCursorCapsMode on inactive InputConnection
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 861K, 30% free 3177K/4516K, paused 5ms, total 5ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+1ms, total 5ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 853K, 30% free 3177K/4516K, paused 3ms, total 3ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+1ms, total 4ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/IInputConnectionWrapper(31026): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 856K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 3ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+D/dalvikvm(31026): GC_CONCURRENT freed 3637K, 20% free 15111K/18800K, paused 2ms+1ms, total 16ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 856K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.992MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 4ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 854K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+0ms, total 3ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 851K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+0ms, total 6ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(  556): GC_CONCURRENT freed 8363K, 43% free 12496K/21788K, paused 0ms+1ms, total 6ms
+D/dalvikvm(  470): GC_FOR_ALLOC freed 2136K, 50% free 12117K/24072K, paused 18ms, total 20ms
+W/IInputConnectionWrapper(31026): getCursorCapsMode on inactive InputConnection
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 863K, 30% free 3177K/4516K, paused 3ms, total 3ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 3ms
+I/InputDispatcher(  470): Dropped event because of pending overdue app switch.
+W/InputManager(  470): Input event injection from pid 31016 failed.
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 852K, 30% free 3177K/4516K, paused 1ms, total 1ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+1ms, total 4ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 852K, 30% free 3177K/4516K, paused 3ms, total 3ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+1ms, total 5ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideMySoftInput:2299 com.android.internal.view.IInputMethodManager$Stub.onTransact:288 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper(31026): getCursorCapsMode on inactive InputConnection
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+V/PanelView(  556): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 860K, 30% free 3177K/4516K, paused 2ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+1ms, total 4ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vivint.vivintsky/.MainActivity} from pid 31016
+W/MainActivity(31026): handleIncomingPushMessages no extras (null), or no push_message was included!
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+D/dalvikvm(  656): GC_FOR_ALLOC freed 858K, 30% free 3177K/4516K, paused 7ms, total 7ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 3ms+1ms, total 5ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ResourceType(31026): No package identifier when getting value for resource number 0x00000000
+D/dalvikvm(  656): GC_FOR_ALLOC freed 854K, 30% free 3177K/4516K, paused 1ms, total 2ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+0ms, total 6ms
+D/dalvikvm(  656): WAIT_FOR_CONCURRENT_GC blocked 3ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 852K, 30% free 3177K/4516K, paused 2ms, total 4ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+0ms, total 4ms
+D/dalvikvm(  656): WAIT_FOR_CONCURRENT_GC blocked 1ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 855K, 30% free 3177K/4516K, paused 2ms, total 2ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 3ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/IInputConnectionWrapper(31026): commitText on inactive InputConnection
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 856K, 30% free 3177K/4516K, paused 13ms, total 13ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 3ms+0ms, total 4ms
+I/AndroidRuntime(31016): VM exiting with result code 0.
+W/EGL_emulation(31026): eglSurfaceAttrib not implemented 3093 12436
+W/IInputConnectionWrapper(31026): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  656): GC_FOR_ALLOC freed 851K, 30% free 3177K/4516K, paused 3ms, total 7ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 2ms+1ms, total 7ms
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  656): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  656): GC_FOR_ALLOC freed 851K, 30% free 3177K/4516K, paused 2ms, total 3ms
+I/dalvikvm-heap(  656): Grow heap (frag case) to 3.993MB for 869772-byte allocation
+D/dalvikvm(  656): GC_CONCURRENT freed <1K, 11% free 4026K/4516K, paused 1ms+0ms, total 4ms

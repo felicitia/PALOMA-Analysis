@@ -1,0 +1,1509 @@
+--------- beginning of /dev/log/main
+D/dalvikvm(  485): GC_EXPLICIT freed 417K, 37% free 16716K/26380K, paused 0ms+1ms, total 14ms
+D/AndroidRuntime( 9728): 
+D/AndroidRuntime( 9728): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 9728): CheckJNI is OFF
+D/dalvikvm( 9728): Using executionMode 2
+D/dalvikvm( 9728): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 9728): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 9728): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 9728): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 9728): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 9728): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 9728): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 9728): failed to load memtrack module: -2
+D/AndroidRuntime( 9728): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  485): Skipping deliver [background] BroadcastRecord{4ac1c570 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4ac09a9c 9728 (unknown name)/0/u-1 remote:4ac164c0}: process crashing
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+D/yeshen  (  683): launcher onpause
+I/ActivityManager(  485): Start proc de.mdiener.rain.usa for activity de.mdiener.rain.usa/.MainMaps2: pid=9738 uid=10047 gids={50047, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10047, 1) failed with errno -13
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+I/dalvikvm( 9738): ignoring registerObject request in thread=1
+I/dalvikvm( 9738): ignoring registerObject request in thread=1
+W/dalvikvm( 9738): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm( 9738): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.WindowCallbackWrapper.onSearchRequested
+W/dalvikvm( 9738): VFY: unable to resolve interface method 15276: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm( 9738): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm( 9738): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.WindowCallbackWrapper.onWindowStartingActionMode
+W/dalvikvm( 9738): VFY: unable to resolve interface method 15280: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 9738): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm( 9738): Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.widget.TintTypedArray.getChangingConfigurations
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 715: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm( 9738): Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.widget.TintTypedArray.getType
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 737: Landroid/content/res/TypedArray;.getType (I)I
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0002
+D/dalvikvm( 9738): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 9738): GC_CONCURRENT freed 195K, 8% free 2978K/3236K, paused 2ms+0ms, total 4ms
+I/dalvikvm( 9738): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zza
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 252: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0100
+I/dalvikvm( 9738): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.zze.zzi
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 609: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x000a
+I/zzad    ( 9738): Making Creator dynamically
+D/libEGL  ( 9738): loaded /system/lib/egl/libEGL_adreno.so
+D/        ( 9738): HostConnection::get() New Host Connection established 0xb8c84670, tid 9738
+D/libEGL  ( 9738): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 9738): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer( 9738): Enabling debug mode 0
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/InputMethodManagerService(  485): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7ba14 (uid=10047 pid=9738)
+D/dalvikvm( 9738): GC_CONCURRENT freed 178K, 7% free 3193K/3432K, paused 1ms+1ms, total 3ms
+I/AppCompatDelegate( 9738): You should now use the AppCompatDelegate.FEATURE_SUPPORT_ACTION_BAR_OVERLAY id when requesting this feature.
+I/GAv4    ( 9738): Google Analytics 8.4.87 is starting up. To enable debug logging on a device run:
+I/GAv4    ( 9738):   adb shell setprop log.tag.GAv4 DEBUG
+I/GAv4    ( 9738):   adb logcat -s GAv4
+W/GAv4    ( 9738): Int xml configuration name not recognized: ga_sessionTimeout
+I/WearableService(  660): Wearable Services stopping
+I/dalvikvm( 9738): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method jcg.createCredentialProtectedStorageContext
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 2532: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm( 9738): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method jcg.createDeviceProtectedStorageContext
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 2533: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm( 9738): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createCredentialProtectedStorageContext
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 2532: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm( 9738): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createDeviceProtectedStorageContext
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 2533: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm( 9738): Could not find method android.content.Context.isCredentialProtectedStorage, referenced from method cyg.a
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 2512: Landroid/content/Context;.isCredentialProtectedStorage ()Z
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm( 9738): Could not find method android.os.UserManager.isUserUnlocked, referenced from method cyg.a
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 3156: Landroid/os/UserManager;.isUserUnlocked ()Z
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x001a
+I/dalvikvm( 9738): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cyg.b
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 2513: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm( 9738): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cyg.c
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 2513: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm( 9738): Could not find method android.system.Os.readlink, referenced from method cyw.a
+W/dalvikvm( 9738): VFY: unable to resolve static method 3176: Landroid/system/Os;.readlink (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm( 9738): VFY: replacing opcode 0x71 at 0x0000
+I/dalvikvm( 9738): Could not find method android.system.Os.stat, referenced from method cyw.a
+W/dalvikvm( 9738): VFY: unable to resolve static method 3177: Landroid/system/Os;.stat (Ljava/lang/String;)Landroid/system/StructStat;
+D/dalvikvm( 9738): VFY: replacing opcode 0x71 at 0x0042
+I/dalvikvm( 9738): Could not find method android.system.Os.symlink, referenced from method cyw.a
+W/dalvikvm( 9738): VFY: unable to resolve static method 3178: Landroid/system/Os;.symlink (Ljava/lang/String;Ljava/lang/String;)V
+D/dalvikvm( 9738): VFY: replacing opcode 0x71 at 0x013b
+I/dalvikvm( 9738): DexOpt: unable to optimize instance field ref 0x061f at 0x46 in Lcyw;.a
+I/dalvikvm( 9738): DexOpt: unable to optimize static field ref 0x061a at 0x48 in Lcyw;.a
+I/dalvikvm( 9738): DexOpt: unable to optimize static field ref 0x0618 at 0x4a in Lcyw;.a
+I/dalvikvm( 9738): DexOpt: unable to optimize static field ref 0x0619 at 0x4d in Lcyw;.a
+I/dalvikvm( 9738): DexOpt: unable to optimize static field ref 0x061b at 0x57 in Lcyw;.a
+I/dalvikvm( 9738): DexOpt: unable to optimize static field ref 0x061e at 0x5f in Lcyw;.a
+I/dalvikvm( 9738): DexOpt: unable to optimize static field ref 0x061c at 0x61 in Lcyw;.a
+I/dalvikvm( 9738): DexOpt: unable to optimize static field ref 0x061d at 0x64 in Lcyw;.a
+I/dalvikvm( 9738): DexOpt: unable to optimize static field ref 0x061a at 0x7f in Lcyw;.a
+I/dalvikvm( 9738): DexOpt: unable to optimize static field ref 0x061e at 0x90 in Lcyw;.a
+D/dalvikvm( 9738): GC_CONCURRENT freed 260K, 9% free 3317K/3640K, paused 2ms+1ms, total 6ms
+I/dalvikvm( 9738): Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method kbn.a
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 2481: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0029
+I/dalvikvm( 9738): Could not find method android.content.Context.getSystemService, referenced from method kbn.b
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 2508: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x000b
+D/dalvikvm( 9738): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm( 9738): VFY: unable to resolve static field 1539 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm( 9738): VFY: replacing opcode 0x62 at 0x0011
+D/dalvikvm( 9738): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm( 9738): VFY: unable to resolve static field 1539 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm( 9738): VFY: replacing opcode 0x62 at 0x0025
+D/dalvikvm( 9738): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+W/dalvikvm( 9738): VFY: unable to resolve static field 1538 (SUPPORTED_32_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm( 9738): VFY: replacing opcode 0x62 at 0x0039
+D/dalvikvm( 9738): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm( 9738): VFY: unable to resolve static field 1540 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm( 9738): VFY: replacing opcode 0x62 at 0x0032
+D/dalvikvm( 9738): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm( 9738): DexOpt: unable to optimize static field ref 0x0603 at 0x16 in Ldak;.a
+D/dalvikvm( 9738): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm( 9738): DexOpt: unable to optimize static field ref 0x0603 at 0x2a in Ldak;.a
+D/dalvikvm( 9738): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+I/dalvikvm( 9738): DexOpt: unable to optimize static field ref 0x0602 at 0x3e in Ldak;.a
+I/Google Maps Android API( 9738): Google Play services client version: 8487000
+I/Google Maps Android API( 9738): Google Play services package version: 12529005
+I/dalvikvm( 9738): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method com.google.maps.api.android.lib6.drd.an.a
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 716: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0056
+D/dalvikvm( 9738): GC_CONCURRENT freed 321K, 11% free 3394K/3776K, paused 2ms+1ms, total 14ms
+I/dalvikvm( 9738): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method hu.a
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 709: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0017
+I/dalvikvm( 9738): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method pa.a
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 715: Landroid/content/pm/PackageManager;.isInstantApp ()Z
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0028
+I/dalvikvm( 9738): Could not find method android.app.NotificationManager.getNotificationChannel, referenced from method hf.a
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 626: Landroid/app/NotificationManager;.getNotificationChannel (Ljava/lang/String;)Landroid/app/NotificationChannel;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x000c
+I/dalvikvm( 9738): Could not find method android.app.Notification$Builder.setChannelId, referenced from method hf.a
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 580: Landroid/app/Notification$Builder;.setChannelId (Ljava/lang/String;)Landroid/app/Notification$Builder;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0088
+D/dalvikvm( 9738): DexOpt: unable to opt direct call 0x026d at 0x19 in Lhf;.a
+I/dalvikvm( 9738): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method gw.<init>
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 658: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0023
+I/dalvikvm( 9738): Could not find method android.app.AppOpsManager.permissionToOp, referenced from method th.c
+W/dalvikvm( 9738): VFY: unable to resolve static method 536: Landroid/app/AppOpsManager;.permissionToOp (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm( 9738): VFY: replacing opcode 0x71 at 0x0045
+I/dalvikvm( 9738): Could not find method android.content.Context.getSystemService, referenced from method th.c
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 655: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0068
+I/dalvikvm( 9738): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method th.a
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 658: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0065
+D/dalvikvm( 9738): GC_CONCURRENT freed 331K, 10% free 3535K/3916K, paused 2ms+1ms, total 9ms
+D/dalvikvm( 9738): GC_FOR_ALLOC freed 143K, 8% free 3693K/3988K, paused 2ms, total 2ms
+I/dalvikvm-heap( 9738): Grow heap (frag case) to 4.269MB for 635808-byte allocation
+D/dalvikvm( 9738): GC_FOR_ALLOC freed <1K, 7% free 4314K/4612K, paused 2ms, total 3ms
+D/dalvikvm( 9738): GC_CONCURRENT freed <1K, 7% free 4325K/4612K, paused 1ms+0ms, total 3ms
+D/dalvikvm( 9738): GC_CONCURRENT freed 192K, 6% free 4577K/4836K, paused 0ms+3ms, total 8ms
+W/Google Maps Android API( 9738): Deprecation notice: In a future release, indoor will no longer be supported on satellite, hybrid or terrain type maps. Even where indoor is not supported, isIndoorEnabled() will continue to return the value that has been set via setIndoorEnabled(), as it does now. By default, setIndoorEnabled is 'true'. The API release notes (https://developers.google.com/maps/documentation/android-api/releases) will let you know when indoor support becomes unavailable on those map types.
+D/dalvikvm( 9738): GC_CONCURRENT freed 289K, 7% free 4771K/5124K, paused 0ms+3ms, total 6ms
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/Settings( 9738): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1578796, downTime=1578796, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/        ( 9738): HostConnection::get() New Host Connection established 0xb8d19420, tid 9783
+D/dalvikvm( 9738): GC_CONCURRENT freed 272K, 7% free 5050K/5388K, paused 2ms+0ms, total 6ms
+D/dalvikvm( 9738): GC_FOR_ALLOC freed 494K, 14% free 5026K/5824K, paused 4ms, total 4ms
+I/ActivityManager(  485): Displayed de.mdiener.rain.usa/.MainMaps: +610ms (total +1s180ms)
+D/dalvikvm( 9738): GC_FOR_ALLOC freed 483K, 14% free 5041K/5824K, paused 5ms, total 5ms
+D/dalvikvm( 9738): GC_FOR_ALLOC freed 514K, 14% free 5054K/5824K, paused 5ms, total 5ms
+W/SocketClient(  164): write error (Broken pipe)
+W/dalvikvm( 9738): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm( 9738): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 9738): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 40152: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm( 9738): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm( 9738): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 9738): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm( 9738): VFY: unable to resolve interface method 40146: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm( 9738): VFY: replacing opcode 0x72 at 0x0006
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:$r4 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r4, "UTF-8")	timediff:0
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:$r5 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r4, "UTF-8")	timediff:0
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:$r5 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r5, "UTF-8")	timediff:0
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:$r5 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r5, "UTF-8")	timediff:0
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:$r5 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r5, "UTF-8")	timediff:0
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r0)	timediff:0
+I/System.out( 9738): <de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r0)###https://app.rain-alarm.com/RainProxy/RainProxy
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:$r14 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:21
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:virtualinvoke $r10.<java.net.HttpURLConnection: void setConnectTimeout(int)>(10000)	timediff:0
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:virtualinvoke $r10.<java.net.HttpURLConnection: void setReadTimeout(int)>(10000)	timediff:0
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:virtualinvoke $r10.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("POST")	timediff:0
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:virtualinvoke $r10.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/x-www-form-urlencoded")	timediff:0
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:virtualinvoke $r10.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Length", $r5)	timediff:0
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:virtualinvoke $r10.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Connection", "close")	timediff:0
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:virtualinvoke $r10.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("AppVersion", $r4)	timediff:0
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:virtualinvoke $r10.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:virtualinvoke $r10.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out( 9738): body:<de.mdiener.rain.core.util.ag: de.mdiener.rain.core.util.ah b(java.lang.String,android.content.Context,java.lang.StringBuilder)>	sig:virtualinvoke $r10.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/ActivityManager(  485): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 9738
+W/PhoneFallbackEventHandler( 9738): No activity found for android.intent.action.CALL_BUTTON.
+I/dalvikvm( 9738): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method jpn.a
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 2625: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x001c
+D/dalvikvm( 9738): GC_CONCURRENT freed 427K, 9% free 5385K/5872K, paused 1ms+0ms, total 13ms
+D/dalvikvm( 9738): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/DynamitePackage( 9738): Instantiated singleton DynamitePackage.
+D/DynamitePackage( 9738): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/dalvikvm( 9738): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method jy.a
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 2571: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0017
+I/dalvikvm( 9738): Could not find method android.security.NetworkSecurityPolicy.getInstance, referenced from method com.google.android.gms.ads.internal.util.h.b_
+W/dalvikvm( 9738): VFY: unable to resolve static method 3107: Landroid/security/NetworkSecurityPolicy;.getInstance ()Landroid/security/NetworkSecurityPolicy;
+D/dalvikvm( 9738): VFY: replacing opcode 0x71 at 0x0022
+I/dalvikvm( 9738): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method rd.a
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 2576: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x002d
+I/dalvikvm( 9738): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method rc.a
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 2575: Landroid/content/pm/PackageManager;.isInstantApp ()Z
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0028
+D/dalvikvm( 9738): GC_FOR_ALLOC freed 678K, 12% free 5550K/6304K, paused 5ms, total 6ms
+D/dalvikvm( 9738): GC_CONCURRENT freed 192K, 14% free 5434K/6304K, paused 0ms+1ms, total 6ms
+I/Ads     ( 9738): Starting ad request.
+I/Ads     ( 9738): Use AdRequest.Builder.addTestDevice("57AA76C100C9FF6BE6E98F3E45FE0045") to get test ads on this device.
+I/dalvikvm( 9738): Could not find method android.webkit.WebSettings.setMixedContentMode, referenced from method com.google.android.gms.ads.internal.webview.u.<init>
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 3426: Landroid/webkit/WebSettings;.setMixedContentMode (I)V
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0079
+V/WebViewChromium( 9738): Binding Chromium to the background looper Looper (main, tid 1) {4a792850}
+I/chromium( 9738): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain( 9738): Initializing chromium process, renderers=0
+W/chromium( 9738): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+W/dalvikvm( 9738): VFY: unable to find class referenced in signature (Landroid/webkit/PermissionRequest;)
+I/dalvikvm( 9738): Could not find method android.webkit.WebChromeClient.onPermissionRequest, referenced from method com.google.android.gms.ads.internal.webview.a.onPermissionRequest
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 3403: Landroid/webkit/WebChromeClient;.onPermissionRequest (Landroid/webkit/PermissionRequest;)V
+D/dalvikvm( 9738): VFY: replacing opcode 0x6f at 0x0016
+I/dalvikvm( 9738): Could not find method android.webkit.PermissionRequest.deny, referenced from method com.google.android.gms.ads.internal.webview.a.onPermissionRequest
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 3395: Landroid/webkit/PermissionRequest;.deny ()V
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0048
+I/dalvikvm( 9738): Could not find method android.webkit.PermissionRequest.getResources, referenced from method com.google.android.gms.ads.internal.webview.a.onPermissionRequest
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 3396: Landroid/webkit/PermissionRequest;.getResources ()[Ljava/lang/String;
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x0050
+W/Ads     ( 9738): Invoke Firebase method getInstance error.
+W/Ads     ( 9738): The Google Mobile Ads SDK will not integrate with Firebase. Admob/Firebase integration requires the latest Firebase SDK jar, but Firebase SDK is either missing or out of date
+D/dalvikvm( 9738): GC_CONCURRENT freed 585K, 12% free 5608K/6304K, paused 3ms+1ms, total 8ms
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1580476, downTime=1580476, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1580496, downTime=1580496, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1580499, downTime=1580499, deviceId=-1, source=0x101 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+I/chromium( 9738): [INFO:simple_index_file.cc(397)] Simple Cache Index is being restored from disk.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputManager(  485): Input event injection from pid 9728 failed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-55.0, y[0]=277.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1580706, downTime=1580706, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1580712, downTime=1580712, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa03a14 attribute=android.view.inputmethod.EditorInfo@4aa01b04, token = android.os.BinderProxy@4a99b248
+W/dalvikvm( 9738): method Landroid/support/v7/widget/ListViewCompat;.lookForSelectablePosition incorrectly overrides package-private method with same name in Landroid/widget/ListView;
+I/dalvikvm( 9738): Could not find method android.view.View.drawableHotspotChanged, referenced from method android.support.v7.widget.ListPopupWindow$DropDownListView.setPressedItem
+W/dalvikvm( 9738): VFY: unable to resolve virtual method 14885: Landroid/view/View;.drawableHotspotChanged (FF)V
+D/dalvikvm( 9738): VFY: replacing opcode 0x6e at 0x004e
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 485
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-911.0, y[0]=594.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1581125, downTime=1581125, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-911.0303, y[0]=599.611, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1581126, downTime=1581125, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1581186, downTime=1581186, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9d9b2c attribute=android.view.inputmethod.EditorInfo@4aaa24bc, token = android.os.BinderProxy@4a99b248
+I/ActivityManager(  485): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 9738
+W/PhoneFallbackEventHandler( 9738): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 485
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1581361, downTime=1581361, deviceId=-1, source=0x101 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=0.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1581375, downTime=-1, deviceId=0, source=0x10004 }
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=987.02454, y[0]=249.7735, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1581522, downTime=1581521, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=6, eventTime=1581531, downTime=-1, deviceId=0, source=0x10004 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a98ad98 attribute=android.view.inputmethod.EditorInfo@4aac1054, token = android.os.BinderProxy@4a99b248
+W/DynamiteModule( 9738): Local module descriptor class for com.google.android.gms.googlecertificates not found.
+W/DynamiteModule( 9738): Failed to load module via V2: java.lang.ClassNotFoundException: Didn't find class "com.google.android.gms.dynamite.DynamiteModule$DynamiteLoaderClassLoader" on path: DexPathList[[zip file "/data/app/de.mdiener.rain.usa-1.apk"],nativeLibraryDirectories=[/data/app-lib/de.mdiener.rain.usa-1, /system/lib]]
+I/ActivityManager(  485): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 9738
+I/DynamiteModule( 9738): Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:4
+I/DynamiteModule( 9738): Selected remote version of com.google.android.gms.googlecertificates, version >= 4
+W/PhoneFallbackEventHandler( 9738): No activity found for android.intent.action.CALL_BUTTON.
+D/dalvikvm( 9738): GC_CONCURRENT freed 491K, 9% free 5934K/6488K, paused 2ms+1ms, total 8ms
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=10.0, y[0]=275.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1581863, downTime=1581858, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=98.34888, y[0]=196.28171, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=7, eventTime=1581875, downTime=1581858, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=104.86731, y[0]=177.85486, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1581876, downTime=1581858, deviceId=0, source=0x1002 }
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa3dc88 attribute=android.view.inputmethod.EditorInfo@4ab16580, token = android.os.BinderProxy@4a99b248
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1581923, downTime=1581923, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=256.71057, y[0]=-46.888054, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1581975, downTime=1581974, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-128.0, y[0]=-85.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1581977, downTime=1581976, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-154.31956, y[0]=-68.39414, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=1581982, downTime=1581976, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-159.97914, y[0]=-63.846382, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1581983, downTime=1581976, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab44440 attribute=android.view.inputmethod.EditorInfo@4aac9bb4, token = android.os.BinderProxy@4a99b248
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1582258, downTime=1582258, deviceId=-1, source=0x101 }
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aacb144 attribute=null, token = android.os.BinderProxy@4a99b248
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+I/ActivityManager(  485): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 9738
+W/PhoneFallbackEventHandler( 9738): No activity found for android.intent.action.CALL_BUTTON.
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+D/SettingsProvider(  485): User 0 external modification to /data/data/com.android.providers.settings/databases/settings.db; event=2
+D/SettingsProvider(  485): User 0 updating our caches for /data/data/com.android.providers.settings/databases/settings.db
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1582666, downTime=1582666, deviceId=-1, source=0x101 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1582678, downTime=1582678, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-395.0, y[0]=623.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1582724, downTime=1582723, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-397.214, y[0]=622.65393, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1582725, downTime=1582723, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  485): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7ba14 (uid=10047 pid=9738)
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_E, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1582746, downTime=1582746, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10047, 0) failed with errno -13
+F/libc    ( 9945): Fatal signal 13 (SIGPIPE) at 0x000026d9 (code=0), thread 9945 (busybox)
+I/DEBUG   (  165): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  165): AM write failure (32 / Broken pipe)
+I/DEBUG   (  165): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  165): Revision: '0'
+I/DEBUG   (  165): pid: 9945, tid: 9945, name: busybox  >>> busybox <<<
+I/DEBUG   (  165): signal 13 (SIGPIPE), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   (  165):     eax ffffffe0  ebx 00000001  ecx b8845fd0  edx 00000002
+I/DEBUG   (  165):     esi b75f5214  edi b8845fd0
+I/DEBUG   (  165):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 00000000  xss 0000007b
+I/DEBUG   (  165):     eip b7590456  ebp b75f5214  esp bfd22150  flags 00000202
+I/DEBUG   (  165): 
+I/DEBUG   (  165): backtrace:
+I/DEBUG   (  165):     #00  pc 0003c456  /system/lib/libc.so (write+22)
+I/DEBUG   (  165):     #01  pc 0000bab7  <unknown>
+I/DEBUG   (  165): 
+I/DEBUG   (  165): stack:
+I/DEBUG   (  165):          bfd22110  b7572fd7  /system/lib/libc.so (__swsetup+7)
+I/DEBUG   (  165):          bfd22114  b75f5214  /system/lib/libc.so
+I/DEBUG   (  165):          bfd22118  00000888  
+I/DEBUG   (  165):          bfd2211c  b759b6e7  /system/lib/libc.so
+I/DEBUG   (  165):          bfd22120  b8845fd1  [heap]
+I/DEBUG   (  165):          bfd22124  b8844920  [heap]
+I/DEBUG   (  165):          bfd22128  00000001  
+I/DEBUG   (  165):          bfd2212c  b7566d4f  /system/lib/libc.so (dlmalloc+351)
+I/DEBUG   (  165):          bfd22130  00000000  
+I/DEBUG   (  165):          bfd22134  00000000  
+I/DEBUG   (  165):          bfd22138  b7748b90  /system/bin/busybox
+I/DEBUG   (  165):          bfd2213c  b7671cc7  /system/bin/busybox (next_token+359)
+I/DEBUG   (  165):          bfd22140  b8844921  [heap]
+I/DEBUG   (  165):          bfd22144  00000001  
+I/DEBUG   (  165):          bfd22148  bfd221a4  [stack]
+I/DEBUG   (  165):          bfd2214c  b75f4fcc  /system/lib/libc.so
+I/DEBUG   (  165):     #00  bfd22150  b7603ab8  
+I/DEBUG   (  165):          bfd22154  00001000  
+I/DEBUG   (  165):          bfd22158  b75f4fcc  /system/lib/libc.so
+I/DEBUG   (  165):          bfd2215c  b759bf17  /system/lib/libc.so (__swrite+103)
+I/DEBUG   (  165):          bfd22160  00000001  
+I/DEBUG   (  165):          bfd22164  b8845fd0  [heap]
+I/DEBUG   (  165):          bfd22168  00000002  
+I/DEBUG   (  165):          bfd2216c  b7571b33  /system/lib/libc.so (fputs+99)
+I/DEBUG   (  165):          bfd22170  b75f5214  /system/lib/libc.so
+I/DEBUG   (  165):          bfd22174  b75f4fcc  /system/lib/libc.so
+I/DEBUG   (  165):          bfd22178  00000002  
+I/DEBUG   (  165):          bfd2217c  b759a0e9  /system/lib/libc.so (fflush+185)
+I/DEBUG   (  165):          bfd22180  b75f5214  /system/lib/libc.so
+I/DEBUG   (  165):          bfd22184  b8845fd0  [heap]
+I/DEBUG   (  165):          bfd22188  00000002  
+I/DEBUG   (  165):          bfd2218c  b8845980  [heap]
+W/NativeCrashListener(  485): Couldn't find ProcessRecord for pid 9945
+I/BootReceiver(  485): Copying /data/tombstones/tombstone_05 to DropBox (SYSTEM_TOMBSTONE)
+W/WindowManager(  485): Force-removing child win Window{4aa7dbf8 u0 PopupWindow:4a976d98 EXITING} from container Window{4a9e09a8 u0 de.mdiener.rain.usa/de.mdiener.rain.usa.MainMaps}
+D/dalvikvm( 9738): GC_CONCURRENT freed 696K, 11% free 6173K/6932K, paused 1ms+5ms, total 16ms
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2 bnds=[575,174][779,301]} from pid 683
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+D/yeshen  (  683): launcher onpause
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10047, 1) failed with errno -13
+W/InputManager(  485): Input event injection from pid 9728 failed.
+W/InputManager(  485): Input event injection from pid 9728 failed.
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1583758, downTime=1583758, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/InputMethodManagerService(  485): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7ba14 (uid=10047 pid=9738)
+I/AppCompatDelegate( 9738): You should now use the AppCompatDelegate.FEATURE_SUPPORT_ACTION_BAR_OVERLAY id when requesting this feature.
+I/Google Maps Android API( 9738): Google Play services package version: 12529005
+W/Google Maps Android API( 9738): Deprecation notice: In a future release, indoor will no longer be supported on satellite, hybrid or terrain type maps. Even where indoor is not supported, isIndoorEnabled() will continue to return the value that has been set via setIndoorEnabled(), as it does now. By default, setIndoorEnabled is 'true'. The API release notes (https://developers.google.com/maps/documentation/android-api/releases) will let you know when indoor support becomes unavailable on those map types.
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/Settings( 9738): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1583783, downTime=1583783, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1583948, downTime=1583948, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/SocketClient(  164): write error (Broken pipe)
+D/        ( 9738): HostConnection::get() New Host Connection established 0xb8d04520, tid 9972
+W/SocketClient(  164): write error (Broken pipe)
+I/ActivityManager(  485): Displayed de.mdiener.rain.usa/.MainMaps: +349ms (total +457ms)
+W/EGL_emulation( 6889): eglSurfaceAttrib not implemented 3093 12436
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack( 6889): AudioFlinger could not create track, status: -12
+E/SoundPool( 6889): Error creating AudioTrack
+D/dalvikvm( 9738): GC_FOR_ALLOC freed 937K, 15% free 6200K/7288K, paused 10ms, total 10ms
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+D/dalvikvm( 9738): GC_FOR_ALLOC freed 366K, 16% free 6140K/7288K, paused 7ms, total 7ms
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 485
+D/DynamitePackage( 9738): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+D/dalvikvm( 9738): GC_FOR_ALLOC freed 338K, 16% free 6145K/7288K, paused 10ms, total 10ms
+I/Ads     ( 9738): Starting ad request.
+I/Ads     ( 9738): Use AdRequest.Builder.addTestDevice("57AA76C100C9FF6BE6E98F3E45FE0045") to get test ads on this device.
+W/Ads     ( 9738): Not retrying to fetch app settings
+D/dalvikvm( 9738): GC_FOR_ALLOC freed 383K, 16% free 6160K/7288K, paused 4ms, total 4ms
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1584685, downTime=1584685, deviceId=-1, source=0x101 }
+I/InputDispatcher(  485): Dropped event because of pending overdue app switch.
+W/InputManager(  485): Input event injection from pid 9728 failed.
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1584695, downTime=1584695, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-267.95844, y[0]=227.57187, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1584812, downTime=1584811, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-776.0, y[0]=275.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1584816, downTime=1584816, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-784.99884, y[0]=259.44516, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1584818, downTime=1584816, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=0.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1584806, downTime=-1, deviceId=0, source=0x10004 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa1284c attribute=android.view.inputmethod.EditorInfo@4aadaa50, token = android.os.BinderProxy@4aa357a4
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1585194, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1585194, downTime=1584999, deviceId=0, source=0x10004 }
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/ViewRootImpl( 9738): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1585213, downTime=-1, deviceId=0, source=0x10004 }
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1585220, downTime=1585220, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/ActivityManager(  485): Duplicate finish request for ActivityRecord{4ab6dbc4 u0 de.mdiener.rain.usa/.MainMaps2 t76 f}
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_3, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1585367, downTime=1585367, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1585367, downTime=1585367, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1585409, downTime=1585409, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+D/dalvikvm(  683): GC_CONCURRENT freed 7568K, 7% free 119593K/127288K, paused 2ms+29ms, total 112ms
+D/dalvikvm(  683): WAIT_FOR_CONCURRENT_GC blocked 90ms
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+D/dalvikvm(  485): GC_FOR_ALLOC freed 2578K, 35% free 17376K/26380K, paused 12ms, total 12ms
+D/dalvikvm(  485): GC_FOR_ALLOC freed 39K, 27% free 19367K/26380K, paused 15ms, total 15ms
+I/dalvikvm-heap(  485): Grow heap (frag case) to 20.954MB for 2073612-byte allocation
+D/dalvikvm(  485): GC_FOR_ALLOC freed 19K, 25% free 21372K/28408K, paused 18ms, total 18ms
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+D/dalvikvm(  485): GC_FOR_ALLOC freed 7K, 25% free 21375K/28408K, paused 28ms, total 28ms
+I/dalvikvm-heap(  485): Grow heap (frag case) to 22.915MB for 2073612-byte allocation
+D/dalvikvm(  485): GC_FOR_ALLOC freed 33K, 24% free 23367K/30436K, paused 16ms, total 16ms
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+D/dalvikvm(  485): GC_FOR_ALLOC freed 6347K, 44% free 17168K/30436K, paused 28ms, total 28ms
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+D/dalvikvm(  485): GC_FOR_ALLOC freed 14K, 37% free 19190K/30436K, paused 35ms, total 35ms
+D/dalvikvm(  542): GC_FOR_ALLOC freed 8287K, 32% free 11340K/16636K, paused 3ms, total 3ms
+I/dalvikvm-heap(  542): Grow heap (frag case) to 13.111MB for 2073612-byte allocation
+D/dalvikvm(  542): GC_FOR_ALLOC freed 0K, 29% free 13365K/18664K, paused 2ms, total 2ms
+D/dalvikvm(  485): GC_FOR_ALLOC freed 10K, 30% free 21319K/30436K, paused 13ms, total 14ms
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+D/dalvikvm( 9738): GC_CONCURRENT freed 649K, 10% free 6599K/7308K, paused 1ms+1ms, total 26ms
+E/SoundPool(  485): Error creating AudioTrack
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+D/dalvikvm( 1070): GC_FOR_ALLOC freed 316K, 15% free 3343K/3920K, paused 4ms, total 5ms
+D/dalvikvm(  683): GC_CONCURRENT freed 8341K, 7% free 119446K/127912K, paused 1ms+32ms, total 210ms
+D/dalvikvm(  683): WAIT_FOR_CONCURRENT_GC blocked 190ms
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+D/dalvikvm(  683): GC_CONCURRENT freed 8388K, 7% free 119249K/127912K, paused 1ms+52ms, total 112ms
+D/dalvikvm(  683): WAIT_FOR_CONCURRENT_GC blocked 106ms
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=610.43066, y[0]=377.5351, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1586537, downTime=1586535, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=656.0, y[0]=196.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1586539, downTime=1586539, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=650.13214, y[0]=203.14111, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1586542, downTime=1586539, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=163.0, y[0]=-46.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1586543, downTime=1586543, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=159.60843, y[0]=-51.914383, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1586545, downTime=1586543, deviceId=0, source=0x1002 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1586549, downTime=1586549, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): Displayed de.mdiener.rain.usa/.MainMaps2: +93ms (total +1s571ms)
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ActivityManager(  485): Duplicate finish request for ActivityRecord{4a9333dc u0 de.mdiener.rain.usa/.MainMaps2 t76 f}
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_RO, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1586662, downTime=1586662, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1586712, downTime=1586712, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/InputMethodManagerService(  485): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7ba14 (uid=10047 pid=9738)
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1586757, downTime=1586757, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1587513, downTime=1587513, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-97.01599, y[0]=411.3082, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=1587593, downTime=1587588, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-99.53204, y[0]=413.46902, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1587594, downTime=1587588, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=6, eventTime=1587586, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa0a354 attribute=android.view.inputmethod.EditorInfo@4a9fd54c, token = android.os.BinderProxy@4aa357a4
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/SocketClient(  164): write error (Broken pipe)
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-446.39188, y[0]=597.9095, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=1587882, downTime=1587876, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-446.82886, y[0]=601.6301, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1587883, downTime=1587876, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1587884, downTime=1587884, deviceId=-1, source=0x101 }
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa3ec24 attribute=android.view.inputmethod.EditorInfo@4aa33fd0, token = android.os.BinderProxy@4aa357a4
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/SocketClient(  164): write error (Broken pipe)
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/SocketClient(  164): write error (Broken pipe)
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  542): animationTick called with dtms=-3; nothing to do (h=0.0 v=0.0)
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1588424, downTime=1588424, deviceId=-1, source=0x101 }
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl( 9738): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1588487, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588491, downTime=1588474, deviceId=0, source=0x10004 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-379.44434, y[0]=93.95662, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588498, downTime=1588495, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a923b20 attribute=android.view.inputmethod.EditorInfo@4a90dc54, token = android.os.BinderProxy@4aa357a4
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1588532, downTime=1588532, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ActivityManager(  485): Duplicate finish request for ActivityRecord{4a990d1c u0 de.mdiener.rain.usa/.MainMaps2 t76 f}
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1588634, downTime=1588634, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1588695, downTime=1588695, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-345.79974, y[0]=179.08203, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588814, downTime=1588812, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=2.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1588824, downTime=-1, deviceId=0, source=0x10004 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588825, downTime=1588815, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588828, downTime=1588815, deviceId=0, source=0x10004 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ViewRootImpl( 9738): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1588843, downTime=-1, deviceId=0, source=0x10004 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/SocketClient(  164): write error (Broken pipe)
+W/SocketClient(  164): write error (Broken pipe)
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=296.0, y[0]=467.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1589073, downTime=1589072, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=300.70178, y[0]=483.96277, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=1589077, downTime=1589072, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=301.37415, y[0]=492.42535, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1589078, downTime=1589072, deviceId=0, source=0x1002 }
+D/dalvikvm( 9738): GC_CONCURRENT freed 656K, 10% free 7090K/7808K, paused 0ms+1ms, total 7ms
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1589115, downTime=1589115, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa01ee4 attribute=android.view.inputmethod.EditorInfo@4a9f9efc, token = android.os.BinderProxy@4aa357a4
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_Y, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1589848, downTime=1589848, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-327.0, y[0]=134.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1589903, downTime=1589902, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-319.26068, y[0]=138.81926, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1589905, downTime=1589902, deviceId=0, source=0x1002 }
+W/InputManager(  485): Input event injection from pid 9728 failed.
+W/InputManager(  485): Input event injection from pid 9728 failed.
+W/InputManager(  485): Input event injection from pid 9728 failed.
+W/InputManager(  485): Input event injection from pid 9728 failed.
+W/InputManager(  485): Input event injection from pid 9728 failed.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1589946, downTime=1589946, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): Displayed de.mdiener.rain.usa/.MainMaps2: +97ms (total +1s481ms)
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/ActivityManager(  485): Duplicate finish request for ActivityRecord{4a9a0df4 u0 de.mdiener.rain.usa/.MainMaps2 t76 f}
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1590108, downTime=1590108, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/AudioFlinger(  171): write blocked for 9916 msecs, 15 delayed writes, thread 0xb4185010
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1590348, downTime=1590348, deviceId=-1, source=0x101 }
+W/Ads     ( 9738): There was a problem getting an ad response. ErrorCode: 0
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Ads     ( 9738): Failed to load ad: 0
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+W/Launcher(  683): No global search activity found.
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2 bnds=[538,174][742,301]} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2 bnds=[538,174][742,301]} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+D/yeshen  (  683): launcher onpause
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1591314, downTime=1591314, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1591314, downTime=1591314, deviceId=-1, source=0x101 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/InputMethodManagerService(  485): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7ba14 (uid=10047 pid=9738)
+I/AppCompatDelegate( 9738): You should now use the AppCompatDelegate.FEATURE_SUPPORT_ACTION_BAR_OVERLAY id when requesting this feature.
+I/Google Maps Android API( 9738): Google Play services package version: 12529005
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/        ( 9738): HostConnection::get() New Host Connection established 0xb8ee9600, tid 10146
+I/ActivityManager(  485): Displayed de.mdiener.rain.usa/.MainMaps: +427ms (total +521ms)
+D/dalvikvm( 9738): GC_CONCURRENT freed 895K, 12% free 7587K/8544K, paused 1ms+10ms, total 26ms
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1591899, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1591902, downTime=1591883, deviceId=0, source=0x10004 }
+D/dalvikvm( 9738): GC_FOR_ALLOC freed 1138K, 21% free 7323K/9204K, paused 12ms, total 13ms
+I/ActivityManager(  485): START u0 {cmp=de.mdiener.rain.usa/de.mdiener.rain.core.config.RainAlarmBasic (has extras)} from pid 9738
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+D/DynamitePackage( 9738): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1592029, downTime=-1, deviceId=0, source=0x10004 }
+I/Ads     ( 9738): Starting ad request.
+I/Ads     ( 9738): Use AdRequest.Builder.addTestDevice("57AA76C100C9FF6BE6E98F3E45FE0045") to get test ads on this device.
+D/yeshen  (  683): launcher onstop
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_LEFT_BRACKET, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1592029, downTime=1592029, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1592522, downTime=1592522, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): Displayed de.mdiener.rain.usa/de.mdiener.rain.core.config.RainAlarmBasic: +289ms
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1592540, downTime=1592540, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm( 9738): GC_CONCURRENT freed 1016K, 17% free 7702K/9204K, paused 4ms+4ms, total 25ms
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ctxmgr  (  660): [AclManager]No 2 for (accnt=account#-68013670#, com.google.android.gms(10007):UserLocationProducer, vrsn=12529000, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 660). Was: 2 for 1, account#-68013670#
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MOVE_END, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1592834, downTime=1592834, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1593183, downTime=1593183, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1593299, downTime=1593299, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1593313, downTime=1593313, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ActivityManager(  485): Duplicate finish request for ActivityRecord{4aae59b8 u0 de.mdiener.rain.usa/.MainMaps2 t77 f}
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1593317, downTime=1593317, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HENKAN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1593383, downTime=1593383, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1593389, downTime=1593389, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_G, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1593411, downTime=1593411, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+D/dalvikvm(  660): GC_CONCURRENT freed 1574K, 18% free 7938K/9656K, paused 2ms+3ms, total 20ms
+W/InputMethodManagerService(  485): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7ba14 (uid=10047 pid=9738)
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1593533, downTime=1593533, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1593534, downTime=1593534, deviceId=-1, source=0x101 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1593497, downTime=1593497, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1593644, downTime=1593644, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1593650, downTime=1593650, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ActivityManager(  485): Duplicate finish request for ActivityRecord{4aa5b7d8 u0 de.mdiener.rain.usa/.MainMaps2 t77 f}
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1593693, downTime=1593693, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1593745, downTime=1593745, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/InputMethodManagerService(  485): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7ba14 (uid=10047 pid=9738)
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_Z, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1593749, downTime=1593749, deviceId=-1, source=0x101 }
+W/Settings( 9738): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1593749, downTime=1593749, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm( 9738): GC_CONCURRENT freed 1061K, 13% free 8157K/9280K, paused 3ms+4ms, total 26ms
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_DOWN(1), id[0]=0, x[0]=-630.68225, y[0]=133.12662, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-782.0, y[1]=262.0, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=1594321, downTime=1594318, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-570.6961, y[0]=235.262, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-768.4823, y[1]=230.80069, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=7, eventTime=1594332, downTime=1594318, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_UP(1), id[0]=0, x[0]=-570.6521, y[0]=256.6119, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-767.7893, y[1]=226.56775, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=1594333, downTime=1594318, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-566.7804, y[0]=264.40488, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1594337, downTime=1594318, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9e0f54 attribute=android.view.inputmethod.EditorInfo@4aa48f68, token = android.os.BinderProxy@4a9b1af8
+W/WindowManager(  485): updateFocusedWindowLocked, focusedAppToken is null.
+W/InputMethodManagerService(  485): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7ba14 (uid=10047 pid=9738)
+W/ViewRootImpl(  542): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1594421, downTime=1594421, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  485): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7ba14 (uid=10047 pid=9738)
+W/Ads     ( 9738): There was a problem getting an ad response. ErrorCode: 0
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+W/Ads     ( 9738): Failed to load ad: 0
+W/BackupManagerService(  485): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  542): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-159.89563, y[0]=247.01459, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1594632, downTime=1594630, deviceId=0, source=0x1002 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/ViewRootImpl( 9738): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=6, eventTime=1594657, downTime=-1, deviceId=0, source=0x10004 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ActivityManager(  485): Duplicate finish request for ActivityRecord{4ab0851c u0 de.mdiener.rain.usa/.MainMaps2 t77 f}
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1594659, downTime=1594659, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1594723, downTime=1594723, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Settings( 9738): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/ViewRootImpl( 9738): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1594974, downTime=-1, deviceId=0, source=0x10004 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ActivityManager(  485): Duplicate finish request for ActivityRecord{4ab83ccc u0 de.mdiener.rain.usa/.MainMaps2 t77 f}
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1594978, downTime=1594978, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1595053, downTime=1595053, deviceId=-1, source=0x101 }
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_12, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1595310, downTime=1595310, deviceId=-1, source=0x101 }
+D/dalvikvm( 9738): GC_CONCURRENT freed 1547K, 17% free 8289K/9896K, paused 2ms+1ms, total 20ms
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1595310, downTime=1595310, deviceId=-1, source=0x101 }
+D/dalvikvm(  485): GC_EXPLICIT freed 8121K, 34% free 17491K/26380K, paused 0ms+2ms, total 21ms
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1595369, downTime=1595369, deviceId=-1, source=0x101 }
+W/Settings( 9738): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab8c214 attribute=android.view.inputmethod.EditorInfo@4ac7ff18, token = android.os.BinderProxy@4a9b1af8
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 485
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1595957, downTime=1595957, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1595963, downTime=1595963, deviceId=-1, source=0x101 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+I/InputDispatcher(  485): Dropped event because of pending overdue app switch.
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1595969, downTime=1595969, deviceId=-1, source=0x101 }
+W/InputManager(  485): Input event injection from pid 9728 failed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab1d988 attribute=android.view.inputmethod.EditorInfo@4ab14980, token = android.os.BinderProxy@4a9b1af8
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_META_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1596142, downTime=1596142, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_NEXT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1596158, downTime=1596158, deviceId=-1, source=0x101 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PROG_BLUE, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1596168, downTime=1596168, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=219.38428, y[0]=407.03693, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=1596294, downTime=1596285, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=219.16467, y[0]=408.21524, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1596295, downTime=1596285, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1596311, downTime=1596311, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_RECORD, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1596329, downTime=1596329, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa29bf0 attribute=android.view.inputmethod.EditorInfo@4aa22b68, token = android.os.BinderProxy@4a9b1af8
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1596475, downTime=1596475, deviceId=-1, source=0x101 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1596481, downTime=1596481, deviceId=-1, source=0x101 }
+D/dalvikvm( 9738): GC_CONCURRENT freed 1383K, 15% free 8628K/10136K, paused 1ms+5ms, total 17ms
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1596534, downTime=1596534, deviceId=-1, source=0x101 }
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 485
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1596771, downTime=1596771, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1596791, downTime=1596791, deviceId=-1, source=0x101 }
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputManager(  485): Input event injection from pid 9728 failed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-371.0, y[0]=395.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1597057, downTime=1597056, deviceId=0, source=0x1002 }
+W/InputManager(  485): Input event injection from pid 9728 failed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-375.84412, y[0]=386.04587, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=1597062, downTime=1597056, deviceId=0, source=0x1002 }
+W/InputManager(  485): Input event injection from pid 9728 failed.
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa002cc attribute=null, token = android.os.BinderProxy@4a9b1af8
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1597203, downTime=1597203, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1597213, downTime=1597213, deviceId=-1, source=0x101 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1597234, downTime=1597234, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=0.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=1597276, downTime=-1, deviceId=0, source=0x10004 }
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab1211c attribute=android.view.inputmethod.EditorInfo@4ab08ec4, token = android.os.BinderProxy@4a9b1af8
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1597558, downTime=1597558, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab8c4c0 attribute=android.view.inputmethod.EditorInfo@4ab6de7c, token = android.os.BinderProxy@4a9b1af8
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+W/SocketClient(  164): write error (Broken pipe)
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=2.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=1597761, downTime=-1, deviceId=0, source=0x10004 }
+I/ActivityManager(  485): Displayed de.mdiener.rain.usa/.MainMaps2: +89ms (total +4s557ms)
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ActivityManager(  485): Duplicate finish request for ActivityRecord{4a9333dc u0 de.mdiener.rain.usa/.MainMaps2 t77 f}
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1597794, downTime=1597794, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/InputMethodManagerService(  485): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7ba14 (uid=10047 pid=9738)
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x408, repeatCount=0, eventTime=1597858, downTime=1597858, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1597903, downTime=1597903, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1598246, downTime=1598246, deviceId=-1, source=0x101 }
+E/SoundPool(  485): Error creating AudioTrack
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1598249, downTime=1598249, deviceId=-1, source=0x101 }
+W/SocketClient(  164): write error (Broken pipe)
+W/SocketClient(  164): write error (Broken pipe)
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-44.926514, y[0]=210.16461, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1598478, downTime=1598477, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1598497, downTime=1598497, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaae578 attribute=android.view.inputmethod.EditorInfo@4a9c2110, token = android.os.BinderProxy@4a9b1af8
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1598602, downTime=1598602, deviceId=-1, source=0x101 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=1598692, downTime=-1, deviceId=0, source=0x10004 }
+D/dalvikvm( 9738): GC_CONCURRENT freed 1370K, 14% free 9098K/10528K, paused 1ms+13ms, total 29ms
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7ad64 attribute=null, token = android.os.BinderProxy@4a9b1af8
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 485
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1599439, downTime=1599439, deviceId=-1, source=0x101 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1599467, downTime=1599467, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=205.49203, y[0]=494.27643, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1599539, downTime=1599538, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abcc3c4 attribute=android.view.inputmethod.EditorInfo@4abf5c60, token = android.os.BinderProxy@4a9b1af8
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1599610, downTime=1599610, deviceId=-1, source=0x101 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=156.01294, y[0]=509.5572, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1599690, downTime=1599689, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9ebe78 attribute=android.view.inputmethod.EditorInfo@4ab967f4, token = android.os.BinderProxy@4a9b1af8
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1600117, downTime=1600117, deviceId=-1, source=0x101 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-121.015625, y[0]=478.35327, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1600295, downTime=1600293, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=7, eventTime=1600292, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1600299, downTime=1600299, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa259b4 attribute=android.view.inputmethod.EditorInfo@4ac0c648, token = android.os.BinderProxy@4a9b1af8
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1600373, downTime=1600373, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1600457, downTime=1600457, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ActivityManager(  485): Duplicate finish request for ActivityRecord{4aa9a0b4 u0 de.mdiener.rain.usa/.MainMaps2 t77 f}
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_X, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1600493, downTime=1600493, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1600493, downTime=1600493, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/InputMethodManagerService(  485): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7ba14 (uid=10047 pid=9738)
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1600578, downTime=1600578, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/AudioFlinger(  171): write blocked for 9915 msecs, 16 delayed writes, thread 0xb4185010
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  542): animationTick called with dtms=-1; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1600985, downTime=1600985, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_9, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1601103, downTime=1601103, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PAGE_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1601103, downTime=1601103, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ActivityManager(  485): Duplicate finish request for ActivityRecord{4ac11bf0 u0 de.mdiener.rain.usa/.MainMaps2 t77 f}
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1601167, downTime=1601167, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ActivityManager(  485): Launch timeout has expired, giving up wake lock!
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/WindowManager(  485): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  542): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_J, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1601294, downTime=1601294, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  542): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1601303, downTime=1601303, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  542): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=913.9087, y[0]=72.93152, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=8, eventTime=1601338, downTime=1601323, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=911.1947, y[0]=79.42798, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1601339, downTime=1601323, deviceId=0, source=0x1002 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 485
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_DOWN(1), id[0]=0, x[0]=-67.47308, y[0]=357.55057, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-352.0, y[1]=315.0, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=1601352, downTime=1601349, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-85.36865, y[0]=369.3764, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-373.37958, y[1]=315.02032, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=1, eventTime=1601356, downTime=1601349, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_UP(1), id[0]=0, x[0]=-89.45715, y[0]=371.76413, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-373.9804, y[1]=315.0398, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=1601361, downTime=1601349, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-93.3548, y[0]=382.4712, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1601362, downTime=1601349, deviceId=0, source=0x1002 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-472.0, y[0]=188.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1601378, downTime=1601377, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-525.72595, y[0]=196.07883, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=1601385, downTime=1601377, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-529.7179, y[0]=197.8403, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1601385, downTime=1601377, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1601375, downTime=-1, deviceId=0, source=0x10004 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1601523, downTime=1601523, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=1601574, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa0b180 attribute=null, token = android.os.BinderProxy@4a9b1af8
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1601740, downTime=1601740, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=164.33057, y[0]=268.86575, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1601790, downTime=1601789, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1601792, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab9abfc attribute=android.view.inputmethod.EditorInfo@4aac99f8, token = android.os.BinderProxy@4a9b1af8
+D/dalvikvm(  660): GC_CONCURRENT freed 1563K, 18% free 7997K/9684K, paused 3ms+6ms, total 23ms
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/Ads     ( 9738): There was a problem getting an ad response. ErrorCode: 0
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-668.59033, y[0]=326.67163, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1602314, downTime=1602310, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1602323, downTime=1602323, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1602345, downTime=1602345, deviceId=-1, source=0x101 }
+W/Ads     ( 9738): Failed to load ad: 0
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9e9320 attribute=android.view.inputmethod.EditorInfo@4aa5230c, token = android.os.BinderProxy@4a9b1af8
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1602372, downTime=1602372, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1602410, downTime=1602410, deviceId=-1, source=0x101 }
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-638.8313, y[0]=313.17572, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1602483, downTime=1602482, deviceId=0, source=0x1002 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9cfac8 attribute=null, token = android.os.BinderProxy@4a9b1af8
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/ViewRootImpl( 9738): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=0.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=1602610, downTime=-1, deviceId=0, source=0x10004 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ActivityManager(  485): Duplicate finish request for ActivityRecord{4ab127c8 u0 de.mdiener.rain.usa/.MainMaps2 t77 f}
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F12, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1602621, downTime=1602621, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=2, eventTime=1602723, downTime=1602723, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1602723, downTime=1602723, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1602723, downTime=1602723, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1602723, downTime=1602723, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1602723, downTime=1602723, deviceId=-1, source=0x101 }
+I/chromium( 9738): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+I/chromium( 9738): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  542): animationTick called with dtms=-3; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=de.mdiener.rain.usa/.MainMaps2} from pid 9728
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation( 9738): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1603214, downTime=1603214, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=de.mdiener.rain.usa/.MainMaps} from pid 9738
+W/ActivityManager(  485): Activity is launching as a new task, so cancelling activity result.
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1603469, downTime=1603469, deviceId=-1, source=0x101 }
+D/dalvikvm( 9738): GC_CONCURRENT freed 1466K, 14% free 9612K/11140K, paused 2ms+4ms, total 15ms
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ActivityManager(  485): Duplicate finish request for ActivityRecord{4ac08cf8 u0 de.mdiener.rain.usa/.MainMaps2 t77 f}
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1603562, downTime=1603562, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1603568, downTime=1603568, deviceId=-1, source=0x101 }
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+E/ActivityThread( 9738): Failed to find provider info for com.sonyericsson.extras.liveware.aef.registration
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 9738): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 9738): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=10.650696, y[0]=259.9441, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1603764, downTime=1603761, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1603807, downTime=1603807, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 9738): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1603819, downTime=1603819, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/AndroidRuntime( 9728): VM exiting with result code 0.

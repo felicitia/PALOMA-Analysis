@@ -1,0 +1,405 @@
+--------- beginning of /dev/log/main
+I/Icing   (  713): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+I/Icing   (  713): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/AndroidRuntime(13253): 
+D/AndroidRuntime(13253): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(13253): CheckJNI is OFF
+D/dalvikvm(13253): Using executionMode 2
+D/dalvikvm(13253): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(13253): Added shared lib libjavacore.so 0x0
+D/dalvikvm(13253): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(13253): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(13253): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(13253): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(13253): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(13253): failed to load memtrack module: -2
+D/AndroidRuntime(13253): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  464): Skipping deliver [background] BroadcastRecord{4b0222b4 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4ae5c5fc 13253 (unknown name)/0/u-1 remote:4ac69ad4}: process crashing
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+D/yeshen  (24744): launcher onpause
+D/dalvikvm(  168): GC_EXPLICIT freed 40K, 4% free 2787K/2884K, paused 0ms+1ms, total 4ms
+I/ActivityManager(  464): Start proc com.km.cutpaste.util for activity com.km.cutpaste.util/.MainActivity: pid=13264 uid=10189 gids={50189, 3003, 1028, 1015, 1023}
+D/dalvikvm(  168): GC_EXPLICIT freed <1K, 4% free 2788K/2884K, paused 2ms+1ms, total 5ms
+D/dalvikvm(  168): GC_EXPLICIT freed <1K, 4% free 2787K/2884K, paused 0ms+0ms, total 3ms
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+W/NetworkManagementSocketTagger(  464): setKernelCountSet(10189, 1) failed with errno -13
+I/dalvikvm(13264): ignoring registerObject request in thread=1
+I/dalvikvm(13264): ignoring registerObject request in thread=1
+D/yeshen  (24744): launcher onstop
+D/dalvikvm(13264): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(13264): GC_FOR_ALLOC freed 102K, 6% free 2834K/2992K, paused 8ms, total 10ms
+I/dalvikvm-heap(13264): Grow heap (frag case) to 4.282MB for 1536012-byte allocation
+D/dalvikvm(13264): GC_FOR_ALLOC freed <1K, 4% free 4334K/4496K, paused 4ms, total 4ms
+D/dalvikvm(13264): GC_CONCURRENT freed <1K, 4% free 4334K/4496K, paused 3ms+0ms, total 5ms
+D/dalvikvm(13264): GC_CONCURRENT freed 5K, 3% free 4723K/4856K, paused 2ms+0ms, total 6ms
+D/dalvikvm(13264): GC_FOR_ALLOC freed 4K, 3% free 5222K/5336K, paused 3ms, total 3ms
+D/dalvikvm(13264): GC_CONCURRENT freed <1K, 2% free 5971K/6088K, paused 2ms+2ms, total 5ms
+D/dalvikvm(13264): GC_FOR_ALLOC freed 5K, 2% free 6822K/6936K, paused 1ms, total 2ms
+D/dalvikvm(13264): GC_FOR_ALLOC freed 3K, 2% free 7153K/7272K, paused 2ms, total 2ms
+I/dalvikvm-heap(13264): Grow heap (frag case) to 8.682MB for 1728012-byte allocation
+W/WindowManager(  464): Rebuild removed 3 windows but added 2
+W/WindowManager(  464): java.lang.RuntimeException: here
+W/WindowManager(  464): 	at com.android.server.wm.WindowManagerService.rebuildAppWindowListLocked(WindowManagerService.java:8184)
+W/WindowManager(  464): 	at com.android.server.wm.WindowManagerService.rebuildAppWindowListLocked(WindowManagerService.java:8120)
+W/WindowManager(  464): 	at com.android.server.wm.WindowManagerService.handleAppTransitionReadyLocked(WindowManagerService.java:8603)
+W/WindowManager(  464): 	at com.android.server.wm.WindowManagerService.performLayoutAndPlaceSurfacesLockedInner(WindowManagerService.java:9366)
+W/WindowManager(  464): 	at com.android.server.wm.WindowManagerService.performLayoutAndPlaceSurfacesLockedLoop(WindowManagerService.java:8336)
+W/WindowManager(  464): 	at com.android.server.wm.WindowManagerService.performLayoutAndPlaceSurfacesLocked(WindowManagerService.java:8278)
+W/WindowManager(  464): 	at com.android.server.wm.WindowManagerService.access$400(WindowManagerService.java:165)
+W/WindowManager(  464): 	at com.android.server.wm.WindowManagerService$H.handleMessage(WindowManagerService.java:7312)
+W/WindowManager(  464): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/WindowManager(  464): 	at android.os.Looper.loop(Looper.java:136)
+W/WindowManager(  464): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/WindowManager(  464): This window was lost: Window{4aa048fc u0 com.android.documentsui/com.android.documentsui.DocumentsActivity}
+W/WindowManager(  464): mDisplayId=0 mSession=Session{4ad5d9f8 1983:u0a10020} mClient=android.os.BinderProxy@4ad5d418
+W/WindowManager(  464): mOwnerUid=10020 mShowToOwnerOnly=true package=com.android.documentsui appop=NONE
+W/WindowManager(  464): mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#110 ty=1 fl=#1810100 pfl=0x8 wanim=0x10302a1}
+W/WindowManager(  464): Requested w=720 h=1280 mLayoutSeq=42073
+W/WindowManager(  464): mBaseLayer=21000 mSubLayer=0 mAnimLayer=21005+0=21005 mLastLayer=22005
+W/WindowManager(  464): mToken=AppWindowToken{4ae579a4 token=Token{4ab781c8 ActivityRecord{4aa54c54 u0 com.android.documentsui/.DocumentsActivity t588}}}
+W/WindowManager(  464): mRootToken=AppWindowToken{4ae579a4 token=Token{4ab781c8 ActivityRecord{4aa54c54 u0 com.android.documentsui/.DocumentsActivity t588}}}
+W/WindowManager(  464): mAppToken=AppWindowToken{4ae579a4 token=Token{4ab781c8 ActivityRecord{4aa54c54 u0 com.android.documentsui/.DocumentsActivity t588}}}
+W/WindowManager(  464): mViewVisibility=0x0 mHaveFrame=true mObscured=false
+W/WindowManager(  464): mSeq=0 mSystemUiVisibility=0x0
+W/WindowManager(  464): mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+W/WindowManager(  464): mConfiguration={1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger qwerty/v/v dpad/v s.181}
+W/WindowManager(  464): mHasSurface=true mShownFrame=[0.0,0.0][720.0,1280.0] isReadyForDisplay()=false
+W/WindowManager(  464): mFrame=[0,0][720,1280] last=[0,0][720,1280]
+W/WindowManager(  464): mSystemDecorRect=[0,38][720,1280] last=[0,38][720,1280]
+W/WindowManager(  464): Frames: containing=[0,0][720,1280] parent=[0,0][720,1280]
+W/WindowManager(  464):     display=[0,0][720,1280] overscan=[0,0][720,1280]
+W/WindowManager(  464):     content=[0,38][720,1280] visible=[0,38][720,1280]
+W/WindowManager(  464):     decor=[0,38][720,1280]
+W/WindowManager(  464): Cur insets: overscan=[0,0][0,0] content=[0,38][0,0] visible=[0,38][0,0]
+W/WindowManager(  464): Lst insets: overscan=[0,0][0,0] content=[0,38][0,0] visible=[0,38][0,0]
+W/WindowManager(  464): WindowStateAnimator{4b17cdf8 com.android.documentsui/com.android.documentsui.DocumentsActivity}:
+W/WindowManager(  464):   mSurface=Surface(name=com.android.documentsui/com.android.documentsui.DocumentsActivity)
+W/WindowManager(  464):   mDrawState=HAS_DRAWN mLastHidden=true
+W/WindowManager(  464):   Surface: shown=false layer=22005 alpha=0.0 rect=(0.0,0.0) 720.0 x 1280.0
+W/WindowManager(  464):   mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+W/WindowManager(  464): Current app token list:
+V/WindowManager(  464):   Display 0
+V/WindowManager(  464):   #1: Token{4ae61bc4 ActivityRecord{4a90a358 u0 com.km.cutpaste.util/.MainActivity t589}}
+V/WindowManager(  464):   #0: Token{4a99f374 ActivityRecord{4a99f238 u0 com.vphone.launcher/.Launcher t1}}
+W/WindowManager(  464): Final window list:
+V/WindowManager(  464):   #0: Window{4a983d18 u0 StatusBar}
+V/WindowManager(  464):   #1: Window{4a9275f8 u0 KeyguardScrim}
+V/WindowManager(  464):   #2: Window{4accb8a4 u0 InputMethod}
+V/WindowManager(  464):   #3: Window{4aa0de24 u0 Application Error: com.android.documentsui}
+V/WindowManager(  464):   #4: Window{4a92e0a8 u0 Starting com.km.cutpaste.util}
+V/WindowManager(  464):   #5: Window{4aa1924c u0 com.vphone.launcher/com.vphone.launcher.Launcher}
+V/WindowManager(  464):   #6: Window{4ae5bac4 u0 com.android.systemui.ImageWallpaper}
+D/dalvikvm(13264): GC_CONCURRENT freed <1K, 2% free 8840K/8960K, paused 21ms+0ms, total 27ms
+D/dalvikvm(13264): WAIT_FOR_CONCURRENT_GC blocked 6ms
+D/dalvikvm(13264): WAIT_FOR_CONCURRENT_GC blocked 24ms
+V/KM      (13264): Request to Load First Admob
+E/dalvikvm(13264): Could not find class 'android.support.v4.app.FragmentActivity', referenced from method com.google.android.gms.common.GooglePlayServicesUtil.showErrorDialogFragment
+W/dalvikvm(13264): VFY: unable to resolve instanceof 178 (Landroid/support/v4/app/FragmentActivity;) in Lcom/google/android/gms/common/GooglePlayServicesUtil;
+D/dalvikvm(13264): VFY: replacing opcode 0x20 at 0x0009
+E/dalvikvm(13264): Could not find class 'android.support.v4.app.FragmentActivity', referenced from method com.google.android.gms.common.GooglePlayServicesUtil.showErrorDialogFragment
+W/dalvikvm(13264): VFY: unable to resolve check-cast 178 (Landroid/support/v4/app/FragmentActivity;) in Lcom/google/android/gms/common/GooglePlayServicesUtil;
+D/dalvikvm(13264): VFY: replacing opcode 0x1f at 0x000e
+I/dalvikvm(13264): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method jjw.a
+W/dalvikvm(13264): VFY: unable to resolve virtual method 2504: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(13264): VFY: replacing opcode 0x6e at 0x001c
+I/dalvikvm(13264): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method iwr.createCredentialProtectedStorageContext
+W/dalvikvm(13264): VFY: unable to resolve virtual method 2411: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(13264): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(13264): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method iwr.createDeviceProtectedStorageContext
+W/dalvikvm(13264): VFY: unable to resolve virtual method 2412: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(13264): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(13264): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createCredentialProtectedStorageContext
+W/dalvikvm(13264): VFY: unable to resolve virtual method 2411: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(13264): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(13264): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createDeviceProtectedStorageContext
+W/dalvikvm(13264): VFY: unable to resolve virtual method 2412: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(13264): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(13264): Could not find method android.content.Context.isCredentialProtectedStorage, referenced from method cub.a
+W/dalvikvm(13264): VFY: unable to resolve virtual method 2391: Landroid/content/Context;.isCredentialProtectedStorage ()Z
+D/dalvikvm(13264): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(13264): Could not find method android.os.UserManager.isUserUnlocked, referenced from method cub.a
+W/dalvikvm(13264): VFY: unable to resolve virtual method 3028: Landroid/os/UserManager;.isUserUnlocked ()Z
+D/dalvikvm(13264): VFY: replacing opcode 0x6e at 0x001a
+I/dalvikvm(13264): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cub.b
+W/dalvikvm(13264): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(13264): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(13264): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cub.c
+W/dalvikvm(13264): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(13264): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(13264): Could not find method android.system.Os.readlink, referenced from method cuq.a
+W/dalvikvm(13264): VFY: unable to resolve static method 3047: Landroid/system/Os;.readlink (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm(13264): VFY: replacing opcode 0x71 at 0x0000
+I/dalvikvm(13264): Could not find method android.system.Os.stat, referenced from method cuq.a
+W/dalvikvm(13264): VFY: unable to resolve static method 3048: Landroid/system/Os;.stat (Ljava/lang/String;)Landroid/system/StructStat;
+D/dalvikvm(13264): VFY: replacing opcode 0x71 at 0x0042
+I/dalvikvm(13264): Could not find method android.system.Os.symlink, referenced from method cuq.a
+W/dalvikvm(13264): VFY: unable to resolve static method 3049: Landroid/system/Os;.symlink (Ljava/lang/String;Ljava/lang/String;)V
+D/dalvikvm(13264): VFY: replacing opcode 0x71 at 0x013b
+I/dalvikvm(13264): DexOpt: unable to optimize instance field ref 0x04a1 at 0x46 in Lcuq;.a
+I/dalvikvm(13264): DexOpt: unable to optimize static field ref 0x049c at 0x48 in Lcuq;.a
+I/dalvikvm(13264): DexOpt: unable to optimize static field ref 0x049a at 0x4a in Lcuq;.a
+I/dalvikvm(13264): DexOpt: unable to optimize static field ref 0x049b at 0x4d in Lcuq;.a
+I/dalvikvm(13264): DexOpt: unable to optimize static field ref 0x049d at 0x57 in Lcuq;.a
+I/dalvikvm(13264): DexOpt: unable to optimize static field ref 0x04a0 at 0x5f in Lcuq;.a
+I/dalvikvm(13264): DexOpt: unable to optimize static field ref 0x049e at 0x61 in Lcuq;.a
+I/dalvikvm(13264): DexOpt: unable to optimize static field ref 0x049f at 0x64 in Lcuq;.a
+I/dalvikvm(13264): DexOpt: unable to optimize static field ref 0x049c at 0x7f in Lcuq;.a
+I/dalvikvm(13264): DexOpt: unable to optimize static field ref 0x04a0 at 0x90 in Lcuq;.a
+I/dalvikvm(13264): Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method jvu.a
+W/dalvikvm(13264): VFY: unable to resolve virtual method 2362: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(13264): VFY: replacing opcode 0x6e at 0x0029
+I/dalvikvm(13264): Could not find method android.content.Context.getSystemService, referenced from method jvu.b
+W/dalvikvm(13264): VFY: unable to resolve virtual method 2387: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm(13264): VFY: replacing opcode 0x6e at 0x000b
+D/dalvikvm(13264): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm(13264): VFY: unable to resolve static field 1157 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(13264): VFY: replacing opcode 0x62 at 0x0012
+D/dalvikvm(13264): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+W/dalvikvm(13264): VFY: unable to resolve static field 1156 (SUPPORTED_32_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(13264): VFY: replacing opcode 0x62 at 0x0021
+D/dalvikvm(13264): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm(13264): VFY: unable to resolve static field 1158 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm(13264): VFY: replacing opcode 0x62 at 0x0008
+D/dalvikvm(13264): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm(13264): VFY: unable to resolve static field 1157 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(13264): VFY: replacing opcode 0x62 at 0x0008
+D/dalvikvm(13264): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm(13264): DexOpt: unable to optimize static field ref 0x0485 at 0x17 in Lcwd;.a
+D/dalvikvm(13264): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+I/dalvikvm(13264): DexOpt: unable to optimize static field ref 0x0484 at 0x26 in Lcwd;.a
+D/dalvikvm(13264): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm(13264): DexOpt: unable to optimize static field ref 0x0485 at 0x0d in Lcwd;.b
+D/DynamitePackage(13264): Instantiated singleton DynamitePackage.
+D/DynamitePackage(13264): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/dalvikvm(13264): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method jn.a
+W/dalvikvm(13264): VFY: unable to resolve virtual method 2060: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(13264): VFY: replacing opcode 0x6e at 0x0017
+D/dalvikvm(13264): GC_CONCURRENT freed 573K, 6% free 10276K/10904K, paused 2ms+2ms, total 12ms
+I/dalvikvm(13264): Could not find method android.security.NetworkSecurityPolicy.getInstance, referenced from method com.google.android.gms.ads.internal.util.h.b_
+W/dalvikvm(13264): VFY: unable to resolve static method 2591: Landroid/security/NetworkSecurityPolicy;.getInstance ()Landroid/security/NetworkSecurityPolicy;
+D/dalvikvm(13264): VFY: replacing opcode 0x71 at 0x0022
+D/dalvikvm(13264): DexOpt: --- BEGIN '1510898742191.jar' (bootstrap=0) ---
+I/dalvikvm(13264): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method qp.a
+I/Process ( 1983): Sending signal. PID: 1983 SIG: 9
+W/dalvikvm(13264): VFY: unable to resolve virtual method 2065: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+D/dalvikvm(13264): VFY: replacing opcode 0x6e at 0x002d
+I/dalvikvm(13264): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method qo.a
+W/dalvikvm(13264): VFY: unable to resolve virtual method 2064: Landroid/content/pm/PackageManager;.isInstantApp ()Z
+D/dalvikvm(13264): VFY: replacing opcode 0x6e at 0x0028
+W/ContextImpl(  464): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/Ads     (13264): Starting ad request.
+I/Ads     (13264): Use AdRequest.Builder.addTestDevice("36C000C4994BD3192565D3B3E2B4826B") to get test ads on this device.
+W/InputDispatcher(  464): channel '4aa048fc com.android.documentsui/com.android.documentsui.DocumentsActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  464): channel '4aa048fc com.android.documentsui/com.android.documentsui.DocumentsActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+I/dalvikvm(13264): Could not find method android.webkit.WebSettings.setMixedContentMode, referenced from method com.google.android.gms.ads.internal.webview.m.<init>
+W/dalvikvm(13264): VFY: unable to resolve virtual method 2893: Landroid/webkit/WebSettings;.setMixedContentMode (I)V
+D/dalvikvm(13264): VFY: replacing opcode 0x6e at 0x0069
+I/ActivityManager(  464): Process com.android.documentsui (pid 1983) has died.
+V/WebViewChromium(13264): Binding Chromium to the background looper Looper (main, tid 1) {4a7ea684}
+I/chromium(13264): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain(13264): Initializing chromium process, renderers=0
+W/InputDispatcher(  464): Attempted to unregister already unregistered input channel '4aa048fc com.android.documentsui/com.android.documentsui.DocumentsActivity (server)'
+I/WindowState(  464): WIN DEATH: Window{4aa048fc u0 com.android.documentsui/com.android.documentsui.DocumentsActivity}
+W/chromium(13264): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/dalvikvm(13284): DexOpt: load 3ms, verify+opt 4ms, 287892 bytes
+D/dalvikvm(13264): DexOpt: --- END '1510898742191.jar' (success) ---
+D/dalvikvm(13264): DEX prep '/data/data/com.km.cutpaste.util/cache/1510898742191.jar': unzip in 3ms, rewrite 214ms
+D/libEGL  (13264): loaded /system/lib/egl/libEGL_adreno.so
+D/        (13264): HostConnection::get() New Host Connection established 0xb876a710, tid 13264
+D/libEGL  (13264): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (13264): loaded /system/lib/egl/libGLESv2_adreno.so
+I/Ads     (13264): Please set theme of AdActivity to @android:style/Theme.Translucent to enable transparent background interstitial ad.
+W/ActivityManager(  464): Permission Denial: getTasks() from pid=13264, uid=10189 requires android.permission.GET_TASKS
+W/Ads     (13264): Invoke Firebase method getInstance error.
+W/Ads     (13264): The Google Mobile Ads SDK will not integrate with Firebase. Admob/Firebase integration requires the latest Firebase SDK jar, but Firebase SDK is either missing or out of date
+V/GAV4    (13264): Thread[client_id_fetcher,5,main]: Storing clientId.
+W/DebugConnManager(  713): getNetworkInfo() on networkType 0
+E/Herrevad(  713): [5044] RemoteReportsRefreshChimeraService.a: want to send authenticated request, but no Google account on device
+W/Herrevad(  713): [5044] RemoteReportsRefreshChimeraService.a: java.util.concurrent.ExecutionException: com.android.volley.NoConnectionError: java.net.UnknownHostException: Unable to resolve host "android.googleapis.com": No address associated with hostname
+W/Ads     (  713): Error while connecting to ad server: Unable to resolve host "googleads.g.doubleclick.net": No address associated with hostname
+W/Ads     (13264): There was a problem getting an ad response. ErrorCode: 2
+W/EGL_emulation(13264): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(13264): Enabling debug mode 0
+W/ViewRootImpl(13264): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=16456557, downTime=16456557, deviceId=-1, source=0x101 }
+W/Binder  (  644): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  644): java.lang.NullPointerException
+W/Binder  (  644): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  644): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  644): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  644): 	at dalvik.system.NativeStart.run(Native Method)
+W/Ads     (13264): Failed to load ad: 2
+W/ViewRootImpl(13264): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=16456660, downTime=16456660, deviceId=-1, source=0x101 }
+W/ContextImpl(  464): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  464): Got RemoteException sending setActive(false) notification to pid 1983 uid 10020
+I/chromium(13264): [INFO:simple_index_file.cc(397)] Simple Cache Index is being restored from disk.
+I/ActivityManager(  464): Displayed com.km.cutpaste.util/.MainActivity: +1s341ms
+W/SocketClient(  163): write error (Broken pipe)
+I/ActivityManager(  464): START u0 {act=android.intent.action.VIEW dat=market://details?id=com.km.photogridbuilder&referrer=utm_source=crosspromotion&utm_medium=startpage&utm_campaign=com.km.cutpaste.util flg=0x10000000 cmp=com.android.vending/com.google.android.finsky.activities.LaunchUrlHandlerActivity} from pid 13264
+E/Ads     (13264): JS: Not allowed to load local resource: file:///android_asset/webkit/android-weberror.png (data:text/html,chromewebdata:12)
+I/chromium(13264): [INFO:CONSOLE(12)] "Not allowed to load local resource: file:///android_asset/webkit/android-weberror.png", source: data:text/html,chromewebdata (12)
+I/ActivityManager(  464): START u0 {cmp=com.km.cutpaste.util/.tabswipenew.MainActivityTab (has extras)} from pid 13264
+D/dalvikvm(13264): GC_FOR_ALLOC freed 1189K, 10% free 11374K/12616K, paused 3ms, total 3ms
+W/InputMethodManagerService(  464): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4adc1460 (uid=10189 pid=13264)
+E/Inside  (13264): onCreate()
+V/KM      (13264): IsReady - interstitial=Not null. loaded = false, Time Diff=1523672131211
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+D/dalvikvm(13264): GC_FOR_ALLOC freed 868K, 12% free 12544K/14176K, paused 3ms, total 3ms
+W/CursorWrapperInner(13264): Cursor finalized without prior close()
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+I/WearableService(  654): Wearable Services stopping
+W/EGL_emulation(13264): eglSurfaceAttrib not implemented 3093 12436
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+W/ViewRootImpl(13264): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=16457304, downTime=16457304, deviceId=-1, source=0x101 }
+E/orientaion(13264): 0
+W/ViewRootImpl(13264): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=16457537, downTime=16457537, deviceId=-1, source=0x101 }
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+W/ContextImpl(  464): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+D/dalvikvm(13264): GC_FOR_ALLOC freed 2649K, 22% free 12500K/15848K, paused 6ms, total 6ms
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+I/ActivityManager(  464): Displayed com.km.cutpaste.util/.tabswipenew.MainActivityTab: +538ms
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+E/orientaion(13264): 0
+E/Tab     (13264): Rached
+E/Path    (13264): /storage/emulated/0/DCIM/Camera/1523657861499.jpg
+E/Result  (13264): Ok
+I/ActivityManager(  464): START u0 {cmp=com.km.cutpaste.util/.CutActivity (has extras)} from pid 13264
+W/EGL_emulation(13264): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(13264): GC_FOR_ALLOC freed 1447K, 15% free 13472K/15848K, paused 3ms, total 3ms
+I/MemoryCache(13264): MemoryCache will use up to 128.0MB
+V/KM      (13264): IsReady - interstitial=Not null. loaded = false, Time Diff=1523672132226
+D/dalvikvm(13264): GC_FOR_ALLOC freed 1116K, 16% free 14109K/16752K, paused 4ms, total 4ms
+I/dalvikvm-heap(13264): Grow heap (frag case) to 15.695MB for 1958412-byte allocation
+D/dalvikvm(13264): GC_FOR_ALLOC freed 2K, 15% free 16019K/18668K, paused 10ms, total 10ms
+W/ViewRootImpl(13264): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=16458089, downTime=16458089, deviceId=-1, source=0x101 }
+W/EGL_emulation(13264): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(13264): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13264): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=16458337, downTime=16458337, deviceId=-1, source=0x101 }
+D/dalvikvm(13264): GC_FOR_ALLOC freed 154K, 15% free 15883K/18668K, paused 2ms, total 2ms
+I/dalvikvm-heap(13264): Grow heap (frag case) to 19.076MB for 3686412-byte allocation
+D/dalvikvm(13264): GC_FOR_ALLOC freed <1K, 13% free 19483K/22272K, paused 3ms, total 3ms
+W/ContextImpl(  464): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  464): Displayed com.km.cutpaste.util/.CutActivity: +1s549ms
+W/ViewRootImpl(13264): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=16460253, downTime=16460253, deviceId=-1, source=0x101 }
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+D/dalvikvm(13264): GC_FOR_ALLOC freed 244K, 13% free 19435K/22272K, paused 4ms, total 8ms
+I/dalvikvm-heap(13264): Grow heap (frag case) to 22.543MB for 3686412-byte allocation
+D/dalvikvm(13264): GC_FOR_ALLOC freed 979K, 15% free 22055K/25876K, paused 3ms, total 3ms
+D/dalvikvm(13264): GC_FOR_ALLOC freed 2K, 15% free 22055K/25876K, paused 4ms, total 4ms
+I/dalvikvm-heap(13264): Grow heap (frag case) to 25.103MB for 3686412-byte allocation
+D/dalvikvm(13264): GC_FOR_ALLOC freed <1K, 13% free 25655K/29480K, paused 3ms, total 3ms
+D/dalvikvm(13264): GC_FOR_ALLOC freed 1K, 9% free 30159K/33096K, paused 4ms, total 4ms
+D/dalvikvm(13264): GC_EXPLICIT freed 2765K, 16% free 31896K/37616K, paused 0ms+0ms, total 10ms
+D/dalvikvm(13264): Trying to load lib /data/app-lib/com.km.cutpaste.util-1/libedge_detection.so 0x94fda318
+D/dalvikvm(13264): WAIT_FOR_CONCURRENT_GC blocked 4ms
+D/dalvikvm(13264): Added shared lib /data/app-lib/com.km.cutpaste.util-1/libedge_detection.so 0x94fda318
+D/dalvikvm(13264): No JNI_OnLoad found in /data/app-lib/com.km.cutpaste.util-1/libedge_detection.so 0x94fda318, skipping init
+D/dalvikvm(13264): GC_EXPLICIT freed 902K, 10% free 35496K/39424K, paused 3ms+2ms, total 13ms
+D/dalvikvm(13264): WAIT_FOR_CONCURRENT_GC blocked 28ms
+D/dalvikvm(13264): GC_EXPLICIT freed <1K, 8% free 39096K/42136K, paused 1ms+3ms, total 8ms
+D/dalvikvm(13264): WAIT_FOR_CONCURRENT_GC blocked 19ms
+D/dalvikvm(13264): WAIT_FOR_CONCURRENT_GC blocked 63ms
+D/dalvikvm(13264): GC_EXPLICIT freed <1K, 7% free 43596K/46656K, paused 5ms+2ms, total 38ms
+W/EGL_emulation(13264): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  464): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(13264): GC_FOR_ALLOC freed <1K, 7% free 48096K/51176K, paused 18ms, total 18ms
+W/WindowManager(  464): updateFocusedWindowLocked, focusedAppToken is null.
+W/ContextImpl(  464): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  464): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4adc1460 (uid=10189 pid=13264)
+D/dalvikvm(13264): GC_FOR_ALLOC freed 1K, 6% free 52598K/55696K, paused 30ms, total 30ms
+W/ContextImpl(  464): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputEventReceiver(  532): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  532): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  532): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  532): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  532): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  532): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  532): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  532): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  532): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  532): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  532): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_DOWN(1), id[0]=0, x[0]=42.939243, y[0]=606.4426, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=591.0, y[1]=192.0, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=16460961, downTime=16460937, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  532): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=42.238075, y[0]=621.8954, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=561.5917, y[1]=120.753784, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=6, eventTime=16460970, downTime=16460937, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  532): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_UP(1), id[0]=0, x[0]=42.09008, y[0]=624.9248, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=549.47375, y[1]=108.95813, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=16460971, downTime=16460937, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  532): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=41.914074, y[0]=626.46387, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=16460974, downTime=16460937, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  532): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=43.0, y[0]=696.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=16460976, downTime=16460976, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  532): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=43.864414, y[0]=706.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=16460979, downTime=16460976, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  532): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=44.978928, y[0]=706.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=16460980, downTime=16460976, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  532): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=308.0, y[0]=-39.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=16460981, downTime=16460981, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  532): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=309.02545, y[0]=-43.025513, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=16460983, downTime=16460981, deviceId=0, source=0x1002 }
+I/time taken by method seperate: (13264): 717
+I/mycounter value : (13264): 230400
+I/convert: (13264): 863
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+V/GAV4    (13264): Thread[GAThread,5,main]: connecting to Analytics service
+V/GAV4    (13264): Thread[GAThread,5,main]: connect: bindService returned true for Intent { act=com.google.android.gms.analytics.service.START cmp=com.google.android.gms/.analytics.service.AnalyticsService (has extras) }
+V/GAV4    (13264): Thread[GAThread,5,main]: Loaded clientId
+I/GAV4    (13264): Thread[GAThread,5,main]: No campaign data found.
+V/GAV4    (13264): Thread[GAThread,5,main]: Initialized GA Thread
+V/GAV4    (13264): Thread[main,5,main]: service connected, binder: android.os.BinderProxy@4ab73eec
+V/GAV4    (13264): Thread[main,5,main]: bound to service
+V/GAV4    (13264): Thread[main,5,main]: Connected to service
+V/GAV4    (13264): Thread[GAThread,5,main]: putHit called
+V/GAV4    (13264): Thread[GAThread,5,main]: Sending hit to service   PATH: https:  PARAMS: ul=en-us,  ht=1523672130407,  sr=720x1280,  aid=com.km.cutpaste.util,  cid=c88df465-40c8-4917-91f2-80631052cc72,  av=4.2,  v=1,  adid=e4382e3f-a082-4060-b970-a4dd13ffa2b6,  t=appview,  an=Cut Paste Photos,  ate=1,  tid=UA-40333083-36,  _u=.nK-AL,  cd=MainActivity,  
+V/GAV4    (13264): Thread[GAThread,5,main]: putHit called
+V/GAV4    (13264): Thread[GAThread,5,main]: Sending hit to service   PATH: https:  PARAMS: ul=en-us,  ht=1523672131051,  sr=720x1280,  aid=com.km.cutpaste.util,  ea=App6,  cid=c88df465-40c8-4917-91f2-80631052cc72,  ec=CrossPromotion,  av=4.2,  v=1,  adid=e4382e3f-a082-4060-b970-a4dd13ffa2b6,  t=event,  el=App6,  an=Cut Paste Photos,  ate=1,  tid=UA-40333083-36,  _u=.yAAAAL,  cd=MainActivity,  
+V/GAV4    (13264): Thread[GAThread,5,main]: putHit called
+V/GAV4    (13264): Thread[GAThread,5,main]: Sending hit to service   PATH: https:  PARAMS: ul=en-us,  ht=1523672131051,  sr=720x1280,  aid=com.km.cutpaste.util,  cid=c88df465-40c8-4917-91f2-80631052cc72,  av=4.2,  v=1,  adid=e4382e3f-a082-4060-b970-a4dd13ffa2b6,  t=appview,  an=Cut Paste Photos,  ate=1,  tid=UA-40333083-36,  _u=.K-AL,  cd=CrossPromote,  
+V/GAV4    (13264): Thread[GAThread,5,main]: putHit called
+V/GAV4    (13264): Thread[GAThread,5,main]: Sending hit to service   PATH: https:  PARAMS: ul=en-us,  ht=1523672131211,  sr=720x1280,  aid=com.km.cutpaste.util,  cid=c88df465-40c8-4917-91f2-80631052cc72,  av=4.2,  v=1,  adid=e4382e3f-a082-4060-b970-a4dd13ffa2b6,  t=appview,  an=Cut Paste Photos,  ate=1,  tid=UA-40333083-36,  _u=.K-AL,  cd=CutPhotoSelector,  
+V/GAV4    (13264): Thread[GAThread,5,main]: putHit called
+V/GAV4    (13264): Thread[GAThread,5,main]: Sending hit to service   PATH: https:  PARAMS: ul=en-us,  ht=1523672132226,  sr=720x1280,  aid=com.km.cutpaste.util,  cid=c88df465-40c8-4917-91f2-80631052cc72,  av=4.2,  v=1,  adid=e4382e3f-a082-4060-b970-a4dd13ffa2b6,  t=appview,  an=Cut Paste Photos,  ate=1,  tid=UA-40333083-36,  _u=.K-AL,  cd=StickerActivity-Cut,  
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 464
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+I/ActivityManager(  464): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 532
+D/dalvikvm(  464): GC_CONCURRENT freed 2421K, 51% free 12601K/25208K, paused 1ms+5ms, total 39ms
+D/dalvikvm(  464): WAIT_FOR_CONCURRENT_GC blocked 29ms
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 464
+W/WindowManager(  464): updateFocusedWindowLocked, focusedAppToken is null.
+I/InputDispatcher(  464): Dropped event because of pending overdue app switch.
+W/InputManager(  464): Input event injection from pid 13253 failed.
+W/InputEventReceiver(  532): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  532): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputMethodManagerService(  464): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae3d2e8 attribute=null, token = android.os.BinderProxy@4acad4e0
+W/ViewRootImpl(  532): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=282.5257, y[0]=635.26575, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=16466518, downTime=16466516, deviceId=0, source=0x1002 }
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+W/ActivityThread(13264): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+W/Ads     (13264): Error while pinging URL: https://pagead2.googlesyndication.com/pagead/gen_204?is_aia=false&id=gmob-apps-report-exception&os=4.4.2&api=19&device=samsung%20SM-G955N&js=afma-sdk-a-v12221070.4452000.1&appid=com.km.cutpaste.util&exceptiontype=com.google.android.gms.ads.internal.js.function.a&stacktrace=com.google.android.gms.ads.internal.js.function.a%3A%20Unable%20to%20obtain%20a%20JavascriptEngine.%0A%09at%20com.google.android.gms.ads.internal.js.function.m.a(com.google.android.gms.DynamiteModulesA%4012221070%4012.2.21%20(070-188803320)%3A2)%0A%09at%20com.google.android.gms.ads.internal.util.promise.e.d(com.google.android.gms.DynamiteModulesA%4012221070%4012.2.21%20(070-188803320)%3A28)%0A%09at%20com.google.android.gms.ads.internal.js.ad.a(com.google.android.gms.DynamiteModulesA%4012221070%4012.2.21%20(070-188803320)%3A2)%0A%09at%20com.google.android.gms.ads.internal.util.promise.e.d(com.google.android.gms.DynamiteModulesA%4012221070%4012.2.21%20(070-188803320)%3A28)%0A%09at%20com.google.android.gms.ads.internal.js.n.run(Unknown%20Source)%0A%09at%20android.os.Handler.handleCallback(Handler.java%3A733)%0A%09at%20android.os.Handler.dispatchMessage(Handler.java%3A95)%0A%09at%20android.os.Looper.loop(Looper.java%3A136)%0A%09at%20android.app.ActivityThread.main(ActivityThread.java%3A5019)%0A%09at%20java.lang.reflect.Method.invokeNative(Native%20Method)%0A%09at%20java.lang.reflect.Method.invoke(Method.java%3A515)%0A%09at%20com.android.internal.os.ZygoteInit%24MethodAndArgsCaller.run(ZygoteInit.java%3A779)%0A%09at%20com.android.internal.os.ZygoteInit.main(ZygoteInit.java%3A595)%0A%09at%20dalvik.system.NativeStart.main(Native%20Method)%0A&eids=318475418%2C%2C318480178&exceptionkey=ConfigLoader.maybeFetchNewAppSettings&cl=188803320&rc=dev&session_id=16024062308264277294&sampling_rate=1&pb_tm=1.0. Unable to resolve host "pagead2.googlesyndication.com": No address associated with hostname
+W/SocketClient(  163): write error (Broken pipe)
+I/ActivityManager(  464): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 532
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+D/dalvikvm(  644): GC_CONCURRENT freed 371K, 14% free 3053K/3520K, paused 0ms+2ms, total 4ms
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 464
+D/dalvikvm(  464): GC_FOR_ALLOC freed 2449K, 51% free 12419K/25208K, paused 18ms, total 18ms
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 464
+I/InputDispatcher(  464): Dropped event because of pending overdue app switch.
+W/InputManager(  464): Input event injection from pid 13253 failed.
+I/ActivityManager(  464): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 13264
+W/PhoneFallbackEventHandler(13264): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  464): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.km.cutpaste.util/.MainActivity} from pid 13253
+I/AndroidRuntime(13253): VM exiting with result code 0.

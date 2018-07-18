@@ -1,0 +1,2006 @@
+--------- beginning of /dev/log/main
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/AndroidRuntime(24016): 
+D/AndroidRuntime(24016): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(24016): CheckJNI is OFF
+D/dalvikvm(24016): Using executionMode 2
+D/dalvikvm(24016): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(24016): Added shared lib libjavacore.so 0x0
+D/dalvikvm(24016): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(24016): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(24016): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(24016): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(24016): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(24016): failed to load memtrack module: -2
+D/AndroidRuntime(24016): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  484): Skipping deliver [background] BroadcastRecord{4b0f9c08 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4ae17ed0 24016 (unknown name)/0/u-1 remote:4af7a7d0}: process crashing
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity} from pid 24016
+D/yeshen  (  689): launcher onpause
+I/ActivityManager(  484): Start proc com.biblia.english for activity com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: pid=24026 uid=10066 gids={50066, 3003}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 1) failed with errno -13
+I/dalvikvm(24026): ignoring registerObject request in thread=1
+I/dalvikvm(24026): ignoring registerObject request in thread=1
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/dalvikvm(24026): dvmFindClassByName rejecting 'com/embarcadero/rtl/ProxyInterface'
+W/dalvikvm(24026): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24026): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24026): dvmFindClassByName rejecting 'android/view/Display$Mode'
+W/dalvikvm(24026): dvmFindClassByName rejecting 'android/app/AlarmManager$AlarmClockInfo'
+W/dalvikvm(24026): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24026): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24026): dvmFindClassByName rejecting 'android/view/ViewOutlineProvider'
+W/dalvikvm(24026): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24026): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24026): dvmFindClassByName rejecting 'android/content/pm/PackageInstaller'
+W/dalvikvm(24026): dvmFindClassByName rejecting 'com/embarcadero/firemonkey/OnActivityListener'
+W/dalvikvm(24026): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24026): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+I/WearableService( 1323): Wearable Services stopping
+W/dalvikvm(24026): dvmFindClassByName rejecting 'android/telephony/IccOpenLogicalChannelResponse'
+W/ViewRootImpl(24026): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5347445, downTime=5347445, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): Displayed com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: +1s261ms
+D/libEGL  (24026): loaded /system/lib/egl/libEGL_adreno.so
+D/        (24026): HostConnection::get() New Host Connection established 0xb8420320, tid 24040
+D/libEGL  (24026): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (24026): loaded /system/lib/egl/libGLESv2_adreno.so
+F/libc    (24026): Fatal signal 11 (SIGSEGV) at 0xc34c84ce (code=1), thread 24026 (.biblia.english)
+I/DEBUG   (  171): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  171): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  171): Revision: '0'
+I/DEBUG   (  171): pid: 24026, tid: 24026, name: .biblia.english  >>> com.biblia.english <<<
+I/DEBUG   (  171): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr c34c84ce
+I/DEBUG   (  171):     eax d6b00019  ebx 40000005  ecx 00000000  edx 00000000
+I/DEBUG   (  171):     esi 88d68ddc  edi bf99655c
+I/DEBUG   (  171):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+I/DEBUG   (  171):     eip c34c84ce  ebp bf996578  esp bf99653c  flags 00210206
+I/DEBUG   (  171): 
+I/DEBUG   (  171): backtrace:
+I/DEBUG   (  171):     #00  pc c34c84ce  <unknown>
+I/DEBUG   (  171):     #01  pc 0009a112  /system/lib/libdvm.so
+I/DEBUG   (  171):     #02  pc 00000100  <unknown>
+I/DEBUG   (  171): 
+I/DEBUG   (  171): memory map around fault addr c34c84ce:
+I/DEBUG   (  171):     bf977000-bf998000 rw- [stack]
+I/DEBUG   (  171):     (no map for address)
+I/DEBUG   (  171):     (no map above)
+I/Process (  484): Sending signal. PID: 24026 SIG: 9
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 0) failed with errno -13
+W/ActivityManager(  484): Force-killing crashed app com.biblia.english at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.NativeCrashListener$NativeCrashReporter.run:86 <bottom of call stack> <bottom of call stack> 
+I/ActivityManager(  484): Process com.biblia.english (pid 24026) has died.
+W/ActivityManager(  484): Force removing ActivityRecord{4a920e64 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity t240}: app died, no saved state
+W/InputDispatcher(  484): channel '4a9d0b60 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  484): channel '4a9d0b60 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputDispatcher(  484): Attempted to unregister already unregistered input channel '4a9d0b60 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)'
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/WindowState(  484): WIN DEATH: Window{4a9d0b60 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity}
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+D/Zygote  (  175): Process 24026 terminated by signal (11)
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  484): Got RemoteException sending setActive(false) notification to pid 24026 uid 10066
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/Launcher(  689): No global search activity found.
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.faithcomesbyhearing.android.bibleis/.activity.LaunchActivity bnds=[3,158][144,388]} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity} from pid 24016
+D/yeshen  (  689): launcher onpause
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 1) failed with errno -13
+I/ActivityManager(  484): Start proc com.biblia.english for activity com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: pid=24055 uid=10066 gids={50066, 3003}
+I/dalvikvm(24055): ignoring registerObject request in thread=1
+I/dalvikvm(24055): ignoring registerObject request in thread=1
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+I/qtaguid (  689): Untagging socket 86 failed errno=-13
+W/NetworkManagementSocketTagger(  689): untagSocket(86) failed with errno -13
+I/qtaguid (  689): Tagging socket 86 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(86, 1239581248, -1) failed with errno-13
+W/dalvikvm(24055): dvmFindClassByName rejecting 'com/embarcadero/rtl/ProxyInterface'
+I/qtaguid (  689): Tagging socket 140 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(140, 1239581248, -1) failed with errno-13
+W/dalvikvm(24055): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24055): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24055): dvmFindClassByName rejecting 'android/view/Display$Mode'
+W/dalvikvm(24055): dvmFindClassByName rejecting 'android/app/AlarmManager$AlarmClockInfo'
+W/dalvikvm(24055): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24055): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24055): dvmFindClassByName rejecting 'android/view/ViewOutlineProvider'
+W/dalvikvm(24055): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24055): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24055): dvmFindClassByName rejecting 'android/content/pm/PackageInstaller'
+W/dalvikvm(24055): dvmFindClassByName rejecting 'com/embarcadero/firemonkey/OnActivityListener'
+W/dalvikvm(24055): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24055): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24055): dvmFindClassByName rejecting 'android/telephony/IccOpenLogicalChannelResponse'
+W/ViewRootImpl(24055): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5349538, downTime=5349538, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): Displayed com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: +1s403ms
+D/libEGL  (24055): loaded /system/lib/egl/libEGL_adreno.so
+D/        (24055): HostConnection::get() New Host Connection established 0xb8187830, tid 24075
+D/libEGL  (24055): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (24055): loaded /system/lib/egl/libGLESv2_adreno.so
+F/libc    (24055): Fatal signal 11 (SIGSEGV) at 0xc34c84ce (code=1), thread 24055 (.biblia.english)
+I/DEBUG   (  171): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  171): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  171): Revision: '0'
+I/DEBUG   (  171): pid: 24055, tid: 24055, name: .biblia.english  >>> com.biblia.english <<<
+I/DEBUG   (  171): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr c34c84ce
+I/DEBUG   (  171):     eax d7600019  ebx 40000005  ecx 00000000  edx 00000000
+I/DEBUG   (  171):     esi 88d68ddc  edi bf99655c
+I/DEBUG   (  171):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+I/DEBUG   (  171):     eip c34c84ce  ebp bf996578  esp bf99653c  flags 00210206
+I/DEBUG   (  171): 
+I/DEBUG   (  171): backtrace:
+I/DEBUG   (  171):     #00  pc c34c84ce  <unknown>
+I/DEBUG   (  171):     #01  pc 0009a112  /system/lib/libdvm.so
+I/DEBUG   (  171):     #02  pc 00000100  <unknown>
+I/DEBUG   (  171): 
+I/DEBUG   (  171): memory map around fault addr c34c84ce:
+I/DEBUG   (  171):     bf977000-bf998000 rw- [stack]
+I/DEBUG   (  171):     (no map for address)
+I/DEBUG   (  171):     (no map above)
+I/Process (  484): Sending signal. PID: 24055 SIG: 9
+W/ActivityManager(  484): Force-killing crashed app com.biblia.english at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.NativeCrashListener$NativeCrashReporter.run:86 <bottom of call stack> <bottom of call stack> 
+I/ActivityManager(  484): Process com.biblia.english (pid 24055) has died.
+I/WindowState(  484): WIN DEATH: Window{4aa04454 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 0) failed with errno -13
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/ActivityManager(  484): Force removing ActivityRecord{4a9ec03c u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity t241}: app died, no saved state
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+D/FirebaseApp(  689): Notifying background state change listeners.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+D/Zygote  (  175): Process 24055 terminated by signal (11)
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5351647, downTime=5351647, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  484): Got RemoteException sending setActive(false) notification to pid 24055 uid 10066
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+D/dalvikvm(  689): GC_FOR_ALLOC freed 5541K, 6% free 98373K/104512K, paused 39ms, total 41ms
+W/Launcher(  689): No global search activity found.
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity} from pid 24016
+D/yeshen  (  689): launcher onpause
+D/dalvikvm(  175): GC_EXPLICIT freed 40K, 5% free 2786K/2912K, paused 1ms+0ms, total 4ms
+I/ActivityManager(  484): Start proc com.biblia.english for activity com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: pid=24099 uid=10066 gids={50066, 3003}
+D/dalvikvm(  175): GC_EXPLICIT freed <1K, 5% free 2786K/2912K, paused 3ms+1ms, total 5ms
+D/dalvikvm(  175): GC_EXPLICIT freed <1K, 5% free 2786K/2912K, paused 2ms+0ms, total 4ms
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 1) failed with errno -13
+I/dalvikvm(24099): ignoring registerObject request in thread=1
+I/dalvikvm(24099): ignoring registerObject request in thread=1
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/yeshen  (  689): launcher onstop
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+W/dalvikvm(24099): dvmFindClassByName rejecting 'com/embarcadero/rtl/ProxyInterface'
+W/dalvikvm(24099): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24099): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24099): dvmFindClassByName rejecting 'android/view/Display$Mode'
+W/dalvikvm(24099): dvmFindClassByName rejecting 'android/app/AlarmManager$AlarmClockInfo'
+W/dalvikvm(24099): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24099): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24099): dvmFindClassByName rejecting 'android/view/ViewOutlineProvider'
+W/dalvikvm(24099): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24099): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24099): dvmFindClassByName rejecting 'android/content/pm/PackageInstaller'
+W/dalvikvm(24099): dvmFindClassByName rejecting 'com/embarcadero/firemonkey/OnActivityListener'
+W/dalvikvm(24099): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24099): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24099): dvmFindClassByName rejecting 'android/telephony/IccOpenLogicalChannelResponse'
+W/ViewRootImpl(24099): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5352344, downTime=5352344, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): Displayed com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: +1s576ms
+D/libEGL  (24099): loaded /system/lib/egl/libEGL_adreno.so
+D/        (24099): HostConnection::get() New Host Connection established 0xb8420840, tid 24113
+D/libEGL  (24099): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (24099): loaded /system/lib/egl/libGLESv2_adreno.so
+F/libc    (24099): Fatal signal 11 (SIGSEGV) at 0xc34c84ce (code=1), thread 24099 (.biblia.english)
+I/DEBUG   (  171): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  171): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  171): Revision: '0'
+I/DEBUG   (  171): pid: 24099, tid: 24099, name: .biblia.english  >>> com.biblia.english <<<
+I/DEBUG   (  171): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr c34c84ce
+I/DEBUG   (  171):     eax d9300019  ebx 40000005  ecx 00000000  edx 00000000
+I/DEBUG   (  171):     esi 88d68ddc  edi bf99655c
+I/DEBUG   (  171):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+I/DEBUG   (  171):     eip c34c84ce  ebp bf996578  esp bf99653c  flags 00210206
+I/DEBUG   (  171): 
+I/DEBUG   (  171): backtrace:
+I/DEBUG   (  171):     #00  pc c34c84ce  <unknown>
+I/DEBUG   (  171):     #01  pc 0009a112  /system/lib/libdvm.so
+I/DEBUG   (  171):     #02  pc 00000100  <unknown>
+I/DEBUG   (  171): 
+I/DEBUG   (  171): memory map around fault addr c34c84ce:
+I/DEBUG   (  171):     bf977000-bf998000 rw- [stack]
+I/DEBUG   (  171):     (no map for address)
+I/DEBUG   (  171):     (no map above)
+I/Process (  484): Sending signal. PID: 24099 SIG: 9
+W/ActivityManager(  484): Force-killing crashed app com.biblia.english at watcher's request
+I/WindowState(  484): WIN DEATH: Window{4ab0df14 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 0) failed with errno -13
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.NativeCrashListener$NativeCrashReporter.run:86 <bottom of call stack> <bottom of call stack> 
+I/ActivityManager(  484): Process com.biblia.english (pid 24099) has died.
+W/ActivityManager(  484): Force removing ActivityRecord{4ab68c54 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity t242}: app died, no saved state
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Zygote  (  175): Process 24099 terminated by signal (11)
+W/WindowManager(  484): updateFocusedWindowLocked, focusedAppToken is null.
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=1.2086964 v=0.0)
+V/PanelView(  536): animationTick called with dtms=-3; nothing to do (h=1.2086964 v=0.0)
+D/dalvikvm( 1323): GC_CONCURRENT freed 1515K, 19% free 7268K/8932K, paused 1ms+11ms, total 69ms
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5354318, downTime=5354318, deviceId=-1, source=0x101 }
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5354496, downTime=5354496, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  484): Got RemoteException sending setActive(false) notification to pid 24099 uid 10066
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.kiloo.subwaysurf flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.extremefungames.mototrafficrace2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.extremefungames.mototrafficrace2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity} from pid 24016
+D/yeshen  (  689): launcher onpause
+W/WindowManager(  484): updateFocusedWindowLocked, focusedAppToken is null.
+I/ActivityManager(  484): Start proc com.biblia.english for activity com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: pid=24159 uid=10066 gids={50066, 3003}
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 1) failed with errno -13
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.cauagamesoft.carrossocadosbrasil flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/InputMethodManagerService(  484): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8e19d4 (uid=1000 pid=689)
+I/dalvikvm(24159): ignoring registerObject request in thread=1
+I/dalvikvm(24159): ignoring registerObject request in thread=1
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=5.3936434 v=827.9864)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=5.3936434 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=5.3936434 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=-11; nothing to do (h=5.3936434 v=-3000.0)
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5355781, downTime=5355781, deviceId=-1, source=0x101 }
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+W/dalvikvm(24159): dvmFindClassByName rejecting 'com/embarcadero/rtl/ProxyInterface'
+W/dalvikvm(24159): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24159): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24159): dvmFindClassByName rejecting 'android/view/Display$Mode'
+W/dalvikvm(24159): dvmFindClassByName rejecting 'android/app/AlarmManager$AlarmClockInfo'
+W/dalvikvm(24159): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24159): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24159): dvmFindClassByName rejecting 'android/view/ViewOutlineProvider'
+W/dalvikvm(24159): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24159): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24159): dvmFindClassByName rejecting 'android/content/pm/PackageInstaller'
+W/dalvikvm(24159): dvmFindClassByName rejecting 'com/embarcadero/firemonkey/OnActivityListener'
+W/dalvikvm(24159): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24159): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24159): dvmFindClassByName rejecting 'android/telephony/IccOpenLogicalChannelResponse'
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): Displayed com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: +1s505ms
+D/libEGL  (24159): loaded /system/lib/egl/libEGL_adreno.so
+D/        (24159): HostConnection::get() New Host Connection established 0xb8246760, tid 24174
+D/libEGL  (24159): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (24159): loaded /system/lib/egl/libGLESv2_adreno.so
+F/libc    (24159): Fatal signal 11 (SIGSEGV) at 0xc34c84ce (code=1), thread 24159 (.biblia.english)
+I/DEBUG   (  171): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  171): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  171): Revision: '0'
+I/DEBUG   (  171): pid: 24159, tid: 24159, name: .biblia.english  >>> com.biblia.english <<<
+I/DEBUG   (  171): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr c34c84ce
+I/DEBUG   (  171):     eax d9100019  ebx 40000005  ecx 00000000  edx 00000000
+I/DEBUG   (  171):     esi 88d68ddc  edi bf99655c
+I/DEBUG   (  171):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+I/DEBUG   (  171):     eip c34c84ce  ebp bf996578  esp bf99653c  flags 00210206
+I/DEBUG   (  171): 
+I/DEBUG   (  171): backtrace:
+I/DEBUG   (  171):     #00  pc c34c84ce  <unknown>
+I/DEBUG   (  171):     #01  pc 0009a112  /system/lib/libdvm.so
+I/DEBUG   (  171):     #02  pc 00000100  <unknown>
+I/DEBUG   (  171): 
+I/DEBUG   (  171): memory map around fault addr c34c84ce:
+I/DEBUG   (  171):     bf977000-bf998000 rw- [stack]
+I/DEBUG   (  171):     (no map for address)
+I/DEBUG   (  171):     (no map above)
+I/ActivityManager(  484): Process com.biblia.english (pid 24159) has died.
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 0) failed with errno -13
+W/ActivityManager(  484): Force removing ActivityRecord{4b0c1ec4 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity t243}: app died, no saved state
+W/InputDispatcher(  484): channel '4ab535c4 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  484): channel '4ab535c4 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputDispatcher(  484): Attempted to unregister already unregistered input channel '4ab535c4 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)'
+D/FirebaseApp(  689): Notifying background state change listeners.
+I/WindowState(  484): WIN DEATH: Window{4ab535c4 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity}
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/InputManager(  484): Input event injection from pid 24016 failed.
+D/Zygote  (  175): Process 24159 terminated by signal (11)
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/ActivityManager(  484): Force-killing crashed app com.biblia.english at watcher's request
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.NativeCrashListener$NativeCrashReporter.run:86 <bottom of call stack> <bottom of call stack> 
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity} from pid 24016
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 484
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+D/yeshen  (  689): launcher onpause
+I/ActivityManager(  484): Start proc com.biblia.english for activity com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: pid=24181 uid=10066 gids={50066, 3003}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 1) failed with errno -13
+I/dalvikvm(24181): ignoring registerObject request in thread=1
+I/dalvikvm(24181): ignoring registerObject request in thread=1
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+W/dalvikvm(24181): dvmFindClassByName rejecting 'com/embarcadero/rtl/ProxyInterface'
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/dalvikvm(24181): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24181): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24181): dvmFindClassByName rejecting 'android/view/Display$Mode'
+W/dalvikvm(24181): dvmFindClassByName rejecting 'android/app/AlarmManager$AlarmClockInfo'
+W/dalvikvm(24181): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24181): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24181): dvmFindClassByName rejecting 'android/view/ViewOutlineProvider'
+W/dalvikvm(24181): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24181): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24181): dvmFindClassByName rejecting 'android/content/pm/PackageInstaller'
+W/dalvikvm(24181): dvmFindClassByName rejecting 'com/embarcadero/firemonkey/OnActivityListener'
+W/dalvikvm(24181): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24181): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24181): dvmFindClassByName rejecting 'android/telephony/IccOpenLogicalChannelResponse'
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  484): Got RemoteException sending setActive(false) notification to pid 24159 uid 10066
+I/ActivityManager(  484): Displayed com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: +1s403ms
+D/libEGL  (24181): loaded /system/lib/egl/libEGL_adreno.so
+D/        (24181): HostConnection::get() New Host Connection established 0xb8413650, tid 24195
+D/libEGL  (24181): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (24181): loaded /system/lib/egl/libGLESv2_adreno.so
+F/libc    (24181): Fatal signal 11 (SIGSEGV) at 0xc34c84ce (code=1), thread 24181 (.biblia.english)
+I/DEBUG   (  171): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  171): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  171): Revision: '0'
+I/DEBUG   (  171): pid: 24181, tid: 24181, name: .biblia.english  >>> com.biblia.english <<<
+I/DEBUG   (  171): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr c34c84ce
+I/DEBUG   (  171):     eax db400019  ebx 40000005  ecx 00000000  edx 00000000
+I/DEBUG   (  171):     esi 88d68ddc  edi bf99655c
+I/DEBUG   (  171):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+I/DEBUG   (  171):     eip c34c84ce  ebp bf996578  esp bf99653c  flags 00210206
+I/DEBUG   (  171): 
+I/DEBUG   (  171): backtrace:
+I/DEBUG   (  171):     #00  pc c34c84ce  <unknown>
+I/DEBUG   (  171):     #01  pc 0009a112  /system/lib/libdvm.so
+I/DEBUG   (  171):     #02  pc 00000100  <unknown>
+I/DEBUG   (  171): 
+I/DEBUG   (  171): memory map around fault addr c34c84ce:
+I/DEBUG   (  171):     bf977000-bf998000 rw- [stack]
+I/DEBUG   (  171):     (no map for address)
+I/DEBUG   (  171):     (no map above)
+I/Process (  484): Sending signal. PID: 24181 SIG: 9
+W/ActivityManager(  484): Force-killing crashed app com.biblia.english at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.NativeCrashListener$NativeCrashReporter.run:86 <bottom of call stack> <bottom of call stack> 
+I/ActivityManager(  484): Process com.biblia.english (pid 24181) has died.
+W/InputDispatcher(  484): channel '4b0debc0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  484): channel '4b0debc0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/ActivityManager(  484): Force removing ActivityRecord{4abd4b90 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity t244}: app died, no saved state
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 0) failed with errno -13
+W/InputDispatcher(  484): Attempted to unregister already unregistered input channel '4b0debc0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)'
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/WindowState(  484): WIN DEATH: Window{4b0debc0 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity}
+W/InputManager(  484): Input event injection from pid 24016 failed.
+D/Zygote  (  175): Process 24181 terminated by signal (11)
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+D/FirebaseApp(  689): Notifying background state change listeners.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+D/dalvikvm(  484): GC_EXPLICIT freed 3398K, 50% free 18321K/36204K, paused 2ms+4ms, total 22ms
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  484): Got RemoteException sending setActive(false) notification to pid 24181 uid 10066
+F/libc    (24212): Fatal signal 13 (SIGPIPE) at 0x00005e94 (code=0), thread 24212 (busybox)
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/DEBUG   (  171): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  171): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  171): Revision: '0'
+I/DEBUG   (  171): pid: 24212, tid: 24212, name: busybox  >>> busybox <<<
+I/DEBUG   (  171): signal 13 (SIGPIPE), code -6 (SI_TKILL), fault addr --------
+W/NativeCrashListener(  484): Couldn't find ProcessRecord for pid 24212
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.billiards.city.pool.nation.club flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/DEBUG   (  171):     eax ffffffe0  ebx 00000001  ecx b8b6afd0  edx 00000002
+I/DEBUG   (  171): AM write failure (32 / Broken pipe)
+I/DEBUG   (  171):     esi b75ca214  edi b8b6afd0
+I/DEBUG   (  171):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 00000000  xss 0000007b
+I/DEBUG   (  171):     eip b7565456  ebp b75ca214  esp bf97c6e0  flags 00000202
+I/DEBUG   (  171): 
+I/DEBUG   (  171): backtrace:
+I/DEBUG   (  171):     #00  pc 0003c456  /system/lib/libc.so (write+22)
+I/DEBUG   (  171):     #01  pc 0000bab7  <unknown>
+I/DEBUG   (  171): 
+I/DEBUG   (  171): stack:
+I/DEBUG   (  171):          bf97c6a0  b7547fd7  /system/lib/libc.so (__swsetup+7)
+I/DEBUG   (  171):          bf97c6a4  b75ca214  /system/lib/libc.so
+I/DEBUG   (  171):          bf97c6a8  00000888  
+I/DEBUG   (  171):          bf97c6ac  b75706e7  /system/lib/libc.so
+I/DEBUG   (  171):          bf97c6b0  b8b6afd1  [heap]
+I/DEBUG   (  171):          bf97c6b4  b8b69920  [heap]
+I/DEBUG   (  171):          bf97c6b8  00000001  
+I/DEBUG   (  171):          bf97c6bc  b753bd4f  /system/lib/libc.so (dlmalloc+351)
+I/DEBUG   (  171):          bf97c6c0  00000000  
+I/DEBUG   (  171):          bf97c6c4  00000000  
+I/DEBUG   (  171):          bf97c6c8  b771db90  /system/bin/busybox
+I/DEBUG   (  171):          bf97c6cc  b7646cc7  /system/bin/busybox (next_token+359)
+I/DEBUG   (  171):          bf97c6d0  b8b69921  [heap]
+I/DEBUG   (  171):          bf97c6d4  00000001  
+I/DEBUG   (  171):          bf97c6d8  bf97c734  [stack]
+I/DEBUG   (  171):          bf97c6dc  b75c9fcc  /system/lib/libc.so
+I/DEBUG   (  171):     #00  bf97c6e0  b75d8ab8  
+I/DEBUG   (  171):          bf97c6e4  00001000  
+I/DEBUG   (  171):          bf97c6e8  b75c9fcc  /system/lib/libc.so
+I/DEBUG   (  171):          bf97c6ec  b7570f17  /system/lib/libc.so (__swrite+103)
+I/DEBUG   (  171):          bf97c6f0  00000001  
+I/DEBUG   (  171):          bf97c6f4  b8b6afd0  [heap]
+I/DEBUG   (  171):          bf97c6f8  00000002  
+I/DEBUG   (  171):          bf97c6fc  b7546b33  /system/lib/libc.so (fputs+99)
+I/DEBUG   (  171):          bf97c700  b75ca214  /system/lib/libc.so
+I/DEBUG   (  171):          bf97c704  b75c9fcc  /system/lib/libc.so
+I/DEBUG   (  171):          bf97c708  00000002  
+I/DEBUG   (  171):          bf97c70c  b756f0e9  /system/lib/libc.so (fflush+185)
+I/DEBUG   (  171):          bf97c710  b75ca214  /system/lib/libc.so
+I/DEBUG   (  171):          bf97c714  b8b6afd0  [heap]
+I/DEBUG   (  171):          bf97c718  00000002  
+I/DEBUG   (  171):          bf97c71c  b8b6a980  [heap]
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingangelafree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.sega.sonicdash flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.billiards.city.pool.nation.club flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/Launcher(  689): No global search activity found.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.BCG.ForteCraft flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=net.mobigame.zombietsunami flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+D/dalvikvm(  689): GC_CONCURRENT freed 8701K, 9% free 97866K/106716K, paused 3ms+16ms, total 67ms
+D/dalvikvm(  689): WAIT_FOR_CONCURRENT_GC blocked 20ms
+D/dalvikvm(  689): WAIT_FOR_CONCURRENT_GC blocked 74ms
+W/Launcher(  689): No global search activity found.
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+D/dalvikvm(  689): GC_CONCURRENT freed 7957K, 9% free 98101K/106716K, paused 1ms+11ms, total 69ms
+D/dalvikvm(  689): WAIT_FOR_CONCURRENT_GC blocked 53ms
+D/dalvikvm(  689): WAIT_FOR_CONCURRENT_GC blocked 56ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.roblox.client flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.roblox.client flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity} from pid 24016
+D/yeshen  (  689): launcher onpause
+I/ActivityManager(  484): Start proc com.biblia.english for activity com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: pid=24271 uid=10066 gids={50066, 3003}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 1) failed with errno -13
+I/dalvikvm(24271): ignoring registerObject request in thread=1
+I/dalvikvm(24271): ignoring registerObject request in thread=1
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+D/dalvikvm(  689): GC_CONCURRENT freed 8043K, 8% free 98247K/106716K, paused 3ms+17ms, total 95ms
+D/dalvikvm(  689): WAIT_FOR_CONCURRENT_GC blocked 99ms
+W/dalvikvm(24271): dvmFindClassByName rejecting 'com/embarcadero/rtl/ProxyInterface'
+W/dalvikvm(24271): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24271): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24271): dvmFindClassByName rejecting 'android/view/Display$Mode'
+W/dalvikvm(24271): dvmFindClassByName rejecting 'android/app/AlarmManager$AlarmClockInfo'
+W/dalvikvm(24271): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24271): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24271): dvmFindClassByName rejecting 'android/view/ViewOutlineProvider'
+W/dalvikvm(24271): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24271): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24271): dvmFindClassByName rejecting 'android/content/pm/PackageInstaller'
+W/dalvikvm(24271): dvmFindClassByName rejecting 'com/embarcadero/firemonkey/OnActivityListener'
+W/dalvikvm(24271): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24271): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24271): dvmFindClassByName rejecting 'android/telephony/IccOpenLogicalChannelResponse'
+W/ViewRootImpl(24271): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5363585, downTime=5363585, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): Displayed com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: +1s439ms
+D/libEGL  (24271): loaded /system/lib/egl/libEGL_adreno.so
+D/        (24271): HostConnection::get() New Host Connection established 0xb841fd70, tid 24285
+D/libEGL  (24271): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (24271): loaded /system/lib/egl/libGLESv2_adreno.so
+F/libc    (24271): Fatal signal 11 (SIGSEGV) at 0xc34c84ce (code=1), thread 24271 (.biblia.english)
+I/DEBUG   (  171): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  171): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  171): Revision: '0'
+I/DEBUG   (  171): pid: 24271, tid: 24271, name: .biblia.english  >>> com.biblia.english <<<
+I/DEBUG   (  171): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr c34c84ce
+I/DEBUG   (  171):     eax dad00019  ebx 40000005  ecx 00000000  edx 00000000
+I/DEBUG   (  171):     esi 88d68ddc  edi bf99655c
+I/DEBUG   (  171):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+I/DEBUG   (  171):     eip c34c84ce  ebp bf996578  esp bf99653c  flags 00210206
+I/DEBUG   (  171): 
+I/DEBUG   (  171): backtrace:
+I/DEBUG   (  171):     #00  pc c34c84ce  <unknown>
+I/DEBUG   (  171):     #01  pc 0009a112  /system/lib/libdvm.so
+I/DEBUG   (  171):     #02  pc 00000100  <unknown>
+I/DEBUG   (  171): 
+I/DEBUG   (  171): memory map around fault addr c34c84ce:
+I/DEBUG   (  171):     bf977000-bf998000 rw- [stack]
+I/DEBUG   (  171):     (no map for address)
+I/DEBUG   (  171):     (no map above)
+I/ActivityManager(  484): Process com.biblia.english (pid 24271) has died.
+W/InputDispatcher(  484): channel '4aa2a5d8 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  484): channel '4aa2a5d8 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 0) failed with errno -13
+W/ActivityManager(  484): Force removing ActivityRecord{4a9ff15c u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity t245}: app died, no saved state
+W/InputDispatcher(  484): Attempted to unregister already unregistered input channel '4aa2a5d8 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)'
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/WindowState(  484): WIN DEATH: Window{4aa2a5d8 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity}
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/ActivityManager(  484): Force-killing crashed app com.biblia.english at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.NativeCrashListener$NativeCrashReporter.run:86 <bottom of call stack> <bottom of call stack> 
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+D/FirebaseApp(  689): Notifying background state change listeners.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+D/Zygote  (  175): Process 24271 terminated by signal (11)
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5365556, downTime=5365556, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5365698, downTime=5365698, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  484): Got RemoteException sending setActive(false) notification to pid 24271 uid 10066
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.sarlo.horse.crafting.world flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+F/libc    (24304): Fatal signal 13 (SIGPIPE) at 0x00005ef0 (code=0), thread 24304 (busybox)
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.firsttouchgames.dls3 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/DEBUG   (  171): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  171): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  171): Revision: '0'
+I/DEBUG   (  171): pid: 24304, tid: 24304, name: busybox  >>> busybox <<<
+I/DEBUG   (  171): signal 13 (SIGPIPE), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   (  171):     eax ffffffe0  ebx 00000001  ecx b81fbfd0  edx 00000002
+I/DEBUG   (  171): AM write failure (32 / Broken pipe)
+I/DEBUG   (  171):     esi b75df214  edi b81fbfd0
+I/DEBUG   (  171):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 00000000  xss 0000007b
+W/NativeCrashListener(  484): Couldn't find ProcessRecord for pid 24304
+I/DEBUG   (  171):     eip b757a456  ebp b75df214  esp bff49680  flags 00000202
+I/DEBUG   (  171): 
+I/DEBUG   (  171): backtrace:
+I/DEBUG   (  171):     #00  pc 0003c456  /system/lib/libc.so (write+22)
+I/DEBUG   (  171):     #01  pc 0000bab7  <unknown>
+I/DEBUG   (  171): 
+I/DEBUG   (  171): stack:
+I/DEBUG   (  171):          bff49640  b755cfd7  /system/lib/libc.so (__swsetup+7)
+I/DEBUG   (  171):          bff49644  b75df214  /system/lib/libc.so
+I/DEBUG   (  171):          bff49648  00000888  
+I/DEBUG   (  171):          bff4964c  b75856e7  /system/lib/libc.so
+I/DEBUG   (  171):          bff49650  b81fbfd1  [heap]
+I/DEBUG   (  171):          bff49654  b81fa920  [heap]
+I/DEBUG   (  171):          bff49658  00000001  
+I/DEBUG   (  171):          bff4965c  b7550d4f  /system/lib/libc.so (dlmalloc+351)
+I/DEBUG   (  171):          bff49660  00000000  
+I/DEBUG   (  171):          bff49664  00000000  
+I/DEBUG   (  171):          bff49668  b7732b90  /system/bin/busybox
+I/DEBUG   (  171):          bff4966c  b765bcc7  /system/bin/busybox (next_token+359)
+I/DEBUG   (  171):          bff49670  b81fa921  [heap]
+I/DEBUG   (  171):          bff49674  00000001  
+I/DEBUG   (  171):          bff49678  bff496d4  [stack]
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/DEBUG   (  171):          bff4967c  b75defcc  /system/lib/libc.so
+I/DEBUG   (  171):     #00  bff49680  b75edab8  
+I/DEBUG   (  171):          bff49684  00001000  
+I/DEBUG   (  171):          bff49688  b75defcc  /system/lib/libc.so
+I/DEBUG   (  171):          bff4968c  b7585f17  /system/lib/libc.so (__swrite+103)
+I/DEBUG   (  171):          bff49690  00000001  
+I/DEBUG   (  171):          bff49694  b81fbfd0  [heap]
+I/DEBUG   (  171):          bff49698  00000002  
+I/DEBUG   (  171):          bff4969c  b755bb33  /system/lib/libc.so (fputs+99)
+I/DEBUG   (  171):          bff496a0  b75df214  /system/lib/libc.so
+I/DEBUG   (  171):          bff496a4  b75defcc  /system/lib/libc.so
+I/DEBUG   (  171):          bff496a8  00000002  
+I/DEBUG   (  171):          bff496ac  b75840e9  /system/lib/libc.so (fflush+185)
+I/DEBUG   (  171):          bff496b0  b75df214  /system/lib/libc.so
+I/DEBUG   (  171):          bff496b4  b81fbfd0  [heap]
+I/DEBUG   (  171):          bff496b8  00000002  
+I/DEBUG   (  171):          bff496bc  b81fb980  [heap]
+W/Launcher(  689): No global search activity found.
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.firsttouchgames.dls3 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+I/ActivityManager(  484): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity} from pid 536
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.roblox.client flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.fungames.sniper3d flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.sarlo.horse.crafting.world flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=br.pipacombate.maiworm flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.igg.android.lordsmobile flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  689): GC_FOR_ALLOC freed 5420K, 8% free 98356K/106716K, paused 43ms, total 47ms
+W/Launcher(  689): No global search activity found.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.kiloo.subwaysurf flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=me.pou.app flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity} from pid 24016
+D/yeshen  (  689): launcher onpause
+I/ActivityManager(  484): Start proc com.biblia.english for activity com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: pid=24354 uid=10066 gids={50066, 3003}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 1) failed with errno -13
+I/dalvikvm(24354): ignoring registerObject request in thread=1
+I/dalvikvm(24354): ignoring registerObject request in thread=1
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+W/dalvikvm(24354): dvmFindClassByName rejecting 'com/embarcadero/rtl/ProxyInterface'
+W/dalvikvm(24354): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24354): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24354): dvmFindClassByName rejecting 'android/view/Display$Mode'
+I/ContentMaintenance( 1295): Pruning caches...
+I/ContentMaintenance( 1295): Internal cache bytes used: 0; limit: 100000000; download size: 0
+I/ContentMaintenance( 1295): Cache pruning complete.
+I/ContentMaintenance( 1295): Beginning garbage collection.
+I/RealtimeCacheCleanup( 1295): Beginning Realtime garbage collection.
+I/RealtimeCacheCleanup( 1295): Finished Realtime garbage collection.
+I/ContentMaintenance( 1295): Finished garbage collection.
+W/dalvikvm(24354): dvmFindClassByName rejecting 'android/app/AlarmManager$AlarmClockInfo'
+W/dalvikvm(24354): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24354): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24354): dvmFindClassByName rejecting 'android/view/ViewOutlineProvider'
+W/dalvikvm(24354): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24354): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24354): dvmFindClassByName rejecting 'android/content/pm/PackageInstaller'
+W/dalvikvm(24354): dvmFindClassByName rejecting 'com/embarcadero/firemonkey/OnActivityListener'
+W/dalvikvm(24354): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24354): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24354): dvmFindClassByName rejecting 'android/telephony/IccOpenLogicalChannelResponse'
+W/ViewRootImpl(24354): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F9, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5367785, downTime=5367785, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): Displayed com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: +1s429ms
+D/libEGL  (24354): loaded /system/lib/egl/libEGL_adreno.so
+D/        (24354): HostConnection::get() New Host Connection established 0xb8420ac0, tid 24368
+D/libEGL  (24354): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (24354): loaded /system/lib/egl/libGLESv2_adreno.so
+F/libc    (24354): Fatal signal 11 (SIGSEGV) at 0xc34c84ce (code=1), thread 24354 (.biblia.english)
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/DEBUG   (  171): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  171): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  171): Revision: '0'
+I/DEBUG   (  171): pid: 24354, tid: 24354, name: .biblia.english  >>> com.biblia.english <<<
+I/DEBUG   (  171): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr c34c84ce
+I/DEBUG   (  171):     eax dc500019  ebx 40000005  ecx 00000000  edx 00000000
+I/DEBUG   (  171):     esi 88d68ddc  edi bf99655c
+I/DEBUG   (  171):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+I/DEBUG   (  171):     eip c34c84ce  ebp bf996578  esp bf99653c  flags 00210206
+I/DEBUG   (  171): 
+I/DEBUG   (  171): backtrace:
+I/DEBUG   (  171):     #00  pc c34c84ce  <unknown>
+I/DEBUG   (  171):     #01  pc 0009a112  /system/lib/libdvm.so
+I/DEBUG   (  171):     #02  pc 00000100  <unknown>
+I/DEBUG   (  171): 
+I/DEBUG   (  171): memory map around fault addr c34c84ce:
+I/DEBUG   (  171):     bf977000-bf998000 rw- [stack]
+I/DEBUG   (  171):     (no map for address)
+I/DEBUG   (  171):     (no map above)
+I/Process (  484): Sending signal. PID: 24354 SIG: 9
+W/InputDispatcher(  484): channel '4ab773c0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  484): channel '4ab773c0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/ActivityManager(  484): Force-killing crashed app com.biblia.english at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.NativeCrashListener$NativeCrashReporter.run:86 <bottom of call stack> <bottom of call stack> 
+I/ActivityManager(  484): Process com.biblia.english (pid 24354) has died.
+W/ActivityManager(  484): Force removing ActivityRecord{4b0a00a8 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity t246}: app died, no saved state
+W/InputDispatcher(  484): Attempted to unregister already unregistered input channel '4ab773c0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)'
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 0) failed with errno -13
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/WindowState(  484): WIN DEATH: Window{4ab773c0 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity}
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+D/FirebaseApp(  689): Notifying background state change listeners.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  689): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=7, eventTime=5369879, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5369898, downTime=5369898, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  484): Got RemoteException sending setActive(false) notification to pid 24354 uid 10066
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.miniclip.eightballpool flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity bnds=[67,848][208,1078]} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+D/yeshen  (  689): launcher onpause
+I/ActivityManager(  484): Start proc com.biblia.english for activity com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: pid=24395 uid=10066 gids={50066, 3003}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 1) failed with errno -13
+I/dalvikvm(24395): ignoring registerObject request in thread=1
+I/dalvikvm(24395): ignoring registerObject request in thread=1
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+W/dalvikvm(24395): dvmFindClassByName rejecting 'com/embarcadero/rtl/ProxyInterface'
+W/dalvikvm(24395): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24395): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24395): dvmFindClassByName rejecting 'android/view/Display$Mode'
+W/dalvikvm(24395): dvmFindClassByName rejecting 'android/app/AlarmManager$AlarmClockInfo'
+W/dalvikvm(24395): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24395): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24395): dvmFindClassByName rejecting 'android/view/ViewOutlineProvider'
+W/dalvikvm(24395): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24395): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24395): dvmFindClassByName rejecting 'android/content/pm/PackageInstaller'
+W/dalvikvm(24395): dvmFindClassByName rejecting 'com/embarcadero/firemonkey/OnActivityListener'
+W/dalvikvm(24395): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24395): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+E/WakeLock( 1323): release without a matched acquire!
+W/dalvikvm(24395): dvmFindClassByName rejecting 'android/telephony/IccOpenLogicalChannelResponse'
+W/ViewRootImpl(24395): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5370666, downTime=5370666, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): Displayed com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: +1s339ms
+D/libEGL  (24395): loaded /system/lib/egl/libEGL_adreno.so
+D/        (24395): HostConnection::get() New Host Connection established 0xb841ec50, tid 24409
+D/libEGL  (24395): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (24395): loaded /system/lib/egl/libGLESv2_adreno.so
+F/libc    (24395): Fatal signal 11 (SIGSEGV) at 0xc34c84ce (code=1), thread 24395 (.biblia.english)
+I/DEBUG   (  171): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  171): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  171): Revision: '0'
+I/DEBUG   (  171): pid: 24395, tid: 24395, name: .biblia.english  >>> com.biblia.english <<<
+I/DEBUG   (  171): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr c34c84ce
+I/DEBUG   (  171):     eax dce00019  ebx 40000005  ecx 00000000  edx 00000000
+I/DEBUG   (  171):     esi 88d68ddc  edi bf99655c
+I/DEBUG   (  171):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+I/DEBUG   (  171):     eip c34c84ce  ebp bf996578  esp bf99653c  flags 00210206
+I/DEBUG   (  171): 
+I/DEBUG   (  171): backtrace:
+I/DEBUG   (  171):     #00  pc c34c84ce  <unknown>
+I/DEBUG   (  171):     #01  pc 0009a112  /system/lib/libdvm.so
+I/DEBUG   (  171):     #02  pc 00000100  <unknown>
+I/DEBUG   (  171): 
+I/DEBUG   (  171): memory map around fault addr c34c84ce:
+I/DEBUG   (  171):     bf977000-bf998000 rw- [stack]
+I/DEBUG   (  171):     (no map for address)
+I/DEBUG   (  171):     (no map above)
+I/ActivityManager(  484): Process com.biblia.english (pid 24395) has died.
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 0) failed with errno -13
+W/InputDispatcher(  484): channel '4acb87a4 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  484): channel '4acb87a4 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/ActivityManager(  484): Force removing ActivityRecord{4b09f618 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity t247}: app died, no saved state
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputDispatcher(  484): Attempted to unregister already unregistered input channel '4acb87a4 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)'
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/ActivityManager(  484): Force-killing crashed app com.biblia.english at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.NativeCrashListener$NativeCrashReporter.run:86 <bottom of call stack> <bottom of call stack> 
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/WindowState(  484): WIN DEATH: Window{4acb87a4 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity}
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+D/FirebaseApp(  689): Notifying background state change listeners.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+D/Zygote  (  175): Process 24395 terminated by signal (11)
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+D/ConnectivityService(  484): handleInetConditionHoldEnd: net=1, condition=100, published condition=100
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  484): Got RemoteException sending setActive(false) notification to pid 24395 uid 10066
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 484
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=air.com.hypah.io.slither flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.supercell.clashroyale flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+D/dalvikvm(  689): GC_FOR_ALLOC freed 6540K, 9% free 98151K/106716K, paused 43ms, total 46ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.extremefungames.mototrafficrace2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.dts.freefireth flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.dts.freefireth flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.miniclip.eightballpool flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.namcobandaigames.pacmantournaments flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  689): GC_FOR_ALLOC freed 5128K, 8% free 98293K/106716K, paused 46ms, total 46ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.cauagamesoft.carrossocadosbrasil flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.itchmedia.ta3 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.fungames.sniper3d flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.fungames.sniper3d flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity} from pid 24016
+D/dalvikvm(  689): GC_FOR_ALLOC freed 4986K, 8% free 98590K/106716K, paused 45ms, total 46ms
+D/yeshen  (  689): launcher onpause
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): Start proc com.biblia.english for activity com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: pid=24520 uid=10066 gids={50066, 3003}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 1) failed with errno -13
+I/dalvikvm(24520): ignoring registerObject request in thread=1
+I/dalvikvm(24520): ignoring registerObject request in thread=1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.billiards.city.pool.nation.club flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/InputMethodManagerService(  484): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8e19d4 (uid=1000 pid=689)
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+W/dalvikvm(24520): dvmFindClassByName rejecting 'com/embarcadero/rtl/ProxyInterface'
+W/dalvikvm(24520): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24520): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24520): dvmFindClassByName rejecting 'android/view/Display$Mode'
+W/dalvikvm(24520): dvmFindClassByName rejecting 'android/app/AlarmManager$AlarmClockInfo'
+W/dalvikvm(24520): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24520): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24520): dvmFindClassByName rejecting 'android/view/ViewOutlineProvider'
+W/dalvikvm(24520): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24520): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24520): dvmFindClassByName rejecting 'android/content/pm/PackageInstaller'
+W/dalvikvm(24520): dvmFindClassByName rejecting 'com/embarcadero/firemonkey/OnActivityListener'
+W/dalvikvm(24520): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24520): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24520): dvmFindClassByName rejecting 'android/telephony/IccOpenLogicalChannelResponse'
+W/ViewRootImpl(24520): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5376959, downTime=5376959, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): Displayed com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: +1s401ms
+D/libEGL  (24520): loaded /system/lib/egl/libEGL_adreno.so
+D/        (24520): HostConnection::get() New Host Connection established 0xb8424880, tid 24535
+D/libEGL  (24520): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (24520): loaded /system/lib/egl/libGLESv2_adreno.so
+F/libc    (24520): Fatal signal 11 (SIGSEGV) at 0xc34c84ce (code=1), thread 24520 (.biblia.english)
+I/DEBUG   (  171): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  171): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  171): Revision: '0'
+I/DEBUG   (  171): pid: 24520, tid: 24520, name: .biblia.english  >>> com.biblia.english <<<
+I/DEBUG   (  171): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr c34c84ce
+I/DEBUG   (  171):     eax de900019  ebx 40000005  ecx 00000000  edx 00000000
+I/DEBUG   (  171):     esi 88d68ddc  edi bf99655c
+I/DEBUG   (  171):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+I/DEBUG   (  171):     eip c34c84ce  ebp bf996578  esp bf99653c  flags 00210206
+I/DEBUG   (  171): 
+I/DEBUG   (  171): backtrace:
+I/DEBUG   (  171):     #00  pc c34c84ce  <unknown>
+I/DEBUG   (  171):     #01  pc 0009a112  /system/lib/libdvm.so
+I/DEBUG   (  171):     #02  pc 00000100  <unknown>
+I/DEBUG   (  171): 
+I/DEBUG   (  171): memory map around fault addr c34c84ce:
+I/DEBUG   (  171):     bf977000-bf998000 rw- [stack]
+I/DEBUG   (  171):     (no map for address)
+I/DEBUG   (  171):     (no map above)
+I/ActivityManager(  484): Process com.biblia.english (pid 24520) has died.
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 0) failed with errno -13
+W/ActivityManager(  484): Force removing ActivityRecord{4afac864 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity t248}: app died, no saved state
+W/InputDispatcher(  484): channel '4b0d4234 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  484): channel '4b0d4234 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputDispatcher(  484): Attempted to unregister already unregistered input channel '4b0d4234 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)'
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+D/FirebaseApp(  689): Notifying background state change listeners.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/WindowState(  484): WIN DEATH: Window{4b0d4234 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity}
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/ActivityManager(  484): Force-killing crashed app com.biblia.english at watcher's request
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.NativeCrashListener$NativeCrashReporter.run:86 <bottom of call stack> <bottom of call stack> 
+W/InputManager(  484): Input event injection from pid 24016 failed.
+D/Zygote  (  175): Process 24520 terminated by signal (11)
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(  484): GC_CONCURRENT freed 3831K, 50% free 18382K/36204K, paused 5ms+5ms, total 38ms
+D/dalvikvm(  484): WAIT_FOR_CONCURRENT_GC blocked 26ms
+D/dalvikvm(  484): WAIT_FOR_CONCURRENT_GC blocked 17ms
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  484): Got RemoteException sending setActive(false) notification to pid 24520 uid 10066
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity} from pid 24016
+D/yeshen  (  689): launcher onpause
+I/ActivityManager(  484): Start proc com.biblia.english for activity com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: pid=24548 uid=10066 gids={50066, 3003}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 1) failed with errno -13
+I/dalvikvm(24548): ignoring registerObject request in thread=1
+I/dalvikvm(24548): ignoring registerObject request in thread=1
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+W/dalvikvm(24548): dvmFindClassByName rejecting 'com/embarcadero/rtl/ProxyInterface'
+W/dalvikvm(24548): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24548): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24548): dvmFindClassByName rejecting 'android/view/Display$Mode'
+W/dalvikvm(24548): dvmFindClassByName rejecting 'android/app/AlarmManager$AlarmClockInfo'
+W/dalvikvm(24548): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24548): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24548): dvmFindClassByName rejecting 'android/view/ViewOutlineProvider'
+W/dalvikvm(24548): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24548): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24548): dvmFindClassByName rejecting 'android/content/pm/PackageInstaller'
+W/dalvikvm(24548): dvmFindClassByName rejecting 'com/embarcadero/firemonkey/OnActivityListener'
+W/dalvikvm(24548): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24548): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24548): dvmFindClassByName rejecting 'android/telephony/IccOpenLogicalChannelResponse'
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): Displayed com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: +1s359ms
+D/libEGL  (24548): loaded /system/lib/egl/libEGL_adreno.so
+D/        (24548): HostConnection::get() New Host Connection established 0xb841fe30, tid 24562
+D/libEGL  (24548): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (24548): loaded /system/lib/egl/libGLESv2_adreno.so
+F/libc    (24548): Fatal signal 11 (SIGSEGV) at 0xc34c84ce (code=1), thread 24548 (.biblia.english)
+I/DEBUG   (  171): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  171): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  171): Revision: '0'
+I/DEBUG   (  171): pid: 24548, tid: 24548, name: .biblia.english  >>> com.biblia.english <<<
+I/DEBUG   (  171): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr c34c84ce
+I/DEBUG   (  171):     eax e1400019  ebx 40000005  ecx 00000000  edx 00000000
+I/DEBUG   (  171):     esi 88d68ddc  edi bf99655c
+I/DEBUG   (  171):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+I/DEBUG   (  171):     eip c34c84ce  ebp bf996578  esp bf99653c  flags 00210206
+I/DEBUG   (  171): 
+I/DEBUG   (  171): backtrace:
+I/DEBUG   (  171):     #00  pc c34c84ce  <unknown>
+I/DEBUG   (  171):     #01  pc 0009a112  /system/lib/libdvm.so
+I/DEBUG   (  171):     #02  pc 00000100  <unknown>
+I/DEBUG   (  171): 
+I/DEBUG   (  171): memory map around fault addr c34c84ce:
+I/DEBUG   (  171):     bf977000-bf998000 rw- [stack]
+I/DEBUG   (  171):     (no map for address)
+I/DEBUG   (  171):     (no map above)
+W/InputDispatcher(  484): channel '4a9c2ad4 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  484): channel '4a9c2ad4 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 0) failed with errno -13
+I/ActivityManager(  484): Process com.biblia.english (pid 24548) has died.
+W/ActivityManager(  484): Force removing ActivityRecord{4a920e64 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity t249}: app died, no saved state
+W/InputDispatcher(  484): Attempted to unregister already unregistered input channel '4a9c2ad4 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity (server)'
+I/WindowState(  484): WIN DEATH: Window{4a9c2ad4 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity}
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/ActivityManager(  484): Force-killing crashed app com.biblia.english at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.NativeCrashListener$NativeCrashReporter.run:86 <bottom of call stack> <bottom of call stack> 
+W/InputManager(  484): Input event injection from pid 24016 failed.
+D/Zygote  (  175): Process 24548 terminated by signal (11)
+D/FirebaseApp(  689): Notifying background state change listeners.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+D/dalvikvm( 1295): GC_EXPLICIT freed 1249K, 47% free 10110K/18932K, paused 1ms+7ms, total 55ms
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5381223, downTime=5381223, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  484): Got RemoteException sending setActive(false) notification to pid 24548 uid 10066
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.billiards.city.pool.nation.club flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.bbqstudio.bbqqoversea flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.namcobandaigames.pacmantournaments flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=me.pou.app flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  689): GC_FOR_ALLOC freed 5160K, 7% free 99460K/106892K, paused 39ms, total 45ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.youmusic.magictiles flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 484
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.edujoy.Word_Search flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 484
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.ea.gp.fifamobile flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.king.candycrushsaga flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  689): GC_FOR_ALLOC freed 4518K, 8% free 99965K/107776K, paused 39ms, total 41ms
+W/Launcher(  689): No global search activity found.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 484
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.miniclip.eightballpool flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.miniclip.eightballpool flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.kiloo.subwaysurf flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.kiloo.subwaysurf flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+W/Launcher(  689): No global search activity found.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 484
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.namcobandaigames.pacmantournaments flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.extremefungames.mototrafficrace2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.kiloo.subwaysurf flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.extremefungames.mototrafficrace2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  689): GC_FOR_ALLOC freed 4964K, 8% free 100226K/108304K, paused 63ms, total 70ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vphone.helper/.MainActivity bnds=[572,388][713,618] (has extras)} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.activities.PeopleActivity bnds=[290,388][431,618] (has extras)} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/Launcher(  689): No global search activity found.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.kiloo.subwaysurf flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.kiloo.subwaysurf flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/Launcher(  689): No global search activity found.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 484
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingangelafree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  689): GC_FOR_ALLOC freed 5889K, 8% free 100296K/108500K, paused 39ms, total 42ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.youmusic.magictiles flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.youmusic.magictiles flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.cauagamesoft.carrossocadosbrasil flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.billiards.city.pool.nation.club flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.netfreegames.mw flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity} from pid 24016
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.miniclip.eightballpool flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/yeshen  (  689): launcher onpause
+I/ActivityManager(  484): Start proc com.biblia.english for activity com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: pid=24688 uid=10066 gids={50066, 3003}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 1) failed with errno -13
+I/dalvikvm(24688): ignoring registerObject request in thread=1
+I/dalvikvm(24688): ignoring registerObject request in thread=1
+D/yeshen  (  689): launcher onstop
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+W/dalvikvm(24688): dvmFindClassByName rejecting 'com/embarcadero/rtl/ProxyInterface'
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/dalvikvm(24688): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24688): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24688): dvmFindClassByName rejecting 'android/view/Display$Mode'
+W/dalvikvm(24688): dvmFindClassByName rejecting 'android/app/AlarmManager$AlarmClockInfo'
+W/dalvikvm(24688): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24688): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24688): dvmFindClassByName rejecting 'android/view/ViewOutlineProvider'
+W/dalvikvm(24688): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24688): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24688): dvmFindClassByName rejecting 'android/content/pm/PackageInstaller'
+W/dalvikvm(24688): dvmFindClassByName rejecting 'com/embarcadero/firemonkey/OnActivityListener'
+W/dalvikvm(24688): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24688): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24688): dvmFindClassByName rejecting 'android/telephony/IccOpenLogicalChannelResponse'
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): Displayed com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: +1s382ms
+D/libEGL  (24688): loaded /system/lib/egl/libEGL_adreno.so
+D/        (24688): HostConnection::get() New Host Connection established 0xb8420110, tid 24702
+D/libEGL  (24688): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (24688): loaded /system/lib/egl/libGLESv2_adreno.so
+F/libc    (24688): Fatal signal 11 (SIGSEGV) at 0xc34c84ce (code=1), thread 24688 (.biblia.english)
+I/DEBUG   (  171): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  171): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  171): Revision: '0'
+I/DEBUG   (  171): pid: 24688, tid: 24688, name: .biblia.english  >>> com.biblia.english <<<
+I/DEBUG   (  171): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr c34c84ce
+I/DEBUG   (  171):     eax e0800019  ebx 40000005  ecx 00000000  edx 00000000
+I/DEBUG   (  171):     esi 88d68ddc  edi bf99655c
+I/DEBUG   (  171):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+I/DEBUG   (  171):     eip c34c84ce  ebp bf996578  esp bf99653c  flags 00210206
+I/DEBUG   (  171): 
+I/DEBUG   (  171): backtrace:
+I/DEBUG   (  171):     #00  pc c34c84ce  <unknown>
+I/DEBUG   (  171):     #01  pc 0009a112  /system/lib/libdvm.so
+I/DEBUG   (  171):     #02  pc 00000100  <unknown>
+I/DEBUG   (  171): 
+I/DEBUG   (  171): memory map around fault addr c34c84ce:
+I/DEBUG   (  171):     bf977000-bf998000 rw- [stack]
+I/DEBUG   (  171):     (no map for address)
+I/DEBUG   (  171):     (no map above)
+I/Process (  484): Sending signal. PID: 24688 SIG: 9
+W/ActivityManager(  484): Force-killing crashed app com.biblia.english at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.NativeCrashListener$NativeCrashReporter.run:86 <bottom of call stack> <bottom of call stack> 
+I/ActivityManager(  484): Process com.biblia.english (pid 24688) has died.
+I/WindowState(  484): WIN DEATH: Window{4ab712e8 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 0) failed with errno -13
+W/ActivityManager(  484): Force removing ActivityRecord{4a9d799c u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity t250}: app died, no saved state
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+D/FirebaseApp(  689): Notifying background state change listeners.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+D/Zygote  (  175): Process 24688 terminated by signal (11)
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5390191, downTime=5390191, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  484): Got RemoteException sending setActive(false) notification to pid 24688 uid 10066
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+D/dalvikvm(  689): GC_FOR_ALLOC freed 6044K, 8% free 100152K/108588K, paused 44ms, total 47ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.extremefungames.mototrafficrace2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.miniclip.eightballpool flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.miniclip.eightballpool flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.miniclip.eightballpool flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=me.pou.app flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.neptuns.usefulknots/.KnotCategoriesActivity bnds=[507,388][648,618]} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/Launcher(  689): No global search activity found.
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  536): animationTick called with dtms=-12; nothing to do (h=0.0 v=0.0)
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=874060&bid_id=B5AJYj3873f1KjZzJRx6szvN0NOK&imp_id=olWElrQNy0sjjx2xBW20twG5jPo&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab&android_id=2c56dc4e22148605 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/qtaguid (  689): Untagging socket 86 failed errno=-13
+W/NetworkManagementSocketTagger(  689): untagSocket(86) failed with errno -13
+W/Launcher(  689): No global search activity found.
+I/qtaguid (  689): Tagging socket 86 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(86, 1239581248, -1) failed with errno-13
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=air.com.hypah.io.slither flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=air.com.hypah.io.slither flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=air.com.hypah.io.slither flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/qtaguid (  689): Tagging socket 132 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(132, 1239581248, -1) failed with errno-13
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingangelafree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.combineinc.streetracing.driftthreeD flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.skgames.trafficrider flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  689): GC_FOR_ALLOC freed 5418K, 8% free 100754K/108588K, paused 49ms, total 50ms
+I/qtaguid (  689): Untagging socket 116 failed errno=-13
+W/NetworkManagementSocketTagger(  689): untagSocket(116) failed with errno -13
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/qtaguid (  689): Tagging socket 116 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(116, 462060827, -1) failed with errno-13
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.sega.sonicdash flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+I/qtaguid (  689): Tagging socket 128 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(128, 462060827, -1) failed with errno-13
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.extremefungames.mototrafficrace2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=894751&bid_id=B5AJYj3873f1KjZzJRx6szvN0NOK&imp_id=Lyp1YqmLwnTy0LvVxWNwUlDmPO5&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/        (  689): {"errNum":0,"message":"SUCCESS"}
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=894751&bid_id=B5AJYj3873f1KjZzJRx6szvN0NOK&imp_id=Lyp1YqmLwnTy0LvVxWNwUlDmPO5&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=894751&bid_id=B5AJYj3873f1KjZzJRx6szvN0NOK&imp_id=Lyp1YqmLwnTy0LvVxWNwUlDmPO5&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+D/dalvikvm(  689): GC_FOR_ALLOC freed 6751K, 9% free 99896K/109052K, paused 40ms, total 41ms
+W/Launcher(  689): No global search activity found.
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/Launcher(  689): No global search activity found.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.miniclip.eightballpool flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.faithcomesbyhearing.android.bibleis/.activity.LaunchActivity bnds=[229,158][370,388]} from pid 689
+D/dalvikvm(  651): GC_CONCURRENT freed 379K, 14% free 2879K/3344K, paused 0ms+0ms, total 2ms
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.sega.sonicdash flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.faithcomesbyhearing.android.bibleis/.activity.LaunchActivity bnds=[113,158][254,388]} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=me.pou.app flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.cauagamesoft.carrossocadosbrasil flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.miniclip.eightballpool flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity} from pid 24016
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/yeshen  (  689): launcher onpause
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.supercell.clashroyale flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/ActivityManager(  484): Start proc com.biblia.english for activity com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: pid=24819 uid=10066 gids={50066, 3003}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 1) failed with errno -13
+I/dalvikvm(24819): ignoring registerObject request in thread=1
+I/dalvikvm(24819): ignoring registerObject request in thread=1
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+W/dalvikvm(24819): dvmFindClassByName rejecting 'com/embarcadero/rtl/ProxyInterface'
+W/dalvikvm(24819): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24819): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24819): dvmFindClassByName rejecting 'android/view/Display$Mode'
+W/dalvikvm(24819): dvmFindClassByName rejecting 'android/app/AlarmManager$AlarmClockInfo'
+W/dalvikvm(24819): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24819): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24819): dvmFindClassByName rejecting 'android/view/ViewOutlineProvider'
+W/dalvikvm(24819): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24819): dvmFindClassByName rejecting 'android/view/WindowInsets'
+W/dalvikvm(24819): dvmFindClassByName rejecting 'android/content/pm/PackageInstaller'
+W/dalvikvm(24819): dvmFindClassByName rejecting 'com/embarcadero/firemonkey/OnActivityListener'
+W/dalvikvm(24819): dvmFindClassByName rejecting 'android/view/SearchEvent'
+W/dalvikvm(24819): dvmFindClassByName rejecting 'android/app/VoiceInteractor'
+W/dalvikvm(24819): dvmFindClassByName rejecting 'android/telephony/IccOpenLogicalChannelResponse'
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): Displayed com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity: +1s548ms
+D/libEGL  (24819): loaded /system/lib/egl/libEGL_adreno.so
+D/        (24819): HostConnection::get() New Host Connection established 0xb8421420, tid 24833
+D/libEGL  (24819): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (24819): loaded /system/lib/egl/libGLESv2_adreno.so
+F/libc    (24819): Fatal signal 11 (SIGSEGV) at 0xc34c84ce (code=1), thread 24819 (.biblia.english)
+I/DEBUG   (  171): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  171): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  171): Revision: '0'
+I/DEBUG   (  171): pid: 24819, tid: 24819, name: .biblia.english  >>> com.biblia.english <<<
+I/DEBUG   (  171): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr c34c84ce
+I/DEBUG   (  171):     eax e4f00019  ebx 40000005  ecx 00000000  edx 00000000
+I/DEBUG   (  171):     esi 88d68ddc  edi bf99655c
+I/DEBUG   (  171):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+I/DEBUG   (  171):     eip c34c84ce  ebp bf996578  esp bf99653c  flags 00210206
+I/DEBUG   (  171): 
+I/DEBUG   (  171): backtrace:
+I/DEBUG   (  171):     #00  pc c34c84ce  <unknown>
+I/DEBUG   (  171):     #01  pc 0009a112  /system/lib/libdvm.so
+I/DEBUG   (  171):     #02  pc 00000100  <unknown>
+I/DEBUG   (  171): 
+I/DEBUG   (  171): memory map around fault addr c34c84ce:
+I/DEBUG   (  171):     bf977000-bf998000 rw- [stack]
+I/DEBUG   (  171):     (no map for address)
+I/DEBUG   (  171):     (no map above)
+I/WindowState(  484): WIN DEATH: Window{4b0c49a4 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity}
+I/Process (  484): Sending signal. PID: 24819 SIG: 9
+W/ActivityManager(  484): Force-killing crashed app com.biblia.english at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.NativeCrashListener$NativeCrashReporter.run:86 <bottom of call stack> <bottom of call stack> 
+I/ActivityManager(  484): Process com.biblia.english (pid 24819) has died.
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10066, 0) failed with errno -13
+W/ActivityManager(  484): Force removing ActivityRecord{4abab574 u0 com.biblia.english/com.embarcadero.firemonkey.FMXNativeActivity t251}: app died, no saved state
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Zygote  (  175): Process 24819 terminated by signal (11)
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/InputManager(  484): Input event injection from pid 24016 failed.
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+E/SurfaceFlinger(  174): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  174): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  174): setOrientation, mFbdev=0xb9577da0, mFbDev->setOrientation=0xb6953ce0, orientation=0
+I/gralloc_nox(  174): setOrientation: orientation=0
+I/InputReader(  484): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  484): Device reconfigured: id=1, name='Android Input', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  484): Device reconfigured: id=3, name='seamless mouse', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  484): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 0, mode 1, display id 0
+I/ActivityManager(  484): Config changes=480 {1.0 310mcc260mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger -keyb/v/h dpad/v s.47}
+D/Sensors (  484): Client connection accepted (190)
+D/PhoneStatusBar(  536): mSettingsPanelGravity = 55
+I/AndroidRuntime(24016): VM exiting with result code 0.

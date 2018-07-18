@@ -1,0 +1,887 @@
+--------- beginning of /dev/log/system
+I/ActivityManager(  479): Resuming delayed broadcast
+I/ActivityManager(  479): Delay finish: com.google.android.partnersetup/.RlzPingBroadcastReceiver
+I/ActivityManager(  479): Resuming delayed broadcast
+I/ActivityManager(  479): Delay finish: com.google.android.partnersetup/.AppInstalledReceiver
+I/ActivityManager(  479): Resuming delayed broadcast
+--------- beginning of /dev/log/main
+I/Finsky  (  940): [1] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for auto_install
+I/Finsky  (  940): [1] com.google.android.finsky.wear.ar.a(80): Connecting to wearable; initiated by: com.google.android.finsky.wear.WearSupportService
+I/Finsky  (  940): [1] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for send_installed_apps
+I/Finsky  (  940): [1] com.google.android.finsky.externalreferrer.c.run(11): Package state data is missing for com.dccomics.comics
+D/WearableService(  654): onGetService - Wear is not available on this device.
+E/Finsky  (  940): [1] com.google.android.finsky.wear.au.a(3): onConnectionFailed: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+W/Finsky  (  940): [1] com.google.android.finsky.wear.cd.run(12): Dropping command=auto_install due to Gms not connected
+I/Finsky  (  940): [1] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+W/Finsky  (  940): [1] com.google.android.finsky.wear.cd.run(12): Dropping command=send_installed_apps due to Gms not connected
+I/Finsky  (  940): [1] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+I/WearableService(  654): Wearable Services stopping
+I/Icing   (  720): Indexing 9EBFE84EABD9270B25A97439CA522B4FC49A4875 from com.google.android.gms
+I/Icing   (  720): Indexing done 9EBFE84EABD9270B25A97439CA522B4FC49A4875
+D/AndroidRuntime(13020): 
+D/AndroidRuntime(13020): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(13020): CheckJNI is OFF
+D/dalvikvm(13020): Using executionMode 2
+D/dalvikvm(13020): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(13020): Added shared lib libjavacore.so 0x0
+D/dalvikvm(13020): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(13020): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(13020): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(13020): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(13020): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(13020): failed to load memtrack module: -2
+D/AndroidRuntime(13020): Calling main entry com.android.commands.monkey.Monkey
+W/BroadcastQueue(  479): Skipping deliver [background] BroadcastRecord{4b142350 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4af88c4c 13020 (unknown name)/0/u-1 remote:4b034704}: process crashing
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+W/NetworkManagementSocketTagger(  479): setKernelCountSet(10067, 1) failed with errno -13
+I/dalvikvm(13030): ignoring registerObject request in thread=1
+I/dalvikvm(13030): ignoring registerObject request in thread=1
+I/ActivityManager(  479): Start proc com.dccomics.comics for activity com.dccomics.comics/com.iconology.ui.navigation.RouterActivity: pid=13030 uid=10067 gids={50067, 3003, 1028, 1015, 1023}
+D/dalvikvm(13030): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(13030): GC_CONCURRENT freed 258K, 10% free 2981K/3304K, paused 2ms+1ms, total 4ms
+D/dalvikvm(13030): GC_CONCURRENT freed 247K, 9% free 3240K/3552K, paused 1ms+0ms, total 3ms
+W/Finsky  (  940): [44] com.google.android.finsky.billing.iab.ab.b(48): com.dccomics.comics: No account found.
+I/ActivityManager(  479): START u0 {cmp=com.dccomics.comics/com.iconology.ui.store.onboarding.OnboardingActivity} from pid 13030
+W/NetworkManagementSocketTagger(  479): setKernelCountSet(10021, 0) failed with errno -13
+D/dalvikvm(13030): GC_FOR_ALLOC freed 111K, 7% free 3321K/3552K, paused 3ms, total 3ms
+I/dalvikvm-heap(13030): Grow heap (frag case) to 5.631MB for 2442252-byte allocation
+D/dalvikvm(13030): GC_FOR_ALLOC freed <1K, 4% free 5706K/5940K, paused 7ms, total 7ms
+D/dalvikvm(13030): GC_CONCURRENT freed 0K, 4% free 5706K/5940K, paused 1ms+0ms, total 3ms
+E/ActivityThread(13030): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+D/libEGL  (13030): loaded /system/lib/egl/libEGL_adreno.so
+D/        (13030): HostConnection::get() New Host Connection established 0xb8d17cf0, tid 13030
+D/libEGL  (13030): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (13030): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(13030): Enabling debug mode 0
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): Displayed com.dccomics.comics/com.iconology.ui.store.onboarding.OnboardingActivity: +629ms (total +8s797ms)
+I/ActivityManager(  479): START u0 {cmp=com.dccomics.comics/com.iconology.ui.account.LoginActivity (has extras)} from pid 13030
+W/NetworkManagementSocketTagger(  479): setKernelCountSet(10007, 0) failed with errno -13
+W/dalvikvm(13030): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(13030): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(13030): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(13030): VFY: unable to resolve virtual method 30277: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(13030): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(13030): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+I/qtaguid (  654): Tagging socket 107 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  654): tagSocketFd(107, 805307399, -1) failed with errno-13
+D/dalvikvm(13030): GC_CONCURRENT freed 550K, 10% free 6036K/6648K, paused 2ms+4ms, total 14ms
+W/dalvikvm(13030): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(13030): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(13030): VFY: unable to resolve interface method 30271: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(13030): VFY: replacing opcode 0x72 at 0x0006
+D/dalvikvm(13030): WAIT_FOR_CONCURRENT_GC blocked 9ms
+I/dalvikvm-heap(13030): Grow heap (frag case) to 6.567MB for 635808-byte allocation
+D/dalvikvm(13030): GC_FOR_ALLOC freed 7K, 9% free 6657K/7272K, paused 9ms, total 9ms
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:specialinvoke $r11.<java.net.URL: void <init>(java.lang.String)>($r8)	timediff:2
+I/System.out(13030): <com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>###specialinvoke $r11.<java.net.URL: void <init>(java.lang.String)>($r8)###http://digital.comixology.com/ios/api/com.dccomics.android.Comics/3.9.2/?action=getApplicationSettings&deviceType=tablet
+D/HockeyApp(13030): Looking for exceptions in: /data/data/com.dccomics.comics/files
+D/HockeyApp(13030): Current handler class = com.android.internal.os.RuntimeInit$UncaughtHandler
+I/System.out(13030): body:<com.android.volley.toolbox.h: java.net.HttpURLConnection a(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:39
+I/System.out(13030): body:<com.android.volley.toolbox.h: java.net.HttpURLConnection a(java.net.URL,com.android.volley.n)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: java.net.HttpURLConnection a(java.net.URL,com.android.volley.n)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: java.net.HttpURLConnection a(java.net.URL,com.android.volley.n)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: java.net.HttpURLConnection a(java.net.URL,com.android.volley.n)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: java.net.HttpURLConnection a(java.net.URL,com.android.volley.n)>	sig:$r5 = virtualinvoke $r1.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void addRequestProperty(java.lang.String,java.lang.String)>($r8, $r7)	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: void a(java.net.HttpURLConnection,com.android.volley.n)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("GET")	timediff:0
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SWITCH_CHARSET, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1184070, downTime=1184070, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1184201, downTime=1184201, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1184203, downTime=1184203, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1184205, downTime=1184205, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1184206, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1184207, downTime=1184205, deviceId=0, source=0x10004 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_WINDOW, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1184207, downTime=1184207, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1184211, downTime=1184211, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1184211, downTime=1184211, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1184213, downTime=1184213, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1184214, downTime=1184214, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1184216, downTime=1184216, deviceId=-1, source=0x101 }
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:specialinvoke $r16.<java.net.URL: void <init>(java.lang.String)>($r2)	timediff:0
+I/System.out(13030): <com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>###specialinvoke $r16.<java.net.URL: void <init>(java.lang.String)>($r2)###https://analytics.localytics.com/api/v2/applications/423f210a30a1c2d0f70120b-70e23606-2946-11e4-a2ff-009c5fda0a25/amp
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: java.net.URLConnection createURLConnection(java.net.URL,java.net.Proxy)>	sig:$r2 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:1
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setConnectTimeout(int)>(60000)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setReadTimeout(int)>(60000)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setDoOutput(boolean)>($z1)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/json; charset=utf-8")	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Encoding", "")	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("x-upload-time", $r7)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("x-install-id", $r7)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("x-app-id", $r7)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("x-client-version", "androida_3.4.0")	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("x-app-version", $r7)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("x-customer-id", $r7)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:specialinvoke $r16.<java.net.URL: void <init>(java.lang.String)>($r2)	timediff:1
+I/System.out(13030): <com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>###specialinvoke $r16.<java.net.URL: void <init>(java.lang.String)>($r2)###https://analytics.localytics.com/api/v2/uploads
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: java.net.URLConnection createURLConnection(java.net.URL,java.net.Proxy)>	sig:$r2 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setConnectTimeout(int)>(60000)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setReadTimeout(int)>(60000)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setDoOutput(boolean)>($z1)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/x-gzip")	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Encoding", "gzip")	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("X-DONT-SEND-AMP", "1")	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Encoding", "")	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("x-upload-time", $r7)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("x-install-id", $r7)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("x-app-id", $r7)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("x-client-version", "androida_3.4.0")	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("x-app-version", $r7)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("x-customer-id", $r7)	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)>($i1)	timediff:0
+I/qtaguid (  654): Untagging socket 107 failed errno=-13
+W/NetworkManagementSocketTagger(  654): untagSocket(107) failed with errno -13
+I/qtaguid (13030): Tagging socket 56 with tag 96db315d00000000(-1764019875) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(56, -1764019875, -1) failed with errno-13
+I/qtaguid (13030): Tagging socket 61 with tag 96db315d00000000(-1764019875) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(61, -1764019875, -1) failed with errno-13
+I/qtaguid (13030): Untagging socket 61 failed errno=-13
+W/NetworkManagementSocketTagger(13030): untagSocket(61) failed with errno -13
+I/qtaguid (13030): Tagging socket 61 with tag 96db315d00000000(-1764019875) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(61, -1764019875, -1) failed with errno-13
+I/qtaguid (13030): Untagging socket 61 failed errno=-13
+W/NetworkManagementSocketTagger(13030): untagSocket(61) failed with errno -13
+I/qtaguid (13030): Tagging socket 61 with tag 96db315d00000000(-1764019875) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(61, -1764019875, -1) failed with errno-13
+I/qtaguid (13030): Untagging socket 61 failed errno=-13
+W/NetworkManagementSocketTagger(13030): untagSocket(61) failed with errno -13
+I/qtaguid (13030): Tagging socket 61 with tag 96db315d00000000(-1764019875) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(61, -1764019875, -1) failed with errno-13
+I/qtaguid (13030): Untagging socket 61 failed errno=-13
+W/NetworkManagementSocketTagger(13030): untagSocket(61) failed with errno -13
+I/qtaguid (13030): Tagging socket 61 with tag 96db315d00000000(-1764019875) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(61, -1764019875, -1) failed with errno-13
+I/qtaguid (13030): Untagging socket 61 failed errno=-13
+W/NetworkManagementSocketTagger(13030): untagSocket(61) failed with errno -13
+I/qtaguid (13030): Tagging socket 61 with tag 96db315d00000000(-1764019875) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(61, -1764019875, -1) failed with errno-13
+I/qtaguid (13030): Untagging socket 61 failed errno=-13
+W/NetworkManagementSocketTagger(13030): untagSocket(61) failed with errno -13
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:$i0 = virtualinvoke $r12.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:256
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:$i0 = virtualinvoke $r12.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:$r8 = virtualinvoke $r12.<java.net.HttpURLConnection: java.lang.String getResponseMessage()>()	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpEntity a(java.net.HttpURLConnection)>	sig:$r1 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): URLConn;%;0;%;<com.android.volley.toolbox.h: org.apache.http.HttpEntity a(java.net.HttpURLConnection)>;%;$r1 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://digital.comixology.com/ios/api/com.dccomics.android.Comics/3.9.2/?action=getApplicationSettings&deviceType=tablet;%;false;%;301;%;max-age=604800;%;Fri, 20 Apr 2018 18:37:58 GMT;%;0;%;Not found
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpEntity a(java.net.HttpURLConnection)>	sig:$i1 = virtualinvoke $r0.<java.net.HttpURLConnection: int getContentLength()>()	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpEntity a(java.net.HttpURLConnection)>	sig:$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.lang.String getContentEncoding()>()	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpEntity a(java.net.HttpURLConnection)>	sig:$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.lang.String getContentType()>()	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:$r5 = virtualinvoke $r12.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:0
+I/qtaguid (13030): Untagging socket 56 failed errno=-13
+W/NetworkManagementSocketTagger(13030): untagSocket(56) failed with errno -13
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:specialinvoke $r11.<java.net.URL: void <init>(java.lang.String)>($r8)	timediff:0
+I/System.out(13030): <com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>###specialinvoke $r11.<java.net.URL: void <init>(java.lang.String)>($r8)###https://api.comixology.com/application/translations/ja
+I/System.out(13030): body:<com.android.volley.toolbox.h: java.net.HttpURLConnection a(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: java.net.HttpURLConnection a(java.net.URL,com.android.volley.n)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: java.net.HttpURLConnection a(java.net.URL,com.android.volley.n)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: java.net.HttpURLConnection a(java.net.URL,com.android.volley.n)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: java.net.HttpURLConnection a(java.net.URL,com.android.volley.n)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: java.net.HttpURLConnection a(java.net.URL,com.android.volley.n)>	sig:$r5 = virtualinvoke $r1.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void addRequestProperty(java.lang.String,java.lang.String)>($r8, $r7)	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void addRequestProperty(java.lang.String,java.lang.String)>($r8, $r7)	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void addRequestProperty(java.lang.String,java.lang.String)>($r8, $r7)	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:virtualinvoke $r12.<java.net.HttpURLConnection: void addRequestProperty(java.lang.String,java.lang.String)>($r8, $r7)	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: void a(java.net.HttpURLConnection,com.android.volley.n)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("GET")	timediff:0
+D/dalvikvm(13030): GC_CONCURRENT freed 718K, 10% free 7085K/7868K, paused 3ms+1ms, total 9ms
+I/qtaguid (13030): Tagging socket 67 with tag d14ce11b00000000(-783490789) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(67, -783490789, -1) failed with errno-13
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:$r21 = virtualinvoke $r18.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:334
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:$i1 = virtualinvoke $r18.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:402
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:$r35 = virtualinvoke $r18.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): URLConn;%;1;%;<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>;%;$r35 = virtualinvoke $r18.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://analytics.localytics.com/api/v2/applications/423f210a30a1c2d0f70120b-70e23606-2946-11e4-a2ff-009c5fda0a25/amp;%;false;%;0;%;no-cache, no-store, max-age=0;%;Not found;%;Not found;%;Not found
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:$i1 = virtualinvoke $r18.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:82
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:$r35 = virtualinvoke $r18.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): URLConn;%;2;%;<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>;%;$r35 = virtualinvoke $r18.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://analytics.localytics.com/api/v2/uploads;%;true;%;0;%;no-cache, no-store, max-age=0;%;Not found;%;Not found;%;Not found
+I/System.out(13030): body:<com.localytics.android.BaseUploadThread: boolean upload(com.localytics.android.BaseUploadThread$UploadType,java.lang.String,java.lang.String,int,boolean)>	sig:virtualinvoke $r18.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/qtaguid (13030): Tagging socket 70 with tag d14ce11b00000000(-783490789) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(70, -783490789, -1) failed with errno-13
+I/qtaguid (13030): Untagging socket 70 failed errno=-13
+W/NetworkManagementSocketTagger(13030): untagSocket(70) failed with errno -13
+I/qtaguid (13030): Tagging socket 70 with tag d14ce11b00000000(-783490789) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(70, -783490789, -1) failed with errno-13
+I/qtaguid (13030): Untagging socket 70 failed errno=-13
+W/NetworkManagementSocketTagger(13030): untagSocket(70) failed with errno -13
+I/qtaguid (13030): Tagging socket 70 with tag d14ce11b00000000(-783490789) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(70, -783490789, -1) failed with errno-13
+I/qtaguid (13030): Untagging socket 70 failed errno=-13
+W/NetworkManagementSocketTagger(13030): untagSocket(70) failed with errno -13
+I/qtaguid (13030): Tagging socket 70 with tag d14ce11b00000000(-783490789) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(70, -783490789, -1) failed with errno-13
+I/qtaguid (13030): Untagging socket 70 failed errno=-13
+W/NetworkManagementSocketTagger(13030): untagSocket(70) failed with errno -13
+I/qtaguid (13030): Tagging socket 70 with tag d14ce11b00000000(-783490789) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(70, -783490789, -1) failed with errno-13
+I/qtaguid (13030): Untagging socket 70 failed errno=-13
+W/NetworkManagementSocketTagger(13030): untagSocket(70) failed with errno -13
+I/qtaguid (13030): Tagging socket 70 with tag d14ce11b00000000(-783490789) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(70, -783490789, -1) failed with errno-13
+I/qtaguid (13030): Untagging socket 70 failed errno=-13
+W/NetworkManagementSocketTagger(13030): untagSocket(70) failed with errno -13
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:$i0 = virtualinvoke $r12.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:400
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:$i0 = virtualinvoke $r12.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:$r8 = virtualinvoke $r12.<java.net.HttpURLConnection: java.lang.String getResponseMessage()>()	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpEntity a(java.net.HttpURLConnection)>	sig:$r1 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(13030): URLConn;%;3;%;<com.android.volley.toolbox.h: org.apache.http.HttpEntity a(java.net.HttpURLConnection)>;%;$r1 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://api.comixology.com/application/translations/ja;%;false;%;Not found;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpEntity a(java.net.HttpURLConnection)>	sig:$i1 = virtualinvoke $r0.<java.net.HttpURLConnection: int getContentLength()>()	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpEntity a(java.net.HttpURLConnection)>	sig:$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.lang.String getContentEncoding()>()	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpEntity a(java.net.HttpURLConnection)>	sig:$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.lang.String getContentType()>()	timediff:0
+I/System.out(13030): body:<com.android.volley.toolbox.h: org.apache.http.HttpResponse a(com.android.volley.n,java.util.Map)>	sig:$r5 = virtualinvoke $r12.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:1
+I/qtaguid (13030): Tagging socket 70 with tag d14ce11b00000000(-783490789) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(13030): tagSocketFd(70, -783490789, -1) failed with errno-13
+I/qtaguid (13030): Untagging socket 67 failed errno=-13
+W/NetworkManagementSocketTagger(13030): untagSocket(67) failed with errno -13
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/dalvikvm(13030): Could not find method android.webkit.CookieManager.removeAllCookies, referenced from method com.iconology.ui.WebViewActivity.onCreate
+W/dalvikvm(13030): VFY: unable to resolve virtual method 11079: Landroid/webkit/CookieManager;.removeAllCookies (Landroid/webkit/ValueCallback;)V
+D/dalvikvm(13030): VFY: replacing opcode 0x6e at 0x00ab
+I/ActivityManager(  479): START u0 {cmp=com.dccomics.comics/com.iconology.ui.WebViewActivity (has extras)} from pid 13030
+I/Choreographer(13030): Skipped 53 frames!  The application may be doing too much work on its main thread.
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1185149, downTime=1185149, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1185150, downTime=1185150, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1185150, downTime=1185150, deviceId=-1, source=0x101 }
+D/dalvikvm(13030): GC_CONCURRENT freed 1235K, 16% free 7197K/8496K, paused 3ms+4ms, total 16ms
+V/WebViewChromium(13030): Binding Chromium to the background looper Looper (main, tid 1) {4a7cdef8}
+I/chromium(13030): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain(13030): Initializing chromium process, renderers=0
+I/qtaguid (  654): Tagging socket 107 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  654): tagSocketFd(107, 805307399, -1) failed with errno-13
+D/dalvikvm(  654): GC_CONCURRENT freed 1366K, 18% free 6847K/8344K, paused 3ms+2ms, total 18ms
+W/chromium(13030): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/HockeyApp(13030): Looking for exceptions in: /data/data/com.dccomics.comics/files
+D/HockeyApp(13030): Current handler class = net.hockeyapp.android.i
+I/qtaguid (  654): Untagging socket 107 failed errno=-13
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/AwContents(13030): nativeOnDraw failed; clearing to background color.
+W/NetworkManagementSocketTagger(  654): untagSocket(107) failed with errno -13
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1184228, downTime=1184228, deviceId=-1, source=0x101 }
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/AwContents(13030): nativeOnDraw failed; clearing to background color.
+I/ActivityManager(  479): Displayed com.dccomics.comics/com.iconology.ui.WebViewActivity: +273ms (total +1s334ms)
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+I/chromium(13030): [INFO:simple_index_file.cc(397)] Simple Cache Index is being restored from disk.
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+I/chromium(13030): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+I/chromium(13030): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/chromium(13030): [INFO:CONSOLE(61)] "Viewport argument key "shrink-to-fit" not recognized and ignored.", source: https://www.amazon.com/ap/signin?_encoding=UTF8&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.pape.max_auth_age=0&ie=UTF8&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=lwa&openid.assoc_handle=amzn_lwa_na&marketPlaceId=ATVPDKIKX0DER&arb=2a9bbc8a-21f9-4698-86cc-a2fee2ada810&language=ja_JP&openid.return_to=https%3A%2F%2Fna.account.amazon.com%2Fap%2Foa%3FmarketPlaceId%3DATVPDKIKX0DER%26arb%3D2a9bbc8a-21f9-4698-86cc-a2fee2ada810%26language%3Dja_JP&enableGlobalAccountCreation=1&metricIdentifier=amzn1.application.f19a0ee5037b47a5b1e3529b68a434b2&signedMetricIdentifier=v4vvcgLP4zcg4O20M73HrFR74KEgL9CZ2lqoAbLJ%2BjI%3D (61)
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm(13030): GC_CONCURRENT freed 983K, 13% free 7570K/8616K, paused 2ms+1ms, total 28ms
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/HockeyApp(13030): Looking for exceptions in: /data/data/com.dccomics.comics/files
+D/HockeyApp(13030): Current handler class = net.hockeyapp.android.i
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1186380, downTime=1186380, deviceId=-1, source=0x101 }
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 13030
+W/PhoneFallbackEventHandler(13030): No activity found for android.intent.action.CALL_BUTTON.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {cmp=com.dccomics.comics/com.iconology.ui.WebViewActivity (has extras)} from pid 13030
+D/HockeyApp(13030): Looking for exceptions in: /data/data/com.dccomics.comics/files
+D/HockeyApp(13030): Current handler class = net.hockeyapp.android.i
+I/qtaguid (  654): Tagging socket 107 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  654): tagSocketFd(107, 805307399, -1) failed with errno-13
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CTRL_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1186867, downTime=1186867, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1186887, downTime=1186887, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1186888, downTime=1186888, deviceId=-1, source=0x101 }
+W/AwContents(13030): nativeOnDraw failed; clearing to background color.
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1186889, downTime=1186889, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1186893, downTime=1186893, deviceId=-1, source=0x101 }
+I/qtaguid (  654): Untagging socket 107 failed errno=-13
+W/NetworkManagementSocketTagger(  654): untagSocket(107) failed with errno -13
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): Displayed com.dccomics.comics/com.iconology.ui.WebViewActivity: +154ms
+W/AwContents(13030): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/chromium(13030): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+D/dalvikvm(13030): GC_CONCURRENT freed 1430K, 17% free 7601K/9096K, paused 1ms+6ms, total 18ms
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 479
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+D/dalvikvm(  479): GC_FOR_ALLOC freed 4290K, 53% free 14336K/30420K, paused 13ms, total 14ms
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/HockeyApp(13030): Looking for exceptions in: /data/data/com.dccomics.comics/files
+D/HockeyApp(13030): Current handler class = net.hockeyapp.android.i
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+I/chromium(13030): [INFO:CONSOLE(61)] "Viewport argument key "shrink-to-fit" not recognized and ignored.", source: https://www.amazon.com/ap/signin?_encoding=UTF8&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.pape.max_auth_age=0&ie=UTF8&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=lwa&openid.assoc_handle=amzn_lwa_na&marketPlaceId=ATVPDKIKX0DER&arb=056123e8-26c5-4c23-8276-0150189237a6&language=ja_JP&openid.return_to=https%3A%2F%2Fna.account.amazon.com%2Fap%2Foa%3FmarketPlaceId%3DATVPDKIKX0DER%26arb%3D056123e8-26c5-4c23-8276-0150189237a6%26language%3Dja_JP&enableGlobalAccountCreation=1&metricIdentifier=amzn1.application.f19a0ee5037b47a5b1e3529b68a434b2&signedMetricIdentifier=v4vvcgLP4zcg4O20M73HrFR74KEgL9CZ2lqoAbLJ%2BjI%3D (61)
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(  720): GC_CONCURRENT freed 1952K, 21% free 8929K/11260K, paused 3ms+4ms, total 36ms
+I/qtaguid (  720): Tagging socket 127 with tag 3000020000000000(805306880) for uid 10007 failed errno=-13
+I/NetworkManagementSocketTagger(  720): tagSocketFd(127, 805306880, 10007) failed with errno-13
+I/qtaguid (  720): Untagging socket 127 failed errno=-13
+W/NetworkManagementSocketTagger(  720): untagSocket(127) failed with errno -13
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 479
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {cmp=com.dccomics.comics/com.iconology.ui.account.LoginActivity (has extras)} from pid 13030
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+D/HockeyApp(13030): Looking for exceptions in: /data/data/com.dccomics.comics/files
+D/HockeyApp(13030): Current handler class = net.hockeyapp.android.i
+I/qtaguid (  654): Tagging socket 107 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  654): tagSocketFd(107, 805307399, -1) failed with errno-13
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACKSLASH, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1188782, downTime=1188782, deviceId=-1, source=0x101 }
+I/qtaguid (  654): Untagging socket 107 failed errno=-13
+W/NetworkManagementSocketTagger(  654): untagSocket(107) failed with errno -13
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): Displayed com.dccomics.comics/com.iconology.ui.account.LoginActivity: +168ms
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {cmp=com.dccomics.comics/com.iconology.ui.WebViewActivity (has extras)} from pid 13030
+D/HockeyApp(13030): Looking for exceptions in: /data/data/com.dccomics.comics/files
+D/HockeyApp(13030): Current handler class = net.hockeyapp.android.i
+I/qtaguid (  654): Tagging socket 107 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  654): tagSocketFd(107, 805307399, -1) failed with errno-13
+D/dalvikvm(13030): GC_CONCURRENT freed 1226K, 15% free 7843K/9132K, paused 3ms+1ms, total 14ms
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/AwContents(13030): nativeOnDraw failed; clearing to background color.
+I/qtaguid (  654): Untagging socket 107 failed errno=-13
+W/NetworkManagementSocketTagger(  654): untagSocket(107) failed with errno -13
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1189034, downTime=1189034, deviceId=-1, source=0x101 }
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(13030): nativeOnDraw failed; clearing to background color.
+I/ActivityManager(  479): Displayed com.dccomics.comics/com.iconology.ui.WebViewActivity: +263ms
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 479
+I/chromium(13030): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/InputManager(  479): Input event injection from pid 13020 failed.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+D/HockeyApp(13030): Looking for exceptions in: /data/data/com.dccomics.comics/files
+D/HockeyApp(13030): Current handler class = net.hockeyapp.android.i
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1189725, downTime=1189725, deviceId=-1, source=0x101 }
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/chromium(13030): [INFO:CONSOLE(61)] "Viewport argument key "shrink-to-fit" not recognized and ignored.", source: https://www.amazon.com/ap/signin?_encoding=UTF8&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.pape.max_auth_age=0&ie=UTF8&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=lwa&openid.assoc_handle=amzn_lwa_na&marketPlaceId=ATVPDKIKX0DER&arb=b455eac3-2d60-4890-8a5e-3a47303b0fc1&language=ja_JP&openid.return_to=https%3A%2F%2Fna.account.amazon.com%2Fap%2Foa%3FmarketPlaceId%3DATVPDKIKX0DER%26arb%3Db455eac3-2d60-4890-8a5e-3a47303b0fc1%26language%3Dja_JP&enableGlobalAccountCreation=1&metricIdentifier=amzn1.application.f19a0ee5037b47a5b1e3529b68a434b2&signedMetricIdentifier=v4vvcgLP4zcg4O20M73HrFR74KEgL9CZ2lqoAbLJ%2BjI%3D (61)
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {cmp=com.dccomics.comics/com.iconology.ui.WebViewActivity (has extras)} from pid 13030
+D/HockeyApp(13030): Looking for exceptions in: /data/data/com.dccomics.comics/files
+D/HockeyApp(13030): Current handler class = net.hockeyapp.android.i
+I/qtaguid (  654): Tagging socket 107 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  654): tagSocketFd(107, 805307399, -1) failed with errno-13
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/AwContents(13030): nativeOnDraw failed; clearing to background color.
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1190502, downTime=1190502, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1190518, downTime=1190518, deviceId=-1, source=0x101 }
+I/qtaguid (  654): Untagging socket 107 failed errno=-13
+W/NetworkManagementSocketTagger(  654): untagSocket(107) failed with errno -13
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): Displayed com.dccomics.comics/com.iconology.ui.WebViewActivity: +155ms
+W/AwContents(13030): nativeOnDraw failed; clearing to background color.
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/chromium(13030): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+I/chromium(13030): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 479
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  479): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 13030
+W/PhoneFallbackEventHandler(13030): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/chromium(13030): [INFO:CONSOLE(61)] "Viewport argument key "shrink-to-fit" not recognized and ignored.", source: https://www.amazon.com/ap/signin?_encoding=UTF8&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.pape.max_auth_age=0&ie=UTF8&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=lwa&openid.assoc_handle=amzn_lwa_na&marketPlaceId=ATVPDKIKX0DER&arb=661cc052-580f-4415-afaa-5c89c50fa699&language=ja_JP&openid.return_to=https%3A%2F%2Fna.account.amazon.com%2Fap%2Foa%3FmarketPlaceId%3DATVPDKIKX0DER%26arb%3D661cc052-580f-4415-afaa-5c89c50fa699%26language%3Dja_JP&enableGlobalAccountCreation=1&metricIdentifier=amzn1.application.f19a0ee5037b47a5b1e3529b68a434b2&signedMetricIdentifier=v4vvcgLP4zcg4O20M73HrFR74KEgL9CZ2lqoAbLJ%2BjI%3D (61)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm( 5925): GC_CONCURRENT freed 380K, 29% free 3205K/4480K, paused 0ms+0ms, total 9ms
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+D/dalvikvm(13030): GC_CONCURRENT freed 1585K, 18% free 7862K/9512K, paused 0ms+62ms, total 99ms
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+I/SnapScrollController(13030): setSnapScrollingMode case-default no-op
+D/HockeyApp(13030): Looking for exceptions in: /data/data/com.dccomics.comics/files
+D/HockeyApp(13030): Current handler class = net.hockeyapp.android.i
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1192937, downTime=1192937, deviceId=-1, source=0x101 }
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+D/dalvikvm(  479): GC_FOR_ALLOC freed 2681K, 53% free 14394K/30420K, paused 12ms, total 13ms
+I/ActivityManager(  479): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 13030
+W/PhoneFallbackEventHandler(13030): No activity found for android.intent.action.CALL_BUTTON.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {cmp=com.dccomics.comics/com.iconology.ui.WebViewActivity (has extras)} from pid 13030
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=2, eventTime=1193340, downTime=1193340, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1193340, downTime=1193340, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1193340, downTime=1193340, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1193340, downTime=1193340, deviceId=-1, source=0x101 }
+D/HockeyApp(13030): Looking for exceptions in: /data/data/com.dccomics.comics/files
+D/HockeyApp(13030): Current handler class = net.hockeyapp.android.i
+I/qtaguid (  654): Tagging socket 107 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  654): tagSocketFd(107, 805307399, -1) failed with errno-13
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/AwContents(13030): nativeOnDraw failed; clearing to background color.
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_META_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1193299, downTime=1193299, deviceId=-1, source=0x101 }
+D/dalvikvm(  654): GC_FOR_ALLOC freed 656K, 21% free 6672K/8344K, paused 12ms, total 12ms
+I/qtaguid (  654): Untagging socket 107 failed errno=-13
+W/NetworkManagementSocketTagger(  654): untagSocket(107) failed with errno -13
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x408, repeatCount=0, eventTime=1192408, downTime=1192408, deviceId=-1, source=0x101 }
+W/AwContents(13030): nativeOnDraw failed; clearing to background color.
+I/ActivityManager(  479): Displayed com.dccomics.comics/com.iconology.ui.WebViewActivity: +218ms
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+W/InputManager(  479): Input event injection from pid 13020 failed.
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+I/chromium(13030): [INFO:CONSOLE(61)] "Viewport argument key "shrink-to-fit" not recognized and ignored.", source: https://www.amazon.com/ap/register?openid.pape.max_auth_age=0&enableGlobalAccountCreation=1&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&marketPlaceId=ATVPDKIKX0DER&signedMetricIdentifier=v4vvcgLP4zcg4O20M73HrFR74KEgL9CZ2lqoAbLJ%2BjI%3D&language=ja_JP&pageId=lwa&openid.return_to=https%3A%2F%2Fna.account.amazon.com%2Fap%2Foa%3FmarketPlaceId%3DATVPDKIKX0DER%26arb%3D661cc052-580f-4415-afaa-5c89c50fa699%26language%3Dja_JP&prevRID=3RSNEN9K7B1PW2FRJKVE&metricIdentifier=amzn1.application.f19a0ee5037b47a5b1e3529b68a434b2&openid.assoc_handle=amzn_lwa_na&openid.mode=checkid_setup&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&oauth2params=eyJwIjoiWEFZRi9UVGFkU1hBZmY2V29UWHhBS0IyWXViZitmVnoySStiQnRCN1FJbUNXRmlsV1l0eUI4eXZiSG0rVGovL0l5bmZMTEJXeWh4OVFlNFhMcjlLUWZvTVlac1Y1RnJQOEorcm4zM2lsd3h1Z2lGaDJXRGJEZk1NMWFlWDVpSzd6cWQyck8yZGxEc0liUnc2RC9ya01mek9PaUdtSE83bUp2NjhJeXYzRnRLc0dvd1EvV2gwRnBrTncyYWhGaXVKRzVPN2ZCVG44V3JvK1RGSVQzMy9WQzZXK2N3ZnRCZjFPSXNXZUxBOG9zeXpMMnZjWHI4T1FrSDREc1ZhR3ltYmR3VVZ4aWIzdENSOGVLbUpweW01NXdlRWt6Y2p5dFYzcklqVzFYNVBic01wbExkVmZOQURKRGlrQWZQbzFueG5sNmNmb3RFMEZlbnJncUYxRmYrMWRiOWF5RXU2elVJRlBYWGlyV05FSVlDcVN5eGg2ZDV1c29odUxoS2FSMVdCTHB6UTRlenhFUEM0cXpMRkorbk1CUi94OFFjUWRTeTh3ajh4MkhnVldBdGhWQjh2bE1WRitBVWw2cWFTYUx2SElpeHZQQ1dpNHNzRHA3TmUycXV6MzRENytoVkFlMkFuY0wvU2ZwV0FWZFB4N1ltaVF6c0ljZ2JEVklGNDFUclNBbGRyZ2pkV09RYlUxbFpZWFZrVkhmRGNGS3pTbXh4K3VqS1FmK1FaOUdKVnpVTHB3REZBMlhsVXBUc3FhSmNDZWE1aDh0OE9xeGY2RnJ0eDVyYzgvblNMSVh2S1plQklNYWZWdExodFFEdGdMcU54NFpFTWpsL0JGZDJuY0twd3JBbWRvQllPS1VNMG8zaUIvTVZJNzZiQ2R2R3pQelVXQlBOand2RFJkQ2ZTc01jMmxIcDRDSFVFOWdMU2lVRHJRb1J3MHJhVVBvUVo5ekxlaVE0bk5kWVpLK2p6cU14RmFXL0o0OG1jeTFOYkh5THRDbmc5ZHRWTmJEV25OVXU5dnVQT2FwcmgvWTlrcTZtTUJRNDV6N0kzQW4wcTRZTXIyUG16VFlkQjFUZmdObExBOEtBRmFPdjBPWDZpOEU2YXIxTDRURkpTSk5HcVZ6bmdxYnN2RjM4a2ZWcTZKZ3RoM3doWWFKcDhmRFBkL3c3a1BnTDgvRG9FRVdhY2MzWkxKOG5xbGd3a3EvalRyZkJETTdNWnNUeHZxSXlqS3VjdWdtTkd0U2Z0Z0ZPRjRiNXRqQ3pDZVZpazlBZGlWMU9iSlc3a1Ayb3RkT0tYVElZN2hvUlNUbEpmYThQZjBoRkZ3c3BuZCszektSTXJRUDVhYU5LbGhxVnBNS3JtekRlVHkxZDlwZWdMQWpJdXRmMVFJcFZycUtndkFvdk9JQnY1azd1cUwvTSthcTVVUmlrb1ZZRGVoS1lFdjJUMlpnZG9ndnBFU1MyazE3Q2NHdXpZWVdLTjRtNDJMcjYvNXNBSXdCZW1saHI3aTF6d2tFL0lhSzl0UE1oTEtnU29ZdTJrN3JzMmtMZXhLd3Vuek5XM2kvNVJ4eU94LzZ4RVZZQVY2Ymp2WWV1bUZ1Vlc3dW92K0RzRkNaOUxwQmR0eGIwTlgraElqWUlleW1FNGFtTE9vYUpqbWZsVldzdjF5eGw3aUlEdG9HUDFDTmNQTzN1S3lScko2UFlVU1p2Y3FpZXJwWmdIUnBHaGJNVVJlM3RPd0IxWmRqWW95Z1VOQmxjdlVFcERTUG9rNUJFODVGQW5WTmJDdGxqMUsvR1NxckhBdFF1T3IwbjhsZzNLUi9VeTN5aDVhS09LaG82eUtMOHk0MmpiaEc3bVhCQlo1TUUwcW9oUWVyV1Y0aDU4V2QwNXVmYTd0WW1nUFJDaTZLNmtxVE05Mnp4VC9SK0M5MUhHaVY4QWZuV1NNaDJONnZKREdPRjlydkVCNGhXZllmZWQ3OWZmaElwVXVjTHNDUURHeDZxeEdTZFFlaUVORkdDWHFoLzhkOXdKU0JkclhKNndoTHl6b3pLbzF3V0N3b3B2Q3BwZWNySFBxZ2RvSmFpMk41RG56dGtRRWlQeGFLL29xTkNMWUhyRFVXRTVCUm1PekFValhxaXIvWExRWmtGRCIsImkiOiJMNStnQXhsS1BzTWtFTnA3NTUzc3p3PT0iLCJzIjoibTRyZ2FmTUY3bS9RWlFPVEk0QmQyWVZzV2ZIdDBNMjBDRVFPOXVIT0N2dz0iLCJldiI6MSwiaHYiOjF9 (61)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+V/FlingTracker(  533): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  533): java.lang.Throwable
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  533): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  533): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  533): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  533): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  533): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  533): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  533): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  533): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  533): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  533): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  533): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  533): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  533): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1193645, downTime=1193645, deviceId=-1, source=0x101 }
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=2, eventTime=1193704, downTime=1193704, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1193704, downTime=1193704, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1193704, downTime=1193704, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1193704, downTime=1193704, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1193704, downTime=1193704, deviceId=-1, source=0x101 }
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1194133, downTime=1194133, deviceId=-1, source=0x101 }
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {cmp=com.dccomics.comics/com.iconology.ui.account.LoginActivity (has extras)} from pid 13030
+W/ActivityManager(  479): Activity pause timeout for ActivityRecord{4ab01718 u0 com.dccomics.comics/com.iconology.ui.store.onboarding.OnboardingActivity t73}
+I/chromium(13030): [INFO:CONSOLE(61)] "Viewport argument key "shrink-to-fit" not recognized and ignored.", source: https://www.amazon.com/ap/signin?_encoding=UTF8&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.pape.max_auth_age=0&ie=UTF8&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=lwa&openid.assoc_handle=amzn_lwa_na&marketPlaceId=ATVPDKIKX0DER&arb=a702588b-9ab1-491c-8f7c-cbc0b5d5294c&language=ja_JP&openid.return_to=https%3A%2F%2Fna.account.amazon.com%2Fap%2Foa%3FmarketPlaceId%3DATVPDKIKX0DER%26arb%3Da702588b-9ab1-491c-8f7c-cbc0b5d5294c%26language%3Dja_JP&enableGlobalAccountCreation=1&metricIdentifier=amzn1.application.f19a0ee5037b47a5b1e3529b68a434b2&signedMetricIdentifier=v4vvcgLP4zcg4O20M73HrFR74KEgL9CZ2lqoAbLJ%2BjI%3D (61)
+D/HockeyApp(13030): Looking for exceptions in: /data/data/com.dccomics.comics/files
+D/HockeyApp(13030): Current handler class = net.hockeyapp.android.i
+D/dalvikvm(13030): GC_CONCURRENT freed 1684K, 18% free 7848K/9520K, paused 2ms+3ms, total 28ms
+I/qtaguid (  654): Tagging socket 107 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  654): tagSocketFd(107, 805307399, -1) failed with errno-13
+I/qtaguid (  654): Untagging socket 107 failed errno=-13
+W/NetworkManagementSocketTagger(  654): untagSocket(107) failed with errno -13
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1194178, downTime=1194178, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1194908, downTime=1194908, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F10, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1194909, downTime=1194909, deviceId=-1, source=0x101 }
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+I/ActivityManager(  479): Displayed com.dccomics.comics/com.iconology.ui.account.LoginActivity: +289ms
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 479
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  479): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 13030
+W/PhoneFallbackEventHandler(13030): No activity found for android.intent.action.CALL_BUTTON.
+V/FlingTracker(  533): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  533): java.lang.Throwable
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  533): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  533): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  533): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  533): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  533): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  533): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  533): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  533): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  533): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  533): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  533): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  533): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  533): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {cmp=com.dccomics.comics/com.iconology.ui.WebViewActivity (has extras)} from pid 13030
+D/HockeyApp(13030): Looking for exceptions in: /data/data/com.dccomics.comics/files
+D/HockeyApp(13030): Current handler class = net.hockeyapp.android.i
+I/qtaguid (  654): Tagging socket 107 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  654): tagSocketFd(107, 805307399, -1) failed with errno-13
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_9, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1195255, downTime=1195255, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1195255, downTime=1195255, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_3, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1195368, downTime=1195368, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1195368, downTime=1195368, deviceId=-1, source=0x101 }
+W/AwContents(13030): nativeOnDraw failed; clearing to background color.
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/qtaguid (  654): Untagging socket 107 failed errno=-13
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1195380, downTime=1195380, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1195435, downTime=1195435, deviceId=-1, source=0x101 }
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/AwContents(13030): nativeOnDraw failed; clearing to background color.
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/NetworkManagementSocketTagger(  654): untagSocket(107) failed with errno -13
+I/ActivityManager(  479): Displayed com.dccomics.comics/com.iconology.ui.WebViewActivity: +158ms
+V/FlingTracker(  533): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  533): java.lang.Throwable
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  533): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  533): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  533): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  533): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  533): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  533): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  533): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  533): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  533): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  533): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  533): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  533): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  533): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  533): animationTick called with dtms=-2; nothing to do (h=0.0 v=0.0)
+I/chromium(13030): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+I/chromium(13030): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(13030): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  479): Activity reported stop, but no longer stopping: ActivityRecord{4a9a1ab0 u0 com.dccomics.comics/com.iconology.ui.account.LoginActivity t73}
+D/HockeyApp(13030): Looking for exceptions in: /data/data/com.dccomics.comics/files
+D/HockeyApp(13030): Current handler class = net.hockeyapp.android.i
+W/EGL_emulation(13030): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13030): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1195836, downTime=1195836, deviceId=-1, source=0x101 }
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dccomics.comics/com.iconology.ui.navigation.RouterActivity} from pid 13020
+I/chromium(13030): [INFO:CONSOLE(61)] "Viewport argument key "shrink-to-fit" not recognized and ignored.", source: https://www.amazon.com/ap/signin?_encoding=UTF8&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.pape.max_auth_age=0&ie=UTF8&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=lwa&openid.assoc_handle=amzn_lwa_na&marketPlaceId=ATVPDKIKX0DER&arb=e870cd99-7e87-4cdf-a312-a9023e349780&language=ja_JP&openid.return_to=https%3A%2F%2Fna.account.amazon.com%2Fap%2Foa%3FmarketPlaceId%3DATVPDKIKX0DER%26arb%3De870cd99-7e87-4cdf-a312-a9023e349780%26language%3Dja_JP&enableGlobalAccountCreation=1&metricIdentifier=amzn1.application.f19a0ee5037b47a5b1e3529b68a434b2&signedMetricIdentifier=v4vvcgLP4zcg4O20M73HrFR74KEgL9CZ2lqoAbLJ%2BjI%3D (61)
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 479
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 479
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+V/InputMethodService( 5925): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService( 5925): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+E/SurfaceFlinger(  166): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  166): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  166): setOrientation, mFbdev=0xb7aec050, mFbDev->setOrientation=0xb6a0ace0, orientation=0
+I/gralloc_nox(  166): setOrientation: orientation=0
+I/InputReader(  479): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  479): Device reconfigured: id=1, name='seamless mouse', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  479): Device reconfigured: id=3, name='Android Input', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  479): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  479): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 0, mode 1, display id 0
+I/ActivityManager(  479): Config changes=480 {1.0 310mcc16mnc ja_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.28}
+D/Sensors (  479): Client connection accepted (82)
+D/Tinker.DefaultAppLike(  681): onConfigurationChanged:{1.0 310mcc16mnc ja_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.28}
+D/PhoneStatusBar(  533): mSettingsPanelGravity = 55
+D/        (  479): HostConnection::get() New Host Connection established 0xb8e8bde0, tid 496
+I/AndroidRuntime(13020): VM exiting with result code 0.

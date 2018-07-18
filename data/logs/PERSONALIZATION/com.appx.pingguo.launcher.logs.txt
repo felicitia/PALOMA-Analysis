@@ -1,0 +1,725 @@
+--------- beginning of /dev/log/main
+D/dalvikvm( 1194): GC_CONCURRENT freed 646K, 17% free 6084K/7268K, paused 1ms+0ms, total 7ms
+I/qtaguid (  711): Tagging socket 55 with tag 3000040100000000(805307393) for uid 10007 failed errno=-13
+I/NetworkManagementSocketTagger(  711): tagSocketFd(55, 805307393, 10007) failed with errno-13
+W/GLSUser (  711): [AppCertManager] IOException while requesting key: 
+W/GLSUser (  711): java.io.IOException: Invalid device key response.
+W/GLSUser (  711): 	at gdd.a(com.google.android.gms@12221070@12.2.21 (070-188803320):12)
+W/GLSUser (  711): 	at gdd.a(com.google.android.gms@12221070@12.2.21 (070-188803320):64)
+W/GLSUser (  711): 	at gdb.a(com.google.android.gms@12221070@12.2.21 (070-188803320):8)
+W/GLSUser (  711): 	at gcx.a(com.google.android.gms@12221070@12.2.21 (070-188803320):1)
+W/GLSUser (  711): 	at gcw.a(com.google.android.gms@12221070@12.2.21 (070-188803320):10)
+W/GLSUser (  711): 	at com.google.android.gms.auth.account.be.legacy.AuthCronChimeraService.b(com.google.android.gms@12221070@12.2.21 (070-188803320):7)
+W/GLSUser (  711): 	at ffx.call(com.google.android.gms@12221070@12.2.21 (070-188803320):3)
+W/GLSUser (  711): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/GLSUser (  711): 	at kot.run(com.google.android.gms@12221070@12.2.21 (070-188803320):26)
+W/GLSUser (  711): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/GLSUser (  711): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/GLSUser (  711): 	at kus.run(com.google.android.gms@12221070@12.2.21 (070-188803320))
+W/GLSUser (  711): 	at java.lang.Thread.run(Thread.java:841)
+I/Icing   (  700): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+I/Icing   (  700): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/AndroidRuntime( 3062): 
+D/AndroidRuntime( 3062): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 3062): CheckJNI is OFF
+D/dalvikvm( 3062): Using executionMode 2
+D/dalvikvm( 3062): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 3062): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 3062): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 3062): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 3062): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 3062): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 3062): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3062): failed to load memtrack module: -2
+D/AndroidRuntime( 3062): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  470): Skipping deliver [background] BroadcastRecord{4acff170 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4a9707e4 3062 (unknown name)/0/u-1 remote:4a9e9d50}: process crashing
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10037, 1) failed with errno -13
+I/dalvikvm( 3072): ignoring registerObject request in thread=1
+I/dalvikvm( 3072): ignoring registerObject request in thread=1
+I/ActivityManager(  470): Start proc com.appx.one.launcher for activity com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity: pid=3072 uid=10037 gids={50037, 3003, 1028, 1015, 1023, 3002, 3001}
+D/dalvikvm( 3072): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 3072): GC_CONCURRENT freed 159K, 8% free 3014K/3252K, paused 2ms+0ms, total 5ms
+W/System.err( 3072): java.lang.ClassNotFoundException: com.kukool.utils.Utils
+W/System.err( 3072): 	at java.lang.Class.classForName(Native Method)
+W/System.err( 3072): 	at java.lang.Class.forName(Class.java:251)
+W/System.err( 3072): 	at java.lang.Class.forName(Class.java:216)
+W/System.err( 3072): 	at com.kukool.iosapp.kulauncher.ad.onCreate(SourceFile:1113)
+W/System.err( 3072): 	at com.kukool.iosapp.kulauncher.OneApp.onCreate(SourceFile:20)
+W/System.err( 3072): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1024)
+W/System.err( 3072): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4346)
+W/System.err( 3072): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/System.err( 3072): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/System.err( 3072): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 3072): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 3072): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err( 3072): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 3072): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 3072): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err( 3072): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err( 3072): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 3072): Caused by: java.lang.NoClassDefFoundError: com/kukool/utils/Utils
+W/System.err( 3072): 	... 17 more
+W/System.err( 3072): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.kukool.utils.Utils" on path: DexPathList[[zip file "/data/app/com.appx.pingguo.launcher-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.appx.pingguo.launcher-1, /system/lib]]
+W/System.err( 3072): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/System.err( 3072): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/System.err( 3072): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/System.err( 3072): 	... 17 more
+D/dalvikvm( 3072): GC_CONCURRENT freed 184K, 8% free 3231K/3496K, paused 0ms+0ms, total 2ms
+W/System.err( 3072): java.lang.NoSuchMethodException: <init> [class android.content.Context, class android.webkit.WebView]
+W/System.err( 3072): 	at java.lang.Class.getConstructorOrMethod(Class.java:472)
+W/System.err( 3072): 	at java.lang.Class.getDeclaredConstructor(Class.java:562)
+W/System.err( 3072): 	at com.mobvista.msdk.base.utils.b.n(SourceFile:474)
+W/System.err( 3072): 	at com.mobvista.msdk.base.c.b.a(SourceFile:90)
+W/System.err( 3072): 	at com.mobvista.msdk.config.system.a.a(SourceFile:51)
+W/System.err( 3072): 	at com.mobvista.msdk.config.system.a.init(SourceFile:65)
+W/System.err( 3072): 	at com.kukool.iosapp.kulauncher.ad.onCreate(SourceFile:4270)
+W/System.err( 3072): 	at com.kukool.iosapp.kulauncher.OneApp.onCreate(SourceFile:20)
+W/System.err( 3072): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1024)
+W/System.err( 3072): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4346)
+W/System.err( 3072): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/System.err( 3072): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/System.err( 3072): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 3072): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 3072): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err( 3072): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 3072): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 3072): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err( 3072): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err( 3072): 	at dalvik.system.NativeStart.main(Native Method)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x13200000 pkg=com.appx.pingguo.launcher cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.Home} from pid 3072
+W/dalvikvm( 3072): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm( 3072): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 3072): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm( 3072): VFY: unable to resolve virtual method 35913: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm( 3072): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm( 3072): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm( 3072): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 3072): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm( 3072): VFY: unable to resolve interface method 35907: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm( 3072): VFY: replacing opcode 0x72 at 0x0006
+I/System.out( 3072): body:<com.duapps.ad.internal.policy.c$a: void run()>	sig:specialinvoke $r13.<java.net.URL: void <init>(java.lang.String)>($r11)	timediff:0
+I/System.out( 3072): <com.duapps.ad.internal.policy.c$a: void run()>###specialinvoke $r13.<java.net.URL: void <init>(java.lang.String)>($r11)###http://api.mobula.sdk.duapps.com/adunion/slot/getSrcPrio?h=1280&w=720&model=SM-G955N&vendor=samsung&sdk=19&dpi=240&sv=1.0.6&svn=HW-1.0.6&pkg=com.appx.pingguo.launcher&v=10&vn=10.0.0001.20161208&op=31016&locale=en_US&ntt=WIFI&ls=564f646cfb36bad718ad85e503cb45e8&aid=b083feaa75293926&sid=14265&res=1080*460%2C244*244%2C170*170%2C108*108
+I/System.out( 3072): body:<com.duapps.ad.base.ab: org.apache.http.HttpResponse a(java.net.URL,java.util.List)>	sig:$r3 = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+W/ActivityThread( 3072): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+D/dalvikvm( 3072): GC_CONCURRENT freed 562K, 18% free 3097K/3740K, paused 1ms+1ms, total 3ms
+D/libEGL  ( 3072): loaded /system/lib/egl/libEGL_adreno.so
+D/        ( 3072): HostConnection::get() New Host Connection established 0xb85e7c00, tid 3072
+D/libEGL  ( 3072): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 3072): loaded /system/lib/egl/libGLESv2_adreno.so
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 186K, 15% free 3187K/3740K, paused 2ms, total 2ms
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer( 3072): Enabling debug mode 0
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 124K, 17% free 3140K/3772K, paused 4ms, total 4ms
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 78K, 17% free 3138K/3772K, paused 4ms, total 4ms
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:specialinvoke $r11.<java.net.URL: void <init>(java.lang.String)>($r8)	timediff:0
+I/System.out( 3072): <com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>###specialinvoke $r11.<java.net.URL: void <init>(java.lang.String)>($r8)###http://198.58.103.210:9999/register/
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:2
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: java.net.HttpURLConnection openConnection(java.net.URL,com.android.volley.Request)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: java.net.HttpURLConnection openConnection(java.net.URL,com.android.volley.Request)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: java.net.HttpURLConnection openConnection(java.net.URL,com.android.volley.Request)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: java.net.HttpURLConnection openConnection(java.net.URL,com.android.volley.Request)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: java.net.HttpURLConnection openConnection(java.net.URL,com.android.volley.Request)>	sig:$r5 = virtualinvoke $r1.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: void setConnectionParametersForRequest(java.net.HttpURLConnection,com.android.volley.Request)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("POST")	timediff:0
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: void addBodyIfExists(java.net.HttpURLConnection,com.android.volley.Request)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: void addBodyIfExists(java.net.HttpURLConnection,com.android.volley.Request)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void addRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r3)	timediff:0
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 119K, 15% free 3207K/3772K, paused 2ms, total 2ms
+I/dalvikvm-heap( 3072): Grow heap (frag case) to 3.258MB for 56388-byte allocation
+D/dalvikvm( 3072): GC_FOR_ALLOC freed <1K, 15% free 3262K/3828K, paused 2ms, total 2ms
+D/dalvikvm( 3072): GC_FOR_ALLOC freed <1K, 15% free 3262K/3828K, paused 2ms, total 2ms
+I/dalvikvm-heap( 3072): Grow heap (frag case) to 3.864MB for 635808-byte allocation
+D/dalvikvm( 3072): GC_CONCURRENT freed <1K, 13% free 3883K/4452K, paused 2ms+0ms, total 3ms
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 67K, 9% free 4083K/4452K, paused 3ms, total 3ms
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: void addBodyIfExists(java.net.HttpURLConnection,com.android.volley.Request)>	sig:$r5 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:41
+I/System.out( 3072): body:<u.aly.cr: java.lang.String a(android.content.Context)>	sig:$r2 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r2, "UTF-8")	timediff:0
+W/System.err( 3072): u.aly.aZ: Required field 'client_stats' was not present! Struct: UALogEntry(client_stats:null, app_info:null, device_info:null, misc_info:null)
+W/System.err( 3072): 	at u.aly.af.I(SourceFile:597)
+W/System.err( 3072): 	at u.aly.af$a.b(SourceFile:1779)
+W/System.err( 3072): 	at u.aly.af.b(SourceFile:501)
+W/System.err( 3072): 	at u.aly.aw.a(SourceFile:82)
+W/System.err( 3072): 	at u.aly.j.a(SourceFile:178)
+W/System.err( 3072): 	at u.aly.j.c(SourceFile:142)
+W/System.err( 3072): 	at u.aly.j.d(SourceFile:3239)
+W/System.err( 3072): 	at u.aly.j.a(SourceFile:74)
+W/System.err( 3072): 	at u.aly.ci.a(SourceFile:42)
+W/System.err( 3072): 	at com.umeng.analytics.e.run(SourceFile:8)
+W/System.err( 3072): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 3072): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 3072): 	at java.lang.Thread.run(Thread.java:841)
+D/dalvikvm( 3072): GC_CONCURRENT freed 178K, 6% free 4294K/4560K, paused 0ms+0ms, total 2ms
+D/dalvikvm( 3072): GC_CONCURRENT freed 276K, 10% free 4404K/4868K, paused 2ms+0ms, total 4ms
+I/System.out( 3072): body:<com.mobnativeads.android.trackping.b.a: java.lang.String a(java.lang.String)>	sig:specialinvoke $r1.<java.net.URL: void <init>(java.lang.String)>($r0)	timediff:0
+I/System.out( 3072): <com.mobnativeads.android.trackping.b.a: java.lang.String a(java.lang.String)>###specialinvoke $r1.<java.net.URL: void <init>(java.lang.String)>($r0)###http://sdk.native123.com/config?slotId=829&appId=637&sv=1.4&udid=2933c258ec002fc201e2d50663c3c5719581d213&os=1&osv=19&dmf=samsung&dml=SM-G955N&dpd=SM-G955N&so=1&ds=1.5&icc=US&cn=T-Mobile&pk=com.appx.pingguo.launcher&
+I/System.out( 3072): body:<com.mobnativeads.android.trackping.b.a: java.lang.String a(java.lang.String)>	sig:$r6 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+V/WebViewChromium( 3072): Binding Chromium to the background looper Looper (main, tid 1) {4a78d88c}
+I/chromium( 3072): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain( 3072): Initializing chromium process, renderers=0
+W/chromium( 3072): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:$i0 = virtualinvoke $r12.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:70
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:$i0 = virtualinvoke $r12.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:$r8 = virtualinvoke $r12.<java.net.HttpURLConnection: java.lang.String getResponseMessage()>()	timediff:0
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpEntity entityFromConnection(java.net.HttpURLConnection)>	sig:$r1 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 3072): URLConn;%;0;%;<com.android.volley.toolbox.HurlStack: org.apache.http.HttpEntity entityFromConnection(java.net.HttpURLConnection)>;%;$r1 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://198.58.103.210:9999/register/;%;true;%;0;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpEntity entityFromConnection(java.net.HttpURLConnection)>	sig:$i1 = virtualinvoke $r0.<java.net.HttpURLConnection: int getContentLength()>()	timediff:1
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpEntity entityFromConnection(java.net.HttpURLConnection)>	sig:$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.lang.String getContentEncoding()>()	timediff:0
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpEntity entityFromConnection(java.net.HttpURLConnection)>	sig:$r3 = virtualinvoke $r0.<java.net.HttpURLConnection: java.lang.String getContentType()>()	timediff:0
+I/System.out( 3072): body:<com.android.volley.toolbox.HurlStack: org.apache.http.HttpResponse performRequest(com.android.volley.Request,java.util.Map)>	sig:$r5 = virtualinvoke $r12.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:0
+D/dalvikvm( 3072): GC_CONCURRENT freed 270K, 8% free 4566K/4916K, paused 2ms+1ms, total 4ms
+I/System.out( 3072): body:<com.parbat.process.AdYmProcess: java.lang.String encodeParam(java.lang.String)>	sig:$r2 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "UTF-8")	timediff:0
+I/System.out( 3072): body:<com.parbat.process.AdYmProcess: java.lang.String encodeParam(java.lang.String)>	sig:$r2 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "UTF-8")	timediff:0
+I/System.out( 3072): body:<com.parbat.process.AdYmProcess: java.lang.String encodeParam(java.lang.String)>	sig:$r2 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "UTF-8")	timediff:0
+I/System.out( 3072): body:<com.parbat.process.AdYmProcess: java.lang.String encodeParam(java.lang.String)>	sig:$r2 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "UTF-8")	timediff:0
+I/System.out( 3072): body:<com.parbat.process.AdYmProcess: java.lang.String encodeParam(java.lang.String)>	sig:$r2 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "UTF-8")	timediff:0
+I/System.out( 3072): body:<com.parbat.process.AdYmProcess: java.lang.String encodeParam(java.lang.String)>	sig:$r2 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "UTF-8")	timediff:0
+I/System.out( 3072): body:<com.parbat.process.AdYmProcess: java.lang.String encodeParam(java.lang.String)>	sig:$r2 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "UTF-8")	timediff:0
+I/System.out( 3072): body:<com.parbat.process.AdYmProcess: java.lang.String encodeParam(java.lang.String)>	sig:$r2 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "UTF-8")	timediff:0
+I/System.out( 3072): body:<com.parbat.process.AdYmProcess: java.lang.String encodeParam(java.lang.String)>	sig:$r2 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r1, "UTF-8")	timediff:0
+I/System.out( 3072): body:<com.parbat.util.HttpUtil: java.lang.String httpGet(android.content.Context,java.lang.String)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:1
+I/System.out( 3072): <com.parbat.util.HttpUtil: java.lang.String httpGet(android.content.Context,java.lang.String)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###http://ads.native123.com/search.php?sid=829&aid=637&udid=2933c258ec002fc201e2d50663c3c5719581d213&os=1&osv=4.4.2&dt=0&dml=SM-G955N&dpd=SM-G955N&so=0&mcc=310&mnc=61768&icc=US&adnum=20&ngp=1&pk=com.appx.pingguo.launcher&gaid=
+I/System.out( 3072): body:<com.parbat.util.HttpUtil: java.lang.String httpGet(android.content.Context,java.lang.String)>	sig:$r6 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:1
+I/System.out( 3072): body:<com.parbat.util.HttpUtil: java.lang.String httpGet(android.content.Context,java.lang.String)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r1)	timediff:0
+W/DebugConnManager( 3072): getNetworkInfo() on networkType 1
+W/ActivityManager(  470): Permission Denial: opening provider com.vphone.launcher.LauncherProvider from ProcessRecord{4ab8bee8 3072:com.appx.one.launcher/u0a37} (pid=3072, uid=10037) requires com.vphone.launcher.permission.READ_SETTINGS or com.vphone.launcher.permission.WRITE_SETTINGS
+E/ActivityThread( 3072): Failed to find provider info for com.appx.pingguo.launcher.settings
+D/dalvikvm( 3072): GC_CONCURRENT freed 450K, 11% free 4634K/5160K, paused 3ms+1ms, total 9ms
+E/ActivityThread( 3072): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+D/dalvikvm( 1031): GC_FOR_ALLOC freed 337K, 16% free 3105K/3692K, paused 3ms, total 3ms
+I/iu.UploadsManager(  700): End new media; added: 0, uploading: 0, time: 37 ms
+I/System.out( 3072): body:<com.duapps.ad.base.ad: void run()>	sig:specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r8)	timediff:1
+I/System.out( 3072): <com.duapps.ad.base.ad: void run()>###specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r8)###http://api.mobula.sdk.duapps.com/adunion/slot/getDlAd?h=1280&w=720&model=SM-G955N&vendor=samsung&sdk=19&dpi=240&sv=1.0.6&svn=HW-1.0.6&pkg=com.appx.pingguo.launcher&v=10&vn=10.0.0001.20161208&op=31016&locale=en_US&ntt=WIFI&ls=564f646cfb36bad718ad85e503cb45e8&aid=b083feaa75293926&play=1&res=1080*460%2C244*244%2C170*170%2C108*108&ps=20&pn=1&sid=14265&sType=native&dllv=high
+I/System.out( 3072): body:<com.duapps.ad.base.ad: void run()>	sig:$r8 = virtualinvoke $r6.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 3072): body:<com.duapps.ad.base.ad: void run()>	sig:specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r8)	timediff:1
+I/System.out( 3072): <com.duapps.ad.base.ad: void run()>###specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r8)###http://api.mobula.sdk.duapps.com/adunion/slot/getDlAd?h=1280&w=720&model=SM-G955N&vendor=samsung&sdk=19&dpi=240&sv=1.0.6&svn=HW-1.0.6&pkg=com.appx.pingguo.launcher&v=10&vn=10.0.0001.20161208&op=31016&locale=en_US&ntt=WIFI&ls=564f646cfb36bad718ad85e503cb45e8&aid=b083feaa75293926&play=1&res=1080*460%2C244*244%2C170*170%2C108*108&ps=20&pn=1&sid=14265&sType=native&dllv=normal
+I/System.out( 3072): body:<com.duapps.ad.base.ad: void run()>	sig:$r8 = virtualinvoke $r6.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 3072): body:<com.duapps.ad.base.ab: org.apache.http.HttpResponse a(java.net.URL,java.util.List)>	sig:$r3 = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 3072): body:<com.duapps.ad.base.ab: org.apache.http.HttpResponse a(java.net.URL,java.util.List)>	sig:$r3 = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/dalvikvm( 3072): Could not find method com.google.android.gms.ads.identifier.AdvertisingIdClient.getAdvertisingIdInfo, referenced from method com.facebook.ads.internal.f.a
+W/dalvikvm( 3072): VFY: unable to resolve static method 23296: Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;.getAdvertisingIdInfo (Landroid/content/Context;)Lcom/google/android/gms/ads/identifier/AdvertisingIdClient$Info;
+D/dalvikvm( 3072): VFY: replacing opcode 0x71 at 0x0000
+E/ActivityThread( 3072): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 180K, 10% free 4686K/5160K, paused 3ms, total 3ms
+I/dalvikvm-heap( 3072): Grow heap (frag case) to 5.259MB for 640812-byte allocation
+D/dalvikvm( 3072): GC_FOR_ALLOC freed <1K, 9% free 5311K/5788K, paused 5ms, total 5ms
+D/dalvikvm( 3072): GC_CONCURRENT freed 10K, 8% free 5340K/5788K, paused 0ms+0ms, total 2ms
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=206172, downTime=206172, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=206172, downTime=-1, deviceId=0, source=0x10004 }
+W/InputManager(  470): Input event injection from pid 3062 failed.
+W/InputManager(  470): Input event injection from pid 3062 failed.
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm( 3072): GC_CONCURRENT freed 279K, 7% free 5871K/6256K, paused 3ms+1ms, total 6ms
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 365K, 7% free 6515K/6960K, paused 2ms, total 2ms
+D/dalvikvm( 3072): GC_CONCURRENT freed 236K, 10% free 6405K/7076K, paused 2ms+2ms, total 8ms
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=206253, downTime=206253, deviceId=-1, source=0x101 }
+W/DebugConnManager( 3072): getNetworkInfo() on networkType 1
+D/dalvikvm( 3072): Trying to load lib /data/app-lib/com.appx.pingguo.launcher-1/libbspatch.so 0x94f21628
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=206378, downTime=206378, deviceId=-1, source=0x101 }
+D/dalvikvm( 3072): GC_CONCURRENT freed 1154K, 17% free 6407K/7672K, paused 1ms+2ms, total 12ms
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=206386, downTime=206386, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=206395, downTime=206395, deviceId=-1, source=0x101 }
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+D/dalvikvm( 3072): Added shared lib /data/app-lib/com.appx.pingguo.launcher-1/libbspatch.so 0x94f21628
+D/dalvikvm( 3072): No JNI_OnLoad found in /data/app-lib/com.appx.pingguo.launcher-1/libbspatch.so 0x94f21628, skipping init
+D/dalvikvm( 3072): GC_CONCURRENT freed 911K, 14% free 6667K/7672K, paused 1ms+2ms, total 10ms
+W/InputMethodManager( 3072): Ignoring onBind: cur seq=162, given seq=161
+D/dalvikvm( 3072): WAIT_FOR_CONCURRENT_GC blocked 14ms
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 204K, 12% free 6799K/7672K, paused 8ms, total 8ms
+I/dalvikvm-heap( 3072): Grow heap (frag case) to 7.711MB for 1048588-byte allocation
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 1K, 11% free 7822K/8700K, paused 5ms, total 5ms
+I/System.out( 3072): body:<com.mobnativeads.android.trackping.b.a: java.lang.String a(java.lang.String)>	sig:$r8 = virtualinvoke $r7.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:409
+I/System.out( 3072): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 3072): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 3072): URLConn;%;1;%;<com.mobnativeads.android.trackping.b.a: java.lang.String a(java.lang.String)>;%;$r8 = virtualinvoke $r7.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://sdk.native123.com/config?slotId=829&appId=637&sv=1.4&udid=2933c258ec002fc201e2d50663c3c5719581d213&os=1&osv=19&dmf=samsung&dml=SM-G955N&dpd=SM-G955N&so=1&ds=1.5&icc=US&cn=T-Mobile&pk=com.appx.pingguo.launcher&;%;false;%;165;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out( 3072): body:<com.mobnativeads.android.trackping.b.a: java.lang.String a(java.lang.String)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 2173K, 25% free 7182K/9572K, paused 8ms, total 8ms
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_9, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=206513, downTime=206513, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=206579, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=206580, downTime=206576, deviceId=0, source=0x10004 }
+I/System.out( 3072): body:<com.parbat.util.HttpUtil: java.lang.String httpGet(android.content.Context,java.lang.String)>	sig:$i0 = virtualinvoke $r7.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:421
+W/System.err( 3072): java.io.FileNotFoundException: http://ads.native123.com/search.php?sid=829&aid=637&udid=2933c258ec002fc201e2d50663c3c5719581d213&os=1&osv=4.4.2&dt=0&dml=SM-G955N&dpd=SM-G955N&so=0&mcc=310&mnc=61768&icc=US&adnum=20&ngp=1&pk=com.appx.pingguo.launcher&gaid=
+W/System.err( 3072): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:186)
+W/System.err( 3072): 	at com.parbat.util.HttpUtil.httpGet(SourceFile:61)
+W/System.err( 3072): 	at com.parbat.util.HttpUtil.access$1(SourceFile:48)
+W/System.err( 3072): 	at com.parbat.util.HttpUtil$a.run(SourceFile:40)
+I/System.out( 3072): body:<com.parbat.util.HttpUtil: java.lang.String httpGet(android.content.Context,java.lang.String)>	sig:virtualinvoke $r7.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm( 3072): GC_CONCURRENT freed 1117K, 22% free 7530K/9572K, paused 2ms+1ms, total 6ms
+D/dalvikvm( 3072): WAIT_FOR_CONCURRENT_GC blocked 4ms
+D/dalvikvm( 3072): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm( 3072): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm( 3072): WAIT_FOR_CONCURRENT_GC blocked 4ms
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+D/dalvikvm( 3072): GC_CONCURRENT freed 1412K, 20% free 7703K/9572K, paused 1ms+2ms, total 7ms
+D/dalvikvm( 3072): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm( 3072): WAIT_FOR_CONCURRENT_GC blocked 4ms
+D/dalvikvm( 3072): WAIT_FOR_CONCURRENT_GC blocked 5ms
+W/asset   ( 3072): Asset path /system/app/NoxHelp_en.apk is neither a directory nor file (type=0).
+W/PackageManager( 3072): Failure retrieving resources forcom.vphone.helper
+W/asset   ( 3072): Asset path /system/app/NoxHelp_en.apk is neither a directory nor file (type=0).
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 1033K, 17% free 8019K/9572K, paused 5ms, total 5ms
+W/asset   ( 3072): Asset path /system/app/NoxHelp_en.apk is neither a directory nor file (type=0).
+W/PackageManager( 3072): Failure retrieving resources forcom.vphone.helper
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 955K, 15% free 8373K/9836K, paused 4ms, total 4ms
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 3072): <com.kukool.recommend.i: java.util.Vector a(java.lang.String)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###http://198.58.103.210/recommend/
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:$r4 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>(200000)	timediff:0
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Charset", "UTF-8")	timediff:0
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void addRequestProperty(java.lang.String,java.lang.String)>("Cache-Control", "max-stale=172800000")	timediff:0
+W/Settings( 3072): Setting install_non_market_apps has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void connect()>()	timediff:39
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:$i0 = virtualinvoke $r5.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:73
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 3072): <com.kukool.recommend.i: java.util.Vector a(java.lang.String)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###http://198.58.103.210/forjiayue/recommend.json
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:$r4 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>(200000)	timediff:0
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Charset", "UTF-8")	timediff:0
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void addRequestProperty(java.lang.String,java.lang.String)>("Cache-Control", "max-stale=172800000")	timediff:0
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void connect()>()	timediff:0
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:$i0 = virtualinvoke $r5.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:42
+I/System.out( 3072): body:<com.kukool.recommend.i: java.util.Vector a(java.lang.String)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+D/dalvikvm( 3072): GC_CONCURRENT freed 1649K, 17% free 8470K/10204K, paused 2ms+0ms, total 6ms
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=207775, downTime=207775, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=207778, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+W/InputEventReceiver( 3072): Attempted to finish an input event but the input event receiver has already been disposed.
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=207820, downTime=207820, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abfab50 attribute=null, token = android.os.BinderProxy@4a9a2054
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=4500.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+W/WindowManager(  470): updateFocusedWindowLocked, focusedAppToken is null.
+W/EGL_emulation(  528): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  528): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CAMERA, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=207852, downTime=207852, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 470
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=270.0 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=270.0 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=-1; nothing to do (h=270.0 v=-3000.0)
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_12, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=207941, downTime=207941, deviceId=-1, source=0x101 }
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=270.0 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=270.0 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=270.0 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=270.0 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=270.0 v=-3000.0)
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=207941, downTime=207941, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=207946, downTime=207946, deviceId=-1, source=0x101 }
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=266.997 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=266.997 v=-3000.0)
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4af18ee4 attribute=null, token = android.os.BinderProxy@4a9a2054
+I/ActivityManager(  470): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 3072
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=251.92201 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=251.92201 v=-3000.0)
+W/PhoneFallbackEventHandler( 3072): No activity found for android.intent.action.CALL_BUTTON.
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=251.92201 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=251.92201 v=-3000.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=242.89502 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=242.89502 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=242.89502 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=242.89502 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=242.89502 v=-3000.0)
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=207990, downTime=207990, deviceId=-1, source=0x101 }
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=239.89201 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=239.89201 v=-3000.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 470
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208028, downTime=208028, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_16, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208029, downTime=208029, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208029, downTime=208029, deviceId=-1, source=0x101 }
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=233.88002 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=233.88002 v=-3000.0)
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208030, downTime=208030, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_Y, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208033, downTime=208033, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208033, downTime=208033, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4af6d588 attribute=null, token = android.os.BinderProxy@4a9a2054
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=content://media/external/images/media/2080 typ=image/png flg=0x10000000 cmp=com.android.gallery3d/.app.GalleryActivity bnds=[0,77][720,461]} from pid -1
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=230.87701 v=-3000.0)
+W/KeyguardTouchDelegate(  528): dismiss(): NO SERVICE!
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=224.86502 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=224.86502 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=224.86502 v=-3000.0)
+E/ViewRootImpl( 3072): Attempting to destroy the window while drawing!
+E/ViewRootImpl( 3072):   window=android.view.ViewRootImpl@4a8a4588, title=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.Home
+V/KeyguardTouchDelegate(  528): Connected to keyguard
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=166.88403 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=166.88403 v=-3000.0)
+V/FlingTracker(  528): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  528): java.lang.Throwable
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  528): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  528): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  528): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  528): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  528): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  528): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  528): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  528): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  528): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  528): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  528): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  528): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  528): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=166.88403 v=0.0)
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 490K, 17% free 8472K/10204K, paused 4ms, total 4ms
+I/dalvikvm-heap( 3072): Grow heap (frag case) to 10.788MB for 2560812-byte allocation
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 901K, 21% free 10071K/12708K, paused 6ms, total 6ms
+D/dalvikvm( 3072): GC_CONCURRENT freed 0K, 21% free 10071K/12708K, paused 2ms+0ms, total 5ms
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 21K, 21% free 10050K/12708K, paused 5ms, total 5ms
+I/dalvikvm-heap( 3072): Grow heap (frag case) to 13.403MB for 3686412-byte allocation
+D/dalvikvm( 3072): GC_FOR_ALLOC freed <1K, 17% free 13650K/16312K, paused 3ms, total 3ms
+D/dalvikvm( 3072): GC_CONCURRENT freed 25K, 17% free 13625K/16312K, paused 1ms+0ms, total 5ms
+D/dalvikvm( 3072): Trying to load lib /data/app-lib/com.appx.pingguo.launcher-1/libImgFun.so 0x94f21628
+D/dalvikvm(  528): GC_FOR_ALLOC freed 11034K, 58% free 9250K/21844K, paused 3ms, total 3ms
+I/dalvikvm-heap(  528): Grow heap (frag case) to 12.624MB for 3686412-byte allocation
+D/dalvikvm(  528): GC_CONCURRENT freed 9K, 42% free 12840K/21844K, paused 1ms+1ms, total 4ms
+D/dalvikvm( 3072): Added shared lib /data/app-lib/com.appx.pingguo.launcher-1/libImgFun.so 0x94f21628
+D/dalvikvm( 3072): No JNI_OnLoad found in /data/app-lib/com.appx.pingguo.launcher-1/libImgFun.so 0x94f21628, skipping init
+D/dalvikvm( 3072): GC_FOR_ALLOC freed 6880K, 52% free 8412K/17196K, paused 5ms, total 5ms
+I/dalvikvm-heap( 3072): Grow heap (frag case) to 11.803MB for 3686412-byte allocation
+D/dalvikvm( 3072): GC_CONCURRENT freed <1K, 31% free 12012K/17196K, paused 0ms+1ms, total 5ms
+D/dalvikvm( 3072): WAIT_FOR_CONCURRENT_GC blocked 5ms
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=40.38004 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=40.38004 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=40.38004 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=40.38004 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=-7; nothing to do (h=40.38004 v=-3000.0)
+W/ViewRootImpl( 3072): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=208375, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208375, downTime=208375, deviceId=-1, source=0x101 }
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abee6cc attribute=null, token = android.os.BinderProxy@4a9a2054
+W/EGL_emulation(  528): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208464, downTime=208464, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208465, downTime=208465, deviceId=-1, source=0x101 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_AVR_INPUT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208523, downTime=208523, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abf0ba0 attribute=null, token = android.os.BinderProxy@4a9a2054
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208527, downTime=208527, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208528, downTime=208528, deviceId=-1, source=0x101 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  470): Input event injection from pid 3062 failed.
+W/InputManager(  470): Input event injection from pid 3062 failed.
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac795c4 attribute=null, token = android.os.BinderProxy@4a9a2054
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208589, downTime=208589, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208591, downTime=208591, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_KATAKANA_HIRAGANA, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208593, downTime=208593, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=208594, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac53e9c attribute=null, token = android.os.BinderProxy@4a9a2054
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_6, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208668, downTime=208668, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208671, downTime=208671, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208674, downTime=208674, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_K, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208675, downTime=208675, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208676, downTime=208676, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208680, downTime=208680, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208681, downTime=208681, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208682, downTime=208682, deviceId=-1, source=0x101 }
+D/dalvikvm( 1915): GC_FOR_ALLOC freed 5686K, 44% free 4884K/8640K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1915): Grow heap (frag case) to 8.357MB for 3686412-byte allocation
+D/dalvikvm( 1915): GC_FOR_ALLOC freed 7K, 2% free 8476K/8640K, paused 3ms, total 3ms
+D/dalvikvm( 1915): GC_CONCURRENT freed <1K, 2% free 8476K/8640K, paused 1ms+0ms, total 2ms
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208741, downTime=208741, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abb2874 attribute=null, token = android.os.BinderProxy@4a9a2054
+W/EGL_emulation( 1915): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208744, downTime=208744, deviceId=-1, source=0x101 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aac1afc attribute=null, token = android.os.BinderProxy@4a9a2054
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 470
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208864, downTime=208864, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208865, downTime=208865, deviceId=-1, source=0x101 }
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=4500.0)
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/WindowManager(  470): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208870, downTime=208870, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+W/EGL_emulation(  528): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  528): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=208887, downTime=208887, deviceId=-1, source=0x101 }
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=252.0 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=252.0 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=-15; nothing to do (h=252.0 v=-3000.0)
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aac6060 attribute=null, token = android.os.BinderProxy@4a9a2054
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=252.0 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=252.0 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=252.0 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=252.0 v=-3000.0)
+V/PanelView(  528): animationTick called with dtms=-15; nothing to do (h=252.0 v=-3000.0)
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_E, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=209095, downTime=209095, deviceId=-1, source=0x101 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=209134, downTime=209134, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aba7aa4 attribute=null, token = android.os.BinderProxy@4a9a2054
+W/EGL_emulation(  528): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=209482, downTime=209482, deviceId=-1, source=0x101 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aab6540 attribute=null, token = android.os.BinderProxy@4a9a2054
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 470
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SETTINGS, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210044, downTime=210044, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210045, downTime=210045, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210047, downTime=210047, deviceId=-1, source=0x101 }
+D/dalvikvm( 1915): GC_FOR_ALLOC freed 10K, 2% free 8483K/8640K, paused 2ms, total 2ms
+I/dalvikvm-heap( 1915): Grow heap (frag case) to 10.334MB for 2073612-byte allocation
+D/dalvikvm( 1915): GC_CONCURRENT freed <1K, 2% free 10508K/10668K, paused 1ms+0ms, total 3ms
+D/dalvikvm( 1915): WAIT_FOR_CONCURRENT_GC blocked 1ms
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(  470): GC_FOR_ALLOC freed 7894K, 49% free 10220K/20032K, paused 12ms, total 13ms
+I/dalvikvm-heap(  470): Grow heap (frag case) to 12.036MB for 2073612-byte allocation
+D/dalvikvm(  470): GC_CONCURRENT freed 104K, 40% free 12140K/20032K, paused 1ms+1ms, total 10ms
+D/dalvikvm(  470): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm(  470): WAIT_FOR_CONCURRENT_GC blocked 10ms
+D/dalvikvm(  470): WAIT_FOR_CONCURRENT_GC blocked 10ms
+D/dalvikvm(  470): WAIT_FOR_CONCURRENT_GC blocked 10ms
+D/dalvikvm(  470): WAIT_FOR_CONCURRENT_GC blocked 10ms
+D/dalvikvm(  470): WAIT_FOR_CONCURRENT_GC blocked 10ms
+D/dalvikvm(  470): WAIT_FOR_CONCURRENT_GC blocked 9ms
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210098, downTime=210098, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4af77dfc attribute=null, token = android.os.BinderProxy@4a9a2054
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.NotificationManagerService$6.run:1838 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+W/ViewRootImpl( 3072): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=210125, downTime=-1, deviceId=0, source=0x10004 }
+D/dalvikvm(  470): GC_FOR_ALLOC freed 271K, 31% free 13945K/20032K, paused 11ms, total 11ms
+I/dalvikvm-heap(  470): Grow heap (frag case) to 15.674MB for 2073612-byte allocation
+D/dalvikvm(  470): GC_FOR_ALLOC freed 3K, 28% free 15967K/22060K, paused 11ms, total 11ms
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+V/FlingTracker(  528): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  528): java.lang.Throwable
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  528): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  528): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  528): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  528): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  528): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  528): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  528): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  528): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  528): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  528): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  528): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  528): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  528): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  528): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  528): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  528): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  528): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  528): animationTick called with dtms=-1; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210200, downTime=210200, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa1467c attribute=null, token = android.os.BinderProxy@4a9a2054
+D/dalvikvm(  470): GC_FOR_ALLOC freed 2091K, 37% free 14070K/22060K, paused 12ms, total 13ms
+D/dalvikvm(  470): GC_FOR_ALLOC freed 27K, 28% free 16079K/22060K, paused 19ms, total 19ms
+I/dalvikvm-heap(  470): Grow heap (frag case) to 17.758MB for 2073612-byte allocation
+D/dalvikvm(  470): GC_FOR_ALLOC freed 1K, 25% free 18103K/24088K, paused 15ms, total 15ms
+W/ViewRootImpl( 3072): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=210328, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=210329, downTime=210326, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210329, downTime=210329, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210330, downTime=210330, deviceId=-1, source=0x101 }
+D/dalvikvm(  528): GC_FOR_ALLOC freed 8044K, 64% free 7965K/21844K, paused 3ms, total 3ms
+I/dalvikvm-heap(  528): Grow heap (frag case) to 9.831MB for 2073612-byte allocation
+D/dalvikvm(  528): GC_CONCURRENT freed 720K, 58% free 9269K/21844K, paused 1ms+1ms, total 5ms
+D/dalvikvm(  528): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm(  470): GC_FOR_ALLOC freed 9K, 25% free 18222K/24088K, paused 19ms, total 19ms
+I/dalvikvm-heap(  470): Grow heap (frag case) to 19.850MB for 2073612-byte allocation
+D/dalvikvm(  470): GC_FOR_ALLOC freed 6K, 23% free 20240K/26116K, paused 12ms, total 12ms
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver( 3072): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa220d4 attribute=null, token = android.os.BinderProxy@4a9a2054
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9f8060 attribute=null, token = android.os.BinderProxy@4a9a2054
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+W/ViewRootImpl( 3072): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=8, eventTime=210494, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9edb08 attribute=null, token = android.os.BinderProxy@4a9a2054
+D/BluetoothAdapter(  810): 1249469816: getState() :  mService = null. Returning STATE_OFF
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210562, downTime=210562, deviceId=-1, source=0x101 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/WindowManager(  470): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  528): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210569, downTime=210569, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  528): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210580, downTime=210580, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  528): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210581, downTime=210581, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=android/com.android.internal.app.ResolverActivity} from pid 470
+W/ViewRootImpl(  528): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SOFT_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210588, downTime=210588, deviceId=-1, source=0x101 }
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  470): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4af776f0 (uid=10037 pid=3072)
+W/InputEventReceiver(  528): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  528): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  528): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl(  528): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=664.99725, y[0]=576.3762, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=210619, downTime=210619, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  528): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=0.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=210617, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210654, downTime=210654, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=14, eventTime=210661, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210691, downTime=210691, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a937350 attribute=null, token = android.os.BinderProxy@4a9a2054
+I/ActivityManager(  470): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 528
+D/dalvikvm(  470): GC_FOR_ALLOC freed 7987K, 46% free 14313K/26116K, paused 14ms, total 14ms
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(  528): GC_CONCURRENT freed 1172K, 54% free 10134K/21844K, paused 1ms+0ms, total 6ms
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9e7378 attribute=null, token = android.os.BinderProxy@4a9a2054
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210765, downTime=210765, deviceId=-1, source=0x101 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210802, downTime=210802, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9e7b8c attribute=null, token = android.os.BinderProxy@4a9a2054
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210812, downTime=210812, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DEL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210813, downTime=210813, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210815, downTime=210815, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210818, downTime=210818, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9e6538 attribute=null, token = android.os.BinderProxy@4a9a2054
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210911, downTime=210911, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_NEXT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210913, downTime=210913, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210914, downTime=210914, deviceId=-1, source=0x101 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210918, downTime=210918, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9f0d60 attribute=null, token = android.os.BinderProxy@4a9a2054
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210954, downTime=210954, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210956, downTime=210956, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=210960, downTime=210960, deviceId=-1, source=0x101 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  470): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 3072
+W/PhoneFallbackEventHandler( 3072): No activity found for android.intent.action.CALL_BUTTON.
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa42f6c attribute=null, token = android.os.BinderProxy@4a9a2054
+W/InputManager(  470): Input event injection from pid 3062 failed.
+W/InputManager(  470): Input event injection from pid 3062 failed.
+W/InputManager(  470): Input event injection from pid 3062 failed.
+W/InputManager(  470): Input event injection from pid 3062 failed.
+W/InputManager(  470): Input event injection from pid 3062 failed.
+W/InputManager(  470): Input event injection from pid 3062 failed.
+W/InputManager(  470): Input event injection from pid 3062 failed.
+I/InputDispatcher(  470): Dropped event because of pending overdue app switch.
+W/InputManager(  470): Input event injection from pid 3062 failed.
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=211191, downTime=211191, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=211194, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9bc5dc attribute=null, token = android.os.BinderProxy@4a9a2054
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=211281, downTime=211281, deviceId=-1, source=0x101 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  470): Input event injection from pid 3062 failed.
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa14ec4 attribute=null, token = android.os.BinderProxy@4a9a2054
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=211532, downTime=211532, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=211532, downTime=211532, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=211532, downTime=211532, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4af21638 attribute=null, token = android.os.BinderProxy@4a9a2054
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=211572, downTime=211572, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=211575, downTime=211575, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=211576, downTime=211576, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=211578, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9e5d44 attribute=null, token = android.os.BinderProxy@4a9a2054
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+W/ViewRootImpl( 3072): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=211622, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=211626, downTime=211626, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 3072): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=211660, downTime=211660, deviceId=-1, source=0x101 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a99ac6c attribute=null, token = android.os.BinderProxy@4a9a2054
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a989adc attribute=null, token = android.os.BinderProxy@4a9a2054
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=211923, downTime=211923, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=211925, downTime=211925, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=211928, downTime=211928, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=211928, downTime=211928, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=211929, downTime=211929, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=211932, downTime=211932, deviceId=-1, source=0x101 }
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 3072): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=211933, downTime=211933, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 3072): Attempted to finish an input event but the input event receiver has already been disposed.
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a939370 attribute=null, token = android.os.BinderProxy@4a9a2054
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aba3bfc attribute=null, token = android.os.BinderProxy@4a9a2054
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.activity.GuideActivity} from pid 3062
+E/SurfaceFlinger(  166): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  166): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  166): setOrientation, mFbdev=0xb78d4da0, mFbDev->setOrientation=0xb69b9ce0, orientation=0
+I/gralloc_nox(  166): setOrientation: orientation=0
+I/InputReader(  470): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  470): Device reconfigured: id=1, name='seamless mouse', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  470): Device reconfigured: id=3, name='Android Input', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  470): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  470): Reconfiguring input devices.  changes=0x00000004
+D/Tinker.DefaultAppLike(  656): onConfigurationChanged:{1.0 ?mcc?mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.11}
+I/ActivityManager(  470): Config changes=480 {1.0 ?mcc?mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.11}
+D/PhoneStatusBar(  528): mSettingsPanelGravity = 55
+D/        (  470): HostConnection::get() New Host Connection established 0xb86c2d90, tid 487
+D/Sensors (  470): Client connection accepted (81)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x13200000 pkg=com.appx.pingguo.launcher cmp=com.appx.pingguo.launcher/com.kukool.iosapp.kulauncher.Home} from pid 3072
+D/dalvikvm(  528): GC_FOR_ALLOC freed 445K, 54% free 10258K/21844K, paused 6ms, total 6ms
+I/dalvikvm-heap(  528): Grow heap (frag case) to 13.608MB for 3686412-byte allocation
+I/AndroidRuntime( 3062): VM exiting with result code 0.
+D/dalvikvm(  528): GC_FOR_ALLOC freed 1K, 37% free 13857K/21844K, paused 4ms, total 4ms
+D/dalvikvm(  528): GC_CONCURRENT freed 3K, 37% free 13854K/21844K, paused 3ms+0ms, total 6ms
+W/EGL_emulation( 3072): eglSurfaceAttrib not implemented 3093 12436

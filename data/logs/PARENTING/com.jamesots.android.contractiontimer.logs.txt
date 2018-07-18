@@ -1,0 +1,975 @@
+--------- beginning of /dev/log/main
+I/Icing   (  716): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+D/dalvikvm(  716): GC_CONCURRENT freed 2258K, 36% free 9490K/14612K, paused 2ms+1ms, total 12ms
+D/dalvikvm(  716): WAIT_FOR_CONCURRENT_GC blocked 4ms
+I/Icing   (  716): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/dalvikvm(  478): GC_EXPLICIT freed 433K, 46% free 16303K/30004K, paused 1ms+1ms, total 12ms
+I/WearableService(  628): Wearable Services stopping
+D/AndroidRuntime(16624): 
+D/AndroidRuntime(16624): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(16624): CheckJNI is OFF
+D/dalvikvm(16624): Using executionMode 2
+D/dalvikvm(16624): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(16624): Added shared lib libjavacore.so 0x0
+D/dalvikvm(16624): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(16624): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(16624): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+--------- beginning of /dev/log/system
+W/ContextImpl(  653): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+D/dalvikvm(16624): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(16624): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(16624): failed to load memtrack module: -2
+D/AndroidRuntime(16624): Calling main entry com.android.commands.monkey.Monkey
+W/BroadcastQueue(  478): Skipping deliver [background] BroadcastRecord{4af2c168 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4afa831c 16624 (unknown name)/0/u-1 remote:4a9916a0}: process crashing
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+D/yeshen  (  653): launcher onpause
+I/ActivityManager(  478): Start proc com.jamesots.android.contractiontimer for activity com.jamesots.android.contractiontimer/.ContractionTimer: pid=16634 uid=10052 gids={50052, 1028, 1015, 1023}
+D/dalvikvm(  167): GC_EXPLICIT freed 41K, 4% free 2788K/2892K, paused 0ms+2ms, total 5ms
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10052, 1) failed with errno -13
+D/yeshen  (  653): launcher onstop
+W/DebugConnManager(  653): getNetworkInfo() on networkType 1
+D/FirebaseApp(  653): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  653): onTrimMemory level:20
+D/dalvikvm(  167): GC_EXPLICIT freed <1K, 4% free 2788K/2892K, paused 3ms+0ms, total 5ms
+I/dalvikvm(16634): ignoring registerObject request in thread=1
+I/dalvikvm(16634): ignoring registerObject request in thread=1
+D/dalvikvm(  167): GC_EXPLICIT freed <1K, 4% free 2788K/2892K, paused 1ms+0ms, total 2ms
+W/Resources(16634): Converting to string: TypedValue{t=0x10/d=0x0 a=-1}
+D/dalvikvm(16634): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(16634): GC_FOR_ALLOC freed 158K, 7% free 3005K/3224K, paused 6ms, total 6ms
+I/dalvikvm-heap(16634): Grow heap (frag case) to 3.597MB for 635808-byte allocation
+W/DebugConnManager(  653): getNetworkInfo() on networkType 1
+W/ContextImpl(  653): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1020 android.content.ContextWrapper.startActivity:311 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.a:1507 com.vphone.launcher.utils.AppUtil.onQsbClicked:1486 
+W/ContextImpl(  653): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1032 android.app.ContextImpl.startActivity:1021 android.content.ContextWrapper.startActivity:311 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.a:1507 
+I/ActivityManager(  478): START u0 {flg=0x10000000 cmp=com.vphone.launcher/.game.SearchActivity} from pid 653
+D/dalvikvm(16634): GC_FOR_ALLOC freed <1K, 6% free 3626K/3848K, paused 3ms, total 3ms
+D/dalvikvm(16634): GC_CONCURRENT freed 4K, 6% free 3621K/3848K, paused 0ms+0ms, total 3ms
+D/Notifications(16634): Creating start intent with counter=1
+E/Timer   (16634): Could not restore times
+E/Timer   (16634): java.io.FileNotFoundException: /data/data/com.jamesots.android.contractiontimer/files/v2times: open failed: ENOENT (No such file or directory)
+E/Timer   (16634): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+E/Timer   (16634): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+E/Timer   (16634): 	at android.app.ContextImpl.openFileInput(ContextImpl.java:780)
+E/Timer   (16634): 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:179)
+E/Timer   (16634): 	at com.jamesots.android.contractiontimer.timer.Timer.restoreTimes(Timer.java:347)
+E/Timer   (16634): 	at com.jamesots.android.contractiontimer.ContractionTimer.onResume(ContractionTimer.java:234)
+E/Timer   (16634): 	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1209)
+E/Timer   (16634): 	at android.app.Activity.performResume(Activity.java:5310)
+E/Timer   (16634): 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2776)
+E/Timer   (16634): 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2815)
+E/Timer   (16634): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2248)
+E/Timer   (16634): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/Timer   (16634): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/Timer   (16634): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/Timer   (16634): 	at android.os.Looper.loop(Looper.java:136)
+E/Timer   (16634): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/Timer   (16634): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/Timer   (16634): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/Timer   (16634): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/Timer   (16634): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/Timer   (16634): 	at dalvik.system.NativeStart.main(Native Method)
+E/Timer   (16634): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+E/Timer   (16634): 	at libcore.io.Posix.open(Native Method)
+E/Timer   (16634): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+E/Timer   (16634): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+E/Timer   (16634): 	... 20 more
+D/ContractionTimer2(16634): Got intent
+D/libEGL  (16634): loaded /system/lib/egl/libEGL_adreno.so
+D/        (16634): HostConnection::get() New Host Connection established 0xb8afe5a0, tid 16634
+D/libEGL  (16634): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (16634): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(16634): Enabling debug mode 0
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1678324, downTime=1678324, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): Displayed com.jamesots.android.contractiontimer/.ContractionTimer: +283ms
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+D/dalvikvm(16634): GC_CONCURRENT freed 168K, 6% free 3854K/4076K, paused 1ms+0ms, total 15ms
+D/ContractionTimer2(16634): New intent
+D/ContractionTimer2(16634): Got intent
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1678613, downTime=1678613, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_4, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1678652, downTime=1678652, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1678652, downTime=1678652, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1678655, downTime=1678655, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1678699, downTime=1678699, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-564.76434, y[0]=632.5781, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=1678701, downTime=1678700, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-543.4121, y[0]=634.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1678701, downTime=1678700, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9af210 attribute=android.view.inputmethod.EditorInfo@4a9a946c, token = android.os.BinderProxy@4a970700
+D/ContractionTimer2(16634): New intent
+D/ContractionTimer2(16634): Got intent
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+W/WindowManager(  478): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  537): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1678938, downTime=1678938, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  537): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1678941, downTime=1678941, deviceId=-1, source=0x101 }
+W/InputEventReceiver(  537): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  537): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  537): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl(  537): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=691.15186, y[0]=343.44092, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1678953, downTime=1678952, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  537): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=1678955, downTime=-1, deviceId=0, source=0x10004 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F1, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1679055, downTime=1679055, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(16634): GC_CONCURRENT freed 263K, 8% free 3978K/4304K, paused 2ms+1ms, total 4ms
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SHIFT_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1679062, downTime=1679062, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-498.13782, y[0]=522.2722, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=6, eventTime=1679098, downTime=1679096, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a7d582c attribute=null, token = android.os.BinderProxy@4a970700
+D/ContractionTimer2(16634): New intent
+D/ContractionTimer2(16634): Got intent
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1679170, downTime=1679170, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1679183, downTime=1679183, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1679186, downTime=1679186, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputManager(  478): Input event injection from pid 16624 failed.
+W/InputManager(  478): Input event injection from pid 16624 failed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=314.49414, y[0]=446.156, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1679241, downTime=1679241, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-608.0, y[0]=496.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1679241, downTime=1679241, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-637.33704, y[0]=424.73132, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=1679242, downTime=1679241, deviceId=0, source=0x1002 }
+W/InputManager(  478): Input event injection from pid 16624 failed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-649.3539, y[0]=420.6653, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1679242, downTime=1679241, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=95.0, y[0]=115.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1679243, downTime=1679243, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=88.73865, y[0]=105.47949, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1679243, downTime=1679243, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-922.0, y[0]=477.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1679243, downTime=1679243, deviceId=0, source=0x1002 }
+W/InputManager(  478): Input event injection from pid 16624 failed.
+W/InputManager(  478): Input event injection from pid 16624 failed.
+W/InputManager(  478): Input event injection from pid 16624 failed.
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1679246, downTime=1679246, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a990eb0 attribute=android.view.inputmethod.EditorInfo@4a97d80c, token = android.os.BinderProxy@4a970700
+D/dalvikvm(16634): GC_CONCURRENT freed 330K, 9% free 4036K/4428K, paused 2ms+1ms, total 4ms
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_H, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1679522, downTime=1679522, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+W/ViewRootImpl(16634): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=6, eventTime=1679528, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+V/FlingTracker(  537): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  537): java.lang.Throwable
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  537): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  537): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  537): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  537): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  537): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  537): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  537): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  537): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  537): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  537): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  537): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  537): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  537): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  537): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-135.0, y[0]=178.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1679570, downTime=1679570, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-140.39386, y[0]=176.93628, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1679570, downTime=1679570, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1679580, downTime=1679580, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7df54 attribute=null, token = android.os.BinderProxy@4a970700
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=https://play.google.com/store/apps/details?id=com.jamesots.android.contractiontimerdonate cmp=android/com.android.internal.app.ResolverActivity (has extras)} from pid 16634
+V/PanelView(  537): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(16634): GC_CONCURRENT freed 308K, 9% free 4113K/4484K, paused 1ms+0ms, total 3ms
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-151.33926, y[0]=24.369354, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1679905, downTime=1679905, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1679909, downTime=1679909, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab67470 attribute=android.view.inputmethod.EditorInfo@4aa790f0, token = android.os.BinderProxy@4a970700
+V/FlingTracker(  537): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  537): java.lang.Throwable
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  537): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  537): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  537): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  537): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  537): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  537): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  537): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  537): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  537): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  537): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  537): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  537): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  537): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  537): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/InputDispatcher(  478): Dropped event because of pending overdue app switch.
+W/InputManager(  478): Input event injection from pid 16624 failed.
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1680038, downTime=1680038, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1680042, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9f7eac attribute=null, token = android.os.BinderProxy@4a970700
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1680193, downTime=1680193, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(16634): GC_CONCURRENT freed 316K, 9% free 4184K/4560K, paused 2ms+3ms, total 8ms
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1680228, downTime=1680228, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ESCAPE, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1680273, downTime=1680273, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1680273, downTime=1680273, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1680326, downTime=1680326, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=1680328, downTime=-1, deviceId=0, source=0x10004 }
+V/PanelView(  537): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 478
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1680366, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1680366, downTime=1680366, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=562.94684, y[0]=-38.627487, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1680417, downTime=1680417, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4afd9238 attribute=null, token = android.os.BinderProxy@4a970700
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1680441, downTime=1680441, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1680477, downTime=1680477, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a99d218 attribute=null, token = android.os.BinderProxy@4a970700
+D/dalvikvm(16634): GC_CONCURRENT freed 292K, 8% free 4296K/4648K, paused 2ms+2ms, total 7ms
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+D/ContractionTimer2(16634): New intent
+D/ContractionTimer2(16634): Got intent
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-27.0, y[0]=455.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1680562, downTime=1680562, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-7.9190063, y[0]=407.128, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=1680563, downTime=1680562, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-1.5055542, y[0]=392.68243, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1680563, downTime=1680562, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=233.0, y[0]=12.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1680563, downTime=1680563, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=231.54004, y[0]=8.95649, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1680563, downTime=1680563, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1680590, downTime=1680590, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa4fec4 attribute=android.view.inputmethod.EditorInfo@4aa86460, token = android.os.BinderProxy@4a970700
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+D/ContractionTimer2(16634): New intent
+D/ContractionTimer2(16634): Got intent
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1680854, downTime=1680854, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1680878, downTime=1680878, deviceId=-1, source=0x101 }
+D/dalvikvm(16634): GC_CONCURRENT freed 374K, 10% free 4319K/4756K, paused 1ms+1ms, total 17ms
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1680879, downTime=1680879, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1680883, downTime=1680883, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=2.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1680960, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1680960, downTime=1680958, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1680960, downTime=1680958, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1680962, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9f1934 attribute=android.view.inputmethod.EditorInfo@4abd7428, token = android.os.BinderProxy@4a970700
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-14.124268, y[0]=350.17993, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1681064, downTime=1681063, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x408, repeatCount=0, eventTime=1681082, downTime=1681082, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a913a18 attribute=null, token = android.os.BinderProxy@4a970700
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_STOP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1681143, downTime=1681143, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=160.59607, y[0]=-78.96411, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=1681179, downTime=1681179, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=159.84015, y[0]=-79.25563, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1681179, downTime=1681179, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1681180, downTime=1681180, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(16634): GC_CONCURRENT freed 300K, 8% free 4405K/4768K, paused 2ms+0ms, total 5ms
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=328.66064, y[0]=420.51385, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=1681267, downTime=1681266, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=316.03345, y[0]=424.93256, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1681267, downTime=1681266, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab5aaa8 attribute=null, token = android.os.BinderProxy@4a970700
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1681282, downTime=1681282, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1681299, downTime=1681299, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-329.72766, y[0]=280.22394, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1681335, downTime=1681335, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=29, eventTime=1681335, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a927544 attribute=null, token = android.os.BinderProxy@4a970700
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1681460, downTime=1681460, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1681464, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1681464, downTime=1681462, deviceId=0, source=0x10004 }
+D/Documents( 2492): Used cached roots for com.android.providers.downloads.documents
+D/Documents( 2492): Used cached roots for com.android.externalstorage.documents
+D/Documents( 2492): Used cached roots for com.android.providers.media.documents
+D/Documents( 2492): Update found 6 roots in 1ms
+I/InputReader(  478): Reconfiguring input devices.  changes=0x00000010
+I/Launcher(  653): Deferring update until onResume
+I/Launcher(  653): Deferring update until onResume
+E/IcingInternalCorpora(  716): Could not get app info for com.fsp.android.g: android.content.pm.PackageManager$NameNotFoundException: com.fsp.android.g
+E/Icing   (  716): Could not get app info for com.fsp.android.g: android.content.pm.PackageManager$NameNotFoundException: com.fsp.android.g
+W/Launcher(  653): setApplicationContext called twice! old=com.vphone.launcher.LauncherApplicationEx@4a7945ec new=com.vphone.launcher.LauncherApplicationEx@4a7945ec
+E/Icing   (  716): Could not get app info for com.fsp.android.g: android.content.pm.PackageManager$NameNotFoundException: com.fsp.android.g
+I/Icing   (  716): doRemovePackageData com.fsp.android.g
+W/Fitness (  628): Couldn't find package com.fsp.android.g in PM.  Assuming uninstalled
+E/Icing   (  716): Could not get app info for com.fsp.android.g: android.content.pm.PackageManager$NameNotFoundException: com.fsp.android.g
+I/Icing   (  716): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=32
+I/Icing   (  716): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+W/Searchables(  478): No global search activity found
+I/Icing   (  716): Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+E/UsbSettingsManager(  478): handlePackageUpdate could not find package com.fsp.android.g
+E/UsbSettingsManager(  478): android.content.pm.PackageManager$NameNotFoundException: com.fsp.android.g
+E/UsbSettingsManager(  478): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:82)
+E/UsbSettingsManager(  478): 	at com.android.server.usb.UsbSettingsManager.handlePackageUpdate(UsbSettingsManager.java:828)
+E/UsbSettingsManager(  478): 	at com.android.server.usb.UsbSettingsManager.access$000(UsbSettingsManager.java:66)
+E/UsbSettingsManager(  478): 	at com.android.server.usb.UsbSettingsManager$MyPackageMonitor.onPackageChanged(UsbSettingsManager.java:369)
+E/UsbSettingsManager(  478): 	at com.android.internal.content.PackageMonitor.onReceive(PackageMonitor.java:349)
+E/UsbSettingsManager(  478): 	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:768)
+E/UsbSettingsManager(  478): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/UsbSettingsManager(  478): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/UsbSettingsManager(  478): 	at android.os.Looper.loop(Looper.java:136)
+E/UsbSettingsManager(  478): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+I/Icing   (  716): Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+D/dalvikvm(  628): GC_CONCURRENT freed 1398K, 19% free 7226K/8856K, paused 3ms+3ms, total 16ms
+D/dalvikvm(16634): GC_CONCURRENT freed 546K, 13% free 4283K/4892K, paused 2ms+0ms, total 5ms
+D/dalvikvm(16634): GC_FOR_ALLOC freed 269K, 17% free 4106K/4892K, paused 3ms, total 3ms
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1681759, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F9, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1681759, downTime=1681759, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1681786, downTime=1681786, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-224.0, y[0]=299.1209, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1681822, downTime=1681821, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ad8fddc attribute=null, token = android.os.BinderProxy@4a970700
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1681936, downTime=1681936, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1681951, downTime=1681951, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-44.801453, y[0]=422.21356, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=1681993, downTime=1681992, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-49.214294, y[0]=422.124, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1681993, downTime=1681992, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-933.0, y[0]=604.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1681993, downTime=1681993, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_DOWN(1), id[0]=0, x[0]=-931.02325, y[0]=605.29346, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-910.0, y[1]=54.0, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=1681994, downTime=1681993, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-905.04474, y[0]=633.85974, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-843.07227, y[1]=41.796165, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=7, eventTime=1681995, downTime=1681993, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_UP(1), id[0]=0, x[0]=-901.3181, y[0]=634.0, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-831.2771, y[1]=40.19584, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=1681995, downTime=1681993, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-900.03534, y[0]=634.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1681995, downTime=1681993, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1682014, downTime=1682014, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aed44c0 attribute=null, token = android.os.BinderProxy@4a970700
+D/dalvikvm(16634): GC_CONCURRENT freed 239K, 14% free 4255K/4892K, paused 1ms+0ms, total 5ms
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_ENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1682049, downTime=1682049, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1682049, downTime=1682049, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1682070, downTime=1682070, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1682206, downTime=1682206, deviceId=-1, source=0x101 }
+D/dalvikvm(  653): GC_FOR_ALLOC freed 4032K, 3% free 264197K/270716K, paused 47ms, total 47ms
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SWITCH_CHARSET, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1682217, downTime=1682217, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+W/ViewRootImpl(16634): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=1682262, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1682262, downTime=1682261, deviceId=0, source=0x10004 }
+D/ContractionTimer2(16634): New intent
+D/ContractionTimer2(16634): Got intent
+D/dalvikvm(  653): GC_FOR_ALLOC freed 570K, 2% free 266926K/271652K, paused 50ms, total 50ms
+V/PanelView(  537): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-165.92761, y[0]=-34.89926, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=1682339, downTime=1682338, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-176.14243, y[0]=-41.950333, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1682339, downTime=1682338, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1682343, downTime=1682343, deviceId=-1, source=0x101 }
+D/dalvikvm(  653): GC_FOR_ALLOC freed 306K, 2% free 269727K/274460K, paused 42ms, total 43ms
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1682345, downTime=1682345, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1682377, downTime=1682377, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4adf6134 attribute=android.view.inputmethod.EditorInfo@4adf613c, token = android.os.BinderProxy@4a970700
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1682378, downTime=1682378, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1682380, downTime=1682380, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=631.20166, y[0]=220.74799, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1682424, downTime=1682424, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=446.0, y[0]=-148.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1682425, downTime=1682425, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_DOWN(1), id[0]=0, x[0]=435.54584, y[0]=-151.01291, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=687.0, y[1]=-184.0, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=1682425, downTime=1682425, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=418.1302, y[0]=-156.23106, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=685.5825, y[1]=-212.30458, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=1, eventTime=1682425, downTime=1682425, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_UP(1), id[0]=0, x[0]=413.4779, y[0]=-156.27376, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=685.4358, y[1]=-221.70181, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=1682425, downTime=1682425, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=403.5714, y[0]=-159.80612, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1682426, downTime=1682425, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1682429, downTime=1682429, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4af3c170 attribute=null, token = android.os.BinderProxy@4a970700
+D/dalvikvm(16634): GC_CONCURRENT freed 408K, 14% free 4234K/4892K, paused 2ms+0ms, total 5ms
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1682505, downTime=1682505, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-881.54333, y[0]=572.3067, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1682535, downTime=1682535, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-264.0, y[0]=374.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1682536, downTime=1682536, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-258.6001, y[0]=381.96042, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1682536, downTime=1682536, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-481.0, y[0]=171.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1682537, downTime=1682537, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-481.37903, y[0]=164.92273, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1682537, downTime=1682537, deviceId=0, source=0x1002 }
+W/InputManager(  478): Input event injection from pid 16624 failed.
+W/InputManager(  478): Input event injection from pid 16624 failed.
+D/ContractionTimer2(16634): New intent
+D/ContractionTimer2(16634): Got intent
+D/FirebaseApp(  653): Notifying background state change listeners.
+D/Launcher.Workspace(  653): 11683562 - stripEmptyScreens()
+W/InputMethodManagerService(  478): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a997de4 (uid=10052 pid=16634)
+I/Icing   (  716): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+W/EGL_emulation(  653): eglSurfaceAttrib not implemented 3093 12436
+W/SurfaceFlinger(  166): couldn't log to binary event log: overflow.
+W/ViewRootImpl(  653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1682551, downTime=1682551, deviceId=-1, source=0x101 }
+I/Icing   (  716): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(  478): GC_CONCURRENT freed 2529K, 44% free 17098K/30004K, paused 1ms+2ms, total 52ms
+W/DebugConnManager(  653): getNetworkInfo() on networkType 1
+I/ActivityManager(  478): START u0 {flg=0x10000000 cmp=com.vphone.launcher/.game.SearchActivity} from pid 653
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10052, 0) failed with errno -13
+W/SurfaceFlinger(  166): couldn't log to binary event log: overflow.
+W/PropertyValuesHolder(  653): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  653): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 653
+W/ContextImpl(  653): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+D/yeshen  (  653): launcher onpause
+W/NetworkManagementSocketTagger(  478): setKernelCountSet(10052, 1) failed with errno -13
+W/InputManager(  478): Input event injection from pid 16624 failed.
+W/InputManager(  478): Input event injection from pid 16624 failed.
+D/Notifications(16634): Creating stop intent with counter=1
+D/ContractionTimer2(16634): Got intent
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_3, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683387, downTime=1683387, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(16634): GC_CONCURRENT freed 456K, 15% free 4163K/4892K, paused 1ms+2ms, total 8ms
+I/ActivityManager(  478): Displayed com.jamesots.android.contractiontimer/.ContractionTimer: +100ms
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683553, downTime=1683553, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683559, downTime=1683559, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683560, downTime=1683560, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HENKAN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683561, downTime=1683561, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683563, downTime=1683563, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=1683572, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1683573, downTime=1683570, deviceId=0, source=0x10004 }
+D/ContractionTimer2(16634): New intent
+D/ContractionTimer2(16634): Got intent
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683576, downTime=1683576, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=1683658, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1683658, downTime=1683657, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1683659, downTime=1683657, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaa8f04 attribute=null, token = android.os.BinderProxy@4a97b84c
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683720, downTime=1683720, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(16634): GC_CONCURRENT freed 419K, 16% free 4127K/4892K, paused 2ms+1ms, total 4ms
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683728, downTime=1683728, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=172.737, y[0]=358.4048, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1683790, downTime=1683790, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=110.0, y[0]=435.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1683791, downTime=1683791, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=108.79468, y[0]=430.65582, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1683791, downTime=1683791, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=693.0, y[0]=354.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1683791, downTime=1683791, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=698.9564, y[0]=359.4171, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1683791, downTime=1683791, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=1683792, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683796, downTime=1683796, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9f3c58 attribute=android.view.inputmethod.EditorInfo@4a9d7df4, token = android.os.BinderProxy@4a97b84c
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683832, downTime=1683832, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_META_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683834, downTime=1683834, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-594.98035, y[0]=329.0471, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=1683875, downTime=1683873, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-609.23114, y[0]=328.94696, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1683875, downTime=1683873, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8e3094 attribute=null, token = android.os.BinderProxy@4a97b84c
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683886, downTime=1683886, deviceId=-1, source=0x101 }
+V/FlingTracker(  537): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  537): java.lang.Throwable
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  537): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  537): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  537): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  537): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  537): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  537): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  537): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  537): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  537): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  537): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  537): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  537): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  537): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  537): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683900, downTime=1683900, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-36.188965, y[0]=61.947388, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=7, eventTime=1683945, downTime=1683942, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-31.971436, y[0]=67.70232, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1683945, downTime=1683942, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=1683947, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1683959, downTime=1683959, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab3c338 attribute=null, token = android.os.BinderProxy@4a97b84c
+D/dalvikvm(16634): GC_CONCURRENT freed 349K, 15% free 4162K/4892K, paused 1ms+0ms, total 5ms
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684134, downTime=1684134, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-233.0, y[0]=100.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1684172, downTime=1684172, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-207.11688, y[0]=140.52762, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=8, eventTime=1684173, downTime=1684172, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-206.04669, y[0]=147.7464, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1684173, downTime=1684172, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684191, downTime=1684191, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa380f0 attribute=null, token = android.os.BinderProxy@4a97b84c
+D/ContractionTimer2(16634): New intent
+D/ContractionTimer2(16634): Got intent
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684388, downTime=1684388, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684391, downTime=1684391, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-370.0, y[0]=390.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1684475, downTime=1684475, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-398.4735, y[0]=365.31714, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=1684476, downTime=1684475, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-407.7276, y[0]=355.9765, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1684476, downTime=1684475, deviceId=0, source=0x1002 }
+D/dalvikvm(16634): GC_CONCURRENT freed 205K, 12% free 4341K/4892K, paused 2ms+1ms, total 6ms
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_YEN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684476, downTime=1684476, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=https://play.google.com/store/apps/details?id=com.jamesots.android.contractiontimerdonate cmp=android/com.android.internal.app.ResolverActivity (has extras)} from pid 16634
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=148.1478, y[0]=-68.83653, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1684568, downTime=1684567, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa027cc attribute=null, token = android.os.BinderProxy@4a97b84c
+V/PanelView(  537): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_5, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684605, downTime=1684605, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684605, downTime=1684605, deviceId=-1, source=0x101 }
+V/PanelView(  537): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684621, downTime=1684621, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-656.6538, y[0]=455.4085, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1684652, downTime=1684652, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SHIFT_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684667, downTime=1684667, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684671, downTime=1684671, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684687, downTime=1684687, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab59c38 attribute=android.view.inputmethod.EditorInfo@4abdbafc, token = android.os.BinderProxy@4a97b84c
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684695, downTime=1684695, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=469.54132, y[0]=-6.436554, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1684763, downTime=1684763, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa24588 attribute=null, token = android.os.BinderProxy@4a97b84c
+W/SurfaceFlinger(  166): couldn't log to binary event log: overflow.
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684888, downTime=1684888, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(16634): GC_CONCURRENT freed 298K, 10% free 4439K/4892K, paused 1ms+0ms, total 4ms
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684898, downTime=1684898, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SOFT_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684931, downTime=1684931, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+D/ContractionTimer2(16634): New intent
+D/ContractionTimer2(16634): Got intent
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1684939, downTime=1684939, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685060, downTime=1685060, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685067, downTime=1685067, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-140.93143, y[0]=327.82782, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1685065, downTime=1685065, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-108.0, y[0]=-256.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1685066, downTime=1685066, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-126.11078, y[0]=-251.46877, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=1685066, downTime=1685066, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-143.0604, y[0]=-250.67725, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1685066, downTime=1685066, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-275.0, y[0]=-117.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1685067, downTime=1685067, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-261.73132, y[0]=-114.909744, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1685067, downTime=1685067, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685111, downTime=1685111, deviceId=-1, source=0x101 }
+V/PanelView(  537): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  478): START u0 {act=android.intent.action.VIEW dat=https://play.google.com/store/apps/details?id=com.jamesots.android.contractiontimerdonate cmp=android/com.android.internal.app.ResolverActivity} from pid 16634
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-198.04073, y[0]=356.62222, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1685197, downTime=1685197, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_MODE, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685200, downTime=1685200, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685200, downTime=1685200, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8f698c attribute=android.view.inputmethod.EditorInfo@4abb1aac, token = android.os.BinderProxy@4a97b84c
+V/PanelView(  537): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+D/ContractionTimer2(16634): New intent
+D/ContractionTimer2(16634): Got intent
+D/dalvikvm(16634): GC_CONCURRENT freed 447K, 11% free 4420K/4928K, paused 2ms+3ms, total 9ms
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=776.0559, y[0]=351.9574, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1685297, downTime=1685297, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F8, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685314, downTime=1685314, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+V/FlingTracker(  537): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  537): java.lang.Throwable
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  537): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  537): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  537): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  537): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  537): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  537): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  537): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  537): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  537): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  537): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  537): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  537): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  537): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  537): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8660d4 attribute=android.view.inputmethod.EditorInfo@4ae1d390, token = android.os.BinderProxy@4a97b84c
+D/ContractionTimer2(16634): New intent
+D/ContractionTimer2(16634): Got intent
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685345, downTime=1685345, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685346, downTime=1685346, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685347, downTime=1685347, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=702.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1685378, downTime=1685378, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=721.5172, y[0]=-4.9761505, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1685378, downTime=1685378, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abd2328 attribute=null, token = android.os.BinderProxy@4a97b84c
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685397, downTime=1685397, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685408, downTime=1685408, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_7, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685409, downTime=1685409, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685409, downTime=1685409, deviceId=-1, source=0x101 }
+W/SurfaceFlinger(  166): couldn't log to binary event log: overflow.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ad536dc attribute=null, token = android.os.BinderProxy@4a97b84c
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685510, downTime=1685510, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(16634): GC_CONCURRENT freed 432K, 11% free 4412K/4928K, paused 1ms+2ms, total 8ms
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685547, downTime=1685547, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685576, downTime=1685576, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=814.171, y[0]=451.17664, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1685602, downTime=1685602, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=818.6144, y[0]=450.9082, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1685602, downTime=1685602, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1685605, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1685605, downTime=1685603, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1685605, downTime=1685603, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685609, downTime=1685609, deviceId=-1, source=0x101 }
+D/ContractionTimer2(16634): New intent
+D/ContractionTimer2(16634): Got intent
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9ce3ec attribute=android.view.inputmethod.EditorInfo@4ab8ee3c, token = android.os.BinderProxy@4a97b84c
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685693, downTime=1685693, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685702, downTime=1685702, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685729, downTime=1685729, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=611.1694, y[0]=198.29175, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1685803, downTime=1685802, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac4c36c attribute=null, token = android.os.BinderProxy@4a97b84c
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 16634
+W/PhoneFallbackEventHandler(16634): No activity found for android.intent.action.CALL_BUTTON.
+D/dalvikvm(16634): GC_CONCURRENT freed 412K, 11% free 4421K/4952K, paused 1ms+2ms, total 6ms
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1685992, downTime=1685992, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PROG_YELLOW, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686038, downTime=1686038, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686045, downTime=1686045, deviceId=-1, source=0x101 }
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_DOWN(1), id[0]=0, x[0]=-212.86786, y[0]=130.75912, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=539.0, y[1]=311.0, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=1686075, downTime=1686075, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-198.4346, y[0]=81.71542, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=519.31665, y[1]=394.66458, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=5, eventTime=1686076, downTime=1686075, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_UP(1), id[0]=0, x[0]=-197.6625, y[0]=73.91615, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=517.6415, y[1]=401.7258, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=1686077, downTime=1686075, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-193.3623, y[0]=68.402145, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1686077, downTime=1686075, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=1686077, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686079, downTime=1686079, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686081, downTime=1686081, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa82500 attribute=android.view.inputmethod.EditorInfo@4aa82508, token = android.os.BinderProxy@4a97b84c
+D/dalvikvm(16634): GC_FOR_ALLOC freed 329K, 11% free 4505K/5024K, paused 2ms, total 2ms
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686193, downTime=1686193, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 478
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686263, downTime=1686263, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686278, downTime=1686278, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4af3c3fc attribute=null, token = android.os.BinderProxy@4a97b84c
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686291, downTime=1686291, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686293, downTime=1686293, deviceId=-1, source=0x101 }
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer} from pid 16624
+V/InputMethodService(  613): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+V/FlingTracker(  537): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  537): java.lang.Throwable
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  537): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  537): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  537): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  537): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  537): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  537): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  537): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  537): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  537): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  537): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  537): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  537): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  537): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  537): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  537): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  537): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  537): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.windowGainedFocus:1985 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=349.29315, y[0]=-101.742874, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1686335, downTime=1686334, deviceId=0, source=0x1002 }
+D/ContractionTimer2(16634): New intent
+D/ContractionTimer2(16634): Got intent
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686415, downTime=1686415, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_POUND, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686416, downTime=1686416, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(16634): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686419, downTime=1686419, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=164.0, y[0]=115.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1686444, downTime=1686444, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=193.7074, y[0]=93.39847, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=1686445, downTime=1686444, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=194.6294, y[0]=86.15306, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1686445, downTime=1686444, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  478): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab3a728 attribute=null, token = android.os.BinderProxy@4a97b84c
+W/WindowManager(  478): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  537): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_R, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686472, downTime=1686472, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  537): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_13, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686473, downTime=1686473, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  537): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686473, downTime=1686473, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  537): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686474, downTime=1686474, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  537): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686475, downTime=1686475, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  537): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_7, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686476, downTime=1686476, deviceId=-1, source=0x101 }
+D/dalvikvm(16634): GC_CONCURRENT freed 326K, 8% free 4633K/5036K, paused 2ms+0ms, total 7ms
+W/ViewRootImpl(  537): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MOVE_HOME, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686476, downTime=1686476, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/BackupManagerService(  478): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 537
+W/PhoneFallbackEventHandler(  537): No activity found for android.intent.action.CALL_BUTTON.
+W/BackupManagerService(  478): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/BackupManagerService(  478): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/BackupManagerService(  478): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/InputMethodManagerService(  478): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a997de4 (uid=10052 pid=16634)
+D/yeshen  (  653): launcher onstop
+W/DebugConnManager(  653): getNetworkInfo() on networkType 1
+W/BackupManagerService(  478): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/InputEventReceiver(  537): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  537): Attempted to finish an input event but the input event receiver has already been disposed.
+D/FirebaseApp(  653): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  653): onTrimMemory level:20
+W/ViewRootImpl(  537): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=22.32196, y[0]=407.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1686532, downTime=1686532, deviceId=0, source=0x1002 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686544, downTime=1686544, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/FirebaseApp(  653): Notifying background state change listeners.
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1686615, downTime=1686615, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16634): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=1686615, downTime=1686615, deviceId=-1, source=0x101 }
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  653): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1686576, downTime=1686576, deviceId=-1, source=0x101 }
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/PropertyValuesHolder(  653): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  653): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera bnds=[742,174][946,301] (has extras)} from pid 653
+W/ContextImpl(  653): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/PropertyValuesHolder(  653): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  653): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vphone.helper/.MainActivity bnds=[946,174][1150,301] (has extras)} from pid 653
+W/ContextImpl(  653): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+V/PanelView(  537): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/PropertyValuesHolder(  653): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  653): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  478): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 653
+W/PhoneFallbackEventHandler(  653): No activity found for android.intent.action.CALL_BUTTON.
+I/AndroidRuntime(16624): VM exiting with result code 0.
+I/ActivityManager(  478): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jamesots.android.contractiontimer/.ContractionTimer bnds=[946,301][1150,428]} from pid 653
+W/ContextImpl(  653): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  653): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+D/yeshen  (  653): launcher onpause
+D/Notifications(16634): Creating stop intent with counter=1
+D/ContractionTimer2(16634): Got intent
+W/EGL_emulation(16634): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  478): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  478): Displayed com.jamesots.android.contractiontimer/.ContractionTimer: +123ms
+D/dalvikvm(16634): GC_CONCURRENT freed 577K, 13% free 4569K/5208K, paused 1ms+3ms, total 6ms

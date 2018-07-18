@@ -1,0 +1,851 @@
+--------- beginning of /dev/log/main
+I/Icing   (  740): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+I/Icing   (  740): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/AndroidRuntime( 8838): 
+D/AndroidRuntime( 8838): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 8838): CheckJNI is OFF
+D/dalvikvm( 8838): Using executionMode 2
+D/dalvikvm( 8838): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 8838): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 8838): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 8838): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 8838): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 8838): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 8838): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 8838): failed to load memtrack module: -2
+D/AndroidRuntime( 8838): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  481): Skipping deliver [background] BroadcastRecord{4abf4a34 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4acd12b0 8838 (unknown name)/0/u-1 remote:4acb6618}: process crashing
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+I/ActivityManager(  481): Start proc com.sygic.truck for activity com.sygic.truck/.SygicNaviTruck: pid=8848 uid=10091 gids={50091, 3003, 1028, 1015, 1023, 3002}
+W/NetworkManagementSocketTagger(  481): setKernelCountSet(10091, 1) failed with errno -13
+I/dalvikvm( 8848): ignoring registerObject request in thread=1
+I/dalvikvm( 8848): ignoring registerObject request in thread=1
+I/Finsky  ( 1034): [1] com.google.android.finsky.ch.a.onTrimMemory(5): Memory trim requested to level 20
+I/Finsky  ( 1034): [1] com.google.android.finsky.ch.a.onTrimMemory(11): Flushing in-memory image cache
+I/dalvikvm( 8848): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zza
+W/dalvikvm( 8848): VFY: unable to resolve virtual method 213: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm( 8848): VFY: replacing opcode 0x6e at 0x0100
+I/dalvikvm( 8848): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zzj
+W/dalvikvm( 8848): VFY: unable to resolve virtual method 486: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 8848): VFY: replacing opcode 0x6e at 0x000a
+I/GMPM    ( 8848): App measurement is starting up
+E/GMPM    ( 8848): getGoogleAppId failed with status: 10
+E/GMPM    ( 8848): Uploading is not possible. App measurement disabled
+D/dalvikvm( 8848): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 8848): GC_CONCURRENT freed 265K, 11% free 2949K/3292K, paused 4ms+2ms, total 10ms
+D/dalvikvm( 8848): Trying to load lib /data/app-lib/com.sygic.truck-1/libcrashlytics.so 0x94fa1ef0
+W/NetworkManagementSocketTagger(  481): setKernelCountSet(10012, 0) failed with errno -13
+D/dalvikvm( 8848): Added shared lib /data/app-lib/com.sygic.truck-1/libcrashlytics.so 0x94fa1ef0
+D/dalvikvm( 8848): GC_CONCURRENT freed 286K, 11% free 3175K/3536K, paused 2ms+0ms, total 4ms
+D/dalvikvm( 8848): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm( 8848): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm( 8848): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/libcrashlytics( 8848): Initializing libcrashlytics version 1.1.2
+D/libcrashlytics( 8848): Attempting to load unwinder...
+D/libcrashlytics( 8848): Done; using libcorkscrew
+D/libcrashlytics( 8848): Attempting to register signal handler...
+D/libcrashlytics( 8848): Signal handler registered.
+D/libcrashlytics( 8848): Initializing native crash handling successful.
+I/CrashlyticsCore( 8848): Initializing Crashlytics 2.3.5.79
+D/dalvikvm( 8848): Trying to load lib /data/app-lib/com.sygic.truck-1/libWrapper.so 0x94fa1ef0
+D/dalvikvm( 8848): Added shared lib /data/app-lib/com.sygic.truck-1/libWrapper.so 0x94fa1ef0
+D/Sygic   ( 8848): I: JNI_OnLoad: ...Wrapper_JNI_OnLoad...
+D/SygicMain( 8848): Load library: Aura
+D/dalvikvm( 8848): GC_CONCURRENT freed 240K, 9% free 3323K/3648K, paused 2ms+1ms, total 4ms
+D/Sygic   ( 8848): I: Sygic_loadLib: library loaded
+D/AURA    ( 8848): I: JniOnloadHelper
+D/com.sygic.aura.SygicNaviService( 8848): Sygic navi service creating...
+D/libEGL  ( 8848): loaded /system/lib/egl/libEGL_adreno.so
+D/        ( 8848): HostConnection::get() New Host Connection established 0xb9038610, tid 8848
+D/libEGL  ( 8848): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 8848): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer( 8848): Enabling debug mode 0
+D/com.sygic.aura.SygicService( 8848): SygicService created
+D/SygicMain( 8848): Load library: ApplicationAPI
+D/Sygic   ( 8848): I: Sygic_loadLib: library loaded
+E/ApplicationAPI( 8848): E: ApplicationApi_InitJavaObjects2
+D/com.sygic.aura.SygicActivityCore( 8848): Service connected...
+E/ApplicationAPI( 8848): E: ApplicationApi_InitApi2
+D/DRIVE SDK( 8848): -=SDK DRIVER=- I: DriverInitializerApi - SdkDriver initialization OK
+D/com.sygic.aura.SygicService( 8848): Init Api successful
+D/dalvikvm( 8848): GC_FOR_ALLOC freed 309K, 12% free 3314K/3728K, paused 3ms, total 3ms
+I/dalvikvm-heap( 8848): Grow heap (frag case) to 3.916MB for 635808-byte allocation
+D/dalvikvm( 8848): GC_FOR_ALLOC freed <1K, 10% free 3935K/4352K, paused 3ms, total 3ms
+D/dalvikvm( 8848): GC_CONCURRENT freed 0K, 10% free 3935K/4352K, paused 1ms+0ms, total 3ms
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=429853, downTime=429853, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=429853, downTime=-1, deviceId=0, source=0x10004 }
+D/dalvikvm( 8848): GC_CONCURRENT freed 299K, 9% free 4024K/4400K, paused 2ms+0ms, total 4ms
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+I/WindowManager(  481): Switching to real app window: Window{4ab9c724 u0 com.sygic.truck/com.sygic.truck.SygicNaviTruck}
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SOFT_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=430183, downTime=430183, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1995 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_H, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=430226, downTime=430226, deviceId=-1, source=0x101 }
+D/dalvikvm( 8848): GC_CONCURRENT freed 371K, 11% free 4038K/4488K, paused 0ms+0ms, total 3ms
+I/ActivityManager(  481): Displayed com.sygic.truck/.SygicNaviTruck: +901ms
+W/System.err( 8848): java.io.FileNotFoundException: /storage/emulated/0/SygicTruck/Android/settings.ini: open failed: ENOENT (No such file or directory)
+W/System.err( 8848): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+W/System.err( 8848): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/System.err( 8848): 	at java.io.FileReader.<init>(FileReader.java:42)
+W/System.err( 8848): 	at com.sygic.aura.settings.SettingsIni.loadFromFile(SettingsIni.java:61)
+W/System.err( 8848): 	at com.sygic.aura.settings.SettingsIni.load(SettingsIni.java:42)
+W/System.err( 8848): 	at com.sygic.aura.settings.SettingsIni.getInstance(SettingsIni.java:33)
+W/System.err( 8848): 	at com.sygic.aura.SygicActivityCore.serviceConnection_postInit(SygicActivityCore.java:189)
+W/System.err( 8848): 	at com.sygic.aura.SygicActivityCore.serviceConnection_createStorageChooser(SygicActivityCore.java:269)
+W/System.err( 8848): 	at com.sygic.aura.SygicActivityCore.asynctask_onpostexecute(SygicActivityCore.java:171)
+W/System.err( 8848): 	at com.sygic.aura.SygicActivityCore.access$600(SygicActivityCore.java:42)
+W/System.err( 8848): 	at com.sygic.aura.SygicActivityCore$1$1.onPostExecute(SygicActivityCore.java:143)
+W/System.err( 8848): 	at com.sygic.aura.SygicActivityCore$1$1.onPostExecute(SygicActivityCore.java:111)
+W/System.err( 8848): 	at android.os.AsyncTask.finish(AsyncTask.java:632)
+W/System.err( 8848): 	at android.os.AsyncTask.access$600(AsyncTask.java:177)
+W/System.err( 8848): 	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:645)
+W/System.err( 8848): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 8848): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 8848): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err( 8848): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 8848): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 8848): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err( 8848): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err( 8848): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 8848): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err( 8848): 	at libcore.io.Posix.open(Native Method)
+W/System.err( 8848): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/System.err( 8848): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+W/System.err( 8848): 	... 22 more
+E/com.sygic.aura.settings.SettingsIni( 8848): settings.ini not loaded. Will try to reload
+I/ActivityManager(  481): START u0 {cmp=com.sygic.truck/com.sygic.aura.downloader.DownloaderActivity} from pid 8848
+I/Finsky  ( 1034): [79] com.google.android.finsky.da.a.a.a.b(28): Triggered update for experiment package com.google.android.finsky.stable.
+I/Finsky  ( 1034): [78] com.google.android.finsky.da.a.a.a.b(28): Triggered update for experiment package com.google.android.finsky.regular.
+W/ProxyAndroidLoggerBackend( 1034): Too many Flogger logs received before configuration. Dropping old logs.
+W/ProxyAndroidLoggerBackend( 1034): Too many Flogger logs received before configuration. Dropping old logs.
+W/ProxyAndroidLoggerBackend( 1034): Too many Flogger logs received before configuration. Dropping old logs.
+W/ProxyAndroidLoggerBackend( 1034): Too many Flogger logs received before configuration. Dropping old logs.
+W/ProxyAndroidLoggerBackend( 1034): Too many Flogger logs received before configuration. Dropping old logs.
+W/ProxyAndroidLoggerBackend( 1034): Too many Flogger logs received before configuration. Dropping old logs.
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa0bb5c attribute=null, token = android.os.BinderProxy@4aa26f98
+I/Finsky  ( 1034): [78] com.google.android.finsky.da.a.a.a.b(73): Already at the latest configurations for experiment package com.google.android.finsky.regular.
+W/ProxyAndroidLoggerBackend( 1034): Too many Flogger logs received before configuration. Dropping old logs.
+I/Finsky  ( 1034): [79] com.google.android.finsky.da.a.l.a(77): Started writing experiment flags into file [44O8VQCEUzya29uefFMIdRuUEpA].
+I/Finsky  ( 1034): [79] com.google.android.finsky.da.a.l.a(129): Finished writing experiment flags into file [44O8VQCEUzya29uefFMIdRuUEpA].
+I/Finsky  ( 1034): [79] com.google.android.finsky.da.a.a.a.b(116): Successfully applied new configurations for package com.google.android.finsky.stable.
+W/dalvikvm( 8848): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm( 8848): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 8848): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm( 8848): VFY: unable to resolve virtual method 46769: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm( 8848): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm( 8848): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm( 8848): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 8848): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm( 8848): VFY: unable to resolve interface method 46763: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm( 8848): VFY: replacing opcode 0x72 at 0x0006
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 8848): <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.sygic.truck/settings?instance=8d1ed87ff9c70a304f38b8831f841681a3727c08&source=1&build_version=104&icon_hash=a7e55b8abdc09324e86a4d269fe4874d26be86e1&display_version=13.6.6
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r4 = virtualinvoke $r3.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r3.<java.net.URL: int getPort()>()	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r4 = virtualinvoke $r3.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r3.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r8 = virtualinvoke $r3.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r6.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r4, $r1, $r7, $r8, null)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r8 = virtualinvoke $r6.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r4)	timediff:0
+I/System.out( 8848): <io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r4)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.sygic.truck/settings?instance=8d1ed87ff9c70a304f38b8831f841681a3727c08&source=1&build_version=104&icon_hash=a7e55b8abdc09324e86a4d269fe4874d26be86e1&display_version=13.6.6
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:9
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.net.HttpURLConnection createConnection()>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest useCaches(boolean)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setUseCaches(boolean)>($z0)	timediff:0
+D/dalvikvm( 8848): GC_CONCURRENT freed 269K, 10% free 4186K/4608K, paused 0ms+1ms, total 4ms
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest connectTimeout(int)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+D/dalvikvm( 8848): GC_CONCURRENT freed 386K, 10% free 4187K/4652K, paused 2ms+0ms, total 4ms
+W/ActivityManager(  481): Activity pause timeout for ActivityRecord{4aa9e118 u0 com.sygic.truck/.SygicNaviTruck t67}
+W/NetworkManagementSocketTagger(  481): setKernelCountSet(10007, 0) failed with errno -13
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: int code()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:359
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String header(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: int intHeader(java.lang.String,int)>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getHeaderFieldInt(java.lang.String,int)>($r1, $i0)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: int code()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.io.InputStream stream()>	sig:$r2 = virtualinvoke $r3.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 8848): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 8848): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 8848): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 8848): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 8848): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 8848): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 8848): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:1
+I/System.out( 8848): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 8848): URLConn;%;0;%;<io.fabric.sdk.android.services.network.HttpRequest: java.io.InputStream stream()>;%;$r2 = virtualinvoke $r3.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.sygic.truck/settings?instance=8d1ed87ff9c70a304f38b8831f841681a3727c08&source=1&build_version=104&icon_hash=a7e55b8abdc09324e86a4d269fe4874d26be86e1&display_version=13.6.6;%;false;%;Not found;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String header(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 8848): <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###https://e.crashlytics.com/spi/v2/events
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r4 = virtualinvoke $r3.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r3.<java.net.URL: int getPort()>()	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r4 = virtualinvoke $r3.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r3.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r8 = virtualinvoke $r3.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r6.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r4, $r1, $r7, $r8, null)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r8 = virtualinvoke $r6.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r4)	timediff:0
+I/System.out( 8848): <io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r4)###https://e.crashlytics.com/spi/v2/events
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: java.net.HttpURLConnection createConnection()>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest useCaches(boolean)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setUseCaches(boolean)>($z0)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest connectTimeout(int)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest openOutput()>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out( 8848): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest openOutput()>	sig:$r3 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+D/dalvikvm( 8848): GC_CONCURRENT freed 368K, 10% free 4225K/4684K, paused 2ms+1ms, total 16ms
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+V/DownloaderActivity( 8848): PROGRESS BAR CREATE
+D/dalvikvm( 8848): GC_FOR_ALLOC freed 36K, 9% free 4349K/4772K, paused 9ms, total 9ms
+D/dalvikvm( 8848): GC_FOR_ALLOC freed 4K, 9% free 4517K/4948K, paused 8ms, total 8ms
+D/dalvikvm( 8848): GC_FOR_ALLOC freed <1K, 9% free 4688K/5124K, paused 3ms, total 3ms
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=430275, downTime=430275, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/LVLDL   ( 8848): Service Bound
+I/ActivityManager(  481): Displayed com.sygic.truck/com.sygic.aura.downloader.DownloaderActivity: +664ms
+I/WearableService(  654): Wearable Services stopping
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.NotificationManagerService$6.run:1838 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+I/LicenseChecker( 8848): Binding to licensing service.
+I/Choreographer( 8848): Skipped 63 frames!  The application may be doing too much work on its main thread.
+I/LicenseChecker( 8848): Calling checkLicense on service for com.sygic.truck
+I/LicenseChecker( 8848): Start monitoring timeout.
+I/LicenseChecker( 8848): Received response.
+I/LicenseChecker( 8848): Clearing timeout.
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+D/dalvikvm( 8848): GC_CONCURRENT freed 153K, 6% free 5091K/5388K, paused 2ms+0ms, total 5ms
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+D/SygicMain( 8848): Unload library: Aura
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.unloadLibJNI:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSysSetRunningBackground:VZ
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSurfaceRotate:VIII
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSurfaceCreated:V
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSetSwRenderer:VZ
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSetFBAccessToken:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSetEcoDriving:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSetDPI:VF
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSetBatteryInfo:VI
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSetArguments:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nResetPushToken:V
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nRequestSurfaceReset:V
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nQuit:V
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nProcessStoreResponse:ILIII
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nOpenMySygic:VLI
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nMultipleTouchMessage:VIIIII
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nMouseMessage:VFFF
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nKeybSetHidden:V
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nKeybSetHeight:VI
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nKeyMessage:VIIZ
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nInitJavaObjects:V
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nHelperWinMain:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nGpsSetStatus:VI
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nGpsSetSatellites:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nGpsSetNmeaData:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nGpsSetData:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nGpsSetCompassHeading:VFF
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nForce3DBlit:V
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nDoAppCycle:I
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nAddDataTraffic:VIII
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nAccSetData:VFFF
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.loadLibJNI:ZL
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+D/com.sygic.aura.SygicNaviService( 8848): Sygic navi service destroyed...
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=432640, downTime=432640, deviceId=-1, source=0x101 }
+D/com.sygic.aura.SygicNaviService( 8848): Sygic navi service creating...
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_P, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=432749, downTime=432749, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=4, eventTime=432749, downTime=432749, deviceId=-1, source=0x101 }
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=432749, downTime=432749, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=432749, downTime=432749, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=432749, downTime=432749, deviceId=-1, source=0x101 }
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=432749, downTime=432749, deviceId=-1, source=0x101 }
+D/com.sygic.aura.SygicService( 8848): SygicService destroyed
+D/SygicMain( 8848): Unload library: ApplicationAPI
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.unloadLibJNI:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSysSetRunningBackground:VZ
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSurfaceRotate:VIII
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSurfaceCreated:V
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSetSwRenderer:VZ
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSetFBAccessToken:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSetEcoDriving:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSetDPI:VF
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSetBatteryInfo:VI
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nSetArguments:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nResetPushToken:V
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nRequestSurfaceReset:V
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nQuit:V
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nProcessStoreResponse:ILIII
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nOpenMySygic:VLI
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nMultipleTouchMessage:VIIIII
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nMouseMessage:VFFF
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nKeybSetHidden:V
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nKeybSetHeight:VI
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nKeyMessage:VIIZ
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nInitJavaObjects:V
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nHelperWinMain:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nGpsSetStatus:VI
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nGpsSetSatellites:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nGpsSetNmeaData:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nGpsSetData:VL
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nGpsSetCompassHeading:VFF
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nForce3DBlit:V
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nDoAppCycle:I
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nAddDataTraffic:VIII
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.nAccSetData:VFFF
+D/dalvikvm( 8848): Unregistering JNI method Lcom/sygic/aura/SygicMain;.loadLibJNI:ZL
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=432963, downTime=432963, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=432966, downTime=432966, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=432968, downTime=432968, deviceId=-1, source=0x101 }
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  534): animationTick called with dtms=-10; nothing to do (h=0.0 v=0.0)
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=433302, downTime=433302, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9b01a4 attribute=null, token = android.os.BinderProxy@4aa26f98
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=433387, downTime=433387, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_EJECT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=433394, downTime=433394, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a96b1c4 attribute=null, token = android.os.BinderProxy@4aa26f98
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=433478, downTime=433478, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=433479, downTime=433479, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab64340 attribute=null, token = android.os.BinderProxy@4aa26f98
+D/dalvikvm(  534): GC_CONCURRENT freed 2662K, 67% free 5027K/14896K, paused 1ms+1ms, total 4ms
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_EQUALS, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=433761, downTime=433761, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=433765, downTime=433765, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ALT_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=433771, downTime=433771, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=433777, downTime=433777, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaf9d24 attribute=null, token = android.os.BinderProxy@4aa26f98
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab24db4 attribute=null, token = android.os.BinderProxy@4aa26f98
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+D/dalvikvm(  481): GC_CONCURRENT freed 2995K, 40% free 10901K/18080K, paused 2ms+2ms, total 28ms
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_B, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=433890, downTime=433890, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=433890, downTime=433890, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=433893, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=433894, downTime=433894, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaf4b98 attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434131, downTime=434131, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_Z, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434139, downTime=434139, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa76714 attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434222, downTime=434222, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434224, downTime=434224, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434225, downTime=434225, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434227, downTime=434227, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434229, downTime=434229, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434230, downTime=434230, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(  534): GC_CONCURRENT freed 1350K, 72% free 4301K/14896K, paused 1ms+1ms, total 3ms
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaa2424 attribute=null, token = android.os.BinderProxy@4aa26f98
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+I/InputDispatcher(  481): Dropped event because of pending overdue app switch.
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  481): Input event injection from pid 8838 failed.
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abf1f18 attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_STB_POWER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434392, downTime=434392, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=2.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=434394, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434424, downTime=434424, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab2e0ac attribute=null, token = android.os.BinderProxy@4aa26f98
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_COMMA, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434478, downTime=434478, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  481): Input event injection from pid 8838 failed.
+W/InputManager(  481): Input event injection from pid 8838 failed.
+W/InputManager(  481): Input event injection from pid 8838 failed.
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac23e30 attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434513, downTime=434513, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+D/dalvikvm(  534): GC_FOR_ALLOC freed 325K, 72% free 4303K/14896K, paused 2ms, total 2ms
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434553, downTime=434553, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa40cb8 attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_PLAY_PAUSE, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434558, downTime=434558, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=1, eventTime=434561, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434591, downTime=434591, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac23eec attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434599, downTime=434599, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa34a24 attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_PAUSE, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434627, downTime=434627, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434630, downTime=434630, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434631, downTime=434631, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MOVE_HOME, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434632, downTime=434632, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa60ad8 attribute=null, token = android.os.BinderProxy@4aa26f98
+D/dalvikvm(  534): GC_CONCURRENT freed 219K, 70% free 4535K/14896K, paused 0ms+0ms, total 3ms
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_6, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434678, downTime=434678, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434678, downTime=434678, deviceId=-1, source=0x101 }
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abfd7f8 attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434805, downTime=434805, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434809, downTime=434809, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434811, downTime=434811, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434812, downTime=434812, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_H, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434814, downTime=434814, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_EISU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434815, downTime=434815, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434816, downTime=434816, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+D/dalvikvm( 8848): GC_CONCURRENT freed 465K, 10% free 5279K/5820K, paused 0ms+2ms, total 8ms
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4acc942c attribute=null, token = android.os.BinderProxy@4aa26f98
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+W/System.err( 8848): java.io.FileNotFoundException: /storage/emulated/0/SygicTruck/Android/settings.ini: open failed: ENOENT (No such file or directory)
+W/System.err( 8848): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+W/System.err( 8848): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/System.err( 8848): 	at java.io.FileReader.<init>(FileReader.java:42)
+W/System.err( 8848): 	at com.sygic.aura.settings.SettingsIni.loadFromFile(SettingsIni.java:61)
+W/System.err( 8848): 	at com.sygic.aura.settings.SettingsIni.load(SettingsIni.java:42)
+W/System.err( 8848): 	at com.sygic.aura.settings.SettingsIni.getInstance(SettingsIni.java:33)
+W/System.err( 8848): 	at com.sygic.aura.events.key.KeyEventServiceImpl.onKeyUp(KeyEventServiceImpl.java:108)
+W/System.err( 8848): 	at com.sygic.aura.events.EventService.onKeyUp(EventService.java:30)
+W/System.err( 8848): 	at com.sygic.aura.SygicActivityCore.onKeyUp(SygicActivityCore.java:543)
+W/System.err( 8848): 	at com.sygic.aura.SygicNaviActivity.onKeyUp(SygicNaviActivity.java:81)
+W/System.err( 8848): 	at android.view.KeyEvent.dispatch(KeyEvent.java:2664)
+W/System.err( 8848): 	at android.app.Activity.dispatchKeyEvent(Activity.java:2423)
+W/System.err( 8848): 	at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchKeyEvent(PhoneWindow.java:1962)
+W/System.err( 8848): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:3876)
+W/System.err( 8848): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3850)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 8848): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+W/System.err( 8848): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 8848): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3582)
+W/System.err( 8848): 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:3742)
+W/System.err( 8848): 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2010)
+W/System.err( 8848): 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:1704)
+W/System.err( 8848): 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:1695)
+W/System.err( 8848): 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:1987)
+W/System.err( 8848): 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+W/System.err( 8848): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+W/System.err( 8848): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+W/System.err( 8848): 	at android.os.Looper.loop(Looper.java:123)
+W/System.err( 8848): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err( 8848): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 8848): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 8848): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err( 8848): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err( 8848): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 8848): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err( 8848): 	at libcore.io.Posix.open(Native Method)
+W/System.err( 8848): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/System.err( 8848): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+W/System.err( 8848): 	... 43 more
+E/com.sygic.aura.settings.SettingsIni( 8848): settings.ini not loaded. Will try to reload
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+D/dalvikvm(  481): GC_FOR_ALLOC freed 1954K, 41% free 10845K/18080K, paused 14ms, total 14ms
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  534): animationTick called with dtms=-2; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434949, downTime=434949, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aca61cc attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=434976, downTime=434976, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=434978, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(  534): GC_CONCURRENT freed 539K, 70% free 4515K/14896K, paused 2ms+2ms, total 9ms
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aade390 attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=435044, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa32bf4 attribute=null, token = android.os.BinderProxy@4aa26f98
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435132, downTime=435132, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435132, downTime=435132, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 8848
+W/PhoneFallbackEventHandler( 8848): No activity found for android.intent.action.CALL_BUTTON.
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa1a158 attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435185, downTime=435185, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=435191, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435193, downTime=435193, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435201, downTime=435201, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435243, downTime=435243, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9ee8a0 attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435246, downTime=435246, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435251, downTime=435251, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 8848): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435266, downTime=435266, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa66404 attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435270, downTime=435270, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435287, downTime=435287, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa12778 attribute=null, token = android.os.BinderProxy@4aa26f98
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435319, downTime=435319, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=435328, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435328, downTime=435328, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435334, downTime=435334, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a96b0c8 attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_EQUALS, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435406, downTime=435406, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa239b4 attribute=null, token = android.os.BinderProxy@4aa26f98
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435470, downTime=435470, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435472, downTime=435472, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435473, downTime=435473, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435474, downTime=435474, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CAPTIONS, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435476, downTime=435476, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435477, downTime=435477, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435478, downTime=435478, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435517, downTime=435517, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa60a9c attribute=null, token = android.os.BinderProxy@4aa26f98
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  481): Input event injection from pid 8838 failed.
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9f00ec attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435713, downTime=435713, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435715, downTime=435715, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435719, downTime=435719, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_START, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435722, downTime=435722, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435722, downTime=435722, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 8848): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 8848): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 8848): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 8848): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=315.0, y[0]=-136.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=435768, downTime=435768, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 8848): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=306.5736, y[0]=-134.55688, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=435769, downTime=435768, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435774, downTime=435774, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7486c attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435776, downTime=435776, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab21728 attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435843, downTime=435843, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435846, downTime=435846, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435847, downTime=435847, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435848, downTime=435848, deviceId=-1, source=0x101 }
+D/dalvikvm(  534): GC_CONCURRENT freed 656K, 72% free 4310K/14896K, paused 0ms+1ms, total 5ms
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ace32a0 attribute=null, token = android.os.BinderProxy@4aa26f98
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=435913, downTime=435913, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(  481): GC_CONCURRENT freed 1909K, 41% free 10837K/18080K, paused 0ms+4ms, total 24ms
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac8221c attribute=null, token = android.os.BinderProxy@4aa26f98
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=436046, downTime=436046, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=436049, downTime=436049, deviceId=-1, source=0x101 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=436050, downTime=436050, deviceId=-1, source=0x101 }
+W/InputEventReceiver( 8848): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=436064, downTime=436064, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa45c34 attribute=null, token = android.os.BinderProxy@4aa26f98
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_X, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=436068, downTime=436068, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=436074, downTime=436074, deviceId=-1, source=0x101 }
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa2bebc attribute=null, token = android.os.BinderProxy@4aa26f98
+W/System.err( 8848): java.io.FileNotFoundException: /storage/emulated/0/SygicTruck/Android/settings.ini: open failed: ENOENT (No such file or directory)
+W/System.err( 8848): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+W/System.err( 8848): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/System.err( 8848): 	at java.io.FileReader.<init>(FileReader.java:42)
+W/System.err( 8848): 	at com.sygic.aura.settings.SettingsIni.loadFromFile(SettingsIni.java:61)
+W/System.err( 8848): 	at com.sygic.aura.settings.SettingsIni.load(SettingsIni.java:42)
+W/System.err( 8848): 	at com.sygic.aura.settings.SettingsIni.getInstance(SettingsIni.java:33)
+W/System.err( 8848): 	at com.sygic.aura.events.key.KeyEventServiceImpl.onKeyUp(KeyEventServiceImpl.java:108)
+W/System.err( 8848): 	at com.sygic.aura.events.EventService.onKeyUp(EventService.java:30)
+W/System.err( 8848): 	at com.sygic.aura.SygicActivityCore.onKeyUp(SygicActivityCore.java:543)
+W/System.err( 8848): 	at com.sygic.aura.SygicNaviActivity.onKeyUp(SygicNaviActivity.java:81)
+W/System.err( 8848): 	at android.view.KeyEvent.dispatch(KeyEvent.java:2664)
+W/System.err( 8848): 	at android.app.Activity.dispatchKeyEvent(Activity.java:2423)
+W/System.err( 8848): 	at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchKeyEvent(PhoneWindow.java:1962)
+W/System.err( 8848): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:3876)
+W/System.err( 8848): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3850)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 8848): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+W/System.err( 8848): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+W/System.err( 8848): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+W/System.err( 8848): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3582)
+W/System.err( 8848): 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:3742)
+W/System.err( 8848): 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2010)
+W/System.err( 8848): 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:1704)
+W/System.err( 8848): 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:1695)
+W/System.err( 8848): 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:1987)
+W/System.err( 8848): 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+W/System.err( 8848): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+W/System.err( 8848): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+W/System.err( 8848): 	at android.os.Looper.loop(Looper.java:123)
+W/System.err( 8848): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err( 8848): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 8848): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 8848): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err( 8848): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err( 8848): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 8848): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err( 8848): 	at libcore.io.Posix.open(Native Method)
+W/System.err( 8848): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/System.err( 8848): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+W/System.err( 8848): 	... 43 more
+E/com.sygic.aura.settings.SettingsIni( 8848): settings.ini not loaded. Will try to reload
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sygic.truck/.SygicNaviTruck} from pid 8838
+W/ViewRootImpl( 8848): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-1.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=4, eventTime=436111, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+D/com.facebook.AppEventsLogger( 8848): To set source application the context of activateApp must be an instance of Activity
+D/dalvikvm( 8848): GC_CONCURRENT freed 1603K, 28% free 4401K/6080K, paused 2ms+1ms, total 6ms
+E/ActivityThread( 8848): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa106c8 attribute=null, token = android.os.BinderProxy@4aa26f98
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 481
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 8848
+W/PhoneFallbackEventHandler( 8848): No activity found for android.intent.action.CALL_BUTTON.
+W/ViewRootImpl( 8848): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_K, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=436372, downTime=436372, deviceId=-1, source=0x101 }
+E/SurfaceFlinger(  167): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  167): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436
+D/SurfaceFlinger(  167): setOrientation, mFbdev=0xb9358050, mFbDev->setOrientation=0xb6967ce0, orientation=0
+I/gralloc_nox(  167): setOrientation: orientation=0
+I/ActivityManager(  481): Config changes=480 {1.0 310mcc16mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.26}
+D/Tinker.DefaultAppLike(  679): onConfigurationChanged:{1.0 310mcc16mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.26}
+I/InputReader(  481): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  481): Device reconfigured: id=1, name='seamless mouse', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  481): Device reconfigured: id=3, name='Android Input', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  481): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 0, mode 1, display id 0
+D/Sensors (  481): Client connection accepted (82)
+D/PhoneStatusBar(  534): mSettingsPanelGravity = 55
+D/        (  481): HostConnection::get() New Host Connection established 0xb8eec8f0, tid 491
+I/AndroidRuntime( 8838): VM exiting with result code 0.
+W/EGL_emulation(  534): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation( 8848): eglSurfaceAttrib not implemented 3093 12436

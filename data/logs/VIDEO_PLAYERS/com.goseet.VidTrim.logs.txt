@@ -1,0 +1,735 @@
+--------- beginning of /dev/log/main
+F/libc    (18624): Fatal signal 13 (SIGPIPE) at 0x000048c0 (code=0), thread 18624 (busybox)
+I/DEBUG   (  165): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  165): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  165): Revision: '0'
+I/DEBUG   (  165): pid: 18624, tid: 18624, name: busybox  >>> busybox <<<
+I/DEBUG   (  165): signal 13 (SIGPIPE), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   (  165):     eax ffffffe0  ebx 00000001  ecx b89cdfd0  edx 00000002
+I/DEBUG   (  165):     esi b75c6214  edi b89cdfd0
+I/DEBUG   (  165):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 00000000  xss 0000007b
+I/DEBUG   (  165):     eip b7561456  ebp b75c6214  esp bfb304d0  flags 00000202
+I/DEBUG   (  165): 
+I/DEBUG   (  165): backtrace:
+I/DEBUG   (  165):     #00  pc 0003c456  /system/lib/libc.so (write+22)
+I/DEBUG   (  165):     #01  pc 0000bab7  <unknown>
+I/DEBUG   (  165): 
+I/DEBUG   (  165): stack:
+I/DEBUG   (  165):          bfb30490  b7543fd7  /system/lib/libc.so (__swsetup+7)
+I/DEBUG   (  165):          bfb30494  b75c6214  /system/lib/libc.so
+I/DEBUG   (  165):          bfb30498  00000888  
+I/DEBUG   (  165):          bfb3049c  b756c6e7  /system/lib/libc.so
+I/DEBUG   (  165):          bfb304a0  b89cdfd1  [heap]
+I/DEBUG   (  165):          bfb304a4  b89cc920  [heap]
+I/DEBUG   (  165):          bfb304a8  00000001  
+I/DEBUG   (  165):          bfb304ac  b7537d4f  /system/lib/libc.so (dlmalloc+351)
+I/DEBUG   (  165):          bfb304b0  00000000  
+I/DEBUG   (  165):          bfb304b4  00000000  
+I/DEBUG   (  165):          bfb304b8  b7719b90  /system/bin/busybox
+I/DEBUG   (  165):          bfb304bc  b7642cc7  /system/bin/busybox (next_token+359)
+I/DEBUG   (  165):          bfb304c0  b89cc921  [heap]
+I/DEBUG   (  165):          bfb304c4  00000001  
+I/DEBUG   (  165):          bfb304c8  bfb30524  [stack]
+I/DEBUG   (  165):          bfb304cc  b75c5fcc  /system/lib/libc.so
+I/DEBUG   (  165):     #00  bfb304d0  b75d4ab8  
+I/DEBUG   (  165):          bfb304d4  00001000  
+I/DEBUG   (  165):          bfb304d8  b75c5fcc  /system/lib/libc.so
+I/DEBUG   (  165):          bfb304dc  b756cf17  /system/lib/libc.so (__swrite+103)
+I/DEBUG   (  165):          bfb304e0  00000001  
+I/DEBUG   (  165):          bfb304e4  b89cdfd0  [heap]
+I/DEBUG   (  165):          bfb304e8  00000002  
+I/DEBUG   (  165):          bfb304ec  b7542b33  /system/lib/libc.so (fputs+99)
+I/DEBUG   (  165):          bfb304f0  b75c6214  /system/lib/libc.so
+I/DEBUG   (  165):          bfb304f4  b75c5fcc  /system/lib/libc.so
+I/DEBUG   (  165):          bfb304f8  00000002  
+I/DEBUG   (  165):          bfb304fc  b756b0e9  /system/lib/libc.so (fflush+185)
+I/DEBUG   (  165):          bfb30500  b75c6214  /system/lib/libc.so
+I/DEBUG   (  165):          bfb30504  b89cdfd0  [heap]
+I/DEBUG   (  165):          bfb30508  00000002  
+I/DEBUG   (  165):          bfb3050c  b89cd980  [heap]
+--------- beginning of /dev/log/system
+W/NativeCrashListener(  485): Couldn't find ProcessRecord for pid 18624
+I/BootReceiver(  485): Copying /data/tombstones/tombstone_02 to DropBox (SYSTEM_TOMBSTONE)
+D/dalvikvm(  485): GC_EXPLICIT freed 267K, 29% free 18331K/25680K, paused 1ms+1ms, total 17ms
+D/AndroidRuntime(18629): 
+D/AndroidRuntime(18629): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(18629): CheckJNI is OFF
+D/dalvikvm(18629): Using executionMode 2
+D/dalvikvm(18629): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(18629): Added shared lib libjavacore.so 0x0
+D/dalvikvm(18629): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(18629): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(18629): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(18629): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(18629): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(18629): failed to load memtrack module: -2
+D/AndroidRuntime(18629): Calling main entry com.android.commands.monkey.Monkey
+W/BroadcastQueue(  485): Skipping deliver [background] BroadcastRecord{4aeb7820 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4ac0b3b0 18629 (unknown name)/0/u-1 remote:4ab9664c}: process crashing
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.goseet.VidTrim/.VideoChooser} from pid 18629
+D/yeshen  (  683): launcher onpause
+W/dalvikvm(13289): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm(13289): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.internal.view.k.onSearchRequested
+W/dalvikvm(13289): VFY: unable to resolve interface method 7125: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm(13289): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm(13289): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.internal.view.k.onWindowStartingActionMode
+W/dalvikvm(13289): VFY: unable to resolve interface method 7129: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm(13289): VFY: replacing opcode 0x72 at 0x0002
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10188, 1) failed with errno -13
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=com.goseet.VidTrim/com.goseet.activity.InitActivity (has extras)} from pid 13289
+D/dalvikvm(13289): GC_FOR_ALLOC freed 458K, 14% free 3416K/3936K, paused 10ms, total 13ms
+D/dalvikvm(13289): GC_CONCURRENT freed 5K, 13% free 3447K/3936K, paused 7ms+0ms, total 10ms
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+D/libEGL  (13289): loaded /system/lib/egl/libEGL_adreno.so
+D/        (13289): HostConnection::get() New Host Connection established 0xb8c81f90, tid 13289
+D/libEGL  (13289): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (13289): loaded /system/lib/egl/libGLESv2_adreno.so
+I/AssetInstaller(13289): Installing LobsterTwo-Bold.ttf to /data/user/0/com.goseet.VidTrim/files/vidtrim/LobsterTwo-Bold.ttf
+W/EGL_emulation(13289): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(13289): Trying to load lib /data/app-lib/com.goseet.VidTrim-1/libgoseet.so 0x94f2a298
+D/dalvikvm(13289): Added shared lib /data/app-lib/com.goseet.VidTrim-1/libgoseet.so 0x94f2a298
+D/dalvikvm(13289): No JNI_OnLoad found in /data/app-lib/com.goseet.VidTrim-1/libgoseet.so 0x94f2a298, skipping init
+V/AssetInstaller(13289): Cpu target: x86
+D/OpenGLRenderer(13289): Enabling debug mode 0
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3940733, downTime=3940733, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  485): Displayed com.goseet.VidTrim/com.goseet.activity.InitActivity: +504ms (total +535ms)
+D/dalvikvm( 1842): GC_CONCURRENT freed 2619K, 23% free 11197K/14476K, paused 8ms+2ms, total 51ms
+D/yeshen  (  683): launcher onstop
+D/VidTrim.FragmentState(13289): onDestroy
+W/InputMethodManagerService(  485): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa21d40 (uid=10188 pid=13289)
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3941370, downTime=3941370, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3941370, downTime=3941370, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=3941370, downTime=3941370, deviceId=-1, source=0x101 }
+I/WearableService(  660): Wearable Services stopping
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.activities.PeopleActivity bnds=[538,174][742,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10188, 0) failed with errno -13
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=874060&bid_id=DAE7wPWyKnCRwX4P2Z9WcWRv4gK2&imp_id=8xKGZJqXkmSg3jJRvvKLtnn5MvzZ&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab&android_id=2c56dc4e22148605 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=885515&bid_id=DAE7wPWyKnCRwX4P2Z9WcWRv4gK2&imp_id=n3NDAQGrNpHVvGEWB1j5FwpMpJE&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab cmp=com.android.browser/.BrowserActivity} from pid 683
+W/AudioFlinger(  171): write blocked for 9904 msecs, 69 delayed writes, thread 0xb4185010
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.goseet.VidTrim/.VideoChooser} from pid 18629
+D/yeshen  (  683): launcher onpause
+I/System.out(15563): body:<ea: java.net.Proxy a(android.content.Context,java.net.URI)>	sig:$r10 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:1
+I/System.out(15563): body:<ea: java.net.Proxy a(android.content.Context,java.net.URI)>	sig:$r11 = virtualinvoke $r10.<java.net.ProxySelector: java.util.List select(java.net.URI)>($r1)	timediff:0
+I/System.out(15563): body:<ea: org.apache.http.HttpHost b(android.content.Context,java.net.URI)>	sig:$r4 = virtualinvoke $r3.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:1
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10188, 1) failed with errno -13
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=com.goseet.VidTrim/com.goseet.activity.InitActivity (has extras)} from pid 13289
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+W/EGL_emulation(13289): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3943053, downTime=3943053, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(13289): GC_CONCURRENT freed 336K, 12% free 3496K/3972K, paused 9ms+1ms, total 35ms
+I/ActivityManager(  485): Displayed com.goseet.VidTrim/com.goseet.activity.InitActivity: +181ms (total +198ms)
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.goseet.VidTrim/.VideoChooser} from pid 18629
+I/AssetInstaller(13289): Installing LobsterTwo-Bold.ttf to /data/user/0/com.goseet.VidTrim/files/vidtrim/LobsterTwo-Bold.ttf
+D/VidTrim.FragmentState(13289): onDestroy
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+V/AssetInstaller(13289): Cpu target: x86
+W/InputManager(  485): Input event injection from pid 18629 failed.
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3943680, downTime=3943680, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+D/dalvikvm(  683): GC_FOR_ALLOC freed 6524K, 3% free 218787K/225436K, paused 93ms, total 94ms
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/WindowManager(  485): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  485): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3944228, downTime=3944228, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  485): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_G, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3944263, downTime=3944263, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 485
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera bnds=[742,174][946,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/ViewRootImpl(  485): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3944284, downTime=3944284, deviceId=-1, source=0x101 }
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10188, 0) failed with errno -13
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/InputEventReceiver(  485): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  485): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  485): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  485): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  485): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  485): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_DOWN(1), id[0]=0, x[0]=868.18286, y[0]=257.38165, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=376.0, y[1]=401.0, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=3944424, downTime=3944399, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  485): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=860.50073, y[0]=244.24338, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=348.52545, y[1]=417.51947, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=2, eventTime=3944429, downTime=3944399, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  485): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_UP(1), id[0]=0, x[0]=854.2943, y[0]=239.67236, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=341.75244, y[1]=425.987, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=3944430, downTime=3944399, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  485): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=849.6948, y[0]=236.51129, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3944431, downTime=3944399, deviceId=0, source=0x1002 }
+W/InputEventReceiver(  485): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  485): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  485): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  485): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  485): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=77.0, y[0]=423.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3944434, downTime=3944432, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  485): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=98.81979, y[0]=410.2085, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=3944438, downTime=3944432, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  485): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=113.785, y[0]=406.31555, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3944439, downTime=3944432, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  485): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=3944397, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab6e2ac attribute=android.view.inputmethod.EditorInfo@4ab97770, token = android.os.BinderProxy@4aa575b8
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.goseet.VidTrim/.VideoChooser} from pid 18629
+D/dalvikvm(  683): GC_CONCURRENT freed 3832K, 3% free 219039K/225436K, paused 3ms+52ms, total 423ms
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+D/yeshen  (  683): launcher onpause
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10188, 1) failed with errno -13
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=com.goseet.VidTrim/com.goseet.activity.InitActivity (has extras)} from pid 13289
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=894732&bid_id=DAE7wPWyKnCRwX4P2Z9WcWRv4gK2&imp_id=xWAQORw402hN1XN72YWOFr3y7D0&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab cmp=com.android.browser/.BrowserActivity} from pid 683
+W/EGL_emulation(13289): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3944544, downTime=3944544, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3944687, downTime=3944687, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  542): animationTick called with dtms=-13; nothing to do (h=0.0 v=0.0)
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): Displayed com.goseet.VidTrim/com.goseet.activity.InitActivity: +199ms (total +212ms)
+I/AssetInstaller(13289): Installing LobsterTwo-Bold.ttf to /data/user/0/com.goseet.VidTrim/files/vidtrim/LobsterTwo-Bold.ttf
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+D/VidTrim.FragmentState(13289): onDestroy
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+D/dalvikvm(13289): GC_FOR_ALLOC freed 286K, 12% free 3574K/4040K, paused 3ms, total 3ms
+I/dalvikvm-heap(13289): Grow heap (frag case) to 4.153MB for 635808-byte allocation
+D/dalvikvm(13289): GC_FOR_ALLOC freed 0K, 11% free 4195K/4664K, paused 9ms, total 9ms
+D/dalvikvm(13289): GC_CONCURRENT freed 3K, 11% free 4192K/4664K, paused 2ms+0ms, total 4ms
+D/dalvikvm(  683): GC_CONCURRENT freed 7889K, 4% free 219342K/227356K, paused 1ms+50ms, total 224ms
+D/dalvikvm(  683): WAIT_FOR_CONCURRENT_GC blocked 203ms
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 485
+D/dalvikvm(  683): WAIT_FOR_CONCURRENT_GC blocked 151ms
+V/AssetInstaller(13289): Cpu target: x86
+D/yeshen  (  683): launcher onstop
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_1, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3945259, downTime=3945259, deviceId=-1, source=0x101 }
+W/EGL_emulation(13289): eglSurfaceAttrib not implemented 3093 12436
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.goseet.VidTrim/.VideoChooser} from pid 18629
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3945378, downTime=3945378, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9ecd98 attribute=android.view.inputmethod.EditorInfo@4aab3e44, token = android.os.BinderProxy@4aa7c758
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+D/dalvikvm(  485): GC_FOR_ALLOC freed 3162K, 28% free 18735K/25680K, paused 21ms, total 24ms
+D/dalvikvm(  683): GC_CONCURRENT freed 8398K, 4% free 219137K/227660K, paused 3ms+40ms, total 163ms
+D/dalvikvm(  683): WAIT_FOR_CONCURRENT_GC blocked 86ms
+D/dalvikvm(  683): WAIT_FOR_CONCURRENT_GC blocked 116ms
+D/dalvikvm(  683): WAIT_FOR_CONCURRENT_GC blocked 8ms
+D/FirebaseApp(  683): Notifying background state change listeners.
+I/InputDispatcher(  485): Dropped event because of pending overdue app switch.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=3945726, downTime=-1, deviceId=0, source=0x10004 }
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+D/dalvikvm(  683): GC_CONCURRENT freed 8236K, 4% free 219059K/227660K, paused 2ms+35ms, total 134ms
+D/dalvikvm(  683): WAIT_FOR_CONCURRENT_GC blocked 128ms
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_Z, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3945742, downTime=3945742, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+F/libc    (18708): Fatal signal 13 (SIGPIPE) at 0x00004914 (code=0), thread 18708 (busybox)
+I/DEBUG   (  165): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  165): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   (  165): Revision: '0'
+I/DEBUG   (  165): pid: 18708, tid: 18708, name: busybox  >>> busybox <<<
+I/DEBUG   (  165): signal 13 (SIGPIPE), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   (  165):     eax ffffffe0  ebx 00000001  ecx b82befd0  edx 00000002
+I/DEBUG   (  165): AM write failure (32 / Broken pipe)
+I/DEBUG   (  165):     esi b76ab214  edi b82befd0
+I/DEBUG   (  165):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 00000000  xss 0000007b
+I/DEBUG   (  165):     eip b7646456  ebp b76ab214  esp bf8771c0  flags 00000202
+I/DEBUG   (  165): 
+I/DEBUG   (  165): backtrace:
+I/DEBUG   (  165):     #00  pc 0003c456  /system/lib/libc.so (write+22)
+I/DEBUG   (  165):     #01  pc 0000bab7  <unknown>
+I/DEBUG   (  165): 
+I/DEBUG   (  165): stack:
+I/DEBUG   (  165):          bf877180  b7628fd7  /system/lib/libc.so (__swsetup+7)
+I/DEBUG   (  165):          bf877184  b76ab214  /system/lib/libc.so
+I/DEBUG   (  165):          bf877188  00000888  
+I/DEBUG   (  165):          bf87718c  b76516e7  /system/lib/libc.so
+I/DEBUG   (  165):          bf877190  b82befd1  [heap]
+I/DEBUG   (  165):          bf877194  b82bd920  [heap]
+I/DEBUG   (  165):          bf877198  00000001  
+I/DEBUG   (  165):          bf87719c  b761cd4f  /system/lib/libc.so (dlmalloc+351)
+I/DEBUG   (  165):          bf8771a0  00000000  
+I/DEBUG   (  165):          bf8771a4  00000000  
+I/DEBUG   (  165):          bf8771a8  b77feb90  /system/bin/busybox
+I/DEBUG   (  165):          bf8771ac  b7727cc7  /system/bin/busybox (next_token+359)
+I/DEBUG   (  165):          bf8771b0  b82bd921  [heap]
+I/DEBUG   (  165):          bf8771b4  00000001  
+I/DEBUG   (  165):          bf8771b8  bf877214  [stack]
+I/DEBUG   (  165):          bf8771bc  b76aafcc  /system/lib/libc.so
+I/DEBUG   (  165):     #00  bf8771c0  b76b9ab8  
+I/DEBUG   (  165):          bf8771c4  00001000  
+I/DEBUG   (  165):          bf8771c8  b76aafcc  /system/lib/libc.so
+I/DEBUG   (  165):          bf8771cc  b7651f17  /system/lib/libc.so (__swrite+103)
+I/DEBUG   (  165):          bf8771d0  00000001  
+I/DEBUG   (  165):          bf8771d4  b82befd0  [heap]
+I/DEBUG   (  165):          bf8771d8  00000002  
+I/DEBUG   (  165):          bf8771dc  b7627b33  /system/lib/libc.so (fputs+99)
+I/DEBUG   (  165):          bf8771e0  b76ab214  /system/lib/libc.so
+I/DEBUG   (  165):          bf8771e4  b76aafcc  /system/lib/libc.so
+I/DEBUG   (  165):          bf8771e8  00000002  
+I/DEBUG   (  165):          bf8771ec  b76500e9  /system/lib/libc.so (fflush+185)
+I/DEBUG   (  165):          bf8771f0  b76ab214  /system/lib/libc.so
+I/DEBUG   (  165):          bf8771f4  b82befd0  [heap]
+I/DEBUG   (  165):          bf8771f8  00000002  
+I/DEBUG   (  165):          bf8771fc  b82be980  [heap]
+W/NativeCrashListener(  485): Couldn't find ProcessRecord for pid 18708
+I/BootReceiver(  485): Copying /data/tombstones/tombstone_05 to DropBox (SYSTEM_TOMBSTONE)
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vphone.helper/.MainActivity bnds=[946,174][1150,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vphone.helper/.MainActivity bnds=[946,174][1150,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=894732&bid_id=DAE7wPWyKnCRwX4P2Z9WcWRv4gK2&imp_id=xWAQORw402hN1XN72YWOFr3y7D0&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab cmp=com.android.browser/.BrowserActivity} from pid 683
+D/dalvikvm(  683): GC_CONCURRENT freed 6369K, 3% free 220881K/227660K, paused 2ms+19ms, total 131ms
+D/dalvikvm(  683): WAIT_FOR_CONCURRENT_GC blocked 121ms
+D/dalvikvm(  683): WAIT_FOR_CONCURRENT_GC blocked 115ms
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+D/dalvikvm(  683): WAIT_FOR_CONCURRENT_GC blocked 118ms
+D/dalvikvm(  683): WAIT_FOR_CONCURRENT_GC blocked 126ms
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.activities.PeopleActivity bnds=[538,174][742,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vphone.helper/.MainActivity bnds=[946,174][1150,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/Launcher(  683): No global search activity found.
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1020 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 com.vphone.launcher.utils.AppUtil.onQsbClicked:1474 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1032 android.app.ContextImpl.startActivity:1021 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=https://www.bignox.com/gsearch/index?g=32c3adf2-4ef0-4bfa-9817-0931a0a194ab&a=2c56dc4e22148605&i=355325040445621&m=2C:56:DC:4E:22:14 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.extremefungames.mototrafficrace2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.bbqstudio.bbqqoversea flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/Launcher(  683): No global search activity found.
+W/Launcher(  683): No global search activity found.
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.BCG.ForteCraft flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/Launcher(  683): No global search activity found.
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera bnds=[-60,174][144,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.dts.freefireth flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 485
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.cauagamesoft.carrossocadosbrasil flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+I/MediaButtonReceiver(15126): event : ACTION_DOWN3
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingangelafree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/Launcher(  683): No global search activity found.
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.kiloo.subwaysurf flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+E/WakeLock(  660): release without a matched acquire!
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.sega.sonicdash flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+I/MusicPlayService(15126): action:music_action_play_pause
+I/MusicPlayer(15126): startOrPause()
+I/MusicPlayer(15126): start()
+E/MusicQueue(15126): 列表为空
+E/MusicQueue(15126): 列表为空
+E/MusicQueue(15126): 列表为空
+D/MusicPlayService(15126): doUpdateWidget
+E/MusicQueue(15126): 列表为空
+D/dalvikvm(15126): GC_FOR_ALLOC freed 3472K, 46% free 5472K/10004K, paused 2ms, total 2ms
+I/dalvikvm-heap(15126): Grow heap (frag case) to 6.962MB for 1638412-byte allocation
+D/dalvikvm(15126): GC_CONCURRENT freed 0K, 30% free 7072K/10004K, paused 0ms+0ms, total 3ms
+D/dalvikvm(15126): GC_FOR_ALLOC freed <1K, 30% free 7072K/10004K, paused 2ms, total 2ms
+I/dalvikvm-heap(15126): Grow heap (frag case) to 8.720MB for 1843212-byte allocation
+D/dalvikvm(15126): GC_FOR_ALLOC freed 0K, 12% free 8872K/10004K, paused 4ms, total 4ms
+D/dalvikvm(15126): GC_CONCURRENT freed 3401K, 18% free 5471K/6604K, paused 0ms+1ms, total 3ms
+I/Widget2x2Transparent(15126): appWidgetIds为空
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=air.com.hypah.io.slither flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  542): animationTick called with dtms=-2; nothing to do (h=0.0 v=-0.0)
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/Launcher(  683): No global search activity found.
+W/SocketClient(  164): write error (Broken pipe)
+W/WindowManager(  485): updateFocusedWindowLocked, focusedAppToken is null.
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/ViewRootImpl(  542): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_REWIND, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3950136, downTime=3950136, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.cauagamesoft.carrossocadosbrasil flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/InputMethodManagerService(  485): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9d250c (uid=1000 pid=683)
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10188, 0) failed with errno -13
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  542): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  542): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=713.5481, y[0]=-267.59766, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3950418, downTime=3950414, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  542): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_ENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3950389, downTime=3950389, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  683): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=3950427, downTime=-1, deviceId=0, source=0x10004 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.namcobandaigames.pacmantournaments flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=net.mobigame.zombietsunami flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : music_action_stop
+I/MusicPlayService(15126): action:music_action_stop
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+W/Launcher(  683): No global search activity found.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.activities.PeopleActivity bnds=[538,174][742,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.netfreegames.mw flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.netfreegames.mw flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.netfreegames.mw flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+D/ConnectivityService(  485): handleInetConditionHoldEnd: net=1, condition=0, published condition=0
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=net.mobigame.zombietsunami flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.extremefungames.mototrafficrace2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.extremefungames.mototrafficrace2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+I/System.out(15533): body:<com.baidu.android.pushservice.d.g: void a(java.util.List)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.miniclip.eightballpool flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/Launcher(  683): No global search activity found.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.goseet.VidTrim/.VideoChooser} from pid 18629
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+D/yeshen  (  683): launcher onpause
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10188, 1) failed with errno -13
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=com.goseet.VidTrim/com.goseet.activity.InitActivity (has extras)} from pid 13289
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+W/EGL_emulation(13289): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SHIFT_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3952963, downTime=3952963, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/AssetInstaller(13289): Installing LobsterTwo-Bold.ttf to /data/user/0/com.goseet.VidTrim/files/vidtrim/LobsterTwo-Bold.ttf
+V/AssetInstaller(13289): Cpu target: x86
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : music_action_stop
+I/MusicPlayService(15126): action:music_action_stop
+I/ActivityManager(  485): Displayed com.goseet.VidTrim/com.goseet.activity.InitActivity: +368ms (total +384ms)
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+D/VidTrim.FragmentState(13289): onDestroy
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+W/InputMethodManagerService(  485): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa21d40 (uid=10188 pid=13289)
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3953429, downTime=3953429, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Launcher(  683): No global search activity found.
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.supercell.clashroyale flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10188, 0) failed with errno -13
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.billiards.city.pool.nation.club flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.billiards.city.pool.nation.club flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.billiards.city.pool.nation.club flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+D/dalvikvm(  683): GC_CONCURRENT freed 7721K, 4% free 221264K/229112K, paused 1ms+33ms, total 171ms
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.dts.freefireth flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.dts.freefireth flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : music_action_next
+I/MusicPlayService(15126): action:music_action_next
+I/MusicPlayer(15126): next()
+E/MusicQueue(15126): 列表为空
+D/MusicPlayService(15126): doUpdateWidget
+E/MusicQueue(15126): 列表为空
+I/MusicPlayer(15126): start()
+E/MusicQueue(15126): 列表为空
+E/MusicQueue(15126): 列表为空
+E/MusicQueue(15126): 列表为空
+D/MusicPlayService(15126): doUpdateWidget
+E/MusicQueue(15126): 列表为空
+D/dalvikvm(  485): GC_FOR_ALLOC freed 3797K, 27% free 18793K/25680K, paused 21ms, total 21ms
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+I/Widget2x2Transparent(15126): appWidgetIds为空
+D/dalvikvm(  485): GC_FOR_ALLOC freed 996K, 26% free 19076K/25680K, paused 14ms, total 14ms
+I/Widget2x2Transparent(15126): appWidgetIds为空
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.billiards.city.pool.nation.club flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/Launcher(  683): No global search activity found.
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.billiards.city.pool.nation.club flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/Launcher(  683): No global search activity found.
+W/Launcher(  683): No global search activity found.
+W/Launcher(  683): No global search activity found.
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.supercell.clashroyale flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.goseet.VidTrim/.VideoChooser} from pid 18629
+D/yeshen  (  683): launcher onpause
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10188, 1) failed with errno -13
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+D/dalvikvm(13289): GC_CONCURRENT freed 367K, 10% free 4215K/4680K, paused 7ms+1ms, total 13ms
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=com.goseet.VidTrim/com.goseet.activity.InitActivity (has extras)} from pid 13289
+D/dalvikvm(13289): GC_FOR_ALLOC freed 769K, 25% free 3629K/4784K, paused 3ms, total 5ms
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+W/EGL_emulation(13289): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/AssetInstaller(13289): Installing LobsterTwo-Bold.ttf to /data/user/0/com.goseet.VidTrim/files/vidtrim/LobsterTwo-Bold.ttf
+I/ActivityManager(  485): Displayed com.goseet.VidTrim/com.goseet.activity.InitActivity: +221ms (total +251ms)
+D/VidTrim.FragmentState(13289): onDestroy
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+V/AssetInstaller(13289): Cpu target: x86
+D/dalvikvm(13289): GC_FOR_ALLOC freed 330K, 27% free 3522K/4784K, paused 3ms, total 3ms
+I/dalvikvm-heap(13289): Grow heap (frag case) to 4.102MB for 635808-byte allocation
+D/dalvikvm(13289): GC_CONCURRENT freed <1K, 24% free 4142K/5408K, paused 3ms+2ms, total 7ms
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3956271, downTime=3956271, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.namcobandaigames.pacmantournaments flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.extremefungames.mototrafficrace2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 485
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10188, 0) failed with errno -13
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=881738&bid_id=DAE7wPWyKnCRwX4P2Z9WcWRv4gK2&imp_id=AgOw37Mp9jix1AnoYP2oUWnE73r&p_id=f2941347-09b5-42a5-a267-6f46fea242bf&mac=2C:56:DC:4E:22:14&imei=355325040445621&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab&android_id=2c56dc4e22148605 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/Launcher(  683): No global search activity found.
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=894732&bid_id=DAE7wPWyKnCRwX4P2Z9WcWRv4gK2&imp_id=xWAQORw402hN1XN72YWOFr3y7D0&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab cmp=com.android.browser/.BrowserActivity} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/InputDispatcher(  485): Dropped event because of pending overdue app switch.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.supercell.clashroyale flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/SocketClient(  164): write error (Broken pipe)
+W/SocketClient(  164): write error (Broken pipe)
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.bbqstudio.bbqqoversea flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/Launcher(  683): No global search activity found.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 485
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.cauagamesoft.carrossocadosbrasil flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.supercell.clashroyale flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.goseet.VidTrim/.VideoChooser} from pid 18629
+D/yeshen  (  683): launcher onpause
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10188, 1) failed with errno -13
+W/InputManager(  485): Input event injection from pid 18629 failed.
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+W/InputManager(  485): Input event injection from pid 18629 failed.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=com.goseet.VidTrim/com.goseet.activity.InitActivity (has extras)} from pid 13289
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+W/EGL_emulation(13289): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  485): Displayed com.goseet.VidTrim/com.goseet.activity.InitActivity: +158ms (total +181ms)
+I/AssetInstaller(13289): Installing LobsterTwo-Bold.ttf to /data/user/0/com.goseet.VidTrim/files/vidtrim/LobsterTwo-Bold.ttf
+V/AssetInstaller(13289): Cpu target: x86
+D/yeshen  (  683): launcher onstop
+D/VidTrim.FragmentState(13289): onDestroy
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.goseet.VidTrim/.VideoChooser} from pid 18629
+D/dalvikvm(  485): GC_FOR_ALLOC freed 3003K, 29% free 18437K/25680K, paused 20ms, total 21ms
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_COMMA, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3960543, downTime=3960543, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.goseet.VidTrim/.VideoChooser} from pid 18629
+D/yeshen  (  683): launcher onpause
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=com.goseet.VidTrim/com.goseet.activity.InitActivity (has extras)} from pid 13289
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+D/dalvikvm(13289): GC_CONCURRENT freed 287K, 22% free 4255K/5404K, paused 2ms+21ms, total 32ms
+W/EGL_emulation(13289): eglSurfaceAttrib not implemented 3093 12436
+I/AssetInstaller(13289): Installing LobsterTwo-Bold.ttf to /data/user/0/com.goseet.VidTrim/files/vidtrim/LobsterTwo-Bold.ttf
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3961436, downTime=3961436, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/VidTrim.FragmentState(13289): onDestroy
+I/ActivityManager(  485): Displayed com.goseet.VidTrim/com.goseet.activity.InitActivity: +203ms (total +211ms)
+V/AssetInstaller(13289): Cpu target: x86
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3962125, downTime=3962125, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Launcher(  683): No global search activity found.
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.cauagamesoft.carrossocadosbrasil flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.BCG.ForteCraft flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.cauagamesoft.carrossocadosbrasil flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.goseet.VidTrim/.VideoChooser} from pid 18629
+D/yeshen  (  683): launcher onpause
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=com.goseet.VidTrim/com.goseet.activity.InitActivity (has extras)} from pid 13289
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+W/EGL_emulation(13289): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_RIGHT_PAREN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3963209, downTime=3963209, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/AssetInstaller(13289): Installing LobsterTwo-Bold.ttf to /data/user/0/com.goseet.VidTrim/files/vidtrim/LobsterTwo-Bold.ttf
+I/ActivityManager(  485): Displayed com.goseet.VidTrim/com.goseet.activity.InitActivity: +139ms (total +198ms)
+D/VidTrim.FragmentState(13289): onDestroy
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.goseet.VidTrim/.VideoChooser} from pid 18629
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  542): animationTick called with dtms=-11; nothing to do (h=0.0 v=-0.0)
+D/dalvikvm(13289): GC_CONCURRENT freed 377K, 21% free 4278K/5404K, paused 6ms+5ms, total 17ms
+V/AssetInstaller(13289): Cpu target: x86
+D/yeshen  (  683): launcher onstop
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+D/dalvikvm(13289): GC_FOR_ALLOC freed 834K, 35% free 3521K/5404K, paused 3ms, total 3ms
+I/dalvikvm-heap(13289): Grow heap (frag case) to 4.101MB for 635808-byte allocation
+D/dalvikvm(13289): GC_CONCURRENT freed <1K, 24% free 4142K/5404K, paused 1ms+3ms, total 5ms
+W/EGL_emulation(13289): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_MULTIPLY, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3963852, downTime=3963852, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9940c0 attribute=null, token = android.os.BinderProxy@4aa02c28
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/EGL_emulation(13289): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3964215, downTime=3964215, deviceId=-1, source=0x101 }
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aacb544 attribute=android.view.inputmethod.EditorInfo@4adabe94, token = android.os.BinderProxy@4aa02c28
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3964351, downTime=3964351, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3964362, downTime=3964362, deviceId=-1, source=0x101 }
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3964367, downTime=3964367, deviceId=-1, source=0x101 }
+W/EGL_emulation(13289): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3964426, downTime=3964426, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaa4430 attribute=android.view.inputmethod.EditorInfo@4aebbde4, token = android.os.BinderProxy@4aa02c28
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3964464, downTime=3964464, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Launcher(  683): No global search activity found.
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : music_action_stop
+I/MusicPlayService(15126): action:music_action_stop
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+W/Launcher(  683): No global search activity found.
+W/Launcher(  683): No global search activity found.
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vphone.helper/.MainActivity bnds=[69,174][273,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  542): animationTick called with dtms=-7; nothing to do (h=0.0 v=-0.0)
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyanogenmod.filemanager/.activities.NavigationActivity bnds=[-9,174][195,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.goseet.VidTrim/.VideoChooser} from pid 18629
+D/dalvikvm(  485): GC_CONCURRENT freed 3328K, 27% free 18908K/25680K, paused 3ms+2ms, total 23ms
+D/yeshen  (  683): launcher onpause
+W/InputManager(  485): Input event injection from pid 18629 failed.
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cmp=com.goseet.VidTrim/com.goseet.activity.InitActivity (has extras)} from pid 13289
+W/InputManager(  485): Input event injection from pid 18629 failed.
+V/AssetInstaller(13289): old SHASUM:  new SHASUM: 75dbb2edeb243b99311700e54e51dd6525871ea6
+W/EGL_emulation(13289): eglSurfaceAttrib not implemented 3093 12436
+D/VidTrim.FragmentState(13289): onDestroy
+W/ViewRootImpl(13289): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3966309, downTime=3966309, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/AssetInstaller(13289): Installing LobsterTwo-Bold.ttf to /data/user/0/com.goseet.VidTrim/files/vidtrim/LobsterTwo-Bold.ttf
+V/AssetInstaller(13289): Cpu target: x86
+I/ActivityManager(  485): Displayed com.goseet.VidTrim/com.goseet.activity.InitActivity: +365ms (total +408ms)
+D/yeshen  (  683): launcher onstop
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3967058, downTime=3967058, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 485
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/InputDispatcher(  485): Dropped event because of pending overdue app switch.
+W/InputManager(  485): Input event injection from pid 18629 failed.
+W/Launcher(  683): No global search activity found.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[130,174][334,301] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/AndroidRuntime(18629): VM exiting with result code 0.

@@ -1,0 +1,1136 @@
+--------- beginning of /dev/log/system
+I/ActivityManager(  479): Resuming delayed broadcast
+I/ActivityManager(  479): Delay finish: com.android.gallery3d/.app.PackagesMonitor
+--------- beginning of /dev/log/main
+I/Finsky  (  940): [1] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for auto_install
+I/Finsky  (  940): [1] com.google.android.finsky.wear.ar.a(80): Connecting to wearable; initiated by: com.google.android.finsky.wear.WearSupportService
+I/ActivityManager(  479): Resuming delayed broadcast
+I/WearableService(  654): Wearable Services not starting - Wear is not available on this device.
+I/Finsky  (  940): [1] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for send_installed_apps
+I/Finsky  (  940): [1] com.google.android.finsky.externalreferrer.c.run(11): Package state data is missing for com.merriamwebster
+D/WearableService(  654): onGetService - Wear is not available on this device.
+E/Finsky  (  940): [1] com.google.android.finsky.wear.au.a(3): onConnectionFailed: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+W/Finsky  (  940): [1] com.google.android.finsky.wear.cd.run(12): Dropping command=auto_install due to Gms not connected
+I/Finsky  (  940): [1] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+W/Finsky  (  940): [1] com.google.android.finsky.wear.cd.run(12): Dropping command=send_installed_apps due to Gms not connected
+I/Finsky  (  940): [1] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+I/Icing   (  720): Indexing 9EBFE84EABD9270B25A97439CA522B4FC49A4875 from com.google.android.gms
+I/Icing   (  720): Indexing done 9EBFE84EABD9270B25A97439CA522B4FC49A4875
+D/AndroidRuntime( 5486): 
+D/AndroidRuntime( 5486): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 5486): CheckJNI is OFF
+D/dalvikvm( 5486): Using executionMode 2
+D/dalvikvm( 5486): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 5486): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 5486): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 5486): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 5486): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 5486): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 5486): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5486): failed to load memtrack module: -2
+D/AndroidRuntime( 5486): Calling main entry com.android.commands.monkey.Monkey
+W/BroadcastQueue(  479): Skipping deliver [background] BroadcastRecord{4aa2fab8 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4aa03a28 5486 (unknown name)/0/u-1 remote:4a9f2c64}: process crashing
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+I/ActivityManager(  479): Start proc com.merriamwebster for activity com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity: pid=5496 uid=10046 gids={50046, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  479): setKernelCountSet(10046, 1) failed with errno -13
+I/dalvikvm( 5496): ignoring registerObject request in thread=1
+I/dalvikvm( 5496): ignoring registerObject request in thread=1
+I/MultiDex( 5496): VM with version 1.6.0 does not have multidex support
+I/MultiDex( 5496): install
+I/MultiDex( 5496): MultiDexExtractor.load(/data/app/com.merriamwebster-1.apk, false)
+I/MultiDex( 5496): Detected that extraction must be performed.
+D/dalvikvm( 5496): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 5496): GC_CONCURRENT freed 144K, 7% free 3100K/3308K, paused 5ms+0ms, total 14ms
+I/MultiDex( 5496): load found 0 secondary dex files
+I/MultiDex( 5496): install done
+V/WebViewChromium( 5496): Binding Chromium to the main looper Looper (main, tid 1) {4a7caa24}
+I/chromium( 5496): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain( 5496): Initializing chromium process, renderers=0
+W/chromium( 5496): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/libEGL  ( 5496): loaded /system/lib/egl/libEGL_adreno.so
+D/        ( 5496): HostConnection::get() New Host Connection established 0xb8bd4910, tid 5496
+D/libEGL  ( 5496): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 5496): loaded /system/lib/egl/libGLESv2_adreno.so
+E/dalvikvm( 5496): Could not find class 'com.flurry.sdk.i', referenced from method com.flurry.sdk.md.a
+W/dalvikvm( 5496): VFY: unable to resolve const-class 2120 (Lcom/flurry/sdk/i;) in Lcom/flurry/sdk/md;
+D/dalvikvm( 5496): VFY: replacing opcode 0x1c at 0x0020
+I/dalvikvm( 5496): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zzh
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 1074: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 5496): VFY: replacing opcode 0x6e at 0x000a
+D/dalvikvm( 5496): GC_CONCURRENT freed 191K, 8% free 3296K/3552K, paused 1ms+0ms, total 3ms
+D/dalvikvm( 5496): GC_CONCURRENT freed 432K, 13% free 3361K/3860K, paused 7ms+0ms, total 11ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 7ms
+D/dalvikvm( 5496): GC_FOR_ALLOC freed 142K, 14% free 3385K/3920K, paused 9ms, total 9ms
+I/CrashlyticsCore( 5496): Initializing Crashlytics 2.3.6.92
+W/dalvikvm( 5496): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm( 5496): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 5496): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 52180: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm( 5496): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm( 5496): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm( 5496): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 5496): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm( 5496): VFY: unable to resolve interface method 52174: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm( 5496): VFY: replacing opcode 0x72 at 0x0006
+I/System.out( 5496): body:<com.stanfy.enroscar.rest.b.a.a: void <init>(android.content.Context)>	sig:specialinvoke $r0.<java.net.ContentHandler: void <init>()>()	timediff:0
+I/qtaguid (  720): Tagging socket 134 with tag 3000330000000000(805319424) for uid -1 failed errno=-13
+I/System.out( 5496): body:<com.merriamwebster.dictionary.MerriamWebsterDictionary: void onCreate()>	sig:staticinvoke <java.net.URL: void setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)>($r20)	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.MerriamWebsterDictionary: void onCreate()>	sig:staticinvoke <java.net.URLConnection: void setContentHandlerFactory(java.net.ContentHandlerFactory)>($r21)	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.MerriamWebsterDictionary: void onCreate()>	sig:$r22 = staticinvoke <java.net.ResponseCache: java.net.ResponseCache getDefault()>()	timediff:0
+I/System.out( 5496): body:<com.stanfy.enroscar.g.a.e: void <init>()>	sig:specialinvoke $r0.<java.net.ResponseCache: void <init>()>()	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.MerriamWebsterDictionary: void onCreate()>	sig:staticinvoke <java.net.ResponseCache: void setDefault(java.net.ResponseCache)>($r23)	timediff:0
+D/dalvikvm( 5496): GC_CONCURRENT freed 464K, 16% free 3307K/3928K, paused 3ms+0ms, total 6ms
+I/dalvikvm( 5496): Could not find method android.view.ViewGroup.<init>, referenced from method com.merriamwebster.dictionary.widget.LogoView.<init>
+W/dalvikvm( 5496): VFY: unable to resolve direct method 8614: Landroid/view/ViewGroup;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+D/dalvikvm( 5496): VFY: replacing opcode 0x70 at 0x0000
+D/dalvikvm( 5496): GC_FOR_ALLOC freed 68K, 16% free 3335K/3928K, paused 3ms, total 4ms
+I/NetworkManagementSocketTagger(  720): tagSocketFd(134, 805319424, -1) failed with errno-13
+I/dalvikvm-heap( 5496): Grow heap (frag case) to 5.182MB for 1957212-byte allocation
+D/dalvikvm( 5496): GC_FOR_ALLOC freed <1K, 11% free 5246K/5840K, paused 4ms, total 4ms
+D/dalvikvm( 5496): GC_CONCURRENT freed 42K, 10% free 5279K/5840K, paused 2ms+20ms, total 34ms
+I/qtaguid (  720): Untagging socket 134 failed errno=-13
+W/NetworkManagementSocketTagger(  720): untagSocket(134) failed with errno -13
+D/dalvikvm( 5496): GC_FOR_ALLOC freed 92K, 10% free 5348K/5896K, paused 3ms, total 4ms
+I/dalvikvm-heap( 5496): Grow heap (frag case) to 5.887MB for 635808-byte allocation
+D/dalvikvm( 5496): GC_FOR_ALLOC freed 5K, 9% free 5963K/6520K, paused 2ms, total 2ms
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>	sig:$r9 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r9, "UTF-8")	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>	sig:specialinvoke $r12.<java.net.URL: void <init>(java.lang.String)>($r9)	timediff:0
+I/System.out( 5496): <com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>###specialinvoke $r12.<java.net.URL: void <init>(java.lang.String)>($r9)###http://api.taboola.com/1.1/json/merriamwebster-androidapp/recommendations.get?app.type=mobile&app.apikey=7707597a5acaf13aab27c61ebeb1bc3a3212c395&rec.count=1&source.type=home&source.id=http://www.merriam-webster.com/&user.session=init&source.url=http://www.merriam-webster.com/&rec.type=mix&rec.thumbnail.width=252&rec.thumbnail.height=189&rec.visible=false&source.placement=app-homepage-Android-tablet&user.referrer=mw-app-android
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>	sig:$r13 = virtualinvoke $r12.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:178
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>	sig:virtualinvoke $r14.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("GET")	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>	sig:virtualinvoke $r14.<java.net.HttpURLConnection: void connect()>()	timediff:192
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=465698, downTime=465698, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=466620, downTime=466620, deviceId=-1, source=0x101 }
+D/dalvikvm( 5496): GC_CONCURRENT freed 460K, 8% free 6426K/6956K, paused 2ms+1ms, total 8ms
+W/ViewRootImpl( 5496): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=466634, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=466634, downTime=466634, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=466678, downTime=466678, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=466679, downTime=466679, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=466680, downTime=466680, deviceId=-1, source=0x101 }
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+I/WindowManager(  479): Switching to real app window: Window{4a9ffe48 u0 com.merriamwebster/com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity}
+W/IInputConnectionWrapper( 2025): showStatusIcon on inactive InputConnection
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): Displayed com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity: +1s88ms
+I/System.out( 5496): body:<com.flurry.sdk.kp: void r()>	sig:specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 5496): <com.flurry.sdk.kp: void r()>###specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r1)###https://data.flurry.com/aap.do
+I/System.out( 5496): body:<com.flurry.sdk.kp: void r()>	sig:$r7 = virtualinvoke $r6.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 5496): body:<com.flurry.sdk.kp: void r()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out( 5496): body:<com.flurry.sdk.kp: void r()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out( 5496): body:<com.flurry.sdk.kp: void r()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r1)	timediff:0
+I/System.out( 5496): body:<com.flurry.sdk.kp: void r()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>($z0)	timediff:0
+I/System.out( 5496): body:<com.flurry.sdk.kp: void r()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setDoOutput(boolean)>($z0)	timediff:0
+I/System.out( 5496): body:<com.flurry.sdk.kp: void r()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out( 5496): body:<com.flurry.sdk.kp: void r()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void addRequestProperty(java.lang.String,java.lang.String)>($r1, $r13)	timediff:0
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+I/System.out( 5496): body:<com.lotame.android.CrowdControl: void append(java.lang.StringBuilder,com.lotame.android.AtomParameter)>	sig:$r4 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r4, "UTF-8")	timediff:0
+I/System.out( 5496): body:<com.lotame.android.CrowdControl: void append(java.lang.StringBuilder,com.lotame.android.AtomParameter)>	sig:$r4 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r4, "UTF-8")	timediff:0
+I/System.out( 5496): body:<com.lotame.android.CrowdControl: void append(java.lang.StringBuilder,com.lotame.android.AtomParameter)>	sig:$r4 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r4, "UTF-8")	timediff:0
+I/System.out( 5496): body:<com.lotame.android.CrowdControl: void append(java.lang.StringBuilder,com.lotame.android.AtomParameter)>	sig:$r4 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r4, "UTF-8")	timediff:0
+I/System.out( 5496): body:<com.lotame.android.CrowdControl: void append(java.lang.StringBuilder,com.lotame.android.AtomParameter)>	sig:$r4 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r4, "UTF-8")	timediff:0
+W/NetworkManagementSocketTagger(  479): setKernelCountSet(10007, 0) failed with errno -13
+D/dalvikvm( 5496): GC_CONCURRENT freed 770K, 12% free 6724K/7560K, paused 1ms+0ms, total 18ms
+I/System.out( 5496): body:<com.flurry.sdk.kp: void r()>	sig:$r15 = virtualinvoke $r4.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:377
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+I/System.out( 5496): body:<com.flurry.sdk.kp: void r()>	sig:$i0 = virtualinvoke $r4.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:55
+I/System.out( 5496): body:<com.flurry.sdk.kp: void r()>	sig:$r18 = virtualinvoke $r4.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:0
+I/System.out( 5496): body:<com.flurry.sdk.kp: void r()>	sig:$r23 = virtualinvoke $r4.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): URLConn;%;0;%;<com.flurry.sdk.kp: void r()>;%;$r23 = virtualinvoke $r4.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://data.flurry.com/aap.do;%;true;%;Not found;%;Not found;%;Not found;%;0;%;Not found
+I/System.out( 5496): body:<com.flurry.sdk.kp: void t()>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 5496): <a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.merriamwebster/settings?instance=87602cbfa2b08a36748c7f0d7548ade4d406137e&source=1&build_version=72&icon_hash=8c7d038289cf1cfcaf9793bfa9b8b7b2dd66eadc&display_version=3.1.6
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r2.<java.net.URL: int getPort()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r6 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r2.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:specialinvoke $r5.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r3, $r1, $r6, $r7, null)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r5.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 5496): <a.a.a.a.a.e.d: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.merriamwebster/settings?instance=87602cbfa2b08a36748c7f0d7548ade4d406137e&source=1&build_version=72&icon_hash=8c7d038289cf1cfcaf9793bfa9b8b7b2dd66eadc&display_version=3.1.6
+I/System.out( 5496): body:<a.a.a.a.a.e.f$1: java.net.HttpURLConnection a(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.net.HttpURLConnection d()>	sig:virtualinvoke $r6.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r1)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.b.a: a.a.a.a.a.e.d a(java.util.Map)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.b.a: a.a.a.a.a.e.d a(java.util.Map)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>(10000)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>	sig:$r15 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:503
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): URLConn;%;1;%;<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>;%;$r15 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://api.taboola.com/1.1/json/merriamwebster-androidapp/recommendations.get?app.type=mobile&app.apikey=7707597a5acaf13aab27c61ebeb1bc3a3212c395&rec.count=1&source.type=home&source.id=http://www.merriam-webster.com/&user.session=init&source.url=http://www.merriam-webster.com/&rec.type=mix&rec.thumbnail.width=252&rec.thumbnail.height=189&rec.visible=false&source.placement=app-homepage-Android-tablet&user.referrer=mw-app-android;%;false;%;Not found;%;Not found;%;Thu, 01 Jan 1970 00:00:00 GMT;%;Not found;%;t_vpub=CAETCPqQPxABFA;Path=/;Domain=.taboola.com;Expires=Sat, 13-Apr-2019 18:26:01 GMT
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>	sig:virtualinvoke $r14.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+W/Settings( 5496): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 5496): <com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###http://images.taboola.com/taboola/image/fetch/f_jpg%2Cq_auto%2Ch_189%2Cw_252%2Cc_fill%2Cg_faces:auto%2Ce_sharpen/http%3A%2F%2Fgleaned-images.stuff.com%2Fsignals-test%2F97dddf9c2b04c316a573351d6e422d85415780e0b399ccc45b025a3d
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>	sig:$r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:1
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>(15000)	timediff:0
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setReadTimeout(int)>(20000)	timediff:0
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: com.squareup.picasso.Downloader$Response load(android.net.Uri,int)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setUseCaches(boolean)>(1)	timediff:0
+D/dalvikvm(  479): GC_FOR_ALLOC freed 3509K, 48% free 14108K/26632K, paused 10ms, total 39ms
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  533): animationTick called with dtms=-1; nothing to do (h=0.0 v=-0.0)
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+W/InputManager(  479): Input event injection from pid 5486 failed.
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+D/dalvikvm( 5496): GC_FOR_ALLOC freed 1061K, 15% free 6798K/7924K, paused 6ms, total 6ms
+I/dalvikvm-heap( 5496): Grow heap (frag case) to 7.234MB for 562876-byte allocation
+D/dalvikvm( 5496): GC_FOR_ALLOC freed 1K, 14% free 7346K/8476K, paused 19ms, total 19ms
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: com.squareup.picasso.Downloader$Response load(android.net.Uri,int)>	sig:$i1 = virtualinvoke $r3.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:617
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: com.squareup.picasso.Downloader$Response load(android.net.Uri,int)>	sig:$i1 = virtualinvoke $r3.<java.net.HttpURLConnection: int getHeaderFieldInt(java.lang.String,int)>("Content-Length", -1)	timediff:0
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: com.squareup.picasso.Downloader$Response load(android.net.Uri,int)>	sig:$r5 = virtualinvoke $r3.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>("X-Android-Response-Source")	timediff:0
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: com.squareup.picasso.Downloader$Response load(android.net.Uri,int)>	sig:$r10 = virtualinvoke $r3.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): URLConn;%;2;%;<com.squareup.picasso.UrlConnectionDownloader: com.squareup.picasso.Downloader$Response load(android.net.Uri,int)>;%;$r10 = virtualinvoke $r3.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://images.taboola.com/taboola/image/fetch/f_jpg%2Cq_auto%2Ch_189%2Cw_252%2Cc_fill%2Cg_faces:auto%2Ce_sharpen/http%3A%2F%2Fgleaned-images.stuff.com%2Fsignals-test%2F97dddf9c2b04c316a573351d6e422d85415780e0b399ccc45b025a3d;%;false;%;15230;%;public, max-age=2592000;%;Not found;%;0;%;Not found
+D/dalvikvm( 5496): GC_FOR_ALLOC freed 116K, 14% free 7369K/8476K, paused 7ms, total 7ms
+I/dalvikvm-heap( 5496): Grow heap (frag case) to 7.792MB for 562876-byte allocation
+D/dalvikvm( 5496): GC_FOR_ALLOC freed <1K, 13% free 7919K/9028K, paused 5ms, total 5ms
+D/dalvikvm( 5496): GC_CONCURRENT freed 839K, 10% free 8769K/9676K, paused 7ms+2ms, total 12ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 5ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 7ms
+D/dalvikvm( 5496): GC_CONCURRENT freed 1003K, 11% free 9710K/10808K, paused 3ms+1ms, total 15ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 12ms
+I/WearableService(  654): Wearable Services stopping
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 14ms
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+W/InputManager(  479): Input event injection from pid 5486 failed.
+D/dalvikvm( 5496): GC_CONCURRENT freed 1149K, 11% free 10798K/12064K, paused 5ms+1ms, total 21ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 17ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 27ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 23ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 28ms
+D/dalvikvm( 5496): GC_CONCURRENT freed 1334K, 11% free 12055K/13516K, paused 4ms+2ms, total 18ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 15ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 20ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 10ms
+D/dalvikvm( 5496): GC_CONCURRENT freed 1570K, 12% free 13480K/15192K, paused 2ms+1ms, total 17ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 8ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 9ms
+I/System.out( 5496): body:<a.a.a.a.a.e.d: int b()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:1588
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String a(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String d(java.lang.String)>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getHeaderFieldInt(java.lang.String,int)>("Content-Length", -1)	timediff:0
+D/dalvikvm( 5496): GC_CONCURRENT freed 1793K, 12% free 15148K/17092K, paused 3ms+2ms, total 21ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 8ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 14ms
+I/System.out( 5496): body:<a.a.a.a.a.e.d: int b()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.io.InputStream e()>	sig:$r2 = virtualinvoke $r1.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): URLConn;%;3;%;<a.a.a.a.a.e.d: java.io.InputStream e()>;%;$r2 = virtualinvoke $r1.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.merriamwebster/settings?instance=87602cbfa2b08a36748c7f0d7548ade4d406137e&source=1&build_version=72&icon_hash=8c7d038289cf1cfcaf9793bfa9b8b7b2dd66eadc&display_version=3.1.6;%;false;%;Not found;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String a(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:0
+D/dalvikvm( 5496): GC_CONCURRENT freed 2007K, 12% free 17149K/19316K, paused 2ms+3ms, total 28ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 26ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 21ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 25ms
+D/dalvikvm( 5496): WAIT_FOR_CONCURRENT_GC blocked 19ms
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 479
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 5496): <a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###https://e.crashlytics.com/spi/v2/events
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r2.<java.net.URL: int getPort()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r6 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r2.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:specialinvoke $r5.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r3, $r1, $r6, $r7, null)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r5.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 5496): <a.a.a.a.a.e.d: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)###https://e.crashlytics.com/spi/v2/events
+I/System.out( 5496): body:<a.a.a.a.a.e.f$1: java.net.HttpURLConnection a(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.net.HttpURLConnection d()>	sig:virtualinvoke $r6.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r1)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.b.a: a.a.a.a.a.e.d a(java.util.Map)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.b.a: a.a.a.a.a.e.d a(java.util.Map)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>(10000)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d h()>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d h()>	sig:$r3 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/GAv4    ( 5496): Google Analytics 4.5.0/7327 is starting up. To enable debug logging on a device run:
+I/GAv4    ( 5496):   adb shell setprop log.tag.GAv4 DEBUG
+I/GAv4    ( 5496):   adb logcat -s GAv4
+W/GAv4    ( 5496): AnalyticsReceiver is not registered or is disabled. Register the receiver for reliable dispatching on non-Google Play devices. See http://goo.gl/8Rd3yj for instructions.
+W/GAv4    ( 5496): CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+W/GAv4    ( 5496): AnalyticsService not registered in the app manifest. Hits might not be delivered reliably. See http://goo.gl/8Rd3yj for instructions.
+W/InputMethodManagerService(  479): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9854fc attribute=null, token = android.os.BinderProxy@4aa7378c
+D/dalvikvm( 5496): GC_FOR_ALLOC freed 2955K, 15% free 18797K/21980K, paused 21ms, total 21ms
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+D/dalvikvm(  533): GC_FOR_ALLOC freed 7790K, 38% free 16266K/26152K, paused 26ms, total 26ms
+W/SurfaceFlinger(  166): couldn't log to binary event log: overflow.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d h()>	sig:$r4 = virtualinvoke $r2.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:483
+W/IInputConnectionWrapper( 5496): showStatusIcon on inactive InputConnection
+W/IInputConnectionWrapper( 5496): getExtractedText on inactive InputConnection
+E/InputMethodService(  642): Unexpected null in startExtractingText : mExtractedText = null, input connection = com.android.internal.view.InputConnectionWrapper@4a8d96f0
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/IInputConnectionWrapper( 5496): getExtractedText on inactive InputConnection
+E/InputMethodService(  642): Unexpected null in startExtractingText : mExtractedText = null, input connection = com.android.internal.view.InputConnectionWrapper@4a8d96f0
+I/ActivityManager(  479): START u0 {act=android.intent.action.VIEW dat=search://merriam-webster/definition/442 flg=0x24000000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity (has extras)} from pid 5496
+V/ActivityManager(  479): startActivityUncheckedLocked: task left null
+V/ActivityManager(  479): java.lang.RuntimeException: here
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityUncheckedLocked(ActivityStackSupervisor.java:1646)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityLocked(ActivityStackSupervisor.java:1249)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityMayWait(ActivityStackSupervisor.java:741)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:3118)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:3104)
+V/ActivityManager(  479): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:135)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+V/ActivityManager(  479): 	at android.os.Binder.execTransact(Binder.java:404)
+V/ActivityManager(  479): 	at dalvik.system.NativeStart.run(Native Method)
+I/System.out( 5496): body:<a.a.a.a.a.e.d: int b()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:79
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 5496): <a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###https://e.crashlytics.com/spi/v2/events
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r2.<java.net.URL: int getPort()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r6 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r2.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:specialinvoke $r5.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r3, $r1, $r6, $r7, null)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r5.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 5496): <a.a.a.a.a.e.d: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)###https://e.crashlytics.com/spi/v2/events
+I/System.out( 5496): body:<a.a.a.a.a.e.f$1: java.net.HttpURLConnection a(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.net.HttpURLConnection d()>	sig:virtualinvoke $r6.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r1)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.b.a: a.a.a.a.a.e.d a(java.util.Map)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.b.a: a.a.a.a.a.e.d a(java.util.Map)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>(10000)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d h()>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d h()>	sig:$r3 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+E/InputMethodService(  642): Unexpected null in startExtractingText : mExtractedText = null, input connection = com.android.internal.view.InputConnectionWrapper@4a8e1420
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideMySoftInput:2299 com.android.internal.view.IInputMethodManager$Stub.onTransact:288 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d h()>	sig:$r4 = virtualinvoke $r2.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:24
+I/dalvikvm( 5496): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method izp.a
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 1801: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 5496): VFY: replacing opcode 0x6e at 0x001c
+D/dalvikvm(  642): GC_FOR_ALLOC freed 1458K, 49% free 3349K/6540K, paused 8ms, total 10ms
+I/dalvikvm( 5496): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method imo.createCredentialProtectedStorageContext
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 1708: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 5496): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm( 5496): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method imo.createDeviceProtectedStorageContext
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 1709: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 5496): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm( 5496): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createCredentialProtectedStorageContext
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 1708: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 5496): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm( 5496): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createDeviceProtectedStorageContext
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 1709: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 5496): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm( 5496): Could not find method android.content.Context.isCredentialProtectedStorage, referenced from method cqq.a
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 1688: Landroid/content/Context;.isCredentialProtectedStorage ()Z
+D/dalvikvm( 5496): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm( 5496): Could not find method android.os.UserManager.isUserUnlocked, referenced from method cqq.a
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 2311: Landroid/os/UserManager;.isUserUnlocked ()Z
+D/dalvikvm( 5496): VFY: replacing opcode 0x6e at 0x001a
+I/dalvikvm( 5496): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cqq.b
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 1689: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm( 5496): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm( 5496): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cqq.c
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 1689: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm( 5496): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm-heap(  642): Grow heap (frag case) to 4.688MB for 1423372-byte allocation
+I/dalvikvm( 5496): Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method jkx.a
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 1659: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm( 5496): VFY: replacing opcode 0x6e at 0x0029
+I/dalvikvm( 5496): Could not find method android.content.Context.getSystemService, referenced from method jkx.b
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 1684: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm( 5496): VFY: replacing opcode 0x6e at 0x000b
+D/dalvikvm( 5496): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm( 5496): VFY: unable to resolve static field 917 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm( 5496): VFY: replacing opcode 0x62 at 0x0012
+D/dalvikvm( 5496): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+W/dalvikvm( 5496): VFY: unable to resolve static field 916 (SUPPORTED_32_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm( 5496): VFY: replacing opcode 0x62 at 0x0021
+D/dalvikvm( 5496): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm( 5496): VFY: unable to resolve static field 918 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm( 5496): VFY: replacing opcode 0x62 at 0x0008
+D/dalvikvm( 5496): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm( 5496): VFY: unable to resolve static field 917 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm( 5496): VFY: replacing opcode 0x62 at 0x0008
+D/dalvikvm( 5496): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm( 5496): DexOpt: unable to optimize static field ref 0x0395 at 0x17 in Lcsq;.a
+D/dalvikvm( 5496): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+I/dalvikvm( 5496): DexOpt: unable to optimize static field ref 0x0394 at 0x26 in Lcsq;.a
+D/dalvikvm( 5496): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm( 5496): DexOpt: unable to optimize static field ref 0x0395 at 0x0d in Lcsq;.b
+D/dalvikvm(  642): GC_CONCURRENT freed 3K, 28% free 4735K/6540K, paused 1ms+1ms, total 8ms
+D/DynamitePackage( 5496): Instantiated singleton DynamitePackage.
+D/DynamitePackage( 5496): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/dalvikvm( 5496): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method iy.a
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 1587: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 5496): VFY: replacing opcode 0x6e at 0x0017
+I/dalvikvm( 5496): Could not find method android.security.NetworkSecurityPolicy.getInstance, referenced from method com.google.android.gms.ads.internal.util.ae.a
+W/dalvikvm( 5496): VFY: unable to resolve static method 2118: Landroid/security/NetworkSecurityPolicy;.getInstance ()Landroid/security/NetworkSecurityPolicy;
+D/dalvikvm( 5496): VFY: replacing opcode 0x71 at 0x00d3
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+W/InputManager(  479): Input event injection from pid 5486 failed.
+I/dalvikvm( 5496): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method pv.a
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 1592: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+D/dalvikvm( 5496): VFY: replacing opcode 0x6e at 0x002d
+I/dalvikvm( 5496): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method pu.a
+W/dalvikvm( 5496): VFY: unable to resolve virtual method 1591: Landroid/content/pm/PackageManager;.isInstantApp ()Z
+D/dalvikvm( 5496): VFY: replacing opcode 0x6e at 0x0028
+D/dalvikvm( 5496): DexOpt: --- BEGIN '1505450608132.jar' (bootstrap=0) ---
+I/System.out( 5496): body:<a.a.a.a.a.e.d: int b()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:75
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out( 5496): <a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###https://e.crashlytics.com/spi/v2/events
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r2.<java.net.URL: int getPort()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r6 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r2.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:specialinvoke $r5.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r3, $r1, $r6, $r7, null)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.lang.String c(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r5.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out( 5496): <a.a.a.a.a.e.d: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)###https://e.crashlytics.com/spi/v2/events
+I/System.out( 5496): body:<a.a.a.a.a.e.f$1: java.net.HttpURLConnection a(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: java.net.HttpURLConnection d()>	sig:virtualinvoke $r6.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r1)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.b.a: a.a.a.a.a.e.d a(java.util.Map)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/Ads     ( 5496): Starting ad request.
+I/Ads     ( 5496): Use AdRequest.Builder.addTestDevice("A8F049FC454E72BFB6EA60EE2500BB55") to get test ads on this device.
+I/System.out( 5496): body:<a.a.a.a.a.b.a: a.a.a.a.a.e.d a(java.util.Map)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>(10000)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d h()>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+E/InputMethodService(  642): Unexpected null in startExtractingText : mExtractedText = null, input connection = com.android.internal.view.InputConnectionWrapper@4a8e1420
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideMySoftInput:2299 com.android.internal.view.IInputMethodManager$Stub.onTransact:288 com.android.server.InputMethodManagerService.onTransact:818 
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d h()>	sig:$r3 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+W/Ads     ( 5496): Invoke Firebase method getInstance error.
+W/Ads     ( 5496): The Google Mobile Ads SDK will not integrate with Firebase. Admob/Firebase integration requires the latest Firebase SDK jar, but Firebase SDK is either missing or out of date
+I/ActivityManager(  479): Waited long enough for: ServiceRecord{4a9fa388 u0 com.google.android.gms/.chimera.GmsIntentOperationService}
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+I/System.out( 5496): body:<a.a.a.a.a.e.d: a.a.a.a.a.e.d h()>	sig:$r4 = virtualinvoke $r2.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:52
+D/dalvikvm(  479): GC_FOR_ALLOC freed 2781K, 48% free 14006K/26632K, paused 20ms, total 21ms
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/Ads     ( 5496): Loading already in progress, saving this object for future refreshes.
+I/System.out( 5496): body:<a.a.a.a.a.e.d: int b()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:92
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+D/dalvikvm(  720): GC_CONCURRENT freed 1956K, 20% free 8921K/11092K, paused 2ms+18ms, total 63ms
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 5496): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_DOWN(1), id[0]=0, x[0]=-861.18945, y[0]=110.48076, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-759.0, y[1]=236.0, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=470396, downTime=470395, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 5496): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-828.0254, y[0]=153.2223, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-771.4187, y[1]=254.38272, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=2, eventTime=470398, downTime=470395, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 5496): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_UP(1), id[0]=0, x[0]=-823.2517, y[0]=168.95242, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-772.42664, y[1]=260.3513, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=470398, downTime=470395, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 5496): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-822.84796, y[0]=186.2193, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=470398, downTime=470395, deviceId=0, source=0x1002 }
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/InputMethodManagerService(  479): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9a8e8c attribute=null, token = android.os.BinderProxy@4aa7378c
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=470595, downTime=470595, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=470619, downTime=470619, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_4, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=470621, downTime=470621, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=470621, downTime=470621, deviceId=-1, source=0x101 }
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+W/InputManager(  479): Input event injection from pid 5486 failed.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputMethodManagerService(  479): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa3599c attribute=android.view.inputmethod.EditorInfo@4aa00400, token = android.os.BinderProxy@4aa7378c
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+I/ActivityManager(  479): START u0 {act=android.intent.action.VIEW dat=search://merriam-webster/definition/3 flg=0x24000000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity (has extras)} from pid 5496
+V/ActivityManager(  479): startActivityUncheckedLocked: task left null
+V/ActivityManager(  479): java.lang.RuntimeException: here
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityUncheckedLocked(ActivityStackSupervisor.java:1646)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityLocked(ActivityStackSupervisor.java:1249)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityMayWait(ActivityStackSupervisor.java:741)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:3118)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:3104)
+V/ActivityManager(  479): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:135)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+V/ActivityManager(  479): 	at android.os.Binder.execTransact(Binder.java:404)
+V/ActivityManager(  479): 	at dalvik.system.NativeStart.run(Native Method)
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=470796, downTime=470796, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=470811, downTime=470811, deviceId=-1, source=0x101 }
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper( 5496): getCursorCapsMode on inactive InputConnection
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 5496): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-526.0434, y[0]=114.12103, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=470866, downTime=470865, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 5496): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-524.76587, y[0]=112.1013, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=470866, downTime=470865, deviceId=0, source=0x1002 }
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/InputMethodManagerService(  479): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa5b674 attribute=null, token = android.os.BinderProxy@4aa7378c
+W/MerriamWebster-JS( 5496): WARNING 6: Viewport target-densitydpi is not supported.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/IInputConnectionWrapper( 5496): getCursorCapsMode on inactive InputConnection
+I/ActivityManager(  479): START u0 {act=android.intent.action.VIEW dat=search://merriam-webster/definition/1 flg=0x24000000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity (has extras)} from pid 5496
+V/ActivityManager(  479): startActivityUncheckedLocked: task left null
+V/ActivityManager(  479): java.lang.RuntimeException: here
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityUncheckedLocked(ActivityStackSupervisor.java:1646)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityLocked(ActivityStackSupervisor.java:1249)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityMayWait(ActivityStackSupervisor.java:741)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:3118)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:3104)
+V/ActivityManager(  479): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:135)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+V/ActivityManager(  479): 	at android.os.Binder.execTransact(Binder.java:404)
+V/ActivityManager(  479): 	at dalvik.system.NativeStart.run(Native Method)
+D/DynamitePackage( 5496): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/Ads     ( 5496): Starting ad request.
+I/Ads     ( 5496): Use AdRequest.Builder.addTestDevice("A8F049FC454E72BFB6EA60EE2500BB55") to get test ads on this device.
+W/Ads     ( 5496): Aborting last ad request since another ad request is already in progress. The current request object will still be cached for future refreshes.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm( 5496): GC_CONCURRENT freed 5277K, 23% free 18729K/24172K, paused 1ms+2ms, total 22ms
+W/Ads     ( 5496): Aborting last ad request since another ad request is already in progress. The current request object will still be cached for future refreshes.
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/Ads     ( 5496): Aborting last ad request since another ad request is already in progress. The current request object will still be cached for future refreshes.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=471353, downTime=471353, deviceId=-1, source=0x101 }
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_EMAIL]}} from pid 479
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=471356, downTime=471356, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=471357, downTime=471357, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=471357, downTime=471357, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=471360, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=471360, downTime=471360, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=471369, downTime=471369, deviceId=-1, source=0x101 }
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=471371, downTime=471371, deviceId=-1, source=0x101 }
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+V/FlingTracker(  533): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  533): java.lang.Throwable
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  533): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  533): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  533): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  533): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  533): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  533): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  533): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  533): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  533): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  533): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  533): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  533): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  533): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 5496): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-68.987366, y[0]=98.89885, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=471420, downTime=471419, deviceId=0, source=0x1002 }
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 479
+I/SnapScrollController( 5496): setSnapScrollingMode case-default no-op
+I/SnapScrollController( 5496): setSnapScrollingMode case-default no-op
+W/InputMethodManagerService(  479): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a971474 attribute=android.view.inputmethod.EditorInfo@4a92cb20, token = android.os.BinderProxy@4aa7378c
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=471526, downTime=471526, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=471529, downTime=471529, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_Y, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=471529, downTime=471529, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=471531, downTime=471531, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=471532, downTime=471532, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=471534, downTime=471534, deviceId=-1, source=0x101 }
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 5496): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-770.2689, y[0]=38.15767, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=6, eventTime=471602, downTime=471601, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 5496): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-770.4865, y[0]=37.962402, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=471602, downTime=471601, deviceId=0, source=0x1002 }
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  479): START u0 {act=android.intent.action.VIEW dat=search://merriam-webster/definition/30334 flg=0x24000000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity (has extras)} from pid 5496
+V/ActivityManager(  479): startActivityUncheckedLocked: task left null
+V/ActivityManager(  479): java.lang.RuntimeException: here
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityUncheckedLocked(ActivityStackSupervisor.java:1646)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityLocked(ActivityStackSupervisor.java:1249)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityMayWait(ActivityStackSupervisor.java:741)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:3118)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:3104)
+V/ActivityManager(  479): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:135)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+V/ActivityManager(  479): 	at android.os.Binder.execTransact(Binder.java:404)
+V/ActivityManager(  479): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  479): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4b12dc00 attribute=null, token = android.os.BinderProxy@4aa7378c
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/MerriamWebster-JS( 5496): WARNING 6: Viewport target-densitydpi is not supported.
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 479
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/IInputConnectionWrapper( 5496): getCursorCapsMode on inactive InputConnection
+W/Ads     ( 5496): Aborting last ad request since another ad request is already in progress. The current request object will still be cached for future refreshes.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/IInputConnectionWrapper( 5496): getCursorCapsMode on inactive InputConnection
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/Ads     ( 5496): Aborting last ad request since another ad request is already in progress. The current request object will still be cached for future refreshes.
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+D/dalvikvm( 5496): GC_FOR_ALLOC freed 4043K, 19% free 19686K/24172K, paused 50ms, total 51ms
+D/dalvikvm( 5496): GC_FOR_ALLOC freed 153K, 20% free 19560K/24172K, paused 24ms, total 24ms
+I/dalvikvm-heap( 5496): Grow heap (frag case) to 21.255MB for 2197352-byte allocation
+D/dalvikvm( 5496): GC_FOR_ALLOC freed 104K, 18% free 21601K/26320K, paused 19ms, total 19ms
+D/dalvikvm( 5496): GC_FOR_ALLOC freed 27K, 18% free 21599K/26320K, paused 17ms, total 17ms
+I/dalvikvm-heap( 5496): Grow heap (frag case) to 23.248MB for 2197352-byte allocation
+D/dalvikvm( 5496): GC_FOR_ALLOC freed <1K, 17% free 23745K/28468K, paused 15ms, total 15ms
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/Ads     ( 5496): Aborting last ad request since another ad request is already in progress. The current request object will still be cached for future refreshes.
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/Ads     ( 5496): Aborting last ad request since another ad request is already in progress. The current request object will still be cached for future refreshes.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+I/ActivityManager(  479): START u0 {act=android.intent.action.VIEW dat=search://merriam-webster/definition/2 flg=0x24000000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity (has extras)} from pid 5496
+V/ActivityManager(  479): startActivityUncheckedLocked: task left null
+V/ActivityManager(  479): java.lang.RuntimeException: here
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityUncheckedLocked(ActivityStackSupervisor.java:1646)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityLocked(ActivityStackSupervisor.java:1249)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityMayWait(ActivityStackSupervisor.java:741)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:3118)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:3104)
+V/ActivityManager(  479): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:135)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+V/ActivityManager(  479): 	at android.os.Binder.execTransact(Binder.java:404)
+V/ActivityManager(  479): 	at dalvik.system.NativeStart.run(Native Method)
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/UnimplementedWebViewApi( 5496): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/IInputConnectionWrapper( 5496): getCursorCapsMode on inactive InputConnection
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472326, downTime=472326, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472365, downTime=472365, deviceId=-1, source=0x101 }
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472371, downTime=472371, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472372, downTime=472372, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472372, downTime=472372, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472373, downTime=472373, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_X, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472375, downTime=472375, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472375, downTime=472375, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472376, downTime=472376, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472377, downTime=472377, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472377, downTime=472377, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472378, downTime=472378, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472381, downTime=472381, deviceId=-1, source=0x101 }
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 5496): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-658.3656, y[0]=375.31665, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=472473, downTime=472470, deviceId=0, source=0x1002 }
+W/ViewRootImpl( 5496): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=472468, downTime=-1, deviceId=0, source=0x10004 }
+W/Ads     ( 5496): Aborting last ad request since another ad request is already in progress. The current request object will still be cached for future refreshes.
+I/ActivityManager(  479): START u0 {act=android.intent.action.VIEW dat=search://merriam-webster/definition/3 flg=0x24000000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity (has extras)} from pid 5496
+V/ActivityManager(  479): startActivityUncheckedLocked: task left null
+V/ActivityManager(  479): java.lang.RuntimeException: here
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityUncheckedLocked(ActivityStackSupervisor.java:1646)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityLocked(ActivityStackSupervisor.java:1249)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityMayWait(ActivityStackSupervisor.java:741)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:3118)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:3104)
+V/ActivityManager(  479): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:135)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+V/ActivityManager(  479): 	at android.os.Binder.execTransact(Binder.java:404)
+V/ActivityManager(  479): 	at dalvik.system.NativeStart.run(Native Method)
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  479): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa499e8 attribute=null, token = android.os.BinderProxy@4aa7378c
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/IInputConnectionWrapper( 5496): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  642): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper( 5496): getExtractedText on inactive InputConnection
+E/InputMethodService(  642): Unexpected null in startExtractingText : mExtractedText = null, input connection = com.android.internal.view.InputConnectionWrapper@4a7fff50
+D/AndroidRuntime(  642): Shutting down VM
+W/dalvikvm(  642): threadid=1: thread exiting with uncaught exception (group=0x94ccbb20)
+E/AndroidRuntime(  642): FATAL EXCEPTION: main
+E/AndroidRuntime(  642): Process: com.example.android.softkeyboard, PID: 642
+E/AndroidRuntime(  642): java.lang.NullPointerException
+E/AndroidRuntime(  642): 	at com.example.android.softkeyboard.SoftKeyboard.onDisplayCompletions(SoftKeyboard.java:306)
+E/AndroidRuntime(  642): 	at android.inputmethodservice.InputMethodService$InputMethodSessionImpl.displayCompletions(InputMethodService.java:474)
+E/AndroidRuntime(  642): 	at android.inputmethodservice.IInputMethodSessionWrapper.executeMessage(IInputMethodSessionWrapper.java:87)
+E/AndroidRuntime(  642): 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:40)
+E/AndroidRuntime(  642): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(  642): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(  642): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(  642): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(  642): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(  642): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(  642): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(  642): 	at dalvik.system.NativeStart.main(Native Method)
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/Process (  479): Sending signal. PID: 642 SIG: 9
+W/InputDispatcher(  479): channel '4aa1fb9c InputMethod (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  479): channel '4aa1fb9c InputMethod (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/InputDispatcher(  479): Attempted to unregister already unregistered input channel '4aa1fb9c InputMethod (server)'
+W/ActivityManager(  479): Force-killing crashed app com.example.android.softkeyboard at watcher's request
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9642 com.android.server.am.ActivityManagerService.handleApplicationCrash:9616 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  479): Process com.example.android.softkeyboard (pid 642) has died.
+I/WindowState(  479): WIN DEATH: Window{4aa1fb9c u0 InputMethod}
+W/InputMethodManagerService(  479): Session failed to close due to remote exception
+W/InputMethodManagerService(  479): android.os.DeadObjectException
+W/InputMethodManagerService(  479): 	at android.os.BinderProxy.transact(Native Method)
+W/InputMethodManagerService(  479): 	at com.android.internal.view.IInputMethodSession$Stub$Proxy.finishSession(IInputMethodSession.java:292)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.finishSessionLocked(InputMethodManagerService.java:1358)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.clearClientSessionLocked(InputMethodManagerService.java:1349)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.clearCurMethodLocked(InputMethodManagerService.java:1375)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.onServiceDisconnected(InputMethodManagerService.java:1394)
+W/InputMethodManagerService(  479): 	at android.app.LoadedApk$ServiceDispatcher.doDeath(LoadedApk.java:1115)
+W/InputMethodManagerService(  479): 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1129)
+W/InputMethodManagerService(  479): 	at android.os.Handler.handleCallback(Handler.java:733)
+W/InputMethodManagerService(  479): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/InputMethodManagerService(  479): 	at android.os.Looper.loop(Looper.java:136)
+W/InputMethodManagerService(  479): 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:1096)
+W/InputMethodManagerService(  479): 	at com.android.server.SystemServer.main(SystemServer.java:1209)
+W/InputMethodManagerService(  479): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/InputMethodManagerService(  479): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/InputMethodManagerService(  479): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/InputMethodManagerService(  479): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/InputMethodManagerService(  479): 	at dalvik.system.NativeStart.main(Native Method)
+W/InputMethodManagerService(  479): Session failed to close due to remote exception
+W/InputMethodManagerService(  479): android.os.DeadObjectException
+W/InputMethodManagerService(  479): 	at android.os.BinderProxy.transact(Native Method)
+W/InputMethodManagerService(  479): 	at com.android.internal.view.IInputMethodSession$Stub$Proxy.finishSession(IInputMethodSession.java:292)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.finishSessionLocked(InputMethodManagerService.java:1358)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.clearClientSessionLocked(InputMethodManagerService.java:1349)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.clearCurMethodLocked(InputMethodManagerService.java:1375)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.onServiceDisconnected(InputMethodManagerService.java:1394)
+W/InputMethodManagerService(  479): 	at android.app.LoadedApk$ServiceDispatcher.doDeath(LoadedApk.java:1115)
+W/InputMethodManagerService(  479): 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1129)
+W/InputMethodManagerService(  479): 	at android.os.Handler.handleCallback(Handler.java:733)
+W/InputMethodManagerService(  479): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/InputMethodManagerService(  479): 	at android.os.Looper.loop(Looper.java:136)
+W/InputMethodManagerService(  479): 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:1096)
+W/InputMethodManagerService(  479): 	at com.android.server.SystemServer.main(SystemServer.java:1209)
+W/InputMethodManagerService(  479): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/InputMethodManagerService(  479): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/InputMethodManagerService(  479): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/InputMethodManagerService(  479): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/InputMethodManagerService(  479): 	at dalvik.system.NativeStart.main(Native Method)
+W/InputMethodManagerService(  479): Session failed to close due to remote exception
+W/InputMethodManagerService(  479): android.os.DeadObjectException
+W/InputMethodManagerService(  479): 	at android.os.BinderProxy.transact(Native Method)
+W/InputMethodManagerService(  479): 	at com.android.internal.view.IInputMethodSession$Stub$Proxy.finishSession(IInputMethodSession.java:292)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.finishSessionLocked(InputMethodManagerService.java:1358)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.clearClientSessionLocked(InputMethodManagerService.java:1349)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.clearCurMethodLocked(InputMethodManagerService.java:1375)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.onServiceDisconnected(InputMethodManagerService.java:1394)
+W/InputMethodManagerService(  479): 	at android.app.LoadedApk$ServiceDispatcher.doDeath(LoadedApk.java:1115)
+W/InputMethodManagerService(  479): 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1129)
+W/InputMethodManagerService(  479): 	at android.os.Handler.handleCallback(Handler.java:733)
+W/InputMethodManagerService(  479): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/InputMethodManagerService(  479): 	at android.os.Looper.loop(Looper.java:136)
+W/InputMethodManagerService(  479): 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:1096)
+W/InputMethodManagerService(  479): 	at com.android.server.SystemServer.main(SystemServer.java:1209)
+W/InputMethodManagerService(  479): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/InputMethodManagerService(  479): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/InputMethodManagerService(  479): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/InputMethodManagerService(  479): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/InputMethodManagerService(  479): 	at dalvik.system.NativeStart.main(Native Method)
+W/InputMethodManagerService(  479): Session failed to close due to remote exception
+W/InputMethodManagerService(  479): android.os.DeadObjectException
+W/InputMethodManagerService(  479): 	at android.os.BinderProxy.transact(Native Method)
+W/InputMethodManagerService(  479): 	at com.android.internal.view.IInputMethodSession$Stub$Proxy.finishSession(IInputMethodSession.java:292)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.finishSessionLocked(InputMethodManagerService.java:1358)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.clearClientSessionLocked(InputMethodManagerService.java:1349)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.clearCurMethodLocked(InputMethodManagerService.java:1375)
+W/InputMethodManagerService(  479): 	at com.android.server.InputMethodManagerService.onServiceDisconnected(InputMethodManagerService.java:1394)
+W/InputMethodManagerService(  479): 	at android.app.LoadedApk$ServiceDispatcher.doDeath(LoadedApk.java:1115)
+W/InputMethodManagerService(  479): 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1129)
+W/InputMethodManagerService(  479): 	at android.os.Handler.handleCallback(Handler.java:733)
+W/InputMethodManagerService(  479): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/InputMethodManagerService(  479): 	at android.os.Looper.loop(Looper.java:136)
+W/InputMethodManagerService(  479): 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:1096)
+W/InputMethodManagerService(  479): 	at com.android.server.SystemServer.main(SystemServer.java:1209)
+W/InputMethodManagerService(  479): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/InputMethodManagerService(  479): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/InputMethodManagerService(  479): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/InputMethodManagerService(  479): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/InputMethodManagerService(  479): 	at dalvik.system.NativeStart.main(Native Method)
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.onServiceDisconnected:1408 android.app.LoadedApk$ServiceDispatcher.doDeath:1115 android.app.LoadedApk$ServiceDispatcher$RunConnection.run:1129 android.os.Handler.handleCallback:733 
+W/InputEventSender( 5496): Failed to send key event on channel 'ClientState{4aa73f68 uid 10046 pid 5496} (server)'.  status=-32
+W/InputMethodManager( 5496): Unable to send input event to IME: com.example.android.softkeyboard/.SoftKeyboard dropping: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472599, downTime=472599, deviceId=-1, source=0x101 }
+W/InputEventSender( 5496): Failed to send key event on channel 'ClientState{4aa73f68 uid 10046 pid 5496} (server)'.  status=-32
+W/InputMethodManager( 5496): Unable to send input event to IME: com.example.android.softkeyboard/.SoftKeyboard dropping: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_F, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472743, downTime=472743, deviceId=-1, source=0x101 }
+W/InputEventSender( 5496): Failed to send key event on channel 'ClientState{4aa73f68 uid 10046 pid 5496} (server)'.  status=-32
+W/InputMethodManager( 5496): Unable to send input event to IME: com.example.android.softkeyboard/.SoftKeyboard dropping: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472745, downTime=472745, deviceId=-1, source=0x101 }
+W/InputEventSender( 5496): Failed to send key event on channel 'ClientState{4aa73f68 uid 10046 pid 5496} (server)'.  status=-32
+W/InputMethodManager( 5496): Unable to send input event to IME: com.example.android.softkeyboard/.SoftKeyboard dropping: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472745, downTime=472745, deviceId=-1, source=0x101 }
+W/InputEventSender( 5496): Failed to send key event on channel 'ClientState{4aa73f68 uid 10046 pid 5496} (server)'.  status=-32
+W/InputMethodManager( 5496): Unable to send input event to IME: com.example.android.softkeyboard/.SoftKeyboard dropping: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472747, downTime=472747, deviceId=-1, source=0x101 }
+W/InputEventSender( 5496): Failed to send key event on channel 'ClientState{4aa73f68 uid 10046 pid 5496} (server)'.  status=-32
+W/InputMethodManager( 5496): Unable to send input event to IME: com.example.android.softkeyboard/.SoftKeyboard dropping: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472749, downTime=472749, deviceId=-1, source=0x101 }
+I/ActivityManager(  479): START u0 {act=android.intent.action.VIEW dat=http://api.taboola.com/1.1/json/merriamwebster-androidapp/recommendations.notify-click?app.type=mobile&app.apikey=7707597a5acaf13aab27c61ebeb1bc3a3212c395&response.id=__7a014c94e5890c6cfc7e5ab9a265693a__1be3add1bc5a59c7bdde134511138b50&response.session=v2_ec62eb5fd3fe4b6b15b15b649ce238ad_229e8e71-9136-4509-9137-bb82da107d89-tuct1ca7bb9_1523643961_1523643961_CIi3jgYQ-pA_GMihh4KsLCABKAEw4QE&item.id=~~V1~~-1715001702941775719~~12vzSwgtDZmGVaIGuA3JPH14ANOlO1MQRlGDUcXwWqoSO_fFkG-bpaW2-qyqBDD6A2oNFt1ukOTCFTq8EPPgT5EdjpMUO8B4R93aIsm7asj6k6o4O1fVWSBakQQzhaxWC0mrYS4uFJXpwPo8Y-CHZFIkx7xO4ZmoqJAuZqkXlAmd6l8UDJCvOuEas2C9QxdLjrOGv-6iDoYLvQ6osB3pEQ&item.type=text&sig=218e217f573b6df4a0c8b1da02e1b337f295008ec61d&redir=http://saveonsuvmall.com/?om_bs=xuiokuZJI8MJHCSAqQcWcrBdy74bvmS9Vlvj1N4hd0fbtTOASL6k6FEwsrG3kXHLLf75qz_vlMSKdzjMPcgI8PVhOiQ5DZZpcLrJlIOYEOWTzy-MI3V_mToQn5rytp2BmxFOXSgE6G6XAG5IiSWjDUAdk8q7v67yN3MW9ocP1Iw%3D&search_track_url=%2F%2Ftrc.taboola.com%2Fadv-1001%2Flog%2F3%2Faction%3Fname%3DConversion%26item-url%3Dsaveonsuvmall.com&click_track_url=%2F%2Ftrc.taboola.com%2Fadv-1001%2Flog%2F3%2Faction%3Fname%3DAdClick%26item-url%3Dsaveonsuvmall.com&ts=2018-04-13+18%3A26%3A01&utm_medium=paid&utm_source=taboola&utm_campaign=583678&utm_term=merriamwebster-androidapp&utm_content=SUVs+are+Safer+%26+More+Powerful+Than+Ever+-+See+Deals&device=Smartphone&adid=42454686&img=http%3A%2F%2Fgleaned-images.stuff.com%2Fsignals-test%2F97dddf9c2b04c316a573351d6e422d85415780e0b399ccc45b025a3d&sg_uid=vzvrFSqpRK6_Ue3yfOybMA cmp=com.android.browser/.BrowserActivity} from pid 5496
+W/Ads     ( 5496): Aborting last ad request since another ad request is already in progress. The current request object will still be cached for future refreshes.
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SOFT_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472823, downTime=472823, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUM, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472867, downTime=472867, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472870, downTime=472870, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F4, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=472871, downTime=472871, deviceId=-1, source=0x101 }
+I/ActivityManager(  479): START u0 {act=android.intent.action.VIEW dat=search://merriam-webster/definition/4 flg=0x24000000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity (has extras)} from pid 5496
+V/ActivityManager(  479): startActivityUncheckedLocked: task left null
+V/ActivityManager(  479): java.lang.RuntimeException: here
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityUncheckedLocked(ActivityStackSupervisor.java:1646)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityLocked(ActivityStackSupervisor.java:1249)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityMayWait(ActivityStackSupervisor.java:741)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:3118)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:3104)
+V/ActivityManager(  479): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:135)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+V/ActivityManager(  479): 	at android.os.Binder.execTransact(Binder.java:404)
+V/ActivityManager(  479): 	at dalvik.system.NativeStart.run(Native Method)
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver( 5496): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl( 5496): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-100.68031, y[0]=-185.79791, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=472984, downTime=472981, deviceId=0, source=0x1002 }
+W/Ads     ( 5496): Aborting last ad request since another ad request is already in progress. The current request object will still be cached for future refreshes.
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=473059, downTime=473059, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=473060, downTime=473060, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=473062, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=473063, downTime=473061, deviceId=0, source=0x10004 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=473063, downTime=473063, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5496): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_1, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=473065, downTime=473065, deviceId=-1, source=0x101 }
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$NotifyVisibleRecommendationTask: java.lang.Void doInBackground(com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel[])>	sig:$r6 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r6, "UTF-8")	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$NotifyVisibleRecommendationTask: java.lang.Void doInBackground(com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel[])>	sig:specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r6)	timediff:0
+I/System.out( 5496): <com.merriamwebster.dictionary.widget.TaboolaRecommendation$NotifyVisibleRecommendationTask: java.lang.Void doInBackground(com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel[])>###specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r6)###http://api.taboola.com/1.1/json/merriamwebster-androidapp/recommendations.notify-visible?app.type=mobile&app.apikey=7707597a5acaf13aab27c61ebeb1bc3a3212c395&response.id=__7a014c94e5890c6cfc7e5ab9a265693a__1be3add1bc5a59c7bdde134511138b50__~~V1~~-1715001702941775719~~12vzSwgtDZmGVaIGuA3JPH14ANOlO1MQRlGDUcXwWqoSO_fFkG-bpaW2-qyqBDD6A2oNFt1ukOTCFTq8EPPgT5EdjpMUO8B4R93aIsm7asj6k6o4O1fVWSBakQQzhaxWC0mrYS4uFJXpwPo8Y-CHZFIkx7xO4ZmoqJAuZqkXlAmd6l8UDJCvOuEas2C9QxdLjrOGv-6iDoYLvQ6osB3pEQ__text&response.session=v2_ec62eb5fd3fe4b6b15b15b649ce238ad_229e8e71-9136-4509-9137-bb82da107d89-tuct1ca7bb9_1523643961_1523643961_CIi3jgYQ-pA_GMihh4KsLCABKAEw4QE
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$NotifyVisibleRecommendationTask: java.lang.Void doInBackground(com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel[])>	sig:$r8 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$NotifyVisibleRecommendationTask: java.lang.Void doInBackground(com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel[])>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("GET")	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$NotifyVisibleRecommendationTask: java.lang.Void doInBackground(com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel[])>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void connect()>()	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$NotifyVisibleRecommendationTask: java.lang.Void doInBackground(com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel[])>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>	sig:$r9 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r9, "UTF-8")	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>	sig:specialinvoke $r12.<java.net.URL: void <init>(java.lang.String)>($r9)	timediff:0
+I/System.out( 5496): <com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>###specialinvoke $r12.<java.net.URL: void <init>(java.lang.String)>($r9)###http://api.taboola.com/1.1/json/merriamwebster-androidapp/recommendations.get?app.type=mobile&app.apikey=7707597a5acaf13aab27c61ebeb1bc3a3212c395&rec.count=1&source.type=home&source.id=http://www.merriam-webster.com/&user.session=init&source.url=http://www.merriam-webster.com/&rec.type=mix&rec.thumbnail.width=252&rec.thumbnail.height=189&rec.visible=false&source.placement=app-homepage-Android-tablet&user.referrer=mw-app-android
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>	sig:$r13 = virtualinvoke $r12.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>	sig:virtualinvoke $r14.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("GET")	timediff:0
+W/InputMethodManagerService(  479): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9b4070 attribute=null, token = android.os.BinderProxy@4aa7378c
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>	sig:virtualinvoke $r14.<java.net.HttpURLConnection: void connect()>()	timediff:55
+W/Ads     ( 5496): Aborting last ad request since another ad request is already in progress. The current request object will still be cached for future refreshes.
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>	sig:$r15 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:59
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:1
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): URLConn;%;4;%;<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>;%;$r15 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://api.taboola.com/1.1/json/merriamwebster-androidapp/recommendations.get?app.type=mobile&app.apikey=7707597a5acaf13aab27c61ebeb1bc3a3212c395&rec.count=1&source.type=home&source.id=http://www.merriam-webster.com/&user.session=init&source.url=http://www.merriam-webster.com/&rec.type=mix&rec.thumbnail.width=252&rec.thumbnail.height=189&rec.visible=false&source.placement=app-homepage-Android-tablet&user.referrer=mw-app-android;%;false;%;Not found;%;Not found;%;Thu, 01 Jan 1970 00:00:00 GMT;%;Not found;%;t_vpub=CAETCPqQPxABFA;Path=/;Domain=.taboola.com;Expires=Sat, 13-Apr-2019 18:26:07 GMT
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$LoadRecommendationTask: com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel doInBackground(java.lang.Object[])>	sig:virtualinvoke $r14.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$NotifyClickOnRecommendationTask: java.lang.Void doInBackground(com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel[])>	sig:$r6 = staticinvoke <java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>($r6, "UTF-8")	timediff:0
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$NotifyClickOnRecommendationTask: java.lang.Void doInBackground(com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel[])>	sig:specialinvoke $r9.<java.net.URL: void <init>(java.lang.String)>($r6)	timediff:0
+W/SurfaceFlinger(  166): couldn't log to binary event log: overflow.
+I/System.out( 5496): <com.merriamwebster.dictionary.widget.TaboolaRecommendation$NotifyClickOnRecommendationTask: java.lang.Void doInBackground(com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel[])>###specialinvoke $r9.<java.net.URL: void <init>(java.lang.String)>($r6)###http://api.taboola.com/1.1/json/merriamwebster-androidapp/recommendations.notify-click?app.type=mobile&app.apikey=7707597a5acaf13aab27c61ebeb1bc3a3212c395&response.id=__7a014c94e5890c6cfc7e5ab9a265693a__1be3add1bc5a59c7bdde134511138b50__~~V1~~-1715001702941775719~~12vzSwgtDZmGVaIGuA3JPH14ANOlO1MQRlGDUcXwWqoSO_fFkG-bpaW2-qyqBDD6A2oNFt1ukOTCFTq8EPPgT5EdjpMUO8B4R93aIsm7asj6k6o4O1fVWSBakQQzhaxWC0mrYS4uFJXpwPo8Y-CHZFIkx7xO4ZmoqJAuZqkXlAmd6l8UDJCvOuEas2C9QxdLjrOGv-6iDoYLvQ6osB3pEQ__text&response.session=v2_ec62eb5fd3fe4b6b15b15b649ce238ad_229e8e71-9136-4509-9137-bb82da107d89-tuct1ca7bb9_1523643961_1523643961_CIi3jgYQ-pA_GMihh4KsLCABKAEw4QE&item.type=text&item.id=~~V1~~-1715001702941775719~~12vzSwgtDZmGVaIGuA3JPH14ANOlO1MQRlGDUcXwWqoSO_fFkG-bpaW2-qyqBDD6A2oNFt1ukOTCFTq8EPPgT5EdjpMUO8B4R93aIsm7asj6k6o4O1fVWSBakQQzhaxWC0mrYS4uFJXpwPo8Y-CHZFIkx7xO4ZmoqJAuZqkXlAmd6l8UDJCvOuEas2C9QxdLjrOGv-6iDoYLvQ6osB3pEQ
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$NotifyClickOnRecommendationTask: java.lang.Void doInBackground(com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel[])>	sig:$r10 = virtualinvoke $r9.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:4
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$NotifyClickOnRecommendationTask: java.lang.Void doInBackground(com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel[])>	sig:virtualinvoke $r11.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("GET")	timediff:0
+W/WindowManager(  479): updateFocusedWindowLocked, focusedAppToken is null.
+I/ActivityManager(  479): START u0 {act=android.intent.action.VIEW dat=search://merriam-webster/definition/3 flg=0x24000000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity (has extras)} from pid 5496
+V/ActivityManager(  479): startActivityUncheckedLocked: task left null
+V/ActivityManager(  479): java.lang.RuntimeException: here
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityUncheckedLocked(ActivityStackSupervisor.java:1646)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityLocked(ActivityStackSupervisor.java:1249)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityMayWait(ActivityStackSupervisor.java:741)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:3118)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:3104)
+V/ActivityManager(  479): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:135)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+V/ActivityManager(  479): 	at android.os.Binder.execTransact(Binder.java:404)
+V/ActivityManager(  479): 	at dalvik.system.NativeStart.run(Native Method)
+W/ViewRootImpl(  533): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=473332, downTime=-1, deviceId=0, source=0x10004 }
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$NotifyClickOnRecommendationTask: java.lang.Void doInBackground(com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel[])>	sig:virtualinvoke $r11.<java.net.HttpURLConnection: void connect()>()	timediff:0
+W/ViewRootImpl(  533): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=473335, downTime=473330, deviceId=0, source=0x10004 }
+I/System.out( 5496): body:<com.merriamwebster.dictionary.widget.TaboolaRecommendation$NotifyClickOnRecommendationTask: java.lang.Void doInBackground(com.merriamwebster.dictionary.widget.TaboolaRecommendation$RecommendationModel[])>	sig:virtualinvoke $r11.<java.net.HttpURLConnection: void disconnect()>()	timediff:14
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  533): Attempted to finish an input event but the input event receiver has already been disposed.
+I/System.out( 5496): <com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###http://images.taboola.com/taboola/image/fetch/f_jpg%2Cq_auto%2Ch_189%2Cw_252%2Cc_fill%2Cg_faces:auto%2Ce_sharpen/http%3A%2F%2Fcdn.taboola.com%2Fstatic%2F01%2F017e5f70-47a5-4ec9-ba45-c6ce1f6e382e.jpg
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>	sig:$r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>(15000)	timediff:0
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/ViewRootImpl(  533): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_DOWN(1), id[0]=0, x[0]=138.05722, y[0]=-167.97884, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=574.0, y[1]=320.0, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=473386, downTime=473386, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  533): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=113.648926, y[0]=-155.84644, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=622.1561, y[1]=338.1093, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=5, eventTime=473387, downTime=473386, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  533): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_UP(1), id[0]=0, x[0]=108.094696, y[0]=-152.15225, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=632.277, y[1]=346.98334, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=473387, downTime=473386, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  533): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=106.628876, y[0]=-149.84984, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=473388, downTime=473386, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  533): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=473381, downTime=473381, deviceId=-1, source=0x101 }
+I/SnapScrollController( 5496): setSnapScrollingMode case-default no-op
+I/SnapScrollController( 5496): setSnapScrollingMode case-default no-op
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: java.net.HttpURLConnection openConnection(android.net.Uri)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setReadTimeout(int)>(20000)	timediff:0
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: com.squareup.picasso.Downloader$Response load(android.net.Uri,int)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setUseCaches(boolean)>(1)	timediff:0
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/Ads     ( 5496): Aborting last ad request since another ad request is already in progress. The current request object will still be cached for future refreshes.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: com.squareup.picasso.Downloader$Response load(android.net.Uri,int)>	sig:$i1 = virtualinvoke $r3.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:138
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: com.squareup.picasso.Downloader$Response load(android.net.Uri,int)>	sig:$i1 = virtualinvoke $r3.<java.net.HttpURLConnection: int getHeaderFieldInt(java.lang.String,int)>("Content-Length", -1)	timediff:0
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: com.squareup.picasso.Downloader$Response load(android.net.Uri,int)>	sig:$r5 = virtualinvoke $r3.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>("X-Android-Response-Source")	timediff:0
+I/System.out( 5496): body:<com.squareup.picasso.UrlConnectionDownloader: com.squareup.picasso.Downloader$Response load(android.net.Uri,int)>	sig:$r10 = virtualinvoke $r3.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out( 5496): URLConn;%;5;%;<com.squareup.picasso.UrlConnectionDownloader: com.squareup.picasso.Downloader$Response load(android.net.Uri,int)>;%;$r10 = virtualinvoke $r3.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://images.taboola.com/taboola/image/fetch/f_jpg%2Cq_auto%2Ch_189%2Cw_252%2Cc_fill%2Cg_faces:auto%2Ce_sharpen/http%3A%2F%2Fcdn.taboola.com%2Fstatic%2F01%2F017e5f70-47a5-4ec9-ba45-c6ce1f6e382e.jpg;%;false;%;30327;%;public, max-age=2592000;%;Not found;%;0;%;Not found
+D/dalvikvm( 5593): DexOpt: load 12ms, verify+opt 2ms, 291956 bytes
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+D/dalvikvm( 5496): DexOpt: --- END '1505450608132.jar' (success) ---
+D/dalvikvm( 5496): DEX prep '/data/data/com.merriamwebster/cache/1505450608132.jar': unzip in 0ms, rewrite 3649ms
+D/dalvikvm( 5496): GC_FOR_ALLOC freed 10243K, 34% free 20334K/30756K, paused 17ms, total 19ms
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+I/SnapScrollController( 5496): setSnapScrollingMode case-default no-op
+I/SnapScrollController( 5496): setSnapScrollingMode case-default no-op
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 479
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+D/dalvikvm(  479): GC_CONCURRENT freed 2599K, 48% free 14098K/26632K, paused 1ms+5ms, total 100ms
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+D/dalvikvm(  720): GC_FOR_ALLOC freed 757K, 21% free 8763K/11092K, paused 123ms, total 123ms
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/MerriamWebster-JS( 5496): WARNING 6: Viewport target-densitydpi is not supported.
+I/InputDispatcher(  479): Dropped event because of pending overdue app switch.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/InputManager(  479): Input event injection from pid 5486 failed.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/MerriamWebster-JS( 5496): WARNING 6: Viewport target-densitydpi is not supported.
+I/ActivityManager(  479): START u0 {act=android.intent.action.VIEW dat=search://merriam-webster/definition/4787 flg=0x24000000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity (has extras)} from pid 5496
+V/ActivityManager(  479): startActivityUncheckedLocked: task left null
+V/ActivityManager(  479): java.lang.RuntimeException: here
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityUncheckedLocked(ActivityStackSupervisor.java:1646)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityLocked(ActivityStackSupervisor.java:1249)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityStackSupervisor.startActivityMayWait(ActivityStackSupervisor.java:741)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:3118)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:3104)
+V/ActivityManager(  479): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:135)
+V/ActivityManager(  479): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2071)
+V/ActivityManager(  479): 	at android.os.Binder.execTransact(Binder.java:404)
+V/ActivityManager(  479): 	at dalvik.system.NativeStart.run(Native Method)
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+V/FlingTracker(  533): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  533): java.lang.Throwable
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  533): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  533): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  533): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  533): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  533): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  533): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  533): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  533): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  533): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  533): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  533): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  533): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  533): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  533): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  533): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  533): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  533): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 479
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/Ads     ( 5496): Aborting last ad request since another ad request is already in progress. The current request object will still be cached for future refreshes.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  479): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+I/ActivityManager(  479): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.merriamwebster/.dictionary.activity.dictionary.DictionaryActivity} from pid 5486
+I/AndroidRuntime( 5486): VM exiting with result code 0.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+W/AwContents( 5496): nativeOnDraw failed; clearing to background color.
+I/chromium( 5496): [INFO:simple_index_file.cc(397)] Simple Cache Index is being restored from disk.

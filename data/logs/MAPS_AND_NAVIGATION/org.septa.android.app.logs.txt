@@ -1,0 +1,409 @@
+--------- beginning of /dev/log/main
+I/Icing   (  719): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+D/dalvikvm(  719): GC_CONCURRENT freed 2133K, 44% free 9628K/16984K, paused 6ms+6ms, total 41ms
+D/dalvikvm(  719): WAIT_FOR_CONCURRENT_GC blocked 23ms
+I/Icing   (  719): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/AndroidRuntime(31340): 
+D/AndroidRuntime(31340): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(31340): CheckJNI is OFF
+D/dalvikvm(31340): Using executionMode 2
+D/dalvikvm(31340): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(31340): Added shared lib libjavacore.so 0x0
+D/dalvikvm(31340): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(31340): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(31340): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(31340): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(31340): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(31340): failed to load memtrack module: -2
+D/AndroidRuntime(31340): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  481): Skipping deliver [background] BroadcastRecord{4afd7cec u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4b0cb424 31340 (unknown name)/0/u-1 remote:4b10fa50}: process crashing
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+D/WebViewTimersControl(22316): onBrowserActivityPause
+D/WebViewTimersControl(22316): Pausing webview timers, view=com.android.browser.BrowserWebView{4a795f30 VFEDHVCL ......ID 0,0-720,1164}
+I/ActivityManager(  481): Start proc org.septa.android.app for activity org.septa.android.app/.activities.SplashScreenActivity: pid=31350 uid=10121 gids={50121, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  481): setKernelCountSet(10121, 1) failed with errno -13
+I/dalvikvm(31350): ignoring registerObject request in thread=1
+I/dalvikvm(31350): ignoring registerObject request in thread=1
+I/Crashlytics(31350): Initializing Crashlytics 1.1.13.29
+I/MainApplication(31350): Starting Crashlytics
+W/dalvikvm(31350): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(31350): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(31350): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(31350): VFY: unable to resolve virtual method 29694: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(31350): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(31350): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(31350): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(31350): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(31350): VFY: unable to resolve interface method 29688: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(31350): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(31350): body:<retrofit.client.OkClient: java.net.HttpURLConnection openConnection(retrofit.client.Request)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r4)	timediff:0
+I/System.out(31350): <retrofit.client.OkClient: java.net.HttpURLConnection openConnection(retrofit.client.Request)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r4)###http://www3.septa.org/hackathon/Alerts/
+I/System.out(31350): body:<com.squareup.okhttp.OkHttpClient: java.net.HttpURLConnection open(java.net.URL,java.net.Proxy)>	sig:$r4 = virtualinvoke $r1.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.OkHttpClient: com.squareup.okhttp.OkHttpClient copyWithDefaults()>	sig:$r3 = staticinvoke <java.net.ProxySelector: java.net.ProxySelector getDefault()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.OkHttpClient: com.squareup.okhttp.OkHttpClient copyWithDefaults()>	sig:$r4 = staticinvoke <java.net.CookieHandler: java.net.CookieHandler getDefault()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.OkHttpClient: com.squareup.okhttp.OkHttpClient copyWithDefaults()>	sig:$r5 = staticinvoke <java.net.ResponseCache: java.net.ResponseCache getDefault()>()	timediff:0
+D/dalvikvm(31350): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(31350): GC_CONCURRENT freed 262K, 10% free 2951K/3256K, paused 2ms+2ms, total 10ms
+D/dalvikvm(31350): GC_CONCURRENT freed 110K, 7% free 3229K/3436K, paused 2ms+0ms, total 4ms
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(31350): <com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/org.septa.android.app/settings?instance=276ba471c1aaa12631795d22a5d75a5c0842fcf3&source=1&build_version=157&icon_hash=0dfd5e95b5cfe21b17573d350933a91f2ffbbc6d&display_version=1.3.57
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r2.<java.net.URL: int getPort()>()	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:$r6 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r2.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:specialinvoke $r5.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r3, $r1, $r6, $r7, null)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r5.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out(31350): <com.crashlytics.android.internal.ay: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/org.septa.android.app/settings?instance=276ba471c1aaa12631795d22a5d75a5c0842fcf3&source=1&build_version=157&icon_hash=0dfd5e95b5cfe21b17573d350933a91f2ffbbc6d&display_version=1.3.57
+D/dalvikvm(31350): GC_CONCURRENT freed 177K, 7% free 3563K/3804K, paused 2ms+0ms, total 5ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 5ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 5ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 6ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 6ms
+D/dalvikvm(31350): GC_FOR_ALLOC freed 54K, 6% free 3645K/3860K, paused 3ms, total 3ms
+I/dalvikvm-heap(31350): Grow heap (frag case) to 4.226MB for 635808-byte allocation
+D/dalvikvm(31350): GC_FOR_ALLOC freed <1K, 5% free 4266K/4484K, paused 3ms, total 3ms
+D/dalvikvm(31350): GC_CONCURRENT freed 33K, 5% free 4301K/4484K, paused 2ms+1ms, total 4ms
+I/System.out(31350): body:<com.crashlytics.android.internal.aC: java.net.HttpURLConnection a(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:29
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.net.HttpURLConnection e()>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r4)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(boolean)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(int)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>(10000)	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.http.HttpURLConnectionImpl: void <init>(java.net.URL,com.squareup.okhttp.OkHttpClient)>	sig:specialinvoke $r0.<java.net.HttpURLConnection: void <init>(java.net.URL)>($r1)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(31350): body:<retrofit.client.UrlConnectionClient: void prepareRequest(java.net.HttpURLConnection,retrofit.client.Request)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out(31350): body:<retrofit.client.UrlConnectionClient: void prepareRequest(java.net.HttpURLConnection,retrofit.client.Request)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.http.HttpURLConnectionImpl: com.squareup.okhttp.internal.http.HttpEngine newHttpEngine(java.lang.String,com.squareup.okhttp.internal.http.RawHeaders,com.squareup.okhttp.Connection,com.squareup.okhttp.internal.http.RetryableOutputStream)>	sig:$r6 = virtualinvoke $r5.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.http.HttpEngine$1: void <init>()>	sig:specialinvoke $r0.<java.net.CacheResponse: void <init>()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.Platform: java.net.URI toUriLenient(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URI toURI()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.http.HttpEngine: java.lang.String requestPath(java.net.URL)>	sig:$r1 = virtualinvoke $r0.<java.net.URL: java.lang.String getFile()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.http.HttpEngine: java.lang.String getOriginAddress(java.net.URL)>	sig:$i0 = virtualinvoke $r0.<java.net.URL: int getPort()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.http.HttpEngine: java.lang.String getOriginAddress(java.net.URL)>	sig:$r1 = virtualinvoke $r0.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.http.HttpEngine: void connect()>	sig:$r8 = virtualinvoke $r5.<java.net.URI: java.lang.String getHost()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.http.HttpEngine: void connect()>	sig:$r11 = virtualinvoke $r5.<java.net.URI: java.lang.String getScheme()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.Util: int getEffectivePort(java.net.URI)>	sig:$r1 = virtualinvoke $r0.<java.net.URI: java.lang.String getScheme()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.Util: int getEffectivePort(java.net.URI)>	sig:$i0 = virtualinvoke $r0.<java.net.URI: int getPort()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.http.RouteSelector: void resetNextProxy(java.net.URI,java.net.Proxy)>	sig:$r3 = virtualinvoke $r4.<java.net.ProxySelector: java.util.List select(java.net.URI)>($r1)	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.http.RouteSelector: java.net.Proxy nextProxy()>	sig:$r5 = virtualinvoke $r1.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.http.RouteSelector: void resetNextInetSocketAddress(java.net.Proxy)>	sig:$r4 = virtualinvoke $r1.<java.net.Proxy: java.net.Proxy$Type type()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.http.RouteSelector: void resetNextInetSocketAddress(java.net.Proxy)>	sig:$r2 = virtualinvoke $r5.<java.net.URI: java.lang.String getHost()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.Util: int getEffectivePort(java.net.URI)>	sig:$r1 = virtualinvoke $r0.<java.net.URI: java.lang.String getScheme()>()	timediff:0
+I/System.out(31350): body:<com.squareup.okhttp.internal.Util: int getEffectivePort(java.net.URI)>	sig:$i0 = virtualinvoke $r0.<java.net.URI: int getPort()>()	timediff:0
+D/org.septa.android.app.services.adaptors.LocationAdaptor(31350): cause? java.net.UnknownHostException: Unable to resolve host "www3.septa.org": No address associated with hostname
+D/org.septa.android.app.services.adaptors.LocationAdaptor(31350): url? http://www3.septa.org/hackathon/Alerts/
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String a(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:3
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String d(java.lang.String)>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getHeaderFieldInt(java.lang.String,int)>("Content-Length", -1)	timediff:0
+E/Crashlytics(31350): Failed to retrieve settings from https://settings.crashlytics.com/spi/v2/platforms/android/apps/org.septa.android.app/settings
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String a(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(31350): <com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r1)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/org.septa.android.app/settings?instance=276ba471c1aaa12631795d22a5d75a5c0842fcf3&source=1&build_version=157&icon_hash=0dfd5e95b5cfe21b17573d350933a91f2ffbbc6d&display_version=1.3.57
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r2.<java.net.URL: int getPort()>()	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:$r3 = virtualinvoke $r2.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:$r6 = virtualinvoke $r2.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r2.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:specialinvoke $r5.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r3, $r1, $r6, $r7, null)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String c(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r5.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out(31350): <com.crashlytics.android.internal.ay: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/org.septa.android.app/settings?instance=276ba471c1aaa12631795d22a5d75a5c0842fcf3&source=1&build_version=157&icon_hash=0dfd5e95b5cfe21b17573d350933a91f2ffbbc6d&display_version=1.3.57
+I/System.out(31350): body:<com.crashlytics.android.internal.aC: java.net.HttpURLConnection a(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.net.HttpURLConnection e()>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r4)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(boolean)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(int)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>(10000)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: com.crashlytics.android.internal.ay a(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String a(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:1
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String d(java.lang.String)>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getHeaderFieldInt(java.lang.String,int)>("Content-Length", -1)	timediff:0
+E/Crashlytics(31350): Failed to retrieve settings from https://settings.crashlytics.com/spi/v2/platforms/android/apps/org.septa.android.app/settings
+I/System.out(31350): body:<com.crashlytics.android.internal.ay: java.lang.String a(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:0
+W/SQLiteAssetHelper(31350): copying database from assets...
+W/SQLiteAssetHelper(31350): extracting file: 'SEPTA.sqlite'...
+W/ViewRootImpl(31350): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=1619604, downTime=-1, deviceId=0, source=0x10004 }
+D/libEGL  (31350): loaded /system/lib/egl/libEGL_adreno.so
+D/        (31350): HostConnection::get() New Host Connection established 0xb8888aa0, tid 31350
+D/libEGL  (31350): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (31350): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation(31350): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(31350): Enabling debug mode 0
+W/EGL_emulation(31350): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(31350): GC_CONCURRENT freed 297K, 8% free 4401K/4764K, paused 0ms+2ms, total 4ms
+W/ViewRootImpl(31350): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1619604, downTime=1619604, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 31350
+I/ActivityManager(  481): Displayed org.septa.android.app/.activities.SplashScreenActivity: +737ms (total +12s254ms)
+W/PhoneFallbackEventHandler(31350): No activity found for android.intent.action.CALL_BUTTON.
+W/InputEventReceiver(31350): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(31350): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(31350): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(31350): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(31350): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(31350): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(31350): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(31350): Attempted to finish an input event but the input event receiver has already been disposed.
+I/WindowManager(  481): Switching to real app window: Window{4adcff10 u0 org.septa.android.app/org.septa.android.app.activities.SplashScreenActivity}
+W/ViewRootImpl(31350): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=637.82025, y[0]=403.61823, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1620203, downTime=1620203, deviceId=0, source=0x1002 }
+W/ViewRootImpl(31350): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=550.0, y[0]=-417.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1620204, downTime=1620204, deviceId=0, source=0x1002 }
+W/ViewRootImpl(31350): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=551.2154, y[0]=-408.99365, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1620204, downTime=1620204, deviceId=0, source=0x1002 }
+W/ViewRootImpl(31350): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=346.0, y[0]=691.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1620205, downTime=1620205, deviceId=0, source=0x1002 }
+W/ViewRootImpl(31350): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=338.52304, y[0]=679.4596, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1620206, downTime=1620205, deviceId=0, source=0x1002 }
+W/ViewRootImpl(31350): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=400.0, y[0]=199.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1620206, downTime=1620206, deviceId=0, source=0x1002 }
+W/ViewRootImpl(31350): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=409.58698, y[0]=197.40814, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x1, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1620207, downTime=1620206, deviceId=0, source=0x1002 }
+W/ViewRootImpl(31350): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=13, eventTime=1620309, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(31350): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1620318, downTime=1620318, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper(22316): showStatusIcon on inactive InputConnection
+W/IInputConnectionWrapper(22316): finishComposingText on inactive InputConnection
+D/dalvikvm(22316): GC_CONCURRENT freed 1451K, 32% free 7362K/10784K, paused 0ms+1ms, total 6ms
+W/NetworkManagementSocketTagger(  481): setKernelCountSet(10017, 0) failed with errno -13
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 481
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 31350
+W/PhoneFallbackEventHandler(31350): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 31350
+W/PhoneFallbackEventHandler(31350): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+I/InputDispatcher(  481): Dropped event because of pending overdue app switch.
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/InputManager(  481): Input event injection from pid 31340 failed.
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+W/WindowManager(  481): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  534): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1621499, downTime=1621499, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/InputMethodManagerService(  481): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4add6c88 (uid=10121 pid=31350)
+W/InputEventReceiver(  534): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  534): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  534): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=640.92975, y[0]=304.9532, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=1621562, downTime=1621561, deviceId=0, source=0x1002 }
+W/ViewRootImpl(31350): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=1621563, downTime=1621563, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 31350
+W/PhoneFallbackEventHandler(31350): No activity found for android.intent.action.CALL_BUTTON.
+I/ContentMaintenance(  719): Pruning caches...
+I/ContentMaintenance(  719): Internal cache bytes used: 0; limit: 100000000; download size: 0
+I/ContentMaintenance(  719): Cache pruning complete.
+I/ContentMaintenance(  719): Beginning garbage collection.
+I/RealtimeCacheCleanup(  719): Beginning Realtime garbage collection.
+I/RealtimeCacheCleanup(  719): Finished Realtime garbage collection.
+I/ContentMaintenance(  719): Finished garbage collection.
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+I/WearableService(  624): Wearable Services stopping
+D/dalvikvm(  534): GC_CONCURRENT freed 5053K, 19% free 11023K/13588K, paused 1ms+2ms, total 10ms
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 31350
+W/PhoneFallbackEventHandler(31350): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+D/dalvikvm( 1873): GC_FOR_ALLOC freed 5686K, 62% free 4885K/12764K, paused 3ms, total 3ms
+I/dalvikvm-heap( 1873): Grow heap (frag case) to 8.346MB for 3686412-byte allocation
+D/dalvikvm( 1873): GC_FOR_ALLOC freed 7K, 34% free 8477K/12764K, paused 4ms, total 4ms
+D/dalvikvm( 1873): GC_CONCURRENT freed <1K, 34% free 8477K/12764K, paused 2ms+0ms, total 4ms
+W/SQLiteAssetHelper(31350): database copy complete
+W/EGL_emulation( 1873): eglSurfaceAttrib not implemented 3093 12436
+I/SQLiteAssetHelper(31350): successfully opened database SEPTA.sqlite
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 31350
+D/dalvikvm(31350): GC_CONCURRENT freed 236K, 8% free 4593K/4968K, paused 2ms+1ms, total 4ms
+W/PhoneFallbackEventHandler(31350): No activity found for android.intent.action.CALL_BUTTON.
+D/dalvikvm(31350): GC_FOR_ALLOC freed 279K, 12% free 4616K/5208K, paused 3ms, total 3ms
+D/dalvikvm(31350): GC_FOR_ALLOC freed 101K, 11% free 4663K/5208K, paused 4ms, total 4ms
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+D/dalvikvm(31350): GC_FOR_ALLOC freed 384K, 12% free 4739K/5356K, paused 5ms, total 5ms
+D/dalvikvm(31350): GC_FOR_ALLOC freed 225K, 11% free 4795K/5356K, paused 3ms, total 3ms
+D/dalvikvm(31350): GC_FOR_ALLOC freed 329K, 12% free 4873K/5524K, paused 3ms, total 3ms
+D/dalvikvm(31350): GC_FOR_ALLOC freed 228K, 10% free 4976K/5524K, paused 3ms, total 3ms
+D/dalvikvm(31350): GC_FOR_ALLOC freed 248K, 12% free 5100K/5748K, paused 3ms, total 3ms
+D/dalvikvm(31350): GC_FOR_ALLOC freed 466K, 14% free 5105K/5912K, paused 4ms, total 4ms
+D/dalvikvm(31350): GC_FOR_ALLOC freed 161K, 13% free 5185K/5912K, paused 3ms, total 3ms
+I/dalvikvm-heap(31350): Grow heap (frag case) to 5.336MB for 222348-byte allocation
+D/dalvikvm(31350): GC_FOR_ALLOC freed <1K, 12% free 5402K/6132K, paused 4ms, total 4ms
+D/dalvikvm(31350): GC_FOR_ALLOC freed 362K, 18% free 5235K/6328K, paused 2ms, total 3ms
+D/dalvikvm(31350): GC_FOR_ALLOC freed 554K, 16% free 5330K/6328K, paused 4ms, total 4ms
+D/dalvikvm(31350): GC_FOR_ALLOC freed 451K, 13% free 5540K/6328K, paused 3ms, total 3ms
+D/dalvikvm(31350): GC_FOR_ALLOC freed 649K, 14% free 5628K/6504K, paused 3ms, total 3ms
+D/dalvikvm(31350): GC_FOR_ALLOC freed 457K, 13% free 5789K/6584K, paused 2ms, total 2ms
+D/dalvikvm(31350): GC_CONCURRENT freed 624K, 11% free 6165K/6856K, paused 0ms+0ms, total 3ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm(31350): GC_CONCURRENT freed 703K, 11% free 6590K/7360K, paused 1ms+1ms, total 5ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 1ms
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+D/dalvikvm(31350): GC_CONCURRENT freed 1011K, 14% free 6722K/7804K, paused 2ms+1ms, total 6ms
+D/dalvikvm(31350): GC_CONCURRENT freed 1078K, 15% free 6838K/7988K, paused 2ms+1ms, total 9ms
+D/dalvikvm(31350): GC_CONCURRENT freed 1288K, 17% free 6887K/8256K, paused 1ms+1ms, total 5ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm(31350): GC_CONCURRENT freed 1184K, 16% free 7019K/8280K, paused 3ms+0ms, total 14ms
+D/dalvikvm(31350): GC_CONCURRENT freed 1250K, 17% free 7112K/8492K, paused 3ms+2ms, total 15ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 12ms
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+D/dalvikvm(31350): GC_CONCURRENT freed 1211K, 16% free 7218K/8524K, paused 1ms+2ms, total 8ms
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+D/dalvikvm(  481): GC_CONCURRENT freed 4618K, 49% free 15782K/30812K, paused 2ms+3ms, total 31ms
+D/dalvikvm(  481): WAIT_FOR_CONCURRENT_GC blocked 8ms
+D/dalvikvm(31350): GC_CONCURRENT freed 1353K, 17% free 7310K/8764K, paused 0ms+0ms, total 7ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 6ms
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 481
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+D/dalvikvm(31350): GC_CONCURRENT freed 1240K, 15% free 7513K/8808K, paused 2ms+1ms, total 11ms
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 31350
+W/PhoneFallbackEventHandler(31350): No activity found for android.intent.action.CALL_BUTTON.
+D/dalvikvm(31350): GC_CONCURRENT freed 1468K, 18% free 7569K/9152K, paused 2ms+0ms, total 16ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 10ms
+D/dalvikvm(31350): GC_FOR_ALLOC freed 213K, 19% free 7489K/9212K, paused 3ms, total 4ms
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+D/dalvikvm(31350): GC_CONCURRENT freed 1279K, 17% free 7651K/9212K, paused 1ms+0ms, total 6ms
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+D/dalvikvm(31350): GC_FOR_ALLOC freed 1028K, 19% free 7638K/9336K, paused 7ms, total 7ms
+D/dalvikvm(31350): GC_CONCURRENT freed 1397K, 17% free 7820K/9336K, paused 1ms+0ms, total 7ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 5ms
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.septa.android.app/.activities.SplashScreenActivity} from pid 31340
+I/AndroidRuntime(31340): VM exiting with result code 0.
+D/dalvikvm(31350): GC_CONCURRENT freed 1523K, 18% free 7902K/9548K, paused 3ms+0ms, total 9ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 5ms
+D/dalvikvm(31350): GC_CONCURRENT freed 1517K, 17% free 8031K/9676K, paused 0ms+0ms, total 8ms
+D/dalvikvm(31350): WAIT_FOR_CONCURRENT_GC blocked 7ms

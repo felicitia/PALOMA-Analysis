@@ -1,0 +1,1535 @@
+--------- beginning of /dev/log/main
+D/AndroidRuntime(28401): 
+D/AndroidRuntime(28401): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(28401): CheckJNI is OFF
+D/dalvikvm(28401): Using executionMode 2
+D/dalvikvm(28401): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(28401): Added shared lib libjavacore.so 0x0
+D/dalvikvm(28401): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(28401): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(28401): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(28401): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(28401): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(28401): failed to load memtrack module: -2
+D/AndroidRuntime(28401): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  484): Skipping deliver [background] BroadcastRecord{4b0f45a0 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4b0af610 28401 (unknown name)/0/u-1 remote:4acc7c38}: process crashing
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.riversoft.android.mysword/.MySword} from pid 28401
+D/yeshen  (  689): launcher onpause
+I/dalvikvm(28411): Enabling JNI app bug workarounds for target SDK version 8...
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28411 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/dalvikvm(28411): ignoring registerObject request in thread=1
+I/dalvikvm(28411): ignoring registerObject request in thread=1
+I/dalvikvm(28411): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28411): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28411): VFY: replacing opcode 0x6e at 0x0060
+V/PhoneStatusBar(  536): setLightsOn(true)
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28411): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28411): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28411): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28411): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28411): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28411): splitModulesPath: false null
+D/Setting (28411): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/dalvikvm(28411): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28411): GC_CONCURRENT freed 234K, 10% free 2937K/3256K, paused 2ms+1ms, total 4ms
+D/Setting (28411): Started readSettings
+D/Setting (28411): Ended readSettings 2029
+D/Setting (28411): Locale: en
+D/Setting (28411): Installer: null
+D/Setting (28411): Pro Edition: false
+I/MySword (28411): External storage state: mounted
+I/MySword (28411): External storage path: /storage/emulated/0
+D/AndroidRuntime(28411): Shutting down VM
+W/dalvikvm(28411): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+I/Process (  484): Sending signal. PID: 28411 SIG: 9
+E/AndroidRuntime(28411): FATAL EXCEPTION: main
+E/AndroidRuntime(28411): Process: com.riversoft.android.mysword, PID: 28411
+E/AndroidRuntime(28411): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28411): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28411): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28411): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28411): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28411): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28411): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28411): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28411): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28411): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28411): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28411): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28411): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28411): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28411): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28411): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28411): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28411): 	at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28411) has died.
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28424 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+I/dalvikvm(28424): Enabling JNI app bug workarounds for target SDK version 8...
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28424): ignoring registerObject request in thread=1
+I/dalvikvm(28424): ignoring registerObject request in thread=1
+I/dalvikvm(28424): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28424): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28424): VFY: replacing opcode 0x6e at 0x0060
+I/dalvikvm(28424): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28424): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28424): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28424): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28424): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28424): splitModulesPath: false null
+D/Setting (28424): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/dalvikvm(28424): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28424): GC_CONCURRENT freed 238K, 10% free 2937K/3260K, paused 2ms+1ms, total 5ms
+D/Setting (28424): Started readSettings
+D/Setting (28424): Ended readSettings 1513
+D/Setting (28424): Locale: en
+D/Setting (28424): Installer: null
+D/Setting (28424): Pro Edition: false
+I/MySword (28424): External storage state: mounted
+I/MySword (28424): External storage path: /storage/emulated/0
+D/AndroidRuntime(28424): Shutting down VM
+W/dalvikvm(28424): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+E/AndroidRuntime(28424): FATAL EXCEPTION: main
+E/AndroidRuntime(28424): Process: com.riversoft.android.mysword, PID: 28424
+E/AndroidRuntime(28424): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28424): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28424): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28424): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28424): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28424): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28424): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28424): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28424): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28424): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28424): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28424): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28424): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28424): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28424): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28424): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28424): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28424): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  484): Sending signal. PID: 28424 SIG: 9
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28424) has died.
+I/dalvikvm(28437): Enabling JNI app bug workarounds for target SDK version 8...
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28437 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+I/dalvikvm(28437): ignoring registerObject request in thread=1
+I/dalvikvm(28437): ignoring registerObject request in thread=1
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28437): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28437): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28437): VFY: replacing opcode 0x6e at 0x0060
+I/dalvikvm(28437): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28437): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28437): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28437): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28437): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28437): splitModulesPath: false null
+D/Setting (28437): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/dalvikvm(28437): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28437): GC_CONCURRENT freed 239K, 10% free 2931K/3256K, paused 2ms+0ms, total 7ms
+D/Setting (28437): Started readSettings
+D/Setting (28437): Ended readSettings 1208
+D/Setting (28437): Locale: en
+D/Setting (28437): Installer: null
+D/Setting (28437): Pro Edition: false
+I/MySword (28437): External storage state: mounted
+I/MySword (28437): External storage path: /storage/emulated/0
+D/AndroidRuntime(28437): Shutting down VM
+W/dalvikvm(28437): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+I/Process (  484): Sending signal. PID: 28437 SIG: 9
+E/AndroidRuntime(28437): FATAL EXCEPTION: main
+E/AndroidRuntime(28437): Process: com.riversoft.android.mysword, PID: 28437
+E/AndroidRuntime(28437): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28437): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28437): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28437): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28437): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28437): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28437): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28437): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28437): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28437): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28437): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28437): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28437): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28437): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28437): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28437): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28437): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28437): 	at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28437) has died.
+W/ActivityManager(  484): Force removing ActivityRecord{4a9457a4 u0 com.riversoft.android.mysword/.MySword t263}: app died, no saved state
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.riversoft.android.mysword/.MySword} from pid 28401
+D/yeshen  (  689): launcher onpause
+I/dalvikvm(28451): Enabling JNI app bug workarounds for target SDK version 8...
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28451 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+V/PhoneStatusBar(  536): setLightsOn(true)
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28451): ignoring registerObject request in thread=1
+I/dalvikvm(28451): ignoring registerObject request in thread=1
+D/yeshen  (  689): launcher onstop
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+I/dalvikvm(28451): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28451): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28451): VFY: replacing opcode 0x6e at 0x0060
+I/dalvikvm(28451): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28451): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28451): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28451): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28451): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28451): splitModulesPath: false null
+D/Setting (28451): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/dalvikvm(28451): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28451): GC_CONCURRENT freed 242K, 11% free 2929K/3256K, paused 2ms+0ms, total 5ms
+D/Setting (28451): Started readSettings
+D/Setting (28451): Ended readSettings 2099
+D/Setting (28451): Locale: en
+D/Setting (28451): Installer: null
+D/Setting (28451): Pro Edition: false
+I/MySword (28451): External storage state: mounted
+I/MySword (28451): External storage path: /storage/emulated/0
+D/AndroidRuntime(28451): Shutting down VM
+W/dalvikvm(28451): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+E/AndroidRuntime(28451): FATAL EXCEPTION: main
+E/AndroidRuntime(28451): Process: com.riversoft.android.mysword, PID: 28451
+E/AndroidRuntime(28451): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28451): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28451): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28451): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28451): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28451): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28451): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28451): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28451): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28451): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28451): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28451): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28451): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28451): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28451): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28451): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28451): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28451): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  484): Sending signal. PID: 28451 SIG: 9
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+I/dalvikvm(28463): Enabling JNI app bug workarounds for target SDK version 8...
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28451) has died.
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28463 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28463): ignoring registerObject request in thread=1
+I/dalvikvm(28463): ignoring registerObject request in thread=1
+I/dalvikvm(28463): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28463): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28463): VFY: replacing opcode 0x6e at 0x0060
+I/dalvikvm(28463): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28463): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28463): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28463): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28463): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28463): splitModulesPath: false null
+D/Setting (28463): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/dalvikvm(28463): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28463): GC_CONCURRENT freed 244K, 11% free 2926K/3256K, paused 3ms+0ms, total 5ms
+D/Setting (28463): Started readSettings
+D/Setting (28463): Ended readSettings 1255
+D/Setting (28463): Locale: en
+D/Setting (28463): Installer: null
+D/Setting (28463): Pro Edition: false
+I/MySword (28463): External storage state: mounted
+I/MySword (28463): External storage path: /storage/emulated/0
+D/AndroidRuntime(28463): Shutting down VM
+W/dalvikvm(28463): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+E/AndroidRuntime(28463): FATAL EXCEPTION: main
+E/AndroidRuntime(28463): Process: com.riversoft.android.mysword, PID: 28463
+E/AndroidRuntime(28463): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28463): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28463): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28463): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28463): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28463): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28463): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28463): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28463): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28463): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28463): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28463): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28463): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28463): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28463): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28463): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28463): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28463): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  484): Sending signal. PID: 28463 SIG: 9
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28463) has died.
+I/dalvikvm(28476): Enabling JNI app bug workarounds for target SDK version 8...
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28476 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28476): ignoring registerObject request in thread=1
+I/dalvikvm(28476): ignoring registerObject request in thread=1
+I/dalvikvm(28476): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28476): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28476): VFY: replacing opcode 0x6e at 0x0060
+I/dalvikvm(28476): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28476): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28476): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28476): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28476): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28476): splitModulesPath: false null
+D/Setting (28476): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+I/WearableService( 1323): Wearable Services stopping
+D/dalvikvm(28476): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28476): GC_CONCURRENT freed 245K, 11% free 2926K/3256K, paused 2ms+0ms, total 5ms
+D/Setting (28476): Started readSettings
+D/Setting (28476): Ended readSettings 2267
+D/Setting (28476): Locale: en
+D/Setting (28476): Installer: null
+D/Setting (28476): Pro Edition: false
+I/MySword (28476): External storage state: mounted
+I/MySword (28476): External storage path: /storage/emulated/0
+D/AndroidRuntime(28476): Shutting down VM
+W/dalvikvm(28476): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+E/AndroidRuntime(28476): FATAL EXCEPTION: main
+E/AndroidRuntime(28476): Process: com.riversoft.android.mysword, PID: 28476
+E/AndroidRuntime(28476): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28476): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28476): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28476): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28476): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28476): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28476): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28476): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28476): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28476): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28476): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28476): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28476): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28476): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28476): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28476): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28476): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28476): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  484): Sending signal. PID: 28476 SIG: 9
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28476) has died.
+W/ActivityManager(  484): Force removing ActivityRecord{4a954654 u0 com.riversoft.android.mysword/.MySword t264}: app died, no saved state
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+D/FirebaseApp(  689): Notifying background state change listeners.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab54b98 attribute=null, token = android.os.BinderProxy@4b102840
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/dalvikvm(  689): GC_CONCURRENT freed 6234K, 6% free 117110K/123488K, paused 1ms+19ms, total 90ms
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=4500.0)
+V/PanelView(  536): animationTick called with dtms=-12; nothing to do (h=0.0 v=4500.0)
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+W/WindowManager(  484): updateFocusedWindowLocked, focusedAppToken is null.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.activities.PeopleActivity bnds=[290,388][431,618] (has extras)} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=5753877, downTime=5753877, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=5753877, downTime=5753877, deviceId=-1, source=0x101 }
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5753825, downTime=5753825, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5753994, downTime=5753994, deviceId=-1, source=0x101 }
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.riversoft.android.mysword/.MySword} from pid 28401
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=1280.0 v=0.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=1280.0 v=0.0)
+V/PanelView(  536): animationTick called with dtms=-6; nothing to do (h=1280.0 v=0.0)
+D/yeshen  (  689): launcher onpause
+I/dalvikvm(28499): Enabling JNI app bug workarounds for target SDK version 8...
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28499 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+I/ActivityManager(  484): START u0 {act=android.intent.action.CHOOSER flg=0x10008001 cmp=android/com.android.internal.app.ChooserActivity bnds=[96,389][720,461] (has clip) (has extras)} from pid -1
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=1280.0 v=-3000.0)
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28499): ignoring registerObject request in thread=1
+I/dalvikvm(28499): ignoring registerObject request in thread=1
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=1280.0 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=-10; nothing to do (h=1280.0 v=-3000.0)
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=content://media/external/images/media/56 typ=image/png flg=0x10000000 cmp=com.android.gallery3d/.app.GalleryActivity bnds=[0,77][720,461]} from pid -1
+D/yeshen  (  689): launcher onstop
+I/dalvikvm(28499): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28499): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28499): VFY: replacing opcode 0x6e at 0x0060
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=1280.0 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=-9; nothing to do (h=1280.0 v=-3000.0)
+I/dalvikvm(28499): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28499): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28499): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28499): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28499): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28499): splitModulesPath: false null
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+D/Setting (28499): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/dalvikvm(28499): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28499): GC_CONCURRENT freed 247K, 11% free 2924K/3256K, paused 2ms+1ms, total 5ms
+D/Setting (28499): Started readSettings
+D/Setting (28499): Ended readSettings 1417
+D/Setting (28499): Locale: en
+V/PhoneStatusBar(  536): setLightsOn(true)
+D/Setting (28499): Installer: null
+D/Setting (28499): Pro Edition: false
+I/MySword (28499): External storage state: mounted
+I/MySword (28499): External storage path: /storage/emulated/0
+D/AndroidRuntime(28499): Shutting down VM
+W/dalvikvm(28499): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+E/AndroidRuntime(28499): FATAL EXCEPTION: main
+E/AndroidRuntime(28499): Process: com.riversoft.android.mysword, PID: 28499
+E/AndroidRuntime(28499): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28499): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28499): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28499): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28499): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28499): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28499): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28499): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28499): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28499): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28499): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28499): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28499): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28499): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28499): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28499): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28499): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28499): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  484): Sending signal. PID: 28499 SIG: 9
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28499) has died.
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/dalvikvm(28514): Enabling JNI app bug workarounds for target SDK version 8...
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28514 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28514): ignoring registerObject request in thread=1
+I/dalvikvm(28514): ignoring registerObject request in thread=1
+I/dalvikvm(28514): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28514): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28514): VFY: replacing opcode 0x6e at 0x0060
+I/dalvikvm(28514): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28514): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28514): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28514): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28514): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28514): splitModulesPath: false null
+D/Setting (28514): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/dalvikvm(28514): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28514): GC_CONCURRENT freed 248K, 11% free 2923K/3256K, paused 4ms+1ms, total 7ms
+D/Setting (28514): Started readSettings
+D/Setting (28514): Ended readSettings 4588
+D/Setting (28514): Locale: en
+D/Setting (28514): Installer: null
+D/Setting (28514): Pro Edition: false
+I/MySword (28514): External storage state: mounted
+I/MySword (28514): External storage path: /storage/emulated/0
+D/AndroidRuntime(28514): Shutting down VM
+W/dalvikvm(28514): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+E/AndroidRuntime(28514): FATAL EXCEPTION: main
+E/AndroidRuntime(28514): Process: com.riversoft.android.mysword, PID: 28514
+E/AndroidRuntime(28514): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28514): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28514): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28514): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28514): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28514): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28514): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28514): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28514): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28514): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28514): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28514): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28514): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28514): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28514): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28514): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28514): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28514): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  484): Sending signal. PID: 28514 SIG: 9
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28514) has died.
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+I/dalvikvm(28527): Enabling JNI app bug workarounds for target SDK version 8...
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28527 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28527): ignoring registerObject request in thread=1
+I/dalvikvm(28527): ignoring registerObject request in thread=1
+I/dalvikvm(28527): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28527): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28527): VFY: replacing opcode 0x6e at 0x0060
+I/dalvikvm(28527): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28527): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28527): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28527): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28527): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28527): splitModulesPath: false null
+D/Setting (28527): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+I/qtaguid (  689): Untagging socket 86 failed errno=-13
+W/NetworkManagementSocketTagger(  689): untagSocket(86) failed with errno -13
+I/qtaguid (  689): Tagging socket 86 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(86, 1239581248, -1) failed with errno-13
+D/dalvikvm(28527): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28527): GC_CONCURRENT freed 249K, 11% free 2922K/3256K, paused 2ms+0ms, total 5ms
+D/Setting (28527): Started readSettings
+D/Setting (28527): Ended readSettings 1126
+D/Setting (28527): Locale: en
+D/Setting (28527): Installer: null
+D/Setting (28527): Pro Edition: false
+I/MySword (28527): External storage state: mounted
+I/MySword (28527): External storage path: /storage/emulated/0
+D/AndroidRuntime(28527): Shutting down VM
+W/dalvikvm(28527): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+I/Process (  484): Sending signal. PID: 28527 SIG: 9
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+E/AndroidRuntime(28527): FATAL EXCEPTION: main
+E/AndroidRuntime(28527): Process: com.riversoft.android.mysword, PID: 28527
+E/AndroidRuntime(28527): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28527): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28527): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28527): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28527): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28527): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28527): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28527): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28527): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28527): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28527): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28527): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28527): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28527): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28527): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28527): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28527): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28527): 	at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28527) has died.
+W/ActivityManager(  484): Force removing ActivityRecord{4a954be8 u0 com.riversoft.android.mysword/.MySword t265}: app died, no saved state
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+D/FirebaseApp(  689): Notifying background state change listeners.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5754989, downTime=5754989, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4b071eec attribute=android.view.inputmethod.EditorInfo@4afaa0f0, token = android.os.BinderProxy@4b102840
+I/qtaguid (  689): Tagging socket 142 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(142, 1239581248, -1) failed with errno-13
+W/Launcher(  689): No global search activity found.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=885515&bid_id=owANvE3ZY5TwAgRABPEvILlp4x8&imp_id=o19kvVmnGXtmmA89ypn5SkwB4ZN&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab cmp=com.android.browser/.BrowserActivity} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+D/dalvikvm(  689): GC_FOR_ALLOC freed 4714K, 5% free 119226K/125392K, paused 50ms, total 50ms
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/qtaguid (  689): Tagging socket 143 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(143, 1239581248, -1) failed with errno-13
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.cauagamesoft.carrossocadosbrasil flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/qtaguid (  689): Tagging socket 147 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(147, 1239581248, -1) failed with errno-13
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/qtaguid (  689): Untagging socket 121 failed errno=-13
+W/NetworkManagementSocketTagger(  689): untagSocket(121) failed with errno -13
+I/qtaguid (  689): Tagging socket 116 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(116, 462060827, -1) failed with errno-13
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.BCG.ForteCraft flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/ActivityManager(  484): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 689
+W/PhoneFallbackEventHandler(  689): No activity found for android.intent.action.CALL_BUTTON.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.bbqstudio.bbqqoversea flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.miniclip.eightballpool flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.namcobandaigames.pacmantournaments flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/qtaguid (  689): Tagging socket 148 with tag 1b8a7d1b00000000(462060827) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(148, 462060827, -1) failed with errno-13
+D/dalvikvm(22913): GC_FOR_ALLOC freed 5694K, 55% free 4882K/10668K, paused 1ms, total 1ms
+I/dalvikvm-heap(22913): Grow heap (frag case) to 8.361MB for 3686412-byte allocation
+D/dalvikvm(22913): GC_FOR_ALLOC freed 0K, 21% free 8482K/10668K, paused 25ms, total 25ms
+D/dalvikvm(22913): GC_CONCURRENT freed <1K, 21% free 8481K/10668K, paused 2ms+0ms, total 4ms
+D/dalvikvm(  689): GC_CONCURRENT freed 7211K, 6% free 120208K/127568K, paused 3ms+15ms, total 127ms
+D/dalvikvm(  689): WAIT_FOR_CONCURRENT_GC blocked 115ms
+D/dalvikvm(  689): WAIT_FOR_CONCURRENT_GC blocked 114ms
+D/dalvikvm(  689): WAIT_FOR_CONCURRENT_GC blocked 111ms
+D/dalvikvm(  689): WAIT_FOR_CONCURRENT_GC blocked 78ms
+W/EGL_emulation(22913): eglSurfaceAttrib not implemented 3093 12436
+I/        (  689): {"errNum":0,"message":"SUCCESS"}
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.namcobandaigames.pacmantournaments flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.namcobandaigames.pacmantournaments flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.kiloo.subwaysurf flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.kiloo.subwaysurf flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=me.pou.app flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(22913): GC_FOR_ALLOC freed 16K, 21% free 8481K/10668K, paused 1ms, total 1ms
+I/dalvikvm-heap(22913): Grow heap (frag case) to 10.338MB for 2073612-byte allocation
+D/dalvikvm(22913): GC_FOR_ALLOC freed 0K, 2% free 10506K/10668K, paused 5ms, total 5ms
+D/dalvikvm(22913): GC_CONCURRENT freed <1K, 2% free 10506K/10668K, paused 2ms+1ms, total 4ms
+D/dalvikvm(  484): GC_FOR_ALLOC freed 5953K, 44% free 20438K/36204K, paused 19ms, total 30ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingangelafree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm( 1295): GC_EXPLICIT freed 1967K, 52% free 9917K/20436K, paused 1ms+1ms, total 22ms
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.NotificationManagerService$6.run:1838 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+D/dalvikvm(  536): GC_FOR_ALLOC freed 14990K, 49% free 11124K/21796K, paused 4ms, total 15ms
+D/dalvikvm(  536): GC_CONCURRENT freed 713K, 40% free 13172K/21796K, paused 5ms+0ms, total 8ms
+D/dalvikvm( 1143): GC_CONCURRENT freed 375K, 14% free 3336K/3848K, paused 0ms+1ms, total 19ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/iu.UploadsManager( 1295): End new media; added: 1, uploading: 0, time: 225 ms
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.supercell.clashroyale flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  484): GC_FOR_ALLOC freed 2216K, 39% free 22443K/36204K, paused 16ms, total 23ms
+D/dalvikvm(  484): GC_FOR_ALLOC freed 54K, 33% free 24420K/36204K, paused 31ms, total 31ms
+I/dalvikvm-heap(  484): Grow heap (frag case) to 25.912MB for 2073612-byte allocation
+D/dalvikvm(  484): GC_FOR_ALLOC freed <1K, 31% free 26445K/38232K, paused 15ms, total 15ms
+D/dalvikvm(  484): GC_FOR_ALLOC freed 1K, 31% free 26557K/38232K, paused 20ms, total 20ms
+I/dalvikvm-heap(  484): Grow heap (frag case) to 27.999MB for 2073612-byte allocation
+D/dalvikvm(  484): GC_FOR_ALLOC freed <1K, 30% free 28582K/40260K, paused 45ms, total 45ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.namcobandaigames.pacmantournaments flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.bbqstudio.bbqqoversea flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.kiloo.subwaysurf flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.supercell.clashroyale flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  689): GC_FOR_ALLOC freed 6720K, 7% free 119667K/128484K, paused 49ms, total 51ms
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.riversoft.android.mysword/.MySword} from pid 28401
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.bbqstudio.bbqqoversea flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/yeshen  (  689): launcher onpause
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28642 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+I/dalvikvm(28642): Enabling JNI app bug workarounds for target SDK version 8...
+V/PhoneStatusBar(  536): setLightsOn(true)
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28642): ignoring registerObject request in thread=1
+I/dalvikvm(28642): ignoring registerObject request in thread=1
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+I/dalvikvm(28642): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28642): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28642): VFY: replacing opcode 0x6e at 0x0060
+I/dalvikvm(28642): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28642): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28642): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28642): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28642): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28642): splitModulesPath: false null
+D/Setting (28642): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/dalvikvm(28642): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28642): GC_CONCURRENT freed 249K, 11% free 2921K/3256K, paused 2ms+1ms, total 5ms
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=br.com.lgrmobile.jdb2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/Setting (28642): Started readSettings
+D/Setting (28642): Ended readSettings 2078
+D/Setting (28642): Locale: en
+D/Setting (28642): Installer: null
+D/Setting (28642): Pro Edition: false
+I/MySword (28642): External storage state: mounted
+I/MySword (28642): External storage path: /storage/emulated/0
+D/AndroidRuntime(28642): Shutting down VM
+W/dalvikvm(28642): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+E/AndroidRuntime(28642): FATAL EXCEPTION: main
+E/AndroidRuntime(28642): Process: com.riversoft.android.mysword, PID: 28642
+E/AndroidRuntime(28642): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28642): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28642): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28642): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28642): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28642): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28642): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28642): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28642): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28642): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28642): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28642): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28642): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28642): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28642): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28642): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28642): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28642): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  484): Sending signal. PID: 28642 SIG: 9
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28642) has died.
+I/dalvikvm(28655): Enabling JNI app bug workarounds for target SDK version 8...
+D/dalvikvm(  175): GC_EXPLICIT freed 41K, 5% free 2786K/2912K, paused 1ms+0ms, total 4ms
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28655 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+I/dalvikvm(28655): ignoring registerObject request in thread=1
+I/dalvikvm(28655): ignoring registerObject request in thread=1
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+D/dalvikvm(  175): GC_EXPLICIT freed <1K, 5% free 2786K/2912K, paused 9ms+1ms, total 12ms
+D/dalvikvm(  175): GC_EXPLICIT freed <1K, 5% free 2786K/2912K, paused 0ms+0ms, total 3ms
+I/dalvikvm(28655): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28655): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28655): VFY: replacing opcode 0x6e at 0x0060
+I/dalvikvm(28655): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28655): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28655): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28655): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28655): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28655): splitModulesPath: false null
+D/Setting (28655): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/dalvikvm(28655): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28655): GC_CONCURRENT freed 250K, 11% free 2921K/3256K, paused 3ms+0ms, total 5ms
+D/Setting (28655): Started readSettings
+D/Setting (28655): Ended readSettings 1416
+D/Setting (28655): Locale: en
+D/Setting (28655): Installer: null
+D/Setting (28655): Pro Edition: false
+I/MySword (28655): External storage state: mounted
+I/MySword (28655): External storage path: /storage/emulated/0
+D/AndroidRuntime(28655): Shutting down VM
+W/dalvikvm(28655): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+I/Process (  484): Sending signal. PID: 28655 SIG: 9
+E/AndroidRuntime(28655): FATAL EXCEPTION: main
+E/AndroidRuntime(28655): Process: com.riversoft.android.mysword, PID: 28655
+E/AndroidRuntime(28655): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28655): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28655): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28655): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28655): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28655): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28655): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28655): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28655): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28655): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28655): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28655): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28655): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28655): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28655): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28655): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28655): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28655): 	at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28655) has died.
+I/dalvikvm(28670): Enabling JNI app bug workarounds for target SDK version 8...
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28670 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28670): ignoring registerObject request in thread=1
+I/dalvikvm(28670): ignoring registerObject request in thread=1
+I/dalvikvm(28670): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28670): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28670): VFY: replacing opcode 0x6e at 0x0060
+I/dalvikvm(28670): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28670): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28670): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28670): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28670): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28670): splitModulesPath: false null
+D/Setting (28670): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/Setting (28670): Started readSettings
+D/Setting (28670): Ended readSettings 1063
+D/Setting (28670): Locale: en
+D/dalvikvm(28670): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28670): GC_CONCURRENT freed 241K, 10% free 2954K/3280K, paused 1ms+2ms, total 18ms
+D/Setting (28670): Installer: null
+D/Setting (28670): Pro Edition: false
+I/MySword (28670): External storage state: mounted
+I/MySword (28670): External storage path: /storage/emulated/0
+D/AndroidRuntime(28670): Shutting down VM
+W/dalvikvm(28670): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+I/Process (  484): Sending signal. PID: 28670 SIG: 9
+E/AndroidRuntime(28670): FATAL EXCEPTION: main
+E/AndroidRuntime(28670): Process: com.riversoft.android.mysword, PID: 28670
+E/AndroidRuntime(28670): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28670): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28670): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28670): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28670): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28670): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28670): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28670): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28670): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28670): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28670): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28670): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28670): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28670): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28670): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28670): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28670): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28670): 	at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28670) has died.
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/ActivityManager(  484): Force removing ActivityRecord{4a965144 u0 com.riversoft.android.mysword/.MySword t266}: app died, no saved state
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+D/FirebaseApp(  689): Notifying background state change listeners.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  689): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=5762312, downTime=-1, deviceId=0, source=0x10004 }
+D/dalvikvm(22913): GC_FOR_ALLOC freed 5688K, 55% free 4882K/10668K, paused 40ms, total 41ms
+I/dalvikvm-heap(22913): Grow heap (frag case) to 8.362MB for 3686412-byte allocation
+D/dalvikvm(22913): GC_CONCURRENT freed 1K, 21% free 8481K/10668K, paused 4ms+1ms, total 6ms
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5762313, downTime=5762313, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9da02c attribute=null, token = android.os.BinderProxy@4b102840
+W/EGL_emulation(22913): eglSurfaceAttrib not implemented 3093 12436
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=br.com.lgrmobile.jdb2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.igg.android.lordsmobile flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(22913): GC_FOR_ALLOC freed 16K, 21% free 8482K/10668K, paused 4ms, total 4ms
+I/dalvikvm-heap(22913): Grow heap (frag case) to 10.338MB for 2073612-byte allocation
+D/dalvikvm(22913): GC_CONCURRENT freed <1K, 2% free 10507K/10668K, paused 3ms+1ms, total 8ms
+D/dalvikvm(22913): WAIT_FOR_CONCURRENT_GC blocked 4ms
+D/dalvikvm(22913): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm(  484): GC_FOR_ALLOC freed 6723K, 45% free 22455K/40260K, paused 15ms, total 26ms
+D/dalvikvm(  536): GC_FOR_ALLOC freed 1209K, 32% free 14899K/21796K, paused 3ms, total 6ms
+I/dalvikvm-heap(  536): Grow heap (frag case) to 16.608MB for 2073612-byte allocation
+D/dalvikvm(  484): GC_FOR_ALLOC freed 20K, 35% free 26495K/40260K, paused 31ms, total 31ms
+D/dalvikvm(  536): GC_FOR_ALLOC freed 3K, 29% free 16921K/23824K, paused 32ms, total 32ms
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+D/dalvikvm(  484): GC_FOR_ALLOC freed 6234K, 39% free 22411K/36204K, paused 14ms, total 14ms
+D/dalvikvm(  484): GC_FOR_ALLOC freed 5K, 33% free 24437K/36204K, paused 19ms, total 20ms
+I/dalvikvm-heap(  484): Grow heap (frag case) to 25.927MB for 2073612-byte allocation
+D/dalvikvm(  484): GC_FOR_ALLOC freed <1K, 31% free 26462K/38232K, paused 13ms, total 13ms
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vphone.helper/.MainActivity bnds=[445,388][586,618] (has extras)} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+D/dalvikvm(  536): GC_FOR_ALLOC freed 136K, 30% free 16913K/23824K, paused 7ms, total 7ms
+I/dalvikvm-heap(  536): Grow heap (frag case) to 18.575MB for 2073612-byte allocation
+D/dalvikvm(  484): GC_FOR_ALLOC freed 6K, 31% free 26574K/38232K, paused 21ms, total 21ms
+I/dalvikvm-heap(  484): Grow heap (frag case) to 28.015MB for 2073612-byte allocation
+D/dalvikvm(  484): GC_FOR_ALLOC freed <1K, 29% free 28599K/40260K, paused 12ms, total 12ms
+D/dalvikvm(  536): GC_FOR_ALLOC freed 1K, 27% free 18937K/25852K, paused 50ms, total 50ms
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vphone.helper/.MainActivity bnds=[452,388][593,618] (has extras)} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.youmusic.magictiles flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/Launcher(  689): No global search activity found.
+W/Launcher(  689): No global search activity found.
+W/Launcher(  689): No global search activity found.
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.king.candycrushsaga flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.riversoft.android.mysword/.MySword} from pid 28401
+D/yeshen  (  689): launcher onpause
+I/dalvikvm(28731): Enabling JNI app bug workarounds for target SDK version 8...
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28731 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28731): ignoring registerObject request in thread=1
+I/dalvikvm(28731): ignoring registerObject request in thread=1
+V/PhoneStatusBar(  536): setLightsOn(true)
+I/dalvikvm(28731): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28731): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28731): VFY: replacing opcode 0x6e at 0x0060
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+I/dalvikvm(28731): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28731): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28731): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28731): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28731): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28731): splitModulesPath: false null
+D/Setting (28731): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/dalvikvm(28731): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28731): GC_CONCURRENT freed 237K, 10% free 2934K/3256K, paused 3ms+0ms, total 6ms
+D/Setting (28731): Started readSettings
+D/Setting (28731): Ended readSettings 1023
+D/Setting (28731): Locale: en
+D/Setting (28731): Installer: null
+D/Setting (28731): Pro Edition: false
+I/MySword (28731): External storage state: mounted
+I/MySword (28731): External storage path: /storage/emulated/0
+D/AndroidRuntime(28731): Shutting down VM
+W/dalvikvm(28731): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+I/Process (  484): Sending signal. PID: 28731 SIG: 9
+E/AndroidRuntime(28731): FATAL EXCEPTION: main
+E/AndroidRuntime(28731): Process: com.riversoft.android.mysword, PID: 28731
+E/AndroidRuntime(28731): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28731): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28731): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28731): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28731): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28731): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28731): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28731): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28731): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28731): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28731): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28731): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28731): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28731): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28731): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28731): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28731): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28731): 	at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28731) has died.
+I/dalvikvm(28743): Enabling JNI app bug workarounds for target SDK version 8...
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28743 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+I/dalvikvm(28743): ignoring registerObject request in thread=1
+I/dalvikvm(28743): ignoring registerObject request in thread=1
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28743): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28743): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28743): VFY: replacing opcode 0x6e at 0x0060
+I/dalvikvm(28743): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28743): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28743): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28743): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28743): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28743): splitModulesPath: false null
+D/Setting (28743): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/dalvikvm(28743): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28743): GC_CONCURRENT freed 239K, 10% free 2931K/3256K, paused 2ms+1ms, total 5ms
+D/Setting (28743): Started readSettings
+D/Setting (28743): Ended readSettings 1309
+D/Setting (28743): Locale: en
+D/Setting (28743): Installer: null
+D/Setting (28743): Pro Edition: false
+I/MySword (28743): External storage state: mounted
+I/MySword (28743): External storage path: /storage/emulated/0
+D/AndroidRuntime(28743): Shutting down VM
+W/dalvikvm(28743): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+I/Process (  484): Sending signal. PID: 28743 SIG: 9
+E/AndroidRuntime(28743): FATAL EXCEPTION: main
+E/AndroidRuntime(28743): Process: com.riversoft.android.mysword, PID: 28743
+E/AndroidRuntime(28743): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28743): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28743): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28743): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28743): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28743): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28743): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28743): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28743): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28743): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28743): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28743): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28743): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28743): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28743): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28743): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28743): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28743): 	at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28743) has died.
+I/dalvikvm(28756): Enabling JNI app bug workarounds for target SDK version 8...
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28756 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28756): ignoring registerObject request in thread=1
+I/dalvikvm(28756): ignoring registerObject request in thread=1
+I/dalvikvm(28756): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28756): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28756): VFY: replacing opcode 0x6e at 0x0060
+I/dalvikvm(28756): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28756): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28756): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28756): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28756): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28756): splitModulesPath: false null
+D/Setting (28756): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/dalvikvm(28756): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28756): GC_CONCURRENT freed 242K, 11% free 2929K/3256K, paused 1ms+1ms, total 4ms
+D/Setting (28756): Started readSettings
+D/Setting (28756): Ended readSettings 1247
+D/Setting (28756): Locale: en
+D/Setting (28756): Installer: null
+D/Setting (28756): Pro Edition: false
+I/MySword (28756): External storage state: mounted
+I/MySword (28756): External storage path: /storage/emulated/0
+D/AndroidRuntime(28756): Shutting down VM
+W/dalvikvm(28756): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+E/AndroidRuntime(28756): FATAL EXCEPTION: main
+E/AndroidRuntime(28756): Process: com.riversoft.android.mysword, PID: 28756
+E/AndroidRuntime(28756): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28756): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28756): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28756): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28756): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28756): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28756): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28756): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28756): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28756): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28756): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28756): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28756): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28756): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28756): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28756): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28756): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28756): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  484): Sending signal. PID: 28756 SIG: 9
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28756) has died.
+W/ActivityManager(  484): Force removing ActivityRecord{4a9de7e8 u0 com.riversoft.android.mysword/.MySword t267}: app died, no saved state
+D/FirebaseApp(  689): Notifying background state change listeners.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+I/InputDispatcher(  484): Dropping event because there is no focused window or focused application.
+W/InputManager(  484): Input event injection from pid 28401 failed.
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5766340, downTime=5766340, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a934880 attribute=null, token = android.os.BinderProxy@4b102840
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=https://tracking.apptrackerlink.com/ws/action/click?offer_id=894807&bid_id=QYVOR77mv6Cjk29GxMRJu3wV4Zp&imp_id=GlGEzkLV7WcMYQM4lYA3H25kKVO&p_id=a57d1f0d-3e45-4524-8e9b-4f61b8d09b3a&mac=2C:56:DC:4E:22:14&gaid=32c3adf2-4ef0-4bfa-9817-0931a0a194ab cmp=com.android.browser/.BrowserActivity} from pid 689
+D/dalvikvm(  689): GC_CONCURRENT freed 7886K, 7% free 119973K/128480K, paused 1ms+18ms, total 91ms
+D/dalvikvm(  689): WAIT_FOR_CONCURRENT_GC blocked 73ms
+D/dalvikvm(  689): WAIT_FOR_CONCURRENT_GC blocked 72ms
+D/dalvikvm(  689): WAIT_FOR_CONCURRENT_GC blocked 73ms
+D/dalvikvm(  689): WAIT_FOR_CONCURRENT_GC blocked 70ms
+D/dalvikvm(  689): WAIT_FOR_CONCURRENT_GC blocked 71ms
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/Launcher(  689): No global search activity found.
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=4500.0)
+V/PanelView(  536): animationTick called with dtms=-8; nothing to do (h=0.0 v=4500.0)
+W/WindowManager(  484): updateFocusedWindowLocked, focusedAppToken is null.
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=5767760, downTime=5767760, deviceId=-1, source=0x101 }
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.riversoft.android.mysword/.MySword} from pid 28401
+D/yeshen  (  689): launcher onpause
+V/FlingTracker(  536): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  536): java.lang.Throwable
+V/FlingTracker(  536): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  536): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  536): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  536): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  536): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  536): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  536): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  536): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  536): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  536): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  536): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  536): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  536): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  536): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  536): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  536): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  536): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  536): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  536): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  536): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  536): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  536): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  536): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=1280.0 v=0.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=1280.0 v=0.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=1280.0 v=0.0)
+I/dalvikvm(28773): Enabling JNI app bug workarounds for target SDK version 8...
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28773 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28773): ignoring registerObject request in thread=1
+I/dalvikvm(28773): ignoring registerObject request in thread=1
+D/yeshen  (  689): launcher onstop
+I/dalvikvm(28773): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28773): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28773): VFY: replacing opcode 0x6e at 0x0060
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/dalvikvm(28773): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28773): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28773): VFY: replacing opcode 0x6e at 0x0198
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+D/Setting (28773): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28773): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28773): splitModulesPath: false null
+D/Setting (28773): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/dalvikvm(28773): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28773): GC_CONCURRENT freed 244K, 11% free 2927K/3256K, paused 2ms+1ms, total 7ms
+D/Setting (28773): Started readSettings
+D/Setting (28773): Ended readSettings 1484
+D/Setting (28773): Locale: en
+D/Setting (28773): Installer: null
+D/Setting (28773): Pro Edition: false
+I/MySword (28773): External storage state: mounted
+I/MySword (28773): External storage path: /storage/emulated/0
+D/AndroidRuntime(28773): Shutting down VM
+W/dalvikvm(28773): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+I/Process (  484): Sending signal. PID: 28773 SIG: 9
+E/AndroidRuntime(28773): FATAL EXCEPTION: main
+E/AndroidRuntime(28773): Process: com.riversoft.android.mysword, PID: 28773
+E/AndroidRuntime(28773): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28773): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28773): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28773): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28773): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28773): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28773): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28773): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28773): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28773): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28773): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28773): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28773): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28773): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28773): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28773): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28773): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28773): 	at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28773) has died.
+I/dalvikvm(28786): Enabling JNI app bug workarounds for target SDK version 8...
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28786 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28786): ignoring registerObject request in thread=1
+I/dalvikvm(28786): ignoring registerObject request in thread=1
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=1280.0 v=0.0)
+I/dalvikvm(28786): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28786): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28786): VFY: replacing opcode 0x6e at 0x0060
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=1274.4817 v=-0.0)
+I/dalvikvm(28786): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28786): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28786): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28786): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28786): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28786): splitModulesPath: false null
+D/Setting (28786): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/dalvikvm( 1323): GC_EXPLICIT freed 757K, 21% free 7312K/9144K, paused 56ms+2ms, total 71ms
+D/dalvikvm(28786): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28786): GC_CONCURRENT freed 245K, 11% free 2926K/3256K, paused 2ms+0ms, total 4ms
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.riversoft.android.mysword/.MySword} from pid 28401
+D/Setting (28786): Started readSettings
+D/Setting (28786): Ended readSettings 1256
+D/Setting (28786): Locale: en
+D/Setting (28786): Installer: null
+D/Setting (28786): Pro Edition: false
+I/MySword (28786): External storage state: mounted
+I/MySword (28786): External storage path: /storage/emulated/0
+D/AndroidRuntime(28786): Shutting down VM
+W/dalvikvm(28786): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+E/AndroidRuntime(28786): FATAL EXCEPTION: main
+E/AndroidRuntime(28786): Process: com.riversoft.android.mysword, PID: 28786
+E/AndroidRuntime(28786): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28786): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28786): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28786): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28786): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28786): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28786): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28786): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28786): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28786): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28786): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28786): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28786): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28786): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28786): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28786): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28786): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28786): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  484): Sending signal. PID: 28786 SIG: 9
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28786) has died.
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+I/dalvikvm(28799): Enabling JNI app bug workarounds for target SDK version 8...
+I/ActivityManager(  484): Start proc com.riversoft.android.mysword for activity com.riversoft.android.mysword/.MySword: pid=28799 uid=10075 gids={50075, 3003, 1028, 1015, 1023}
+I/dalvikvm(28799): ignoring registerObject request in thread=1
+I/dalvikvm(28799): ignoring registerObject request in thread=1
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 1) failed with errno -13
+I/dalvikvm(28799): Could not find method android.webkit.WebView.createPrintDocumentAdapter, referenced from method com.riversoft.android.mysword.MySword.bg
+W/dalvikvm(28799): VFY: unable to resolve virtual method 6747: Landroid/webkit/WebView;.createPrintDocumentAdapter (Ljava/lang/String;)Landroid/print/PrintDocumentAdapter;
+D/dalvikvm(28799): VFY: replacing opcode 0x6e at 0x0060
+I/dalvikvm(28799): Could not find method android.view.Window.setStatusBarColor, referenced from method com.riversoft.android.mysword.ui.a.onCreate
+W/dalvikvm(28799): VFY: unable to resolve virtual method 6645: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(28799): VFY: replacing opcode 0x6e at 0x0198
+D/Setting (28799): Files path: /data/data/com.riversoft.android.mysword/files/
+D/Setting (28799): Databases path: /data/data/com.riversoft.android.mysword/databases/
+D/Setting (28799): splitModulesPath: false null
+D/Setting (28799): SQL: create table user(loginname text, loginpassword text, activationcode text, donortype int, maxversion double)
+D/dalvikvm(28799): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(28799): GC_CONCURRENT freed 247K, 11% free 2924K/3256K, paused 2ms+0ms, total 4ms
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=1274.4817 v=-0.0)
+V/PanelView(  536): animationTick called with dtms=-14; nothing to do (h=1274.4817 v=-0.0)
+D/Setting (28799): Started readSettings
+D/Setting (28799): Ended readSettings 1233
+D/Setting (28799): Locale: en
+D/Setting (28799): Installer: null
+D/Setting (28799): Pro Edition: false
+I/MySword (28799): External storage state: mounted
+I/MySword (28799): External storage path: /storage/emulated/0
+D/AndroidRuntime(28799): Shutting down VM
+W/dalvikvm(28799): threadid=1: thread exiting with uncaught exception (group=0x94c24b20)
+E/AndroidRuntime(28799): FATAL EXCEPTION: main
+E/AndroidRuntime(28799): Process: com.riversoft.android.mysword, PID: 28799
+E/AndroidRuntime(28799): java.lang.Error: Unresolved compilation error: Method <com.riversoft.android.mysword.MySword: java.io.File[] getExternalFilesDirs(java.lang.String)> does not exist!
+E/AndroidRuntime(28799): 	at com.riversoft.android.mysword.MySword.getExternalFilesDirs(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28799): 	at com.riversoft.android.mysword.MySword.aY(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28799): 	at com.riversoft.android.mysword.MySword.onCreate(dalvik_source_com.riversoft.android.mysword.apk)
+E/AndroidRuntime(28799): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime(28799): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1104)
+E/AndroidRuntime(28799): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+E/AndroidRuntime(28799): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2243)
+E/AndroidRuntime(28799): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime(28799): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime(28799): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime(28799): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime(28799): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime(28799): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(28799): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime(28799): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime(28799): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime(28799): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  484): Sending signal. PID: 28799 SIG: 9
+W/ActivityManager(  484): Force-killing crashed app com.riversoft.android.mysword at watcher's request
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9670 com.android.server.am.ActivityManagerService.handleApplicationCrash:9644 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10075, 0) failed with errno -13
+D/FirebaseApp(  689): Notifying background state change listeners.
+I/ActivityManager(  484): Process com.riversoft.android.mysword (pid 28799) has died.
+W/ActivityManager(  484): Force removing ActivityRecord{4a9ff15c u0 com.riversoft.android.mysword/.MySword t268}: app died, no saved state
+I/ActivityManager(  484): START u0 {act=android.intent.action.CHOOSER flg=0x10008001 cmp=android/com.android.internal.app.ChooserActivity bnds=[-103,389][520,461] (has clip) (has extras)} from pid -1
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=1274.4817 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=-1; nothing to do (h=1274.4817 v=-3000.0)
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9e5474 attribute=null, token = android.os.BinderProxy@4b102840
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.riversoft.android.mysword/.MySword} from pid 28401
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=648.18066 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=648.18066 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=648.18066 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=-4; nothing to do (h=648.18066 v=-3000.0)
+D/yeshen  (  689): launcher onpause
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=648.18066 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=648.18066 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=-7; nothing to do (h=648.18066 v=-3000.0)
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.extremefungames.mototrafficrace2 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+W/Launcher(  689): No global search activity found.
+I/iu.UploadsManager( 1295): End new media; added: 1, uploading: 0, time: 107 ms
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/PlayCommon( 2442): [120] com.google.android.play.b.h.e(263): Preparing logs for uploading
+I/PlayCommon( 2442): [120] com.google.android.play.b.h.e(267): No file ready to send
+I/InputDispatcher(  484): Application is not responding: AppWindowToken{4b077130 token=Token{4ab79efc ActivityRecord{4aa7d2ec u0 com.riversoft.android.mysword/.MySword t269}}}.  It has been 5006.7ms since event, 5003.4ms since wait started.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+I/WindowManager(  484): Input event dispatching timed out sending to application AppWindowToken{4b077130 token=Token{4ab79efc ActivityRecord{4aa7d2ec u0 com.riversoft.android.mysword/.MySword t269}}}.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+W/InputManager(  484): Input event injection from pid 28401 timed out.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/ActivityManager(  484): Launch timeout has expired, giving up wake lock!
+E/WindowManager(  484): Starting window AppWindowToken{4b077130 token=Token{4ab79efc ActivityRecord{4aa7d2ec u0 com.riversoft.android.mysword/.MySword t269}}} timed out
+I/InputDispatcher(  484): Application is not responding: AppWindowToken{4b077130 token=Token{4ab79efc ActivityRecord{4aa7d2ec u0 com.riversoft.android.mysword/.MySword t269}}}.  It has been 5006.7ms since event, 5002.5ms since wait started.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+I/WindowManager(  484): Input event dispatching timed out sending to application AppWindowToken{4b077130 token=Token{4ab79efc ActivityRecord{4aa7d2ec u0 com.riversoft.android.mysword/.MySword t269}}}.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+W/InputManager(  484): Input event injection from pid 28401 timed out.
+I/InputDispatcher(  484): Application is not responding: AppWindowToken{4b077130 token=Token{4ab79efc ActivityRecord{4aa7d2ec u0 com.riversoft.android.mysword/.MySword t269}}}.  It has been 5007.6ms since event, 5005.9ms since wait started.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+I/WindowManager(  484): Input event dispatching timed out sending to application AppWindowToken{4b077130 token=Token{4ab79efc ActivityRecord{4aa7d2ec u0 com.riversoft.android.mysword/.MySword t269}}}.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+W/InputManager(  484): Input event injection from pid 28401 timed out.
+I/InputDispatcher(  484): Application is not responding: AppWindowToken{4b077130 token=Token{4ab79efc ActivityRecord{4aa7d2ec u0 com.riversoft.android.mysword/.MySword t269}}}.  It has been 5007.7ms since event, 5005.9ms since wait started.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+I/WindowManager(  484): Input event dispatching timed out sending to application AppWindowToken{4b077130 token=Token{4ab79efc ActivityRecord{4aa7d2ec u0 com.riversoft.android.mysword/.MySword t269}}}.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+W/InputManager(  484): Input event injection from pid 28401 timed out.

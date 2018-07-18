@@ -1,0 +1,929 @@
+--------- beginning of /dev/log/main
+I/Icing   (  719): Indexing F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0 from com.google.android.gms
+I/Icing   (  719): Indexing done F4FAA6262FE39DDD50BAE6B7AF5CDB8D73BA0DB0
+D/AndroidRuntime(14531): 
+D/AndroidRuntime(14531): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(14531): CheckJNI is OFF
+D/dalvikvm(14531): Using executionMode 2
+D/dalvikvm(14531): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(14531): Added shared lib libjavacore.so 0x0
+D/dalvikvm(14531): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(14531): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(14531): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(14531): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(14531): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(14531): failed to load memtrack module: -2
+D/AndroidRuntime(14531): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  481): Skipping deliver [background] BroadcastRecord{4b10fbf0 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4a9502e8 14531 (unknown name)/0/u-1 remote:4a94ec38}: process crashing
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+I/ActivityManager(  481): Start proc biz.binarysolutions.signature for activity biz.binarysolutions.signature/.Intro: pid=14541 uid=10066 gids={50066, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  481): setKernelCountSet(10066, 1) failed with errno -13
+I/dalvikvm(14541): ignoring registerObject request in thread=1
+I/dalvikvm(14541): ignoring registerObject request in thread=1
+I/ACRA    (14541): Migrating unsent ACRA reports to new file locations
+I/ACRA    (14541): Migrated 0 unsent reports
+I/ACRA    (14541): ACRA is enabled for biz.binarysolutions.signature, initializing...
+E/FlurryAgent(14541): GOOGLE PLAY SERVICES EXCEPTION: com.google.android.gms.common.GooglePlayServicesUtil
+E/FlurryAgent(14541): There is a problem with the Google Play Services library, which is required for Android Advertising ID support. The Google Play Services library should be integrated in any app shipping in the Play Store that uses analytics or advertising.
+D/dalvikvm(14541): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(14541): GC_CONCURRENT freed 274K, 11% free 2903K/3244K, paused 1ms+1ms, total 4ms
+W/FlurryAgent(14541): It is highly recommended that the application declare permission: android.permission.ACCESS_NETWORK_STATE
+W/FlurryAgent(14541): 'init' method is deprecated.
+I/ActivityManager(  481): START u0 {cmp=biz.binarysolutions.signature/biz.binarysolutions.android.lib.eula.EULA} from pid 14541
+D/dalvikvm(14541): GC_FOR_ALLOC freed 25K, 8% free 3060K/3300K, paused 2ms, total 2ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 3.655MB for 635808-byte allocation
+D/dalvikvm(14541): GC_CONCURRENT freed <1K, 7% free 3680K/3924K, paused 2ms+0ms, total 4ms
+D/dalvikvm(14541): WAIT_FOR_CONCURRENT_GC blocked 1ms
+W/FlurryAgent(14541): Flurry session started for context:biz.binarysolutions.signature.Intro@4a778be0
+W/FlurryAgent(14541): Flurry session resumed for context:biz.binarysolutions.signature.Intro@4a778be0
+E/FlurryAgent(14541): GOOGLE PLAY SERVICES EXCEPTION: com.google.android.gms.common.GooglePlayServicesUtil
+E/FlurryAgent(14541): There is a problem with the Google Play Services library, which is required for Android Advertising ID support. The Google Play Services library should be integrated in any app shipping in the Play Store that uses analytics or advertising.
+D/MPL     (14541): start CHECK_AUTH
+V/WebViewChromium(14541): Binding Chromium to the background looper Looper (main, tid 1) {4a76888c}
+I/chromium(14541): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+D/dalvikvm(14541): GC_CONCURRENT freed 192K, 7% free 3888K/4144K, paused 2ms+4ms, total 9ms
+I/BrowserProcessMain(14541): Initializing chromium process, renderers=0
+W/dalvikvm(14541): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(14541): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(14541): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(14541): VFY: unable to resolve virtual method 4954: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(14541): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(14541): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(14541): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(14541): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(14541): VFY: unable to resolve interface method 4948: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(14541): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(14541): body:<com.flurry.sdk.kn: void i()>	sig:specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(14541): <com.flurry.sdk.kn: void i()>###specialinvoke $r6.<java.net.URL: void <init>(java.lang.String)>($r1)###https://data.flurry.com/aap.do
+D/MPL     (14541): start makeDeviceInterrogationRequest Post
+D/dalvikvm(14541): GC_CONCURRENT freed 291K, 8% free 4083K/4436K, paused 1ms+3ms, total 7ms
+D/dalvikvm(14541): WAIT_FOR_CONCURRENT_GC blocked 1ms
+W/chromium(14541): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/dalvikvm(14541): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed 132K, 10% free 4204K/4644K, paused 4ms, total 4ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed 44K, 10% free 4294K/4724K, paused 4ms, total 4ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 4.500MB for 258790-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed 126K, 12% free 4421K/4980K, paused 3ms, total 3ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed 20K, 12% free 4401K/4980K, paused 2ms, total 2ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 4.526MB for 176527-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed 254K, 17% free 4318K/5156K, paused 2ms, total 3ms
+I/System.out(14541): body:<com.flurry.sdk.kn: void i()>	sig:$r7 = virtualinvoke $r6.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:43
+I/System.out(14541): body:<com.flurry.sdk.kn: void i()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(14541): body:<com.flurry.sdk.kn: void i()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out(14541): body:<com.flurry.sdk.kn: void i()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r1)	timediff:0
+I/System.out(14541): body:<com.flurry.sdk.kn: void i()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>($z0)	timediff:0
+I/System.out(14541): body:<com.flurry.sdk.kn: void i()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setDoOutput(boolean)>($z0)	timediff:0
+I/System.out(14541): body:<com.flurry.sdk.kn: void i()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(14541): body:<com.flurry.sdk.kn: void i()>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void addRequestProperty(java.lang.String,java.lang.String)>($r1, $r13)	timediff:0
+D/dalvikvm(14541): GC_CONCURRENT freed 119K, 11% free 4596K/5156K, paused 1ms+0ms, total 5ms
+D/libEGL  (14541): loaded /system/lib/egl/libEGL_adreno.so
+D/Server API(14541): Endpoint https://mobileclient.paypal.com/GMAdapter/DeviceInterrogation
+D/Server API(14541): Header: CLIENT-AUTH = No cert
+D/Server API(14541): Header: X-PAYPAL-MESSAGE-PROTOCOL = SOAP11
+D/Server API(14541): Header: X-PAYPAL-APPLICATION-ID = APP-66D63640WA292483J
+D/Server API(14541): Header: X-PAYPAL-REQUEST-SOURCE = 1.5.6
+D/Server API(14541): Header: X-PAYPAL-REQUEST-DATA-FORMAT = XML
+D/Server API(14541): Header: X-PAYPAL-RESPONSE-DATA-FORMAT = XML
+D/Server API(14541): Header: x-paypal-service-version = 1.0.0
+D/Server API(14541): Header: x-paypal-element-ordering-preserve = false
+D/Server API(14541): Request - <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:GMAdapter="http://svcs.paypal.com/mobile/adapter/types/pt" xmlns:tns1="http://svcs.paypal.com/types/common" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:annox="http://annox.dev.java.net" xmlns:ov="http://annox.dev.java.net/net.sf.oval.constraint" xsl:version="1.0"><soap:Body><DeviceInterrogationRequest><version>2.0</version><paypalAppId>APP-66D63640WA292483J</paypalAppId><mplVersion>1.5.6</mplVersion><deviceReferenceToken></deviceReferenceToken><deviceDetails><deviceId><deviceIdType>IMEI</deviceIdType><deviceIdentifier>354730020176834</deviceIdentifier></deviceId><deviceName>dream2lteks</deviceName><deviceModel>SM-G955N</deviceModel><systemName>Android</systemName><systemVersion>19</systemVersion><deviceCategory>Phone</deviceCategory><deviceSimulator>false</deviceSimulator></deviceDetails><embeddingApplicationDetails><deviceAppId>biz.binarysolutions.signature</deviceAppId><deviceAppName>biz.binarysolutions.signature</deviceAppName><deviceAppDisplayName>Signature Capture</deviceAppDisplayName><clientPlatform>AndroidGSM</clientPlatform><deviceAppVersion>1.5.6</deviceAppVersion></embeddingApplicationDetails><securityDetails><applicationNonce>None</applicationNonce><deviceNonce>None</deviceNonce></securityDetails></DeviceInterrogationRequest></soap:Body></soap:Envelope>
+D/NetworkHandler(14541): postXML do execute
+D/        (14541): HostConnection::get() New Host Connection established 0xb88aa470, tid 14541
+D/dalvikvm(14541): GC_FOR_ALLOC freed 146K, 13% free 4511K/5156K, paused 3ms, total 3ms
+D/libEGL  (14541): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+I/dalvikvm-heap(14541): Grow heap (frag case) to 4.713MB for 260108-byte allocation
+D/libEGL  (14541): loaded /system/lib/egl/libGLESv2_adreno.so
+D/dalvikvm(14541): GC_FOR_ALLOC freed <1K, 12% free 4765K/5412K, paused 4ms, total 4ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed 126K, 15% free 4641K/5412K, paused 2ms, total 2ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 5.090MB for 522252-byte allocation
+D/dalvikvm(14541): GC_CONCURRENT freed 0K, 14% free 5151K/5924K, paused 2ms+1ms, total 6ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed 254K, 18% free 4897K/5924K, paused 2ms, total 2ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 5.839MB for 1045062-byte allocation
+D/dalvikvm(14541): GC_CONCURRENT freed 0K, 15% free 5918K/6948K, paused 2ms+0ms, total 6ms
+D/dalvikvm(14541): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed 513K, 22% free 5420K/6948K, paused 2ms, total 2ms
+D/dalvikvm(14541): GC_CONCURRENT freed 7K, 11% free 6231K/6948K, paused 2ms+0ms, total 7ms
+W/FlurryAgent(14541): Flurry session resumed for context:biz.binarysolutions.android.lib.eula.EULA@4a7f84e4
+D/dalvikvm(14541): GC_FOR_ALLOC freed 2123K, 33% free 4867K/7204K, paused 4ms, total 4ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed 311K, 30% free 5066K/7204K, paused 3ms, total 3ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 6.003MB for 1045062-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed 35K, 17% free 6051K/7204K, paused 4ms, total 4ms
+D/dalvikvm(14541): GC_CONCURRENT freed 0K, 17% free 6051K/7204K, paused 2ms+1ms, total 4ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed 583K, 23% free 5548K/7204K, paused 2ms, total 2ms
+D/dalvikvm(14541): GC_CONCURRENT freed 90K, 12% free 6372K/7204K, paused 1ms+1ms, total 5ms
+I/System.out(14541): body:<com.flurry.sdk.kn: void i()>	sig:$r15 = virtualinvoke $r4.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:150
+I/System.out(14541): body:<com.flurry.sdk.kn: void i()>	sig:$i0 = virtualinvoke $r4.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:47
+I/System.out(14541): body:<com.flurry.sdk.kn: void i()>	sig:$r19 = virtualinvoke $r4.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:0
+I/System.out(14541): body:<com.flurry.sdk.kn: void i()>	sig:$r24 = virtualinvoke $r4.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): URLConn;%;0;%;<com.flurry.sdk.kn: void i()>;%;$r24 = virtualinvoke $r4.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://data.flurry.com/aap.do;%;true;%;Not found;%;Not found;%;Not found;%;0;%;Not found
+I/System.out(14541): body:<com.flurry.sdk.kn: void j()>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+W/FlurryAgent(14541): Analytics report sent.
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(14541): Enabling debug mode 0
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=728482, downTime=728482, deviceId=-1, source=0x101 }
+W/AwContents(14541): nativeOnDraw failed; clearing to background color.
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=728941, downTime=728941, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): Displayed biz.binarysolutions.signature/biz.binarysolutions.android.lib.eula.EULA: +498ms (total +568ms)
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=728946, downTime=728946, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/Server API(14541): Resonse Header: Server = Apache-Coyote/1.1
+D/Server API(14541): Resonse Header: X-EBAY-SOA-REQUEST-ID = 162d706d-feb0-a0e1-8fd6-21b0fff8641e!GMAdapter!10.14.24.253![]
+D/Server API(14541): Resonse Header: X-PAYPAL-SERVICE-VERSION = 1.0.0
+D/Server API(14541): Resonse Header: X-PAYPAL-SERVICE-NAME = {http://svcs.paypal.com/mobile/adapter/types/pt}GMAdapter
+D/Server API(14541): Resonse Header: X-PAYPAL-MESSAGE-PROTOCOL = SOAP11
+D/Server API(14541): Resonse Header: X-PAYPAL-OPERATION-NAME = DeviceInterrogation
+D/Server API(14541): Resonse Header: X-PAYPAL-RESPONSE-DATA-FORMAT = XML
+D/Server API(14541): Resonse Header: Content-Type = text/xml;charset=UTF-8
+D/Server API(14541): Resonse Header: Expires = Wed, 18 Apr 2018 04:32:54 GMT
+D/Server API(14541): Resonse Header: Cache-Control = max-age=0, no-cache, no-store
+D/Server API(14541): Resonse Header: Pragma = no-cache
+D/Server API(14541): Resonse Header: Date = Wed, 18 Apr 2018 04:32:54 GMT
+D/Server API(14541): Resonse Header: Content-Length = 1499
+D/Server API(14541): Resonse Header: Connection = keep-alive
+D/NetworkHandler(14541): postXML setup to read reponse
+D/NetworkHandler(14541): postXML do read response
+D/Server API(14541): Response <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><ns2:DeviceInterrogationResponse xmlns:ns2="http://svcs.paypal.com/mobile/adapter/types/pt"><timestamp>2018-04-17T21:32:54.953-07:00</timestamp><ack>Success</ack><correlationId>a19094ec45fa</correlationId><backendBuild>45840284</backendBuild><payButtonEnable>true</payButtonEnable><deviceReferenceToken>ZTY4SLZ6RNNUW00Y93NTA4JUBDRA11PLE8CJXG775AG018Y9G2BTZZZTKS10dream2lteks</deviceReferenceToken><deviceAuthDetails><userName></userName><phone><countryCode></countryCode><phoneNumber></phoneNumber></phone><email></email><authMethod>0</authMethod><authSetting>1</authSetting></deviceAuthDetails><securityDetails><applicationNonce>cCpg76S82R39gQgJ5nYt6UQqiGu+4AFp/pm49lYWY6UAAAABgvwzPIroH6QaKafzoJVtLoUrVVpuAu87y7g+wUo0lZG/0ET43kaZiKjAsoKLR8UhHK7cFz6TEPRnDEE972xW8j6gybZjJHR+x2isWyrDHN6Jz3Ncre9TMej6G0LIZbaq2r+SZ+S4XHLdb2ZLIHqFierD/ZXq9OA0mjPA1TvIMO85x96O3PqQg675qKgZttGqIWiPD3aUDH2t2xAEC85lhfEWPjnIvcH9vreIabkoePMLCxV6KEuDeOsZnPafa2If2TZsy3DJ4gj7NvnTKvANng==</applicationNonce><deviceNonce>p2EVbnK1LczsUD2Thb+wV3Q8zDSjc1DkKsUOxwswqosAAAABqVrwsCcwpcJSSgQv/vkrwgj4sitlokw7jjH/21BrX+wzQSnOEAJDny8sKYFU6B0hrl6jKo5ZSPsXDdSvbd+bFmynEHcMRGtYIeB5uqyCk4N0dLt1SgG3ggIKf/TMI24SipJWYCVMl2rOu3yEW9z0Le0BNnrQxY4Q36VHcTEHDE4Udyl8nagJ3guIbO8c9gDyg6s3NrekVU0q0jMbMatvzQ==</deviceNonce></securityDetails></ns2:DeviceInterrogationResponse></soapenv:Body></soapenv:Envelope>
+D/MPL     (14541): end makeDeviceInterrogationRequest Post
+D/MPL     (14541): end CHECK_AUTH ok
+D/dalvikvm(14541): GC_CONCURRENT freed 2403K, 33% free 5103K/7588K, paused 1ms+0ms, total 5ms
+D/dalvikvm(14541): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed 611K, 35% free 5002K/7588K, paused 3ms, total 3ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 5.942MB for 1045062-byte allocation
+D/dalvikvm(14541): GC_CONCURRENT freed 2K, 21% free 6020K/7588K, paused 3ms+0ms, total 7ms
+D/dalvikvm(14541): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm(14541): WAIT_FOR_CONCURRENT_GC blocked 4ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed 510K, 28% free 5511K/7588K, paused 2ms, total 2ms
+D/dalvikvm(14541): GC_CONCURRENT freed 1K, 17% free 6307K/7588K, paused 1ms+0ms, total 4ms
+I/chromium(14541): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+I/chromium(14541): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+W/InputManager(  481): Input event injection from pid 14531 failed.
+W/InputManager(  481): Input event injection from pid 14531 failed.
+I/ActivityManager(  481): START u0 {cmp=biz.binarysolutions.signature/biz.binarysolutions.android.lib.changelog.Changelog} from pid 14541
+W/ViewRootImpl(14541): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-2.0, y[0]=4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=729311, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/FlurryAgent(14541): Flurry session resumed for context:biz.binarysolutions.android.lib.changelog.Changelog@4a82a24c
+W/FlurryAgent(14541): Flurry session paused for context:biz.binarysolutions.android.lib.eula.EULA@4a7f84e4
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/AwContents(14541): nativeOnDraw failed; clearing to background color.
+W/ViewRootImpl(14541): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=7, eventTime=729438, downTime=-1, deviceId=0, source=0x10004 }
+I/ActivityManager(  481): Displayed biz.binarysolutions.signature/biz.binarysolutions.android.lib.changelog.Changelog: +167ms
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=729438, downTime=729438, deviceId=-1, source=0x101 }
+W/AwContents(14541): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=729532, downTime=729532, deviceId=-1, source=0x101 }
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+I/chromium(14541): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+I/chromium(14541): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=729499, downTime=729499, deviceId=-1, source=0x101 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_POUND, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=729622, downTime=729622, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=729681, downTime=729681, deviceId=-1, source=0x101 }
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_PLAY, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=729709, downTime=729709, deviceId=-1, source=0x101 }
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4b0e532c attribute=android.view.inputmethod.EditorInfo@4b047c74, token = android.os.BinderProxy@4a98bd88
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 481
+I/ActivityManager(  481): START u0 {cmp=biz.binarysolutions.signature/.Settings} from pid 14541
+W/Resources(14541): Converting to boolean: TypedValue{t=0x3/d=0x23 "false" a=2 r=0x7f060084}
+W/Resources(14541): Converting to boolean: TypedValue{t=0x3/d=0x1d "true" a=2 r=0x7f060088}
+W/FlurryAgent(14541): Flurry session resumed for context:biz.binarysolutions.signature.Settings@4a96e358
+W/FlurryAgent(14541): Flurry session paused for context:biz.binarysolutions.android.lib.changelog.Changelog@4a82a24c
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=729747, downTime=729747, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=729815, downTime=729815, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  481): Displayed biz.binarysolutions.signature/.Settings: +108ms
+D/dalvikvm(14541): GC_CONCURRENT freed 2202K, 33% free 5153K/7588K, paused 3ms+0ms, total 6ms
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=729930, downTime=729930, deviceId=-1, source=0x101 }
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(14541): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=19, eventTime=730008, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=730009, downTime=730009, deviceId=-1, source=0x101 }
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.windowGainedFocus:2021 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=2.1321964, y[0]=-311.85187, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=730203, downTime=730203, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=730211, downTime=730211, deviceId=-1, source=0x101 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=730189, downTime=730189, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=4500.0)
+W/WindowManager(  481): updateFocusedWindowLocked, focusedAppToken is null.
+W/EGL_emulation(  534): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=648.0 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=648.0 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=-8; nothing to do (h=648.0 v=-3000.0)
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=730392, downTime=730392, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.windowGainedFocus:2021 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=648.0 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=648.0 v=-3000.0)
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=648.0 v=0.0)
+V/PanelView(  534): animationTick called with dtms=-11; nothing to do (h=648.0 v=0.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=648.0 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=648.0 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=-15; nothing to do (h=648.0 v=-3000.0)
+I/ActivityManager(  481): START u0 {act=android.intent.action.VIEW dat=content://media/external/images/media/1836 typ=image/png flg=0x10000000 cmp=com.android.gallery3d/.app.GalleryActivity bnds=[0,77][720,461]} from pid -1
+I/ActivityManager(  481): START u0 {act=android.intent.action.VIEW dat=content://media/external/images/media/1836 typ=image/png flg=0x10000000 cmp=com.android.gallery3d/.app.GalleryActivity bnds=[0,77][720,461]} from pid -1
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=599.232 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=-8; nothing to do (h=599.232 v=-3000.0)
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=224.76294 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=224.76294 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=-14; nothing to do (h=224.76294 v=-3000.0)
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/FlurryAgent(14541): Flurry session paused for context:biz.binarysolutions.signature.Intro@4a778be0
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=224.76294 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=224.76294 v=-3000.0)
+W/NetworkManagementSocketTagger(  481): setKernelCountSet(10007, 0) failed with errno -13
+V/PanelView(  534): animationTick called with dtms=-16; nothing to do (h=224.76294 v=-3000.0)
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=224.76294 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=224.76294 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=224.76294 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=224.76294 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=224.76294 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=224.76294 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=224.76294 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=224.76294 v=-3000.0)
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=169.84193 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=169.84193 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=169.84193 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=169.84193 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=-6; nothing to do (h=169.84193 v=-3000.0)
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=121.07393 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=121.07393 v=-3000.0)
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=102.96593 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=102.96593 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=51.146927 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=51.146927 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=51.146927 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=51.146927 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=48.14393 v=-3000.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=48.14393 v=-3000.0)
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+V/InputMethodService(  612): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/EGL_emulation(  534): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=661.68054, y[0]=464.3457, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=730896, downTime=730895, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=730911, downTime=730911, deviceId=-1, source=0x101 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=730913, downTime=730913, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/FlurryAgent(14541): Flurry session resumed for context:biz.binarysolutions.signature.Intro@4a778be0
+W/ActivityManager(  481): Duplicate finish request for ActivityRecord{4a9a28ac u0 biz.binarysolutions.signature/.Settings t152 f}
+W/InputManager(  481): Input event injection from pid 14531 failed.
+W/InputManager(  481): Input event injection from pid 14531 failed.
+W/InputManager(  481): Input event injection from pid 14531 failed.
+W/InputManager(  481): Input event injection from pid 14531 failed.
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 14541
+W/PhoneFallbackEventHandler(14541): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  481): START u0 {cmp=biz.binarysolutions.signature/.Capture (has extras)} from pid 14541
+E/SurfaceFlinger(  166): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  166): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  166): setOrientation, mFbdev=0xb7e9fd80, mFbDev->setOrientation=0xb6945ce0, orientation=0
+I/gralloc_nox(  166): setOrientation: orientation=0
+I/ActivityManager(  481): Config changes=480 {1.0 310mcc16mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.54}
+D/Tinker.DefaultAppLike(  663): onConfigurationChanged:{1.0 310mcc16mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger qwerty/v/v dpad/v s.54}
+D/Sensors (  481): Client connection accepted (205)
+D/PhoneStatusBar(  534): mSettingsPanelGravity = 55
+I/InputReader(  481): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  481): Device reconfigured: id=1, name='seamless mouse', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  481): Device reconfigured: id=3, name='Android Input', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  481): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  481): Reconfiguring input devices.  changes=0x00000004
+D/dalvikvm(14541): GC_FOR_ALLOC freed 313K, 31% free 5310K/7588K, paused 3ms, total 3ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 8.761MB for 3686412-byte allocation
+D/dalvikvm(14541): GC_CONCURRENT freed 56K, 21% free 8853K/11192K, paused 1ms+0ms, total 7ms
+D/dalvikvm(14541): WAIT_FOR_CONCURRENT_GC blocked 5ms
+D/dalvikvm(14541): WAIT_FOR_CONCURRENT_GC blocked 6ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed 14K, 22% free 8839K/11192K, paused 6ms, total 6ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 12.208MB for 3686412-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed <1K, 16% free 12438K/14796K, paused 7ms, total 7ms
+D/dalvikvm(14541): GC_CONCURRENT freed <1K, 16% free 12438K/14796K, paused 2ms+1ms, total 7ms
+W/EGL_emulation(  534): eglSurfaceAttrib not implemented 3093 12436
+W/ActivityManager(  481): Unable to start service Intent { act=biz.binarysolutions.EXPORT_LICENSE_KEY_ACTION pkg=biz.binarysolutions.fasp } U=0: not found
+W/ActivityManager(  481): Unbind failed: could not find connection for android.os.BinderProxy@4b0ce23c
+W/FlurryAgent(14541): Flurry session resumed for context:biz.binarysolutions.signature.Capture@4a886fd4
+I/WearableService(  624): Wearable Services stopping
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(14541): GC_FOR_ALLOC freed 3658K, 20% free 8875K/11020K, paused 6ms, total 6ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 12.243MB for 3686412-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed 4K, 15% free 12470K/14624K, paused 3ms, total 4ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed <1K, 15% free 12470K/14624K, paused 3ms, total 3ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 15.753MB for 3686412-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed 0K, 12% free 16070K/18228K, paused 5ms, total 5ms
+D/dalvikvm(14541): GC_CONCURRENT freed <1K, 12% free 16070K/18228K, paused 4ms+1ms, total 9ms
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(14541): GC_FOR_ALLOC freed 7233K, 39% free 8953K/14620K, paused 5ms, total 6ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 11.840MB for 3184652-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed 54K, 18% free 12008K/14620K, paused 5ms, total 6ms
+D/dalvikvm(14541): GC_CONCURRENT freed <1K, 18% free 12009K/14620K, paused 2ms+0ms, total 5ms
+D/dalvikvm(14541): WAIT_FOR_CONCURRENT_GC blocked 3ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 14.825MB for 3184652-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed <1K, 15% free 15119K/17732K, paused 4ms, total 4ms
+D/dalvikvm(14541): GC_CONCURRENT freed 0K, 15% free 15119K/17732K, paused 2ms+1ms, total 7ms
+I/ActivityManager(  481): Displayed biz.binarysolutions.signature/.Capture: +287ms
+W/FlurryAgent(14541): Flurry session paused for context:biz.binarysolutions.signature.Settings@4a96e358
+I/WindowManager(  481): Screen frozen for +287ms due to Window{4a8de744 u0 biz.binarysolutions.signature/biz.binarysolutions.signature.Capture}
+W/FlurryAgent(14541): Flurry session paused for context:biz.binarysolutions.signature.Intro@4a778be0
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_9, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=731446, downTime=731446, deviceId=-1, source=0x101 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PAGE_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=731446, downTime=731446, deviceId=-1, source=0x101 }
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=315.62634, y[0]=-11.890976, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=731543, downTime=731543, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=12, eventTime=731543, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a945fe4 attribute=android.view.inputmethod.EditorInfo@4ae2d214, token = android.os.BinderProxy@4aa3099c
+D/dalvikvm(14541): GC_FOR_ALLOC freed 7084K, 20% free 8480K/10556K, paused 4ms, total 4ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 11.378MB for 3184652-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed 31K, 16% free 11558K/13668K, paused 3ms, total 3ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed 0K, 16% free 11558K/13668K, paused 3ms, total 3ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 14.384MB for 3184652-byte allocation
+D/dalvikvm(14541): GC_CONCURRENT freed <1K, 13% free 14668K/16780K, paused 2ms+2ms, total 6ms
+D/dalvikvm(14541): WAIT_FOR_CONCURRENT_GC blocked 2ms
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F6, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=731648, downTime=731648, deviceId=-1, source=0x101 }
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=731678, downTime=731678, deviceId=-1, source=0x101 }
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  481): START u0 {cmp=biz.binarysolutions.signature/biz.binarysolutions.android.lib.about.AboutActivity (has extras)} from pid 14541
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=277.0, y[0]=81.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=731728, downTime=731728, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=269.94446, y[0]=78.446976, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=731728, downTime=731728, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=265.4525, y[0]=77.57573, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=731729, downTime=731728, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-272.0, y[0]=15.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=731729, downTime=731729, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-300.08936, y[0]=2.3532944, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=731730, downTime=731729, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-315.31024, y[0]=-7.0731735, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=731730, downTime=731729, deviceId=0, source=0x1002 }
+W/FlurryAgent(14541): Flurry session resumed for context:biz.binarysolutions.android.lib.about.AboutActivity@4a8af8b0
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.NotificationManagerService$6.run:1838 android.os.Handler.handleCallback:733 android.os.Handler.dispatchMessage:95 android.os.Looper.loop:136 
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=731730, downTime=731730, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): Displayed biz.binarysolutions.signature/biz.binarysolutions.android.lib.about.AboutActivity: +203ms
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=731908, downTime=731908, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 14541
+W/PhoneFallbackEventHandler(14541): No activity found for android.intent.action.CALL_BUTTON.
+I/InputDispatcher(  481): Dropped event because of pending overdue app switch.
+W/InputManager(  481): Input event injection from pid 14531 failed.
+I/ActivityManager(  481): START u0 {act=android.intent.action.VIEW dat=http://binarysolutions.biz/signature-capture-for-android cmp=com.android.browser/.BrowserActivity} from pid 14541
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+I/ActivityManager(  481): START u0 {act=android.intent.action.VIEW dat=http://binarysolutions.biz cmp=com.android.browser/.BrowserActivity (has extras)} from pid 14541
+W/InputManager(  481): Input event injection from pid 14531 failed.
+W/InputManager(  481): Input event injection from pid 14531 failed.
+W/InputManager(  481): Input event injection from pid 14531 failed.
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_I, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=733346, downTime=733346, deviceId=-1, source=0x101 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=733347, downTime=733347, deviceId=-1, source=0x101 }
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=733353, downTime=733353, deviceId=-1, source=0x101 }
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_DOWN(1), id[0]=0, x[0]=-175.87018, y[0]=43.62726, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-608.0, y[1]=244.0, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=733415, downTime=733415, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-220.03876, y[0]=54.09787, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-660.08044, y[1]=225.85913, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=8, eventTime=733418, downTime=733415, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_POINTER_UP(1), id[0]=0, x[0]=-220.92712, y[0]=54.467896, toolType[0]=TOOL_TYPE_UNKNOWN, id[1]=1, x[1]=-665.21216, y[1]=222.4065, toolType[1]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=2, historySize=0, eventTime=733419, downTime=733415, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-228.72333, y[0]=56.09079, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=733419, downTime=733415, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8a2160 attribute=android.view.inputmethod.EditorInfo@4ae097ac, token = android.os.BinderProxy@4aa3099c
+D/dalvikvm(14541): GC_FOR_ALLOC freed 7099K, 42% free 8019K/13664K, paused 4ms, total 4ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 10.929MB for 3184652-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed 40K, 19% free 11089K/13664K, paused 6ms, total 6ms
+D/dalvikvm(14541): GC_CONCURRENT freed 27K, 20% free 11062K/13664K, paused 2ms+0ms, total 6ms
+D/dalvikvm(14541): WAIT_FOR_CONCURRENT_GC blocked 4ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 13.900MB for 3184652-byte allocation
+D/dalvikvm(14541): GC_CONCURRENT freed 27K, 16% free 14144K/16776K, paused 2ms+2ms, total 9ms
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r0)	timediff:0
+I/System.out(14541): <biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r0)###http://signature.x.binarysolutions.biz/credit/get
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:$r8 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("POST")	timediff:0
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)>($i2)	timediff:0
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_D, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=733611, downTime=733611, deviceId=-1, source=0x101 }
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:$r11 = virtualinvoke $r9.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:174
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+W/FlurryAgent(14541): Flurry session paused for context:biz.binarysolutions.android.lib.about.AboutActivity@4a8af8b0
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:$i2 = virtualinvoke $r9.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:274
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:$r12 = virtualinvoke $r9.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): URLConn;%;1;%;<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>;%;$r12 = virtualinvoke $r9.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://signature.x.binarysolutions.biz/credit/get;%;true;%;1;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 481
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+I/InputDispatcher(  481): Dropped event because of pending overdue app switch.
+W/InputManager(  481): Input event injection from pid 14531 failed.
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+D/dalvikvm(  481): GC_CONCURRENT freed 7365K, 47% free 13297K/25016K, paused 1ms+4ms, total 26ms
+D/dalvikvm(  481): WAIT_FOR_CONCURRENT_GC blocked 25ms
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 481
+D/dalvikvm(  534): GC_FOR_ALLOC freed 8302K, 62% free 6049K/15612K, paused 3ms, total 3ms
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r0)	timediff:0
+I/System.out(14541): <biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r0)###http://signature.x.binarysolutions.biz/credit/decrement
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:$r8 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("POST")	timediff:0
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(int)>($i2)	timediff:0
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setReadTimeout(int)>($i0)	timediff:0
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:$r11 = virtualinvoke $r9.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:4
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:$i2 = virtualinvoke $r9.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:184
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:$r12 = virtualinvoke $r9.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(14541): URLConn;%;2;%;<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>;%;$r12 = virtualinvoke $r9.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;http://signature.x.binarysolutions.biz/credit/decrement;%;true;%;0;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out(14541): body:<biz.binarysolutions.android.a.i: java.lang.String a(java.lang.String,java.util.List,int,int)>	sig:virtualinvoke $r9.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae5efe4 attribute=null, token = android.os.BinderProxy@4aa3099c
+W/FlurryAgent(14541): Flurry session resumed for context:biz.binarysolutions.signature.Intro@4a8874dc
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=734712, downTime=734712, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=734896, downTime=734896, deviceId=-1, source=0x101 }
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=734937, downTime=734937, deviceId=-1, source=0x101 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=734982, downTime=734982, deviceId=-1, source=0x101 }
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  534): animationTick called with dtms=-10; nothing to do (h=0.0 v=-0.0)
+I/InputDispatcher(  481): Dropped event because of pending overdue app switch.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputManager(  481): Input event injection from pid 14531 failed.
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=1, x[0]=-959.0, y[0]=474.17938, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=7, eventTime=734992, downTime=734990, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=1, x[0]=-959.0, y[0]=463.59033, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=734993, downTime=734990, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=735015, downTime=735015, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac573f4 attribute=null, token = android.os.BinderProxy@4acf44ac
+I/ActivityManager(  481): START u0 {cmp=biz.binarysolutions.signature/.Capture (has extras)} from pid 14541
+W/ViewRootImpl(14541): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=-1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=735033, downTime=-1, deviceId=0, source=0x10004 }
+D/dalvikvm(14541): GC_FOR_ALLOC freed 6757K, 23% free 8180K/10528K, paused 4ms, total 4ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 11.564MB for 3686412-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed 239K, 19% free 11540K/14132K, paused 5ms, total 5ms
+D/dalvikvm(14541): GC_CONCURRENT freed 11K, 19% free 11528K/14132K, paused 2ms+0ms, total 5ms
+D/dalvikvm(14541): WAIT_FOR_CONCURRENT_GC blocked 3ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 14.833MB for 3686412-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed <1K, 15% free 15127K/17736K, paused 7ms, total 7ms
+D/dalvikvm(14541): GC_CONCURRENT freed <1K, 15% free 15128K/17736K, paused 1ms+3ms, total 7ms
+W/ActivityManager(  481): Unable to start service Intent { act=biz.binarysolutions.EXPORT_LICENSE_KEY_ACTION pkg=biz.binarysolutions.fasp } U=0: not found
+W/FlurryAgent(14541): Flurry session resumed for context:biz.binarysolutions.signature.Capture@4a851c48
+W/ActivityManager(  481): Unbind failed: could not find connection for android.os.BinderProxy@4a9bdd64
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(14541): GC_FOR_ALLOC freed 3638K, 19% free 11564K/14128K, paused 5ms, total 5ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 14.869MB for 3686412-byte allocation
+D/dalvikvm(14541): GC_CONCURRENT freed 2K, 15% free 15162K/17732K, paused 2ms+0ms, total 4ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed <1K, 15% free 15162K/17732K, paused 2ms, total 2ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 18.382MB for 3686412-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed 0K, 13% free 18762K/21336K, paused 5ms, total 5ms
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=735033, downTime=735033, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(14541): GC_FOR_ALLOC freed 7230K, 35% free 11608K/17728K, paused 6ms, total 6ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 14.433MB for 3184652-byte allocation
+D/dalvikvm(14541): GC_CONCURRENT freed 2K, 17% free 14715K/17728K, paused 1ms+0ms, total 4ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed <1K, 17% free 14715K/17728K, paused 3ms, total 3ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 17.468MB for 3184652-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed <1K, 15% free 17825K/20840K, paused 8ms, total 8ms
+I/ActivityManager(  481): Displayed biz.binarysolutions.signature/.Capture: +217ms
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 14541
+W/PhoneFallbackEventHandler(14541): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=735334, downTime=735334, deviceId=-1, source=0x101 }
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=735337, downTime=735337, deviceId=-1, source=0x101 }
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-548.9586, y[0]=316.6858, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=735401, downTime=735400, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-655.0, y[0]=520.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=735402, downTime=735401, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-677.1797, y[0]=510.60974, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=735402, downTime=735401, deviceId=0, source=0x1002 }
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a94f830 attribute=android.view.inputmethod.EditorInfo@4add4cc8, token = android.os.BinderProxy@4a9b6424
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=735438, downTime=735438, deviceId=-1, source=0x101 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=735447, downTime=735447, deviceId=-1, source=0x101 }
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  534): animationTick called with dtms=-3; nothing to do (h=0.0 v=0.0)
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-594.5164, y[0]=291.98254, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=735509, downTime=735509, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=202.0, y[0]=553.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=735510, downTime=735510, deviceId=0, source=0x1002 }
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=206.2489, y[0]=558.6247, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=735510, downTime=735510, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a90f484 attribute=android.view.inputmethod.EditorInfo@4a9059c8, token = android.os.BinderProxy@4a9b6424
+D/dalvikvm(14541): GC_FOR_ALLOC freed 6895K, 18% free 11211K/13636K, paused 3ms, total 3ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 14.045MB for 3184652-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed <1K, 15% free 14321K/16748K, paused 5ms, total 5ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed <1K, 15% free 14321K/16748K, paused 3ms, total 3ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 17.083MB for 3184652-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed 0K, 13% free 17431K/19860K, paused 4ms, total 4ms
+D/dalvikvm(14541): GC_CONCURRENT freed 5K, 13% free 17425K/19860K, paused 1ms+2ms, total 8ms
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=735663, downTime=735663, deviceId=-1, source=0x101 }
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(14541): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=-481.14682, y[0]=22.558052, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=735711, downTime=735711, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae2bbe0 attribute=android.view.inputmethod.EditorInfo@4adef138, token = android.os.BinderProxy@4a9b6424
+D/dalvikvm(14541): GC_FOR_ALLOC freed 6268K, 34% free 11208K/16748K, paused 8ms, total 8ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 14.042MB for 3184652-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed 2K, 15% free 14316K/16748K, paused 5ms, total 5ms
+D/dalvikvm(14541): GC_FOR_ALLOC freed <1K, 15% free 14316K/16748K, paused 5ms, total 5ms
+I/dalvikvm-heap(14541): Grow heap (frag case) to 17.078MB for 3184652-byte allocation
+D/dalvikvm(14541): GC_FOR_ALLOC freed 0K, 13% free 17426K/19860K, paused 4ms, total 4ms
+D/dalvikvm(14541): GC_CONCURRENT freed <1K, 13% free 17426K/19860K, paused 2ms+2ms, total 7ms
+W/FlurryAgent(14541): Flurry session paused for context:biz.binarysolutions.signature.Capture@4a886fd4
+W/FlurryAgent(14541): Flurry session paused for context:biz.binarysolutions.signature.Intro@4a8874dc
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  481): START u0 {cmp=biz.binarysolutions.signature/biz.binarysolutions.android.lib.about.AboutActivity (has extras)} from pid 14541
+W/InputEventReceiver(14541): Attempted to finish an input event but the input event receiver has already been disposed.
+W/FlurryAgent(14541): Flurry session resumed for context:biz.binarysolutions.android.lib.about.AboutActivity@4a86a9c8
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=735899, downTime=735899, deviceId=-1, source=0x101 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=736064, downTime=736064, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): Displayed biz.binarysolutions.signature/biz.binarysolutions.android.lib.about.AboutActivity: +178ms
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  481): START u0 {cmp=biz.binarysolutions.signature/biz.binarysolutions.android.lib.eula.EULA (has extras)} from pid 14541
+W/FlurryAgent(14541): Flurry session resumed for context:biz.binarysolutions.android.lib.eula.EULA@4a96d090
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_W, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=736284, downTime=736284, deviceId=-1, source=0x101 }
+W/AwContents(14541): nativeOnDraw failed; clearing to background color.
+W/ViewRootImpl(14541): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=1.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=736302, downTime=-1, deviceId=0, source=0x10004 }
+I/ActivityManager(  481): Displayed biz.binarysolutions.signature/biz.binarysolutions.android.lib.eula.EULA: +66ms
+W/ViewRootImpl(14541): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=736302, downTime=736298, deviceId=0, source=0x10004 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/SnapScrollController(14541): setSnapScrollingMode case-default no-op
+I/SnapScrollController(14541): setSnapScrollingMode case-default no-op
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/chromium(14541): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+I/chromium(14541): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported
+W/UnimplementedWebViewApi(14541): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+I/ActivityManager(  481): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 14541
+W/PhoneFallbackEventHandler(14541): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+W/UnimplementedWebViewApi(14541): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(14541): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/FlurryAgent(14541): Flurry session paused for context:biz.binarysolutions.signature.Capture@4a851c48
+W/FlurryAgent(14541): Flurry session paused for context:biz.binarysolutions.android.lib.about.AboutActivity@4a86a9c8
+W/UnimplementedWebViewApi(14541): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(14541): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(14541): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2179)
+W/UnimplementedWebViewApi(14541): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/WindowManager(  481): updateFocusedWindowLocked, focusedAppToken is null.
+I/ActivityManager(  481): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=biz.binarysolutions.signature/.Intro} from pid 14531
+W/ViewRootImpl(  481): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=736729, downTime=736729, deviceId=-1, source=0x101 }
+W/UnimplementedWebViewApi(14541): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/InputEventReceiver(  481): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  481): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  481): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  481): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=107.108246, y[0]=461.26263, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=6, eventTime=736809, downTime=736808, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  481): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=101.085846, y[0]=464.0885, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=736809, downTime=736808, deviceId=0, source=0x1002 }
+W/InputMethodManagerService(  481): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac54718 attribute=null, token = android.os.BinderProxy@4aa388e8
+W/UnimplementedWebViewApi(14541): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(14541): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/UnimplementedWebViewApi(14541): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+V/FlingTracker(  534): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  534): java.lang.Throwable
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  534): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  534): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  534): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  534): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  534): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  534): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  534): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  534): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  534): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  534): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  534): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/UnimplementedWebViewApi(14541): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/FlurryAgent(14541): Flurry session resumed for context:biz.binarysolutions.android.lib.about.AboutActivity@4a86a9c8
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SOFT_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=737087, downTime=737087, deviceId=-1, source=0x101 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=737132, downTime=737132, deviceId=-1, source=0x101 }
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  481): START u0 {act=android.intent.action.VIEW dat=http://binarysolutions.biz cmp=com.android.browser/.BrowserActivity (has extras)} from pid 14541
+I/ActivityManager(  481): START u0 {cmp=biz.binarysolutions.signature/biz.binarysolutions.android.lib.eula.EULA (has extras)} from pid 14541
+W/FlurryAgent(14541): Flurry session resumed for context:biz.binarysolutions.android.lib.eula.EULA@4a80bbe0
+W/EGL_emulation(14541): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CAPS_LOCK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=737284, downTime=737284, deviceId=-1, source=0x101 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=737299, downTime=737299, deviceId=-1, source=0x101 }
+W/AwContents(14541): nativeOnDraw failed; clearing to background color.
+W/ViewRootImpl(14541): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-5.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=737302, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=737302, downTime=737300, deviceId=0, source=0x10004 }
+W/ViewRootImpl(14541): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=737302, downTime=737302, deviceId=-1, source=0x101 }
+I/ActivityManager(  481): Displayed biz.binarysolutions.signature/biz.binarysolutions.android.lib.eula.EULA: +80ms
+W/UnimplementedWebViewApi(14541): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2169)
+W/AwContents(14541): nativeOnDraw failed; clearing to background color.
+W/ContextImpl(  481): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/AndroidRuntime(14531): VM exiting with result code 0.
+I/chromium(14541): [INFO:async_pixel_transfer_manager_android.cc(56)] Async pixel transfers not supported

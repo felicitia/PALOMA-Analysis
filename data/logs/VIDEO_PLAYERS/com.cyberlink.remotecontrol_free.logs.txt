@@ -1,0 +1,814 @@
+--------- beginning of /dev/log/main
+D/dalvikvm(  485): GC_EXPLICIT freed 447K, 30% free 18665K/26380K, paused 1ms+2ms, total 14ms
+D/AndroidRuntime(16218): 
+D/AndroidRuntime(16218): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(16218): CheckJNI is OFF
+D/dalvikvm(16218): Using executionMode 2
+D/dalvikvm(16218): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(16218): Added shared lib libjavacore.so 0x0
+D/dalvikvm(16218): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(16218): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(16218): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(16218): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(16218): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(16218): failed to load memtrack module: -2
+D/AndroidRuntime(16218): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  485): Skipping deliver [background] BroadcastRecord{4af26540 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4aef6fc8 16218 (unknown name)/0/u-1 remote:4aec7d00}: process crashing
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+D/yeshen  (  683): launcher onpause
+I/ActivityManager(  485): Start proc com.cyberlink.remotecontrol_free for activity com.cyberlink.remotecontrol_free/.MainActivity: pid=16228 uid=10183 gids={50183, 3003, 1028, 1015, 1023}
+E/SurfaceFlinger(  168): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  168): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  168): setOrientation, mFbdev=0xb8f00050, mFbDev->setOrientation=0xb6a08ce0, orientation=3
+I/gralloc_nox(  168): setOrientation: orientation=3
+I/ActivityManager(  485): Config changes=480 {1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.112}
+D/Sensors (  485): Client connection accepted (181)
+D/Tinker.DefaultAppLike(  683): onConfigurationChanged:{1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.112}
+D/PhoneStatusBar(  542): mSettingsPanelGravity = 55
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10183, 1) failed with errno -13
+D/yeshen  (  683): launcher onstop
+I/InputReader(  485): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  485): Device reconfigured: id=1, name='seamless mouse', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  485): Device reconfigured: id=3, name='Android Input', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  485): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 3, mode 1, display id 0
+I/dalvikvm(16228): ignoring registerObject request in thread=1
+I/dalvikvm(16228): ignoring registerObject request in thread=1
+D/FirebaseApp(  683): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  683): onTrimMemory level:20
+D/dalvikvm(  542): GC_FOR_ALLOC freed 7635K, 40% free 11314K/18660K, paused 3ms, total 3ms
+I/dalvikvm-heap(  542): Grow heap (frag case) to 17.358MB for 6553612-byte allocation
+D/dalvikvm(  542): GC_FOR_ALLOC freed 3K, 30% free 17710K/25064K, paused 4ms, total 4ms
+D/dalvikvm(16228): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(16228): GC_CONCURRENT freed 208K, 9% free 2970K/3240K, paused 2ms+0ms, total 4ms
+D/dalvikvm(  542): GC_CONCURRENT freed 0K, 30% free 17710K/25064K, paused 0ms+0ms, total 3ms
+I/CrashlyticsCore(16228): Initializing Crashlytics 2.3.4.74
+D/dalvikvm(16228): GC_CONCURRENT freed 340K, 14% free 3017K/3476K, paused 2ms+0ms, total 5ms
+D/CLDLMediaStoreHandler(16228): [enableImageHandler]
+D/CLDLMediaStoreHandler(16228): [enableVideoHandler]
+D/CLDLMediaStoreHandler(16228): [enableAudioHandler]
+W/dalvikvm(16228): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(16228): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(16228): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(16228): VFY: unable to resolve virtual method 16103: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(16228): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(16228): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(16228): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(16228): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(16228): VFY: unable to resolve interface method 16097: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(16228): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(16228): body:<com.cyberlink.remotecontrol_free.UDPRemoteCommandSender: void <init>()>	sig:specialinvoke $r5.<java.net.DatagramSocket: void <init>()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.remotecontrol_free.UDPRemoteCommandSender: void <init>()>	sig:specialinvoke $r6.<java.net.DatagramPacket: void <init>(byte[],int)>($r2, $i0)	timediff:0
+I/System.out(16228): body:<com.cyberlink.remotecontrol_free.UDPRemoteCommandSender: void <init>()>	sig:specialinvoke $r6.<java.net.DatagramPacket: void <init>(byte[],int)>($r3, $i0)	timediff:0
+D/dalvikvm(16228): GC_FOR_ALLOC freed 253K, 14% free 3021K/3476K, paused 3ms, total 4ms
+I/dalvikvm-heap(16228): Grow heap (frag case) to 6.522MB for 3686412-byte allocation
+D/dalvikvm(16228): GC_CONCURRENT freed <1K, 7% free 6621K/7080K, paused 17ms+0ms, total 20ms
+D/dalvikvm(16228): WAIT_FOR_CONCURRENT_GC blocked 2ms
+E/MUSocket(16228): getLocalAddressByJava!!
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.lang.String,int,java.lang.String)>	sig:$r4 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:$r6 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r2)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:specialinvoke $r3.<java.net.InetSocketAddress: void <init>(java.net.InetAddress,int)>($r6, $i0)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:$r5 = staticinvoke <java.net.NetworkInterface: java.net.NetworkInterface getByInetAddress(java.net.InetAddress)>($r1)	timediff:1
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:specialinvoke $r7.<java.net.MulticastSocket: void <init>(java.net.SocketAddress)>(null)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void setReuseAddress(boolean)>(1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void joinGroup(java.net.SocketAddress,java.net.NetworkInterface)>($r3, $r5)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:specialinvoke $r7.<java.net.MulticastSocket: void <init>(java.net.SocketAddress)>(null)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void setReuseAddress(boolean)>(1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:specialinvoke $r3.<java.net.InetSocketAddress: void <init>(int)>($i0)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void bind(java.net.SocketAddress)>($r3)	timediff:1
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void joinGroup(java.net.SocketAddress,java.net.NetworkInterface)>($r3, $r5)	timediff:0
+D/dalvikvm(16228): GC_CONCURRENT freed 255K, 5% free 7539K/7856K, paused 0ms+10ms, total 13ms
+F/PowerManager(16228): WakeLock finalized while still held: PowerDVD Remote
+E/MUSocket(16228): getLocalAddressByJava!!
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r1 = virtualinvoke $r2.<java.net.InetSocketAddress: java.net.InetAddress getAddress()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r4 = virtualinvoke $r3.<java.net.NetworkInterface: java.util.Enumeration getInetAddresses()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r7 = virtualinvoke $r6.<java.net.InetAddress: java.lang.String getHostAddress()>()	timediff:0
+E/MUSocket(16228): getLocalAddressByJava!!
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r1 = virtualinvoke $r2.<java.net.InetSocketAddress: java.net.InetAddress getAddress()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r4 = virtualinvoke $r3.<java.net.NetworkInterface: java.util.Enumeration getInetAddresses()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r7 = virtualinvoke $r6.<java.net.InetAddress: java.lang.String getHostAddress()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: int getLocalPort()>	sig:$i0 = virtualinvoke $r1.<java.net.MulticastSocket: int getLocalPort()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getMulticastGroup()>	sig:$r2 = virtualinvoke $r1.<java.net.InetSocketAddress: java.net.InetAddress getAddress()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getMulticastGroup()>	sig:$r3 = virtualinvoke $r2.<java.net.InetAddress: java.lang.String getHostAddress()>()	timediff:0
+D/SSDPClient(16228): M-SEARCH * HTTP/1.1
+D/SSDPClient(16228): MAN:"ssdp:discover"
+D/SSDPClient(16228): HOST:239.255.255.250:1900
+D/SSDPClient(16228): MX:3
+D/SSDPClient(16228): ST:urn:schemas-cyberlink-com:service:RemoteControl:1
+D/SSDPClient(16228): 
+D/SSDPMUSocket(16228): [SSDPListenThread] receiving datagram packet ... 
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.net.DatagramPacket lreceive()>	sig:specialinvoke $r2.<java.net.DatagramPacket: void <init>(byte[],int)>($r1, $i0)	timediff:0
+D/MUSocket(16228): [lreceive] socket receiving ...
+D/SSDPMUSocket(16228): [searchResponderThread] receiving datagram packet ... 
+E/ScanningDeviceView(16228): mPairedUuid :[]
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.net.DatagramPacket receive()>	sig:specialinvoke $r2.<java.net.DatagramPacket: void <init>(byte[],int)>($r1, $i0)	timediff:0
+D/MUSocket(16228): [receive] socket receiving ...
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:$r5 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:specialinvoke $r4.<java.net.DatagramPacket: void <init>(byte[],int,java.net.InetAddress,int)>($r6, $i1, $r5, $i0)	timediff:0
+D/MUSocket(16228): [msend] socket msending ...
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void send(java.net.DatagramPacket)>($r4)	timediff:1
+D/dalvikvm(16228): GC_FOR_ALLOC freed 45K, 4% free 8302K/8608K, paused 2ms, total 2ms
+I/dalvikvm-heap(16228): Grow heap (frag case) to 11.466MB for 3462532-byte allocation
+D/dalvikvm(16228): GC_FOR_ALLOC freed <1K, 3% free 11683K/11992K, paused 4ms, total 4ms
+D/dalvikvm(16228): GC_CONCURRENT freed 18K, 3% free 11692K/11992K, paused 0ms+0ms, total 12ms
+W/EGL_emulation(  542): eglSurfaceAttrib not implemented 3093 12436
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:1
+I/System.out(16228): <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.cyberlink.remotecontrol_free/settings?instance=8cc100bf2356bc2112e3dde13cde93d52f560a9d&source=1&build_version=7531&icon_hash=c0987a4efe4981a8fee7eb5b761f2105143b2a8f&display_version=3.2
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r4 = virtualinvoke $r3.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r3.<java.net.URL: int getPort()>()	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r4 = virtualinvoke $r3.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r3.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r8 = virtualinvoke $r3.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r6.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r4, $r1, $r7, $r8, null)	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r8 = virtualinvoke $r6.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r4)	timediff:0
+I/System.out(16228): <io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r4)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.cyberlink.remotecontrol_free/settings?instance=8cc100bf2356bc2112e3dde13cde93d52f560a9d&source=1&build_version=7531&icon_hash=c0987a4efe4981a8fee7eb5b761f2105143b2a8f&display_version=3.2
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:16
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: java.net.HttpURLConnection createConnection()>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest useCaches(boolean)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setUseCaches(boolean)>($z0)	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest connectTimeout(int)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(16228): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+D/dalvikvm(16228): GC_FOR_ALLOC freed 133K, 2% free 11850K/12072K, paused 4ms, total 4ms
+I/dalvikvm-heap(16228): Grow heap (frag case) to 14.931MB for 3462532-byte allocation
+D/dalvikvm(16228): GC_FOR_ALLOC freed <1K, 2% free 15231K/15456K, paused 4ms, total 4ms
+D/dalvikvm(16228): GC_CONCURRENT freed <1K, 2% free 15231K/15456K, paused 2ms+0ms, total 6ms
+W/FlurryAgent(16228): Start session
+D/libEGL  (16228): loaded /system/lib/egl/libEGL_adreno.so
+D/        (16228): HostConnection::get() New Host Connection established 0xb8cb6690, tid 16228
+D/libEGL  (16228): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (16228): loaded /system/lib/egl/libGLESv2_adreno.so
+I/WearableService(  660): Wearable Services stopping
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(16228): Enabling debug mode 0
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper(  683): showStatusIcon on inactive InputConnection
+I/ActivityManager(  485): Displayed com.cyberlink.remotecontrol_free/.MainActivity: +742ms
+I/WindowManager(  485): Screen frozen for +732ms due to Window{4ab6872c u0 Starting com.cyberlink.remotecontrol_free}
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3796538, downTime=3796538, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3796695, downTime=3796695, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a91327c attribute=null, token = android.os.BinderProxy@4a9ecccc
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3797008, downTime=3797008, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa79dec attribute=null, token = android.os.BinderProxy@4a9ecccc
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_U, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3797387, downTime=3797387, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3797393, downTime=3797393, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa32540 attribute=null, token = android.os.BinderProxy@4a9ecccc
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3797425, downTime=3797425, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3797548, downTime=3797548, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa2c294 attribute=null, token = android.os.BinderProxy@4a9ecccc
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  485): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 16228
+W/PhoneFallbackEventHandler(16228): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3797952, downTime=3797952, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3797964, downTime=3797964, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa483b0 attribute=null, token = android.os.BinderProxy@4a9ecccc
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3798025, downTime=3798025, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abf4e7c attribute=null, token = android.os.BinderProxy@4a9ecccc
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputManager(  485): Input event injection from pid 16218 failed.
+D/FirebaseApp(  683): Notifying background state change listeners.
+W/Launcher(  683): setApplicationContext called twice! old=com.vphone.launcher.LauncherApplicationEx@4a796d18 new=com.vphone.launcher.LauncherApplicationEx@4a796d18
+W/ResourceType(  683): Attempt to retrieve bag 0x7f0b0001 which is invalid or in a cycle.
+D/Launcher(  683): 11683562 - bindAddScreens()
+D/Launcher(  683): 11683562 -   orderedScreenIds: 1, 3
+D/Launcher.Workspace(  683): 11683562 - insertNewWorkspaceScreen(): 1 at index: 0
+D/Launcher.Workspace(  683): 11683562 - insertNewWorkspaceScreen(): 3 at index: 1
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1492 android.content.ContextWrapper.startService:494 com.vphone.launcher.Launcher.i:690 com.vphone.launcher.Launcher.b:182 com.vphone.launcher.Launcher$11.run:650 
+D/Sensors (  485): Client connection accepted (191)
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3798268, downTime=3798268, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_G, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3798594, downTime=3798594, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+E/SurfaceFlinger(  168): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  168): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  168): setOrientation, mFbdev=0xb8f00050, mFbDev->setOrientation=0xb6a08ce0, orientation=0
+I/gralloc_nox(  168): setOrientation: orientation=0
+I/ActivityManager(  485): Config changes=480 {1.0 310mcc16mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger -keyb/v/h dpad/v s.113}
+D/Sensors (  485): Client connection accepted (193)
+I/InputReader(  485): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  485): Device reconfigured: id=1, name='seamless mouse', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  485): Device reconfigured: id=3, name='Android Input', size 1280x720, orientation 0, mode 1, display id 0
+I/InputReader(  485): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 0, mode 1, display id 0
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean isClosed()>	sig:$z0 = virtualinvoke $r1.<java.net.MulticastSocket: boolean isClosed()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:$r5 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:specialinvoke $r4.<java.net.DatagramPacket: void <init>(byte[],int,java.net.InetAddress,int)>($r6, $i1, $r5, $i0)	timediff:0
+D/MUSocket(16228): [msend] socket msending ...
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void send(java.net.DatagramPacket)>($r4)	timediff:1
+D/PhoneStatusBar(  542): mSettingsPanelGravity = 55
+D/Tinker.DefaultAppLike(  683): onConfigurationChanged:{1.0 310mcc16mnc en_US ldltr sw480dp w853dp h454dp 240dpi lrg long land finger -keyb/v/h dpad/v s.113}
+D/yeshen  (  683): launcher onpause
+D/yeshen  (  683): launcher onstop
+D/dalvikvm(  542): GC_FOR_ALLOC freed 7684K, 40% free 11314K/18660K, paused 5ms, total 5ms
+I/dalvikvm-heap(  542): Grow heap (frag case) to 17.358MB for 6553612-byte allocation
+D/dalvikvm(  542): GC_FOR_ALLOC freed 3K, 30% free 17710K/25064K, paused 4ms, total 4ms
+D/dalvikvm(  542): GC_CONCURRENT freed <1K, 30% free 17711K/25064K, paused 1ms+1ms, total 10ms
+W/Launcher(  683): setApplicationContext called twice! old=com.vphone.launcher.LauncherApplicationEx@4a796d18 new=com.vphone.launcher.LauncherApplicationEx@4a796d18
+W/ResourceType(  683): Attempt to retrieve bag 0x7f0b0001 which is invalid or in a cycle.
+D/Launcher(  683): 11683562 - bindAddScreens()
+D/Launcher(  683): 11683562 -   orderedScreenIds: 1, 3
+D/Launcher.Workspace(  683): 11683562 - insertNewWorkspaceScreen(): 1 at index: 0
+D/Launcher.Workspace(  683): 11683562 - insertNewWorkspaceScreen(): 3 at index: 1
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1492 android.content.ContextWrapper.startService:494 com.vphone.launcher.Launcher.i:690 com.vphone.launcher.Launcher.b:182 com.vphone.launcher.Launcher$11.run:650 
+W/EGL_emulation(  542): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(  683): GC_FOR_ALLOC freed 4824K, 3% free 191692K/197536K, paused 78ms, total 78ms
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10183, 0) failed with errno -13
+I/WindowManager(  485): Screen frozen for +716ms due to Window{4a9885a0 u0 com.vphone.launcher/com.vphone.launcher.Launcher}
+W/FlurryAgent(16228): Trying to end session
+D/dalvikvm(16228): GC_CONCURRENT freed 1262K, 7% free 18008K/19332K, paused 1ms+0ms, total 12ms
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.techwin.shc/.main.intro.Intro bnds=[946,174][1150,301]} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : music_action_next
+I/MusicPlayService(15126): action:music_action_next
+I/MusicPlayer(15126): next()
+E/MusicQueue(15126): 列表为空
+D/MusicPlayService(15126): doUpdateWidget
+E/MusicQueue(15126): 列表为空
+I/MusicPlayer(15126): start()
+E/MusicQueue(15126): 列表为空
+E/MusicQueue(15126): 列表为空
+D/dalvikvm(15126): GC_FOR_ALLOC freed 204K, 47% free 6178K/11604K, paused 3ms, total 3ms
+I/dalvikvm-heap(15126): Grow heap (frag case) to 7.653MB for 1638412-byte allocation
+D/dalvikvm(15126): GC_FOR_ALLOC freed <1K, 33% free 7778K/11604K, paused 14ms, total 14ms
+E/MusicQueue(15126): 列表为空
+D/dalvikvm(15126): GC_CONCURRENT freed 689K, 39% free 7100K/11604K, paused 1ms+2ms, total 8ms
+D/MusicPlayService(15126): doUpdateWidget
+E/MusicQueue(15126): 列表为空
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+D/dalvikvm(15126): GC_FOR_ALLOC freed 6K, 39% free 7097K/11604K, paused 15ms, total 17ms
+I/dalvikvm-heap(15126): Grow heap (frag case) to 8.745MB for 1843212-byte allocation
+D/dalvikvm(15126): GC_FOR_ALLOC freed 10K, 24% free 8886K/11604K, paused 8ms, total 8ms
+D/dalvikvm(15126): GC_CONCURRENT freed <1K, 24% free 8886K/11604K, paused 3ms+1ms, total 6ms
+I/Widget2x2Transparent(15126): appWidgetIds为空
+I/Widget2x2Transparent(15126): appWidgetIds为空
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dndteam.vplayer/.ui.MainActivity bnds=[93,428][297,555]} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+D/yeshen  (  683): launcher onpause
+E/SurfaceFlinger(  168): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  168): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  168): setOrientation, mFbdev=0xb8f00050, mFbDev->setOrientation=0xb6a08ce0, orientation=3
+I/gralloc_nox(  168): setOrientation: orientation=3
+D/PhoneStatusBar(  542): mSettingsPanelGravity = 55
+I/ActivityManager(  485): Config changes=480 {1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.114}
+D/dalvikvm(  651): GC_CONCURRENT freed 410K, 15% free 3065K/3568K, paused 1ms+0ms, total 3ms
+I/InputReader(  485): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  485): Device reconfigured: id=1, name='seamless mouse', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  485): Device reconfigured: id=3, name='Android Input', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  485): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 3, mode 1, display id 0
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10183, 1) failed with errno -13
+D/CLDLMediaStoreHandler(16228): [enableImageHandler]
+D/CLDLMediaStoreHandler(16228): [enableVideoHandler]
+D/CLDLMediaStoreHandler(16228): [enableAudioHandler]
+I/System.out(16228): body:<com.cyberlink.remotecontrol_free.UDPRemoteCommandSender: void <init>()>	sig:specialinvoke $r5.<java.net.DatagramSocket: void <init>()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.remotecontrol_free.UDPRemoteCommandSender: void <init>()>	sig:specialinvoke $r6.<java.net.DatagramPacket: void <init>(byte[],int)>($r2, $i0)	timediff:0
+I/System.out(16228): body:<com.cyberlink.remotecontrol_free.UDPRemoteCommandSender: void <init>()>	sig:specialinvoke $r6.<java.net.DatagramPacket: void <init>(byte[],int)>($r3, $i0)	timediff:4
+D/Tinker.DefaultAppLike(  683): onConfigurationChanged:{1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.114}
+E/MUSocket(16228): getLocalAddressByJava!!
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.lang.String,int,java.lang.String)>	sig:$r4 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:$r6 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r2)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:specialinvoke $r3.<java.net.InetSocketAddress: void <init>(java.net.InetAddress,int)>($r6, $i0)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:$r5 = staticinvoke <java.net.NetworkInterface: java.net.NetworkInterface getByInetAddress(java.net.InetAddress)>($r1)	timediff:1
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:specialinvoke $r7.<java.net.MulticastSocket: void <init>(java.net.SocketAddress)>(null)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void setReuseAddress(boolean)>(1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void joinGroup(java.net.SocketAddress,java.net.NetworkInterface)>($r3, $r5)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:specialinvoke $r7.<java.net.MulticastSocket: void <init>(java.net.SocketAddress)>(null)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void setReuseAddress(boolean)>(1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:specialinvoke $r3.<java.net.InetSocketAddress: void <init>(int)>($i0)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void bind(java.net.SocketAddress)>($r3)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void joinGroup(java.net.SocketAddress,java.net.NetworkInterface)>($r3, $r5)	timediff:0
+E/MUSocket(16228): getLocalAddressByJava!!
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r1 = virtualinvoke $r2.<java.net.InetSocketAddress: java.net.InetAddress getAddress()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r4 = virtualinvoke $r3.<java.net.NetworkInterface: java.util.Enumeration getInetAddresses()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r7 = virtualinvoke $r6.<java.net.InetAddress: java.lang.String getHostAddress()>()	timediff:0
+E/MUSocket(16228): getLocalAddressByJava!!
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r1 = virtualinvoke $r2.<java.net.InetSocketAddress: java.net.InetAddress getAddress()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r4 = virtualinvoke $r3.<java.net.NetworkInterface: java.util.Enumeration getInetAddresses()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r7 = virtualinvoke $r6.<java.net.InetAddress: java.lang.String getHostAddress()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: int getLocalPort()>	sig:$i0 = virtualinvoke $r1.<java.net.MulticastSocket: int getLocalPort()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getMulticastGroup()>	sig:$r2 = virtualinvoke $r1.<java.net.InetSocketAddress: java.net.InetAddress getAddress()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getMulticastGroup()>	sig:$r3 = virtualinvoke $r2.<java.net.InetAddress: java.lang.String getHostAddress()>()	timediff:1
+D/SSDPClient(16228): M-SEARCH * HTTP/1.1
+D/SSDPClient(16228): MAN:"ssdp:discover"
+D/SSDPClient(16228): HOST:239.255.255.250:1900
+D/SSDPClient(16228): MX:3
+D/SSDPClient(16228): ST:urn:schemas-cyberlink-com:service:RemoteControl:1
+D/SSDPClient(16228): 
+E/ScanningDeviceView(16228): mPairedUuid :[]
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:$r5 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:specialinvoke $r4.<java.net.DatagramPacket: void <init>(byte[],int,java.net.InetAddress,int)>($r6, $i1, $r5, $i0)	timediff:1
+D/MUSocket(16228): [msend] socket msending ...
+D/SSDPMUSocket(16228): [SSDPListenThread] receiving datagram packet ... 
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.net.DatagramPacket lreceive()>	sig:specialinvoke $r2.<java.net.DatagramPacket: void <init>(byte[],int)>($r1, $i0)	timediff:0
+D/MUSocket(16228): [lreceive] socket receiving ...
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void send(java.net.DatagramPacket)>($r4)	timediff:1
+D/dalvikvm(  542): GC_FOR_ALLOC freed 8309K, 40% free 11316K/18660K, paused 2ms, total 6ms
+I/dalvikvm-heap(  542): Grow heap (frag case) to 17.360MB for 6553612-byte allocation
+D/dalvikvm(  485): GC_CONCURRENT freed 3427K, 28% free 19119K/26380K, paused 1ms+4ms, total 41ms
+D/SSDPMUSocket(16228): [searchResponderThread] receiving datagram packet ... 
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.net.DatagramPacket receive()>	sig:specialinvoke $r2.<java.net.DatagramPacket: void <init>(byte[],int)>($r1, $i0)	timediff:0
+D/MUSocket(16228): [receive] socket receiving ...
+W/FlurryAgent(16228): Continuing previous session
+D/dalvikvm(  542): GC_CONCURRENT freed 5K, 30% free 17710K/25064K, paused 12ms+11ms, total 26ms
+D/dalvikvm(  542): WAIT_FOR_CONCURRENT_GC blocked 10ms
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/IInputConnectionWrapper(  683): showStatusIcon on inactive InputConnection
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/EGL_emulation(  542): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  485): Displayed com.cyberlink.remotecontrol_free/.MainActivity: +404ms
+D/yeshen  (  683): launcher onstop
+I/WindowManager(  485): Screen frozen for +422ms due to Window{4ab75754 u0 Starting com.cyberlink.remotecontrol_free}
+W/Launcher(  683): setApplicationContext called twice! old=com.vphone.launcher.LauncherApplicationEx@4a796d18 new=com.vphone.launcher.LauncherApplicationEx@4a796d18
+W/ResourceType(  683): Attempt to retrieve bag 0x7f0b0001 which is invalid or in a cycle.
+D/Launcher(  683): 11683562 - bindAddScreens()
+D/Launcher(  683): 11683562 -   orderedScreenIds: 1, 3
+D/Launcher.Workspace(  683): 11683562 - insertNewWorkspaceScreen(): 1 at index: 0
+D/Launcher.Workspace(  683): 11683562 - insertNewWorkspaceScreen(): 3 at index: 1
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1492 android.content.ContextWrapper.startService:494 com.vphone.launcher.Launcher.i:690 com.vphone.launcher.Launcher.b:182 com.vphone.launcher.Launcher$11.run:650 
+D/Sensors (  485): Client connection accepted (184)
+W/EGL_emulation(  683): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3801137, downTime=3801137, deviceId=-1, source=0x101 }
+D/dalvikvm(  683): GC_FOR_ALLOC freed 5315K, 3% free 193720K/199700K, paused 83ms, total 84ms
+W/ViewRootImpl(  683): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=3.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=3801473, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3801474, downTime=3801474, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  683): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3801545, downTime=3801545, deviceId=-1, source=0x101 }
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/Sensors (  485): Client connection accepted (184)
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean isClosed()>	sig:$z0 = virtualinvoke $r1.<java.net.MulticastSocket: boolean isClosed()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:$r5 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:specialinvoke $r4.<java.net.DatagramPacket: void <init>(byte[],int,java.net.InetAddress,int)>($r6, $i1, $r5, $i0)	timediff:0
+D/MUSocket(16228): [msend] socket msending ...
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void send(java.net.DatagramPacket)>($r4)	timediff:0
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10183, 0) failed with errno -13
+W/FlurryAgent(16228): Trying to end session
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dndteam.vplayer/.ui.MainActivity bnds=[431,848][572,1078]} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+D/Sensors (  485): Client connection accepted (189)
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity bnds=[8,388][149,618] (has extras)} from pid 683
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+D/dalvikvm(  485): GC_EXPLICIT freed 1130K, 28% free 19147K/26380K, paused 1ms+2ms, total 23ms
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/Launcher(  683): No global search activity found.
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/DebugConnManager(  683): getNetworkInfo() on networkType 1
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1020 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 com.vphone.launcher.utils.AppUtil.onQsbClicked:1474 
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:1032 android.app.ContextImpl.startActivity:1021 android.content.ContextWrapper.startActivity:311 com.vphone.launcher.utils.AppUtil.openByBrowser:1068 com.vphone.launcher.utils.AppUtil.b:1499 
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=https://www.bignox.com/gsearch/index?g=32c3adf2-4ef0-4bfa-9817-0931a0a194ab&a=2c56dc4e22148605&i=355325040445621&m=2C:56:DC:4E:22:14 flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 683
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+D/yeshen  (  683): launcher onpause
+W/NetworkManagementSocketTagger(  485): setKernelCountSet(10183, 1) failed with errno -13
+D/CLDLMediaStoreHandler(16228): [enableImageHandler]
+D/CLDLMediaStoreHandler(16228): [enableVideoHandler]
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+D/CLDLMediaStoreHandler(16228): [enableAudioHandler]
+E/SoundPool(  485): Error creating AudioTrack
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.facebook.lite/.MainActivity bnds=[290,618][431,848]} from pid 683
+W/PropertyValuesHolder(  683): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  683): Method getBrightness() with type int not found on target class class ph
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+I/System.out(16228): body:<com.cyberlink.remotecontrol_free.UDPRemoteCommandSender: void <init>()>	sig:specialinvoke $r5.<java.net.DatagramSocket: void <init>()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.remotecontrol_free.UDPRemoteCommandSender: void <init>()>	sig:specialinvoke $r6.<java.net.DatagramPacket: void <init>(byte[],int)>($r2, $i0)	timediff:0
+I/System.out(16228): body:<com.cyberlink.remotecontrol_free.UDPRemoteCommandSender: void <init>()>	sig:specialinvoke $r6.<java.net.DatagramPacket: void <init>(byte[],int)>($r3, $i0)	timediff:0
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+E/MUSocket(16228): getLocalAddressByJava!!
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.lang.String,int,java.lang.String)>	sig:$r4 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:$r6 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r2)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:specialinvoke $r3.<java.net.InetSocketAddress: void <init>(java.net.InetAddress,int)>($r6, $i0)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:$r5 = staticinvoke <java.net.NetworkInterface: java.net.NetworkInterface getByInetAddress(java.net.InetAddress)>($r1)	timediff:1
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:specialinvoke $r7.<java.net.MulticastSocket: void <init>(java.net.SocketAddress)>(null)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void setReuseAddress(boolean)>(1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void joinGroup(java.net.SocketAddress,java.net.NetworkInterface)>($r3, $r5)	timediff:1
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:specialinvoke $r7.<java.net.MulticastSocket: void <init>(java.net.SocketAddress)>(null)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void setReuseAddress(boolean)>(1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:specialinvoke $r3.<java.net.InetSocketAddress: void <init>(int)>($i0)	timediff:1
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void bind(java.net.SocketAddress)>($r3)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean open(java.net.InetAddress,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void joinGroup(java.net.SocketAddress,java.net.NetworkInterface)>($r3, $r5)	timediff:0
+E/MUSocket(16228): getLocalAddressByJava!!
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r1 = virtualinvoke $r2.<java.net.InetSocketAddress: java.net.InetAddress getAddress()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r4 = virtualinvoke $r3.<java.net.NetworkInterface: java.util.Enumeration getInetAddresses()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r7 = virtualinvoke $r6.<java.net.InetAddress: java.lang.String getHostAddress()>()	timediff:0
+E/MUSocket(16228): getLocalAddressByJava!!
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r1 = virtualinvoke $r2.<java.net.InetSocketAddress: java.net.InetAddress getAddress()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r4 = virtualinvoke $r3.<java.net.NetworkInterface: java.util.Enumeration getInetAddresses()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getLocalAddressByJava()>	sig:$r7 = virtualinvoke $r6.<java.net.InetAddress: java.lang.String getHostAddress()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: int getLocalPort()>	sig:$i0 = virtualinvoke $r1.<java.net.MulticastSocket: int getLocalPort()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getMulticastGroup()>	sig:$r2 = virtualinvoke $r1.<java.net.InetSocketAddress: java.net.InetAddress getAddress()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.lang.String getMulticastGroup()>	sig:$r3 = virtualinvoke $r2.<java.net.InetAddress: java.lang.String getHostAddress()>()	timediff:0
+D/SSDPMUSocket(16228): [searchResponderThread] receiving datagram packet ... 
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.net.DatagramPacket receive()>	sig:specialinvoke $r2.<java.net.DatagramPacket: void <init>(byte[],int)>($r1, $i0)	timediff:0
+D/MUSocket(16228): [receive] socket receiving ...
+D/SSDPClient(16228): M-SEARCH * HTTP/1.1
+D/SSDPClient(16228): MAN:"ssdp:discover"
+D/SSDPClient(16228): HOST:239.255.255.250:1900
+D/SSDPClient(16228): MX:3
+D/SSDPClient(16228): ST:urn:schemas-cyberlink-com:service:RemoteControl:1
+D/SSDPClient(16228): 
+D/SSDPMUSocket(16228): [SSDPListenThread] receiving datagram packet ... 
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: java.net.DatagramPacket lreceive()>	sig:specialinvoke $r2.<java.net.DatagramPacket: void <init>(byte[],int)>($r1, $i0)	timediff:0
+D/MUSocket(16228): [lreceive] socket receiving ...
+E/ScanningDeviceView(16228): mPairedUuid :[]
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:$r5 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:specialinvoke $r4.<java.net.DatagramPacket: void <init>(byte[],int,java.net.InetAddress,int)>($r6, $i1, $r5, $i0)	timediff:0
+D/MUSocket(16228): [msend] socket msending ...
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void send(java.net.DatagramPacket)>($r4)	timediff:0
+W/FlurryAgent(16228): Continuing previous session
+D/Sensors (  485): Client connection accepted (185)
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  485): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  485): Displayed com.cyberlink.remotecontrol_free/.MainActivity: +237ms
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+D/yeshen  (  683): launcher onstop
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean isClosed()>	sig:$z0 = virtualinvoke $r1.<java.net.MulticastSocket: boolean isClosed()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:$r5 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:specialinvoke $r4.<java.net.DatagramPacket: void <init>(byte[],int,java.net.InetAddress,int)>($r6, $i1, $r5, $i0)	timediff:0
+D/MUSocket(16228): [msend] socket msending ...
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void send(java.net.DatagramPacket)>($r4)	timediff:1
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+V/MainUtilCore(16228): browseURL: http://www.cyberlink.com
+E/SoundPool(  485): Error creating AudioTrack
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://www.cyberlink.com cmp=com.android.browser/.BrowserActivity} from pid 16228
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F12, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3803509, downTime=3803509, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_6, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3803526, downTime=3803526, deviceId=-1, source=0x101 }
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8a6e70 attribute=null, token = android.os.BinderProxy@4a98c0b0
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3803643, downTime=3803643, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9bcee0 attribute=null, token = android.os.BinderProxy@4a98c0b0
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 485
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3804250, downTime=3804250, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CLEAR, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3804258, downTime=3804258, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaf2b78 attribute=null, token = android.os.BinderProxy@4a98c0b0
+I/ActivityManager(  485): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 16228
+W/PhoneFallbackEventHandler(16228): No activity found for android.intent.action.CALL_BUTTON.
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+I/InputDispatcher(  485): Dropped event because of pending overdue app switch.
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a82ade0 attribute=null, token = android.os.BinderProxy@4a98c0b0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean isClosed()>	sig:$z0 = virtualinvoke $r1.<java.net.MulticastSocket: boolean isClosed()>()	timediff:1
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:$r5 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:specialinvoke $r4.<java.net.DatagramPacket: void <init>(byte[],int,java.net.InetAddress,int)>($r6, $i1, $r5, $i0)	timediff:0
+D/MUSocket(16228): [msend] socket msending ...
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void send(java.net.DatagramPacket)>($r4)	timediff:0
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+I/System.out(15563): body:<com.google.android.gms.b.la: void a()>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+E/Fabric  (15563): Failed to retrieve settings from https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.thinkyeah.galleryvault/settings
+I/System.out(15563): body:<c.a.a.a.a.e.d: java.lang.String a(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:0
+W/Fabric  (15563): Received null settings, skipping initialization!
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa3a4fc attribute=null, token = android.os.BinderProxy@4a98c0b0
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputManager(  485): Input event injection from pid 16218 failed.
+V/MainUtilCore(16228): browseURL: http://www.cyberlink.com
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://www.cyberlink.com cmp=com.android.browser/.BrowserActivity} from pid 16228
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_Y, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3805769, downTime=3805769, deviceId=-1, source=0x101 }
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3805769, downTime=3805769, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3805783, downTime=3805783, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3805794, downTime=3805794, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ac6d598 attribute=null, token = android.os.BinderProxy@4a98c0b0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean isClosed()>	sig:$z0 = virtualinvoke $r1.<java.net.MulticastSocket: boolean isClosed()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:$r5 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:specialinvoke $r4.<java.net.DatagramPacket: void <init>(byte[],int,java.net.InetAddress,int)>($r6, $i1, $r5, $i0)	timediff:0
+D/MUSocket(16228): [msend] socket msending ...
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void send(java.net.DatagramPacket)>($r4)	timediff:0
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3805974, downTime=3805974, deviceId=-1, source=0x101 }
+E/SoundPool(  485): Error creating AudioTrack
+E/ScanningDeviceView(16228): TimerLong Done no device found
+D/MUSocket(16228): [close]
+D/MUSocket(16228): [close] mMSocket leaving group
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean close()>	sig:virtualinvoke $r3.<java.net.MulticastSocket: void leaveGroup(java.net.SocketAddress,java.net.NetworkInterface)>($r4, $r2)	timediff:0
+D/MUSocket(16228): [close] mMSocket closing socket
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean close()>	sig:virtualinvoke $r3.<java.net.MulticastSocket: void close()>()	timediff:0
+D/MUSocket(16228): [close] mListenSocket leaving group
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean close()>	sig:virtualinvoke $r3.<java.net.MulticastSocket: void leaveGroup(java.net.SocketAddress,java.net.NetworkInterface)>($r4, $r2)	timediff:0
+D/MUSocket(16228): [close] mListenSocket closing socket
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean close()>	sig:virtualinvoke $r3.<java.net.MulticastSocket: void close()>()	timediff:0
+D/MUSocket(16228): [close] done
+W/MUSocket(16228): Socket closed
+W/SSDPMUSocket(16228): [searchResponderThread] receiving datagram packet ... 
+D/SSDPMUSocket(16228): [searchResponderThread] left 
+W/MUSocket(16228): Socket closed
+W/SSDPMUSocket(16228): [SSDPListenThread] receiving datagram packet ... 
+D/SSDPMUSocket(16228): [searchResponderThread] left 
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3805982, downTime=3805982, deviceId=-1, source=0x101 }
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 485
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ad97e10 attribute=null, token = android.os.BinderProxy@4a98c0b0
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaab970 attribute=null, token = android.os.BinderProxy@4a98c0b0
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3806210, downTime=3806210, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3806215, downTime=3806215, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean isClosed()>	sig:$z0 = virtualinvoke $r1.<java.net.MulticastSocket: boolean isClosed()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:$r5 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:specialinvoke $r4.<java.net.DatagramPacket: void <init>(byte[],int,java.net.InetAddress,int)>($r6, $i1, $r5, $i0)	timediff:0
+D/MUSocket(16228): [msend] socket msending ...
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void send(java.net.DatagramPacket)>($r4)	timediff:1
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9c5af4 attribute=null, token = android.os.BinderProxy@4a98c0b0
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_FORWARD_DEL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3806434, downTime=3806434, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/AudioFlinger(  171): write blocked for 9880 msecs, 59 delayed writes, thread 0xb4185010
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3806462, downTime=3806462, deviceId=-1, source=0x101 }
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aae2f2c attribute=null, token = android.os.BinderProxy@4a98c0b0
+E/AudioFlinger(  171): no more track names available
+E/AudioTrack(  485): AudioFlinger could not create track, status: -12
+E/SoundPool(  485): Error creating AudioTrack
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3806637, downTime=3806637, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3806675, downTime=3806675, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3806682, downTime=3806682, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3806690, downTime=3806690, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9ebbb4 attribute=null, token = android.os.BinderProxy@4a98c0b0
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3806841, downTime=3806841, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3806848, downTime=3806848, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3806853, downTime=3806853, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3806861, downTime=3806861, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3806865, downTime=3806865, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa57b0c attribute=null, token = android.os.BinderProxy@4a98c0b0
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 485
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out(15563): <com.parse.dl: com.parse.a.c a(com.parse.a.b)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r3)###https://api.parse.com/1/classes/_Installation
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:$r4 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:1
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i1)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setReadTimeout(int)>($i1)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setInstanceFollowRedirects(boolean)>(0)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r3, $r12)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Length", $r12)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r12)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setFixedLengthStreamingMode(long)>($l0)	timediff:0
+I/System.out(15563): body:<com.parse.dl: com.parse.a.c a(com.parse.a.b)>	sig:virtualinvoke $r5.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_WINDOW, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3807177, downTime=3807177, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MOVE_END, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3807205, downTime=3807205, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa7f7ec attribute=null, token = android.os.BinderProxy@4a98c0b0
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/MainUtilCore(16228): browseURL: http://www.cyberlink.com
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://www.cyberlink.com cmp=com.android.browser/.BrowserActivity} from pid 16228
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3807712, downTime=3807712, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab1a740 attribute=null, token = android.os.BinderProxy@4a98c0b0
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3807835, downTime=3807835, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean isClosed()>	sig:$z0 = virtualinvoke $r1.<java.net.MulticastSocket: boolean isClosed()>()	timediff:0
+W/ViewRootImpl(16228): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=4.0, y[0]=-2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=3808028, downTime=-1, deviceId=0, source=0x10004 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a94e6dc attribute=null, token = android.os.BinderProxy@4a98c0b0
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+I/MediaButtonReceiver(15126): event : ACTION_DOWN3
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+I/MediaButtonReceiver(15126): event : ACTION_DOWN2
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+W/ContextImpl(  683): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3808674, downTime=3808674, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3808694, downTime=3808694, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4af10988 attribute=null, token = android.os.BinderProxy@4a98c0b0
+I/MusicPlayService(15126): action:music_action_next
+I/MusicPlayer(15126): next()
+E/MusicQueue(15126): 列表为空
+D/MusicPlayService(15126): doUpdateWidget
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean isClosed()>	sig:$z0 = virtualinvoke $r1.<java.net.MulticastSocket: boolean isClosed()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:$r5 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:specialinvoke $r4.<java.net.DatagramPacket: void <init>(byte[],int,java.net.InetAddress,int)>($r6, $i1, $r5, $i0)	timediff:0
+D/MUSocket(16228): [msend] socket msending ...
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void send(java.net.DatagramPacket)>($r4)	timediff:1
+E/MusicQueue(15126): 列表为空
+I/MusicPlayer(15126): start()
+E/MusicQueue(15126): 列表为空
+E/MusicQueue(15126): 列表为空
+E/MusicQueue(15126): 列表为空
+D/MusicPlayService(15126): doUpdateWidget
+E/MusicQueue(15126): 列表为空
+D/dalvikvm(15126): GC_FOR_ALLOC freed 3477K, 40% free 7071K/11604K, paused 3ms, total 3ms
+I/dalvikvm-heap(15126): Grow heap (frag case) to 8.719MB for 1843212-byte allocation
+D/dalvikvm(15126): GC_FOR_ALLOC freed 5K, 24% free 8865K/11604K, paused 3ms, total 3ms
+I/Widget2x2Transparent(15126): appWidgetIds为空
+D/dalvikvm(15126): GC_CONCURRENT freed 1604K, 38% free 7268K/11604K, paused 3ms+0ms, total 15ms
+D/dalvikvm(  485): GC_FOR_ALLOC freed 2730K, 27% free 19480K/26380K, paused 18ms, total 19ms
+I/Widget2x2Transparent(15126): appWidgetIds为空
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+I/ActivityManager(  485): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 16228
+W/PhoneFallbackEventHandler(16228): No activity found for android.intent.action.CALL_BUTTON.
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3809145, downTime=3809145, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3809157, downTime=3809157, deviceId=-1, source=0x101 }
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ab3256c attribute=null, token = android.os.BinderProxy@4a98c0b0
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputManager(  485): Input event injection from pid 16218 failed.
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean isClosed()>	sig:$z0 = virtualinvoke $r1.<java.net.MulticastSocket: boolean isClosed()>()	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:$r5 = staticinvoke <java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>($r1)	timediff:0
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:specialinvoke $r4.<java.net.DatagramPacket: void <init>(byte[],int,java.net.InetAddress,int)>($r6, $i1, $r5, $i0)	timediff:0
+D/MUSocket(16228): [msend] socket msending ...
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean msend(java.lang.String,int,java.lang.String)>	sig:virtualinvoke $r7.<java.net.MulticastSocket: void send(java.net.DatagramPacket)>($r4)	timediff:0
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=0.0 v=4500.0)
+D/SizeAdaptiveLayout(  542): com.android.internal.widget.SizeAdaptiveLayout{4ad1aa6c V.E..... ......I. 0,0-0,0 #7f07004f app:id/adaptive}child view android.widget.FrameLayout{4a818574 G.E..... ......ID 0,0-0,0 #10202d6 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+W/WindowManager(  485): updateFocusedWindowLocked, focusedAppToken is null.
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3809311, downTime=3809311, deviceId=-1, source=0x101 }
+W/EGL_emulation(  542): eglSurfaceAttrib not implemented 3093 12436
+D/SizeAdaptiveLayout(  542): com.android.internal.widget.SizeAdaptiveLayout{4ad1aa6c V.E..... ......I. 0,0-0,0 #7f07004f app:id/adaptive}child view android.widget.FrameLayout{4a818574 G.E..... ......ID 0,0-0,0 #10202d6 android:id/status_bar_latest_event_content} measured out of bounds at 95px clamped to 96px
+I/MediaButtonReceiver(15126): onReceive : android.intent.action.MEDIA_BUTTON
+I/MediaButtonReceiver(15126): action : null
+W/ViewRootImpl(  542): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_NEXT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3809337, downTime=3809337, deviceId=-1, source=0x101 }
+W/GLSUser (  700): [AppCertManager] IOException while requesting key: 
+W/GLSUser (  700): [DeviceKeyStore] Cannot load key: Device key file not found.
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=679.5 v=-3000.0)
+V/PanelView(  542): animationTick called with dtms=-1; nothing to do (h=679.5 v=-3000.0)
+I/ActivityManager(  485): START u0 {act=android.intent.action.QUICK_CLOCK flg=0x14000000 cmp=com.android.settings/.Settings$DateTimeSettingsActivity} from pid 542
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3809540, downTime=3809540, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3809544, downTime=3809544, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3809551, downTime=3809551, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3809675, downTime=3809675, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa77a30 attribute=null, token = android.os.BinderProxy@4a98c0b0
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=243.24901 v=-3000.0)
+V/PanelView(  542): animationTick called with dtms=-11; nothing to do (h=243.24901 v=-3000.0)
+I/ActivityManager(  485): START u0 {act=android.intent.action.QUICK_CLOCK flg=0x14000000 cmp=com.android.settings/.Settings$DateTimeSettingsActivity} from pid 542
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=243.24901 v=-3000.0)
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=243.24901 v=-3000.0)
+V/PanelView(  542): animationTick called with dtms=-16; nothing to do (h=243.24901 v=-3000.0)
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=88.24801 v=-3000.0)
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=88.24801 v=-3000.0)
+V/PanelView(  542): animationTick called with dtms=-9; nothing to do (h=88.24801 v=-3000.0)
+W/ViewRootImpl(16228): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=2, eventTime=3809761, downTime=-1, deviceId=0, source=0x10004 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=88.24801 v=-3000.0)
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=88.24801 v=-3000.0)
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=88.24801 v=-3000.0)
+V/PanelView(  542): animationTick called with dtms=0; nothing to do (h=88.24801 v=-3000.0)
+V/PanelView(  542): animationTick called with dtms=-17; nothing to do (h=88.24801 v=-3000.0)
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aa37c68 attribute=null, token = android.os.BinderProxy@4a98c0b0
+W/EGL_emulation(  542): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_7, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3809937, downTime=3809937, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3809937, downTime=3809937, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PROG_YELLOW, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3809949, downTime=3809949, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaebbc4 attribute=null, token = android.os.BinderProxy@4a98c0b0
+E/ScanningDeviceView(16228): TimerLong Done no device found
+D/MUSocket(16228): [close]
+D/MUSocket(16228): [close] mMSocket leaving group
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean close()>	sig:virtualinvoke $r3.<java.net.MulticastSocket: void leaveGroup(java.net.SocketAddress,java.net.NetworkInterface)>($r4, $r2)	timediff:0
+D/MUSocket(16228): [close] mMSocket closing socket
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean close()>	sig:virtualinvoke $r3.<java.net.MulticastSocket: void close()>()	timediff:0
+D/MUSocket(16228): [close] mListenSocket leaving group
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean close()>	sig:virtualinvoke $r3.<java.net.MulticastSocket: void leaveGroup(java.net.SocketAddress,java.net.NetworkInterface)>($r4, $r2)	timediff:0
+D/MUSocket(16228): [close] mListenSocket closing socket
+I/System.out(16228): body:<com.cyberlink.spark.upnp.ssdp.MUSocket: boolean close()>	sig:virtualinvoke $r3.<java.net.MulticastSocket: void close()>()	timediff:1
+D/MUSocket(16228): [close] done
+W/MUSocket(16228): Socket closed
+W/SSDPMUSocket(16228): [searchResponderThread] receiving datagram packet ... 
+D/SSDPMUSocket(16228): [searchResponderThread] left 
+W/MUSocket(16228): Socket closed
+W/SSDPMUSocket(16228): [SSDPListenThread] receiving datagram packet ... 
+D/SSDPMUSocket(16228): [searchResponderThread] left 
+I/System.out(15533): body:<com.baidu.android.pushservice.d.g: void a(java.util.List)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r3, "UTF-8")	timediff:0
+D/dalvikvm(15533): GC_CONCURRENT freed 236K, 8% free 3554K/3852K, paused 1ms+0ms, total 5ms
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3810704, downTime=3810704, deviceId=-1, source=0x101 }
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3810711, downTime=3810711, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3810724, downTime=3810724, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ae5114c attribute=null, token = android.os.BinderProxy@4a98c0b0
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputManager(  485): Input event injection from pid 16218 failed.
+W/InputManager(  485): Input event injection from pid 16218 failed.
+I/ActivityManager(  485): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cyberlink.remotecontrol_free/.MainActivity} from pid 16218
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  485): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8b8884 attribute=null, token = android.os.BinderProxy@4a98c0b0
+V/MainUtilCore(16228): browseURL: http://www.cyberlink.com
+I/ActivityManager(  485): START u0 {act=android.intent.action.VIEW dat=http://www.cyberlink.com cmp=com.android.browser/.BrowserActivity} from pid 16228
+W/ViewRootImpl(16228): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=3811263, downTime=3811263, deviceId=-1, source=0x101 }
+W/EGL_emulation(16228): eglSurfaceAttrib not implemented 3093 12436
+I/AndroidRuntime(16218): VM exiting with result code 0.

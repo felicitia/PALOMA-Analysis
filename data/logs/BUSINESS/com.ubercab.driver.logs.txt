@@ -1,0 +1,1299 @@
+--------- beginning of /dev/log/main
+W/System.err( 7686): java.net.SocketTimeoutException: failed to connect to up.cm.ksmobile.com/46.82.174.69 (port 80) after 5000ms
+W/System.err( 7686): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+W/System.err( 7686): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 7686): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 7686): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 7686): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 7686): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:131)
+W/System.err( 7686): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 7686): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 7686): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 7686): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 7686): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 7686): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 7686): 	at com.cmlocker.core.mutual.r.a(ConfigHolder.java:278)
+W/System.err( 7686): 	at com.cmlocker.core.mutual.r.a(ConfigHolder.java:314)
+W/System.err( 7686): 	at com.cmlocker.core.mutual.r.d(ConfigHolder.java:149)
+W/System.err( 7686): 	at com.cmlocker.core.mutual.r.d(ConfigHolder.java:29)
+W/System.err( 7686): 	at com.cmlocker.core.mutual.u.run(ConfigHolder.java:124)
+W/System.err( 7686): 	at android.os.Handler.handleCallback(Handler.java:733)
+W/System.err( 7686): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/System.err( 7686): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 7686): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+D/AndroidRuntime( 8177): 
+D/AndroidRuntime( 8177): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 8177): CheckJNI is OFF
+D/dalvikvm( 8177): Using executionMode 2
+D/dalvikvm( 8177): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 8177): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 8177): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 8177): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 8177): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 8177): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 8177): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 8177): failed to load memtrack module: -2
+D/AndroidRuntime( 8177): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  476): Skipping deliver [background] BroadcastRecord{4be457e0 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4b7e2ab4 8177 (unknown name)/0/u-1 remote:4b8220a8}: process crashing
+I/ActivityManager(  476): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ubercab.driver/.feature.launch.LauncherActivity} from pid 8177
+I/ActivityManager(  476): Start proc com.ubercab.driver for activity com.ubercab.driver/.feature.launch.LauncherActivity: pid=8187 uid=10080 gids={50080, 3002, 3003, 1028, 1015, 1023, 3001}
+D/ClClient(20448): Not sending keepalive.  Current connection state=STOPPED
+W/NetworkManagementSocketTagger(  476): setKernelCountSet(10080, 1) failed with errno -13
+I/dalvikvm( 8187): ignoring registerObject request in thread=1
+I/dalvikvm( 8187): ignoring registerObject request in thread=1
+I/MultiDex( 8187): VM with version 1.6.0 does not have multidex support
+I/MultiDex( 8187): install
+I/MultiDex( 8187): MultiDexExtractor.load(/data/app/com.ubercab.driver-1.apk, false)
+I/MultiDex( 8187): Detected that extraction must be performed.
+W/InputDispatcher(  476): channel '4b864cc8 com.tocaboca.tocakitchen2/com.tocaboca.activity.TocaBocaMainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  476): channel '4b864cc8 com.tocaboca.tocakitchen2/com.tocaboca.activity.TocaBocaMainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+I/ActivityManager(  476): Process com.tocaboca.tocakitchen2 (pid 5814) has died.
+D/dalvikvm( 8187): JIT code cache reset in 0 ms (0 bytes 1/0)
+W/InputDispatcher(  476): Attempted to unregister already unregistered input channel '4b864cc8 com.tocaboca.tocakitchen2/com.tocaboca.activity.TocaBocaMainActivity (server)'
+I/WindowState(  476): WIN DEATH: Window{4b864cc8 u0 com.tocaboca.tocakitchen2/com.tocaboca.activity.TocaBocaMainActivity}
+D/dalvikvm( 8187): GC_CONCURRENT freed 145K, 7% free 3026K/3236K, paused 1ms+8ms, total 19ms
+D/dalvikvm( 8187): GC_CONCURRENT freed 111K, 6% free 3300K/3480K, paused 2ms+0ms, total 6ms
+D/dalvikvm( 8187): GC_CONCURRENT freed 108K, 5% free 3579K/3760K, paused 1ms+0ms, total 11ms
+D/dalvikvm( 8187): GC_CONCURRENT freed 113K, 5% free 3850K/4040K, paused 1ms+0ms, total 11ms
+D/dalvikvm( 8187): GC_CONCURRENT freed 107K, 5% free 4128K/4316K, paused 1ms+0ms, total 6ms
+D/dalvikvm( 8187): GC_CONCURRENT freed 107K, 5% free 4408K/4604K, paused 2ms+1ms, total 5ms
+D/dalvikvm( 8187): GC_CONCURRENT freed 134K, 5% free 4689K/4920K, paused 2ms+1ms, total 5ms
+I/MultiDex( 8187): Extraction is needed for file /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes2.zip
+I/MultiDex( 8187): Extracting /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes1822052150.zip
+I/MultiDex( 8187): Renaming to /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes2.zip
+I/MultiDex( 8187): Extraction success - length /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes2.zip: 2142860
+I/MultiDex( 8187): Extraction is needed for file /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes3.zip
+I/MultiDex( 8187): Extracting /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes-520594862.zip
+I/MultiDex( 8187): Renaming to /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes3.zip
+I/MultiDex( 8187): Extraction success - length /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes3.zip: 2129390
+I/MultiDex( 8187): Extraction is needed for file /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes4.zip
+I/MultiDex( 8187): Extracting /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes-1319334857.zip
+I/MultiDex( 8187): Renaming to /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes4.zip
+I/MultiDex( 8187): Extraction success - length /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes4.zip: 2540341
+I/MultiDex( 8187): Extraction is needed for file /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes5.zip
+I/MultiDex( 8187): Extracting /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes-1619157306.zip
+I/ActivityManager(  476): Waited long enough for: ServiceRecord{4b9d8a54 u0 com.ksmobile.launcher/com.cmlocker.core.ui.cover.LockerService}
+I/MultiDex( 8187): Renaming to /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes5.zip
+I/MultiDex( 8187): Extraction success - length /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes5.zip: 2349449
+I/MultiDex( 8187): Extraction is needed for file /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes6.zip
+I/MultiDex( 8187): Extracting /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes-1122262277.zip
+I/MultiDex( 8187): Renaming to /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes6.zip
+I/MultiDex( 8187): Extraction success - length /data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes6.zip: 1256629
+I/MultiDex( 8187): load found 5 secondary dex files
+D/dalvikvm( 8187): DexOpt: --- BEGIN 'com.ubercab.driver-1.apk.classes2.zip' (bootstrap=0) ---
+I/ActivityManager(  476): Process com.turbochilli.rollingsky:service (pid 6419) has died.
+E/cutils-trace( 8202): Error opening trace file: No such file or directory (2)
+D/dalvikvm( 8202): GC_FOR_ALLOC freed 703K, 35% free 1343K/2048K, paused 0ms, total 0ms
+D/dalvikvm( 8202): DexOpt: load 81ms, verify+opt 222ms, 5246276 bytes
+W/System.err( 7686): java.net.SocketTimeoutException: failed to connect to up.cm.ksmobile.com/46.82.174.69 (port 80) after 5000ms
+W/System.err( 7686): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+W/System.err( 7686): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 7686): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 7686): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 7686): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 7686): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:131)
+W/System.err( 7686): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 7686): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 7686): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 7686): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 7686): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 7686): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 7686): 	at com.cmlocker.core.mutual.r.a(ConfigHolder.java:278)
+W/System.err( 7686): 	at com.cmlocker.core.mutual.r.a(ConfigHolder.java:314)
+W/System.err( 7686): 	at com.cmlocker.core.mutual.r.a(ConfigHolder.java:314)
+W/System.err( 7686): 	at com.cmlocker.core.mutual.r.d(ConfigHolder.java:149)
+W/System.err( 7686): 	at com.cmlocker.core.mutual.r.d(ConfigHolder.java:29)
+W/System.err( 7686): 	at com.cmlocker.core.mutual.u.run(ConfigHolder.java:124)
+W/System.err( 7686): 	at android.os.Handler.handleCallback(Handler.java:733)
+W/System.err( 7686): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/System.err( 7686): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 7686): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+D/dalvikvm( 7686): GC_CONCURRENT freed 342K, 32% free 3683K/5396K, paused 2ms+4ms, total 24ms
+D/ScreenSaverConflic( 7686): parseIntent info : mPackage:com.ksmobile.launcher;  mPackageLifeState:0;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): queryguide
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChangedfalse   false
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChanged endfalse   false
+D/ScreenSaverConflic( 7686): queryshow
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged true   false
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged false   false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged endfalse   false
+D/ScreenSaverConflic( 7686): query.end
+D/ScreenSaverConflic( 7686): 1updateCandidate caller:mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChangedtrue   false
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): com: 20160418, 20160418
+D/ScreenSaverConflic( 7686): com: 1, 1
+D/ScreenSaverConflic( 7686): tell com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): myState : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): parseIntent info : mPackage:com.ksmobile.launcher;  mPackageLifeState:0;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): queryguide
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChangedtrue   false
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): queryshow
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged true   false
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged false   false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged endfalse   false
+D/ScreenSaverConflic( 7686): query.end
+D/ScreenSaverConflic( 7686): 1updateCandidate caller:mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): com: 20160418, 20160418
+D/ScreenSaverConflic( 7686): com: 1, 1
+D/ScreenSaverConflic( 7686): tell com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): myState : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): parseIntent info : mPackage:com.ksmobile.launcher;  mPackageLifeState:0;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): queryguide
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChangedtrue   false
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): queryshow
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged true   false
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged false   false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged endfalse   false
+D/ScreenSaverConflic( 7686): query.end
+D/ScreenSaverConflic( 7686): 1updateCandidate caller:mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): com: 20160418, 20160418
+D/ScreenSaverConflic( 7686): com: 1, 1
+D/ScreenSaverConflic( 7686): tell com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): myState : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): parseIntent info : mPackage:com.ksmobile.launcher;  mPackageLifeState:0;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): queryguide
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChangedtrue   false
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): queryshow
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged true   false
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged false   false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged endfalse   false
+D/ScreenSaverConflic( 7686): query.end
+D/ScreenSaverConflic( 7686): 1updateCandidate caller:mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): com: 20160418, 20160418
+D/ScreenSaverConflic( 7686): com: 1, 1
+D/ScreenSaverConflic( 7686): tell com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): myState : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/dalvikvm( 8187): DexOpt: --- END 'com.ubercab.driver-1.apk.classes2.zip' (success) ---
+D/dalvikvm( 8187): DEX prep '/data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes2.zip': unzip in 52ms, rewrite 615ms
+D/ScreenSaverConflic( 7686): doParseInternalMessage
+D/ScreenSaverConflic( 7686): 1updateCandidate caller:mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): query.begin
+D/ScreenSaverConflic( 7686): tell com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): myState : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): tell com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): myState : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): parseIntent info : mPackage:com.ksmobile.launcher;  mPackageLifeState:0;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): queryguide
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChangedtrue   false
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): queryshow
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged true   false
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged false   false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged endfalse   false
+D/ScreenSaverConflic( 7686): query.end
+D/ScreenSaverConflic( 7686): 1updateCandidate caller:mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): com: 20160418, 20160418
+D/ScreenSaverConflic( 7686): com: 1, 1
+D/ScreenSaverConflic( 7686): tell com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): myState : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): parseIntent info : mPackage:com.ksmobile.launcher;  mPackageLifeState:0;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): queryguide
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChangedtrue   false
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): queryshow
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged true   false
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged false   false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged endfalse   false
+D/ScreenSaverConflic( 7686): query.end
+D/ScreenSaverConflic( 7686): 1updateCandidate caller:mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): com: 20160418, 20160418
+D/ScreenSaverConflic( 7686): com: 1, 1
+D/ScreenSaverConflic( 7686): tell com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): myState : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): parseIntent info : mPackage:com.ksmobile.launcher;  mPackageLifeState:0;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): queryguide
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChangedtrue   false
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): queryshow
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged true   false
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:false;  mScreenActualState:true;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged false   false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged endfalse   false
+D/ScreenSaverConflic( 7686): query.end
+D/ScreenSaverConflic( 7686): 1updateCandidate caller:mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChangedfalse   false
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChanged endfalse   false
+D/ScreenSaverConflic( 7686): com: 20160418, 20160418
+D/ScreenSaverConflic( 7686): com: 1, 1
+D/ScreenSaverConflic( 7686): tell com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): myState : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): parseIntent info : mPackage:com.ksmobile.launcher;  mPackageLifeState:0;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): queryguide
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChangedfalse   false
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChanged endfalse   false
+D/ScreenSaverConflic( 7686): queryshow
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged true   false
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged false   false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged endfalse   false
+D/ScreenSaverConflic( 7686): query.end
+D/ScreenSaverConflic( 7686): 1updateCandidate caller:mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): com: 20160418, 20160418
+D/ScreenSaverConflic( 7686): com: 1, 1
+D/ScreenSaverConflic( 7686): tell com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): myState : mPackage:com.ksmobile.launcher;  mPackageLifeState:1;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/dalvikvm( 8187): DexOpt: --- BEGIN 'com.ubercab.driver-1.apk.classes3.zip' (bootstrap=0) ---
+D/dalvikvm( 8203): DexOpt: load 81ms, verify+opt 162ms, 6112972 bytes
+D/dalvikvm( 8187): DexOpt: --- END 'com.ubercab.driver-1.apk.classes3.zip' (success) ---
+D/dalvikvm( 8187): DEX prep '/data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes3.zip': unzip in 63ms, rewrite 487ms
+D/dalvikvm( 8187): DexOpt: --- BEGIN 'com.ubercab.driver-1.apk.classes4.zip' (bootstrap=0) ---
+E/cutils-trace( 8204): Error opening trace file: No such file or directory (2)
+D/dalvikvm( 8204): GC_FOR_ALLOC freed 769K, 38% free 1277K/2048K, paused 9ms, total 9ms
+D/dalvikvm(12306): GC_CONCURRENT freed 6506K, 24% free 22234K/29008K, paused 2ms+2ms, total 61ms
+D/dalvikvm(12306): WAIT_FOR_CONCURRENT_GC blocked 57ms
+I/InputDispatcher(  476): Application is not responding: AppWindowToken{4b726794 token=Token{4b9628ac ActivityRecord{4be463b4 u0 com.ubercab.driver/.feature.launch.LauncherActivity t254}}}.  It has been 5004.2ms since event, 5002.7ms since wait started.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+I/WindowManager(  476): Input event dispatching timed out sending to application AppWindowToken{4b726794 token=Token{4b9628ac ActivityRecord{4be463b4 u0 com.ubercab.driver/.feature.launch.LauncherActivity t254}}}.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+I/Process (  476): Sending signal. PID: 8187 SIG: 3
+I/dalvikvm( 8187): threadid=3: reacting to signal 3
+W/InputManager(  476): Input event injection from pid 8177 timed out.
+I/dalvikvm( 8187): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  476): Sending signal. PID: 476 SIG: 3
+I/dalvikvm(  476): threadid=3: reacting to signal 3
+D/dalvikvm( 8187): GC_CONCURRENT freed 245K, 8% free 4703K/5100K, paused 2ms+13ms, total 18ms
+I/dalvikvm(  476): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  476): Sending signal. PID: 662 SIG: 3
+I/dalvikvm(  662): threadid=3: reacting to signal 3
+I/dalvikvm(  662): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  476): Sending signal. PID: 528 SIG: 3
+I/dalvikvm(  528): threadid=3: reacting to signal 3
+I/dalvikvm(  528): Wrote stack traces to '/data/anr/traces.txt'
+D/dalvikvm(27752): GC_FOR_ALLOC freed 339K, 15% free 3547K/4136K, paused 13ms, total 13ms
+D/dalvikvm( 8204): DexOpt: load 113ms, verify+opt 288ms, 5501404 bytes
+D/dalvikvm( 8187): DexOpt: --- END 'com.ubercab.driver-1.apk.classes4.zip' (success) ---
+D/dalvikvm( 8187): DEX prep '/data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes4.zip': unzip in 55ms, rewrite 626ms
+D/dalvikvm( 8187): DexOpt: --- BEGIN 'com.ubercab.driver-1.apk.classes5.zip' (bootstrap=0) ---
+E/cutils-trace( 8206): Error opening trace file: No such file or directory (2)
+D/dalvikvm( 8206): GC_FOR_ALLOC freed 1039K, 51% free 1008K/2048K, paused 1ms, total 1ms
+D/dalvikvm( 8206): GC_FOR_ALLOC freed 80K, 41% free 1216K/2048K, paused 1ms, total 1ms
+D/dalvikvm( 8206): DexOpt: load 46ms, verify+opt 99ms, 4517044 bytes
+D/dalvikvm( 8187): DexOpt: --- END 'com.ubercab.driver-1.apk.classes5.zip' (success) ---
+D/dalvikvm( 8187): DEX prep '/data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes5.zip': unzip in 41ms, rewrite 392ms
+D/dalvikvm( 8187): DexOpt: --- BEGIN 'com.ubercab.driver-1.apk.classes6.zip' (bootstrap=0) ---
+D/dalvikvm( 8207): DexOpt: load 17ms, verify+opt 117ms, 2444212 bytes
+D/dalvikvm( 8187): DexOpt: --- END 'com.ubercab.driver-1.apk.classes6.zip' (success) ---
+D/dalvikvm( 8187): DEX prep '/data/data/com.ubercab.driver/code_cache/secondary-dexes/com.ubercab.driver-1.apk.classes6.zip': unzip in 31ms, rewrite 328ms
+I/MultiDex( 8187): install done
+D/dalvikvm( 8187): GC_CONCURRENT freed 2134K, 42% free 3085K/5300K, paused 1ms+0ms, total 5ms
+D/dalvikvm( 8187): GC_CONCURRENT freed 160K, 38% free 3308K/5300K, paused 17ms+0ms, total 19ms
+W/dalvikvm( 8187): Found non-abstract interface method Lcom/crashlytics/android/answers/SessionAnalyticsManagerStrategy;.rollFileOver ()Z
+I/dalvikvm( 8187): Could not find method com.crashlytics.android.answers.SessionAnalyticsManagerStrategy.rollFileOver, referenced from method com.crashlytics.android.answers.AnswersEventsHandler$6.run
+W/dalvikvm( 8187): VFY: unable to resolve interface method 28869: Lcom/crashlytics/android/answers/SessionAnalyticsManagerStrategy;.rollFileOver ()Z
+D/dalvikvm( 8187): VFY: replacing opcode 0x72 at 0x0011
+D/dalvikvm( 8187): Trying to load lib /data/app-lib/com.ubercab.driver-1/libcrashlytics.so 0x94fc8d90
+D/dalvikvm( 8187): GC_CONCURRENT freed 136K, 33% free 3556K/5300K, paused 7ms+0ms, total 10ms
+D/dalvikvm( 8187): GC_CONCURRENT freed 117K, 28% free 3823K/5300K, paused 5ms+0ms, total 8ms
+D/dalvikvm( 8187): GC_CONCURRENT freed 106K, 23% free 4100K/5300K, paused 1ms+0ms, total 5ms
+I/dalvikvm( 8187): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zza
+W/dalvikvm( 8187): VFY: unable to resolve virtual method 2658: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm( 8187): VFY: replacing opcode 0x6e at 0x00ec
+D/dalvikvm( 8187): GC_CONCURRENT freed 111K, 18% free 4373K/5300K, paused 2ms+0ms, total 4ms
+D/dalvikvm(  476): GC_EXPLICIT freed 10570K, 28% free 35848K/49352K, paused 1ms+38ms, total 169ms
+D/dalvikvm( 8187): GC_CONCURRENT freed 131K, 13% free 4645K/5300K, paused 1ms+1ms, total 4ms
+I/dalvikvm( 8187): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method blb.zzs
+W/dalvikvm( 8187): VFY: unable to resolve virtual method 2929: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 8187): VFY: replacing opcode 0x6e at 0x0010
+D/dalvikvm( 8187): Added shared lib /data/app-lib/com.ubercab.driver-1/libcrashlytics.so 0x94fc8d90
+D/libcrashlytics( 8187): Initializing libcrashlytics version 1.1.5
+D/libcrashlytics( 8187): Attempting to load unwinder...
+D/libcrashlytics( 8187): Done; using libcorkscrew
+D/libcrashlytics( 8187): Attempting to register signal handler...
+D/libcrashlytics( 8187): Signal handler registered.
+D/libcrashlytics( 8187): Initializing native crash handling successful.
+I/CrashlyticsCore( 8187): Initializing Crashlytics 2.3.14.151
+D/dalvikvm( 8187): GC_FOR_ALLOC freed 299K, 8% free 4921K/5332K, paused 4ms, total 5ms
+D/dalvikvm( 8187): GC_CONCURRENT freed 7K, 7% free 4971K/5332K, paused 1ms+5ms, total 9ms
+I/ActivityManager(  476): Start proc com.ubercab.driver:processor for service com.ubercab.driver/com.ubercab.healthline.crash_reporting.core.uploader.CrashUploadService: pid=8220 uid=10080 gids={50080, 3002, 3003, 1028, 1015, 1023, 3001}
+I/dalvikvm( 8220): ignoring registerObject request in thread=1
+I/dalvikvm( 8220): ignoring registerObject request in thread=1
+I/MultiDex( 8220): VM with version 1.6.0 does not have multidex support
+I/MultiDex( 8220): install
+I/MultiDex( 8220): MultiDexExtractor.load(/data/app/com.ubercab.driver-1.apk, false)
+I/MultiDex( 8220): loading existing secondary dex files
+I/MultiDex( 8220): load found 5 secondary dex files
+I/MultiDex( 8220): install done
+D/dalvikvm( 8220): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 8220): GC_CONCURRENT freed 298K, 11% free 2927K/3288K, paused 2ms+4ms, total 8ms
+D/dalvikvm( 8187): GC_CONCURRENT freed 469K, 10% free 5198K/5744K, paused 2ms+9ms, total 21ms
+D/dalvikvm( 8220): Trying to load lib /data/app-lib/com.ubercab.driver-1/libcrashlytics.so 0x94fc99a0
+D/dalvikvm( 8220): GC_CONCURRENT freed 155K, 7% free 3216K/3436K, paused 2ms+3ms, total 7ms
+D/dalvikvm( 8220): GC_CONCURRENT freed 142K, 6% free 3461K/3676K, paused 2ms+0ms, total 3ms
+D/AndroidRuntime( 8187): Shutting down VM
+W/dalvikvm( 8187): threadid=1: thread exiting with uncaught exception (group=0x94d08b20)
+D/dalvikvm( 8187): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm( 8187): VFY: unable to resolve static field 123 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm( 8187): VFY: replacing opcode 0x62 at 0x0015
+D/dalvikvm( 8187): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+I/dalvikvm( 8187): DexOpt: unable to optimize static field ref 0x007b at 0x19 in Lfzo;.d
+D/dalvikvm( 8220): GC_CONCURRENT freed 136K, 6% free 3710K/3916K, paused 2ms+0ms, total 5ms
+D/dalvikvm( 8220): GC_CONCURRENT freed 124K, 5% free 4009K/4216K, paused 2ms+1ms, total 10ms
+D/dalvikvm( 8220): Added shared lib /data/app-lib/com.ubercab.driver-1/libcrashlytics.so 0x94fc99a0
+D/dalvikvm( 8220): GC_CONCURRENT freed 107K, 5% free 4287K/4484K, paused 2ms+1ms, total 5ms
+I/dalvikvm( 8220): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zza
+D/libcrashlytics( 8220): Initializing libcrashlytics version 1.1.5
+D/libcrashlytics( 8220): Attempting to load unwinder...
+D/libcrashlytics( 8220): Done; using libcorkscrew
+D/libcrashlytics( 8220): Attempting to register signal handler...
+D/libcrashlytics( 8220): Signal handler registered.
+D/libcrashlytics( 8220): Initializing native crash handling successful.
+W/dalvikvm( 8220): VFY: unable to resolve virtual method 2658: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm( 8220): VFY: replacing opcode 0x6e at 0x00ec
+D/dalvikvm( 8220): GC_CONCURRENT freed 170K, 6% free 4505K/4764K, paused 3ms+1ms, total 6ms
+I/CrashlyticsCore( 8220): Initializing Crashlytics 2.3.14.151
+D/dalvikvm( 8220): GC_CONCURRENT freed 178K, 6% free 4872K/5144K, paused 2ms+0ms, total 5ms
+I/dalvikvm( 8220): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method blb.zzs
+W/dalvikvm( 8220): VFY: unable to resolve virtual method 2929: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 8220): VFY: replacing opcode 0x6e at 0x0010
+D/dalvikvm( 8220): GC_CONCURRENT freed 451K, 10% free 5107K/5632K, paused 2ms+16ms, total 19ms
+D/AndroidRuntime( 8220): Shutting down VM
+W/dalvikvm( 8220): threadid=1: thread exiting with uncaught exception (group=0x94d08b20)
+D/dalvikvm( 8220): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm( 8220): VFY: unable to resolve static field 123 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm( 8220): VFY: replacing opcode 0x62 at 0x0015
+D/dalvikvm( 8220): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+I/dalvikvm( 8220): DexOpt: unable to optimize static field ref 0x007b at 0x19 in Lfzo;.d
+D/dalvikvm( 8220): GC_CONCURRENT freed 2394K, 42% free 3430K/5832K, paused 1ms+1ms, total 24ms
+I/Process (  476): Sending signal. PID: 7343 SIG: 3
+I/dalvikvm( 7343): threadid=3: reacting to signal 3
+I/dalvikvm( 7343): Wrote stack traces to '/data/anr/traces.txt'
+E/ActivityManager(  476): ANR in com.ubercab.driver (com.ubercab.driver/.feature.launch.LauncherActivity)
+E/ActivityManager(  476): PID: 8187
+E/ActivityManager(  476): Reason: Input dispatching timed out (Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.)
+E/ActivityManager(  476): Load: 4.48 / 2.7 / 2.53
+E/ActivityManager(  476): CPU usage from 3389ms to -1879ms ago:
+E/ActivityManager(  476):   39% 8187/com.ubercab.driver: 37% user + 2% kernel / faults: 8007 minor 46 major
+E/ActivityManager(  476):   4.7% 476/system_server: 2% user + 2.6% kernel / faults: 533 minor 48 major
+E/ActivityManager(  476):   3% 7343/com.turbochilli.rollingsky: 1.3% user + 1.7% kernel / faults: 134 minor 27 major
+E/ActivityManager(  476):   3% 12306/com.lionmobi.powerclean: 1.7% user + 1.3% kernel / faults: 217 minor 13 major
+E/ActivityManager(  476):   0% 2635/debuggerd: 0% user + 0% kernel / faults: 2657 minor 70 major
+E/ActivityManager(  476):   0.7% 8174/logcat: 0% user + 0.7% kernel
+E/ActivityManager(  476):   0.5% 70/adbd: 0% user + 0.5% kernel
+E/ActivityManager(  476):   0.3% 528/com.android.systemui: 0% user + 0.3% kernel / faults: 54 minor 1 major
+E/ActivityManager(  476):   0.3% 7686/com.ksmobile.launcher:locker: 0.3% user + 0% kernel / faults: 148 minor 40 major
+E/ActivityManager(  476):   0.1% 165/surfaceflinger: 0% user + 0.1% kernel / faults: 15 minor 2 major
+E/ActivityManager(  476):   0% 27752/com.moonactive.coinmaster: 0% user + 0% kernel / faults: 447 minor 15 major
+E/ActivityManager(  476):  +0% 8220/com.ubercab.driver:processor: 0% user + 0% kernel
+E/ActivityManager(  476): 100% TOTAL: 83% user + 14% kernel + 0.5% iowait + 1.5% softirq
+E/ActivityManager(  476): CPU usage from 1266ms to 1772ms later:
+E/ActivityManager(  476):   27% 8187/com.ubercab.driver: 21% user + 5.8% kernel / faults: 5046 minor 17 major
+E/ActivityManager(  476):     21% 8187/.ubercab.driver: 17% user + 3.9% kernel
+E/ActivityManager(  476):     3.9% 8190/GC: 0% user + 3.9% kernel
+E/ActivityManager(  476):     1.9% 8209/Queue: 1.9% user + 0% kernel
+E/ActivityManager(  476):    +0% 8216/.ubercab.driver: 0% user + 0% kernel
+E/ActivityManager(  476):    +0% 8217/dTi: 0% user + 0% kernel
+E/ActivityManager(  476):    +0% 8218/Crashlytics Exc: 0% user + 0% kernel
+E/ActivityManager(  476):   11% 476/system_server: 0% user + 11% kernel / faults: 5 minor 1 major
+E/ActivityManager(  476):     7.8% 490/android.bg: 0% user + 7.8% kernel
+E/ActivityManager(  476):     1.9% 489/ActivityManager: 0% user + 1.9% kernel
+E/ActivityManager(  476):   1.3% 70/adbd: 0% user + 1.3% kernel
+E/ActivityManager(  476):   1.9% 7343/com.turbochilli.rollingsky: 1.9% user + 0% kernel
+E/ActivityManager(  476):     1.9% 7343/illi.rollingsky: 0% user + 1.9% kernel
+E/ActivityManager(  476):   1.3% 8174/logcat: 0% user + 1.3% kernel
+E/ActivityManager(  476):  +0% 8220/com.ubercab.driver:processor: 0% user + 0% kernel
+E/ActivityManager(  476): 100% TOTAL: 66% user + 29% kernel + 3.9% softirq
+I/ActivityManager(  476): Waited long enough for: ServiceRecord{4ba001ac u0 com.powerful.cleaner/com.doit.aar.applock.service.AppLockService}
+I/ActivityManager(  476): Waited long enough for: ServiceRecord{4b9f54c4 u0 com.powerful.cleaner/.service.CoreService}
+I/dalvikvm( 8244): ignoring registerObject request in thread=1
+I/dalvikvm( 8244): ignoring registerObject request in thread=1
+I/ActivityManager(  476): Start proc com.powerful.cleaner.monitor for service com.powerful.cleaner/com.doit.aar.applock.service.AppLockService: pid=8244 uid=10065 gids={50065, 3003, 1028, 1015, 1023, 3001, 3002}
+D/dalvikvm( 8244): Trying to load lib /data/data/com.powerful.cleaner/files/so_libs/librx.so 0x94fcfc08
+D/dalvikvm( 8244): Added shared lib /data/data/com.powerful.cleaner/files/so_libs/librx.so 0x94fcfc08
+D/dalvikvm( 8244): Trying to load lib /data/data/com.powerful.cleaner/files/so_libs/librx.so 0x94fcfc08
+D/dalvikvm( 8244): Shared lib '/data/data/com.powerful.cleaner/files/so_libs/librx.so' already loaded in same CL 0x94fcfc08
+W/DebugConnManager( 8244): getNetworkInfo() on networkType 1
+D/dalvikvm( 8244): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 8244): Trying to load lib /data/data/com.powerful.cleaner/files/so_libs/librx.so 0x94fcfc08
+D/dalvikvm( 8244): Shared lib '/data/data/com.powerful.cleaner/files/so_libs/librx.so' already loaded in same CL 0x94fcfc08
+D/dalvikvm( 8244): GC_CONCURRENT freed 293K, 11% free 3005K/3360K, paused 0ms+7ms, total 11ms
+D/dalvikvm( 8244): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm( 8244): WAIT_FOR_CONCURRENT_GC blocked 1ms
+W/DebugConnManager( 8244): getNetworkInfo() on networkType 1
+D/dalvikvm( 8244): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm( 8244): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm( 8244): VFY: unable to resolve static field 330 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm( 8244): VFY: replacing opcode 0x62 at 0x001d
+I/Lausanne( 8244): Trying to load liblausanne-2.0.0.so
+I/Lausanne( 8244): Found /data/app-lib/com.powerful.cleaner-1/liblausanne-2.0.0.so by dalvik.system.PathClassLoader
+I/Lausanne( 8244): ClassLoader.findLibrary() result = /data/app-lib/com.powerful.cleaner-1/liblausanne-2.0.0.so
+D/dalvikvm( 8244): Trying to load lib /data/app-lib/com.powerful.cleaner-1/liblausanne-2.0.0.so 0x94fcfc08
+D/dalvikvm( 8244): Added shared lib /data/app-lib/com.powerful.cleaner-1/liblausanne-2.0.0.so 0x94fcfc08
+E/LausanneJni( 8244): JNI_OnLoad 0x7e66bc24
+D/BatteryTimePredictManager( 8244): mIsScreenOn = true
+W/System.err( 8244): java.io.FileNotFoundException: cl_notification_white.prop
+W/System.err( 8244): 	at android.content.res.AssetManager.openAsset(Native Method)
+W/System.err( 8244): 	at android.content.res.AssetManager.open(AssetManager.java:316)
+W/System.err( 8244): 	at android.content.res.AssetManager.open(AssetManager.java:290)
+W/System.err( 8244): 	at org.saturn.sdk.utils.p.a(charging:133)
+W/System.err( 8244): 	at org.saturn.sdk.notification.a$1.call(charging:3136)
+W/System.err( 8244): 	at bolts.Task$10.run(charging:357)
+W/System.err( 8244): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 8244): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 8244): 	at java.lang.Thread.run(Thread.java:841)
+I/ActivityManager(  476): Resuming delayed broadcast
+D/dalvikvm( 8244): GC_CONCURRENT freed 373K, 13% free 3025K/3464K, paused 1ms+0ms, total 4ms
+W/dalvikvm( 8244): Unable to resolve superclass of Lcom/ultron/era/keepalive/KeepAliveService; (156)
+W/dalvikvm( 8244): Link of class 'Lcom/ultron/era/keepalive/KeepAliveService;' failed
+W/dalvikvm( 8244): VFY: unable to resolve static field 27196 (a) in Lcom/ultron/era/keepalive/KeepAliveService;
+D/dalvikvm( 8244): VFY: replacing opcode 0x63 at 0x030c
+D/dalvikvm( 8244): DexOpt: unable to opt direct call 0x02e2 at 0x323 in Lcom/powerful/cleaner/service/CoreService$1;.onReceive
+W/dalvikvm( 8244): Unable to resolve superclass of Lcom/ultron/era/keepalive/KeepAliveService; (156)
+E/ChimeraProxyRslvr(  709): Failed to instantiate com.google.android.gms.mdm.receivers.AccountsChangedChimeraReceiver: java.lang.ClassCastException: com.google.android.gms.mdm.receivers.AccountsChangedChimeraReceiver cannot be cast to com.google.android.chimera.BroadcastReceiver
+E/ChimeraRcvrProxy(  709): com.google.android.gms.mdm.receivers.AccountsChangedReceiver dropping broadcast android.accounts.LOGIN_ACCOUNTS_CHANGED
+W/dalvikvm( 8244): Link of class 'Lcom/ultron/era/keepalive/KeepAliveService;' failed
+I/dalvikvm( 8244): DexOpt: unable to optimize static field ref 0x6a3c at 0x34e in Lcom/powerful/cleaner/service/CoreService$1;.onReceive
+D/dalvikvm( 8244): Trying to load lib /data/data/com.powerful.cleaner/files/so_libs/librx.so 0x94fcfc08
+D/dalvikvm( 8244): Shared lib '/data/data/com.powerful.cleaner/files/so_libs/librx.so' already loaded in same CL 0x94fcfc08
+I/ActivityManager(  476): Start proc com.google.process.gapps for broadcast com.google.android.syncadapters.contacts/.ContactsSyncAdapterBroadcastReceiver: pid=8278 uid=10007 gids={50007, 3003, 1007, 1028, 1015, 1023, 3002, 3001, 3007, 2001, 3006}
+D/AndroidRuntime( 8244): Shutting down VM
+W/dalvikvm( 8244): threadid=1: thread exiting with uncaught exception (group=0x94d08b20)
+D/dalvikvm( 8244): GC_CONCURRENT freed 284K, 11% free 3127K/3476K, paused 5ms+0ms, total 8ms
+I/dalvikvm( 8278): ignoring registerObject request in thread=1
+I/dalvikvm( 8278): ignoring registerObject request in thread=1
+D/dalvikvm( 7343): GC_CONCURRENT freed 743K, 28% free 5960K/8252K, paused 34ms+1ms, total 72ms
+D/dalvikvm( 7343): WAIT_FOR_CONCURRENT_GC blocked 31ms
+I/PmtsSwAccountIntentOp(  709): Processing intent action=android.accounts.LOGIN_ACCOUNTS_CHANGED
+I/PmtsSwAccountIntentOp(  709): Device isn't of sufficient API level
+W/dalvikvm( 8244): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm( 8244): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 8244): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm( 8244): VFY: unable to resolve virtual method 48849: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm( 8244): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm( 8244): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm( 8244): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm( 8244): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm( 8244): VFY: unable to resolve interface method 48843: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm( 8244): VFY: replacing opcode 0x72 at 0x0006
+I/System.out( 8244): body:<org.crashguard.c$1: void run()>	sig:$r8 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r8, "UTF-8")	timediff:1
+E/CrashHandler( 8244): CRASH LOG START...
+E/CrashHandler( 8244): java.lang.RuntimeException: Unable to create service com.powerful.cleaner.service.CoreService: android.content.res.Resources$NotFoundException: String resource ID #0xb106006f
+E/CrashHandler( 8244): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2580)
+E/CrashHandler( 8244): 	at android.app.ActivityThread.access$1800(ActivityThread.java:135)
+E/CrashHandler( 8244): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1278)
+E/CrashHandler( 8244): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/CrashHandler( 8244): 	at android.os.Looper.loop(Looper.java:136)
+E/CrashHandler( 8244): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/CrashHandler( 8244): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/CrashHandler( 8244): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/CrashHandler( 8244): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/CrashHandler( 8244): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/CrashHandler( 8244): 	at dalvik.system.NativeStart.main(Native Method)
+E/CrashHandler( 8244): Caused by: android.content.res.Resources$NotFoundException: String resource ID #0xb106006f
+E/CrashHandler( 8244): 	at android.content.res.Resources.getText(Resources.java:244)
+E/CrashHandler( 8244): 	at android.content.res.Resources.getString(Resources.java:330)
+E/CrashHandler( 8244): 	at android.content.Context.getString(Context.java:343)
+E/CrashHandler( 8244): 	at com.powerful.cleaner.service.CoreService.onCreate(charging:391)
+E/CrashHandler( 8244): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2570)
+E/CrashHandler( 8244): 	... 10 more
+E/CrashHandler( 8244): android.content.res.Resources$NotFoundException: String resource ID #0xb106006f
+E/CrashHandler( 8244): 	at android.content.res.Resources.getText(Resources.java:244)
+E/CrashHandler( 8244): 	at android.content.res.Resources.getString(Resources.java:330)
+E/CrashHandler( 8244): 	at android.content.Context.getString(Context.java:343)
+E/CrashHandler( 8244): 	at com.powerful.cleaner.service.CoreService.onCreate(charging:391)
+E/CrashHandler( 8244): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2570)
+E/CrashHandler( 8244): 	at android.app.ActivityThread.access$1800(ActivityThread.java:135)
+E/CrashHandler( 8244): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1278)
+E/CrashHandler( 8244): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/CrashHandler( 8244): 	at android.os.Looper.loop(Looper.java:136)
+E/CrashHandler( 8244): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/CrashHandler( 8244): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/CrashHandler( 8244): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/CrashHandler( 8244): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/CrashHandler( 8244): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/CrashHandler( 8244): 	at dalvik.system.NativeStart.main(Native Method)
+W/DebugConnManager( 8244): getNetworkInfo() on networkType 1
+I/CrashHandler( 8244): AlwaysFinishActivity = false
+I/CrashHandler( 8244): Activity: 
+I/CrashHandler( 8244): CRASH LOG END
+I/GservicesProvider( 8278): Gservices pushing to system: true; secure/global: true
+I/ActivityManager(  476): START u0 {flg=0x10000000 cmp=com.powerful.cleaner/org.crashguard.UploadActivity (has extras)} from pid 8244
+I/AndroidRuntime( 8244): VM exiting with result code 1, cleanup skipped.
+D/Zygote  (  166): Process 8244 exited cleanly (1)
+I/ActivityManager(  476): Process com.powerful.cleaner.monitor (pid 8244) has died.
+D/dalvikvm( 8278): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 8278): GC_FOR_ALLOC freed 235K, 9% free 3063K/3360K, paused 2ms, total 2ms
+D/dalvikvm( 8278): GC_CONCURRENT freed 7K, 9% free 3084K/3360K, paused 1ms+0ms, total 4ms
+D/dalvikvm( 8278): GC_CONCURRENT freed 113K, 5% free 3382K/3560K, paused 1ms+1ms, total 3ms
+I/dalvikvm( 8307): ignoring registerObject request in thread=1
+I/dalvikvm( 8307): ignoring registerObject request in thread=1
+I/ActivityManager(  476): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.RlzPingBroadcastReceiver: pid=8307 uid=10009 gids={50009, 3003}
+I/dalvikvm( 8319): ignoring registerObject request in thread=1
+I/dalvikvm( 8319): ignoring registerObject request in thread=1
+I/ActivityManager(  476): Start proc android.process.acore for content provider com.android.providers.contacts/.ContactsProvider2: pid=8319 uid=10003 gids={50003, 3003, 1028, 1015, 1023}
+I/ActivityManager(  476): Delay finish: com.google.android.partnersetup/.RlzPingBroadcastReceiver
+I/ActivityManager(  476): Resuming delayed broadcast
+D/dalvikvm( 8319): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 8319): GC_CONCURRENT freed 204K, 9% free 3003K/3272K, paused 1ms+0ms, total 4ms
+I/ActivityManager(  476): Start proc com.android.browser for broadcast com.android.browser/.AccountsChangedReceiver: pid=8333 uid=10017 gids={50017, 3003, 1028, 1015, 1023}
+I/dalvikvm( 8333): ignoring registerObject request in thread=1
+I/dalvikvm( 8333): ignoring registerObject request in thread=1
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+I/ContactLocale( 8319): AddressBook Labels [en_US]: [, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, , А, Б, В, Г, Д, Е, Є, Ж, З, И, І, Ї, Й, К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ч, Ш, Щ, Ю, Я, , א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, , ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, , ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, , ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, , あ, か, さ, た, な, は, ま, や, ら, わ, #, ]
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/BroadcastQueue(  476): Unable to launch app com.google.android.apps.youtube.music/10034 for broadcast Intent { act=android.accounts.LOGIN_ACCOUNTS_CHANGED flg=0x4000010 }: process is bad
+I/Finsky  (29005): [1] com.google.android.finsky.ci.a.onTrimMemory(5): Memory trim requested to level 80
+I/ActivityManager(  476): Delay finish: com.google.android.partnersetup/.RlzPingBroadcastReceiver
+I/ActivityManager(  476): Resuming delayed broadcast
+I/ActivityManager(  476): Delay finish: com.google.android.partnersetup/.AppInstalledReceiver
+I/ActivityManager(  476): Resuming delayed broadcast
+I/ActivityManager(  476): Start proc com.android.gallery3d for broadcast com.android.gallery3d/.app.PackagesMonitor: pid=8357 uid=10021 gids={50021, 3003, 1028, 1015, 1023}
+I/dalvikvm( 8357): ignoring registerObject request in thread=1
+I/dalvikvm( 8357): ignoring registerObject request in thread=1
+I/ActivityManager(  476): Delay finish: com.android.gallery3d/.app.PackagesMonitor
+D/Wear_Controller(  709): Received broadcast action=android.intent.action.PACKAGE_ADDED and uri=com.ubercab.driver
+I/ChromeSync(  709): [Persistence,AffiliationManager] No affiliation data for android://XYgW9K9FYS4_COmP1zkevNDfwDyGkL5pEC5SZFhyk4Qqo7mbtIvzwj-kEMMIK8c3jhLdoBdDsszbPeK91H-U-Q==@com.ubercab.driver. Marking affiliation data as stale...
+I/ContactsProvider( 8319): Accounts changed
+I/ChromeSync(  709): [Persistence,AffiliationManager] Fetching affiliations from the server.
+I/ActivityManager(  476): Resuming delayed broadcast
+I/ActivityManager(  476): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=8377 uid=10028 gids={50028, 1028, 1015, 1023}
+I/PeopleContactsSync(  709): triggerPendingContactsCleanup: no accounts
+I/qtaguid (  709): Tagging socket 110 with tag 3000100300000000(805310467) for uid -1 failed errno=-13
+I/Icing   (  709): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=32
+I/Icing   (  709): IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+I/NetworkManagementSocketTagger(  709): tagSocketFd(110, 805310467, -1) failed with errno-13
+I/Icing   (  709): Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+I/Icing   (  709): Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload false
+I/dalvikvm( 8377): ignoring registerObject request in thread=1
+I/dalvikvm( 8377): ignoring registerObject request in thread=1
+I/ContactsProvider( 8319): Accounts changed
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+I/qtaguid (  709): Untagging socket 110 failed errno=-13
+W/NetworkManagementSocketTagger(  709): untagSocket(110) failed with errno -13
+D/dalvikvm( 8319): GC_CONCURRENT freed 156K, 7% free 3262K/3480K, paused 1ms+1ms, total 3ms
+I/ContactDirectoryManager( 8319): deleted 0 stale rows which don't have any relevant directory
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+I/Finsky  (29005): [1] com.google.android.finsky.ci.a.onTrimMemory(5): Memory trim requested to level 80
+I/Finsky  (29005): [1] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for auto_install
+I/Finsky  (29005): [1] com.google.android.finsky.wear.ar.a(80): Connecting to wearable; initiated by: com.google.android.finsky.wear.WearSupportService
+I/Finsky  (29005): [1] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for send_installed_apps
+I/WearableService(  645): Wearable Services not starting - Wear is not available on this device.
+I/Finsky  (29005): [1] com.google.android.finsky.externalreferrer.e.a(52): Package state data is missing for com.ubercab.driver
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+D/WearableService(  645): onGetService - Wear is not available on this device.
+E/Finsky  (29005): [1] com.google.android.finsky.wear.au.a(3): onConnectionFailed: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+W/Finsky  (29005): [1] com.google.android.finsky.wear.cd.run(12): Dropping command=auto_install due to Gms not connected
+I/Finsky  (29005): [1] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+W/Finsky  (29005): [1] com.google.android.finsky.wear.cd.run(12): Dropping command=send_installed_apps due to Gms not connected
+I/Finsky  (29005): [1] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+D/dalvikvm(29005): GC_CONCURRENT freed 527K, 12% free 4562K/5176K, paused 1ms+0ms, total 18ms
+I/ContactDirectoryManager( 8319): Discovered 0 contact directories in 75ms
+D/dalvikvm(  709): GC_CONCURRENT freed 2255K, 23% free 9707K/12548K, paused 3ms+2ms, total 32ms
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+I/Finsky  (29005): [1] com.google.android.finsky.hygiene.DailyHygiene$DailyHygieneService.onStartCommand(50): Beginning daily hygiene, foreground = false, reason = 2
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.b(1070): No account configured on this device.
+I/dalvikvm(29005): Could not find method android.content.res.Configuration.getLocales, referenced from method com.google.android.finsky.userlanguages.a.a
+W/dalvikvm(29005): VFY: unable to resolve virtual method 972: Landroid/content/res/Configuration;.getLocales ()Landroid/os/LocaleList;
+D/dalvikvm(29005): VFY: replacing opcode 0x6e at 0x001b
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+I/Finsky  (29005): [1] com.google.android.finsky.hygiene.p.a(66): Probe unauthenticated for hygiene pass
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/ActivityManager(  476): Launch timeout has expired, giving up wake lock!
+E/WindowManager(  476): Starting window AppWindowToken{4b726794 token=Token{4b9628ac ActivityRecord{4be463b4 u0 com.ubercab.driver/.feature.launch.LauncherActivity t254}}} timed out
+D/ClClient(20448): Not sending keepalive.  Current connection state=STOPPED
+I/qtaguid (29005): Tagging socket 72 with tag e8d195d100000000(-388917807) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(29005): tagSocketFd(72, -388917807, -1) failed with errno-13
+I/InputDispatcher(  476): Application is not responding: AppWindowToken{4b726794 token=Token{4b9628ac ActivityRecord{4be463b4 u0 com.ubercab.driver/.feature.launch.LauncherActivity t254}}}.  It has been 5120.4ms since event, 5000.3ms since wait started.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+I/WindowManager(  476): Input event dispatching timed out sending to application AppWindowToken{4b726794 token=Token{4b9628ac ActivityRecord{4be463b4 u0 com.ubercab.driver/.feature.launch.LauncherActivity t254}}}.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+W/InputManager(  476): Input event injection from pid 8177 timed out.
+I/ActivityManager(  476): Skipping duplicate ANR: ProcessRecord{4b727854 8187:com.ubercab.driver/u0a80} Input dispatching timed out (Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.)
+D/dalvikvm(29005): GC_CONCURRENT freed 448K, 11% free 4642K/5176K, paused 1ms+1ms, total 5ms
+I/qtaguid (29005): Tagging socket 76 with tag e8d195d100000000(-388917807) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(29005): tagSocketFd(76, -388917807, -1) failed with errno-13
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+I/Finsky  (29005): [1] com.google.android.finsky.dn.c.a(73): Skipping DFE self-update. Local Version [80921100] >= Server Version [-1]
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.b(1070): No account configured on this device.
+I/Finsky  (29005): [18204] com.google.android.finsky.heterodyne.HeterodyneSyncService.onHandleIntent(6): Triggered Heterodyne Sync.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+I/Icing   (  709): Indexing 0FE4E2D1EF9BEC94C9A9BA1E84A86FBAF7133BFF from com.google.android.gms
+D/dalvikvm(29005): GC_CONCURRENT freed 421K, 11% free 4714K/5252K, paused 9ms+1ms, total 12ms
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [18204] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+I/Finsky  (29005): [1] com.google.android.finsky.hygiene.DailyHygiene.b(147): Logging device features
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+I/Finsky  (29005): [18206] com.google.android.finsky.datasync.x.a(14): [Cache and Sync] mode not available for any accounts.
+I/dalvikvm(29005): Could not find method android.content.Context.startForegroundService, referenced from method com.google.android.finsky.setup.VpaService.a
+W/dalvikvm(29005): VFY: unable to resolve virtual method 704: Landroid/content/Context;.startForegroundService (Landroid/content/Intent;)Landroid/content/ComponentName;
+D/dalvikvm(29005): VFY: replacing opcode 0x6e at 0x0014
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Settings(29005): Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+I/dalvikvm(29005): Could not find method android.app.NotificationManager.areNotificationsEnabled, referenced from method android.support.v4.app.cm.a
+W/dalvikvm(29005): VFY: unable to resolve virtual method 483: Landroid/app/NotificationManager;.areNotificationsEnabled ()Z
+D/dalvikvm(29005): VFY: replacing opcode 0x6e at 0x000a
+I/dalvikvm(29005): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.finsky.splitinstallservice.an.<init>
+W/dalvikvm(29005): VFY: unable to resolve virtual method 925: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(29005): VFY: replacing opcode 0x6e at 0x0011
+I/dalvikvm(29005): Could not find method android.content.pm.PackageInstaller$Session.close, referenced from method com.google.android.finsky.splitinstallservice.an.a
+W/dalvikvm(29005): VFY: unable to resolve virtual method 871: Landroid/content/pm/PackageInstaller$Session;.close ()V
+D/dalvikvm(29005): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(29005): Could not find method android.content.pm.PackageInstaller$Session.abandon, referenced from method com.google.android.finsky.splitinstallservice.an.a
+W/dalvikvm(29005): VFY: unable to resolve virtual method 870: Landroid/content/pm/PackageInstaller$Session;.abandon ()V
+D/dalvikvm(29005): VFY: replacing opcode 0x6e at 0x0003
+E/dalvikvm(29005): Could not find class 'android.content.pm.PackageInstaller$SessionParams', referenced from method com.google.android.finsky.splitinstallservice.an.a
+W/dalvikvm(29005): VFY: unable to resolve new-instance 177 (Landroid/content/pm/PackageInstaller$SessionParams;) in Lcom/google/android/finsky/splitinstallservice/an;
+D/dalvikvm(29005): VFY: replacing opcode 0x22 at 0x0000
+I/dalvikvm(29005): Could not find method android.content.pm.PackageInstaller$SessionInfo.getSessionId, referenced from method com.google.android.finsky.splitinstallservice.an.a
+W/dalvikvm(29005): VFY: unable to resolve virtual method 880: Landroid/content/pm/PackageInstaller$SessionInfo;.getSessionId ()I
+D/dalvikvm(29005): VFY: replacing opcode 0x6e at 0x000c
+D/dalvikvm(29005): DexOpt: unable to opt direct call 0x0371 at 0x02 in Lcom/google/android/finsky/splitinstallservice/an;.a
+I/dalvikvm(29005): Could not find method android.content.pm.PackageInstaller$SessionInfo.getSessionId, referenced from method com.google.android.finsky.splitinstallservice.u.a
+W/dalvikvm(29005): VFY: unable to resolve virtual method 880: Landroid/content/pm/PackageInstaller$SessionInfo;.getSessionId ()I
+D/dalvikvm(29005): VFY: replacing opcode 0x6e at 0x0333
+D/dalvikvm(29005): DexOpt: couldn't find field Landroid/content/pm/PackageInfo;.splitNames
+W/dalvikvm(29005): VFY: unable to resolve instance field 138
+D/dalvikvm(29005): VFY: replacing opcode 0x54 at 0x0421
+D/dalvikvm(29005): DexOpt: couldn't find field Landroid/content/pm/ApplicationInfo;.splitSourceDirs
+I/dalvikvm(29005): DexOpt: unable to optimize instance field ref 0x006d at 0x425 in Lcom/google/android/finsky/splitinstallservice/u;.a
+D/dalvikvm(29005): DexOpt: couldn't find field Landroid/content/pm/ApplicationInfo;.splitPublicSourceDirs
+I/dalvikvm(29005): DexOpt: unable to optimize instance field ref 0x006c at 0x429 in Lcom/google/android/finsky/splitinstallservice/u;.a
+D/dalvikvm(29005): DexOpt: couldn't find field Landroid/content/pm/PackageInfo;.splitNames
+I/dalvikvm(29005): DexOpt: unable to optimize instance field ref 0x008a at 0x430 in Lcom/google/android/finsky/splitinstallservice/u;.a
+D/dalvikvm(29005): DexOpt: couldn't find field Landroid/content/pm/ApplicationInfo;.splitSourceDirs
+I/dalvikvm(29005): DexOpt: unable to optimize instance field ref 0x006d at 0x433 in Lcom/google/android/finsky/splitinstallservice/u;.a
+D/dalvikvm(29005): DexOpt: couldn't find field Landroid/content/pm/PackageInfo;.splitNames
+I/dalvikvm(29005): DexOpt: unable to optimize instance field ref 0x008a at 0x438 in Lcom/google/android/finsky/splitinstallservice/u;.a
+D/dalvikvm(29005): DexOpt: couldn't find field Landroid/content/pm/ApplicationInfo;.splitPublicSourceDirs
+I/dalvikvm(29005): DexOpt: unable to optimize instance field ref 0x006c at 0x43b in Lcom/google/android/finsky/splitinstallservice/u;.a
+D/dalvikvm(29005): DexOpt: couldn't find field Landroid/content/pm/PackageInfo;.splitNames
+I/dalvikvm(29005): DexOpt: unable to optimize instance field ref 0x008a at 0x448 in Lcom/google/android/finsky/splitinstallservice/u;.a
+D/dalvikvm(29005): DexOpt: couldn't find field Landroid/content/pm/ApplicationInfo;.splitSourceDirs
+I/dalvikvm(29005): DexOpt: unable to optimize instance field ref 0x006d at 0x44d in Lcom/google/android/finsky/splitinstallservice/u;.a
+D/dalvikvm(29005): DexOpt: couldn't find field Landroid/content/pm/ApplicationInfo;.splitPublicSourceDirs
+I/dalvikvm(29005): DexOpt: unable to optimize instance field ref 0x006c at 0x451 in Lcom/google/android/finsky/splitinstallservice/u;.a
+D/dalvikvm(29005): DexOpt: couldn't find field Landroid/content/pm/PackageInfo;.splitNames
+I/dalvikvm(29005): DexOpt: unable to optimize instance field ref 0x008a at 0x48e in Lcom/google/android/finsky/splitinstallservice/u;.a
+D/dalvikvm(29005): DexOpt: couldn't find field Landroid/content/pm/PackageInfo;.splitNames
+I/dalvikvm(29005): DexOpt: unable to optimize instance field ref 0x008a at 0x49f in Lcom/google/android/finsky/splitinstallservice/u;.a
+I/Icing   (  709): Indexing done 0FE4E2D1EF9BEC94C9A9BA1E84A86FBAF7133BFF
+E/CrashlyticsCore( 8187): Failed to execute task.
+E/CrashlyticsCore( 8187): java.util.concurrent.TimeoutException
+E/CrashlyticsCore( 8187): 	at java.util.concurrent.FutureTask.get(FutureTask.java:176)
+E/CrashlyticsCore( 8187): 	at com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper.executeSyncLoggingException(SourceFile:44)
+E/CrashlyticsCore( 8187): 	at com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler.uncaughtException(SourceFile:251)
+E/CrashlyticsCore( 8187): 	at pxd.a(SourceFile:200)
+E/CrashlyticsCore( 8187): 	at pxd$1.uncaughtException(SourceFile:381)
+E/CrashlyticsCore( 8187): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+E/CrashlyticsCore( 8187): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+E/CrashlyticsCore( 8187): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  476): Sending signal. PID: 8187 SIG: 9
+E/AndroidRuntime( 8187): FATAL EXCEPTION: main
+E/AndroidRuntime( 8187): Process: com.ubercab.driver, PID: 8187
+E/AndroidRuntime( 8187): java.lang.RuntimeException: Unable to create application com.ubercab.driver.core.app.DriverApplication: java.lang.ClassCastException: hcl cannot be cast to vbx
+E/AndroidRuntime( 8187): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4349)
+E/AndroidRuntime( 8187): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+E/AndroidRuntime( 8187): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+E/AndroidRuntime( 8187): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 8187): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime( 8187): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime( 8187): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 8187): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime( 8187): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime( 8187): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime( 8187): 	at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 8187): Caused by: java.lang.ClassCastException: hcl cannot be cast to vbx
+E/AndroidRuntime( 8187): 	at hap.c(SourceFile:3740)
+E/AndroidRuntime( 8187): 	at hap.<init>(SourceFile:1605)
+E/AndroidRuntime( 8187): 	at hap.<init>(SourceFile:589)
+E/AndroidRuntime( 8187): 	at haq.a(SourceFile:6501)
+E/AndroidRuntime( 8187): 	at com.ubercab.driver.core.app.DriverApplication.B(SourceFile:708)
+E/AndroidRuntime( 8187): 	at com.ubercab.driver.core.app.DriverApplication.w(SourceFile:466)
+E/AndroidRuntime( 8187): 	at com.ubercab.driver.core.app.DriverApplication.onCreate(SourceFile:437)
+E/AndroidRuntime( 8187): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1024)
+E/AndroidRuntime( 8187): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4346)
+E/AndroidRuntime( 8187): 	... 10 more
+W/ActivityManager(  476): Force-killing crashed app com.ubercab.driver at watcher's request
+D/dalvikvm(29005): GC_CONCURRENT freed 461K, 11% free 4811K/5348K, paused 20ms+1ms, total 24ms
+W/Finsky  (29005): [18187] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [18188] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/ContextImpl(  476): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9642 com.android.server.am.ActivityManagerService.handleApplicationCrash:9616 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/ActivityManager(  476): Process com.ubercab.driver (pid 8187) has died.
+W/NetworkManagementSocketTagger(  476): setKernelCountSet(10080, 0) failed with errno -13
+I/Finsky  (29005): [1] com.google.android.finsky.wear.WearSupportService.onStartCommand(21): Starting WearSupportService for hygiene
+I/Finsky  (29005): [1] com.google.android.finsky.wear.ar.a(80): Connecting to wearable; initiated by: com.google.android.finsky.wear.WearSupportService
+W/Finsky  (29005): [18187] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+D/dalvikvm(  166): GC_EXPLICIT freed 41K, 4% free 2786K/2892K, paused 0ms+0ms, total 3ms
+I/ActivityManager(  476): Start proc com.ubercab.driver for activity com.ubercab.driver/.feature.launch.LauncherActivity: pid=8402 uid=10080 gids={50080, 3002, 3003, 1028, 1015, 1023, 3001}
+D/WearableService(  645): onGetService - Wear is not available on this device.
+W/Finsky  (29005): [18204] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+W/Finsky  (29005): [1] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+E/Finsky  (29005): [1] com.google.android.finsky.wear.au.a(3): onConnectionFailed: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+W/Finsky  (29005): [1] com.google.android.finsky.wear.cd.run(12): Dropping command=hygiene due to Gms not connected
+I/Finsky  (29005): [1] com.google.android.finsky.wear.WearSupportService.b(67): Stopping WearSupportService
+W/Finsky  (29005): [18206] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+D/Volley  (29005): [18206] d.b: Cache cleared.
+D/dalvikvm(  166): GC_EXPLICIT freed <1K, 4% free 2786K/2892K, paused 0ms+4ms, total 6ms
+D/dalvikvm(  166): GC_EXPLICIT freed <1K, 4% free 2786K/2892K, paused 1ms+0ms, total 100ms
+E/CrashlyticsCore( 8220): Failed to execute task.
+E/CrashlyticsCore( 8220): java.util.concurrent.TimeoutException
+E/CrashlyticsCore( 8220): 	at java.util.concurrent.FutureTask.get(FutureTask.java:176)
+E/CrashlyticsCore( 8220): 	at com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper.executeSyncLoggingException(SourceFile:44)
+E/CrashlyticsCore( 8220): 	at com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler.uncaughtException(SourceFile:251)
+E/CrashlyticsCore( 8220): 	at pxd.a(SourceFile:200)
+E/CrashlyticsCore( 8220): 	at pxd$1.uncaughtException(SourceFile:381)
+E/CrashlyticsCore( 8220): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+E/CrashlyticsCore( 8220): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+E/CrashlyticsCore( 8220): 	at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 8220): FATAL EXCEPTION: main
+E/AndroidRuntime( 8220): Process: com.ubercab.driver:processor, PID: 8220
+E/AndroidRuntime( 8220): java.lang.RuntimeException: Unable to create application com.ubercab.driver.core.app.DriverApplication: java.lang.ClassCastException: hcl cannot be cast to vbx
+E/AndroidRuntime( 8220): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4349)
+E/AndroidRuntime( 8220): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+E/AndroidRuntime( 8220): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+E/AndroidRuntime( 8220): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 8220): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime( 8220): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime( 8220): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 8220): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime( 8220): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime( 8220): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime( 8220): 	at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 8220): Caused by: java.lang.ClassCastException: hcl cannot be cast to vbx
+E/AndroidRuntime( 8220): 	at hap.c(SourceFile:3740)
+E/AndroidRuntime( 8220): 	at hap.<init>(SourceFile:1605)
+E/AndroidRuntime( 8220): 	at hap.<init>(SourceFile:589)
+E/AndroidRuntime( 8220): 	at haq.a(SourceFile:6501)
+E/AndroidRuntime( 8220): 	at com.ubercab.driver.core.app.DriverApplication.B(SourceFile:708)
+E/AndroidRuntime( 8220): 	at com.ubercab.driver.core.app.DriverApplication.w(SourceFile:466)
+E/AndroidRuntime( 8220): 	at com.ubercab.driver.core.app.DriverApplication.onCreate(SourceFile:437)
+E/AndroidRuntime( 8220): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1024)
+E/AndroidRuntime( 8220): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4346)
+E/AndroidRuntime( 8220): 	... 10 more
+D/dalvikvm(29005): GC_CONCURRENT freed 645K, 13% free 4818K/5536K, paused 3ms+54ms, total 76ms
+I/Finsky  (29005): [1] com.google.android.finsky.hygiene.g.a(2): Account synced successfully.
+D/dalvikvm(  476): GC_EXPLICIT freed 2766K, 29% free 35270K/49352K, paused 1ms+14ms, total 144ms
+W/NetworkManagementSocketTagger(  476): setKernelCountSet(10080, 1) failed with errno -13
+I/dalvikvm( 8402): ignoring registerObject request in thread=1
+I/dalvikvm( 8402): ignoring registerObject request in thread=1
+W/Finsky  (29005): [18204] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+I/Process (  476): Sending signal. PID: 8220 SIG: 9
+W/ActivityManager(  476): Force-killing crashed app com.ubercab.driver:processor at watcher's request
+W/ContextImpl(  476): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9642 com.android.server.am.ActivityManagerService.handleApplicationCrash:9616 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+I/MultiDex( 8402): VM with version 1.6.0 does not have multidex support
+I/MultiDex( 8402): install
+I/MultiDex( 8402): MultiDexExtractor.load(/data/app/com.ubercab.driver-1.apk, false)
+I/ActivityManager(  476): Process com.ubercab.driver:processor (pid 8220) has died.
+I/MultiDex( 8402): loading existing secondary dex files
+I/MultiDex( 8402): load found 5 secondary dex files
+I/MultiDex( 8402): install done
+D/dalvikvm( 8402): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 8402): GC_CONCURRENT freed 306K, 12% free 2927K/3296K, paused 2ms+4ms, total 11ms
+D/dalvikvm( 8402): GC_CONCURRENT freed 172K, 8% free 3138K/3376K, paused 2ms+1ms, total 4ms
+D/dalvikvm( 8402): Trying to load lib /data/app-lib/com.ubercab.driver-1/libcrashlytics.so 0x94fd24f0
+I/qtaguid (  709): Tagging socket 116 with tag 3000180400000000(805312516) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  709): tagSocketFd(116, 805312516, -1) failed with errno-13
+D/dalvikvm( 8402): GC_CONCURRENT freed 133K, 6% free 3390K/3588K, paused 2ms+0ms, total 4ms
+I/qtaguid (  709): Tagging socket 236 with tag 3000180400000000(805312516) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  709): tagSocketFd(236, 805312516, -1) failed with errno-13
+I/qtaguid (  709): Untagging socket 236 failed errno=-13
+W/NetworkManagementSocketTagger(  709): untagSocket(236) failed with errno -13
+I/qtaguid (  709): Tagging socket 236 with tag 3000180400000000(805312516) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  709): tagSocketFd(236, 805312516, -1) failed with errno-13
+I/qtaguid (  709): Untagging socket 236 failed errno=-13
+W/NetworkManagementSocketTagger(  709): untagSocket(236) failed with errno -13
+I/qtaguid (  709): Tagging socket 236 with tag 3000180400000000(805312516) for uid -1 failed errno=-13
+D/dalvikvm( 8402): GC_CONCURRENT freed 116K, 5% free 3659K/3848K, paused 4ms+0ms, total 6ms
+I/NetworkManagementSocketTagger(  709): tagSocketFd(236, 805312516, -1) failed with errno-13
+I/qtaguid (  709): Untagging socket 236 failed errno=-13
+W/NetworkManagementSocketTagger(  709): untagSocket(236) failed with errno -13
+I/qtaguid (  709): Tagging socket 236 with tag 3000180400000000(805312516) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  709): tagSocketFd(236, 805312516, -1) failed with errno-13
+I/qtaguid (  709): Untagging socket 236 failed errno=-13
+W/NetworkManagementSocketTagger(  709): untagSocket(236) failed with errno -13
+I/qtaguid (  709): Tagging socket 236 with tag 3000180400000000(805312516) for uid -1 failed errno=-13
+D/dalvikvm( 8402): GC_CONCURRENT freed 124K, 5% free 3919K/4120K, paused 2ms+0ms, total 6ms
+D/dalvikvm( 8402): Added shared lib /data/app-lib/com.ubercab.driver-1/libcrashlytics.so 0x94fd24f0
+I/NetworkManagementSocketTagger(  709): tagSocketFd(236, 805312516, -1) failed with errno-13
+I/qtaguid (  709): Untagging socket 236 failed errno=-13
+W/NetworkManagementSocketTagger(  709): untagSocket(236) failed with errno -13
+I/qtaguid (  709): Tagging socket 236 with tag 3000180400000000(805312516) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  709): tagSocketFd(236, 805312516, -1) failed with errno-13
+I/qtaguid (  709): Untagging socket 236 failed errno=-13
+W/NetworkManagementSocketTagger(  709): untagSocket(236) failed with errno -13
+D/libcrashlytics( 8402): Initializing libcrashlytics version 1.1.5
+D/libcrashlytics( 8402): Attempting to load unwinder...
+D/libcrashlytics( 8402): Done; using libcorkscrew
+D/libcrashlytics( 8402): Attempting to register signal handler...
+D/libcrashlytics( 8402): Signal handler registered.
+D/libcrashlytics( 8402): Initializing native crash handling successful.
+D/dalvikvm( 8402): GC_CONCURRENT freed 143K, 5% free 4267K/4492K, paused 1ms+1ms, total 10ms
+D/dalvikvm( 8402): WAIT_FOR_CONCURRENT_GC blocked 4ms
+D/dalvikvm( 8402): WAIT_FOR_CONCURRENT_GC blocked 3ms
+D/dalvikvm( 8402): WAIT_FOR_CONCURRENT_GC blocked 6ms
+I/qtaguid (  709): Untagging socket 116 failed errno=-13
+W/NetworkManagementSocketTagger(  709): untagSocket(116) failed with errno -13
+D/dalvikvm( 8402): GC_CONCURRENT freed 154K, 6% free 4497K/4740K, paused 1ms+0ms, total 5ms
+W/Finsky  (29005): [18204] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+I/CrashlyticsCore( 8402): Initializing Crashlytics 2.3.14.151
+D/dalvikvm( 8402): GC_CONCURRENT freed 155K, 5% free 4788K/5040K, paused 2ms+1ms, total 5ms
+W/Finsky  (29005): [18204] com.google.android.finsky.application.impl.a.dw(1487): No account configured on this device.
+I/Finsky  (29005): [18187] com.google.android.finsky.da.a.a.a.b(28): Triggered update for experiment package com.google.android.finsky.stable.
+I/dalvikvm( 8402): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zza
+W/dalvikvm( 8402): VFY: unable to resolve virtual method 2658: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm( 8402): VFY: replacing opcode 0x6e at 0x00ec
+I/ActivityManager(  476): Start proc com.ubercab.driver:processor for service com.ubercab.driver/com.ubercab.healthline.crash_reporting.core.uploader.CrashUploadService: pid=8430 uid=10080 gids={50080, 3002, 3003, 1028, 1015, 1023, 3001}
+I/dalvikvm( 8430): ignoring registerObject request in thread=1
+I/dalvikvm( 8430): ignoring registerObject request in thread=1
+I/MultiDex( 8430): VM with version 1.6.0 does not have multidex support
+I/MultiDex( 8430): install
+I/MultiDex( 8430): MultiDexExtractor.load(/data/app/com.ubercab.driver-1.apk, false)
+I/dalvikvm( 8402): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method blb.zzs
+W/dalvikvm( 8402): VFY: unable to resolve virtual method 2929: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 8402): VFY: replacing opcode 0x6e at 0x0010
+D/dalvikvm( 8402): GC_CONCURRENT freed 384K, 9% free 4947K/5412K, paused 2ms+1ms, total 4ms
+I/MultiDex( 8430): loading existing secondary dex files
+I/MultiDex( 8430): load found 5 secondary dex files
+I/MultiDex( 8430): install done
+I/Finsky  (29005): [18187] com.google.android.finsky.da.a.a.a.b(73): Already at the latest configurations for experiment package com.google.android.finsky.stable.
+I/Finsky  (29005): [18187] com.google.android.finsky.da.a.a.a.b(28): Triggered update for experiment package com.google.android.finsky.regular.
+D/dalvikvm( 8430): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 8430): GC_CONCURRENT freed 295K, 11% free 2910K/3268K, paused 1ms+8ms, total 11ms
+D/dalvikvm( 8430): GC_CONCURRENT freed 147K, 7% free 3148K/3360K, paused 9ms+1ms, total 11ms
+D/dalvikvm( 8430): Trying to load lib /data/app-lib/com.ubercab.driver-1/libcrashlytics.so 0x94fc7668
+D/dalvikvm( 8402): GC_CONCURRENT freed 2326K, 43% free 3292K/5696K, paused 6ms+2ms, total 20ms
+D/dalvikvm( 8430): GC_CONCURRENT freed 124K, 6% free 3411K/3604K, paused 4ms+0ms, total 6ms
+D/dalvikvm( 8430): GC_CONCURRENT freed 141K, 6% free 3653K/3864K, paused 1ms+0ms, total 3ms
+W/ProxyAndroidLoggerBackend(29005): Too many Flogger logs received before configuration. Dropping old logs.
+D/dalvikvm(29005): GC_CONCURRENT freed 514K, 12% free 4874K/5536K, paused 0ms+1ms, total 13ms
+D/dalvikvm( 8430): GC_CONCURRENT freed 114K, 5% free 3924K/4120K, paused 2ms+0ms, total 4ms
+D/AndroidRuntime( 8402): Shutting down VM
+W/dalvikvm( 8402): threadid=1: thread exiting with uncaught exception (group=0x94d08b20)
+D/dalvikvm( 8402): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm( 8402): VFY: unable to resolve static field 123 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm( 8402): VFY: replacing opcode 0x62 at 0x0015
+D/dalvikvm( 8402): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+I/dalvikvm( 8402): DexOpt: unable to optimize static field ref 0x007b at 0x19 in Lfzo;.d
+I/Finsky  (29005): [18187] com.google.android.finsky.da.a.a.a.b(73): Already at the latest configurations for experiment package com.google.android.finsky.regular.
+D/dalvikvm( 8430): GC_CONCURRENT freed 136K, 5% free 4280K/4500K, paused 1ms+1ms, total 12ms
+D/dalvikvm( 8430): WAIT_FOR_CONCURRENT_GC blocked 7ms
+D/dalvikvm( 8430): Added shared lib /data/app-lib/com.ubercab.driver-1/libcrashlytics.so 0x94fc7668
+I/dalvikvm( 8430): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zza
+D/libcrashlytics( 8430): Initializing libcrashlytics version 1.1.5
+D/libcrashlytics( 8430): Attempting to load unwinder...
+D/libcrashlytics( 8430): Done; using libcorkscrew
+D/libcrashlytics( 8430): Attempting to register signal handler...
+D/libcrashlytics( 8430): Signal handler registered.
+D/libcrashlytics( 8430): Initializing native crash handling successful.
+W/dalvikvm( 8430): VFY: unable to resolve virtual method 2658: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm( 8430): VFY: replacing opcode 0x6e at 0x00ec
+D/dalvikvm( 8430): GC_CONCURRENT freed 121K, 5% free 4545K/4760K, paused 18ms+0ms, total 21ms
+D/dalvikvm( 8402): GC_CONCURRENT freed 289K, 41% free 3387K/5696K, paused 1ms+0ms, total 17ms
+D/dalvikvm( 8430): GC_CONCURRENT freed 167K, 6% free 4877K/5144K, paused 5ms+1ms, total 8ms
+I/dalvikvm( 8430): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method blb.zzs
+W/dalvikvm( 8430): VFY: unable to resolve virtual method 2929: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+I/CrashlyticsCore( 8430): Initializing Crashlytics 2.3.14.151
+D/dalvikvm( 8430): VFY: replacing opcode 0x6e at 0x0010
+D/dalvikvm( 8430): GC_CONCURRENT freed 475K, 11% free 4976K/5532K, paused 1ms+2ms, total 5ms
+D/dalvikvm( 8430): GC_CONCURRENT freed 2282K, 42% free 3371K/5728K, paused 2ms+6ms, total 11ms
+D/AndroidRuntime( 8430): Shutting down VM
+W/dalvikvm( 8430): threadid=1: thread exiting with uncaught exception (group=0x94d08b20)
+D/dalvikvm( 8430): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm( 8430): VFY: unable to resolve static field 123 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm( 8430): VFY: replacing opcode 0x62 at 0x0015
+D/dalvikvm( 8430): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+I/dalvikvm( 8430): DexOpt: unable to optimize static field ref 0x007b at 0x19 in Lfzo;.d
+D/dalvikvm( 8430): GC_CONCURRENT freed 350K, 41% free 3407K/5728K, paused 2ms+0ms, total 4ms
+D/ScreenSaverConflic( 7686): dead com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): 1updateCandidate caller:mPackage:com.ksmobile.launcher;  mPackageLifeState:3;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:3;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:3;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): queryguide
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChangedfalse   false
+D/ScreenSaverConflic( 7686): onShouldGuideRuleChanged endfalse   false
+D/ScreenSaverConflic( 7686): queryshow
+D/ScreenSaverConflic( 7686): getSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:3;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cmcm.locker
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor_en
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ijinshan.kbatterydoctor
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.mguard
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.cleanmaster.security_cn
+D/ScreenSaverConflic( 7686): shouldShowScreenSaver pkgName:com.ksmobile.launcher  ids:com.ksmobile.launcher
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged true   false
+D/ScreenSaverConflic( 7686): onShouldShowRuleChanged endtrue   false
+D/ScreenSaverConflic( 7686): getLockerSwitchOnList : mPackage:com.ksmobile.launcher;  mPackageLifeState:3;  mSaverSwitchState:true;  mScreenActualState:false;  mGuideAcutalState:false;  mLockerActualState:false;  mLockerSwitchState:false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged false   false
+D/ScreenSaverConflic( 7686): onShouldShowLockerRuleChanged endfalse   false
+D/ScreenSaverConflic( 7686): query.end
+I/WearableService(  645): Wearable Services stopping
+D/dalvikvm(27752): GC_FOR_ALLOC freed 323K, 14% free 3557K/4136K, paused 5ms, total 5ms
+E/CrashlyticsCore( 8402): Failed to execute task.
+E/CrashlyticsCore( 8402): java.util.concurrent.TimeoutException
+E/CrashlyticsCore( 8402): 	at java.util.concurrent.FutureTask.get(FutureTask.java:176)
+E/CrashlyticsCore( 8402): 	at com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper.executeSyncLoggingException(SourceFile:44)
+E/CrashlyticsCore( 8402): 	at com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler.uncaughtException(SourceFile:251)
+E/CrashlyticsCore( 8402): 	at pxd.a(SourceFile:200)
+E/CrashlyticsCore( 8402): 	at pxd$1.uncaughtException(SourceFile:381)
+E/CrashlyticsCore( 8402): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+E/CrashlyticsCore( 8402): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+E/CrashlyticsCore( 8402): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  476): Sending signal. PID: 8402 SIG: 9
+E/AndroidRuntime( 8402): FATAL EXCEPTION: main
+E/AndroidRuntime( 8402): Process: com.ubercab.driver, PID: 8402
+E/AndroidRuntime( 8402): java.lang.RuntimeException: Unable to create application com.ubercab.driver.core.app.DriverApplication: java.lang.ClassCastException: hcl cannot be cast to vbx
+E/AndroidRuntime( 8402): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4349)
+E/AndroidRuntime( 8402): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+E/AndroidRuntime( 8402): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+E/AndroidRuntime( 8402): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 8402): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime( 8402): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime( 8402): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 8402): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime( 8402): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime( 8402): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime( 8402): 	at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 8402): Caused by: java.lang.ClassCastException: hcl cannot be cast to vbx
+E/AndroidRuntime( 8402): 	at hap.c(SourceFile:3740)
+E/AndroidRuntime( 8402): 	at hap.<init>(SourceFile:1605)
+E/AndroidRuntime( 8402): 	at hap.<init>(SourceFile:589)
+E/AndroidRuntime( 8402): 	at haq.a(SourceFile:6501)
+E/AndroidRuntime( 8402): 	at com.ubercab.driver.core.app.DriverApplication.B(SourceFile:708)
+E/AndroidRuntime( 8402): 	at com.ubercab.driver.core.app.DriverApplication.w(SourceFile:466)
+E/AndroidRuntime( 8402): 	at com.ubercab.driver.core.app.DriverApplication.onCreate(SourceFile:437)
+E/AndroidRuntime( 8402): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1024)
+E/AndroidRuntime( 8402): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4346)
+E/AndroidRuntime( 8402): 	... 10 more
+W/ActivityManager(  476): Force-killing crashed app com.ubercab.driver at watcher's request
+W/ContextImpl(  476): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9642 com.android.server.am.ActivityManagerService.handleApplicationCrash:9616 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+W/NetworkManagementSocketTagger(  476): setKernelCountSet(10080, 0) failed with errno -13
+I/ActivityManager(  476): Process com.ubercab.driver (pid 8402) has died.
+I/ActivityManager(  476): Start proc com.ubercab.driver for activity com.ubercab.driver/.feature.launch.LauncherActivity: pid=8459 uid=10080 gids={50080, 3002, 3003, 1028, 1015, 1023, 3001}
+I/Finsky  (29005): [1] com.google.android.finsky.ci.a.onTrimMemory(5): Memory trim requested to level 80
+W/NetworkManagementSocketTagger(  476): setKernelCountSet(10080, 1) failed with errno -13
+I/dalvikvm( 8459): ignoring registerObject request in thread=1
+I/dalvikvm( 8459): ignoring registerObject request in thread=1
+I/MultiDex( 8459): VM with version 1.6.0 does not have multidex support
+I/MultiDex( 8459): install
+I/MultiDex( 8459): MultiDexExtractor.load(/data/app/com.ubercab.driver-1.apk, false)
+I/MultiDex( 8459): loading existing secondary dex files
+I/MultiDex( 8459): load found 5 secondary dex files
+I/MultiDex( 8459): install done
+E/CrashlyticsCore( 8430): Failed to execute task.
+E/CrashlyticsCore( 8430): java.util.concurrent.TimeoutException
+E/CrashlyticsCore( 8430): 	at java.util.concurrent.FutureTask.get(FutureTask.java:176)
+E/CrashlyticsCore( 8430): 	at com.crashlytics.android.core.CrashlyticsExecutorServiceWrapper.executeSyncLoggingException(SourceFile:44)
+E/CrashlyticsCore( 8430): 	at com.crashlytics.android.core.CrashlyticsUncaughtExceptionHandler.uncaughtException(SourceFile:251)
+E/CrashlyticsCore( 8430): 	at pxd.a(SourceFile:200)
+E/CrashlyticsCore( 8430): 	at pxd$1.uncaughtException(SourceFile:381)
+E/CrashlyticsCore( 8430): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+E/CrashlyticsCore( 8430): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+E/CrashlyticsCore( 8430): 	at dalvik.system.NativeStart.main(Native Method)
+I/Process (  476): Sending signal. PID: 8430 SIG: 9
+E/AndroidRuntime( 8430): FATAL EXCEPTION: main
+E/AndroidRuntime( 8430): Process: com.ubercab.driver:processor, PID: 8430
+E/AndroidRuntime( 8430): java.lang.RuntimeException: Unable to create application com.ubercab.driver.core.app.DriverApplication: java.lang.ClassCastException: hcl cannot be cast to vbx
+E/AndroidRuntime( 8430): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4349)
+E/AndroidRuntime( 8430): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+E/AndroidRuntime( 8430): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+E/AndroidRuntime( 8430): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 8430): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime( 8430): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+E/AndroidRuntime( 8430): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 8430): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime( 8430): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+E/AndroidRuntime( 8430): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+E/AndroidRuntime( 8430): 	at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 8430): Caused by: java.lang.ClassCastException: hcl cannot be cast to vbx
+E/AndroidRuntime( 8430): 	at hap.c(SourceFile:3740)
+E/AndroidRuntime( 8430): 	at hap.<init>(SourceFile:1605)
+E/AndroidRuntime( 8430): 	at hap.<init>(SourceFile:589)
+E/AndroidRuntime( 8430): 	at haq.a(SourceFile:6501)
+E/AndroidRuntime( 8430): 	at com.ubercab.driver.core.app.DriverApplication.B(SourceFile:708)
+E/AndroidRuntime( 8430): 	at com.ubercab.driver.core.app.DriverApplication.w(SourceFile:466)
+E/AndroidRuntime( 8430): 	at com.ubercab.driver.core.app.DriverApplication.onCreate(SourceFile:437)
+E/AndroidRuntime( 8430): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1024)
+E/AndroidRuntime( 8430): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4346)
+E/AndroidRuntime( 8430): 	... 10 more
+W/ActivityManager(  476): Force-killing crashed app com.ubercab.driver:processor at watcher's request
+W/ContextImpl(  476): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityManagerService.handleApplicationCrashInner:9642 com.android.server.am.ActivityManagerService.handleApplicationCrash:9616 android.app.ActivityManagerNative.onTransact:1311 com.android.server.am.ActivityManagerService.onTransact:2071 
+D/dalvikvm( 8459): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 8459): GC_CONCURRENT freed 297K, 11% free 2924K/3284K, paused 2ms+6ms, total 11ms
+D/dalvikvm( 8459): GC_CONCURRENT freed 190K, 8% free 3247K/3500K, paused 2ms+0ms, total 6ms
+D/dalvikvm( 8459): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm( 8459): Trying to load lib /data/app-lib/com.ubercab.driver-1/libcrashlytics.so 0x94fc87a0
+I/ActivityManager(  476): Process com.ubercab.driver:processor (pid 8430) has died.
+D/dalvikvm( 8459): GC_CONCURRENT freed 131K, 6% free 3500K/3700K, paused 1ms+1ms, total 4ms
+D/dalvikvm( 8459): GC_FOR_ALLOC freed 146K, 6% free 3855K/4076K, paused 3ms, total 3ms
+D/dalvikvm( 8459): GC_CONCURRENT freed 106K, 5% free 4133K/4324K, paused 1ms+1ms, total 5ms
+D/dalvikvm( 8459): Added shared lib /data/app-lib/com.ubercab.driver-1/libcrashlytics.so 0x94fc87a0
+D/dalvikvm( 8459): GC_CONCURRENT freed 159K, 6% free 4466K/4708K, paused 4ms+1ms, total 9ms
+D/dalvikvm( 8459): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm( 8459): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/libcrashlytics( 8459): Initializing libcrashlytics version 1.1.5
+D/libcrashlytics( 8459): Attempting to load unwinder...
+D/libcrashlytics( 8459): Done; using libcorkscrew
+D/libcrashlytics( 8459): Attempting to register signal handler...
+D/libcrashlytics( 8459): Signal handler registered.
+D/libcrashlytics( 8459): Initializing native crash handling successful.
+D/dalvikvm( 8459): GC_CONCURRENT freed 141K, 5% free 4762K/5000K, paused 2ms+0ms, total 6ms
+I/dalvikvm( 8459): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zza
+I/CrashlyticsCore( 8459): Initializing Crashlytics 2.3.14.151
+W/dalvikvm( 8459): VFY: unable to resolve virtual method 2658: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm( 8459): VFY: replacing opcode 0x6e at 0x00ec
+I/dalvikvm( 8459): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method blb.zzs
+W/dalvikvm( 8459): VFY: unable to resolve virtual method 2929: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm( 8459): VFY: replacing opcode 0x6e at 0x0010
+D/dalvikvm( 8459): GC_CONCURRENT freed 358K, 9% free 4938K/5392K, paused 2ms+2ms, total 6ms
+I/ActivityManager(  476): Start proc com.ubercab.driver:processor for service com.ubercab.driver/com.ubercab.healthline.crash_reporting.core.uploader.CrashUploadService: pid=8484 uid=10080 gids={50080, 3002, 3003, 1028, 1015, 1023, 3001}
+I/dalvikvm( 8484): ignoring registerObject request in thread=1
+I/dalvikvm( 8484): ignoring registerObject request in thread=1
+I/MultiDex( 8484): VM with version 1.6.0 does not have multidex support
+I/MultiDex( 8484): install
+I/MultiDex( 8484): MultiDexExtractor.load(/data/app/com.ubercab.driver-1.apk, false)
+I/MultiDex( 8484): loading existing secondary dex files
+I/MultiDex( 8484): load found 5 secondary dex files
+I/MultiDex( 8484): install done
+D/dalvikvm( 8484): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm( 8484): GC_CONCURRENT freed 298K, 12% free 2873K/3236K, paused 1ms+0ms, total 3ms
+D/dalvikvm( 8459): GC_CONCURRENT freed 2306K, 43% free 3225K/5608K, paused 32ms+0ms, total 35ms
+D/dalvikvm( 8484): GC_CONCURRENT freed 142K, 7% free 3117K/3324K, paused 1ms+0ms, total 3ms
+D/dalvikvm( 8484): GC_CONCURRENT freed 116K, 6% free 3400K/3588K, paused 2ms+0ms, total 4ms
+D/AndroidRuntime( 8459): Shutting down VM
+W/dalvikvm( 8459): threadid=1: thread exiting with uncaught exception (group=0x94d08b20)
+D/dalvikvm( 8459): GC_CONCURRENT freed 276K, 41% free 3332K/5608K, paused 2ms+0ms, total 4ms
+D/dalvikvm( 8459): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm( 8459): VFY: unable to resolve static field 123 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm( 8459): VFY: replacing opcode 0x62 at 0x0015
+D/dalvikvm( 8459): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+I/dalvikvm( 8459): DexOpt: unable to optimize static field ref 0x007b at 0x19 in Lfzo;.d
+I/AndroidRuntime( 8177): VM exiting with result code 3.
+D/dalvikvm( 8484): GC_FOR_ALLOC freed 174K, 7% free 3736K/3976K, paused 127ms, total 127ms
+D/dalvikvm( 8484): GC_CONCURRENT freed 196K, 7% free 4041K/4312K, paused 2ms+1ms, total 9ms
+D/dalvikvm( 8484): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm( 8484): Trying to load lib /data/app-lib/com.ubercab.driver-1/libcrashlytics.so 0x94fc94a8
+D/dalvikvm( 8484): GC_CONCURRENT freed 112K, 5% free 4314K/4512K, paused 1ms+0ms, total 6ms
+I/dalvikvm( 8484): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zza
+W/dalvikvm( 8484): VFY: unable to resolve virtual method 2658: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm( 8484): VFY: replacing opcode 0x6e at 0x00ec

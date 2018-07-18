@@ -1,0 +1,1154 @@
+--------- beginning of /dev/log/main
+D/AndroidRuntime(10524): 
+D/AndroidRuntime(10524): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(10524): CheckJNI is OFF
+D/dalvikvm(10524): Using executionMode 2
+D/dalvikvm(10524): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(10524): Added shared lib libjavacore.so 0x0
+D/dalvikvm(10524): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(10524): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(10524): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(10524): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(10524): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(10524): failed to load memtrack module: -2
+D/AndroidRuntime(10524): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  484): Skipping deliver [background] BroadcastRecord{4b1204a4 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4afae6ec 10524 (unknown name)/0/u-1 remote:4ab8317c}: process crashing
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+D/yeshen  (  689): launcher onpause
+I/ActivityManager(  484): Start proc com.fleetcor.prepaidcard for activity com.fleetcor.prepaidcard/.SplashActivity: pid=10534 uid=10090 gids={50090, 3003, 1028, 1015, 1023}
+I/WearableService( 1323): Wearable Services stopping
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+E/SurfaceFlinger(  174): glCheckFramebufferStatusOES error 36054
+E/SurfaceFlinger(  174): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+D/SurfaceFlinger(  174): setOrientation, mFbdev=0xb9577da0, mFbDev->setOrientation=0xb6953ce0, orientation=3
+I/gralloc_nox(  174): setOrientation: orientation=3
+I/ActivityManager(  484): Config changes=480 {1.0 310mcc260mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.88}
+D/PhoneStatusBar(  536): mSettingsPanelGravity = 55
+D/Sensors (  484): Client connection accepted (196)
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10090, 1) failed with errno -13
+I/dalvikvm(10534): ignoring registerObject request in thread=1
+I/dalvikvm(10534): ignoring registerObject request in thread=1
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mobisystems.fileman/com.mobisystems.files.FileBrowser bnds=[742,301][946,428]} from pid 689
+W/System.err(10534): java.lang.ClassNotFoundException: com.fleetcor.fleetpro.common.login.teamchattnt.sdklayer.SDK_Level_19
+W/System.err(10534): 	at java.lang.Class.classForName(Native Method)
+W/System.err(10534): 	at java.lang.Class.forName(Class.java:251)
+W/System.err(10534): 	at java.lang.Class.forName(Class.java:216)
+W/System.err(10534): 	at com.fleetcor.fleetpro.common.sdklayer.Device_Android.getSDKInstance(Device_Android.java:42)
+W/System.err(10534): 	at com.fleetcor.fleetpro.common.sdklayer.Device_Android.<init>(Device_Android.java:32)
+W/System.err(10534): 	at com.fleetcor.fleetpro.common.sdklayer.Device_Android.<clinit>(Device_Android.java:24)
+W/System.err(10534): 	at com.fleetcor.fleetpro.common.MobileNowApp.onCreate(MobileNowApp.java:65)
+W/System.err(10534): 	at com.fleetcor.prepaidcard.PrepaidCardApp.onCreate(PrepaidCardApp.java:47)
+W/System.err(10534): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1024)
+W/System.err(10534): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4346)
+W/System.err(10534): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/System.err(10534): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/System.err(10534): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err(10534): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err(10534): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err(10534): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err(10534): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err(10534): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err(10534): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err(10534): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err(10534): Caused by: java.lang.NoClassDefFoundError: com/fleetcor/fleetpro/common/login/teamchattnt/sdklayer/SDK_Level_19
+W/System.err(10534): 	... 20 more
+W/System.err(10534): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.fleetcor.fleetpro.common.login.teamchattnt.sdklayer.SDK_Level_19" on path: DexPathList[[zip file "/system/framework/com.google.android.maps.jar", zip file "/data/app/com.fleetcor.prepaidcard-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.fleetcor.prepaidcard-1, /system/lib]]
+W/System.err(10534): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/System.err(10534): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/System.err(10534): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/System.err(10534): 	... 20 more
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+V/com.fleetcor.fleetpro.common.MyApplication (10534): MobileNowApp_LOG https://api.fleetcortech.com/messageserver/rest/jsonrpc.do
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+D/dalvikvm(  536): GC_FOR_ALLOC freed 6455K, 26% free 19138K/25844K, paused 6ms, total 6ms
+I/dalvikvm-heap(  536): Grow heap (frag case) to 25.020MB for 6553612-byte allocation
+D/dalvikvm(  536): GC_CONCURRENT freed 3K, 21% free 25535K/32248K, paused 2ms+0ms, total 7ms
+D/GCMRegistrar(10534): resetting backoff for com.fleetcor.prepaidcard
+V/GCMRegistrar(10534): Registering app com.fleetcor.prepaidcard of senders 521877729145
+D/dalvikvm(10534): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(10534): GC_CONCURRENT freed 281K, 12% free 2915K/3280K, paused 13ms+1ms, total 18ms
+I/System.out(10534): Login...
+W/dalvikvm(10534): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(10534): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(10534): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(10534): VFY: unable to resolve virtual method 59674: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(10534): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(10534): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(10534): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(10534): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(10534): VFY: unable to resolve interface method 59668: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(10534): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r15 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:1
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r15 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r15 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r15 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r0)	timediff:0
+I/System.out(10534): <com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r0)###https://www.google.com/accounts/ClientLogin
+V/MobileNowApp_LOG (10534): MobileNowApp_LOG -----------start gps-------------
+I/System.out(10534): ++Location provide: request gps 
+I/InputReader(  484): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  484): Device reconfigured: id=1, name='Android Input', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  484): Device reconfigured: id=3, name='seamless mouse', size 1280x720, orientation 3, mode 1, display id 0
+I/InputReader(  484): Device reconfigured: id=8, name='VirtualBox USB Tablet', size 1280x720, orientation 3, mode 1, display id 0
+D/Tinker.DefaultAppLike(  689): onConfigurationChanged:{1.0 310mcc260mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger -keyb/v/h dpad/v s.88}
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+D/dalvikvm(10534): GC_FOR_ALLOC freed 160K, 10% free 3083K/3400K, paused 6ms, total 6ms
+W/CursorWrapperInner(10534): Cursor finalized without prior close()
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r7 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:88
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("POST")	timediff:0
+D/dalvikvm(10534): GC_CONCURRENT freed 125K, 7% free 3355K/3576K, paused 0ms+0ms, total 4ms
+D/libEGL  (10534): loaded /system/lib/egl/libEGL_adreno.so
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+D/        (10534): HostConnection::get() New Host Connection established 0xb7e57e50, tid 10534
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r9 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:243
+D/libEGL  (10534): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (10534): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation(10534): eglSurfaceAttrib not implemented 3093 12436
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$i0 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:199
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r10 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getErrorStream()>()	timediff:0
+I/System.out(10534): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+W/System.err(10534): com.gc.android.market.api.Tools$HttpException: HTTP Code 404 : https://developers.google.com/accounts/docs/AuthForInstalledApps
+W/System.err(10534): 	at com.gc.android.market.api.Tools.postUrl(Tools.java:66)
+W/System.err(10534): 	at com.gc.android.market.api.MarketSession.login(MarketSession.java:173)
+W/System.err(10534): 	at com.gc.android.market.api.MarketSession.login(MarketSession.java:155)
+W/System.err(10534): 	at com.fleetcor.fleetpro.common.upgrade.UpgradeManager.checkAppInfo(UpgradeManager.java:266)
+W/System.err(10534): 	at com.fleetcor.fleetpro.common.upgrade.UpgradeManager.access$000(UpgradeManager.java:31)
+W/System.err(10534): 	at com.fleetcor.fleetpro.common.upgrade.UpgradeManager$GetAppVersionTask.doInBackground(UpgradeManager.java:66)
+W/System.err(10534): 	at com.fleetcor.fleetpro.common.upgrade.UpgradeManager$GetAppVersionTask.doInBackground(UpgradeManager.java:62)
+W/System.err(10534): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+W/System.err(10534): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err(10534): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+W/System.err(10534): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err(10534): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err(10534): 	at java.lang.Thread.run(Thread.java:841)
+D/OpenGLRenderer(10534): Enabling debug mode 0
+V/GCMBroadcastReceiver(10534): onReceive: com.google.android.c2dm.intent.REGISTRATION
+V/GCMBroadcastReceiver(10534): GCM IntentService class: com.fleetcor.prepaidcard.GCMIntentService
+V/GCMBaseIntentService(10534): Acquiring wakelock
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper(  689): showStatusIcon on inactive InputConnection
+W/ActivityManager(  484): Unable to start service Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.fleetcor.prepaidcard cmp=com.fleetcor.prepaidcard/.GCMIntentService (has extras) } U=0: not found
+D/dalvikvm(10534): GC_CONCURRENT freed 359K, 12% free 3396K/3840K, paused 4ms+0ms, total 15ms
+I/ActivityManager(  484): Displayed com.fleetcor.prepaidcard/.SplashActivity: +958ms
+I/WindowManager(  484): Screen frozen for +943ms due to Window{4afddb94 u0 Starting com.fleetcor.prepaidcard}
+F/libc    (10569): Fatal signal 13 (SIGPIPE) at 0x00002949 (code=0), thread 10569 (busybox)
+I/DEBUG   ( 2894): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 2894): Build fingerprint: 'samsung/heroltektt/heroltektt:4.4.2/NRD90M/381180401:user/release-keys'
+I/DEBUG   ( 2894): Revision: '0'
+I/DEBUG   ( 2894): pid: 10569, tid: 10569, name: busybox  >>> busybox <<<
+I/DEBUG   ( 2894): signal 13 (SIGPIPE), code -6 (SI_TKILL), fault addr --------
+I/DEBUG   ( 2894):     eax ffffffe0  ebx 00000001  ecx b7e55fd0  edx 00000002
+I/DEBUG   ( 2894): AM write failure (32 / Broken pipe)
+I/DEBUG   ( 2894):     esi b7671214  edi b7e55fd0
+I/DEBUG   ( 2894):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 00000000  xss 0000007b
+I/DEBUG   ( 2894):     eip b760c456  ebp b7671214  esp bfd6b120  flags 00000202
+I/DEBUG   ( 2894): 
+I/DEBUG   ( 2894): backtrace:
+I/DEBUG   ( 2894):     #00  pc 0003c456  /system/lib/libc.so (write+22)
+I/DEBUG   ( 2894):     #01  pc 0000bab7  <unknown>
+I/DEBUG   ( 2894): 
+I/DEBUG   ( 2894): stack:
+I/DEBUG   ( 2894):          bfd6b0e0  b75eefd7  /system/lib/libc.so (__swsetup+7)
+I/DEBUG   ( 2894):          bfd6b0e4  b7671214  /system/lib/libc.so
+I/DEBUG   ( 2894):          bfd6b0e8  00000888  
+I/DEBUG   ( 2894):          bfd6b0ec  b76176e7  /system/lib/libc.so
+I/DEBUG   ( 2894):          bfd6b0f0  b7e55fd1  [heap]
+I/DEBUG   ( 2894):          bfd6b0f4  b7e54920  [heap]
+I/DEBUG   ( 2894):          bfd6b0f8  00000001  
+I/DEBUG   ( 2894):          bfd6b0fc  b75e2d4f  /system/lib/libc.so (dlmalloc+351)
+I/DEBUG   ( 2894):          bfd6b100  00000000  
+I/DEBUG   ( 2894):          bfd6b104  00000000  
+I/DEBUG   ( 2894):          bfd6b108  b77c4b90  /system/bin/busybox
+I/DEBUG   ( 2894):          bfd6b10c  b76edcc7  /system/bin/busybox (next_token+359)
+I/DEBUG   ( 2894):          bfd6b110  b7e54921  [heap]
+I/DEBUG   ( 2894):          bfd6b114  00000001  
+I/DEBUG   ( 2894):          bfd6b118  bfd6b174  [stack]
+I/DEBUG   ( 2894):          bfd6b11c  b7670fcc  /system/lib/libc.so
+I/DEBUG   ( 2894):     #00  bfd6b120  b767fab8  
+I/DEBUG   ( 2894):          bfd6b124  00001000  
+I/DEBUG   ( 2894):          bfd6b128  b7670fcc  /system/lib/libc.so
+I/DEBUG   ( 2894):          bfd6b12c  b7617f17  /system/lib/libc.so (__swrite+103)
+I/DEBUG   ( 2894):          bfd6b130  00000001  
+I/DEBUG   ( 2894):          bfd6b134  b7e55fd0  [heap]
+I/DEBUG   ( 2894):          bfd6b138  00000002  
+I/DEBUG   ( 2894):          bfd6b13c  b75edb33  /system/lib/libc.so (fputs+99)
+I/DEBUG   ( 2894):          bfd6b140  b7671214  /system/lib/libc.so
+I/DEBUG   ( 2894):          bfd6b144  b7670fcc  /system/lib/libc.so
+I/DEBUG   ( 2894):          bfd6b148  00000002  
+I/DEBUG   ( 2894):          bfd6b14c  b76160e9  /system/lib/libc.so (fflush+185)
+I/DEBUG   ( 2894):          bfd6b150  b7671214  /system/lib/libc.so
+I/DEBUG   ( 2894):          bfd6b154  b7e55fd0  [heap]
+I/DEBUG   ( 2894):          bfd6b158  00000002  
+I/DEBUG   ( 2894):          bfd6b15c  b7e55980  [heap]
+W/NativeCrashListener(  484): Couldn't find ProcessRecord for pid 10569
+I/Choreographer(10534): Skipped 30 frames!  The application may be doing too much work on its main thread.
+E/FlurryDataSender(10534): --onReport b5c05c49-0975-454b-9a42-45068303c12d sent. HTTP response: 200 : OK
+W/EGL_emulation(10534): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(10534): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_ZOOM_IN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8058489, downTime=8058489, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10534): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8058652, downTime=8058652, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a915764 attribute=null, token = android.os.BinderProxy@4a956220
+I/ActivityManager(  484): START u0 {cmp=com.fleetcor.prepaidcard/.SlideMainActivity} from pid 10534
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+D/dalvikvm(10534): GC_CONCURRENT freed 196K, 9% free 3598K/3920K, paused 7ms+1ms, total 9ms
+D/dalvikvm(10534): GC_FOR_ALLOC freed 74K, 8% free 3808K/4104K, paused 2ms, total 3ms
+I/dalvikvm-heap(10534): Grow heap (frag case) to 4.403MB for 635808-byte allocation
+D/dalvikvm(10534): GC_CONCURRENT freed <1K, 7% free 4429K/4728K, paused 8ms+1ms, total 11ms
+D/dalvikvm(10534): WAIT_FOR_CONCURRENT_GC blocked 6ms
+D/dalvikvm(10534): WAIT_FOR_CONCURRENT_GC blocked 13ms
+I/x       (10534): Making Creator dynamically
+I/dalvikvm(10534): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method iwr.createCredentialProtectedStorageContext
+W/dalvikvm(10534): VFY: unable to resolve virtual method 2411: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10534): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(10534): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method iwr.createDeviceProtectedStorageContext
+W/dalvikvm(10534): VFY: unable to resolve virtual method 2412: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10534): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(10534): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createCredentialProtectedStorageContext
+W/dalvikvm(10534): VFY: unable to resolve virtual method 2411: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10534): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(10534): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createDeviceProtectedStorageContext
+W/dalvikvm(10534): VFY: unable to resolve virtual method 2412: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10534): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(10534): Could not find method android.content.Context.isCredentialProtectedStorage, referenced from method cub.a
+W/dalvikvm(10534): VFY: unable to resolve virtual method 2391: Landroid/content/Context;.isCredentialProtectedStorage ()Z
+D/dalvikvm(10534): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(10534): Could not find method android.os.UserManager.isUserUnlocked, referenced from method cub.a
+W/dalvikvm(10534): VFY: unable to resolve virtual method 3028: Landroid/os/UserManager;.isUserUnlocked ()Z
+D/dalvikvm(10534): VFY: replacing opcode 0x6e at 0x001a
+I/dalvikvm(10534): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cub.b
+W/dalvikvm(10534): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(10534): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(10534): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cub.c
+W/dalvikvm(10534): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(10534): VFY: replacing opcode 0x6e at 0x0000
+D/dalvikvm(10534): GC_CONCURRENT freed 272K, 8% free 4579K/4936K, paused 2ms+0ms, total 4ms
+I/dalvikvm(10534): Could not find method android.system.Os.readlink, referenced from method cuq.a
+W/dalvikvm(10534): VFY: unable to resolve static method 3047: Landroid/system/Os;.readlink (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm(10534): VFY: replacing opcode 0x71 at 0x0000
+I/dalvikvm(10534): Could not find method android.system.Os.stat, referenced from method cuq.a
+W/dalvikvm(10534): VFY: unable to resolve static method 3048: Landroid/system/Os;.stat (Ljava/lang/String;)Landroid/system/StructStat;
+D/dalvikvm(10534): VFY: replacing opcode 0x71 at 0x0042
+I/dalvikvm(10534): Could not find method android.system.Os.symlink, referenced from method cuq.a
+W/dalvikvm(10534): VFY: unable to resolve static method 3049: Landroid/system/Os;.symlink (Ljava/lang/String;Ljava/lang/String;)V
+D/dalvikvm(10534): VFY: replacing opcode 0x71 at 0x013b
+I/dalvikvm(10534): DexOpt: unable to optimize instance field ref 0x04a1 at 0x46 in Lcuq;.a
+I/dalvikvm(10534): DexOpt: unable to optimize static field ref 0x049c at 0x48 in Lcuq;.a
+I/dalvikvm(10534): DexOpt: unable to optimize static field ref 0x049a at 0x4a in Lcuq;.a
+I/dalvikvm(10534): DexOpt: unable to optimize static field ref 0x049b at 0x4d in Lcuq;.a
+I/dalvikvm(10534): DexOpt: unable to optimize static field ref 0x049d at 0x57 in Lcuq;.a
+I/dalvikvm(10534): DexOpt: unable to optimize static field ref 0x04a0 at 0x5f in Lcuq;.a
+I/dalvikvm(10534): DexOpt: unable to optimize static field ref 0x049e at 0x61 in Lcuq;.a
+I/dalvikvm(10534): DexOpt: unable to optimize static field ref 0x049f at 0x64 in Lcuq;.a
+I/dalvikvm(10534): DexOpt: unable to optimize static field ref 0x049c at 0x7f in Lcuq;.a
+I/dalvikvm(10534): DexOpt: unable to optimize static field ref 0x04a0 at 0x90 in Lcuq;.a
+I/dalvikvm(10534): Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method jvu.a
+W/dalvikvm(10534): VFY: unable to resolve virtual method 2362: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10534): VFY: replacing opcode 0x6e at 0x0029
+I/dalvikvm(10534): Could not find method android.content.Context.getSystemService, referenced from method jvu.b
+W/dalvikvm(10534): VFY: unable to resolve virtual method 2387: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm(10534): VFY: replacing opcode 0x6e at 0x000b
+D/dalvikvm(10534): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm(10534): VFY: unable to resolve static field 1157 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(10534): VFY: replacing opcode 0x62 at 0x0012
+D/dalvikvm(10534): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+W/dalvikvm(10534): VFY: unable to resolve static field 1156 (SUPPORTED_32_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(10534): VFY: replacing opcode 0x62 at 0x0021
+D/dalvikvm(10534): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm(10534): VFY: unable to resolve static field 1158 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm(10534): VFY: replacing opcode 0x62 at 0x0008
+D/dalvikvm(10534): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm(10534): VFY: unable to resolve static field 1157 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(10534): VFY: replacing opcode 0x62 at 0x0008
+D/dalvikvm(10534): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm(10534): DexOpt: unable to optimize static field ref 0x0485 at 0x17 in Lcwd;.a
+D/dalvikvm(10534): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+I/dalvikvm(10534): DexOpt: unable to optimize static field ref 0x0484 at 0x26 in Lcwd;.a
+D/dalvikvm(10534): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm(10534): DexOpt: unable to optimize static field ref 0x0485 at 0x0d in Lcwd;.b
+I/Google Maps Android API(10534): Google Play services client version: 6587000
+I/Google Maps Android API(10534): Google Play services package version: 12221070
+I/dalvikvm(10534): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method com.google.maps.api.android.lib6.drd.an.a
+W/dalvikvm(10534): VFY: unable to resolve virtual method 741: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+D/dalvikvm(10534): VFY: replacing opcode 0x6e at 0x0056
+I/dalvikvm(10534): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method ht.a
+W/dalvikvm(10534): VFY: unable to resolve virtual method 734: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(10534): VFY: replacing opcode 0x6e at 0x0017
+I/dalvikvm(10534): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method ow.a
+W/dalvikvm(10534): VFY: unable to resolve virtual method 740: Landroid/content/pm/PackageManager;.isInstantApp ()Z
+D/dalvikvm(10534): VFY: replacing opcode 0x6e at 0x0028
+D/dalvikvm(10534): GC_CONCURRENT freed 420K, 10% free 4665K/5168K, paused 2ms+1ms, total 10ms
+I/dalvikvm(10534): Could not find method android.app.NotificationManager.getNotificationChannel, referenced from method he.a
+W/dalvikvm(10534): VFY: unable to resolve virtual method 651: Landroid/app/NotificationManager;.getNotificationChannel (Ljava/lang/String;)Landroid/app/NotificationChannel;
+D/dalvikvm(10534): VFY: replacing opcode 0x6e at 0x000c
+I/dalvikvm(10534): Could not find method android.app.Notification$Builder.setChannelId, referenced from method he.a
+W/dalvikvm(10534): VFY: unable to resolve virtual method 607: Landroid/app/Notification$Builder;.setChannelId (Ljava/lang/String;)Landroid/app/Notification$Builder;
+D/dalvikvm(10534): VFY: replacing opcode 0x6e at 0x0086
+D/dalvikvm(10534): DexOpt: unable to opt direct call 0x0286 at 0x19 in Lhe;.a
+D/dalvikvm(10534): GC_CONCURRENT freed 306K, 8% free 4862K/5252K, paused 4ms+0ms, total 7ms
+D/dalvikvm(10534): GC_CONCURRENT freed 319K, 8% free 5112K/5516K, paused 2ms+0ms, total 5ms
+D/dalvikvm(10534): GC_CONCURRENT freed 284K, 7% free 5496K/5864K, paused 2ms+0ms, total 5ms
+W/EGL_emulation(10534): eglSurfaceAttrib not implemented 3093 12436
+D/        (10534): HostConnection::get() New Host Connection established 0xb7edfa50, tid 10599
+W/ViewRootImpl(10534): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8059251, downTime=8059251, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10534): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8059996, downTime=8059996, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10534): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8060017, downTime=8060017, deviceId=-1, source=0x101 }
+I/ActivityManager(  484): Displayed com.fleetcor.prepaidcard/.SlideMainActivity: +1s200ms
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.windowGainedFocus:1985 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/Choreographer(10534): Skipped 39 frames!  The application may be doing too much work on its main thread.
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/qtaguid ( 1295): Tagging socket 144 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger( 1295): tagSocketFd(144, 805310721, -1) failed with errno-13
+I/qtaguid ( 1295): Tagging socket 160 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger( 1295): tagSocketFd(160, 805310721, -1) failed with errno-13
+I/qtaguid ( 1295): Untagging socket 160 failed errno=-13
+W/NetworkManagementSocketTagger( 1295): untagSocket(160) failed with errno -13
+I/qtaguid ( 1295): Tagging socket 160 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger( 1295): tagSocketFd(160, 805310721, -1) failed with errno-13
+I/qtaguid ( 1295): Untagging socket 160 failed errno=-13
+W/NetworkManagementSocketTagger( 1295): untagSocket(160) failed with errno -13
+I/qtaguid ( 1295): Tagging socket 160 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger( 1295): tagSocketFd(160, 805310721, -1) failed with errno-13
+I/qtaguid ( 1295): Untagging socket 160 failed errno=-13
+W/NetworkManagementSocketTagger( 1295): untagSocket(160) failed with errno -13
+I/qtaguid ( 1295): Tagging socket 160 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger( 1295): tagSocketFd(160, 805310721, -1) failed with errno-13
+I/qtaguid ( 1295): Untagging socket 160 failed errno=-13
+W/NetworkManagementSocketTagger( 1295): untagSocket(160) failed with errno -13
+I/qtaguid ( 1295): Tagging socket 160 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger( 1295): tagSocketFd(160, 805310721, -1) failed with errno-13
+I/qtaguid ( 1295): Untagging socket 160 failed errno=-13
+W/NetworkManagementSocketTagger( 1295): untagSocket(160) failed with errno -13
+I/qtaguid ( 1295): Tagging socket 160 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger( 1295): tagSocketFd(160, 805310721, -1) failed with errno-13
+I/qtaguid ( 1295): Untagging socket 160 failed errno=-13
+W/NetworkManagementSocketTagger( 1295): untagSocket(160) failed with errno -13
+D/dalvikvm(10534): GC_CONCURRENT freed 498K, 10% free 5871K/6472K, paused 3ms+12ms, total 19ms
+I/qtaguid ( 1295): Untagging socket 144 failed errno=-13
+W/NetworkManagementSocketTagger( 1295): untagSocket(144) failed with errno -13
+E/Google Maps Android API(10534): Authorization failure.  Please see https://developers.google.com/maps/documentation/android-api/start for how to correctly set up the map.
+E/Google Maps Android API(10534): In the Google Developer Console (https://console.developers.google.com)
+E/Google Maps Android API(10534): Ensure that the "Google Maps Android API v2" is enabled.
+E/Google Maps Android API(10534): Ensure that the following Android Key exists:
+E/Google Maps Android API(10534): 	API Key: AIzaSyBfOfo9wsyvxEfKMACRFkreFHvXdP_KU3A
+E/Google Maps Android API(10534): 	Android Application (<cert_fingerprint>;<package_name>): 09:AD:96:09:E4:DC:4F:BF:D2:9A:ED:05:94:1F:71:91:82:2B:42:AE;com.fleetcor.prepaidcard
+I/Choreographer(10534): Skipped 36 frames!  The application may be doing too much work on its main thread.
+D/dalvikvm(10534): GC_FOR_ALLOC freed 1030K, 17% free 5732K/6888K, paused 3ms, total 4ms
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper(10534): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+I/System.out(10534): poi request urlhttps://api.fleetcortech.com/poi/v1/jsonrpc.do
+I/System.out(10534): poi params request:{"method":"poi.findNearbySite","params":[{"limit":100,"distance":2,"lon":139.72598154097795,"start":0,"lat":35.71665556156171,"network":"PPOL"}]}
+I/System.out(10534):  poi Authenticaterv1_1966136195_1524179609655{OPQDCV2XpBC85J3dt8V1W0sLuj40Af}
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper(10534): getCursorCapsMode on inactive InputConnection
+D/dalvikvm(10534): GC_CONCURRENT freed 875K, 16% free 5843K/6888K, paused 1ms+0ms, total 8ms
+D/dalvikvm(10534): WAIT_FOR_CONCURRENT_GC blocked 2ms
+W/IInputConnectionWrapper(10534): getCursorCapsMode on inactive InputConnection
+D/FirebaseApp(  689): Notifying background state change listeners.
+W/Launcher(  689): setApplicationContext called twice! old=com.vphone.launcher.LauncherApplicationEx@4a779418 new=com.vphone.launcher.LauncherApplicationEx@4a779418
+W/ResourceType(  689): Attempt to retrieve bag 0x7f0b0001 which is invalid or in a cycle.
+D/dalvikvm(  689): GC_FOR_ALLOC freed 5101K, 4% free 173909K/180252K, paused 86ms, total 86ms
+D/Launcher(  689): 11683562 - bindAddScreens()
+D/Launcher(  689): 11683562 -   orderedScreenIds: 1, 5
+D/Launcher.Workspace(  689): 11683562 - insertNewWorkspaceScreen(): 1 at index: 0
+D/Launcher.Workspace(  689): 11683562 - insertNewWorkspaceScreen(): 5 at index: 1
+W/PhoneWindow(  689): Previously focused view reported id 2131689766 during save, but can't be found during restore.
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1492 android.content.ContextWrapper.startService:494 com.vphone.launcher.Launcher.i:690 com.vphone.launcher.Launcher.b:182 com.vphone.launcher.Launcher$11.run:650 
+I/System.out(10534): poi result:OK
+I/System.out(10534): poi result: {"id":0,"result":{"total":0,"limit":100,"start":0,"success":true,"siteList":[]},"jsonrpc":"2.0"}
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+I/++++    (10534): *******
+I/++++    (10534): *******
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8062688, downTime=8062688, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8063148, downTime=8063148, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Launcher(  689): No global search activity found.
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10090, 0) failed with errno -13
+W/Launcher(  689): No global search activity found.
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+W/Launcher(  689): No global search activity found.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.pgac.general.droid/.TheGeneral bnds=[572,618][713,848]} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity bnds=[8,388][149,618]} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/Launcher(  689): No global search activity found.
+D/yeshen  (  689): launcher onpause
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10090, 1) failed with errno -13
+W/EGL_emulation(10534): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(  484): GC_EXPLICIT freed 1927K, 47% free 21553K/40256K, paused 1ms+5ms, total 33ms
+I/ActivityManager(  484): Displayed com.fleetcor.prepaidcard/.SplashActivity: +584ms
+I/AndroidRuntime(10534): VM exiting with result code 0, cleanup skipped.
+W/InputDispatcher(  484): channel '4ab040a4 com.fleetcor.prepaidcard/com.fleetcor.prepaidcard.SplashActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  484): channel '4ab040a4 com.fleetcor.prepaidcard/com.fleetcor.prepaidcard.SplashActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/InputDispatcher(  484): channel '4aab8d3c Toast (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(  484): channel '4aab8d3c Toast (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10090, 0) failed with errno -13
+W/InputDispatcher(  484): Attempted to unregister already unregistered input channel '4aab8d3c Toast (server)'
+I/ActivityManager(  484): Process com.fleetcor.prepaidcard (pid 10534) has died.
+I/WindowState(  484): WIN DEATH: Window{4aab8d3c u0 Toast}
+W/InputDispatcher(  484): Attempted to unregister already unregistered input channel '4ab040a4 com.fleetcor.prepaidcard/com.fleetcor.prepaidcard.SplashActivity (server)'
+I/WindowState(  484): WIN DEATH: Window{4ab040a4 u0 com.fleetcor.prepaidcard/com.fleetcor.prepaidcard.SplashActivity}
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8065832, downTime=8065832, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/Binder  (  651): Caught a RuntimeException from the binder stub implementation.
+W/Binder  (  651): java.lang.NullPointerException
+W/Binder  (  651): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  (  651): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  (  651): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  (  651): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  484): Got RemoteException sending setActive(false) notification to pid 10534 uid 10090
+W/NotificationService(  484): Object died trying to hide notification android.app.ITransientNotification$Stub$Proxy@4ab891fc in package com.fleetcor.prepaidcard
+W/Launcher(  689): No global search activity found.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+D/yeshen  (  689): launcher onpause
+I/ActivityManager(  484): Start proc com.fleetcor.prepaidcard for activity com.fleetcor.prepaidcard/.SplashActivity: pid=10688 uid=10090 gids={50090, 3003, 1028, 1015, 1023}
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10090, 1) failed with errno -13
+I/dalvikvm(10688): ignoring registerObject request in thread=1
+I/dalvikvm(10688): ignoring registerObject request in thread=1
+W/System.err(10688): java.lang.ClassNotFoundException: com.fleetcor.fleetpro.common.login.teamchattnt.sdklayer.SDK_Level_19
+W/System.err(10688): 	at java.lang.Class.classForName(Native Method)
+W/System.err(10688): 	at java.lang.Class.forName(Class.java:251)
+W/System.err(10688): 	at java.lang.Class.forName(Class.java:216)
+W/System.err(10688): 	at com.fleetcor.fleetpro.common.sdklayer.Device_Android.getSDKInstance(Device_Android.java:42)
+W/System.err(10688): 	at com.fleetcor.fleetpro.common.sdklayer.Device_Android.<init>(Device_Android.java:32)
+W/System.err(10688): 	at com.fleetcor.fleetpro.common.sdklayer.Device_Android.<clinit>(Device_Android.java:24)
+W/System.err(10688): 	at com.fleetcor.fleetpro.common.MobileNowApp.onCreate(MobileNowApp.java:65)
+W/System.err(10688): 	at com.fleetcor.prepaidcard.PrepaidCardApp.onCreate(PrepaidCardApp.java:47)
+W/System.err(10688): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1024)
+W/System.err(10688): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4346)
+W/System.err(10688): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/System.err(10688): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/System.err(10688): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err(10688): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err(10688): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+W/System.err(10688): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err(10688): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err(10688): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/System.err(10688): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/System.err(10688): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err(10688): Caused by: java.lang.NoClassDefFoundError: com/fleetcor/fleetpro/common/login/teamchattnt/sdklayer/SDK_Level_19
+W/System.err(10688): 	... 20 more
+W/System.err(10688): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.fleetcor.fleetpro.common.login.teamchattnt.sdklayer.SDK_Level_19" on path: DexPathList[[zip file "/system/framework/com.google.android.maps.jar", zip file "/data/app/com.fleetcor.prepaidcard-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.fleetcor.prepaidcard-1, /system/lib]]
+W/System.err(10688): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/System.err(10688): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/System.err(10688): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/System.err(10688): 	... 20 more
+V/com.fleetcor.fleetpro.common.MyApplication (10688): MobileNowApp_LOG https://api.fleetcortech.com/messageserver/rest/jsonrpc.do
+D/GCMRegistrar(10688): resetting backoff for com.fleetcor.prepaidcard
+V/GCMRegistrar(10688): Registering app com.fleetcor.prepaidcard of senders 521877729145
+D/dalvikvm(10688): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(10688): GC_CONCURRENT freed 266K, 11% free 2907K/3256K, paused 1ms+1ms, total 4ms
+I/System.out(10688): Login...
+V/MobileNowApp_LOG (10688): MobileNowApp_LOG -----------start gps-------------
+I/System.out(10688): ++Location provide: request gps 
+D/dalvikvm( 1307): GC_CONCURRENT freed 499K, 28% free 4441K/6168K, paused 1ms+0ms, total 7ms
+W/dalvikvm(10688): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(10688): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(10688): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(10688): VFY: unable to resolve virtual method 59674: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(10688): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(10688): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(10688): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(10688): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(10688): VFY: unable to resolve interface method 59668: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(10688): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r15 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r15 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r15 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r3 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r15 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r15, "UTF-8")	timediff:0
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r0)	timediff:1
+I/System.out(10688): <com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>###specialinvoke $r2.<java.net.URL: void <init>(java.lang.String)>($r0)###https://www.google.com/accounts/ClientLogin
+D/dalvikvm(10688): GC_CONCURRENT freed 127K, 7% free 3258K/3472K, paused 5ms+8ms, total 17ms
+D/dalvikvm(10688): WAIT_FOR_CONCURRENT_GC blocked 6ms
+W/CursorWrapperInner(10688): Cursor finalized without prior close()
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r7 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:21
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("POST")	timediff:0
+D/libEGL  (10688): loaded /system/lib/egl/libEGL_adreno.so
+D/dalvikvm(10688): GC_CONCURRENT freed 268K, 10% free 3375K/3728K, paused 2ms+0ms, total 6ms
+D/        (10688): HostConnection::get() New Host Connection established 0xb7e41a30, tid 10688
+D/libEGL  (10688): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (10688): loaded /system/lib/egl/libGLESv2_adreno.so
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r9 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:199
+W/EGL_emulation(10688): eglSurfaceAttrib not implemented 3093 12436
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$i0 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:155
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:$r10 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getErrorStream()>()	timediff:0
+I/System.out(10688): body:<com.gc.android.market.api.Tools: java.lang.String postUrl(java.lang.String,java.util.Map)>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void disconnect()>()	timediff:1
+W/System.err(10688): com.gc.android.market.api.Tools$HttpException: HTTP Code 404 : https://developers.google.com/accounts/docs/AuthForInstalledApps
+W/System.err(10688): 	at com.gc.android.market.api.Tools.postUrl(Tools.java:66)
+W/System.err(10688): 	at com.gc.android.market.api.MarketSession.login(MarketSession.java:173)
+W/System.err(10688): 	at com.gc.android.market.api.MarketSession.login(MarketSession.java:155)
+W/System.err(10688): 	at com.fleetcor.fleetpro.common.upgrade.UpgradeManager.checkAppInfo(UpgradeManager.java:266)
+W/System.err(10688): 	at com.fleetcor.fleetpro.common.upgrade.UpgradeManager.access$000(UpgradeManager.java:31)
+W/System.err(10688): 	at com.fleetcor.fleetpro.common.upgrade.UpgradeManager$GetAppVersionTask.doInBackground(UpgradeManager.java:66)
+W/System.err(10688): 	at com.fleetcor.fleetpro.common.upgrade.UpgradeManager$GetAppVersionTask.doInBackground(UpgradeManager.java:62)
+W/System.err(10688): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+W/System.err(10688): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err(10688): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+W/System.err(10688): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err(10688): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err(10688): 	at java.lang.Thread.run(Thread.java:841)
+D/dalvikvm(10688): GC_CONCURRENT freed 308K, 11% free 3451K/3848K, paused 2ms+1ms, total 5ms
+D/OpenGLRenderer(10688): Enabling debug mode 0
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8067118, downTime=8067118, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+V/GCMBroadcastReceiver(10688): onReceive: com.google.android.c2dm.intent.REGISTRATION
+V/GCMBroadcastReceiver(10688): GCM IntentService class: com.fleetcor.prepaidcard.GCMIntentService
+V/GCMBaseIntentService(10688): Acquiring wakelock
+W/ActivityManager(  484): Unable to start service Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.fleetcor.prepaidcard cmp=com.fleetcor.prepaidcard/.GCMIntentService (has extras) } U=0: not found
+W/IInputConnectionWrapper(10688): showStatusIcon on inactive InputConnection
+I/ActivityManager(  484): Displayed com.fleetcor.prepaidcard/.SplashActivity: +632ms
+E/FlurryDataSender(10688): --onReport 98d37f89-79e7-4804-8c9a-b25ef4114a5b sent. HTTP response: 200 : OK
+D/dalvikvm( 6267): GC_FOR_ALLOC freed 5687K, 55% free 4884K/10656K, paused 2ms, total 2ms
+I/dalvikvm-heap( 6267): Grow heap (frag case) to 8.363MB for 3686412-byte allocation
+D/dalvikvm( 6267): GC_FOR_ALLOC freed 0K, 21% free 8484K/10656K, paused 2ms, total 2ms
+D/dalvikvm( 6267): GC_CONCURRENT freed 7K, 21% free 8476K/10656K, paused 3ms+0ms, total 8ms
+W/EGL_emulation( 6267): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8068711, downTime=8068711, deviceId=-1, source=0x101 }
+W/EGL_emulation(10688): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8068780, downTime=8068780, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4abca58c attribute=null, token = android.os.BinderProxy@4a857010
+I/ActivityManager(  484): START u0 {cmp=com.fleetcor.prepaidcard/.SlideMainActivity} from pid 10688
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+D/dalvikvm(10688): GC_CONCURRENT freed 170K, 7% free 3758K/4016K, paused 2ms+1ms, total 4ms
+D/dalvikvm(10688): GC_FOR_ALLOC freed 65K, 7% free 3806K/4072K, paused 2ms, total 2ms
+I/dalvikvm-heap(10688): Grow heap (frag case) to 4.401MB for 635808-byte allocation
+D/dalvikvm(10688): GC_CONCURRENT freed <1K, 6% free 4427K/4696K, paused 1ms+0ms, total 3ms
+D/dalvikvm(10688): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm(10688): WAIT_FOR_CONCURRENT_GC blocked 3ms
+I/x       (10688): Making Creator dynamically
+I/dalvikvm(10688): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method iwr.createCredentialProtectedStorageContext
+W/dalvikvm(10688): VFY: unable to resolve virtual method 2411: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10688): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(10688): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method iwr.createDeviceProtectedStorageContext
+W/dalvikvm(10688): VFY: unable to resolve virtual method 2412: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10688): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(10688): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createCredentialProtectedStorageContext
+W/dalvikvm(10688): VFY: unable to resolve virtual method 2411: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10688): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(10688): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createDeviceProtectedStorageContext
+W/dalvikvm(10688): VFY: unable to resolve virtual method 2412: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10688): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(10688): Could not find method android.content.Context.isCredentialProtectedStorage, referenced from method cub.a
+W/dalvikvm(10688): VFY: unable to resolve virtual method 2391: Landroid/content/Context;.isCredentialProtectedStorage ()Z
+D/dalvikvm(10688): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(10688): Could not find method android.os.UserManager.isUserUnlocked, referenced from method cub.a
+W/dalvikvm(10688): VFY: unable to resolve virtual method 3028: Landroid/os/UserManager;.isUserUnlocked ()Z
+D/dalvikvm(10688): VFY: replacing opcode 0x6e at 0x001a
+I/dalvikvm(10688): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cub.b
+W/dalvikvm(10688): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(10688): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(10688): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cub.c
+W/dalvikvm(10688): VFY: unable to resolve virtual method 2392: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(10688): VFY: replacing opcode 0x6e at 0x0000
+D/dalvikvm(10688): GC_CONCURRENT freed 271K, 8% free 4580K/4936K, paused 2ms+0ms, total 5ms
+I/dalvikvm(10688): Could not find method android.system.Os.readlink, referenced from method cuq.a
+W/dalvikvm(10688): VFY: unable to resolve static method 3047: Landroid/system/Os;.readlink (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm(10688): VFY: replacing opcode 0x71 at 0x0000
+I/dalvikvm(10688): Could not find method android.system.Os.stat, referenced from method cuq.a
+W/dalvikvm(10688): VFY: unable to resolve static method 3048: Landroid/system/Os;.stat (Ljava/lang/String;)Landroid/system/StructStat;
+D/dalvikvm(10688): VFY: replacing opcode 0x71 at 0x0042
+I/dalvikvm(10688): Could not find method android.system.Os.symlink, referenced from method cuq.a
+W/dalvikvm(10688): VFY: unable to resolve static method 3049: Landroid/system/Os;.symlink (Ljava/lang/String;Ljava/lang/String;)V
+D/dalvikvm(10688): VFY: replacing opcode 0x71 at 0x013b
+I/dalvikvm(10688): DexOpt: unable to optimize instance field ref 0x04a1 at 0x46 in Lcuq;.a
+I/dalvikvm(10688): DexOpt: unable to optimize static field ref 0x049c at 0x48 in Lcuq;.a
+I/dalvikvm(10688): DexOpt: unable to optimize static field ref 0x049a at 0x4a in Lcuq;.a
+I/dalvikvm(10688): DexOpt: unable to optimize static field ref 0x049b at 0x4d in Lcuq;.a
+I/dalvikvm(10688): DexOpt: unable to optimize static field ref 0x049d at 0x57 in Lcuq;.a
+I/dalvikvm(10688): DexOpt: unable to optimize static field ref 0x04a0 at 0x5f in Lcuq;.a
+I/dalvikvm(10688): DexOpt: unable to optimize static field ref 0x049e at 0x61 in Lcuq;.a
+I/dalvikvm(10688): DexOpt: unable to optimize static field ref 0x049f at 0x64 in Lcuq;.a
+I/dalvikvm(10688): DexOpt: unable to optimize static field ref 0x049c at 0x7f in Lcuq;.a
+I/dalvikvm(10688): DexOpt: unable to optimize static field ref 0x04a0 at 0x90 in Lcuq;.a
+I/dalvikvm(10688): Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method jvu.a
+W/dalvikvm(10688): VFY: unable to resolve virtual method 2362: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10688): VFY: replacing opcode 0x6e at 0x0029
+I/dalvikvm(10688): Could not find method android.content.Context.getSystemService, referenced from method jvu.b
+W/dalvikvm(10688): VFY: unable to resolve virtual method 2387: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm(10688): VFY: replacing opcode 0x6e at 0x000b
+D/dalvikvm(10688): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm(10688): VFY: unable to resolve static field 1157 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(10688): VFY: replacing opcode 0x62 at 0x0012
+D/dalvikvm(10688): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+W/dalvikvm(10688): VFY: unable to resolve static field 1156 (SUPPORTED_32_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(10688): VFY: replacing opcode 0x62 at 0x0021
+D/dalvikvm(10688): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm(10688): VFY: unable to resolve static field 1158 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm(10688): VFY: replacing opcode 0x62 at 0x0008
+D/dalvikvm(10688): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm(10688): VFY: unable to resolve static field 1157 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(10688): VFY: replacing opcode 0x62 at 0x0008
+D/dalvikvm(10688): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm(10688): DexOpt: unable to optimize static field ref 0x0485 at 0x17 in Lcwd;.a
+D/dalvikvm(10688): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+I/dalvikvm(10688): DexOpt: unable to optimize static field ref 0x0484 at 0x26 in Lcwd;.a
+D/dalvikvm(10688): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm(10688): DexOpt: unable to optimize static field ref 0x0485 at 0x0d in Lcwd;.b
+I/Google Maps Android API(10688): Google Play services client version: 6587000
+I/Google Maps Android API(10688): Google Play services package version: 12221070
+I/dalvikvm(10688): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method com.google.maps.api.android.lib6.drd.an.a
+W/dalvikvm(10688): VFY: unable to resolve virtual method 741: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+D/dalvikvm(10688): VFY: replacing opcode 0x6e at 0x0056
+I/dalvikvm(10688): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method ht.a
+W/dalvikvm(10688): VFY: unable to resolve virtual method 734: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(10688): VFY: replacing opcode 0x6e at 0x0017
+I/dalvikvm(10688): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method ow.a
+W/dalvikvm(10688): VFY: unable to resolve virtual method 740: Landroid/content/pm/PackageManager;.isInstantApp ()Z
+D/dalvikvm(10688): VFY: replacing opcode 0x6e at 0x0028
+D/dalvikvm(10688): GC_CONCURRENT freed 419K, 10% free 4665K/5168K, paused 0ms+1ms, total 9ms
+I/dalvikvm(10688): Could not find method android.app.NotificationManager.getNotificationChannel, referenced from method he.a
+W/dalvikvm(10688): VFY: unable to resolve virtual method 651: Landroid/app/NotificationManager;.getNotificationChannel (Ljava/lang/String;)Landroid/app/NotificationChannel;
+D/dalvikvm(10688): VFY: replacing opcode 0x6e at 0x000c
+I/dalvikvm(10688): Could not find method android.app.Notification$Builder.setChannelId, referenced from method he.a
+W/dalvikvm(10688): VFY: unable to resolve virtual method 607: Landroid/app/Notification$Builder;.setChannelId (Ljava/lang/String;)Landroid/app/Notification$Builder;
+D/dalvikvm(10688): VFY: replacing opcode 0x6e at 0x0086
+D/dalvikvm(10688): DexOpt: unable to opt direct call 0x0286 at 0x19 in Lhe;.a
+D/dalvikvm(  484): GC_EXPLICIT freed 1325K, 47% free 21510K/40256K, paused 2ms+1ms, total 29ms
+D/dalvikvm(10688): GC_CONCURRENT freed 341K, 8% free 4946K/5372K, paused 5ms+0ms, total 8ms
+D/dalvikvm(10688): GC_CONCURRENT freed 330K, 8% free 5214K/5628K, paused 2ms+0ms, total 4ms
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+W/EGL_emulation(10688): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(10688): GC_CONCURRENT freed 300K, 7% free 5616K/6004K, paused 1ms+0ms, total 3ms
+I/Choreographer(10688): Skipped 31 frames!  The application may be doing too much work on its main thread.
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8069412, downTime=8069412, deviceId=-1, source=0x101 }
+D/dalvikvm( 6267): GC_FOR_ALLOC freed 9K, 21% free 8483K/10656K, paused 2ms, total 2ms
+I/dalvikvm-heap( 6267): Grow heap (frag case) to 10.339MB for 2073612-byte allocation
+D/dalvikvm( 6267): GC_FOR_ALLOC freed 0K, 2% free 10508K/10656K, paused 4ms, total 4ms
+D/dalvikvm( 6267): GC_CONCURRENT freed <1K, 2% free 10507K/10656K, paused 1ms+0ms, total 3ms
+D/dalvikvm(  536): GC_FOR_ALLOC freed 6578K, 26% free 19156K/25844K, paused 53ms, total 53ms
+I/dalvikvm-heap(  536): Grow heap (frag case) to 20.765MB for 2073612-byte allocation
+D/dalvikvm(  484): GC_FOR_ALLOC freed 132K, 37% free 25491K/40256K, paused 48ms, total 49ms
+D/dalvikvm(  536): GC_FOR_ALLOC freed 4K, 25% free 21176K/27872K, paused 5ms, total 6ms
+D/        (10688): HostConnection::get() New Host Connection established 0xb7edd5b0, tid 10747
+D/dalvikvm(  484): GC_FOR_ALLOC freed 6205K, 41% free 21430K/36204K, paused 12ms, total 13ms
+D/dalvikvm(  484): GC_FOR_ALLOC freed 2K, 36% free 23459K/36204K, paused 19ms, total 19ms
+I/dalvikvm-heap(  484): Grow heap (frag case) to 24.972MB for 2073612-byte allocation
+D/dalvikvm(  484): GC_FOR_ALLOC freed <1K, 34% free 25484K/38232K, paused 20ms, total 20ms
+D/dalvikvm(  484): GC_FOR_ALLOC freed 1K, 34% free 25596K/38232K, paused 17ms, total 17ms
+I/dalvikvm-heap(  484): Grow heap (frag case) to 27.060MB for 2073612-byte allocation
+D/dalvikvm(  536): GC_FOR_ALLOC freed 123K, 25% free 21182K/27872K, paused 34ms, total 35ms
+D/dalvikvm(  484): GC_FOR_ALLOC freed <1K, 32% free 27621K/40260K, paused 14ms, total 14ms
+I/dalvikvm-heap(  536): Grow heap (frag case) to 22.744MB for 2073612-byte allocation
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_EQUALS, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8070120, downTime=8070120, deviceId=-1, source=0x101 }
+I/ActivityManager(  484): Displayed com.fleetcor.prepaidcard/.SlideMainActivity: +1s259ms
+D/dalvikvm(  536): GC_FOR_ALLOC freed 1K, 23% free 23205K/29900K, paused 6ms, total 6ms
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8070764, downTime=8070764, deviceId=-1, source=0x101 }
+I/Choreographer(10688): Skipped 39 frames!  The application may be doing too much work on its main thread.
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.windowGainedFocus:1985 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/qtaguid ( 1295): Tagging socket 144 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger( 1295): tagSocketFd(144, 805310721, -1) failed with errno-13
+D/dalvikvm(10688): GC_FOR_ALLOC freed 585K, 13% free 5718K/6536K, paused 5ms, total 5ms
+I/qtaguid ( 1295): Untagging socket 144 failed errno=-13
+W/NetworkManagementSocketTagger( 1295): untagSocket(144) failed with errno -13
+E/Google Maps Android API(10688): Authorization failure.  Please see https://developers.google.com/maps/documentation/android-api/start for how to correctly set up the map.
+E/Google Maps Android API(10688): In the Google Developer Console (https://console.developers.google.com)
+E/Google Maps Android API(10688): Ensure that the "Google Maps Android API v2" is enabled.
+E/Google Maps Android API(10688): Ensure that the following Android Key exists:
+E/Google Maps Android API(10688): 	API Key: AIzaSyBfOfo9wsyvxEfKMACRFkreFHvXdP_KU3A
+E/Google Maps Android API(10688): 	Android Application (<cert_fingerprint>;<package_name>): 09:AD:96:09:E4:DC:4F:BF:D2:9A:ED:05:94:1F:71:91:82:2B:42:AE;com.fleetcor.prepaidcard
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(10688): GC_FOR_ALLOC freed 673K, 15% free 5721K/6668K, paused 12ms, total 16ms
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/System.out(10688): poi request urlhttps://api.fleetcortech.com/poi/v1/jsonrpc.do
+I/System.out(10688): poi params request:{"method":"poi.findNearbySite","params":[{"limit":100,"distance":2,"lon":139.72598154097795,"start":0,"lat":35.71665556156171,"network":"PPOL"}]}
+I/System.out(10688):  poi Authenticaterv1_1966136195_1524179620323{OPQDCV2XpBC85J3dt8V1W0sLuj40Af}
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/EGL_emulation(10688): eglSurfaceAttrib not implemented 3093 12436
+D/dalvikvm(10688): GC_CONCURRENT freed 778K, 13% free 5925K/6784K, paused 2ms+13ms, total 19ms
+D/dalvikvm(10688): WAIT_FOR_CONCURRENT_GC blocked 4ms
+D/dalvikvm(10688): WAIT_FOR_CONCURRENT_GC blocked 3ms
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/System.out(10688): poi result:OK
+I/System.out(10688): poi result: {"id":0,"result":{"total":0,"limit":100,"start":0,"success":true,"siteList":[]},"jsonrpc":"2.0"}
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/Google Maps Android API(10688): Google Play services package version: 12221070
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/IInputConnectionWrapper(10688): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+W/IInputConnectionWrapper(10688): getCursorCapsMode on inactive InputConnection
+I/++++    (10688): *******
+I/++++    (10688): *******
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideMySoftInput:2299 com.android.internal.view.IInputMethodManager$Stub.onTransact:288 com.android.server.InputMethodManagerService.onTransact:818 
+D/FirebaseApp(  689): Notifying background state change listeners.
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8074709, downTime=8074709, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8074986, downTime=8074986, deviceId=-1, source=0x101 }
+D/dalvikvm(  689): GC_FOR_ALLOC freed 4852K, 4% free 176324K/182172K, paused 84ms, total 85ms
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/Choreographer(  689): Skipped 32 frames!  The application may be doing too much work on its main thread.
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+I/ActivityManager(  484): START u0 {act=android.intent.action.VIEW dat=http://launcher.us.yeshen.com/api/app/detail?id=com.outfit7.mytalkingtomfree flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 689
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10090, 0) failed with errno -13
+D/dalvikvm(10688): GC_CONCURRENT freed 835K, 14% free 6018K/6936K, paused 4ms+1ms, total 8ms
+I/System.out(10688): poi request urlhttps://api.fleetcortech.com/poi/v1/jsonrpc.do
+I/System.out(10688): poi params request:{"method":"poi.findNearbySite","params":[{"limit":100,"distance":2,"lon":139.72598154097795,"start":0,"lat":35.71672116543032,"network":"PPOL"}]}
+I/System.out(10688):  poi Authenticaterv1_1966136195_1524179623914{OPQDCV2XpBC85J3dt8V1W0sLuj40Af}
+W/Launcher(  689): No global search activity found.
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera/.Camera bnds=[431,388][572,618] (has extras)} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+D/yeshen  (  689): launcher onpause
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=8076759, downTime=8076759, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=8076759, downTime=8076759, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=8076759, downTime=8076759, deviceId=-1, source=0x101 }
+W/NetworkManagementSocketTagger(  484): setKernelCountSet(10090, 1) failed with errno -13
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=8076759, downTime=8076759, deviceId=-1, source=0x101 }
+W/EGL_emulation(10688): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8076694, downTime=8076694, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/System.out(10688): poi result:OK
+I/System.out(10688): poi result: {"id":0,"result":{"total":0,"limit":100,"start":0,"success":true,"siteList":[]},"jsonrpc":"2.0"}
+I/ActivityManager(  484): Displayed com.fleetcor.prepaidcard/.SplashActivity: +472ms
+I/ActivityManager(  484): START u0 {cmp=com.fleetcor.prepaidcard/.SlideMainActivity} from pid 10688
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+I/Google Maps Android API(10688): Google Play services package version: 12221070
+W/EGL_emulation(10688): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8078827, downTime=8078827, deviceId=-1, source=0x101 }
+D/        (10688): HostConnection::get() New Host Connection established 0xb7f171d0, tid 10869
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.windowGainedFocus:1985 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): Displayed com.fleetcor.prepaidcard/.SlideMainActivity: +655ms
+D/dalvikvm(10688): GC_CONCURRENT freed 596K, 10% free 6472K/7156K, paused 3ms+1ms, total 8ms
+D/dalvikvm(10688): GC_FOR_ALLOC freed 875K, 19% free 6251K/7704K, paused 4ms, total 5ms
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/IInputConnectionWrapper(10688): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_11, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8080881, downTime=8080881, deviceId=-1, source=0x101 }
+D/dalvikvm(10688): GC_CONCURRENT freed 903K, 18% free 6376K/7704K, paused 3ms+0ms, total 7ms
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8080881, downTime=8080881, deviceId=-1, source=0x101 }
+W/IInputConnectionWrapper(10688): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8080926, downTime=8080926, deviceId=-1, source=0x101 }
+W/EGL_emulation(10688): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(10688): eglSurfaceAttrib not implemented 3093 12436
+I/System.out(10688): poi request urlhttps://api.fleetcortech.com/poi/v1/jsonrpc.do
+I/System.out(10688): poi params request:{"method":"poi.findNearbySite","params":[{"limit":100,"distance":2,"lon":139.72598154097795,"start":0,"lat":35.71665556156171,"network":"PPOL"}]}
+I/System.out(10688):  poi Authenticaterv1_1966136195_1524179629426{OPQDCV2XpBC85J3dt8V1W0sLuj40Af}
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a978f38 attribute=android.view.inputmethod.EditorInfo@4abc5a2c, token = android.os.BinderProxy@4acc2974
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.windowGainedFocus:1932 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/System.out(10688): poi result:OK
+I/System.out(10688): poi result: {"id":0,"result":{"total":0,"limit":100,"start":0,"success":true,"siteList":[]},"jsonrpc":"2.0"}
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/++++    (10688): *******
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  651): GC_CONCURRENT freed 350K, 15% free 3104K/3640K, paused 2ms+0ms, total 4ms
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper(10688): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=4500.0)
+W/WindowManager(  484): updateFocusedWindowLocked, focusedAppToken is null.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=8083785, downTime=8083785, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=8083785, downTime=8083785, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=8083785, downTime=8083785, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  536): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8083706, downTime=-1, deviceId=0, source=0x10004 }
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=58.5 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=58.5 v=-3000.0)
+W/ViewRootImpl(  536): Dropping event due to no window focus: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8083707, downTime=8083677, deviceId=0, source=0x10004 }
+V/PanelView(  536): animationTick called with dtms=-2; nothing to do (h=58.5 v=-3000.0)
+W/ViewRootImpl(  536): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-3.0, y[0]=2.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=8083725, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8083750, downTime=8083750, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_L, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8083827, downTime=8083827, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4acc2aec attribute=null, token = android.os.BinderProxy@4acc2974
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=58.5 v=-3000.0)
+V/PanelView(  536): animationTick called with dtms=-10; nothing to do (h=58.5 v=-3000.0)
+D/FirebaseApp(  689): Notifying background state change listeners.
+W/EGL_emulation(  536): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  689): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(  689): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8083965, downTime=8083965, deviceId=-1, source=0x101 }
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 10524 failed.
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 689
+W/PhoneFallbackEventHandler(  689): No activity found for android.intent.action.CALL_BUTTON.
+W/IInputConnectionWrapper(  689): getCursorCapsMode on inactive InputConnection
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.vending/.AssetBrowserActivity bnds=[127,598][229,716]} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1556 android.content.ContextWrapper.bindService:517 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.common.stats.zzb.zza:-1 com.google.android.gms.ads.identifier.AdvertisingIdClient.zzh:-1 
+I/qtaguid (  689): Untagging socket 110 failed errno=-13
+W/NetworkManagementSocketTagger(  689): untagSocket(110) failed with errno -13
+I/qtaguid (  689): Tagging socket 110 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(110, 1239581248, -1) failed with errno-13
+W/PropertyValuesHolder(  689): Method setBrightness() with type int not found on target class class ph
+W/PropertyValuesHolder(  689): Method getBrightness() with type int not found on target class class ph
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.vphone.helper/.MainActivity bnds=[572,388][713,618] (has extras)} from pid 689
+W/ContextImpl(  689): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1137 android.content.ContextWrapper.sendBroadcast:370 com.vphone.launcher.Stats.recordLaunch:129 com.vphone.launcher.Launcher.c:3192 com.vphone.launcher.Launcher.onClickAppShortcut:3144 
+W/WindowManager(  484): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8085855, downTime=8085855, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  536): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8085867, downTime=8085867, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+D/yeshen  (  689): launcher onpause
+W/InputMethodManagerService(  484): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8e19d4 (uid=1000 pid=689)
+W/BackupManagerService(  484): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+W/EGL_emulation(10688): eglSurfaceAttrib not implemented 3093 12436
+I/qtaguid (  689): Tagging socket 177 with tag 49e2824000000000(1239581248) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  689): tagSocketFd(177, 1239581248, -1) failed with errno-13
+W/BackupManagerService(  484): dataChanged but no participant pkg='com.android.providers.settings' uid=10010
+I/ActivityManager(  484): Displayed com.fleetcor.prepaidcard/.SplashActivity: +583ms
+W/InputEventReceiver(  536): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  536): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  536): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  536): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  536): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  536): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8086555, downTime=8086555, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  536): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=258.57422, y[0]=377.61, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=7, eventTime=8086256, downTime=8086245, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  536): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=255.63326, y[0]=381.59363, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8086257, downTime=8086245, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  536): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=508.0, y[0]=213.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8086259, downTime=8086259, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  536): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=514.90625, y[0]=213.44409, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=8086260, downTime=8086259, deviceId=0, source=0x1002 }
+W/ViewRootImpl(  536): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x408, repeatCount=0, eventTime=8085926, downTime=8085926, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  536): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BUTTON_11, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8086109, downTime=8086109, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8086562, downTime=8086562, deviceId=-1, source=0x101 }
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 484
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/InputDispatcher(  484): Dropped event because of pending overdue app switch.
+W/InputManager(  484): Input event injection from pid 10524 failed.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+I/ActivityManager(  484): START u0 {cmp=com.fleetcor.prepaidcard/.SlideMainActivity} from pid 10688
+D/yeshen  (  689): launcher onstop
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+D/FirebaseApp(  689): Notifying background state change listeners.
+D/Tinker.DefaultAppLike(  689): onTrimMemory level:20
+I/Google Maps Android API(10688): Google Play services package version: 12221070
+W/EGL_emulation(10688): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8088013, downTime=8088013, deviceId=-1, source=0x101 }
+D/        (10688): HostConnection::get() New Host Connection established 0xb7fbb070, tid 10958
+D/dalvikvm(10688): GC_CONCURRENT freed 673K, 10% free 6881K/7644K, paused 3ms+1ms, total 13ms
+I/ActivityManager(  484): Displayed com.fleetcor.prepaidcard/.SlideMainActivity: +797ms
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MOVE_HOME, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8088315, downTime=8088315, deviceId=-1, source=0x101 }
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.windowGainedFocus:1985 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/Choreographer(10688): Skipped 48 frames!  The application may be doing too much work on its main thread.
+D/dalvikvm(10688): GC_FOR_ALLOC freed 1344K, 22% free 6505K/8304K, paused 4ms, total 4ms
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/System.out(10688): poi request urlhttps://api.fleetcortech.com/poi/v1/jsonrpc.do
+I/System.out(10688): poi params request:{"method":"poi.findNearbySite","params":[{"limit":100,"distance":2,"lon":139.72598154097795,"start":0,"lat":35.71665556156171,"network":"PPOL"}]}
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/System.out(10688):  poi Authenticaterv1_1966136195_1524179638569{OPQDCV2XpBC85J3dt8V1W0sLuj40Af}
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/DebugConnManager(  689): getNetworkInfo() on networkType 1
+W/IInputConnectionWrapper(10688): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8091453, downTime=8091453, deviceId=-1, source=0x101 }
+W/EGL_emulation(10688): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_12, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8091485, downTime=8091485, deviceId=-1, source=0x101 }
+I/System.out(10688): poi result:OK
+I/System.out(10688): poi result: {"id":0,"result":{"total":0,"limit":100,"start":0,"success":true,"siteList":[]},"jsonrpc":"2.0"}
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ViewRootImpl(10688): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=2.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=5, eventTime=8091451, downTime=-1, deviceId=0, source=0x10004 }
+I/++++    (10688): *******
+I/++++    (10688): *******
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a8f2a98 attribute=null, token = android.os.BinderProxy@4b0897f4
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  651): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 10688
+W/PhoneFallbackEventHandler(10688): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+V/WebViewChromium(10688): Binding Chromium to the main looper Looper (main, tid 1) {4a7761f0}
+I/chromium(10688): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain(10688): Initializing chromium process, renderers=0
+W/chromium(10688): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+D/dalvikvm(10688): GC_CONCURRENT freed 848K, 13% free 6778K/7708K, paused 1ms+7ms, total 17ms
+W/AwContents(10688): nativeOnDraw failed; clearing to background color.
+W/ViewRootImpl(10688): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_VOLUME_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=8094919, downTime=8094919, deviceId=-1, source=0x101 }
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+W/EGL_emulation(10688): eglSurfaceAttrib not implemented 3093 12436
+I/chromium(10688): [INFO:simple_index_file.cc(397)] Simple Cache Index is being restored from disk.
+I/ActivityManager(  484): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 10688
+W/PhoneFallbackEventHandler(10688): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+V/PanelView(  536): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+V/PanelView(  536): animationTick called with dtms=-2; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 484
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+I/ActivityManager(  484): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 10688
+W/PhoneFallbackEventHandler(10688): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 484
+I/System.out(10688): navigation level changes to 0
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+W/InputMethodManagerService(  484): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4ad8d994 attribute=android.view.inputmethod.EditorInfo@4ad8d99c, token = android.os.BinderProxy@4b0897f4
+W/ContextImpl(  484): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.hideSoftInput:1843 com.android.internal.view.IInputMethodManager$Stub.onTransact:194 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  484): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 10688
+W/PhoneFallbackEventHandler(10688): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  484): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fleetcor.prepaidcard/.SplashActivity} from pid 10524
+I/AndroidRuntime(10524): VM exiting with result code 0.

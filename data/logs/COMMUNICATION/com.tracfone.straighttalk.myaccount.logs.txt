@@ -1,0 +1,1252 @@
+--------- beginning of /dev/log/main
+I/Icing   (  720): Indexing 9EBFE84EABD9270B25A97439CA522B4FC49A4875 from com.google.android.gms
+I/Icing   (  720): Indexing done 9EBFE84EABD9270B25A97439CA522B4FC49A4875
+D/AndroidRuntime(10643): 
+D/AndroidRuntime(10643): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(10643): CheckJNI is OFF
+D/dalvikvm(10643): Using executionMode 2
+D/dalvikvm(10643): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(10643): Added shared lib libjavacore.so 0x0
+D/dalvikvm(10643): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(10643): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(10643): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(10643): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(10643): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(10643): failed to load memtrack module: -2
+D/AndroidRuntime(10643): Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of /dev/log/system
+W/BroadcastQueue(  470): Skipping deliver [background] BroadcastRecord{4ac72c3c u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4ae44aa4 10643 (unknown name)/0/u-1 remote:4abeabc8}: process crashing
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+I/ActivityManager(  470): Start proc com.tracfone.straighttalk.myaccount for activity com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity: pid=10653 uid=10056 gids={50056, 3003, 1028}
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10056, 1) failed with errno -13
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10012, 0) failed with errno -13
+I/Finsky  (  965): [1] com.google.android.finsky.cg.a.onTrimMemory(5): Memory trim requested to level 20
+I/dalvikvm(10653): ignoring registerObject request in thread=1
+I/Finsky  (  965): [1] com.google.android.finsky.cg.a.onTrimMemory(11): Flushing in-memory image cache
+I/dalvikvm(10653): ignoring registerObject request in thread=1
+I/dalvikvm(10653): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.zze.zzi
+W/dalvikvm(10653): VFY: unable to resolve virtual method 632: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x000a
+I/GMPM    (10653): App measurement is starting up, version: 8487
+I/GMPM    (10653): To enable debug logging run: adb shell setprop log.tag.GMPM VERBOSE
+E/GMPM    (10653): GoogleService failed to initialize, status: 10, Missing an expected resource: 'R.string.google_app_id' for initializing Google services.  Possible causes are missing google-services.json or com.google.gms.google-services gradle plugin.
+E/GMPM    (10653): Scheduler not set. Not logging error/warn.
+D/dalvikvm(10653): JIT code cache reset in 0 ms (0 bytes 1/0)
+D/dalvikvm(10653): GC_CONCURRENT freed 221K, 10% free 2954K/3248K, paused 2ms+6ms, total 11ms
+E/GMPM    (10653): Uploading is not possible. App measurement disabled
+D/dalvikvm(10653): GC_CONCURRENT freed 211K, 8% free 3141K/3408K, paused 3ms+0ms, total 7ms
+D/dalvikvm(10653): GC_CONCURRENT freed 161K, 7% free 3485K/3716K, paused 2ms+0ms, total 8ms
+D/dalvikvm(10653): WAIT_FOR_CONCURRENT_GC blocked 2ms
+I/CrashlyticsCore(10653): Initializing Crashlytics 2.3.10.127
+I/dalvikvm(10653): Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method com.google.android.gms.common.GooglePlayServicesUtil.zza
+W/dalvikvm(10653): VFY: unable to resolve virtual method 284: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0100
+D//SpiceManager.java:212(10653): 23:23:03.040 main SpiceManager started.
+V//SpiceManager.java:1191(10653): 23:23:03.048 SpiceManagerThread 0 Binding to service.
+D/dalvikvm(10653): GC_CONCURRENT freed 179K, 7% free 3707K/3964K, paused 2ms+1ms, total 6ms
+V//SpiceManager.java:1197(10653): 23:23:03.051 SpiceManagerThread 0 Binding to service succeeded.
+D//SpiceManager.java:1245(10653): 23:23:03.052 SpiceManagerThread 0 Waiting for service to be bound.
+I/dalvikvm(10653): Could not find method android.content.Context.getNoBackupFilesDir, referenced from method com.urbanairship.util.DataManager.migrateDatabase
+W/dalvikvm(10653): VFY: unable to resolve virtual method 467: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x001f
+D/dalvikvm(10653): GC_CONCURRENT freed 316K, 10% free 3777K/4164K, paused 2ms+2ms, total 6ms
+I/dalvikvm(10653): Could not find method android.content.Context.checkSelfPermission, referenced from method com.urbanairship.actions.Action.requestPermissions
+W/dalvikvm(10653): VFY: unable to resolve virtual method 444: Landroid/content/Context;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0010
+I/dalvikvm(10653): Could not find method com.tracfone.generic.myaccountcommonui.activity.LaunchActivity.shouldShowRequestPermissionRationale, referenced from method com.tracfone.generic.myaccountcommonui.activity.LaunchActivity.onRequestPermissionsResult
+W/dalvikvm(10653): VFY: unable to resolve virtual method 51089: Lcom/tracfone/generic/myaccountcommonui/activity/LaunchActivity;.shouldShowRequestPermissionRationale (Ljava/lang/String;)Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0013
+W/dalvikvm(10653): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm(10653): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.WindowCallbackWrapper.onSearchRequested
+W/dalvikvm(10653): VFY: unable to resolve interface method 19229: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm(10653): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm(10653): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.WindowCallbackWrapper.onWindowStartingActionMode
+W/dalvikvm(10653): VFY: unable to resolve interface method 19233: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm(10653): VFY: replacing opcode 0x72 at 0x0002
+D/dalvikvm(10653): GC_FOR_ALLOC freed 847K, 22% free 3288K/4204K, paused 3ms, total 3ms
+I/dalvikvm-heap(10653): Grow heap (frag case) to 4.589MB for 1382412-byte allocation
+D/dalvikvm(10653): GC_FOR_ALLOC freed 2K, 17% free 4635K/5556K, paused 4ms, total 4ms
+D/dalvikvm(10653): GC_CONCURRENT freed 2K, 17% free 4633K/5556K, paused 2ms+1ms, total 5ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 9K, 16% free 4701K/5556K, paused 5ms, total 5ms
+I/dalvikvm-heap(10653): Grow heap (frag case) to 4.659MB for 7500-byte allocation
+D/dalvikvm(10653): GC_FOR_ALLOC freed 1K, 16% free 4707K/5564K, paused 4ms, total 4ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 2K, 16% free 4708K/5564K, paused 3ms, total 3ms
+I/dalvikvm-heap(10653): Grow heap (frag case) to 4.666MB for 7500-byte allocation
+D/dalvikvm(10653): GC_FOR_ALLOC freed <1K, 16% free 4715K/5572K, paused 4ms, total 4ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 1K, 16% free 4715K/5572K, paused 3ms, total 3ms
+I/dalvikvm-heap(10653): Grow heap (frag case) to 4.671MB for 7500-byte allocation
+D/dalvikvm(10653): GC_FOR_ALLOC freed <1K, 16% free 4722K/5580K, paused 2ms, total 3ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed <1K, 16% free 4723K/5580K, paused 3ms, total 3ms
+I/dalvikvm-heap(10653): Grow heap (frag case) to 4.680MB for 7500-byte allocation
+D/dalvikvm(10653): GC_FOR_ALLOC freed <1K, 16% free 4730K/5588K, paused 2ms, total 3ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 4K, 16% free 4735K/5588K, paused 5ms, total 5ms
+I/dalvikvm-heap(10653): Grow heap (frag case) to 4.838MB for 162012-byte allocation
+D/dalvikvm(10653): GC_FOR_ALLOC freed <1K, 15% free 4892K/5748K, paused 3ms, total 3ms
+I/dalvikvm(10653): Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.widget.TintTypedArray.getChangingConfigurations
+W/dalvikvm(10653): VFY: unable to resolve virtual method 717: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm(10653): Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.widget.TintTypedArray.getType
+W/dalvikvm(10653): VFY: unable to resolve virtual method 739: Landroid/content/res/TypedArray;.getType (I)I
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0002
+I/GAv4    (10653): Google Analytics 8.4.87 is starting up. To enable debug logging on a device run:
+I/GAv4    (10653):   adb shell setprop log.tag.GAv4 DEBUG
+I/GAv4    (10653):   adb logcat -s GAv4
+W/GAv4    (10653): AnalyticsReceiver is not registered or is disabled. Register the receiver for reliable dispatching on non-Google Play devices. See http://goo.gl/8Rd3yj for instructions.
+D/dalvikvm(10653): GC_FOR_ALLOC freed 55K, 15% free 4938K/5748K, paused 6ms, total 6ms
+I/dalvikvm-heap(10653): Grow heap (frag case) to 4.899MB for 16396-byte allocation
+D/dalvikvm(10653): GC_FOR_ALLOC freed 1K, 15% free 4952K/5768K, paused 3ms, total 3ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 26K, 15% free 4937K/5768K, paused 5ms, total 5ms
+W/GAv4    (10653): CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+D/dalvikvm(10653): GC_FOR_ALLOC freed 151K, 15% free 4946K/5768K, paused 5ms, total 5ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 26K, 15% free 4946K/5768K, paused 4ms, total 4ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 25K, 15% free 4946K/5768K, paused 4ms, total 4ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 1K, 14% free 4962K/5768K, paused 6ms, total 6ms
+I/dalvikvm-heap(10653): Grow heap (frag case) to 4.922MB for 16396-byte allocation
+D/dalvikvm(10653): GC_FOR_ALLOC freed <1K, 14% free 4978K/5788K, paused 4ms, total 4ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 50K, 15% free 4947K/5788K, paused 3ms, total 3ms
+W/GAv4    (10653): AnalyticsService not registered in the app manifest. Hits might not be delivered reliably. See http://goo.gl/8Rd3yj for instructions.
+D/dalvikvm(10653): GC_FOR_ALLOC freed 57K, 15% free 4950K/5788K, paused 4ms, total 4ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 78K, 15% free 4962K/5788K, paused 3ms, total 4ms
+D//SpiceService.java:134(10653): 23:23:03.473 main SpiceService instance created.
+W/dalvikvm(10653): VFY: unable to find class referenced in signature (Lokhttp3/Request;)
+W/dalvikvm(10653): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(10653): Could not find method okhttp3.Response.headers, referenced from method empirical.HelperClass.printOkHttpInfo
+W/dalvikvm(10653): VFY: unable to resolve virtual method 62106: Lokhttp3/Response;.headers ()Lokhttp3/Headers;
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0006
+W/dalvikvm(10653): VFY: unable to find class referenced in signature (Lokhttp3/Call;)
+W/dalvikvm(10653): VFY: unable to find class referenced in signature (Lokhttp3/Response;)
+I/dalvikvm(10653): Could not find method okhttp3.Call.request, referenced from method empirical.HelperClass.printOkHttpInfoFromCall
+W/dalvikvm(10653): VFY: unable to resolve interface method 62100: Lokhttp3/Call;.request ()Lokhttp3/Request;
+D/dalvikvm(10653): VFY: replacing opcode 0x72 at 0x0006
+I/System.out(10653): body:<com.urbanairship.push.ChannelApiClient: void <init>(com.urbanairship.http.RequestFactory)>	sig:specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r6)	timediff:0
+I/System.out(10653): <com.urbanairship.push.ChannelApiClient: void <init>(com.urbanairship.http.RequestFactory)>###specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r6)###https://device-api.urbanairship.com/api/channels/
+I/System.out(10653): body:<com.urbanairship.push.ChannelApiClient: void <init>(com.urbanairship.http.RequestFactory)>	sig:specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r6)	timediff:0
+I/System.out(10653): <com.urbanairship.push.ChannelApiClient: void <init>(com.urbanairship.http.RequestFactory)>###specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r6)###https://device-api.urbanairship.com/api/channels/
+D/libEGL  (10653): loaded /system/lib/egl/libEGL_adreno.so
+D/        (10653): HostConnection::get() New Host Connection established 0xb8e0b720, tid 10653
+D/libEGL  (10653): loaded /system/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  (10653): loaded /system/lib/egl/libGLESv2_adreno.so
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+D/OpenGLRenderer(10653): Enabling debug mode 0
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SYM, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2787933, downTime=2787933, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MINUS, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2788839, downTime=2788839, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2788842, downTime=2788842, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2788843, downTime=2788843, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+D/dalvikvm(10653): GC_FOR_ALLOC freed 284K, 13% free 5080K/5788K, paused 4ms, total 5ms
+I/dalvikvm(10653): Could not find method android.content.Context.checkSelfPermission, referenced from method com.urbanairship.analytics.EventApiClient.getLocationPermission
+W/dalvikvm(10653): VFY: unable to resolve virtual method 444: Landroid/content/Context;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x000c
+I/System.out(10653): body:<com.urbanairship.push.ChannelApiClient: void <init>(com.urbanairship.http.RequestFactory)>	sig:specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r6)	timediff:0
+I/System.out(10653): <com.urbanairship.push.ChannelApiClient: void <init>(com.urbanairship.http.RequestFactory)>###specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r6)###https://device-api.urbanairship.com/api/channels/
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(10653): GC_FOR_ALLOC freed 66K, 13% free 5091K/5788K, paused 6ms, total 6ms
+I/dalvikvm-heap(10653): Grow heap (frag case) to 5.873MB for 881420-byte allocation
+D/dalvikvm(10653): GC_FOR_ALLOC freed <1K, 11% free 5951K/6652K, paused 3ms, total 3ms
+D/dalvikvm(10653): GC_CONCURRENT freed 4K, 11% free 5958K/6652K, paused 2ms+0ms, total 6ms
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(10653): <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.tracfone.straighttalk.myaccount/settings?instance=148591ab63992d6dbd401673546e9eae64a9b391&source=1&build_version=2203&icon_hash=1834bb5e50da0692e91184537b86ef51fe929690&display_version=R3.0.13
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r4 = virtualinvoke $r3.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r3.<java.net.URL: int getPort()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r4 = virtualinvoke $r3.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r3.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r8 = virtualinvoke $r3.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r6.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r4, $r1, $r7, $r8, null)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r8 = virtualinvoke $r6.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r4)	timediff:0
+I/System.out(10653): <io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r4)###https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.tracfone.straighttalk.myaccount/settings?instance=148591ab63992d6dbd401673546e9eae64a9b391&source=1&build_version=2203&icon_hash=1834bb5e50da0692e91184537b86ef51fe929690&display_version=R3.0.13
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:51
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.net.HttpURLConnection createConnection()>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest useCaches(boolean)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setUseCaches(boolean)>($z0)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest connectTimeout(int)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/ActivityManager(  470): Displayed com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity: +1s236ms (total +50s481ms)
+W/GLSActivity( 8384): Start intent without session
+D/dalvikvm(10653): GC_FOR_ALLOC freed 185K, 9% free 6212K/6788K, paused 3ms, total 12ms
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10007, 0) failed with errno -13
+E/FastMixer(  168): did not receive expected priority boost
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_L2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2789248, downTime=2789248, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2789257, downTime=2789257, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2789258, downTime=2789258, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2789262, downTime=2789262, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2789263, downTime=2789263, deviceId=-1, source=0x101 }
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALCULATOR]}} from pid 470
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aac895c attribute=android.view.inputmethod.EditorInfo@4b1b046c, token = android.os.BinderProxy@4aaf0064
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 470
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR]}} from pid 470
+I/ActivityManager(  470): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 10653
+W/PhoneFallbackEventHandler(10653): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+D/dalvikvm(10653): GC_CONCURRENT freed 378K, 8% free 6850K/7412K, paused 2ms+0ms, total 11ms
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: int code()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:729
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String header(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: int intHeader(java.lang.String,int)>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getHeaderFieldInt(java.lang.String,int)>($r1, $i0)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: int code()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.io.InputStream stream()>	sig:$r2 = virtualinvoke $r3.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): URLConn;%;0;%;<io.fabric.sdk.android.services.network.HttpRequest: java.io.InputStream stream()>;%;$r2 = virtualinvoke $r3.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://settings.crashlytics.com/spi/v2/platforms/android/apps/com.tracfone.straighttalk.myaccount/settings?instance=148591ab63992d6dbd401673546e9eae64a9b391&source=1&build_version=2203&icon_hash=1834bb5e50da0692e91184537b86ef51fe929690&display_version=R3.0.13;%;false;%;Not found;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String header(java.lang.String)>	sig:$r1 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getHeaderField(java.lang.String)>($r1)	timediff:0
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:12
+I/System.out(10653): <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###https://e.crashlytics.com/spi/v2/events
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r4 = virtualinvoke $r3.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r3.<java.net.URL: int getPort()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r4 = virtualinvoke $r3.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r3.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r8 = virtualinvoke $r3.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r6.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r4, $r1, $r7, $r8, null)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r8 = virtualinvoke $r6.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r4)	timediff:0
+I/System.out(10653): <io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r4)###https://e.crashlytics.com/spi/v2/events
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.net.HttpURLConnection createConnection()>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest useCaches(boolean)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setUseCaches(boolean)>($z0)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest connectTimeout(int)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest openOutput()>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest openOutput()>	sig:$r3 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+I/WearableService(  647): Wearable Services stopping
+W/InstanceID/Rpc(10653): Found 10007
+D/dalvikvm(10653): DexOpt: couldn't find field Landroid/os/Message;.sendingUid
+W/dalvikvm(10653): VFY: unable to resolve instance field 193
+D/dalvikvm(10653): VFY: replacing opcode 0x52 at 0x0000
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest openOutput()>	sig:$r4 = virtualinvoke $r2.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:308
+I/qtaguid (  647): Tagging socket 61 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  647): tagSocketFd(61, 805307399, -1) failed with errno-13
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: int code()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:81
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/System.out(10653): <io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r1)###https://e.crashlytics.com/spi/v2/events
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r4 = virtualinvoke $r3.<java.net.URL: java.lang.String getHost()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$i0 = virtualinvoke $r3.<java.net.URL: int getPort()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r4 = virtualinvoke $r3.<java.net.URL: java.lang.String getProtocol()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r7 = virtualinvoke $r3.<java.net.URL: java.lang.String getPath()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r8 = virtualinvoke $r3.<java.net.URL: java.lang.String getQuery()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:specialinvoke $r6.<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r4, $r1, $r7, $r8, null)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.lang.String encode(java.lang.CharSequence)>	sig:$r8 = virtualinvoke $r6.<java.net.URI: java.lang.String toASCIIString()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>	sig:specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r4)	timediff:0
+I/System.out(10653): <io.fabric.sdk.android.services.network.HttpRequest: void <init>(java.lang.CharSequence,java.lang.String)>###specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>($r4)###https://e.crashlytics.com/spi/v2/events
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest$ConnectionFactory$1: java.net.HttpURLConnection create(java.net.URL)>	sig:$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: java.net.HttpURLConnection createConnection()>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r3)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest useCaches(boolean)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setUseCaches(boolean)>($z0)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest connectTimeout(int)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i0)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest header(java.lang.String,java.lang.String)>	sig:virtualinvoke $r3.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r1, $r2)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest openOutput()>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest openOutput()>	sig:$r3 = virtualinvoke $r2.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest openOutput()>	sig:$r4 = virtualinvoke $r2.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:11
+I/System.out(10653): body:<io.fabric.sdk.android.services.network.HttpRequest: int code()>	sig:$i0 = virtualinvoke $r2.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:82
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+I/qtaguid (  647): Untagging socket 61 failed errno=-13
+W/NetworkManagementSocketTagger(  647): untagSocket(61) failed with errno -13
+W/InstanceID(10653): token: cQoai4-O6UI:APA91bEgIoSSweYwWUMMX94beaugkV4Rpt2oa_2_bGBh-WSIaCoBQ4EOZq2ehJmukWtJ_EKbdpHOVgUlMU-YcGwCJlyP_flXIgPVHwAlnDzTn17PoEExyqiIOzVKL8CwqEYxxRxvfKBb
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r7 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r6)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r6)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Authorization", $r13)	timediff:0
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_MUSIC]}} from pid 470
+D/dalvikvm(10653): GC_CONCURRENT freed 1152K, 15% free 6999K/8216K, paused 3ms+9ms, total 23ms
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r16 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:190
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$i2 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:117
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r13 = virtualinvoke $r8.<java.net.HttpURLConnection: java.lang.String getResponseMessage()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r9 = virtualinvoke $r8.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$l0 = virtualinvoke $r8.<java.net.HttpURLConnection: long getLastModified()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r18 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): URLConn;%;1;%;<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>;%;$r18 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://device-api.urbanairship.com/api/channels/;%;true;%;63;%;Not found;%;Not found;%;Not found;%;Not found
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.push.ChannelServiceDelegate: java.net.URL getChannelLocationUrl()>	sig:specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out(10653): <com.urbanairship.push.ChannelServiceDelegate: java.net.URL getChannelLocationUrl()>###specialinvoke $r4.<java.net.URL: void <init>(java.lang.String)>($r3)###https://device-api.urbanairship.com/api/channels/6ff85d87-b07a-4fa7-b29d-267bb7a54062
+I/System.out(10653): body:<com.urbanairship.richpush.RichPushUpdateService: java.net.URL getUserURL(java.lang.String,java.lang.Object[])>	sig:specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out(10653): <com.urbanairship.richpush.RichPushUpdateService: java.net.URL getUserURL(java.lang.String,java.lang.Object[])>###specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r3)###https://device-api.urbanairship.com/api/user/
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r7 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r6)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r6)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Authorization", $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.analytics.EventApiClient: com.urbanairship.analytics.EventResponse sendEvents(java.util.Collection)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r4)	timediff:0
+I/System.out(10653): <com.urbanairship.analytics.EventApiClient: com.urbanairship.analytics.EventResponse sendEvents(java.util.Collection)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r4)###https://combine.urbanairship.com/warp9/
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r16 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:11
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r7 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:16
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r6)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", $r6)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Encoding", "gzip")	timediff:0
+I/ActivityManager(  470): START u0 {act=android.intent.action.VIEW dat=https://www.straighttalk.com/wps/portal/home/h/mobileapps/mobileenduserlicenseagreement cmp=com.android.browser/.BrowserActivity (has extras)} from pid 10653
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r16 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()>()	timediff:144
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$i2 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:172
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r13 = virtualinvoke $r8.<java.net.HttpURLConnection: java.lang.String getResponseMessage()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r9 = virtualinvoke $r8.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$l0 = virtualinvoke $r8.<java.net.HttpURLConnection: long getLastModified()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r18 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): URLConn;%;2;%;<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>;%;$r18 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://device-api.urbanairship.com/api/user/;%;true;%;397;%;no-cache, no-store, must revalidate;%;Not found;%;Not found;%;Not found
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.richpush.RichPushUpdateService: java.net.URL getUserURL(java.lang.String,java.lang.Object[])>	sig:specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r3)	timediff:0
+I/System.out(10653): <com.urbanairship.richpush.RichPushUpdateService: java.net.URL getUserURL(java.lang.String,java.lang.Object[])>###specialinvoke $r7.<java.net.URL: void <init>(java.lang.String)>($r3)###https://device-api.urbanairship.com/api/user/ltR0PZfaTIuazSlizQxVrQ/messages/
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r7 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r6)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setUseCaches(boolean)>(0)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setAllowUserInteraction(boolean)>(0)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>($r6, $r13)	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Authorization", $r13)	timediff:0
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 470
+I/BANDWIDTHX(10653): Library build 2.2.19.247.20161117 instantiated for com.tracfone.straighttalk.myaccount at 23:23:06
+W/DebugConnManager(10653): getNetworkInfo() on networkType 1
+W/DebugConnManager(10653): getNetworkInfo() on networkType 1
+I/dalvikvm(10653): Could not find method android.os.PowerManager.isDeviceIdleMode, referenced from method com.bandwidthx.library.s.f
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1690: Landroid/os/PowerManager;.isDeviceIdleMode ()Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x001c
+W/dalvikvm(10653): VFY: warning: method is huge (regs=516 insnsSize=8431)
+W/dalvikvm(10653): VFY:  rejected Lcom/bandwidthx/library/bu;.a (Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Integer;)Ljava/lang/String;
+W/DebugConnManager(10653): getNetworkInfo() on networkType 1
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$i2 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:72
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r13 = virtualinvoke $r8.<java.net.HttpURLConnection: java.lang.String getResponseMessage()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r9 = virtualinvoke $r8.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$l0 = virtualinvoke $r8.<java.net.HttpURLConnection: long getLastModified()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r18 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): URLConn;%;3;%;<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>;%;$r18 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://combine.urbanairship.com/warp9/;%;true;%;Not found;%;max-age=0, no-cache, no-store;%;Tue, 17 Apr 2018 06:23:06 GMT;%;Not found;%;Not found
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+W/dalvikvm(10653): VFY: copy1 v19<-v194 type=2 cat=3
+W/dalvikvm(10653): VFY:  rejecting opcode 0x08 at 0x1c49
+W/dalvikvm(10653): VFY:  rejected Lcom/bandwidthx/library/bu;.a (Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Integer;)Ljava/lang/String;
+W/dalvikvm(10653): Verifier rejected class Lcom/bandwidthx/library/bu;
+W/DebugConnManager(10653): getNetworkInfo() on networkType 1
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$i2 = virtualinvoke $r8.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:82
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r13 = virtualinvoke $r8.<java.net.HttpURLConnection: java.lang.String getResponseMessage()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r9 = virtualinvoke $r8.<java.net.HttpURLConnection: java.util.Map getHeaderFields()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$l0 = virtualinvoke $r8.<java.net.HttpURLConnection: long getLastModified()>()	timediff:0
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:$r18 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): URLConn;%;4;%;<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>;%;$r18 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://device-api.urbanairship.com/api/user/ltR0PZfaTIuazSlizQxVrQ/messages/;%;false;%;Not found;%;no-cache, no-store, must revalidate;%;Not found;%;Not found;%;Not found
+I/System.out(10653): body:<com.urbanairship.http.Request: com.urbanairship.http.Response execute()>	sig:virtualinvoke $r8.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+D/dalvikvm(10653): GC_CONCURRENT freed 1226K, 16% free 7066K/8360K, paused 2ms+0ms, total 6ms
+I/BANDWIDTHX(10653): java.lang.VerifyError: com/bandwidthx/library/bu
+I/BANDWIDTHX(10653): 	at com.bandwidthx.library.ai.a(SourceFile:112)
+I/BANDWIDTHX(10653): 	at com.bandwidthx.library.ai.a(SourceFile:75)
+I/BANDWIDTHX(10653): 	at com.bandwidthx.library.ai.a(SourceFile:64)
+I/BANDWIDTHX(10653): 	at com.bandwidthx.library.BxLibrary.<init>(SourceFile:86)
+I/BANDWIDTHX(10653): 	at com.bandwidthx.library.BxLibrary.<init>(SourceFile:64)
+I/BANDWIDTHX(10653): 	at com.tracfone.generic.myaccountcommonui.BxUtilities.initBandWidthX(BxUtilities.java:40)
+I/BANDWIDTHX(10653): 	at com.tracfone.generic.myaccountcommonui.activity.LaunchActivity$1.onClick(LaunchActivity.java:156)
+I/BANDWIDTHX(10653): 	at android.view.View.performClick(View.java:4438)
+I/BANDWIDTHX(10653): 	at android.view.View.onKeyUp(View.java:8241)
+I/BANDWIDTHX(10653): 	at android.widget.TextView.onKeyUp(TextView.java:5628)
+I/BANDWIDTHX(10653): 	at android.view.KeyEvent.dispatch(KeyEvent.java:2664)
+I/BANDWIDTHX(10653): 	at android.view.View.dispatchKeyEvent(View.java:7665)
+I/BANDWIDTHX(10653): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1408)
+I/BANDWIDTHX(10653): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1408)
+I/BANDWIDTHX(10653): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1408)
+I/BANDWIDTHX(10653): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1408)
+I/BANDWIDTHX(10653): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1408)
+I/BANDWIDTHX(10653): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1408)
+I/BANDWIDTHX(10653): 	at com.android.internal.policy.impl.PhoneWindow$DecorView.superDispatchKeyEvent(PhoneWindow.java:2035)
+I/BANDWIDTHX(10653): 	at com.android.internal.policy.impl.PhoneWindow.superDispatchKeyEvent(PhoneWindow.java:1505)
+I/BANDWIDTHX(10653): 	at android.app.Activity.dispatchKeyEvent(Activity.java:2418)
+I/BANDWIDTHX(10653): 	at android.support.v7.view.WindowCallbackWrapper.dispatchKeyEvent(WindowCallbackWrapper.java:50)
+I/BANDWIDTHX(10653): 	at android.support.v7.app.AppCompatDelegateImplBase$AppCompatWindowCallbackBase.dispatchKeyEvent(AppCompatDelegateImplBase.java:224)
+I/BANDWIDTHX(10653): 	at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchKeyEvent(PhoneWindow.java:1962)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:3876)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3850)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3582)
+I/BANDWIDTHX(10653): 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:3742)
+I/BANDWIDTHX(10653): 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2010)
+I/BANDWIDTHX(10653): 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:1704)
+I/BANDWIDTHX(10653): 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:1695)
+I/BANDWIDTHX(10653): 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:1987)
+I/BANDWIDTHX(10653): 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+I/BANDWIDTHX(10653): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+I/BANDWIDTHX(10653): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+I/BANDWIDTHX(10653): 	at android.os.Looper.loop(Looper.java:123)
+I/BANDWIDTHX(10653): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+I/BANDWIDTHX(10653): 	at java.lang.reflect.Method.invokeNative(Native Method)
+I/BANDWIDTHX(10653): 	at java.lang.reflect.Method.invoke(Method.java:515)
+I/BANDWIDTHX(10653): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+I/BANDWIDTHX(10653): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+I/BANDWIDTHX(10653): 	at da
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2791264, downTime=2791264, deviceId=-1, source=0x101 }
+I/System.out(10653): body:<com.tracfone.generic.myaccountlibrary.GlobalLibraryValues: java.lang.String getDeviceModel()>	sig:$r2 = staticinvoke <java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>($r2, "UTF-8")	timediff:0
+I/System.out(10653): body:<com.tracfone.generic.myaccountlibrary.restserviceconnection.HttpsEstablishProdutionServerConnection: javax.net.ssl.HttpsURLConnection SetupConnection(java.lang.String)>	sig:specialinvoke $r8.<java.net.URL: void <init>(java.lang.String)>($r1)	timediff:0
+I/qtaguid (  647): Tagging socket 61 with tag 3000040700000000(805307399) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  647): tagSocketFd(61, 805307399, -1) failed with errno-13
+I/System.out(10653): <com.tracfone.generic.myaccountlibrary.restserviceconnection.HttpsEstablishProdutionServerConnection: javax.net.ssl.HttpsURLConnection SetupConnection(java.lang.String)>###specialinvoke $r8.<java.net.URL: void <init>(java.lang.String)>($r1)###https://apifull.tracfone.com/oauth/cc
+I/System.out(10653): body:<com.tracfone.generic.myaccountlibrary.restserviceconnection.HttpsEstablishProdutionServerConnection: javax.net.ssl.HttpsURLConnection SetupConnection(java.lang.String)>	sig:$r9 = virtualinvoke $r8.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+I/System.out(10653): body:<com.tracfone.generic.myaccountlibrary.restserviceconnection.HttpsEstablishProdutionServerConnection: javax.net.ssl.HttpsURLConnection SetupConnection(java.lang.String)>	sig:virtualinvoke $r7.<javax.net.ssl.HttpsURLConnection: void setConnectTimeout(int)>(60000)	timediff:0
+I/System.out(10653): body:<com.tracfone.generic.myaccountlibrary.restserviceconnection.HttpsEstablishProdutionServerConnection: javax.net.ssl.HttpsURLConnection SetupConnection(java.lang.String)>	sig:virtualinvoke $r7.<javax.net.ssl.HttpsURLConnection: void setReadTimeout(int)>(40000)	timediff:0
+I/System.out(10653): body:<com.tracfone.generic.myaccountlibrary.oauth2serviceconnection.Connection: com.tracfone.generic.myaccountlibrary.oauth2serviceconnection.Response httpPostRequest(java.util.HashMap,java.lang.String)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>("POST")	timediff:0
+I/System.out(10653): body:<com.tracfone.generic.myaccountlibrary.oauth2serviceconnection.Connection: com.tracfone.generic.myaccountlibrary.oauth2serviceconnection.Response httpPostRequest(java.util.HashMap,java.lang.String)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setDoInput(boolean)>(1)	timediff:0
+I/System.out(10653): body:<com.tracfone.generic.myaccountlibrary.oauth2serviceconnection.Connection: com.tracfone.generic.myaccountlibrary.oauth2serviceconnection.Response httpPostRequest(java.util.HashMap,java.lang.String)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setDoOutput(boolean)>(1)	timediff:0
+I/System.out(10653): body:<com.tracfone.generic.myaccountlibrary.oauth2serviceconnection.Connection: com.tracfone.generic.myaccountlibrary.oauth2serviceconnection.Response httpPostRequest(java.util.HashMap,java.lang.String)>	sig:virtualinvoke $r4.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/x-www-form-urlencoded")	timediff:0
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2791273, downTime=2791273, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2791328, downTime=2791328, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2791329, downTime=2791329, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_PAGE_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2791329, downTime=2791329, deviceId=-1, source=0x101 }
+V/FlingTracker(  527): computeCurrentVelocity warning: totalweight=0
+V/FlingTracker(  527): java.lang.Throwable
+V/FlingTracker(  527): 	at com.android.systemui.statusbar.phone.PanelView$FlingTracker.computeCurrentVelocity(PanelView.java:162)
+V/FlingTracker(  527): 	at com.android.systemui.statusbar.phone.PanelView$3.onTouch(PanelView.java:462)
+V/FlingTracker(  527): 	at android.view.View.dispatchTouchEvent(View.java:7701)
+V/FlingTracker(  527): 	at com.android.systemui.statusbar.phone.NotificationPanelView.onTouchEvent(NotificationPanelView.java:138)
+V/FlingTracker(  527): 	at com.android.systemui.statusbar.phone.PanelBar.onTouchEvent(PanelBar.java:130)
+V/FlingTracker(  527): 	at com.android.systemui.statusbar.phone.PhoneStatusBarView.onTouchEvent(PhoneStatusBarView.java:201)
+V/FlingTracker(  527): 	at android.view.View.dispatchTouchEvent(View.java:7706)
+V/FlingTracker(  527): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2210)
+V/FlingTracker(  527): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1945)
+V/FlingTracker(  527): 	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2216)
+V/FlingTracker(  527): 	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:1959)
+V/FlingTracker(  527): 	at android.view.View.dispatchPointerEvent(View.java:7886)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:3978)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3857)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3549)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3606)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3473)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3442)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3450)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3423)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:5626)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:5606)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:5577)
+V/FlingTracker(  527): 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:5706)
+V/FlingTracker(  527): 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+V/FlingTracker(  527): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+V/FlingTracker(  527): 	at android.os.MessageQueue.next(MessageQueue.java:138)
+V/FlingTracker(  527): 	at android.os.Looper.loop(Looper.java:123)
+V/FlingTracker(  527): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+V/FlingTracker(  527): 	at java.lang.reflect.Method.invokeNative(Native Method)
+V/FlingTracker(  527): 	at java.lang.reflect.Method.invoke(Method.java:515)
+V/FlingTracker(  527): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+V/FlingTracker(  527): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+V/FlingTracker(  527): 	at dalvik.system.NativeStart.main(Native Method)
+V/PanelView(  527): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_LEFT_PAREN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2791330, downTime=2791330, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2791332, downTime=2791332, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2791335, downTime=2791335, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/qtaguid (  647): Untagging socket 61 failed errno=-13
+W/NetworkManagementSocketTagger(  647): untagSocket(61) failed with errno -13
+E/        (10653): An exception occurred during request network execution :Connection closed by peer
+E/        (10653): javax.net.ssl.SSLException: Connection closed by peer
+E/        (10653): 	at com.android.org.conscrypt.NativeCrypto.SSL_do_handshake(Native Method)
+E/        (10653): 	at com.android.org.conscrypt.OpenSSLSocketImpl.startHandshake(OpenSSLSocketImpl.java:405)
+E/        (10653): 	at com.android.okhttp.Connection.upgradeToTls(Connection.java:146)
+E/        (10653): 	at com.android.okhttp.Connection.connect(Connection.java:107)
+E/        (10653): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+E/        (10653): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+E/        (10653): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+E/        (10653): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+E/        (10653): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+E/        (10653): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:197)
+E/        (10653): 	at com.android.okhttp.internal.http.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:254)
+E/        (10653): 	at com.tracfone.generic.myaccountlibrary.oauth2serviceconnection.Connection.httpPostRequest(Connection.java:77)
+E/        (10653): 	at com.tracfone.generic.myaccountlibrary.oauth2serviceconnection.OAuth.executeCCUAccessTokenRequest(OAuth.java:80)
+E/        (10653): 	at com.tracfone.generic.myaccountlibrary.oauth2serviceconnection.OAuth.requestCCUToken(OAuth.java:239)
+E/        (10653): 	at com.tracfone.generic.myaccountlibrary.restserviceconnection.SetupHttpURLConnection.executeCCURequest(SetupHttpURLConnection.java:109)
+E/        (10653): 	at com.tracfone.generic.myaccountlibrary.restserviceconnection.SetupHttpURLConnection.executeRequest(SetupHttpURLConnection.java:70)
+E/        (10653): 	at com.tracfone.generic.myaccountlibrary.restrequest.AppSupportVersionsRequest.loadDataFromNetwork(AppSupportVersionsRequest.java:54)
+E/        (10653): 	at com.tracfone.generic.myaccountlibrary.restrequest.AppSupportVersionsRequest.loadDataFromNetwork(AppSupportVersionsRequest.java:28)
+E/        (10653): 	at com.octo.android.robospice.request.CachedSpiceRequest.loadDataFromNetwork(CachedSpiceRequest.java:48)
+E/        (10653): 	at com.octo.android.robospice.request.DefaultRequestRunner.processRequest(DefaultRequestRunner.java:150)
+E/        (10653): 	at com.octo.android.robospice.request.DefaultRequestRunner$1.run(DefaultRequestRunner.java:217)
+E/        (10653): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+E/        (10653): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+E/        (10653): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+E/        (10653): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+E/        (10653): 	at java.lang.Thread.run(Thread.java:841)
+I/Choreographer(  470): Skipped 34 frames!  The application may be doing too much work on its main thread.
+W/EGL_emulation( 5430): eglSurfaceAttrib not implemented 3093 12436
+I/Choreographer(10653): Skipped 45 frames!  The application may be doing too much work on its main thread.
+I/dalvikvm(10653): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method jwn.createCredentialProtectedStorageContext
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1708: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10653): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(10653): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method jwn.createDeviceProtectedStorageContext
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1709: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10653): VFY: replacing opcode 0x6f at 0x0002
+D/dalvikvm(10653): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm(10653): VFY: unable to resolve static field 918 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm(10653): VFY: replacing opcode 0x62 at 0x0008
+D/dalvikvm(10653): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm(10653): VFY: unable to resolve static field 918 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm(10653): VFY: replacing opcode 0x62 at 0x0097
+D/dalvikvm(10653): DexOpt: couldn't find field Landroid/content/pm/ApplicationInfo;.splitSourceDirs
+W/dalvikvm(10653): VFY: unable to resolve instance field 849
+D/dalvikvm(10653): VFY: replacing opcode 0x54 at 0x0053
+D/dalvikvm(10653): DexOpt: couldn't find field Landroid/content/pm/ApplicationInfo;.splitSourceDirs
+I/dalvikvm(10653): DexOpt: unable to optimize instance field ref 0x0351 at 0x57 in Lkgr;.d
+I/dalvikvm(10653): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createCredentialProtectedStorageContext
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1708: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10653): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(10653): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method com.google.android.chimera.ModuleContext.createDeviceProtectedStorageContext
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1709: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10653): VFY: replacing opcode 0x6f at 0x0002
+W/dalvikvm(10653): VFY: unable to find class referenced in signature (Larql;)
+I/dalvikvm(10653): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method kel.d
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1689: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm(10653): Could not find method android.os.UserHandle.isOwner, referenced from method kel.i
+W/dalvikvm(10653): VFY: unable to resolve virtual method 2304: Landroid/os/UserHandle;.isOwner ()Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x000a
+I/dalvikvm(10653): Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method jkx.a
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1659: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0029
+I/dalvikvm(10653): Could not find method android.content.Context.getSystemService, referenced from method jkx.b
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1684: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x000b
+D/dalvikvm(10653): Trying to load lib /data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so 0x953b2b38
+D/dalvikvm(10653): Added shared lib /data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so 0x953b2b38
+D/dalvikvm(10653): No JNI_OnLoad found in /data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so 0x953b2b38, skipping init
+I/dalvikvm(10653): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method kkc.a
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1808: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x002d
+I/ActivityManager(  470): START u0 {flg=0x14000000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.HomeActivity (has extras)} from pid 10653
+W/SurfaceFlinger(  165): couldn't log to binary event log: overflow.
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(10653): Trying to load lib /data/data/com.google.android.gms/app_extracted_libs/x86/libconscrypt_gmscore_jni.so 0x953b2b38
+D/dalvikvm(10653): Added shared lib /data/data/com.google.android.gms/app_extracted_libs/x86/libconscrypt_gmscore_jni.so 0x953b2b38
+V/NativeCrypto(10653): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 276 native methods...
+E/dalvikvm(10653): Could not find class 'javax.net.ssl.SNIServerName', referenced from method com.google.android.gms.org.conscrypt.Platform.getSniHostnameFromParams
+W/dalvikvm(10653): VFY: unable to resolve check-cast 2222 (Ljavax/net/ssl/SNIServerName;) in Lcom/google/android/gms/org/conscrypt/Platform;
+D/dalvikvm(10653): VFY: replacing opcode 0x1f at 0x0025
+E/dalvikvm(10653): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.setParametersSniHostname
+W/dalvikvm(10653): VFY: unable to resolve new-instance 2221 (Ljavax/net/ssl/SNIHostName;) in Lcom/google/android/gms/org/conscrypt/Platform;
+D/dalvikvm(10653): VFY: replacing opcode 0x22 at 0x0024
+E/dalvikvm(10653): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.setParametersSniHostname
+W/dalvikvm(10653): VFY: unable to resolve new-instance 2221 (Ljavax/net/ssl/SNIHostName;) in Lcom/google/android/gms/org/conscrypt/Platform;
+D/dalvikvm(10653): VFY: replacing opcode 0x22 at 0x0024
+W/dalvikvm(10653): Unable to resolve superclass of Lcom/google/android/gms/org/conscrypt/DelegatingExtendedSSLSession; (2212)
+W/dalvikvm(10653): Link of class 'Lcom/google/android/gms/org/conscrypt/DelegatingExtendedSSLSession;' failed
+E/dalvikvm(10653): Could not find class 'com.google.android.gms.org.conscrypt.DelegatingExtendedSSLSession', referenced from method com.google.android.gms.org.conscrypt.Platform.unwrapSSLSession
+W/dalvikvm(10653): VFY: unable to resolve instanceof 1304 (Lcom/google/android/gms/org/conscrypt/DelegatingExtendedSSLSession;) in Lcom/google/android/gms/org/conscrypt/Platform;
+D/dalvikvm(10653): VFY: replacing opcode 0x20 at 0x0007
+W/dalvikvm(10653): Unable to resolve superclass of Lcom/google/android/gms/org/conscrypt/DelegatingExtendedSSLSession; (2212)
+W/dalvikvm(10653): Link of class 'Lcom/google/android/gms/org/conscrypt/DelegatingExtendedSSLSession;' failed
+E/dalvikvm(10653): Could not find class 'com.google.android.gms.org.conscrypt.DelegatingExtendedSSLSession', referenced from method com.google.android.gms.org.conscrypt.Platform.wrapSSLSession
+W/dalvikvm(10653): VFY: unable to resolve new-instance 1304 (Lcom/google/android/gms/org/conscrypt/DelegatingExtendedSSLSession;) in Lcom/google/android/gms/org/conscrypt/Platform;
+D/dalvikvm(10653): VFY: replacing opcode 0x22 at 0x0007
+D/dalvikvm(10653): DexOpt: unable to opt direct call 0x3096 at 0x2a in Lcom/google/android/gms/org/conscrypt/Platform;.setParametersSniHostname
+D/dalvikvm(10653): DexOpt: unable to opt direct call 0x3096 at 0x2a in Lcom/google/android/gms/org/conscrypt/Platform;.setParametersSniHostname
+W/dalvikvm(10653): Unable to resolve superclass of Lcom/google/android/gms/org/conscrypt/DelegatingExtendedSSLSession; (2212)
+W/dalvikvm(10653): Link of class 'Lcom/google/android/gms/org/conscrypt/DelegatingExtendedSSLSession;' failed
+D/dalvikvm(10653): DexOpt: unable to opt direct call 0x1b67 at 0x09 in Lcom/google/android/gms/org/conscrypt/Platform;.wrapSSLSession
+D/dalvikvm(10653): GC_CONCURRENT freed 1062K, 13% free 7362K/8436K, paused 1ms+0ms, total 11ms
+D/dalvikvm(10653): Trying to load lib /data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so 0x953b2b38
+D/dalvikvm(10653): Shared lib '/data/data/com.google.android.gms/app_extracted_libs/x86/libgmscore.so' already loaded in same CL 0x953b2b38
+D/dalvikvm(10653): Trying to load lib /data/data/com.google.android.gms/app_extracted_libs/x86/libconscrypt_gmscore_jni.so 0x953b2b38
+D/dalvikvm(10653): Shared lib '/data/data/com.google.android.gms/app_extracted_libs/x86/libconscrypt_gmscore_jni.so' already loaded in same CL 0x953b2b38
+I/ProviderInstaller(10653): Installed default security provider GmsCore_OpenSSL
+I/dalvikvm(10653): Could not find method android.view.Window.setStatusBarColor, referenced from method com.tracfone.generic.myaccountcommonui.activity.BaseUIActivity.setActionBarToolBar
+W/dalvikvm(10653): VFY: unable to resolve virtual method 19249: Landroid/view/Window;.setStatusBarColor (I)V
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0061
+V/Sizes   (10653): accountItems 11 images 11
+I/ActivityManager(  470): START u0 {flg=0x14000000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LoginPopupActivity (has extras)} from pid 10653
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10012, 1) failed with errno -13
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10007, 1) failed with errno -13
+I/dalvikvm(10653): Could not find method android.hardware.fingerprint.FingerprintManager.isHardwareDetected, referenced from method com.tracfone.generic.myaccountcommonui.activity.LoginPopupActivity.checkTouchHardware
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1136: Landroid/hardware/fingerprint/FingerprintManager;.isHardwareDetected ()Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0010
+I/dalvikvm(10653): Could not find method android.hardware.fingerprint.FingerprintManager.hasEnrolledFingerprints, referenced from method com.tracfone.generic.myaccountcommonui.activity.LoginPopupActivity.checkUserHasFingerprintsEnrolled
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1135: Landroid/hardware/fingerprint/FingerprintManager;.hasEnrolledFingerprints ()Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0012
+E/dalvikvm(10653): Could not find class 'android.security.keystore.KeyGenParameterSpec$Builder', referenced from method com.tracfone.generic.myaccountcommonui.activity.LoginPopupActivity.createKey
+W/dalvikvm(10653): VFY: unable to resolve new-instance 328 (Landroid/security/keystore/KeyGenParameterSpec$Builder;) in Lcom/tracfone/generic/myaccountcommonui/activity/LoginPopupActivity;
+D/dalvikvm(10653): VFY: replacing opcode 0x22 at 0x0016
+E/dalvikvm(10653): Could not find class 'android.hardware.fingerprint.FingerprintManager', referenced from method com.tracfone.generic.myaccountcommonui.activity.LoginPopupActivity.onCreate
+W/dalvikvm(10653): VFY: unable to resolve check-cast 202 (Landroid/hardware/fingerprint/FingerprintManager;) in Lcom/tracfone/generic/myaccountcommonui/activity/LoginPopupActivity;
+D/dalvikvm(10653): VFY: replacing opcode 0x1f at 0x00d8
+W/dalvikvm(10653): Unable to resolve superclass of Lcom/tracfone/generic/myaccountcommonui/activity/LoginPopupActivity$1; (199)
+W/dalvikvm(10653): Link of class 'Lcom/tracfone/generic/myaccountcommonui/activity/LoginPopupActivity$1;' failed
+W/dalvikvm(10653): Unable to resolve superclass of Lcom/tracfone/generic/myaccountcommonui/activity/LoginPopupActivity$1; (199)
+W/dalvikvm(10653): Link of class 'Lcom/tracfone/generic/myaccountcommonui/activity/LoginPopupActivity$1;' failed
+E/dalvikvm(10653): Could not find class 'android.hardware.fingerprint.FingerprintManager$CryptoObject', referenced from method com.tracfone.generic.myaccountcommonui.activity.LoginPopupActivity.touchIDLoginInit
+W/dalvikvm(10653): VFY: unable to resolve new-instance 201 (Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;) in Lcom/tracfone/generic/myaccountcommonui/activity/LoginPopupActivity;
+D/dalvikvm(10653): VFY: replacing opcode 0x22 at 0x0008
+D/dalvikvm(10653): DexOpt: unable to opt direct call 0x06f2 at 0x1b in Lcom/tracfone/generic/myaccountcommonui/activity/LoginPopupActivity;.createKey
+D/dalvikvm(10653): DexOpt: unable to opt direct call 0x0469 at 0x0e in Lcom/tracfone/generic/myaccountcommonui/activity/LoginPopupActivity;.touchIDLoginInit
+W/dalvikvm(10653): Unable to resolve superclass of Lcom/tracfone/generic/myaccountcommonui/activity/LoginPopupActivity$1; (199)
+W/dalvikvm(10653): Link of class 'Lcom/tracfone/generic/myaccountcommonui/activity/LoginPopupActivity$1;' failed
+D/dalvikvm(10653): DexOpt: unable to opt direct call 0xc799 at 0x39 in Lcom/tracfone/generic/myaccountcommonui/activity/LoginPopupActivity;.touchIDLoginInit
+W/EGL_emulation( 8384): eglSurfaceAttrib not implemented 3093 12436
+I/System.out(10653): body:<com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>	sig:specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r5)	timediff:0
+I/System.out(10653): <com.facebook.GraphRequest: java.net.HttpURLConnection toHttpConnection(com.facebook.GraphRequestBatch)>###specialinvoke $r3.<java.net.URL: void <init>(java.lang.String)>($r5)###https://graph.facebook.com/v2.6/541789772629951?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_content%2Cgdpv4_nux_enabled%2Cgdpv4_chrome_custom_tabs_enabled%2Candroid_dialog_configs%2Candroid_sdk_error_categories%2Capp_events_session_timeout&format=json&sdk=android
+I/System.out(10653): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:$r1 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>()	timediff:0
+W/EGL_emulation(  965): eglSurfaceAttrib not implemented 3093 12436
+I/System.out(10653): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("User-Agent", $r3)	timediff:0
+I/System.out(10653): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Accept-Language", $r3)	timediff:0
+I/System.out(10653): body:<com.facebook.GraphRequest: java.net.HttpURLConnection createConnection(java.net.URL)>	sig:virtualinvoke $r2.<java.net.HttpURLConnection: void setChunkedStreamingMode(int)>(0)	timediff:0
+D/emuglGLESv2_enc(  965): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+I/System.out(10653): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>($r9)	timediff:0
+I/System.out(10653): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Type", "application/x-www-form-urlencoded")	timediff:0
+I/System.out(10653): body:<com.facebook.GraphRequest: void setConnectionContentType(java.net.HttpURLConnection,boolean)>	sig:virtualinvoke $r0.<java.net.HttpURLConnection: void setRequestProperty(java.lang.String,java.lang.String)>("Content-Encoding", "gzip")	timediff:0
+I/System.out(10653): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r10 = virtualinvoke $r1.<java.net.HttpURLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(10653): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r9 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestMethod()>()	timediff:0
+I/System.out(10653): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r9 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("User-Agent")	timediff:0
+I/System.out(10653): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:$r9 = virtualinvoke $r1.<java.net.HttpURLConnection: java.lang.String getRequestProperty(java.lang.String)>("Content-Type")	timediff:0
+I/System.out(10653): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setConnectTimeout(int)>($i2)	timediff:0
+I/System.out(10653): body:<com.facebook.GraphRequest: void serializeToUrlConnection(com.facebook.GraphRequestBatch,java.net.HttpURLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void setReadTimeout(int)>($i2)	timediff:0
+D/emuglGLESv2_enc(  965): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  965): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  965): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  965): #04  pc 000bf823  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  965): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  965): Function is unsupported
+D/emuglGLESv2_enc(  965): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  965): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  965): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  965): #03  pc 000bc4bf  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  965): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  965): Function is unsupported
+D/dalvikvm(  470): GC_EXPLICIT freed 3884K, 47% free 16745K/31224K, paused 1ms+9ms, total 69ms
+D/dalvikvm(10653): GC_CONCURRENT freed 684K, 9% free 8089K/8844K, paused 3ms+1ms, total 13ms
+W/Herrevad(  720): [121] rqj.a: On wifi, but couldn't get security type
+W/DebugConnManager(  720): getNetworkInfo() on networkType 0
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+I/System.out(10653): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$i0 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:194
+I/System.out(10653): body:<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>	sig:$r5 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:$r0 = virtualinvoke urlConnection.<java.net.URLConnection: java.net.URL getURL()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:urlString = virtualinvoke $r0.<java.net.URL: java.lang.String toString()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: void printURLInfo(java.lang.String,java.lang.String,java.net.URLConnection)>	sig:isDoOutput = virtualinvoke urlConnection.<java.net.URLConnection: boolean getDoOutput()>()	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): body:<empirical.HelperClass: java.lang.String getHeaderField(java.net.URLConnection,java.lang.String)>	sig:data = virtualinvoke conn.<java.net.URLConnection: java.lang.String getHeaderField(java.lang.String)>(field)	timediff:0
+I/System.out(10653): URLConn;%;5;%;<com.facebook.GraphResponse: java.util.List fromHttpConnection(java.net.HttpURLConnection,com.facebook.GraphRequestBatch)>;%;$r5 = virtualinvoke $r0.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>();%;https://graph.facebook.com/v2.6/541789772629951?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_content%2Cgdpv4_nux_enabled%2Cgdpv4_chrome_custom_tabs_enabled%2Candroid_dialog_configs%2Candroid_sdk_error_categories%2Capp_events_session_timeout&format=json&sdk=android;%;false;%;Not found;%;private, no-cache, no-store, must-revalidate;%;Sat, 01 Jan 2000 00:00:00 GMT;%;Not found;%;Not found
+I/System.out(10653): body:<com.facebook.GraphResponse: java.util.List createResponsesFromObject(java.net.HttpURLConnection,java.util.List,java.lang.Object)>	sig:$i0 = virtualinvoke $r0.<java.net.HttpURLConnection: int getResponseCode()>()	timediff:0
+I/System.out(10653): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+I/System.out(10653): body:<com.facebook.internal.Utility: void disconnectQuietly(java.net.URLConnection)>	sig:virtualinvoke $r1.<java.net.HttpURLConnection: void disconnect()>()	timediff:0
+E/Herrevad(  720): [928] RemoteReportsRefreshChimeraService.a: want to send authenticated request, but no Google account on device
+I/qtaguid (  720): Tagging socket 87 with tag 3000130100000000(805311233) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  720): tagSocketFd(87, 805311233, -1) failed with errno-13
+I/qtaguid (  720): Untagging socket 87 failed errno=-13
+W/NetworkManagementSocketTagger(  720): untagSocket(87) failed with errno -13
+E/Volley  (  720): [82] BasicNetwork.performRequest: Unexpected response code 307 for https://android.googleapis.com/nova/herrevad/network_quality_info
+W/Herrevad(  720): [928] RemoteReportsRefreshChimeraService.a: java.util.concurrent.ExecutionException: com.android.volley.ServerError
+W/Herrevad(  720): java.util.concurrent.ExecutionException: com.android.volley.ServerError
+W/Herrevad(  720): 	at com.android.volley.toolbox.RequestFuture.a(:com.google.android.gms@11951070:4)
+W/Herrevad(  720): 	at com.android.volley.toolbox.RequestFuture.get(:com.google.android.gms@11951070:2)
+W/Herrevad(  720): 	at com.google.android.gms.herrevad.services.RemoteReportsRefreshChimeraService.a(:com.google.android.gms@11951070:25)
+W/Herrevad(  720): 	at com.google.android.gms.herrevad.services.ImmediateRemoteReportsRefreshChimeraService.onHandleIntent(:com.google.android.gms@11951070)
+W/Herrevad(  720): 	at cpf.handleMessage(:com.google.android.gms@11951070)
+W/Herrevad(  720): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/Herrevad(  720): 	at android.os.Looper.loop(Looper.java:136)
+W/Herrevad(  720): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/Herrevad(  720): Caused by: com.android.volley.ServerError
+W/Herrevad(  720): 	at com.android.volley.toolbox.BasicNetwork.performRequest(:com.google.android.gms@11951070:36)
+W/Herrevad(  720): 	at jxn.performRequest(:com.google.android.gms@11951070:8)
+W/Herrevad(  720): 	at com.android.volley.NetworkDispatcher.run(:com.google.android.gms@11951070:12)
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792161, downTime=2792161, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792788, downTime=2792788, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792790, downTime=2792790, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUM_LOCK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792791, downTime=2792791, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792792, downTime=2792792, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792793, downTime=2792793, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792795, downTime=2792795, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CTRL_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792803, downTime=2792803, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_CALL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792805, downTime=2792805, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_EJECT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792806, downTime=2792806, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792808, downTime=2792808, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792811, downTime=2792811, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792812, downTime=2792812, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MEDIA_RECORD, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792813, downTime=2792813, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792814, downTime=2792814, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_INSERT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792817, downTime=2792817, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792818, downTime=2792818, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792819, downTime=2792819, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792834, downTime=2792834, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792842, downTime=2792842, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792848, downTime=2792848, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_6, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792853, downTime=2792853, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792853, downTime=2792853, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_S, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792856, downTime=2792856, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792858, downTime=2792858, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792863, downTime=2792863, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792874, downTime=2792874, deviceId=-1, source=0x101 }
+W/WindowManager(  470): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2792882, downTime=2792882, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2793010, downTime=2793010, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2793023, downTime=2793023, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2793024, downTime=2793024, deviceId=-1, source=0x101 }
+W/InputManager(  470): Input event injection from pid 10643 failed.
+W/InputManager(  470): Input event injection from pid 10643 failed.
+W/InputManager(  470): Input event injection from pid 10643 failed.
+W/InputEventReceiver(  527): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  527): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputManager(  470): Input event injection from pid 10643 failed.
+W/ViewRootImpl(  527): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=306.86462, y[0]=555.14636, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2793027, downTime=2793026, deviceId=0, source=0x1002 }
+W/InputManager(  470): Input event injection from pid 10643 failed.
+W/InputManager(  470): Input event injection from pid 10643 failed.
+W/InputManager(  470): Input event injection from pid 10643 failed.
+W/InputManager(  470): Input event injection from pid 10643 failed.
+W/InputManager(  470): Input event injection from pid 10643 failed.
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  470): Displayed com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LoginPopupActivity: +910ms (total +1s0ms)
+I/ActivityManager(  470): START u0 {cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.AccountRecoveryNumberActivity (has extras)} from pid 10653
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a9c1158 attribute=null, token = android.os.BinderProxy@4b24d2c8
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10012, 0) failed with errno -13
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10007, 0) failed with errno -13
+I/Finsky  (  965): [1] com.google.android.finsky.cg.a.onTrimMemory(5): Memory trim requested to level 20
+I/Finsky  (  965): [1] com.google.android.finsky.cg.a.onTrimMemory(11): Flushing in-memory image cache
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2793206, downTime=2793206, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2793206, downTime=2793206, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2793206, downTime=2793206, deviceId=-1, source=0x101 }
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2793037, downTime=2793037, deviceId=-1, source=0x101 }
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  470): Displayed com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.AccountRecoveryNumberActivity: +121ms
+D/dalvikvm( 5430): GC_FOR_ALLOC freed 2096K, 31% free 4890K/7060K, paused 2ms, total 2ms
+I/dalvikvm-heap( 5430): Grow heap (frag case) to 6.814MB for 2073612-byte allocation
+D/dalvikvm( 5430): GC_FOR_ALLOC freed 7K, 3% free 6908K/7060K, paused 4ms, total 4ms
+D/dalvikvm( 5430): GC_CONCURRENT freed <1K, 3% free 6908K/7060K, paused 1ms+0ms, total 3ms
+D/dalvikvm(  470): GC_FOR_ALLOC freed 810K, 41% free 18549K/31224K, paused 18ms, total 19ms
+W/SurfaceFlinger(  165): couldn't log to binary event log: overflow.
+I/InputDispatcher(  470): Dropped event because of pending overdue app switch.
+W/InputManager(  470): Input event injection from pid 10643 failed.
+D/dalvikvm(  470): GC_FOR_ALLOC freed 48K, 35% free 20548K/31224K, paused 28ms, total 29ms
+I/dalvikvm-heap(  470): Grow heap (frag case) to 22.111MB for 2073612-byte allocation
+D/dalvikvm(  470): GC_FOR_ALLOC freed <1K, 33% free 22573K/33252K, paused 34ms, total 34ms
+W/SurfaceFlinger(  165): couldn't log to binary event log: overflow.
+I/iu.UploadsManager(  720): End new media; added: 2, uploading: 0, time: 191 ms
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4aaf5584 attribute=android.view.inputmethod.EditorInfo@4b0a0bac, token = android.os.BinderProxy@4a8eca08
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.browser/.BrowserActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_BROWSER]}} from pid 470
+D/dalvikvm(  527): GC_FOR_ALLOC freed 660K, 26% free 13388K/17944K, paused 4ms, total 23ms
+I/ActivityManager(  470): START u0 {flg=0x14000000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LoginPopupActivity (has extras)} from pid 10653
+W/ActivityManager(  470): Duplicate finish request for ActivityRecord{4a8bda00 u0 com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.AccountRecoveryNumberActivity t81 f}
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10012, 1) failed with errno -13
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10007, 1) failed with errno -13
+W/EGL_emulation( 8384): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  965): eglSurfaceAttrib not implemented 3093 12436
+D/emuglGLESv2_enc(  965): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  965): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  965): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  965): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  965): #04  pc 000bf823  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  965): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  965): Function is unsupported
+D/emuglGLESv2_enc(  965): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  965): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  965): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  965): #03  pc 000bc4bf  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  965): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  965): Function is unsupported
+D/dalvikvm(  470): GC_FOR_ALLOC freed 7125K, 40% free 16517K/27176K, paused 19ms, total 20ms
+I/dalvikvm-heap(  470): Grow heap (frag case) to 18.174MB for 2073612-byte allocation
+D/dalvikvm(  470): GC_FOR_ALLOC freed 10K, 37% free 18532K/29204K, paused 15ms, total 15ms
+W/Herrevad(  720): [915] rqj.a: On wifi, but couldn't get security type
+D/dalvikvm(  470): GC_FOR_ALLOC freed 21K, 37% free 18519K/29204K, paused 13ms, total 14ms
+I/dalvikvm-heap(  470): Grow heap (frag case) to 20.128MB for 2073612-byte allocation
+D/dalvikvm(  470): GC_FOR_ALLOC freed 2K, 35% free 20541K/31232K, paused 16ms, total 16ms
+D/dalvikvm(  527): GC_FOR_ALLOC freed 581K, 26% free 13381K/17944K, paused 7ms, total 7ms
+I/dalvikvm-heap(  527): Grow heap (frag case) to 15.108MB for 2073612-byte allocation
+D/dalvikvm(  527): GC_FOR_ALLOC freed 3K, 23% free 15403K/19972K, paused 5ms, total 5ms
+D/dalvikvm(  470): GC_FOR_ALLOC freed 1K, 34% free 20654K/31232K, paused 27ms, total 28ms
+I/dalvikvm-heap(  470): Grow heap (frag case) to 22.214MB for 2073612-byte allocation
+D/dalvikvm(  470): GC_FOR_ALLOC freed <1K, 32% free 22678K/33260K, paused 16ms, total 16ms
+W/DebugConnManager(  720): getNetworkInfo() on networkType 0
+E/Herrevad(  720): [930] RemoteReportsRefreshChimeraService.a: want to send authenticated request, but no Google account on device
+I/qtaguid (  720): Tagging socket 87 with tag 3000130100000000(805311233) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  720): tagSocketFd(87, 805311233, -1) failed with errno-13
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2794250, downTime=2794250, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_Y, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2794276, downTime=2794276, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2794276, downTime=2794276, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=-5.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=2794278, downTime=-1, deviceId=0, source=0x10004 }
+I/qtaguid (  720): Untagging socket 87 failed errno=-13
+W/NetworkManagementSocketTagger(  720): untagSocket(87) failed with errno -13
+E/Volley  (  720): [79] BasicNetwork.performRequest: Unexpected response code 307 for https://android.googleapis.com/nova/herrevad/network_quality_info
+W/Herrevad(  720): [930] RemoteReportsRefreshChimeraService.a: java.util.concurrent.ExecutionException: com.android.volley.ServerError
+W/Herrevad(  720): java.util.concurrent.ExecutionException: com.android.volley.ServerError
+W/Herrevad(  720): 	at com.android.volley.toolbox.RequestFuture.a(:com.google.android.gms@11951070:4)
+W/Herrevad(  720): 	at com.android.volley.toolbox.RequestFuture.get(:com.google.android.gms@11951070:2)
+W/Herrevad(  720): 	at com.google.android.gms.herrevad.services.RemoteReportsRefreshChimeraService.a(:com.google.android.gms@11951070:25)
+W/Herrevad(  720): 	at com.google.android.gms.herrevad.services.ImmediateRemoteReportsRefreshChimeraService.onHandleIntent(:com.google.android.gms@11951070)
+W/Herrevad(  720): 	at cpf.handleMessage(:com.google.android.gms@11951070)
+W/Herrevad(  720): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/Herrevad(  720): 	at android.os.Looper.loop(Looper.java:136)
+W/Herrevad(  720): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/Herrevad(  720): Caused by: com.android.volley.ServerError
+W/Herrevad(  720): 	at com.android.volley.toolbox.BasicNetwork.performRequest(:com.google.android.gms@11951070:36)
+W/Herrevad(  720): 	at jxn.performRequest(:com.google.android.gms@11951070:8)
+W/Herrevad(  720): 	at com.android.volley.NetworkDispatcher.run(:com.google.android.gms@11951070:12)
+I/ActivityManager(  470): Displayed com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LoginPopupActivity: +308ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/InputDispatcher(  470): Dropped event because of pending overdue app switch.
+W/InputManager(  470): Input event injection from pid 10643 failed.
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+V/InputMethodService(  637): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  637): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  637): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  637): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+D/dalvikvm(  637): GC_FOR_ALLOC freed 1001K, 26% free 3128K/4220K, paused 1ms, total 2ms
+I/dalvikvm-heap(  637): Grow heap (frag case) to 3.941MB for 869772-byte allocation
+D/dalvikvm(  637): GC_CONCURRENT freed 1K, 6% free 3976K/4220K, paused 1ms+0ms, total 3ms
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2794463, downTime=2794463, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2794524, downTime=2794524, deviceId=-1, source=0x101 }
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+D/dalvikvm(10653): GC_CONCURRENT freed 2102K, 23% free 7630K/9800K, paused 3ms+1ms, total 9ms
+W/IInputConnectionWrapper(10653): getCursorCapsMode on inactive InputConnection
+V/InputMethodService(  637): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+V/InputMethodService(  637): onEvaluateInputViewShown: config.hardKeyboardHidden = 2
+D/dalvikvm(  637): GC_FOR_ALLOC freed 853K, 26% free 3127K/4220K, paused 1ms, total 2ms
+I/dalvikvm-heap(  637): Grow heap (frag case) to 3.940MB for 869772-byte allocation
+D/dalvikvm(  637): GC_CONCURRENT freed <1K, 6% free 3976K/4220K, paused 1ms+0ms, total 6ms
+D/dalvikvm(  637): WAIT_FOR_CONCURRENT_GC blocked 2ms
+W/SurfaceFlinger(  165): couldn't log to binary event log: overflow.
+W/WindowManager(  470): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  470): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2794816, downTime=2794816, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  470): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2794824, downTime=2794824, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  470): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2794827, downTime=2794827, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  470): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2794827, downTime=2794827, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  470): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2794828, downTime=2794828, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): Config changes=30 {1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger qwerty/v/v dpad/v s.10}
+W/ActionBarDrawerToggle(  965): DrawerToggle may not show up because NavigationIcon is not visible. You may need to call actionbar.setDisplayHomeAsUpEnabled(true);
+D/Tinker.DefaultAppLike(  676): onConfigurationChanged:{1.0 310mcc16mnc en_US ldltr sw480dp w480dp h828dp 240dpi lrg long port finger qwerty/v/v dpad/v s.10}
+D/PhoneStatusBar(  527): mSettingsPanelGravity = 55
+W/ViewRootImpl(  470): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2794874, downTime=2794874, deviceId=-1, source=0x101 }
+W/InputEventReceiver(  470): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  470): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2794873, downTime=2794873, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  470): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4a981744 attribute=null, token = android.os.BinderProxy@4ac110f0
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+W/InputEventReceiver(10653): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(10653): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(10653): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=2795026, downTime=-1, deviceId=0, source=0x10004 }
+W/InputEventReceiver(10653): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(10653): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(10653): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2795026, downTime=2795024, deviceId=0, source=0x10004 }
+W/ViewRootImpl(10653): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2795026, downTime=2795024, deviceId=0, source=0x10004 }
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+I/ActivityManager(  470): START u0 {cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.mapping.MappingStoreMapActivity (has extras)} from pid 10653
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10012, 0) failed with errno -13
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10007, 0) failed with errno -13
+I/Finsky  (  965): [1] com.google.android.finsky.cg.a.onTrimMemory(5): Memory trim requested to level 20
+I/Finsky  (  965): [1] com.google.android.finsky.cg.a.onTrimMemory(11): Flushing in-memory image cache
+I/zzad    (10653): Making Creator dynamically
+I/dalvikvm(10653): Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method imo.createCredentialProtectedStorageContext
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1708: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10653): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(10653): Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method imo.createDeviceProtectedStorageContext
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1709: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+D/dalvikvm(10653): VFY: replacing opcode 0x6f at 0x0002
+I/dalvikvm(10653): Could not find method android.content.Context.isCredentialProtectedStorage, referenced from method cqq.a
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1688: Landroid/content/Context;.isCredentialProtectedStorage ()Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(10653): Could not find method android.os.UserManager.isUserUnlocked, referenced from method cqq.a
+W/dalvikvm(10653): VFY: unable to resolve virtual method 2311: Landroid/os/UserManager;.isUserUnlocked ()Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x001a
+I/dalvikvm(10653): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cqq.b
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1689: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0000
+I/dalvikvm(10653): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method cqq.c
+W/dalvikvm(10653): VFY: unable to resolve virtual method 1689: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0000
+D/dalvikvm(10653): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm(10653): VFY: unable to resolve static field 917 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(10653): VFY: replacing opcode 0x62 at 0x0012
+D/dalvikvm(10653): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+W/dalvikvm(10653): VFY: unable to resolve static field 916 (SUPPORTED_32_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(10653): VFY: replacing opcode 0x62 at 0x0021
+D/dalvikvm(10653): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_ABIS
+W/dalvikvm(10653): VFY: unable to resolve static field 918 (SUPPORTED_ABIS) in Landroid/os/Build;
+D/dalvikvm(10653): VFY: replacing opcode 0x62 at 0x0008
+D/dalvikvm(10653): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+W/dalvikvm(10653): VFY: unable to resolve static field 917 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+D/dalvikvm(10653): VFY: replacing opcode 0x62 at 0x0008
+D/dalvikvm(10653): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm(10653): DexOpt: unable to optimize static field ref 0x0395 at 0x17 in Lcsq;.a
+D/dalvikvm(10653): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+I/dalvikvm(10653): DexOpt: unable to optimize static field ref 0x0394 at 0x26 in Lcsq;.a
+D/dalvikvm(10653): DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+I/dalvikvm(10653): DexOpt: unable to optimize static field ref 0x0395 at 0x0d in Lcsq;.b
+I/Google Maps Android API(10653): Google Play services client version: 8487000
+I/Google Maps Android API(10653): Google Play services package version: 11951070
+I/dalvikvm(10653): Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method hf.a
+W/dalvikvm(10653): VFY: unable to resolve virtual method 414: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0017
+I/dalvikvm(10653): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method com.google.maps.api.android.lib6.drd.av.a
+W/dalvikvm(10653): VFY: unable to resolve virtual method 421: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0056
+W/SurfaceFlinger(  165): couldn't log to binary event log: overflow.
+I/dalvikvm(10653): Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method nz.a
+W/dalvikvm(10653): VFY: unable to resolve virtual method 420: Landroid/content/pm/PackageManager;.isInstantApp ()Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0028
+I/dalvikvm(10653): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method gj.<init>
+W/dalvikvm(10653): VFY: unable to resolve virtual method 363: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0023
+I/dalvikvm(10653): Could not find method android.app.AppOpsManager.permissionToOp, referenced from method qz.c
+W/dalvikvm(10653): VFY: unable to resolve static method 261: Landroid/app/AppOpsManager;.permissionToOp (Ljava/lang/String;)Ljava/lang/String;
+D/dalvikvm(10653): VFY: replacing opcode 0x71 at 0x0045
+I/dalvikvm(10653): Could not find method android.content.Context.getSystemService, referenced from method qz.c
+W/dalvikvm(10653): VFY: unable to resolve virtual method 360: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0068
+I/dalvikvm(10653): Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method qz.a
+W/dalvikvm(10653): VFY: unable to resolve virtual method 363: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x005d
+D/dalvikvm(10653): GC_CONCURRENT freed 1272K, 20% free 7849K/9800K, paused 2ms+1ms, total 10ms
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+I/dalvikvm(10653): Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawable
+W/dalvikvm(10653): VFY: unable to resolve virtual method 680: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm(10653): Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawableForDensity
+W/dalvikvm(10653): VFY: unable to resolve virtual method 682: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+D/dalvikvm(10653): VFY: replacing opcode 0x6e at 0x0002
+I/width   (10653): width 720
+I/width   (10653): width of searchview 503
+W/ViewRootImpl(10653): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=0.0, y[0]=1.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=2795487, downTime=-1, deviceId=0, source=0x10004 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2795487, downTime=2795487, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_LEFT_BRACKET, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2795549, downTime=2795549, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2795555, downTime=2795555, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2795557, downTime=2795557, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2795559, downTime=2795559, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+I/InputDispatcher(  470): Dropped event because of pending overdue app switch.
+W/InputManager(  470): Input event injection from pid 10643 failed.
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2795564, downTime=2795564, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_7, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2795567, downTime=2795567, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2795567, downTime=2795567, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2795569, downTime=2795569, deviceId=-1, source=0x101 }
+D/        (10653): HostConnection::get() New Host Connection established 0xb8fb7070, tid 10828
+I/dalvikvm(  720): Could not find method android.os.PowerManager.isInteractive, referenced from method avqk.a
+W/dalvikvm(  720): VFY: unable to resolve virtual method 24491: Landroid/os/PowerManager;.isInteractive ()Z
+D/dalvikvm(  720): VFY: replacing opcode 0x6e at 0x0044
+D/dalvikvm(10653): GC_FOR_ALLOC freed 954K, 17% free 8183K/9800K, paused 9ms, total 9ms
+I/qtaguid (  720): Tagging socket 230 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+V/InputMethodService(  637): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+I/NetworkManagementSocketTagger(  720): tagSocketFd(230, 805310721, -1) failed with errno-13
+I/ActivityManager(  470): Displayed com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.mapping.MappingStoreMapActivity: +594ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 192K, 18% free 8147K/9932K, paused 8ms, total 9ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 152K, 18% free 8147K/9932K, paused 8ms, total 8ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 152K, 18% free 8148K/9932K, paused 6ms, total 7ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 152K, 18% free 8148K/9932K, paused 7ms, total 7ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 172K, 18% free 8148K/9932K, paused 5ms, total 5ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 152K, 18% free 8148K/9932K, paused 8ms, total 8ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 152K, 18% free 8149K/9932K, paused 6ms, total 6ms
+D/dalvikvm(10653): GC_FOR_ALLOC freed 152K, 18% free 8149K/9932K, paused 6ms, total 6ms
+I/qtaguid (  720): Tagging socket 236 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  720): tagSocketFd(236, 805310721, -1) failed with errno-13
+I/qtaguid (  720): Untagging socket 236 failed errno=-13
+W/NetworkManagementSocketTagger(  720): untagSocket(236) failed with errno -13
+I/qtaguid (  720): Tagging socket 236 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  720): tagSocketFd(236, 805310721, -1) failed with errno-13
+I/qtaguid (  720): Untagging socket 236 failed errno=-13
+W/NetworkManagementSocketTagger(  720): untagSocket(236) failed with errno -13
+I/qtaguid (  720): Tagging socket 236 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  720): tagSocketFd(236, 805310721, -1) failed with errno-13
+I/qtaguid (  720): Untagging socket 236 failed errno=-13
+W/NetworkManagementSocketTagger(  720): untagSocket(236) failed with errno -13
+I/qtaguid (  720): Tagging socket 236 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  720): tagSocketFd(236, 805310721, -1) failed with errno-13
+I/qtaguid (  720): Untagging socket 236 failed errno=-13
+W/NetworkManagementSocketTagger(  720): untagSocket(236) failed with errno -13
+I/qtaguid (  720): Tagging socket 236 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  720): tagSocketFd(236, 805310721, -1) failed with errno-13
+I/qtaguid (  720): Untagging socket 236 failed errno=-13
+W/NetworkManagementSocketTagger(  720): untagSocket(236) failed with errno -13
+I/qtaguid (  720): Tagging socket 236 with tag 3000110100000000(805310721) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  720): tagSocketFd(236, 805310721, -1) failed with errno-13
+I/qtaguid (  720): Untagging socket 236 failed errno=-13
+W/NetworkManagementSocketTagger(  720): untagSocket(236) failed with errno -13
+I/qtaguid (  720): Untagging socket 230 failed errno=-13
+W/NetworkManagementSocketTagger(  720): untagSocket(230) failed with errno -13
+E/Google Maps Android API(10653): Authorization failure.  Please see https://developers.google.com/maps/documentation/android-api/start for how to correctly set up the map.
+E/Google Maps Android API(10653): In the Google Developer Console (https://console.developers.google.com)
+E/Google Maps Android API(10653): Ensure that the "Google Maps Android API v2" is enabled.
+E/Google Maps Android API(10653): Ensure that the following Android Key exists:
+E/Google Maps Android API(10653): 	API Key: AIzaSyAf2Gjx195Yevjr2qEkTJZnUg0lV93u5Eo
+E/Google Maps Android API(10653): 	Android Application (<cert_fingerprint>;<package_name>): 09:AD:96:09:E4:DC:4F:BF:D2:9A:ED:05:94:1F:71:91:82:2B:42:AE;com.tracfone.straighttalk.myaccount
+V/InputMethodService(  637): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  637): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.attachNewInputLocked:1095 com.android.server.InputMethodManagerService.startInputUncheckedLocked:1166 com.android.server.InputMethodManagerService.startInputLocked:1128 
+W/SurfaceFlinger(  165): couldn't log to binary event log: overflow.
+I/ActivityManager(  470): START u0 {cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LoginPopupActivity} from pid 10653
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10012, 1) failed with errno -13
+W/NetworkManagementSocketTagger(  470): setKernelCountSet(10007, 1) failed with errno -13
+W/EGL_emulation( 8384): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(  965): eglSurfaceAttrib not implemented 3093 12436
+D/emuglGLESv2_enc(  965): #00  pc 0000f45a  /system/lib/egl/libGLESv2_adreno.so (glStartTilingQCOM+90)
+D/emuglGLESv2_enc(  965): #01  pc 000199c7  /system/lib/libhwui.so (android::uirenderer::Caches::startTiling(unsigned int, unsigned int, unsigned int, unsigned int, bool)+87)
+D/emuglGLESv2_enc(  965): #02  pc 00037572  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  965): #03  pc 00038d8f  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  965): #04  pc 000bf823  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  965): #05  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  965): Function is unsupported
+D/emuglGLESv2_enc(  965): #00  pc 0000f3e0  /system/lib/egl/libGLESv2_adreno.so (glEndTilingQCOM+64)
+D/emuglGLESv2_enc(  965): #01  pc 00019a01  /system/lib/libhwui.so (android::uirenderer::Caches::endTiling()+49)
+D/emuglGLESv2_enc(  965): #02  pc 000389a9  /system/lib/libhwui.so
+D/emuglGLESv2_enc(  965): #03  pc 000bc4bf  /system/lib/libandroid_runtime.so
+D/emuglGLESv2_enc(  965): #04  pc 00034b9b  /system/lib/libdvm.so (dvmPlatformInvoke+79)
+E/emuglGLESv2_enc(  965): Function is unsupported
+W/Herrevad(  720): [817] rqj.a: On wifi, but couldn't get security type
+W/DebugConnManager(  720): getNetworkInfo() on networkType 0
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796144, downTime=2796144, deviceId=-1, source=0x101 }
+E/Herrevad(  720): [939] RemoteReportsRefreshChimeraService.a: want to send authenticated request, but no Google account on device
+D/dalvikvm(  720): GC_CONCURRENT freed 2241K, 21% free 9312K/11676K, paused 3ms+10ms, total 46ms
+I/qtaguid (  720): Tagging socket 87 with tag 3000130100000000(805311233) for uid -1 failed errno=-13
+I/NetworkManagementSocketTagger(  720): tagSocketFd(87, 805311233, -1) failed with errno-13
+I/qtaguid (  720): Untagging socket 87 failed errno=-13
+W/NetworkManagementSocketTagger(  720): untagSocket(87) failed with errno -13
+E/Volley  (  720): [80] BasicNetwork.performRequest: Unexpected response code 307 for https://android.googleapis.com/nova/herrevad/network_quality_info
+W/Herrevad(  720): [939] RemoteReportsRefreshChimeraService.a: java.util.concurrent.ExecutionException: com.android.volley.ServerError
+W/Herrevad(  720): java.util.concurrent.ExecutionException: com.android.volley.ServerError
+W/Herrevad(  720): 	at com.android.volley.toolbox.RequestFuture.a(:com.google.android.gms@11951070:4)
+W/Herrevad(  720): 	at com.android.volley.toolbox.RequestFuture.get(:com.google.android.gms@11951070:2)
+W/Herrevad(  720): 	at com.google.android.gms.herrevad.services.RemoteReportsRefreshChimeraService.a(:com.google.android.gms@11951070:25)
+W/Herrevad(  720): 	at com.google.android.gms.herrevad.services.ImmediateRemoteReportsRefreshChimeraService.onHandleIntent(:com.google.android.gms@11951070)
+W/Herrevad(  720): 	at cpf.handleMessage(:com.google.android.gms@11951070)
+W/Herrevad(  720): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/Herrevad(  720): 	at android.os.Looper.loop(Looper.java:136)
+W/Herrevad(  720): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/Herrevad(  720): Caused by: com.android.volley.ServerError
+W/Herrevad(  720): 	at com.android.volley.toolbox.BasicNetwork.performRequest(:com.google.android.gms@11951070:36)
+W/Herrevad(  720): 	at jxn.performRequest(:com.google.android.gms@11951070:8)
+W/Herrevad(  720): 	at com.android.volley.NetworkDispatcher.run(:com.google.android.gms@11951070:12)
+I/ActivityManager(  470): Displayed com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LoginPopupActivity: +289ms
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  470): START u0 {act=NATIVE_WITH_FALLBACK cmp=com.tracfone.straighttalk.myaccount/com.facebook.FacebookActivity (has extras)} from pid 10653
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_MULTIPLE, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=2, eventTime=2796804, downTime=2796804, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2796806, downTime=2796806, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2796806, downTime=2796806, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x400, repeatCount=0, eventTime=2796806, downTime=2796806, deviceId=-1, source=0x101 }
+W/WindowManager(  470): updateFocusedWindowLocked, focusedAppToken is null.
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796790, downTime=2796790, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796833, downTime=2796833, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796838, downTime=2796838, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796839, downTime=2796839, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_Z, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796839, downTime=2796839, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796839, downTime=2796839, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_2, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796840, downTime=2796840, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796841, downTime=2796841, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796843, downTime=2796843, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796844, downTime=2796844, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796844, downTime=2796844, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_NUMPAD_1, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796845, downTime=2796845, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MOVE_END, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796845, downTime=2796845, deviceId=-1, source=0x101 }
+W/ViewRootImpl(  527): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2796846, downTime=2796846, deviceId=-1, source=0x101 }
+W/SurfaceFlinger(  165): couldn't log to binary event log: overflow.
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+V/WebViewChromium(10653): Binding Chromium to the background looper Looper (main, tid 1) {4a7715b8}
+I/chromium(10653): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserProcessMain(10653): Initializing chromium process, renderers=0
+W/chromium(10653): [WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/IInputConnectionWrapper(10653): showStatusIcon on inactive InputConnection
+I/ActivityManager(  470): START u0 {act=NATIVE_WITH_FALLBACK cmp=com.tracfone.straighttalk.myaccount/com.facebook.FacebookActivity (has extras)} from pid 10653
+W/InputEventReceiver(  527): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(  527): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  527): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=126.620674, y[0]=-231.93298, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2797134, downTime=2797133, deviceId=0, source=0x1002 }
+W/InputEventReceiver(  527): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(  527): Dropping event due to root view being removed: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2797058, downTime=2797058, deviceId=-1, source=0x101 }
+I/chromium(10653): [INFO:simple_index_file.cc(397)] Simple Cache Index is being restored from disk.
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2797222, downTime=2797222, deviceId=-1, source=0x101 }
+D/dalvikvm(10653): GC_FOR_ALLOC freed 887K, 15% free 8593K/9996K, paused 10ms, total 10ms
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2797328, downTime=2797328, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2797353, downTime=2797353, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2797358, downTime=2797358, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2797359, downTime=2797359, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2797362, downTime=2797362, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2797362, downTime=2797362, deviceId=-1, source=0x101 }
+W/DynamiteModule(10653): Local module descriptor class for com.google.android.gms.googlecertificates not found.
+W/DynamiteModule(10653): Failed to load module via V2: java.lang.ClassNotFoundException: Didn't find class "com.google.android.gms.dynamite.DynamiteModule$DynamiteLoaderClassLoader" on path: DexPathList[[zip file "/data/app/com.tracfone.straighttalk.myaccount-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.tracfone.straighttalk.myaccount-1, /system/lib]]
+I/DynamiteModule(10653): Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:4
+I/DynamiteModule(10653): Selected remote version of com.google.android.gms.googlecertificates, version >= 4
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  470): Displayed com.tracfone.straighttalk.myaccount/com.facebook.FacebookActivity: +484ms (total +893ms)
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_D, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2797742, downTime=2797742, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2797753, downTime=2797753, deviceId=-1, source=0x101 }
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/InputEventReceiver(10653): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(10653): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=85.0, y[0]=365.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2798010, downTime=2798010, deviceId=0, source=0x1002 }
+W/InputManager(  470): Input event injection from pid 10643 failed.
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798019, downTime=2798019, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HEADSETHOOK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798039, downTime=2798039, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798041, downTime=2798041, deviceId=-1, source=0x101 }
+W/InputEventReceiver(10653): Attempted to finish an input event but the input event receiver has already been disposed.
+W/InputEventReceiver(10653): Attempted to finish an input event but the input event receiver has already been disposed.
+W/ViewRootImpl(10653): Dropping event due to root view being removed: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=-158.0, y[0]=501.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2798092, downTime=2798092, deviceId=0, source=0x1002 }
+W/InputManager(  470): Input event injection from pid 10643 failed.
+W/InputManager(  470): Input event injection from pid 10643 failed.
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F8, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798101, downTime=2798101, deviceId=-1, source=0x101 }
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:2000 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+W/IInputConnectionWrapper(10653): getCursorCapsMode on inactive InputConnection
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.showCurrentInputLocked:1791 com.android.server.InputMethodManagerService.showSoftInput:1753 com.android.internal.view.IInputMethodManager$Stub.onTransact:175 com.android.server.InputMethodManagerService.onTransact:818 
+V/InputMethodService(  637): onEvaluateInputViewShown: config.hardKeyboardHidden = 1
+I/ActivityManager(  470): START u0 {act=NATIVE_WITH_FALLBACK cmp=com.tracfone.straighttalk.myaccount/com.facebook.FacebookActivity (has extras)} from pid 10653
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798323, downTime=2798323, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798388, downTime=2798388, deviceId=-1, source=0x101 }
+W/ContextImpl(  470): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.InputMethodManagerService.hideCurrentInputLocked:1880 com.android.server.InputMethodManagerService.windowGainedFocus:1968 com.android.internal.view.IInputMethodManager$Stub.onTransact:221 com.android.server.InputMethodManagerService.onTransact:818 
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798537, downTime=2798537, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BUTTON_THUMBL, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798542, downTime=2798542, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798542, downTime=2798542, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798553, downTime=2798553, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798555, downTime=2798555, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_F12, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798557, downTime=2798557, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798558, downTime=2798558, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798559, downTime=2798559, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798571, downTime=2798571, deviceId=-1, source=0x101 }
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798572, downTime=2798572, deviceId=-1, source=0x101 }
+D/dalvikvm(10653): GC_CONCURRENT freed 1074K, 11% free 9338K/10476K, paused 3ms+2ms, total 27ms
+W/EGL_emulation(10653): eglSurfaceAttrib not implemented 3093 12436
+W/ViewRootImpl(10653): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_SLASH, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=2798574, downTime=2798574, deviceId=-1, source=0x101 }
+I/ActivityManager(  470): START u0 {act=android.intent.action.CALL_BUTTON flg=0x10000000} from pid 10653
+W/PhoneFallbackEventHandler(10653): No activity found for android.intent.action.CALL_BUTTON.
+I/ActivityManager(  470): Displayed com.tracfone.straighttalk.myaccount/com.facebook.FacebookActivity: +384ms
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+D/dalvikvm(  470): GC_FOR_ALLOC freed 7870K, 50% free 16793K/33260K, paused 13ms, total 16ms
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tracfone.straighttalk.myaccount/com.tracfone.generic.myaccountcommonui.activity.LaunchActivity} from pid 10643
+V/PanelView(  527): animationTick called with dtms=0; nothing to do (h=0.0 v=-4500.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.contacts/.activities.PeopleActivity sel={act=android.intent.action.MAIN cat=[android.intent.category.APP_CONTACTS]}} from pid 470
+V/PanelView(  527): animationTick called with dtms=0; nothing to do (h=0.0 v=0.0)
+I/ActivityManager(  470): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.vphone.launcher/.Launcher} from pid 470
+V/PanelView(  527): animationTick called with dtms=0; nothing to do (h=0.0 v=-0.0)
+I/AndroidRuntime(10643): VM exiting with result code 0.
