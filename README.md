@@ -12,6 +12,6 @@ src and lib contain, respectively, the source code for the instrumenter used to 
 
 ## Link to the paper
 
-https://softarch.usc.edu/~yixue/mypapers/ASE2018_Empirical.pdf
+https://dl.acm.org/doi/10.1145/3238147.3238215
 
 All the results in the paper are ploted by gnuplot. The raw data and code can be found at https://github.com/MarceloLaser/gnuplot_ase
